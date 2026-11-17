@@ -611,7 +611,7 @@ const SceneE: React.FC = () => {
         }}
       >
         <div style={{ position: "relative", fontFamily, fontWeight: 800, fontSize: 84, color: "rgba(255,255,255,0.75)", opacity: interpolate(frame, [18, 24], [0, 1], clamp) }}>
-          29,95 €
+          49,95 €
           <div
             style={{
               position: "absolute",
@@ -638,7 +638,7 @@ const SceneE: React.FC = () => {
             boxShadow: "0 20px 60px rgba(255,201,74,0.45)",
           }}
         >
-          17,97 €
+          29,95 €
         </div>
       </div>
 
