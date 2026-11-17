@@ -1,6 +1,7 @@
 import React from "react";
 import {
   AbsoluteFill,
+  Audio,
   Easing,
   Img,
   interpolate,
@@ -21,9 +22,9 @@ const GOLD = "#FFC94A";
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
 // Scene timing (30 fps, 450 frames = 15 s)
-const A = { from: 0, dur: 96 }; // ¿Tu habitación se ve así?
-const B = { from: 96, dur: 66 }; // COMPRA ESTO YA
-const C = { from: 162, dur: 84 }; // product reveal
+const A = { from: 0, dur: 114 }; // ¿Tu habitación se ve así?
+const B = { from: 114, dur: 54 }; // COMPRA ESTO YA
+const C = { from: 168, dur: 78 }; // product reveal
 const D = { from: 246, dur: 108 }; // lamp in room, switches on
 const E = { from: 354, dur: 96 }; // -40% offer
 
@@ -685,6 +686,52 @@ const SceneE: React.FC = () => {
   );
 };
 
+const sfx = (f: string) => staticFile(`voz/${f}`);
+
+/** Voice-over (ElevenLabs) + synthesized hits, aligned to the scenes. */
+const Soundtrack: React.FC = () => (
+  <>
+    <Sequence from={A.from + 4}>
+      <Audio src={sfx("linea1.wav")} />
+    </Sequence>
+    <Sequence from={D.from + 3}>
+      <Audio src={sfx("linea4.wav")} />
+    </Sequence>
+    <Sequence from={E.from + 2}>
+      <Audio src={sfx("linea5.wav")} />
+    </Sequence>
+    {/* COMPRA / ESTO / YA hits */}
+    {[2, 14, 26].map((h) => (
+      <Sequence key={h} from={B.from + h}>
+        <Audio src={sfx("impacto.wav")} volume={0.55} />
+      </Sequence>
+    ))}
+    <Sequence from={B.from + B.dur - 18}>
+      <Audio src={sfx("whoosh.wav")} volume={0.5} />
+    </Sequence>
+    <Sequence from={C.from + C.dur - 14}>
+      <Audio src={sfx("whoosh.wav")} volume={0.4} />
+    </Sequence>
+    {/* lamp lands, then switches on */}
+    <Sequence from={D.from + 14}>
+      <Audio src={sfx("impacto.wav")} volume={0.25} />
+    </Sequence>
+    <Sequence from={D.from + 39}>
+      <Audio src={sfx("click.wav")} volume={0.8} />
+    </Sequence>
+    <Sequence from={D.from + 41}>
+      <Audio src={sfx("brillo.wav")} volume={0.35} />
+    </Sequence>
+    {/* -40% stamp */}
+    <Sequence from={E.from + 11}>
+      <Audio src={sfx("impacto.wav")} volume={0.5} />
+    </Sequence>
+    <Sequence from={E.from + 34}>
+      <Audio src={sfx("brillo.wav")} volume={0.25} />
+    </Sequence>
+  </>
+);
+
 export const Anuncio: React.FC = () => {
   return (
     <AbsoluteFill style={{ background: "#000" }}>
@@ -705,6 +752,7 @@ export const Anuncio: React.FC = () => {
       </Sequence>
       <Flash at={B.from} len={6} />
       <Grain />
+      <Soundtrack />
     </AbsoluteFill>
   );
 };
