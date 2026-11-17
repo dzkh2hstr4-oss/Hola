@@ -8,7 +8,7 @@ export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Composition
-        id="Anuncio-Navidad-15s"
+        id="Anuncio-Navidad"
         component={Anuncio}
         durationInFrames={ANUNCIO_DURATION}
         fps={FPS}

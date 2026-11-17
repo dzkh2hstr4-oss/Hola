@@ -22,11 +22,13 @@ const GOLD = "#FFC94A";
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
 // Scene timing (30 fps, 450 frames = 15 s)
-const A = { from: 0, dur: 114 }; // ¿Tu habitación se ve así?
-const B = { from: 114, dur: 54 }; // COMPRA ESTO YA
-const C = { from: 168, dur: 78 }; // product reveal
-const D = { from: 246, dur: 108 }; // lamp in room, switches on
-const E = { from: 354, dur: 96 }; // -40% offer
+// Timed to the voice-over (public/voz/voz-chico.wav)
+const A = { from: 0, dur: 139 }; // ¿Tu habitación se ve así?
+const B = { from: 139, dur: 57 }; // COMPRA ESTO YA
+const C = { from: 196, dur: 100 }; // product reveal
+const D = { from: 296, dur: 68 }; // lamp in room, switches on
+const E = { from: 364, dur: 161 }; // -40% offer
+const HITS = [12, 22, 32]; // "compra" "esto" "ya" inside B
 
 /* ---------- shared FX ---------- */
 
@@ -253,7 +255,7 @@ const SlamWord: React.FC<{ word: string; at: number; y: number; color: string; s
 
 const SceneB: React.FC = () => {
   const frame = useCurrentFrame();
-  const hits = [2, 14, 26];
+  const hits = HITS;
   const shake = hits.reduce((acc, h) => {
     const t = frame - h;
     return acc + (t >= 0 && t < 8 ? (8 - t) * 2.2 : 0);
@@ -262,7 +264,7 @@ const SceneB: React.FC = () => {
   const sy = Math.cos(frame * 9.7) * shake;
   const pulse = hits.reduce((acc, h) => acc + interpolate(frame - h, [0, 10], [1, 0], clamp), 0);
   const wipe = interpolate(frame, [B.dur - 14, B.dur], [0, 1500], { ...clamp, easing: Easing.in(Easing.cubic) });
-  const underline = interpolate(frame, [32, 42], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
+  const underline = interpolate(frame, [38, 48], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
 
   return (
     <AbsoluteFill style={{ background: "#08060a", overflow: "hidden" }}>
@@ -436,7 +438,7 @@ const SceneC: React.FC = () => {
 
 /* ---------- Scene D: lamp lands in the room, switches on ---------- */
 
-const ON_AT = 40;
+const ON_AT = 30; // "¡y boom!"
 
 const SceneD: React.FC = () => {
   const frame = useCurrentFrame();
@@ -543,8 +545,8 @@ const SceneE: React.FC = () => {
   const stamp = interpolate(frame, [4, 12], [3, 1], { ...clamp, easing: Easing.out(Easing.back(1.6)) });
   const stampO = interpolate(frame, [4, 7], [0, 1], clamp);
   const shake = frame >= 12 && frame < 20 ? (20 - frame) * 3 : 0;
-  const strike = interpolate(frame, [26, 34], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
-  const newPrice = spring({ frame: frame - 34, fps, config: { damping: 9 } });
+  const strike = interpolate(frame, [50, 58], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
+  const newPrice = spring({ frame: frame - 58, fps, config: { damping: 9 } });
   const bar = interpolate(frame, [40, E.dur], [1, 0.12], clamp);
   const urgentBlink = Math.floor(frame / 6) % 2 === 0 ? 1 : 0.55;
   const bgZoom = interpolate(frame, [0, E.dur], [1.3, 1.4]);
@@ -643,7 +645,7 @@ const SceneE: React.FC = () => {
         </div>
       </div>
 
-      <Sequence from={44}>
+      <Sequence from={100}>
         <Kinetic
           top={1330}
           stagger={2}
@@ -676,7 +678,7 @@ const SceneE: React.FC = () => {
           fontSize: 64,
           letterSpacing: 6,
           color: "#fff",
-          opacity: interpolate(frame, [60, 70], [0, 1], clamp),
+          opacity: interpolate(frame, [125, 135], [0, 1], clamp),
         }}
       >
         LUMORA
@@ -688,46 +690,38 @@ const SceneE: React.FC = () => {
 
 const sfx = (f: string) => staticFile(`voz/${f}`);
 
-/** Voice-over (ElevenLabs) + synthesized hits, aligned to the scenes. */
+/** Voice-over (ElevenLabs engine via Higgsfield) + synthesized hits. */
 const Soundtrack: React.FC = () => (
   <>
-    <Sequence from={A.from + 4}>
-      <Audio src={sfx("linea1.wav")} />
-    </Sequence>
-    <Sequence from={D.from + 3}>
-      <Audio src={sfx("linea4.wav")} />
-    </Sequence>
-    <Sequence from={E.from + 2}>
-      <Audio src={sfx("linea5.wav")} />
-    </Sequence>
+    <Audio src={sfx("voz-chico.wav")} />
     {/* COMPRA / ESTO / YA hits */}
-    {[2, 14, 26].map((h) => (
+    {HITS.map((h) => (
       <Sequence key={h} from={B.from + h}>
-        <Audio src={sfx("impacto.wav")} volume={0.55} />
+        <Audio src={sfx("impacto.wav")} volume={0.35} />
       </Sequence>
     ))}
     <Sequence from={B.from + B.dur - 18}>
-      <Audio src={sfx("whoosh.wav")} volume={0.5} />
+      <Audio src={sfx("whoosh.wav")} volume={0.35} />
     </Sequence>
     <Sequence from={C.from + C.dur - 14}>
-      <Audio src={sfx("whoosh.wav")} volume={0.4} />
+      <Audio src={sfx("whoosh.wav")} volume={0.3} />
     </Sequence>
     {/* lamp lands, then switches on */}
     <Sequence from={D.from + 14}>
-      <Audio src={sfx("impacto.wav")} volume={0.25} />
+      <Audio src={sfx("impacto.wav")} volume={0.2} />
     </Sequence>
-    <Sequence from={D.from + 39}>
-      <Audio src={sfx("click.wav")} volume={0.8} />
+    <Sequence from={D.from + ON_AT - 1}>
+      <Audio src={sfx("click.wav")} volume={0.7} />
     </Sequence>
-    <Sequence from={D.from + 41}>
-      <Audio src={sfx("brillo.wav")} volume={0.35} />
-    </Sequence>
-    {/* -40% stamp */}
-    <Sequence from={E.from + 11}>
-      <Audio src={sfx("impacto.wav")} volume={0.5} />
-    </Sequence>
-    <Sequence from={E.from + 34}>
+    <Sequence from={D.from + ON_AT + 1}>
       <Audio src={sfx("brillo.wav")} volume={0.25} />
+    </Sequence>
+    {/* -40% stamp, then the new price */}
+    <Sequence from={E.from + 11}>
+      <Audio src={sfx("impacto.wav")} volume={0.35} />
+    </Sequence>
+    <Sequence from={E.from + 58}>
+      <Audio src={sfx("brillo.wav")} volume={0.2} />
     </Sequence>
   </>
 );
@@ -757,4 +751,4 @@ export const Anuncio: React.FC = () => {
   );
 };
 
-export const ANUNCIO_DURATION = 450;
+export const ANUNCIO_DURATION = 525;
