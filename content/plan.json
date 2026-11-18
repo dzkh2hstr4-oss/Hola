@@ -120,6 +120,142 @@
       "instagram_media_id": "17962476675258838"
     },
     {
+      "id": "especial-12h",
+      "tema": "He cambiado mi cuarto por 30 € (voz Lucas, ElevenLabs)",
+      "theme": "estrella",
+      "drop": 12.88,
+      "beats": [
+        {
+          "kind": "price",
+          "dur": 126,
+          "price": "30 €",
+          "text": [
+            {
+              "t": "He cambiado"
+            },
+            {
+              "t": "mi cuarto entero",
+              "serif": true
+            }
+          ],
+          "sub": [
+            {
+              "t": "por esto 👆"
+            }
+          ]
+        },
+        {
+          "kind": "tease",
+          "dur": 78,
+          "world": "dormitorio",
+          "focus": "pared",
+          "lit": 0,
+          "text": [
+            {
+              "t": "Y no,"
+            },
+            {
+              "t": "no he pintado 🎨❌",
+              "serif": true
+            }
+          ]
+        },
+        {
+          "kind": "room",
+          "dur": 84,
+          "world": "dormitorio",
+          "from": 0,
+          "to": 0,
+          "cam": "push",
+          "text": [
+            {
+              "t": "Antes:"
+            },
+            {
+              "t": "un drama 😩",
+              "serif": true
+            }
+          ]
+        },
+        {
+          "kind": "room",
+          "dur": 132,
+          "world": "dormitorio",
+          "from": 0,
+          "to": 1,
+          "switchAt": 98,
+          "cam": "wall",
+          "text": [
+            {
+              "t": "Apago la luz…"
+            },
+            {
+              "t": "enciendo esto…",
+              "serif": true
+            }
+          ],
+          "textAfter": [
+            {
+              "t": "¡PUM!",
+              "serif": true,
+              "size": 220
+            }
+          ]
+        },
+        {
+          "kind": "product",
+          "dur": 49,
+          "text": [
+            {
+              "t": "Un atardecer"
+            },
+            {
+              "t": "en la pared",
+              "serif": true
+            }
+          ],
+          "photo": "real"
+        },
+        {
+          "kind": "checklist",
+          "dur": 122,
+          "world": "dormitorio",
+          "lit": 1,
+          "text": [
+            {
+              "t": "Y lo mejor:"
+            }
+          ],
+          "items": [
+            {
+              "t": "Obras",
+              "ok": false
+            },
+            {
+              "t": "Tiras LED cutres",
+              "ok": false
+            },
+            {
+              "t": "Solo USB",
+              "ok": true
+            }
+          ]
+        },
+        {
+          "kind": "offer",
+          "dur": 141,
+          "top": "Y encima…"
+        },
+        {
+          "kind": "cta",
+          "dur": 84,
+          "text": "Link en la bio"
+        }
+      ],
+      "caption": "He cambiado mi cuarto entero por 30 € 😂 Y no, no he pintado. Apago la luz, enciendo esto y… ¡pum! 🌅 Un atardecer en la pared, sin obras y solo por USB. Ahora a 29,95 € (-40%). Corre, que vuelan: link en la bio 🔗",
+      "status": "pendiente"
+    },
+    {
       "id": "2026-11-19-manana",
       "tema": "Las tiras LED ya están caducadas",
       "beats": [

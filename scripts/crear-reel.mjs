@@ -50,9 +50,14 @@ const totalFrames = beats.reduce((a, b) => a + b.dur, 0);
 
 const seed = [...id].reduce((a, c) => (a * 31 + c.charCodeAt(0)) % 100000, 11);
 const musicRel = `daily/${id}/musica.wav`;
-sh("python3", [join(ROOT, "scripts/musica.py"), "--seed", String(seed), "--seconds", String(totalFrames / FPS + 1), "--out", join(ROOT, "public", musicRel)]);
+if (entry.drop !== undefined) {
+  // build-up + drop synced to the reveal (seconds, including the 0.2 s voice lead-in)
+  sh("python3", [join(ROOT, "scripts/musica2.py"), "--seed", String(seed), "--seconds", String(totalFrames / FPS + 1), "--drop", String(entry.drop), "--out", join(ROOT, "public", musicRel)]);
+} else {
+  sh("python3", [join(ROOT, "scripts/musica.py"), "--seed", String(seed), "--seconds", String(totalFrames / FPS + 1), "--out", join(ROOT, "public", musicRel)]);
+}
 
-const props = { beats, music: musicRel, musicVolume: voz ? 0.16 : 0.42, voice: voiceRel, theme: entry.theme ?? "clasico" };
+const props = { beats, music: musicRel, musicVolume: voz ? (entry.drop !== undefined ? 0.22 : 0.16) : 0.42, voice: voiceRel, theme: entry.theme ?? "clasico" };
 const propsFile = join(dir, "props2.json");
 writeFileSync(propsFile, JSON.stringify(props, null, 2));
 
@@ -66,7 +71,7 @@ execFileSync("npx", renderArgs, { cwd: ROOT, stdio: "inherit" });
 const outDir = publicar ? "publicados" : "out/reels";
 mkdirSync(join(ROOT, outDir), { recursive: true });
 const final = join(ROOT, outDir, `${id}.mp4`);
-sh("ffmpeg", ["-y", "-v", "error", "-i", raw, "-c:v", "libx264", "-crf", "23", "-maxrate", "6M", "-bufsize", "12M", "-preset", "medium", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", final]);
+sh("ffmpeg", ["-y", "-v", "error", "-i", raw, "-c:v", "libx264", "-crf", "23", "-maxrate", "6M", "-bufsize", "12M", "-preset", "medium", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-c:a", "aac", "-b:a", "160k", "-ar", "44100", "-movflags", "+faststart", final]);
 const mb = statSync(final).size / 1e6;
 console.log(JSON.stringify({ id, file: `${outDir}/${id}.mp4`, seconds: +(totalFrames / FPS).toFixed(1), mb: +mb.toFixed(1) }));
 if (mb > 19.5) console.error("AVISO: supera 19,5 MB; jsDelivr no lo servirá");

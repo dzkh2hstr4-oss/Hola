@@ -225,6 +225,7 @@ export const THEMES: Record<string, Theme> = {
     offer: "neon",
     cta: "handwritten",
   },
+  estrella: { font: "archivo", accentFont: "dmserif", color: "#fff", accent: "#FFC94A", anim: "pop", deco: "shadow", trans: "whip", offer: "coupon", cta: "arrow" },
   alarma: {
     font: "bebas",
     accentFont: "anton",
@@ -1021,6 +1022,7 @@ const PriceBeat: React.FC<{
       <AbsoluteFill style={{ filter: "blur(6px)", transform: "scale(1.1)" }}>
         <World name="rincon" lit={0} />
       </AbsoluteFill>
+      <Shade s={0.7} />
       <BigText lines={b.text} instant={first} />
       <div
         style={{
