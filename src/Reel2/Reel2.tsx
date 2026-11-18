@@ -400,7 +400,8 @@ const BigText: React.FC<{
     >
       {lines.map((l, i) => {
         const fs = FONTS[l.serif ? th.accentFont : th.font] ?? FONTS.montserrat;
-        const t0 = frame - delay - i * (instant ? 2 : 6);
+        // instant (first beat): text already readable on frame 0 (thumbnail + 1st second)
+        const t0 = instant ? frame - delay + 12 : frame - delay - i * 6;
         const size = Math.round(
           (l.size ?? (l.serif ? 116 : 102)) * (l.size ? 1 : fs.scale),
         );

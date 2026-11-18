@@ -3,7 +3,20 @@
 La tarea programada se ejecuta **dos veces al día**: `manana` (13:07) y `noche` (20:47),
 hora de Madrid. **Cada vídeo tiene un único objetivo: vender la lámpara LED atardecer.**
 
-Rama de trabajo: `claude/practical-fermi-g5yl5j` (rama por defecto del repo).
+Rama de trabajo: `claude/cool-gates-3j8f70`.
+
+## Reglas nuevas (18/11, tras analizar los datos)
+
+Los reels animados con IA llegaron a 5–8 personas; los grabados con la lámpara real, a 100–240.
+La gente se va a los 3–4 s. Por eso, a partir de ahora:
+
+- **Duración total: 7–10 s** (210–300 fotogramas). Nunca más de 10 s.
+- **El primer beat SIEMPRE es `photo`** (foto real del efecto, alternando `real` / `estudio`), `dur` 60–70,
+  con el gancho escrito encima. El texto ya se ve en el fotograma 0.
+- Después, **un solo** beat de historia (máx. 105 fotogramas), luego `offer` (60) y `cta` (45).
+- **Sin voz** (la voz de IA y la etiqueta «Voz generada con IA» restan). No uses `--voz`.
+- Nada de urgencia falsa («última oportunidad», «corre que vuelan»). La urgencia real es la Navidad:
+  añade a cada caption `🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis comprando 2`.
 
 ## Datos reales del producto (no inventar nada más)
 
@@ -16,19 +29,19 @@ Rama de trabajo: `claude/practical-fermi-g5yl5j` (rama por defecto del repo).
 
 ## Pasos de cada ejecución
 
-1. `git checkout claude/practical-fermi-g5yl5j && git pull`; si falta `node_modules`, `npm ci`.
+1. `git checkout claude/cool-gates-3j8f70 && git pull`; si falta `node_modules`, `npm ci`.
 2. Fecha de hoy en **Europe/Madrid** (`TZ=Europe/Madrid date +%F`). Si es anterior a
    `2026-11-19`, termina sin hacer nada. `ID = <fecha>-<franja>`.
 3. En `content/plan.json`:
    - si `ID` ya está `"publicado"`, termina;
    - si `ID` no existe, **escribe vídeos nuevos** (ver «Cómo crear vídeos nuevos») para hoy y
      los próximos días hasta tener al menos 6 pendientes; commit.
-4. **Voz (opcional, si hay créditos)**: escribe un guion corto que diga lo mismo que los
+4. **Voz: NO se usa** (ver «Reglas nuevas»). Texto antiguo, solo como referencia:: escribe un guion corto que diga lo mismo que los
    textos en pantalla, con expresiones («¡Madre mía!», «¡boom!»…), y genéralo en Higgsfield:
    `generate_audio` con `{"model":"text2speech_v2","variant":"elevenlabs","voice_type":"preset","voice_id":"858499d9-fef5-40e1-bc29-b4dc661dc283","use_unlim":false,"prompt": <guion>}`;
    `jobs_wait`, descarga el mp3 a `/tmp/voz-<ID>.mp3`. Si no hay créditos, sigue **sin voz**
    (el vídeo funciona solo con música, efectos y texto grande) y dilo en el resumen.
-5. `node scripts/crear-reel.mjs --id <ID> --publicar [--voz /tmp/voz-<ID>.mp3]` (~3 min).
+5. `node scripts/crear-reel.mjs --id <ID> --publicar` (~2 min, sin voz).
    Mira 3–4 fotogramas con ffmpeg para comprobar que nada está roto.
 6. `git add publicados/<ID>.mp4 content/plan.json && git commit && git push`; `SHA = git rev-parse HEAD`.
 7. URL: `https://cdn.jsdelivr.net/gh/dzkh2hstr4-oss/Hola@<SHA>/publicados/<ID>.mp4`
@@ -41,7 +54,7 @@ Rama de trabajo: `claude/practical-fermi-g5yl5j` (rama por defecto del repo).
 
 ## Cómo crear vídeos nuevos
 
-Cada vídeo es una lista de `beats` (duraciones en fotogramas, 30 fps; total 12–16 s):
+Cada vídeo es una lista de `beats` (duraciones en fotogramas, 30 fps; **total 7–10 s**, ver «Reglas nuevas»):
 
 - **El primer beat es el gancho y lo es TODO.** Debe enganchar en el primer segundo:
   texto grande visible desde el fotograma 0, una frase que provoque (pregunta, reto,
