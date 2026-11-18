@@ -97,11 +97,12 @@ def make(seed, seconds, drop):
             if st % 2 == 1:
                 add(fx, bell, pos)
         else:
-            # intro / build: soft kick on 1, hats; snare roll the last bar
-            if st == 0 and tpos >= bar:
-                add(drums, kick * 0.6, pos)
-            if st % 4 == 2:
-                add(drums, hat * 0.8, pos)
+            # groovy pre-drop: kick on 1 and 3, clap on 2 and 4, hats; snare roll the last bar
+            if st in (0, 8):
+                add(drums, kick * 0.85, pos)
+            if st in (4, 12) and tpos < drop - bar:
+                add(drums, clap * 0.7, pos)
+            add(drums, hat * (1.0 if st % 2 else 0.6), pos)
             if tpos >= drop - bar:
                 k = int((tpos - (drop - bar)) / bar * 4)  # 0..3, density rises
                 if s % max(1, 4 >> k) == 0:
@@ -141,11 +142,11 @@ def make(seed, seconds, drop):
             add(lead, sig, start + int(e * beat / 2 * SR))
 
     # filter sweep: closed in intro, opening through the build, wide open at the drop
-    cut = np.where(in_drop, 5000.0, 350 + 2500 * np.clip((t_all - (drop - 2 * bar)) / (2 * bar), 0, 1))
+    cut = np.where(in_drop, 5000.0, 1400 + 2600 * np.clip((t_all - (drop - 2 * bar)) / (2 * bar), 0, 1))
     pad = lp(pad, cut)
     lead = lp(lead, np.where(in_drop, 9000.0, cut))
-    lead *= np.where(in_drop, 1.0, 0.55)
-    bass *= np.where(in_drop, 1.0, 0.35)
+    lead *= np.where(in_drop, 1.0, 0.85)
+    bass *= np.where(in_drop, 1.0, 0.7)
     pad *= duck
     bass *= duck
 
