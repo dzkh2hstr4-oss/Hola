@@ -82,7 +82,8 @@
         }
       ],
       "caption": "Las tiras LED ya están caducadas 💀 Ahora se lleva el atardecer en la pared 🌅 Lámpara LED atardecer, USB y sin instalación. -40% por Navidad: 29,95 € (antes 49,95 €). Link en la bio 🔗",
-      "status": "pendiente"
+      "status": "pendiente",
+      "theme": "clasico"
     },
     {
       "id": "2026-11-19-noche",
@@ -171,7 +172,8 @@
         }
       ],
       "caption": "Mi madre cuando vio mi cuarto 😳😍 Solo puse una lámpara atardecer. -40%: 29,95 €. Link en la bio 🔗",
-      "status": "pendiente"
+      "status": "pendiente",
+      "theme": "clasico"
     },
     {
       "id": "2026-11-20-manana",
@@ -249,7 +251,8 @@
         }
       ],
       "caption": "Tu pared ahora mismo 😐 vs tu pared con una lámpara atardecer 🌅 ¿Con cuál te quedas? -40%: 29,95 €. Link en la bio 🔗",
-      "status": "pendiente"
+      "status": "pendiente",
+      "theme": "clasico"
     },
     {
       "id": "2026-11-20-noche",
@@ -265,111 +268,91 @@
             },
             {
               "t": "a las 3 AM",
-              "serif": true,
-              "color": "#E8401C"
+              "serif": true
             }
           ]
         },
         {
           "kind": "tease",
-          "dur": 75,
+          "dur": 90,
           "world": "escritorio",
+          "focus": "taza",
+          "lit": 0,
           "text": [
             {
-              "t": "¿Por qué tu cuarto"
+              "t": "¿Por qué no hay forma"
             },
             {
-              "t": "se ve tan soso?",
-              "serif": true,
-              "color": "#FFC94A"
-            }
-          ],
-          "sub": [
-            {
-              "t": "No es la cama. No es la pintura."
+              "t": "de que me guste mi cuarto?",
+              "serif": true
             }
           ]
         },
         {
           "kind": "tease",
-          "dur": 70,
+          "dur": 90,
+          "world": "escritorio",
+          "focus": "monitor",
+          "lit": 0,
           "text": [
             {
-              "t": "Es la"
+              "t": "He visto 200 vídeos"
             },
             {
-              "t": "luz",
-              "serif": true,
-              "color": "#FFC94A",
-              "size": 200
+              "t": "de cuartos bonitos",
+              "serif": true
             }
           ],
           "sub": [
             {
-              "t": "La del techo lo aplana todo 💀"
-            }
-          ]
-        },
-        {
-          "kind": "mystery",
-          "dur": 75,
-          "text": [
-            {
-              "t": "La solución"
-            },
-            {
-              "t": "cabe en una mano",
-              "serif": true,
-              "color": "#FFC94A"
-            }
-          ],
-          "sub": [
-            {
-              "t": "Atento 👀"
+              "t": "y todos tienen algo en común"
             }
           ]
         },
         {
           "kind": "room",
-          "dur": 85,
+          "dur": 109,
           "world": "escritorio",
           "from": 0,
           "to": 1,
           "switchAt": 20,
           "text": [
             {
-              "t": "Mira…"
+              "t": "Hasta que"
+            },
+            {
+              "t": "probé esto…",
+              "serif": true
             }
           ],
           "textAfter": [
             {
-              "t": "Funciona"
+              "t": "Por fin"
             },
             {
-              "t": "de verdad ✨",
-              "serif": true,
-              "color": "#FFC94A"
+              "t": "me gusta mi cuarto",
+              "serif": true
             }
           ]
         },
         {
           "kind": "product",
-          "dur": 60,
+          "dur": 77,
           "text": [
             {
               "t": "Lámpara"
             },
             {
               "t": "atardecer",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ],
           "photo": "real"
         },
         {
           "kind": "offer",
-          "dur": 80
+          "dur": 80,
+          "top": "Cupón de las 3 AM"
         },
         {
           "kind": "cta",
@@ -377,7 +360,8 @@
         }
       ],
       "caption": "Lo que buscas a las 3 AM: cómo hacer tu cuarto aesthetic sin gastar mucho 👀 Respuesta: lámpara atardecer a 29,95 € (-40%). Link en la bio 🔗",
-      "status": "pendiente"
+      "status": "pendiente",
+      "theme": "medianoche"
     },
     {
       "id": "2026-11-21-manana",
@@ -393,8 +377,7 @@
             },
             {
               "t": "cambia en…",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ],
           "textAfter": [
@@ -403,53 +386,50 @@
             },
             {
               "t": "Otro salón",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ]
         },
         {
           "kind": "tease",
-          "dur": 70,
+          "dur": 90,
           "world": "salon",
+          "focus": "sofa",
           "lit": 1,
           "text": [
             {
-              "t": "¿Cómo"
+              "t": "Mismo sofá."
             },
             {
-              "t": "lo he hecho?",
-              "serif": true,
-              "color": "#FFC94A"
-            }
-          ],
-          "sub": [
+              "t": "Mismo salón."
+            },
             {
-              "t": "Te lo explico 👇"
+              "t": "Cero obras",
+              "serif": true
             }
           ]
         },
         {
           "kind": "checklist",
-          "dur": 95,
+          "dur": 122,
           "world": "salon",
+          "lit": 1,
           "text": [
             {
               "t": "Lo que"
             },
             {
-              "t": "NO he usado:",
-              "serif": true,
-              "color": "#E8401C"
+              "t": "NO he comprado:",
+              "serif": true
             }
           ],
           "items": [
             {
-              "t": "Pintura",
+              "t": "Muebles",
               "ok": false
             },
             {
-              "t": "Muebles nuevos",
+              "t": "Pintura",
               "ok": false
             },
             {
@@ -459,57 +439,34 @@
           ]
         },
         {
-          "kind": "mystery",
-          "dur": 70,
+          "kind": "tease",
+          "dur": 90,
+          "world": "salon",
+          "focus": "palomitas",
+          "lit": 1,
           "text": [
             {
-              "t": "Solo"
+              "t": "Solo he añadido"
             },
             {
-              "t": "una cosa…",
-              "serif": true,
-              "color": "#FFC94A"
-            }
-          ],
-          "sub": [
-            {
-              "t": "Y cuesta menos de 30 € 🤫"
+              "t": "UNA cosa",
+              "serif": true
             }
           ]
         },
         {
           "kind": "product",
-          "dur": 65,
+          "dur": 83,
           "text": [
             {
               "t": "El truco:"
             },
             {
               "t": "esta lámpara",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ],
           "photo": "estudio"
-        },
-        {
-          "kind": "montage",
-          "dur": 60,
-          "worlds": [
-            "dormitorio",
-            "escritorio",
-            "rincon"
-          ],
-          "text": [
-            {
-              "t": "Y funciona"
-            },
-            {
-              "t": "en cualquier sitio",
-              "serif": true,
-              "color": "#FFC94A"
-            }
-          ]
         },
         {
           "kind": "offer",
@@ -521,7 +478,8 @@
         }
       ],
       "caption": "Tu salón cambia en 3… 2… 1… 🌅 El truco: una lámpara atardecer. USB y sin instalación. -40%: 29,95 €. Link en la bio 🔗",
-      "status": "pendiente"
+      "status": "pendiente",
+      "theme": "impacto"
     },
     {
       "id": "2026-11-21-noche",
@@ -540,77 +498,54 @@
             },
             {
               "t": "da pena 💀",
-              "serif": true,
-              "color": "#E8401C"
+              "serif": true
             }
           ]
         },
         {
           "kind": "tease",
-          "dur": 70,
+          "dur": 90,
           "world": "escritorio",
+          "focus": "silla",
+          "lit": 0,
           "text": [
             {
-              "t": "¿Sabes"
+              "t": "Tienes la silla,"
             },
             {
-              "t": "por qué?",
+              "t": "el PC,"
+            },
+            {
+              "t": "todo…",
+              "serif": true
+            }
+          ]
+        },
+        {
+          "kind": "tease",
+          "dur": 90,
+          "world": "escritorio",
+          "focus": "tablero",
+          "lit": 0,
+          "text": [
+            {
+              "t": "¿Y la"
+            },
+            {
+              "t": "luz?",
               "serif": true,
-              "color": "#FFC94A"
+              "size": 220
             }
           ],
           "sub": [
             {
-              "t": "Buen PC… pero cero ambiente"
-            }
-          ]
-        },
-        {
-          "kind": "checklist",
-          "dur": 95,
-          "world": "escritorio",
-          "text": [
-            {
-              "t": "Un setup top"
-            },
-            {
-              "t": "necesita:",
-              "serif": true,
-              "color": "#FFC94A"
-            }
-          ],
-          "items": [
-            {
-              "t": "Buen PC",
-              "ok": true
-            },
-            {
-              "t": "Silla cómoda",
-              "ok": true
-            },
-            {
-              "t": "Buena luz",
-              "ok": false
-            }
-          ]
-        },
-        {
-          "kind": "tease",
-          "dur": 55,
-          "text": [
-            {
-              "t": "Y la luz"
-            },
-            {
-              "t": "lo es TODO",
-              "serif": true,
-              "color": "#FFC94A"
+              "t": "Ahí está el fallo"
             }
           ]
         },
         {
           "kind": "room",
-          "dur": 80,
+          "dur": 102,
           "world": "escritorio",
           "from": 0,
           "to": 1,
@@ -622,14 +557,13 @@
             },
             {
               "t": "es un setup",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ]
         },
         {
           "kind": "camera",
-          "dur": 75,
+          "dur": 96,
           "world": "escritorio",
           "textA": [
             {
@@ -638,12 +572,11 @@
           ],
           "textB": [
             {
-              "t": "de otro"
+              "t": "De otro"
             },
             {
               "t": "nivel 📸",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ]
         },
@@ -657,7 +590,8 @@
         }
       ],
       "caption": "Tu setup da pena 💀… hasta que le pones esto 🌅 Lámpara atardecer -40%: 29,95 €. Link en la bio 🔗",
-      "status": "pendiente"
+      "status": "pendiente",
+      "theme": "gamer"
     },
     {
       "id": "2026-11-22-manana",
@@ -676,94 +610,102 @@
             },
             {
               "t": "a tu salón…",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ]
         },
         {
           "kind": "tease",
-          "dur": 75,
+          "dur": 96,
           "world": "salon",
+          "focus": "sofa",
+          "lit": 0,
           "text": [
             {
-              "t": "¿Por qué crees"
+              "t": "¿Por qué crees que"
             },
             {
-              "t": "que no te apetece",
-              "serif": true,
-              "color": "#FFC94A"
+              "t": "no te apetece",
+              "serif": true
             },
             {
               "t": "estar aquí?"
             }
-          ],
-          "sub": [
+          ]
+        },
+        {
+          "kind": "tease",
+          "dur": 64,
+          "world": "salon",
+          "focus": "cojines",
+          "lit": 0,
+          "text": [
             {
-              "t": "🤔"
+              "t": "No son"
+            },
+            {
+              "t": "los cojines.",
+              "serif": true
             }
           ]
         },
         {
           "kind": "tease",
-          "dur": 70,
+          "dur": 64,
+          "world": "salon",
+          "focus": "cuadro",
+          "lit": 0,
           "text": [
             {
-              "t": "No es el sofá."
+              "t": "Ni los"
             },
             {
-              "t": "No es la tele."
-            },
-            {
-              "t": "Es otra cosa…",
-              "serif": true,
-              "color": "#FFC94A"
+              "t": "cuadros.",
+              "serif": true
             }
-          ]
-        },
-        {
-          "kind": "mystery",
-          "dur": 70,
-          "text": [
+          ],
+          "sub": [
             {
-              "t": "Es"
-            },
-            {
-              "t": "esto 👀",
-              "serif": true,
-              "color": "#FFC94A"
+              "t": "Es algo que no ves…"
             }
           ]
         },
         {
           "kind": "room",
-          "dur": 90,
+          "dur": 115,
           "world": "salon",
           "from": 0,
           "to": 1,
-          "switchAt": 6,
+          "switchAt": 8,
+          "text": [
+            {
+              "t": "Es"
+            },
+            {
+              "t": "la luz.",
+              "serif": true
+            }
+          ],
           "textAfter": [
             {
               "t": "Noche de peli"
             },
             {
               "t": "nivel cine 🍿",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ]
         },
         {
           "kind": "photo",
-          "dur": 60,
+          "dur": 77,
           "text": [
             {
               "t": "Así queda"
             },
             {
               "t": "de verdad",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ],
           "photo": "real"
@@ -778,7 +720,8 @@
         }
       ],
       "caption": "A tu salón le falta algo… 🍿 Noche de peli con luz de atardecer 🌅 -40%: 29,95 €. Link en la bio 🔗",
-      "status": "pendiente"
+      "status": "pendiente",
+      "theme": "elegante"
     },
     {
       "id": "2026-11-22-noche",
@@ -794,8 +737,7 @@
             },
             {
               "t": "por esto?",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ],
           "sub": [
@@ -806,105 +748,75 @@
         },
         {
           "kind": "tease",
-          "dur": 70,
+          "dur": 90,
           "world": "rincon",
+          "focus": "butaca",
+          "lit": 0,
           "text": [
             {
-              "t": "¿Qué puedes hacer"
+              "t": "¿Qué haces tú"
             },
             {
               "t": "con 29,95 €?",
-              "serif": true,
-              "color": "#FFC94A"
-            }
-          ],
-          "sub": [
-            {
-              "t": "Pocas cosas… menos una"
-            }
-          ]
-        },
-        {
-          "kind": "checklist",
-          "dur": 90,
-          "world": "rincon",
-          "text": [
-            {
-              "t": "Con 29,95 €"
-            },
-            {
-              "t": "NO puedes:",
-              "serif": true,
-              "color": "#E8401C"
-            }
-          ],
-          "items": [
-            {
-              "t": "Pintar tu cuarto",
-              "ok": false
-            },
-            {
-              "t": "Cambiar los muebles",
-              "ok": false
-            },
-            {
-              "t": "Comprar un sofá",
-              "ok": false
+              "serif": true
             }
           ]
         },
         {
           "kind": "tease",
-          "dur": 55,
+          "dur": 83,
+          "world": "rincon",
+          "focus": "estanteria",
+          "lit": 0,
           "text": [
             {
-              "t": "Pero SÍ"
+              "t": "Una cena."
             },
             {
-              "t": "puedes hacer esto…",
-              "serif": true,
-              "color": "#FFC94A"
+              "t": "Una camiseta."
+            },
+            {
+              "t": "O…",
+              "serif": true
             }
           ]
         },
         {
           "kind": "room",
-          "dur": 85,
+          "dur": 109,
           "world": "rincon",
           "from": 0,
           "to": 1,
-          "switchAt": 16,
+          "switchAt": 18,
           "text": [
             {
-              "t": "Antes:"
+              "t": "…cambias"
             },
             {
-              "t": "un rincón soso",
+              "t": "tu cuarto entero",
               "serif": true
             }
           ],
           "textAfter": [
             {
-              "t": "Después:"
+              "t": "Así"
             },
             {
-              "t": "un atardecer",
-              "serif": true,
-              "color": "#FFC94A"
+              "t": "de fácil",
+              "serif": true
             }
           ]
         },
         {
           "kind": "product",
-          "dur": 60,
+          "dur": 77,
           "text": [
             {
               "t": "Lámpara LED"
             },
             {
               "t": "atardecer",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ],
           "photo": "real"
@@ -919,7 +831,8 @@
         }
       ],
       "caption": "¿Cambiar tu cuarto por 29,95 €? Sí 🌅 Antes un rincón soso, después un atardecer. -40% por Navidad. Link en la bio 🔗",
-      "status": "pendiente"
+      "status": "pendiente",
+      "theme": "rotulador"
     },
     {
       "id": "2026-11-23-manana",
@@ -935,8 +848,7 @@
             },
             {
               "t": "Ahora mira…",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ],
           "text2": [
@@ -944,16 +856,16 @@
               "t": "Un atardecer"
             },
             {
-              "t": "en tu pared 🌅",
-              "serif": true,
-              "color": "#FFC94A"
+              "t": "en tu pared",
+              "serif": true
             }
           ]
         },
         {
           "kind": "tease",
-          "dur": 65,
+          "dur": 90,
           "world": "rincon",
+          "focus": "planta",
           "lit": 1,
           "text": [
             {
@@ -961,14 +873,16 @@
             },
             {
               "t": "que esto existía?",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ]
         },
         {
           "kind": "tease",
-          "dur": 70,
+          "dur": 96,
+          "world": "rincon",
+          "focus": "butaca",
+          "lit": 1,
           "text": [
             {
               "t": "No es una ventana."
@@ -977,40 +891,14 @@
               "t": "No es un filtro."
             },
             {
-              "t": "Es una lámpara 🤯",
-              "serif": true,
-              "color": "#FFC94A"
-            }
-          ]
-        },
-        {
-          "kind": "checklist",
-          "dur": 85,
-          "world": "rincon",
-          "lit": 1,
-          "text": [
-            {
-              "t": "Y encima:"
-            }
-          ],
-          "items": [
-            {
-              "t": "Va por USB",
-              "ok": true
-            },
-            {
-              "t": "Sin instalación",
-              "ok": true
-            },
-            {
-              "t": "En cualquier pared",
-              "ok": true
+              "t": "Es una lámpara.",
+              "serif": true
             }
           ]
         },
         {
           "kind": "montage",
-          "dur": 65,
+          "dur": 83,
           "worlds": [
             "salon",
             "dormitorio",
@@ -1022,25 +910,26 @@
             },
             {
               "t": "tú quieras",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ]
         },
         {
           "kind": "product",
-          "dur": 60,
+          "dur": 77,
           "text": [
             {
-              "t": "Lámpara"
+              "t": "USB."
             },
             {
-              "t": "atardecer",
-              "serif": true,
-              "color": "#FFC94A"
+              "t": "Sin instalación."
+            },
+            {
+              "t": "Y listo.",
+              "serif": true
             }
           ],
-          "photo": "real"
+          "photo": "estudio"
         },
         {
           "kind": "offer",
@@ -1052,7 +941,8 @@
         }
       ],
       "caption": "Apaga la luz. Ahora mira… 🌅 Un atardecer en tu pared, donde tú quieras. -40%: 29,95 €. Link en la bio 🔗",
-      "status": "pendiente"
+      "status": "pendiente",
+      "theme": "galeria"
     },
     {
       "id": "2026-11-23-noche",
@@ -1068,95 +958,78 @@
             {
               "t": "Pinterest",
               "serif": true,
-              "color": "#E8401C",
               "size": 140
             }
           ]
         },
         {
           "kind": "tease",
-          "dur": 70,
+          "dur": 90,
+          "world": "dormitorio",
+          "focus": "almohadas",
+          "lit": 1,
           "text": [
             {
-              "t": "¿Por qué"
+              "t": "¿Te has fijado"
             },
             {
-              "t": "todos se parecen?",
-              "serif": true,
-              "color": "#FFC94A"
-            }
-          ],
-          "sub": [
-            {
-              "t": "Fíjate bien 👀"
+              "t": "en la luz?",
+              "serif": true
             }
           ]
         },
         {
           "kind": "tease",
-          "dur": 65,
+          "dur": 90,
           "world": "dormitorio",
+          "focus": "estanteria",
           "lit": 1,
           "text": [
             {
-              "t": "Todos tienen"
+              "t": "Ninguno usa"
             },
             {
-              "t": "lo mismo…",
-              "serif": true,
-              "color": "#FFC94A"
-            }
-          ]
-        },
-        {
-          "kind": "mystery",
-          "dur": 70,
-          "text": [
-            {
-              "t": "El secreto"
-            },
-            {
-              "t": "de Pinterest",
-              "serif": true,
-              "color": "#FFC94A"
+              "t": "la luz del techo",
+              "serif": true
             }
           ]
         },
         {
           "kind": "room",
-          "dur": 85,
+          "dur": 109,
           "world": "dormitorio",
           "from": 0,
           "to": 1,
           "switchAt": 18,
           "text": [
             {
-              "t": "¿Listo?"
+              "t": "Prueba"
+            },
+            {
+              "t": "esto…",
+              "serif": true
             }
           ],
           "textAfter": [
             {
-              "t": "Esta lámpara",
-              "serif": true,
-              "color": "#FFC94A"
+              "t": "Tu cuarto,"
             },
             {
-              "t": "✨",
-              "size": 140
+              "t": "versión Pinterest ✨",
+              "serif": true
             }
           ]
         },
         {
           "kind": "product",
-          "dur": 60,
+          "dur": 77,
           "text": [
             {
-              "t": "Y ahora"
+              "t": "Esta es"
             },
             {
-              "t": "puede ser tuya",
-              "serif": true,
-              "color": "#FFC94A"
+              "t": "la lámpara",
+              "serif": true
             }
           ],
           "photo": "estudio"
@@ -1171,7 +1044,8 @@
         }
       ],
       "caption": "¿El secreto de los cuartos de Pinterest? ✨ Una lámpara atardecer 🌅 -40%: 29,95 €. Link en la bio 🔗",
-      "status": "pendiente"
+      "status": "pendiente",
+      "theme": "pastel"
     },
     {
       "id": "2026-11-24-manana",
@@ -1192,16 +1066,17 @@
         },
         {
           "kind": "tease",
-          "dur": 70,
+          "dur": 90,
           "world": "salon",
+          "focus": "mesita",
+          "lit": 0,
           "text": [
             {
               "t": "¿Qué crees"
             },
             {
               "t": "que había dentro?",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ],
           "sub": [
@@ -1212,21 +1087,23 @@
         },
         {
           "kind": "tease",
-          "dur": 65,
+          "dur": 83,
+          "world": "salon",
+          "focus": "planta",
+          "lit": 0,
           "text": [
             {
               "t": "Algo que cambia"
             },
             {
               "t": "un salón entero",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ]
         },
         {
           "kind": "room",
-          "dur": 85,
+          "dur": 109,
           "world": "salon",
           "from": 0,
           "to": 1,
@@ -1242,52 +1119,20 @@
             },
             {
               "t": "mi salón",
-              "serif": true,
-              "color": "#FFC94A"
-            }
-          ]
-        },
-        {
-          "kind": "checklist",
-          "dur": 85,
-          "world": "salon",
-          "lit": 1,
-          "text": [
-            {
-              "t": "El regalo"
-            },
-            {
-              "t": "perfecto 🎁",
-              "serif": true,
-              "color": "#FFC94A"
-            }
-          ],
-          "items": [
-            {
-              "t": "Le gusta a todos",
-              "ok": true
-            },
-            {
-              "t": "USB, sin instalar",
-              "ok": true
-            },
-            {
-              "t": "Menos de 30 €",
-              "ok": true
+              "serif": true
             }
           ]
         },
         {
           "kind": "photo",
-          "dur": 60,
+          "dur": 77,
           "text": [
             {
               "t": "El regalo"
             },
             {
-              "t": "de esta Navidad",
-              "serif": true,
-              "color": "#FFC94A"
+              "t": "de esta Navidad 🎁",
+              "serif": true
             }
           ],
           "photo": "estudio"
@@ -1302,7 +1147,8 @@
         }
       ],
       "caption": "Lo abrí y… 😱 La enchufé y no reconozco mi salón 🌅 El regalo de esta Navidad: -40%, 29,95 €. Link en la bio 🔗",
-      "status": "pendiente"
+      "status": "pendiente",
+      "theme": "navidad"
     },
     {
       "id": "2026-11-24-noche",
@@ -1318,8 +1164,7 @@
             },
             {
               "t": "Sé sincero",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ],
           "a": "1 😴",
@@ -1327,41 +1172,39 @@
         },
         {
           "kind": "tease",
-          "dur": 70,
+          "dur": 90,
           "world": "rincon",
+          "focus": "taburete",
+          "lit": 0,
           "text": [
             {
               "t": "Seguro que"
             },
             {
               "t": "has elegido el 2",
-              "serif": true,
-              "color": "#FFC94A"
-            }
-          ],
-          "sub": [
-            {
-              "t": "Y no te culpo 👀"
+              "serif": true
             }
           ]
         },
         {
           "kind": "tease",
-          "dur": 65,
+          "dur": 96,
+          "world": "rincon",
+          "focus": "estanteria",
+          "lit": 1,
           "text": [
             {
-              "t": "Lo mejor es"
+              "t": "¿Y si te digo"
             },
             {
-              "t": "lo que cuesta…",
-              "serif": true,
-              "color": "#FFC94A"
+              "t": "que es el mismo rincón?",
+              "serif": true
             }
           ]
         },
         {
           "kind": "room",
-          "dur": 75,
+          "dur": 96,
           "world": "rincon",
           "from": 0,
           "to": 1,
@@ -1373,38 +1216,20 @@
             {
               "t": "29,95 €",
               "serif": true,
-              "color": "#FFC94A",
-              "size": 140
-            }
-          ]
-        },
-        {
-          "kind": "tease",
-          "dur": 60,
-          "world": "rincon",
-          "lit": 1,
-          "text": [
-            {
-              "t": "Sí, has leído bien."
-            },
-            {
-              "t": "Mismo cuarto.",
-              "serif": true,
-              "color": "#FFC94A"
+              "size": 150
             }
           ]
         },
         {
           "kind": "product",
-          "dur": 60,
+          "dur": 77,
           "text": [
             {
               "t": "Es esta"
             },
             {
               "t": "lámpara 👇",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ],
           "photo": "real"
@@ -1419,7 +1244,8 @@
         }
       ],
       "caption": "¿1 o 2? Sé sincero 👀 El 2 cuesta 29,95 € con el -40% 🌅 Link en la bio 🔗",
-      "status": "pendiente"
+      "status": "pendiente",
+      "theme": "versus"
     },
     {
       "id": "2026-11-25-manana",
@@ -1444,23 +1270,23 @@
             },
             {
               "t": "con esto",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ]
         },
         {
           "kind": "tease",
-          "dur": 70,
+          "dur": 90,
           "world": "dormitorio",
+          "focus": "ventana",
+          "lit": 0,
           "text": [
             {
               "t": "¿Por qué tus fotos"
             },
             {
               "t": "salen tan sosas?",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ],
           "sub": [
@@ -1471,42 +1297,38 @@
         },
         {
           "kind": "tease",
-          "dur": 65,
+          "dur": 70,
+          "world": "dormitorio",
+          "focus": "mesilla",
+          "lit": 0,
           "text": [
             {
-              "t": "Es la"
+              "t": "Es"
             },
             {
-              "t": "luz",
+              "t": "la luz.",
               "serif": true,
-              "color": "#FFC94A",
-              "size": 200
-            }
-          ],
-          "sub": [
-            {
-              "t": "La de techo aplana todo"
+              "size": 180
             }
           ]
         },
         {
           "kind": "photo",
-          "dur": 65,
+          "dur": 83,
           "text": [
             {
               "t": "Luz de"
             },
             {
               "t": "atardecer",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ],
           "photo": "real"
         },
         {
           "kind": "split",
-          "dur": 75,
+          "dur": 96,
           "world": "escritorio",
           "text": [
             {
@@ -1514,42 +1336,11 @@
             },
             {
               "t": "otra vibra",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ],
           "a": "ANTES",
           "b": "DESPUÉS"
-        },
-        {
-          "kind": "checklist",
-          "dur": 80,
-          "world": "dormitorio",
-          "lit": 1,
-          "text": [
-            {
-              "t": "Perfecta"
-            },
-            {
-              "t": "para:",
-              "serif": true,
-              "color": "#FFC94A"
-            }
-          ],
-          "items": [
-            {
-              "t": "Selfies",
-              "ok": true
-            },
-            {
-              "t": "TikToks",
-              "ok": true
-            },
-            {
-              "t": "Stories",
-              "ok": true
-            }
-          ]
         },
         {
           "kind": "offer",
@@ -1561,7 +1352,8 @@
         }
       ],
       "caption": "Tus fotos con luz normal vs con luz de atardecer 📸🌅 Mismo cuarto, otra vibra. -40%: 29,95 €. Link en la bio 🔗",
-      "status": "pendiente"
+      "status": "pendiente",
+      "theme": "editorial"
     },
     {
       "id": "2026-11-25-noche",
@@ -1577,52 +1369,52 @@
             {
               "t": "del -40%",
               "serif": true,
-              "color": "#FFC94A",
-              "size": 140
+              "size": 150
             }
           ]
         },
         {
           "kind": "tease",
-          "dur": 65,
+          "dur": 90,
+          "world": "dormitorio",
+          "focus": "pared",
+          "lit": 1,
           "text": [
             {
-              "t": "¿Por qué"
+              "t": "¿Todavía"
             },
             {
-              "t": "tanta prisa?",
-              "serif": true,
-              "color": "#FFC94A"
+              "t": "no la tienes?",
+              "serif": true
+            }
+          ]
+        },
+        {
+          "kind": "tease",
+          "dur": 90,
+          "world": "tiras",
+          "focus": "tiras",
+          "lit": 0,
+          "text": [
+            {
+              "t": "¿Sigues con"
+            },
+            {
+              "t": "tiras LED?",
+              "serif": true
             }
           ],
           "sub": [
             {
-              "t": "Porque la oferta se acaba ⏳"
-            }
-          ]
-        },
-        {
-          "kind": "tease",
-          "dur": 65,
-          "world": "dormitorio",
-          "lit": 1,
-          "text": [
-            {
-              "t": "Y esto a 29,95 €"
-            },
-            {
-              "t": "no dura",
-              "serif": true,
-              "color": "#FFC94A"
+              "t": "Eso ya pasó de moda"
             }
           ]
         },
         {
           "kind": "montage",
-          "dur": 75,
+          "dur": 96,
           "worlds": [
             "dormitorio",
-            "tiras",
             "salon",
             "escritorio",
             "rincon"
@@ -1633,47 +1425,20 @@
             },
             {
               "t": "en cualquier sitio",
-              "serif": true,
-              "color": "#FFC94A"
-            }
-          ]
-        },
-        {
-          "kind": "checklist",
-          "dur": 85,
-          "world": "salon",
-          "lit": 1,
-          "text": [
-            {
-              "t": "Te llevas:"
-            }
-          ],
-          "items": [
-            {
-              "t": "Atardecer en tu pared",
-              "ok": true
-            },
-            {
-              "t": "USB, sin instalación",
-              "ok": true
-            },
-            {
-              "t": "El regalo de Navidad",
-              "ok": true
+              "serif": true
             }
           ]
         },
         {
           "kind": "product",
-          "dur": 60,
+          "dur": 77,
           "text": [
             {
               "t": "Lámpara"
             },
             {
               "t": "atardecer",
-              "serif": true,
-              "color": "#FFC94A"
+              "serif": true
             }
           ],
           "photo": "real"
@@ -1689,7 +1454,8 @@
         }
       ],
       "caption": "Última oportunidad del -40% ⏳ Lámpara LED atardecer a 29,95 € (antes 49,95 €). Link en la bio 🔗",
-      "status": "pendiente"
+      "status": "pendiente",
+      "theme": "alarma"
     }
   ]
 }
