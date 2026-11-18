@@ -52,6 +52,7 @@ export type ReelProps = {
   lines: Line[];
   accent?: string;
   seed?: number;
+  musicVolume?: number;
 };
 
 const YELLOW = "#FFC94A";
@@ -544,9 +545,9 @@ const SoundDesign: React.FC<{ scenes: Scene[] }> = ({ scenes }) => {
   return <>{out}</>;
 };
 
-export const Reel: React.FC<ReelProps> = ({ voice, music, scenes, lines }) => {
+export const Reel: React.FC<ReelProps> = ({ voice, music, scenes, lines, musicVolume = 0.16 }) => {
   const end = scenes.length ? scenes[scenes.length - 1].to : 300;
-  const musicVol = (f: number) => interpolate(f, [0, 10, end - 30, end], [0, 0.16, 0.16, 0], clamp);
+  const musicVol = (f: number) => interpolate(f, [0, 10, end - 30, end], [0, musicVolume, musicVolume, 0], clamp);
   return (
     <AbsoluteFill style={{ background: "#000" }}>
       {scenes.map((sc, i) => (

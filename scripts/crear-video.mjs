@@ -19,8 +19,9 @@ const TAIL = 1.5; // seconds after the voice ends
 const args = Object.fromEntries(
   process.argv.slice(2).reduce((acc, v, i, all) => (v.startsWith("--") ? [...acc, [v.slice(2), all[i + 1]]] : acc), []),
 );
-if (!args.id || !args.voz) {
-  console.error("uso: node scripts/crear-video.mjs --id <id> --voz <archivo de voz>");
+const SIN_VOZ = args["sin-voz"] !== undefined || process.argv.includes("--sin-voz");
+if (!args.id || (!args.voz && !SIN_VOZ)) {
+  console.error("uso: node scripts/crear-video.mjs --id <id> (--voz <archivo de voz> | --sin-voz)");
   process.exit(1);
 }
 
@@ -30,15 +31,27 @@ if (!entry) throw new Error(`No existe ${args.id} en content/plan.json`);
 
 const dir = join(ROOT, "public/daily", entry.id);
 mkdirSync(dir, { recursive: true });
-const vozRel = `daily/${entry.id}/voz.mp3`;
-copyFileSync(resolve(args.voz), join(ROOT, "public", vozRel));
-const vozPath = join(ROOT, "public", vozRel);
-
 const sh = (cmd, a) => execFileSync(cmd, a, { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] });
+const vozRel = `daily/${entry.id}/voz.mp3`;
+const vozPath = join(ROOT, "public", vozRel);
+if (SIN_VOZ) {
+  // no narration: pace each line by its length (reading speed), with short gaps
+  let acc = 0.1;
+  globalThis.__sinVozTimes = entry.lines.map((l) => {
+    const d = Math.max(1.8, l.say.length / 13);
+    const seg = { s: acc, e: acc + d };
+    acc += d + 0.35;
+    return seg;
+  });
+  const t = acc;
+  sh("ffmpeg", ["-y", "-v", "error", "-f", "lavfi", "-i", `anullsrc=r=44100:cl=mono`, "-t", t.toFixed(2), vozPath]);
+} else {
+  copyFileSync(resolve(args.voz), vozPath);
+}
 const duration = parseFloat(sh("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", vozPath]));
 
 // --- find pauses ---
-const log = spawnSync("ffmpeg", ["-i", vozPath, "-af", "silencedetect=noise=-32dB:d=0.12", "-f", "null", "-"], {
+const log = SIN_VOZ ? "" : spawnSync("ffmpeg", ["-i", vozPath, "-af", "silencedetect=noise=-32dB:d=0.12", "-f", "null", "-"], {
   encoding: "utf8",
 }).stderr;
 const starts = [...log.matchAll(/silence_start: ([\d.]+)/g)].map((m) => parseFloat(m[1]));
@@ -50,7 +63,14 @@ sil = sil.filter((x) => x.s > speechStart + 0.1 && x.e < speechEnd - 0.1);
 
 const n = entry.lines.length;
 let bounds; // n-1 pauses between lines
-if (sil.length >= n - 1) {
+let speechStartF = speechStart;
+let speechEndF = speechEnd;
+if (SIN_VOZ) {
+  const tt = globalThis.__sinVozTimes;
+  speechStartF = tt[0].s;
+  speechEndF = tt[n - 1].e;
+  bounds = tt.slice(0, -1).map((x, i) => ({ s: x.e, e: tt[i + 1].s }));
+} else if (sil.length >= n - 1) {
   bounds = [...sil].sort((a, b) => b.e - b.s - (a.e - a.s)).slice(0, n - 1).sort((a, b) => a.s - b.s);
 } else {
   // fallback: proportional to text length
@@ -63,11 +83,11 @@ if (sil.length >= n - 1) {
 }
 
 const lines = entry.lines.map((l, i) => {
-  const from = i === 0 ? speechStart : bounds[i - 1].e;
-  const to = i === n - 1 ? speechEnd : bounds[i].s;
+  const from = i === 0 ? speechStartF : bounds[i - 1].e;
+  const to = i === n - 1 ? speechEndF : bounds[i].s;
   return { from: Math.round((from + LEAD) * FPS), to: Math.round((to + LEAD) * FPS), text: l.subtitle ?? l.say };
 });
-const totalFrames = Math.round((speechEnd + LEAD + TAIL) * FPS);
+const totalFrames = Math.round((speechEndF + LEAD + TAIL) * FPS);
 const scenes = entry.lines.map((l, i) => ({
   ...l.scene,
   from: i === 0 ? 0 : lines[i].from - 3,
@@ -83,7 +103,7 @@ const seed = [...entry.id].reduce((a, c) => (a * 31 + c.charCodeAt(0)) % 100000,
 const musicRel = `daily/${entry.id}/musica.wav`;
 sh("python3", [join(ROOT, "scripts/musica.py"), "--seed", String(seed), "--seconds", String(totalFrames / FPS + 1), "--out", join(ROOT, "public", musicRel)]);
 
-const props = { voice: `daily/${entry.id}/voz-pad.wav`, music: musicRel, scenes, lines, seed };
+const props = { voice: SIN_VOZ ? "" : `daily/${entry.id}/voz-pad.wav`, music: musicRel, scenes, lines, seed, musicVolume: SIN_VOZ ? 0.45 : 0.16 };
 const propsFile = join(dir, "props.json");
 writeFileSync(propsFile, JSON.stringify(props, null, 2));
 
@@ -95,9 +115,10 @@ const renderArgs = ["remotion", "render", "Reel", raw, `--props=${propsFile}`];
 if (browser) renderArgs.push(`--browser-executable=${browser}`);
 execFileSync("npx", renderArgs, { cwd: ROOT, stdio: "inherit" });
 
-mkdirSync(join(ROOT, "publicados"), { recursive: true });
-const final = join(ROOT, "publicados", `${entry.id}.mp4`);
+const outDir = SIN_VOZ ? "out/sin-voz" : "publicados";
+mkdirSync(join(ROOT, outDir), { recursive: true });
+const final = join(ROOT, outDir, `${entry.id}.mp4`);
 sh("ffmpeg", ["-y", "-v", "error", "-i", raw, "-c:v", "libx264", "-crf", "24", "-maxrate", "5M", "-bufsize", "10M", "-preset", "medium", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", final]);
 const mb = statSync(final).size / 1e6;
-console.log(JSON.stringify({ id: entry.id, file: `publicados/${entry.id}.mp4`, seconds: totalFrames / FPS, mb: +mb.toFixed(1) }));
+console.log(JSON.stringify({ id: entry.id, file: `${outDir}/${entry.id}.mp4`, seconds: totalFrames / FPS, mb: +mb.toFixed(1) }));
 if (mb > 19.5) console.error("AVISO: el vídeo supera 19,5 MB; jsDelivr no lo servirá");
