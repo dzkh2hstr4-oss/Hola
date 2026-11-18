@@ -57,7 +57,7 @@ if (entry.drop !== undefined) {
   sh("python3", [join(ROOT, "scripts/musica.py"), "--seed", String(seed), "--seconds", String(totalFrames / FPS + 1), "--out", join(ROOT, "public", musicRel)]);
 }
 
-const props = { beats, music: musicRel, musicVolume: voz ? (entry.drop !== undefined ? 0.34 : 0.16) : 0.42, voice: voiceRel, theme: entry.theme ?? "clasico" };
+const props = { beats, music: musicRel, musicVolume: voz ? (entry.drop !== undefined ? 0.34 : 0.16) : 0.42, voice: voiceRel, theme: entry.theme ?? "clasico", product: entry.producto ?? "atardecer" };
 const propsFile = join(dir, "props2.json");
 writeFileSync(propsFile, JSON.stringify(props, null, 2));
 

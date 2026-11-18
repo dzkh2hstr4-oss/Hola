@@ -247,6 +247,53 @@ const GOLD = "#FFC94A";
 const ORANGE = "#FF7A1A";
 const RED = "#E8401C";
 const INK = "#2a0c03";
+
+/* ---------- product (each video sells one product) ---------- */
+export type ProductId = "atardecer" | "aurora";
+type ProductSpec = {
+  name: string;
+  real: string; // real photo of the effect
+  estudio: string; // product photo
+  price: string;
+  old: string;
+  pct: string;
+  grad: string; // background of the "product" beat
+};
+export const PRODUCTS: Record<ProductId, ProductSpec> = {
+  atardecer: {
+    name: "Lámpara LED atardecer",
+    real: "lampara-real.jpg",
+    estudio: "lampara.jpg",
+    price: "29,95 €",
+    old: "49,95 €",
+    pct: "-40%",
+    grad: `radial-gradient(circle at 50% 55%, #ffb36b 0%, #FF7A1A 35%, #5a1a08 100%)`,
+  },
+  aurora: {
+    name: "Proyector aurora",
+    real: "aurora-real.jpg",
+    estudio: "aurora.jpg",
+    price: "39,95 €",
+    old: "64,95 €",
+    pct: "-38%",
+    grad: `radial-gradient(circle at 50% 55%, #7ef0c8 0%, #3b6cff 38%, #160a3a 100%)`,
+  },
+};
+// Set once per render by <Reel2>; every frame of a render shares the same product.
+let curProduct: ProductId = "atardecer";
+const P = () => PRODUCTS[curProduct];
+
+// Background for offer / CTA scenes: illustrated room for the sunset lamp,
+// blurred real photo for products without illustrations.
+const ProductBg: React.FC<{ name: WorldName; id: string }> = ({ name, id }) =>
+  curProduct === "atardecer" ? (
+    <World name={name} lit={1} id={id} />
+  ) : (
+    <Img
+      src={staticFile(P().real)}
+      style={{ position: "absolute", width: "100%", height: "100%", objectFit: "cover" }}
+    />
+  );
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
 /* ---------- data model ---------- */
@@ -351,6 +398,7 @@ export type Reel2Props = {
   musicVolume?: number;
   voice?: string;
   theme?: string;
+  product?: ProductId;
 };
 
 export const reel2Duration = (beats: Beat[]) =>
@@ -949,7 +997,7 @@ const SearchBeat: React.FC<{
       >
         <div style={{ height: 620, overflow: "hidden" }}>
           <Img
-            src={staticFile("lampara-real.jpg")}
+            src={staticFile(P().real)}
             style={{
               width: "100%",
               height: "100%",
@@ -962,7 +1010,7 @@ const SearchBeat: React.FC<{
           <div
             style={{ fontFamily, fontWeight: 900, fontSize: 50, color: "#111" }}
           >
-            Lámpara LED atardecer
+            {P().name}
           </div>
           <div
             style={{
@@ -975,7 +1023,7 @@ const SearchBeat: React.FC<{
             <span
               style={{ fontFamily, fontWeight: 900, fontSize: 56, color: RED }}
             >
-              29,95 €
+              {P().price}
             </span>
             <span
               style={{
@@ -986,7 +1034,7 @@ const SearchBeat: React.FC<{
                 textDecoration: "line-through",
               }}
             >
-              49,95 €
+              {P().old}
             </span>
             <span
               style={{
@@ -999,7 +1047,7 @@ const SearchBeat: React.FC<{
                 padding: "4px 14px",
               }}
             >
-              -40%
+              {P().pct}
             </span>
           </div>
         </div>
@@ -1309,10 +1357,10 @@ const BoardBeat: React.FC<{
   const { fps } = useVideoConfig();
   const tiles: ({ w: WorldName } | { img: string })[] = [
     { w: "salon" },
-    { img: "lampara-real.jpg" },
+    { img: P().real },
     { w: "escritorio" },
     { w: "rincon" },
-    { img: "lampara.jpg" },
+    { img: P().estudio },
     { w: "dormitorio" },
   ];
   return (
@@ -1527,7 +1575,7 @@ const GiftBeat: React.FC<{
         }}
       >
         <Img
-          src={staticFile("lampara-real.jpg")}
+          src={staticFile(P().real)}
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
         />
       </div>
@@ -1666,12 +1714,12 @@ const ProductBeat: React.FC<{
     ? 1
     : spring({ frame: t - 2, fps, config: { damping: 12, stiffness: 130 } });
   const shine = interpolate(t, [14, 34], [-700, 900], clamp);
-  const img = b.photo === "estudio" ? "lampara.jpg" : "lampara-real.jpg";
+  const img = b.photo === "estudio" ? P().estudio : P().real;
   return (
     <AbsoluteFill style={{ overflow: "hidden" }}>
       <AbsoluteFill
         style={{
-          background: `radial-gradient(circle at 50% 55%, #ffb36b 0%, ${ORANGE} 35%, #5a1a08 100%)`,
+          background: P().grad,
         }}
       />
       <AbsoluteFill
@@ -1724,7 +1772,7 @@ const PhotoBeat: React.FC<{
   first: boolean;
 }> = ({ b, first }) => {
   const t = useCurrentFrame();
-  const img = b.photo === "estudio" ? "lampara.jpg" : "lampara-real.jpg";
+  const img = b.photo === "estudio" ? P().estudio : P().real;
   return (
     <AbsoluteFill style={{ overflow: "hidden", background: "#000" }}>
       <Img
@@ -1957,7 +2005,7 @@ const MysteryBeat: React.FC<{
         }}
       >
         <Img
-          src={staticFile("lampara-real.jpg")}
+          src={staticFile(P().real)}
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
         />
       </div>
@@ -2148,7 +2196,7 @@ const OfferBurst: React.FC<{ b: Extract<Beat, { kind: "offer" }> }> = ({
           filter: "blur(16px) brightness(0.6)",
         }}
       >
-        <World name="salon" lit={1} id="offerbg" />
+        <ProductBg name="salon" id="offerbg" />
       </AbsoluteFill>
       <BigText
         lines={[
@@ -2193,7 +2241,7 @@ const OfferBurst: React.FC<{ b: Extract<Beat, { kind: "offer" }> }> = ({
             textAlign: "center",
           }}
         >
-          -40%
+          {P().pct}
         </div>
       </div>
       <div
@@ -2219,7 +2267,7 @@ const OfferBurst: React.FC<{ b: Extract<Beat, { kind: "offer" }> }> = ({
             opacity: interpolate(t, [8, 13], [0, 1], clamp),
           }}
         >
-          49,95 €
+          {P().old}
           <div
             style={{
               position: "absolute",
@@ -2245,7 +2293,7 @@ const OfferBurst: React.FC<{ b: Extract<Beat, { kind: "offer" }> }> = ({
             transform: `scale(${np}) rotate(${(1 - np) * 20}deg)`,
           }}
         >
-          29,95 €
+          {P().price}
         </div>
       </div>
     </AbsoluteFill>
@@ -2262,7 +2310,7 @@ const OfferBg: React.FC<{ world?: WorldName; dark?: number }> = ({
       filter: `blur(16px) brightness(${1 - dark})`,
     }}
   >
-    <World name={world} lit={1} id={`offerbg-${world}`} />
+    <ProductBg name={world} id={`offerbg-${world}`} />
   </AbsoluteFill>
 );
 
@@ -2347,7 +2395,7 @@ const OfferCoupon: React.FC<{ b: Extract<Beat, { kind: "offer" }> }> = ({
             lineHeight: 1,
           }}
         >
-          -40%
+          {P().pct}
         </div>
         <div
           style={{
@@ -2370,7 +2418,7 @@ const OfferCoupon: React.FC<{ b: Extract<Beat, { kind: "offer" }> }> = ({
               color: "#999",
             }}
           >
-            49,95 €
+            {P().old}
             <span
               style={{
                 position: "absolute",
@@ -2392,7 +2440,7 @@ const OfferCoupon: React.FC<{ b: Extract<Beat, { kind: "offer" }> }> = ({
               opacity: cut,
             }}
           >
-            29,95 €
+            {P().price}
           </span>
         </div>
       </div>
@@ -2447,7 +2495,7 @@ const OfferMinimal: React.FC<{ b: Extract<Beat, { kind: "offer" }> }> = ({
             transform: `scale(${1.1 - 0.1 * p1})`,
           }}
         >
-          -40%
+          {P().pct}
         </div>
         <div
           style={{
@@ -2469,7 +2517,7 @@ const OfferMinimal: React.FC<{ b: Extract<Beat, { kind: "offer" }> }> = ({
               textDecoration: "line-through",
             }}
           >
-            49,95 €
+            {P().old}
           </span>
           <span
             style={{
@@ -2480,7 +2528,7 @@ const OfferMinimal: React.FC<{ b: Extract<Beat, { kind: "offer" }> }> = ({
               color: "#fff",
             }}
           >
-            29,95 €
+            {P().price}
           </span>
         </div>
       </AbsoluteFill>
@@ -2533,7 +2581,7 @@ const OfferNeon: React.FC<{ b: Extract<Beat, { kind: "offer" }> }> = ({
             opacity: flick,
           }}
         >
-          -40%
+          {P().pct}
         </div>
         <div
           style={{
@@ -2546,7 +2594,7 @@ const OfferNeon: React.FC<{ b: Extract<Beat, { kind: "offer" }> }> = ({
             opacity: interpolate(t, [16, 22], [0, 1], clamp),
           }}
         >
-          29,95 €
+          {P().price}
         </div>
         <div
           style={{
@@ -2558,7 +2606,7 @@ const OfferNeon: React.FC<{ b: Extract<Beat, { kind: "offer" }> }> = ({
             opacity: interpolate(t, [10, 16], [0, 1], clamp),
           }}
         >
-          49,95 €
+          {P().old}
         </div>
       </AbsoluteFill>
     </AbsoluteFill>
@@ -2630,7 +2678,7 @@ const OfferTag: React.FC<{ b: Extract<Beat, { kind: "offer" }> }> = ({ b }) => {
               lineHeight: 1,
             }}
           >
-            -40%
+            {P().pct}
           </div>
           <div
             style={{
@@ -2642,7 +2690,7 @@ const OfferTag: React.FC<{ b: Extract<Beat, { kind: "offer" }> }> = ({ b }) => {
               textDecoration: "line-through",
             }}
           >
-            49,95 €
+            {P().old}
           </div>
           <div
             style={{
@@ -2652,7 +2700,7 @@ const OfferTag: React.FC<{ b: Extract<Beat, { kind: "offer" }> }> = ({ b }) => {
               color: "#fff",
             }}
           >
-            29,95 €
+            {P().price}
           </div>
         </div>
       </div>
@@ -2684,7 +2732,7 @@ const CtaLumora: React.FC<{ b: Extract<Beat, { kind: "cta" }> }> = ({ b }) => {
           filter: "brightness(0.7)",
         }}
       >
-        <World name="dormitorio" lit={1} id="ctabg" />
+        <ProductBg name="dormitorio" id="ctabg" />
       </AbsoluteFill>
       <Sparkles seed="cta" />
       <AbsoluteFill
@@ -2795,7 +2843,7 @@ const CtaArrow: React.FC<{ b: Extract<Beat, { kind: "cta" }> }> = ({ b }) => {
             }}
           >
             <Img
-              src={staticFile("lampara-real.jpg")}
+              src={staticFile(P().real)}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
           </div>
@@ -2826,7 +2874,7 @@ const CtaHand: React.FC = () => {
   return (
     <AbsoluteFill style={{ overflow: "hidden", background: "#000" }}>
       <Img
-        src={staticFile("lampara.jpg")}
+        src={staticFile(P().estudio)}
         style={{
           position: "absolute",
           width: "100%",
@@ -3199,7 +3247,9 @@ export const Reel2: React.FC<Reel2Props> = ({
   musicVolume = 0.42,
   voice,
   theme = "clasico",
+  product = "atardecer",
 }) => {
+  curProduct = product;
   const th = THEMES[theme] ?? THEMES.clasico;
   let acc = 0;
   const starts = beats.map((b) => {

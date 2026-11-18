@@ -1,9 +1,13 @@
-# Publicación diaria automática — Lámpara LED atardecer (Lumora)
+# Publicación diaria automática — Lumora (lámpara atardecer + proyector aurora)
 
 La tarea programada se ejecuta **dos veces al día**: `manana` (13:07) y `noche` (20:47),
-hora de Madrid. **Cada vídeo tiene un único objetivo: vender la lámpara LED atardecer.**
+hora de Madrid. **Cada vídeo vende UN producto** (campo `producto` de la entrada en `content/plan.json`):
+- `manana` → **lámpara LED atardecer** (`"producto": "atardecer"`)
+- `noche` → **proyector aurora** (`"producto": "aurora"`)
 
-Rama de trabajo: `claude/cool-gates-3j8f70`.
+Solo se publica en **lumora.esst**. La cuenta lumora.est ya no se usa: nunca publiques en ella.
+
+Rama de trabajo: `claude/intelligent-edison-tb7c0m`.
 
 ## Reglas nuevas (18/11, tras analizar los datos)
 
@@ -18,7 +22,7 @@ La gente se va a los 3–4 s. Por eso, a partir de ahora:
 - Nada de urgencia falsa («última oportunidad», «corre que vuelan»). La urgencia real es la Navidad:
   añade a cada caption `🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis`.
 
-## Datos reales del producto (no inventar nada más)
+## Datos reales de la lámpara atardecer (no inventar nada más)
 
 - Lámpara LED que proyecta un círculo de atardecer en la pared.
 - Se conecta por **USB**, **sin instalación**.
@@ -27,15 +31,28 @@ La gente se va a los 3–4 s. Por eso, a partir de ahora:
 - Fotos reales: `public/lampara-real.jpg` (`photo: "real"`) y `public/lampara.jpg` (`photo: "estudio"`).
 - Prohibido inventar características, reseñas, cifras de ventas o testimonios.
 
+## Datos reales del proyector aurora (Shopify: «Proyector Aurora Galaxia LED con Mando»)
+
+- Proyecta ondas de luz tipo aurora (azul, verde, morado) y estrellas en techo y paredes.
+- **Mando a distancia incluido**. **Recargable por USB** (sin cables a la vista), sin instalación.
+- Blanco, compacto (10 × 10 cm).
+- Precio: **antes 64,95 €, ahora 39,95 €** (−38 %). **Envío gratis**.
+- Fotos reales: `public/aurora-real.jpg` (techo con galaxia, `photo: "real"`) y `public/aurora.jpg`
+  (el proyector en una mesilla, `photo: "estudio"`).
+- Hashtags: `hashtags_aurora` de `content/plan.json` (no los de la lámpara).
+- **Solo beats con fotos reales**: `photo`, `product`, `offer`, `cta`. Nada de `room`, `strips`, `tease`,
+  `lightswitch`, `montage`… (son dibujos de la lámpara atardecer). Textos en color `#7EF0C8` (menta).
+- Mismas reglas de duración (7–10 s) y gancho visible en el fotograma 0.
+
 ## Pasos de cada ejecución
 
-1. `git checkout claude/cool-gates-3j8f70 && git pull`; si falta `node_modules`, `npm ci`.
+1. `git checkout claude/intelligent-edison-tb7c0m && git pull`; si falta `node_modules`, `npm ci`.
 2. Fecha de hoy en **Europe/Madrid** (`TZ=Europe/Madrid date +%F`). Si es anterior a
    `2026-11-19`, termina sin hacer nada. `ID = <fecha>-<franja>`.
 3. En `content/plan.json`:
    - si `ID` ya está `"publicado"`, termina;
    - si `ID` no existe, **escribe vídeos nuevos** (ver «Cómo crear vídeos nuevos») para hoy y
-     los próximos días hasta tener al menos 6 pendientes; commit.
+     los próximos días hasta tener al menos 6 pendientes (mañana = atardecer, noche = aurora); commit.
 4. **Voz: NO se usa** (ver «Reglas nuevas»). Texto antiguo, solo como referencia:: escribe un guion corto que diga lo mismo que los
    textos en pantalla, con expresiones («¡Madre mía!», «¡boom!»…), y genéralo en Higgsfield:
    `generate_audio` con `{"model":"text2speech_v2","variant":"elevenlabs","voice_type":"preset","voice_id":"858499d9-fef5-40e1-bc29-b4dc661dc283","use_unlim":false,"prompt": <guion>}`;
@@ -48,7 +65,8 @@ La gente se va a los 3–4 s. Por eso, a partir de ahora:
    (comprueba con `curl -sI`: 200 y `video/mp4`).
 8. **Instagram** (Windsor.ai): `execute_action` con `connector="instagram"`,
    `account="17841422628356887"`, `action="create_video_post"`,
-   `params={"video_url": <URL>, "caption": <caption + "\n\n" + hashtags_base (+ "\n🔊 Voz generada con IA" si lleva voz)>, "share_to_feed": true}`.
+   `params={"video_url": <URL>, "caption": <caption + "\n\n" + hashtags>, "share_to_feed": true}`,
+   donde `hashtags` = `hashtags_aurora` si `producto` es `aurora`, si no `hashtags_base`.
 9. Marca la entrada `"status": "publicado"` con `publicado_en` y el id de Instagram; commit + push.
 10. **TikTok**: la conexión no permite publicar. Deja en el resumen la URL y la caption.
 

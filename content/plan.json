@@ -317,54 +317,42 @@
       ],
       "caption": "Las tiras LED ya están caducadas 💀 Ahora se lleva el atardecer en la pared 🌅 Lámpara LED atardecer, USB y sin instalación. -40% por Navidad: 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
       "status": "pendiente",
-      "theme": "clasico"
+      "theme": "clasico",
+      "producto": "atardecer"
     },
     {
       "id": "2026-11-19-noche",
-      "tema": "El chat de mamá",
+      "producto": "aurora",
+      "tema": "Tu techo a medianoche",
+      "theme": "medianoche",
       "beats": [
         {
           "kind": "photo",
           "dur": 66,
-          "photo": "estudio",
+          "photo": "real",
           "text": [
             {
-              "t": "Puse esto"
+              "t": "POV: tu techo"
             },
             {
-              "t": "en mi cuarto y…",
+              "t": "a medianoche 🌌",
               "serif": true,
-              "color": "#FFC94A"
+              "color": "#7EF0C8"
             }
           ]
         },
         {
-          "kind": "chat",
-          "dur": 90,
-          "name": "Mamá",
+          "kind": "product",
+          "dur": 75,
+          "photo": "estudio",
           "text": [
             {
-              "t": "Mi madre al ver"
+              "t": "Una aurora boreal"
             },
             {
-              "t": "mi cuarto 😳",
+              "t": "en tu cuarto",
               "serif": true,
-              "color": "#FFC94A"
-            }
-          ],
-          "msgs": [
-            {
-              "t": "¿Qué has hecho en tu cuarto? 😳",
-              "at": 0
-            },
-            {
-              "me": true,
-              "t": "nada… solo puse una lámpara",
-              "at": 38
-            },
-            {
-              "t": "¡¡QUÉ PASADA!! 😍",
-              "at": 72
+              "color": "#7EF0C8"
             }
           ]
         },
@@ -377,9 +365,8 @@
           "dur": 45
         }
       ],
-      "caption": "Mi madre cuando vio mi cuarto 😳😍 Solo puse una lámpara atardecer. -40%: 29,95 €. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
-      "status": "pendiente",
-      "theme": "clasico"
+      "caption": "POV: tu techo a medianoche 🌌 Una aurora boreal en tu cuarto con el proyector aurora de Lumora. Ahora 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
+      "status": "pendiente"
     },
     {
       "id": "2026-11-20-manana",
@@ -437,11 +424,14 @@
       ],
       "caption": "Tu pared ahora mismo 😐 vs tu pared con una lámpara atardecer 🌅 ¿Con cuál te quedas? -40%: 29,95 €. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
       "status": "pendiente",
-      "theme": "clasico"
+      "theme": "clasico",
+      "producto": "atardecer"
     },
     {
       "id": "2026-11-20-noche",
-      "tema": "Lo que buscas a las 3 AM",
+      "producto": "aurora",
+      "tema": "¿Qué hace esta cajita?",
+      "theme": "gamer",
       "beats": [
         {
           "kind": "photo",
@@ -449,26 +439,26 @@
           "photo": "estudio",
           "text": [
             {
-              "t": "Cuarto aesthetic"
+              "t": "¿Qué hace"
             },
             {
-              "t": "por 29,95 €",
+              "t": "esta cajita?",
               "serif": true,
-              "color": "#FFC94A"
+              "color": "#7EF0C8"
             }
           ]
         },
         {
-          "kind": "search",
-          "dur": 90,
-          "query": "cómo hacer mi cuarto aesthetic sin gastar mucho",
+          "kind": "product",
+          "dur": 75,
+          "photo": "real",
           "text": [
             {
-              "t": "Lo que buscas"
+              "t": "Esto"
             },
             {
-              "t": "a las 3 AM",
-              "serif": true
+              "t": "🌌",
+              "size": 150
             }
           ]
         },
@@ -481,9 +471,8 @@
           "dur": 45
         }
       ],
-      "caption": "Lo que buscas a las 3 AM: cómo hacer tu cuarto aesthetic sin gastar mucho 👀 Respuesta: lámpara atardecer a 29,95 € (-40%). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
-      "status": "pendiente",
-      "theme": "medianoche"
+      "caption": "¿Qué hace esta cajita? 👀 Apaga la luz y tu techo se llena de ondas de luz y estrellas 🌌 Proyector aurora con mando: 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
+      "status": "pendiente"
     },
     {
       "id": "2026-11-21-manana",
@@ -542,45 +531,42 @@
       ],
       "caption": "Tu salón cambia en 3… 2… 1… 🌅 El truco: una lámpara atardecer. USB y sin instalación. -40%: 29,95 €. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
       "status": "pendiente",
-      "theme": "impacto"
+      "theme": "impacto",
+      "producto": "atardecer"
     },
     {
       "id": "2026-11-21-noche",
-      "tema": "Tu setup da pena",
+      "producto": "aurora",
+      "tema": "No es un filtro",
+      "theme": "rotulador",
       "beats": [
         {
           "kind": "photo",
           "dur": 66,
-          "photo": "estudio",
+          "photo": "real",
           "text": [
             {
-              "t": "Tu setup"
+              "t": "No es"
             },
             {
-              "t": "necesita esto",
+              "t": "un filtro.",
               "serif": true,
-              "color": "#FFC94A"
-            },
-            {
-              "t": "🎮",
-              "size": 150
+              "color": "#7EF0C8"
             }
           ]
         },
         {
-          "kind": "room",
-          "dur": 55,
-          "world": "escritorio",
-          "from": 0,
-          "to": 0,
-          "cam": "push",
+          "kind": "product",
+          "dur": 75,
+          "photo": "estudio",
           "text": [
             {
-              "t": "Tu setup"
+              "t": "Es un proyector"
             },
             {
-              "t": "da pena 💀",
-              "serif": true
+              "t": "con mando 📲",
+              "serif": true,
+              "color": "#7EF0C8"
             }
           ]
         },
@@ -593,9 +579,8 @@
           "dur": 45
         }
       ],
-      "caption": "Tu setup da pena 💀… hasta que le pones esto 🌅 Lámpara atardecer -40%: 29,95 €. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
-      "status": "pendiente",
-      "theme": "gamer"
+      "caption": "No es un filtro 🌌 Es un proyector de aurora con mando a distancia: cambias el efecto sin levantarte de la cama. 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
+      "status": "pendiente"
     },
     {
       "id": "2026-11-22-manana",
@@ -648,43 +633,42 @@
       ],
       "caption": "A tu salón le falta algo… 🍿 Noche de peli con luz de atardecer 🌅 -40%: 29,95 €. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
       "status": "pendiente",
-      "theme": "elegante"
+      "theme": "elegante",
+      "producto": "atardecer"
     },
     {
       "id": "2026-11-22-noche",
-      "tema": "¿Cambiar tu cuarto por 29,95 €?",
+      "producto": "aurora",
+      "tema": "Deja de mirar un techo blanco",
+      "theme": "versus",
       "beats": [
         {
           "kind": "photo",
           "dur": 66,
-          "photo": "estudio",
+          "photo": "real",
           "text": [
             {
-              "t": "¿Tu cuarto así"
+              "t": "Deja de mirar"
             },
             {
-              "t": "por 29,95 €?",
+              "t": "un techo blanco",
               "serif": true,
-              "color": "#FFC94A"
+              "color": "#7EF0C8"
             }
           ]
         },
         {
-          "kind": "price",
-          "dur": 85,
-          "price": "29,95 €",
+          "kind": "product",
+          "dur": 75,
+          "photo": "estudio",
           "text": [
             {
-              "t": "¿Cambiar tu cuarto"
+              "t": "Aurora"
             },
             {
-              "t": "por esto?",
-              "serif": true
-            }
-          ],
-          "sub": [
-            {
-              "t": "Sí. Mira 👇"
+              "t": "+ estrellas ✨",
+              "serif": true,
+              "color": "#7EF0C8"
             }
           ]
         },
@@ -697,9 +681,8 @@
           "dur": 45
         }
       ],
-      "caption": "¿Cambiar tu cuarto por 29,95 €? Sí 🌅 Antes un rincón soso, después un atardecer. -40% por Navidad. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
-      "status": "pendiente",
-      "theme": "rotulador"
+      "caption": "Deja de mirar un techo blanco 😴 Aurora y estrellas en movimiento sobre tu techo y paredes 🌌 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
+      "status": "pendiente"
     },
     {
       "id": "2026-11-23-manana",
@@ -758,11 +741,14 @@
       ],
       "caption": "Apaga la luz. Ahora mira… 🌅 Un atardecer en tu pared, donde tú quieras. -40%: 29,95 €. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
       "status": "pendiente",
-      "theme": "galeria"
+      "theme": "galeria",
+      "producto": "atardecer"
     },
     {
       "id": "2026-11-23-noche",
-      "tema": "Cuartos de Pinterest",
+      "producto": "aurora",
+      "tema": "Para quien lo tiene todo",
+      "theme": "pastel",
       "beats": [
         {
           "kind": "photo",
@@ -770,26 +756,27 @@
           "photo": "estudio",
           "text": [
             {
-              "t": "El secreto de los"
+              "t": "Para quien"
             },
             {
-              "t": "cuartos de Pinterest",
+              "t": "lo tiene todo 🎁",
               "serif": true,
-              "color": "#FFC94A"
+              "color": "#7EF0C8"
             }
           ]
         },
         {
-          "kind": "board",
-          "dur": 90,
+          "kind": "product",
+          "dur": 75,
+          "photo": "real",
           "text": [
             {
-              "t": "Cuartos de"
+              "t": "Apagas la luz"
             },
             {
-              "t": "Pinterest",
+              "t": "y…",
               "serif": true,
-              "size": 140
+              "color": "#7EF0C8"
             }
           ]
         },
@@ -802,9 +789,8 @@
           "dur": 45
         }
       ],
-      "caption": "¿El secreto de los cuartos de Pinterest? ✨ Una lámpara atardecer 🌅 -40%: 29,95 €. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
-      "status": "pendiente",
-      "theme": "pastel"
+      "caption": "El regalo para quien lo tiene todo 🎁 Apagas la luz y su cuarto se convierte en una aurora boreal 🌌 Mando incluido. 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
+      "status": "pendiente"
     },
     {
       "id": "2026-11-24-manana",
@@ -853,46 +839,44 @@
       ],
       "caption": "Lo abrí y… 😱 La enchufé y no reconozco mi salón 🌅 El regalo de esta Navidad: -40%, 29,95 €. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
       "status": "pendiente",
-      "theme": "navidad"
+      "theme": "navidad",
+      "producto": "atardecer"
     },
     {
       "id": "2026-11-24-noche",
-      "tema": "¿1 o 2?",
+      "producto": "aurora",
+      "tema": "Menos de 40 €",
+      "theme": "estrella",
       "beats": [
         {
           "kind": "photo",
           "dur": 66,
-          "photo": "estudio",
+          "photo": "real",
           "text": [
             {
-              "t": "Esto en tu pared"
+              "t": "Esto cuesta"
             },
             {
-              "t": "¿sí o no?",
+              "t": "menos de 40 €",
               "serif": true,
-              "color": "#FFC94A"
-            },
-            {
-              "t": "👀",
-              "size": 150
+              "color": "#7EF0C8"
             }
           ]
         },
         {
-          "kind": "split",
-          "dur": 90,
-          "world": "rincon",
+          "kind": "product",
+          "dur": 75,
+          "photo": "estudio",
           "text": [
             {
-              "t": "¿1 o 2?"
+              "t": "Recargable"
             },
             {
-              "t": "Sé sincero",
-              "serif": true
+              "t": "por USB 🔋",
+              "serif": true,
+              "color": "#7EF0C8"
             }
-          ],
-          "a": "1 😴",
-          "b": "2 😍"
+          ]
         },
         {
           "kind": "offer",
@@ -903,9 +887,8 @@
           "dur": 45
         }
       ],
-      "caption": "¿1 o 2? Sé sincero 👀 El 2 cuesta 29,95 € con el -40% 🌅 Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
-      "status": "pendiente",
-      "theme": "versus"
+      "caption": "Esto cuesta menos de 40 € 😳 Proyector aurora recargable por USB y con mando: úsalo donde quieras 🌌 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
+      "status": "pendiente"
     },
     {
       "id": "2026-11-25-manana",
@@ -964,42 +947,42 @@
       ],
       "caption": "Tus fotos con luz normal vs con luz de atardecer 📸🌅 Mismo cuarto, otra vibra. -40%: 29,95 €. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
       "status": "pendiente",
-      "theme": "editorial"
+      "theme": "editorial",
+      "producto": "atardecer"
     },
     {
       "id": "2026-11-25-noche",
-      "tema": "Última oportunidad del -40%",
+      "producto": "aurora",
+      "tema": "Mi cuarto de noche ahora",
+      "theme": "alarma",
       "beats": [
         {
           "kind": "photo",
           "dur": 66,
-          "photo": "estudio",
+          "photo": "real",
           "text": [
             {
-              "t": "Para Navidad:"
+              "t": "Mi cuarto"
             },
             {
-              "t": "pide antes del 2/12",
+              "t": "de noche ahora 🌌",
               "serif": true,
-              "color": "#FFC94A"
-            },
-            {
-              "t": "🎄",
-              "size": 150
+              "color": "#7EF0C8"
             }
           ]
         },
         {
-          "kind": "urgency",
-          "dur": 85,
+          "kind": "product",
+          "dur": 75,
+          "photo": "estudio",
           "text": [
             {
-              "t": "Llega para Navidad"
+              "t": "Ondas de luz"
             },
             {
-              "t": "pidiendo antes del 2/12",
+              "t": "en movimiento",
               "serif": true,
-              "color": "#FFC94A"
+              "color": "#7EF0C8"
             }
           ]
         },
@@ -1012,9 +995,9 @@
           "dur": 45
         }
       ],
-      "caption": "Lámpara LED atardecer a 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
-      "status": "pendiente",
-      "theme": "alarma"
+      "caption": "Así se ve mi cuarto de noche ahora 🌌 Ondas de luz en movimiento en el techo, sin instalación. 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
+      "status": "pendiente"
     }
-  ]
+  ],
+  "hashtags_aurora": "#proyectoraurora #proyectorgalaxia #auroraboreal #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora"
 }
