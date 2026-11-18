@@ -8,7 +8,7 @@ Lo que vende esta lámpara es **ver el efecto de verdad**.
 - **El atardecer en la pared tiene que verse en el primer segundo** (o el clic de encenderla en el segundo 1).
 - Texto grande arriba con el gancho, escrito en la app de TikTok/Instagram (no en el centro, que lo tapa el botón).
 - Usa un **sonido en tendencia** de la propia app (no música de fondo cualquiera).
-- Caption corta + `🎄 Pide antes del 2/12 y llega para Navidad · Link en la bio`.
+- Caption corta + `🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis · Link en la bio`.
 - Publica **2–3 al día en TikTok** y el mejor en Instagram. Responde a TODOS los comentarios (mejor con vídeo).
 - Nada de voz de IA ni etiquetas de IA.
 

@@ -16,7 +16,7 @@ La gente se va a los 3–4 s. Por eso, a partir de ahora:
 - Después, **un solo** beat de historia (máx. 105 fotogramas), luego `offer` (60) y `cta` (45).
 - **Sin voz** (la voz de IA y la etiqueta «Voz generada con IA» restan). No uses `--voz`.
 - Nada de urgencia falsa («última oportunidad», «corre que vuelan»). La urgencia real es la Navidad:
-  añade a cada caption `🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis comprando 2`.
+  añade a cada caption `🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis`.
 
 ## Datos reales del producto (no inventar nada más)
 
