@@ -50,6 +50,14 @@ Cada vídeo es una lista de `beats` (duraciones en fotogramas, 30 fps; total 12�
 - Cada vídeo debe ser **distinto** de los demás: otro lugar (`world`), otro tipo de gancho,
   otra historia. Lugares: `dormitorio`, `tiras` (cuarto con tiras LED moradas), `escritorio`,
   `salon`, `rincon`. De día son sosos (no oscuros); al encender la lámpara, todo se vuelve cálido.
+- **Cada vídeo con su propio `theme`** (tipografía, animación del texto, colores,
+  transiciones, diseño de oferta y final). Temas en `THEMES` de `src/Reel2/Reel2.tsx`:
+  `medianoche`, `impacto`, `gamer`, `elegante`, `rotulador`, `galeria`, `pastel`, `navidad`,
+  `versus`, `editorial`, `alarma`, `clasico`. No repetir el tema de los 3 vídeos anteriores.
+- Las preguntas de intriga van con `tease` sobre un **plano cercano** distinto cada vez
+  (`world` + `focus`: sofa, cojines, palomitas, cuadro, mesita, planta, cama, almohadas,
+  ventana, mesilla, pared, estanteria, monitor, taza, libros, silla, tablero, butaca,
+  taburete, tiras). Sin barras, contadores ni «?» de relleno.
 - **Sin subtítulos**: el texto va grande y bonito en la propia escena (`text`). Líneas cortas
   (2–4 palabras); la palabra clave en cursiva elegante con `"serif": true` y color `#FFC94A`
   (dorado) o `#E8401C` (rojo). Emojis grandes con `"size": 150`.
