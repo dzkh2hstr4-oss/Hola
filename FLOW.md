@@ -24,11 +24,22 @@ con clips realistas de **Google Flow** que graba el dueño, montados en el estil
 
 ## Cómo escribir los guiones
 
-- **Gancho en 1 s**, escrito arriba en etiquetas blancas (2 líneas cortas). Formatos que funcionan:
-  «POV: …», «Apaga la luz y…», «¿cuál pongo esta noche?», «X vs con esto», «el regalo que…».
-- **Estructura**: toma 1 (gancho, 2–2,5 s) → 3–4 tomas numeradas 1, 2, 3… (1,4–1,8 s cada una) →
-  final 2,5 s con «comenta 1, 2 o 3 💬» + botón «Cómpralo en mi bio». Total 8–12 s.
-- Las opciones numeradas deben ser cosas que el producto **hace de verdad**:
+- **Gancho en 1 s**, escrito arriba en etiquetas blancas (2 líneas cortas).
+- **CADA VÍDEO CON UN GANCHO Y UN FORMATO DISTINTOS.** El «1, 2, 3, 4 / comenta cuál» YA SE USÓ: no repetirlo.
+  Antes de escribir, mira la lista «Ganchos ya usados» (abajo) y no repitas ninguno ni su formato en los
+  últimos 10 vídeos. Añade los nuevos a la lista.
+- Formatos para ir rotando (uno distinto cada vez):
+  antes/después · POV de una situación («POV: tu madre entra a tu cuarto a las 12») · pregunta que intriga
+  («¿esto es un cuarto o un planetario?») · adivina el precio («¿cuánto crees que cuesta? 👇» → precio) ·
+  «espera al final 👀» · unboxing (caja → enchufar → efecto) · rutina de noche · truco de decoración
+  («el truco de los cuartos de Pinterest») · polémica suave («las tiras LED ya pasaron de moda») ·
+  regalo («si no sabes qué regalar esta Navidad…») · fotos («tus fotos con flash vs con esto») ·
+  setup gamer/escritorio · cita en casa / noche de peli · sonido satisfactorio del clic · reto
+  («dime un cuarto más bonito que este») · comparativa con otra luz · «cosas que no sabías que necesitabas».
+- **Estructura**: toma 1 (gancho, 2–2,5 s) → 2–3 tomas con su texto (`texto` en el JSON; `numero` solo si el
+  formato lo pide) → final 2–2,5 s con el botón «Cómpralo en mi bio» y, si encaja, una pregunta para
+  comentar (`comenta`). Total 8–12 s.
+- Todo lo que se enseñe debe ser algo que el producto **hace de verdad**:
   - **Proyector aurora**: aurora verde, galaxia morada, ondas azules, cielo de estrellas; mando a distancia;
     recargable por USB; cubo blanco de 10 cm. 39,95 € (antes 64,95 €).
   - **Lámpara atardecer**: círculo naranja de atardecer en pared/techo/detrás de la cama, lámpara de pie
@@ -39,3 +50,9 @@ con clips realistas de **Google Flow** que graba el dueño, montados en el estil
   pasa en 8 s. Recomendar al dueño usar **Frames to Video / Ingredients con la foto real del producto**
   (`public/aurora.jpg`, `public/lampara.jpg`) para que el producto salga igual que el real.
 - Cada guion distinto del anterior (otro gancho, otro sitio).
+
+## Ganchos ya usados (no repetir)
+
+- «POV: por fin llegó el proyector de TikTok / ¿cuál pongo esta noche? 1, 2, 3, 4» (vídeo del dueño, 18/11)
+- 2026-11-19-1 · aurora · «¿Esto es un cuarto / o un planetario? 🌌» (pregunta que intriga)
+- 2026-11-19-2 · atardecer · «Mi cuarto antes… / y ahora 🌅» (antes/después)
