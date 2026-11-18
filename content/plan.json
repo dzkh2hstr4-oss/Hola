@@ -1,0 +1,194 @@
+{
+  "voz": {
+    "motor": "Higgsfield text2speech_v2, variant elevenlabs",
+    "voice_id": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+    "nombre": "Callum",
+    "nota": "Unir las frases de 'say' con un espacio; cada frase termina en . ! ? o … para que haya pausa entre ellas."
+  },
+  "hashtags_base": "#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora",
+  "videos": [
+    {
+      "id": "2026-11-19-manana",
+      "tema": "POV transformación en 1 segundo",
+      "lines": [
+        { "say": "POV: tu habitación pasa de aburrida… a esto.", "scene": { "type": "hook", "text": "POV: TU CUARTO EN 1 SEGUNDO" } },
+        { "say": "Solo enchufas esta lámpara… y ¡boom!", "scene": { "type": "lampOn", "text": "Solo la enchufas…", "textAfter": "¡BOOM! 🌅" } },
+        { "say": "¡Mira el antes y el después, es otro cuarto!", "scene": { "type": "beforeAfter", "text": "¿Es el mismo cuarto?" } },
+        { "say": "Y ahora con un cuarenta por ciento de descuento. ¡Veintinueve noventa y cinco!", "scene": { "type": "offer" } },
+        { "say": "¡Corre, tienes el link en la bio!", "scene": { "type": "cta" } }
+      ],
+      "caption": "POV: tu cuarto pasa de aburrido a aesthetic en 1 segundo 🌅 Lámpara LED atardecer, USB y sin instalación. -40% por Navidad: 29,95 € (antes 49,95 €). Link en la bio 🔗",
+      "status": "pendiente"
+    },
+    {
+      "id": "2026-11-19-noche",
+      "tema": "Si tu cuarto se ve así de noche",
+      "lines": [
+        { "say": "Si tu cuarto se ve así de noche… tenemos que hablar.", "scene": { "type": "hook", "text": "¿TU CUARTO SE VE ASÍ DE NOCHE?" } },
+        { "say": "¡Pero tiene arreglo!", "scene": { "type": "slam", "text": "ESTO TIENE ARREGLO" } },
+        { "say": "La lámpara LED atardecer. Un atardecer en tu pared, todo el año.", "scene": { "type": "product", "text": "Lámpara LED atardecer" } },
+        { "say": "La enciendes… ¡y mira qué ambientazo!", "scene": { "type": "lampOn", "text": "La enciendes…", "textAfter": "¡QUÉ AMBIENTAZO! ✨" } },
+        { "say": "Antes cuarenta y nueve noventa y cinco… ¡ahora veintinueve noventa y cinco!", "scene": { "type": "offer" } },
+        { "say": "¡Link en la bio, que vuela!", "scene": { "type": "cta" } }
+      ],
+      "caption": "Si tu cuarto se ve así de noche… tenemos que hablar 😅🌅 Lámpara LED atardecer con un -40%: 29,95 €. Link en la bio 🔗",
+      "status": "pendiente"
+    },
+    {
+      "id": "2026-11-20-manana",
+      "tema": "El regalo que nadie espera",
+      "lines": [
+        { "say": "¿Buscas un regalo de Navidad que nadie se espera… pero que todos quieren?", "scene": { "type": "gift", "text": "EL REGALO QUE TODOS QUIEREN 🎁" } },
+        { "say": "Es esta. La lámpara que pone un atardecer en tu pared.", "scene": { "type": "product", "text": "Un atardecer en tu pared" } },
+        { "say": "Para estudiar, para fotos, para relajarte… ¡sirve para todo!", "scene": { "type": "uses", "text": "Perfecta para…", "items": ["📚 Estudiar", "📸 Fotos", "😌 Relajarte", "🎮 Gaming"] } },
+        { "say": "Y ahora a veintinueve noventa y cinco. ¡Un cuarenta por ciento menos!", "scene": { "type": "offer" } },
+        { "say": "¡Pídela ya, link en la bio!", "scene": { "type": "cta" } }
+      ],
+      "caption": "El regalo de Navidad que nadie espera… y todos quieren 🎁🌅 -40%: 29,95 €. Link en la bio 🔗",
+      "status": "pendiente"
+    },
+    {
+      "id": "2026-11-20-noche",
+      "tema": "3 razones",
+      "lines": [
+        { "say": "Tres razones para tener esta lámpara. ¡La tercera te va a encantar!", "scene": { "type": "hookLit", "text": "3 RAZONES PARA TENERLA" } },
+        { "say": "Uno: un atardecer todo el año. Dos: solo la conectas por USB. Tres: es el regalo perfecto.", "scene": { "type": "uses", "text": "Las razones:", "items": ["1️⃣ Atardecer todo el año", "2️⃣ Solo USB", "3️⃣ Regalo perfecto 🎁"] } },
+        { "say": "Mira cómo cambia todo cuando la enciendes.", "scene": { "type": "lampOn", "text": "Mira esto…", "textAfter": "¡OTRO NIVEL! 🔥" } },
+        { "say": "¡Y encima con un cuarenta por ciento de descuento!", "scene": { "type": "offer" } },
+        { "say": "Link en la bio. ¡No te quedes sin ella!", "scene": { "type": "cta" } }
+      ],
+      "caption": "3 razones para tener una lámpara atardecer 🌅 1) atardecer todo el año 2) solo USB 3) regalo perfecto. -40%: 29,95 €. Link en la bio 🔗",
+      "status": "pendiente"
+    },
+    {
+      "id": "2026-11-21-manana",
+      "tema": "¿Sabías que…?",
+      "lines": [
+        { "say": "¿Sabías que puedes tener un atardecer en tu pared… a cualquier hora?", "scene": { "type": "hook", "text": "¿SABÍAS QUE ESTO EXISTE?" } },
+        { "say": "Pues sí. Mira esto.", "scene": { "type": "lampOn", "text": "Mira…", "textAfter": "¡A CUALQUIER HORA! 🌅" } },
+        { "say": "Así queda en una habitación de verdad. ¡Increíble!", "scene": { "type": "photo", "text": "Así queda de verdad", "photo": "real" } },
+        { "say": "Hoy la tienes a veintinueve noventa y cinco, en vez de cuarenta y nueve noventa y cinco.", "scene": { "type": "offer" } },
+        { "say": "¡Corre al link de la bio!", "scene": { "type": "cta" } }
+      ],
+      "caption": "¿Sabías que puedes tener un atardecer en tu pared a cualquier hora? 🌅 Lámpara LED atardecer -40%: 29,95 €. Link en la bio 🔗",
+      "status": "pendiente"
+    },
+    {
+      "id": "2026-11-21-noche",
+      "tema": "Antes y después",
+      "lines": [
+        { "say": "Antes y después de comprar esta lámpara. ¡Fíjate bien!", "scene": { "type": "beforeAfter", "text": "ANTES VS DESPUÉS" } },
+        { "say": "De un cuarto aburrido… a un cuarto de película.", "scene": { "type": "hookLit", "text": "DE ABURRIDO A DE PELÍCULA 🎬" } },
+        { "say": "Es la lámpara LED atardecer. Se conecta por USB y ya está.", "scene": { "type": "product", "text": "USB · Sin instalación" } },
+        { "say": "¡Y ahora con un cuarenta por ciento menos!", "scene": { "type": "offer" } },
+        { "say": "La tienes en el link de la bio.", "scene": { "type": "cta" } }
+      ],
+      "caption": "Antes y después 😴➡️🔥 Lámpara LED atardecer, USB y sin instalación. -40%: 29,95 €. Link en la bio 🔗",
+      "status": "pendiente"
+    },
+    {
+      "id": "2026-11-22-manana",
+      "tema": "Deja de scrollear",
+      "lines": [
+        { "say": "¡Para! Deja de scrollear un segundo.", "scene": { "type": "slam", "text": "DEJA DE SCROLLEAR" } },
+        { "say": "Mira tu pared. ¿Gris? ¿Sosa? ¿Aburrida?", "scene": { "type": "hook", "text": "MIRA TU PARED 👀" } },
+        { "say": "Ahora imagínala así.", "scene": { "type": "lampOn", "text": "Ahora imagínala…", "textAfter": "¡ASÍ! 🌅" } },
+        { "say": "Cuarenta por ciento de descuento. ¡Solo veintinueve noventa y cinco!", "scene": { "type": "offer" } },
+        { "say": "¡Link en la bio, venga!", "scene": { "type": "cta" } }
+      ],
+      "caption": "Deja de scrollear y mira tu pared 👀 ¿Y si fuera un atardecer? 🌅 -40%: 29,95 €. Link en la bio 🔗",
+      "status": "pendiente"
+    },
+    {
+      "id": "2026-11-22-noche",
+      "tema": "Cuarto para fotos",
+      "lines": [
+        { "say": "¿Quieres fotos aesthetic sin salir de tu cuarto?", "scene": { "type": "hookLit", "text": "FOTOS AESTHETIC EN TU CUARTO 📸" } },
+        { "say": "Con esta luz, todo sale mil veces mejor.", "scene": { "type": "photo", "text": "Esta luz lo cambia todo", "photo": "estudio" } },
+        { "say": "Selfies, TikToks, fotos… ¡lo que quieras!", "scene": { "type": "uses", "text": "Perfecta para…", "items": ["🤳 Selfies", "🎥 TikToks", "📸 Fotos", "✨ Stories"] } },
+        { "say": "Y ahora con un cuarenta por ciento menos: ¡veintinueve noventa y cinco!", "scene": { "type": "offer" } },
+        { "say": "¡Link en la bio!", "scene": { "type": "cta" } }
+      ],
+      "caption": "Fotos aesthetic sin salir de tu cuarto 📸🌅 Lámpara LED atardecer -40%: 29,95 €. Link en la bio 🔗",
+      "status": "pendiente"
+    },
+    {
+      "id": "2026-11-23-manana",
+      "tema": "Lo que tu cuarto necesita en Navidad",
+      "lines": [
+        { "say": "Esto es lo que tu cuarto necesita esta Navidad.", "scene": { "type": "gift", "text": "LO QUE TU CUARTO NECESITA 🎄" } },
+        { "say": "La pones en la mesilla, la enciendes… ¡y magia!", "scene": { "type": "lampOn", "text": "La enciendes…", "textAfter": "¡MAGIA! ✨" } },
+        { "say": "Un atardecer en tu pared, todo el año.", "scene": { "type": "product", "text": "Atardecer todo el año", "photo": "estudio" } },
+        { "say": "¡Cuarenta por ciento de descuento solo por Navidad!", "scene": { "type": "offer" } },
+        { "say": "Pídela en el link de la bio.", "scene": { "type": "cta" } }
+      ],
+      "caption": "Lo que tu cuarto necesita esta Navidad 🎄🌅 -40%: 29,95 €. Link en la bio 🔗",
+      "status": "pendiente"
+    },
+    {
+      "id": "2026-11-23-noche",
+      "tema": "¿Error de precio?",
+      "lines": [
+        { "say": "¿Cuarenta por ciento menos? ¿Es un error?", "scene": { "type": "slam", "text": "¿-40%? ¿ERROR?" } },
+        { "say": "No. Es la oferta de Navidad de esta lámpara.", "scene": { "type": "product", "text": "Oferta de Navidad 🎄" } },
+        { "say": "Mira lo que hace en tu cuarto.", "scene": { "type": "lampOn", "text": "Mira lo que hace…", "textAfter": "🤯🌅" } },
+        { "say": "De cuarenta y nueve noventa y cinco… ¡a veintinueve noventa y cinco!", "scene": { "type": "offer" } },
+        { "say": "¡Antes de que se acabe, link en la bio!", "scene": { "type": "cta" } }
+      ],
+      "caption": "¿-40%? No es un error, es la oferta de Navidad 🎄 Lámpara LED atardecer a 29,95 € (antes 49,95 €). Link en la bio 🔗",
+      "status": "pendiente"
+    },
+    {
+      "id": "2026-11-24-manana",
+      "tema": "Cosas que hacen tu cuarto aesthetic",
+      "lines": [
+        { "say": "Cosas que hacen tu cuarto aesthetic. Número uno…", "scene": { "type": "hookLit", "text": "COSAS QUE HACEN TU CUARTO AESTHETIC" } },
+        { "say": "¡La lámpara de atardecer!", "scene": { "type": "product", "text": "Nº1: Lámpara atardecer 🌅" } },
+        { "say": "Mira la diferencia, es brutal.", "scene": { "type": "beforeAfter", "text": "La diferencia 👀" } },
+        { "say": "Y ahora con un cuarenta por ciento de descuento.", "scene": { "type": "offer" } },
+        { "say": "La tienes en el link de la bio.", "scene": { "type": "cta" } }
+      ],
+      "caption": "Cosas que hacen tu cuarto aesthetic: nº1, la lámpara atardecer 🌅 -40%: 29,95 €. Link en la bio 🔗",
+      "status": "pendiente"
+    },
+    {
+      "id": "2026-11-24-noche",
+      "tema": "Noche de peli",
+      "lines": [
+        { "say": "Noche de peli más esta luz… igual a plan perfecto.", "scene": { "type": "hook", "text": "NOCHE DE PELI + ESTA LUZ = 🍿" } },
+        { "say": "Apagas la luz, enciendes la lámpara… ¡y ambientazo!", "scene": { "type": "lampOn", "text": "Apagas la luz…", "textAfter": "¡AMBIENTAZO! 🍿" } },
+        { "say": "Para pelis, para relajarte, para estudiar… ¡para todo!", "scene": { "type": "uses", "text": "Para…", "items": ["🍿 Pelis", "😌 Relax", "📚 Estudiar", "💤 Dormir"] } },
+        { "say": "¡Solo veintinueve noventa y cinco por tiempo limitado!", "scene": { "type": "offer" } },
+        { "say": "¡Link en la bio!", "scene": { "type": "cta" } }
+      ],
+      "caption": "Noche de peli + luz de atardecer = plan perfecto 🍿🌅 -40%: 29,95 €. Link en la bio 🔗",
+      "status": "pendiente"
+    },
+    {
+      "id": "2026-11-25-manana",
+      "tema": "Si se lo regalas…",
+      "lines": [
+        { "say": "Si regalas esto en Navidad… te deben una muy grande.", "scene": { "type": "gift", "text": "SI REGALAS ESTO… 🎁" } },
+        { "say": "La lámpara LED atardecer. Todo el mundo la quiere.", "scene": { "type": "product", "text": "Todo el mundo la quiere" } },
+        { "say": "Mira la cara que va a poner cuando la encienda.", "scene": { "type": "lampOn", "text": "Cuando la encienda…", "textAfter": "😍🌅" } },
+        { "say": "¡Y ahora a solo veintinueve noventa y cinco!", "scene": { "type": "offer" } },
+        { "say": "¡Corre, link en la bio!", "scene": { "type": "cta" } }
+      ],
+      "caption": "Si regalas esto en Navidad, te deben una muy grande 🎁🌅 Lámpara LED atardecer -40%: 29,95 €. Link en la bio 🔗",
+      "status": "pendiente"
+    },
+    {
+      "id": "2026-11-25-noche",
+      "tema": "Último aviso",
+      "lines": [
+        { "say": "¡Último aviso!", "scene": { "type": "slam", "text": "ÚLTIMO AVISO" } },
+        { "say": "La oferta del cuarenta por ciento no va a durar.", "scene": { "type": "offer", "text": "LA OFERTA SE ACABA" } },
+        { "say": "La lámpara que convierte tu cuarto en un atardecer.", "scene": { "type": "product", "text": "Tu cuarto, un atardecer 🌅", "photo": "estudio" } },
+        { "say": "Enciéndela… y disfruta.", "scene": { "type": "lampOn", "text": "Enciéndela…", "textAfter": "…y disfruta ✨" } },
+        { "say": "¡Pídela ya en el link de la bio!", "scene": { "type": "cta" } }
+      ],
+      "caption": "Último aviso ⏳ La oferta del -40% no va a durar: lámpara LED atardecer a 29,95 €. Link en la bio 🔗",
+      "status": "pendiente"
+    }
+  ]
+}
