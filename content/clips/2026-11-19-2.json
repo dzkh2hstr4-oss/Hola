@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-19-2",
+  "producto": "atardecer",
+  "status": "esperando-clips",
+  "gancho": ["Tu cuarto a las 7 de la tarde", "vs con esto 🌅"],
+  "ganchoSegundos": 2.5,
+  "pregunta": ["¿dónde la pongo? 👇"],
+  "comenta": "comenta 1, 2 o 3 💬",
+  "boton": "Cómprala en mi bio",
+  "finalSegundos": 2.5,
+  "clips": [
+    { "archivo": "entrada/2026-11-19-2/1.mp4", "segundos": 2.5 },
+    { "archivo": "entrada/2026-11-19-2/2.mp4", "segundos": 1.6, "numero": "1" },
+    { "archivo": "entrada/2026-11-19-2/3.mp4", "segundos": 1.6, "numero": "2" },
+    { "archivo": "entrada/2026-11-19-2/4.mp4", "segundos": 1.6, "numero": "3" },
+    { "archivo": "entrada/2026-11-19-2/1.mp4", "segundos": 2.5, "desde": 5 }
+  ],
+  "caption": "Tu cuarto a las 7 de la tarde vs con esto 🌅 ¿Dónde la pondrías: 1, 2 o 3? Lámpara atardecer USB, sin instalación. 29,95 € (antes 49,95 €) · Envío gratis. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad\n\n#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora"
+}

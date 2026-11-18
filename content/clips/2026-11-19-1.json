@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-19-1",
+  "producto": "aurora",
+  "status": "esperando-clips",
+  "gancho": ["Apaga la luz", "y mira tu techo 👀"],
+  "ganchoSegundos": 2.5,
+  "pregunta": ["¿cuál pongo esta noche? 👇"],
+  "comenta": "comenta 1, 2 o 3 💬",
+  "boton": "Cómpralo en mi bio",
+  "finalSegundos": 2.5,
+  "clips": [
+    { "archivo": "entrada/2026-11-19-1/1.mp4", "segundos": 2.5 },
+    { "archivo": "entrada/2026-11-19-1/2.mp4", "segundos": 1.6, "numero": "1" },
+    { "archivo": "entrada/2026-11-19-1/3.mp4", "segundos": 1.6, "numero": "2" },
+    { "archivo": "entrada/2026-11-19-1/4.mp4", "segundos": 1.6, "numero": "3" },
+    { "archivo": "entrada/2026-11-19-1/1.mp4", "segundos": 2.5, "desde": 4 }
+  ],
+  "caption": "Apaga la luz y mira tu techo 👀🌌 ¿Cuál pondrías tú: 1, 2 o 3? Proyector aurora con mando, recargable por USB. 39,95 € (antes 64,95 €) · Envío gratis. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad\n\n#proyectoraurora #auroraboreal #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora"
+}

@@ -2,6 +2,7 @@ import { Composition } from "remotion";
 import { Anuncio, ANUNCIO_DURATION } from "./Anuncio/Anuncio";
 import { QP_DURATION, QuePrefieres } from "./QuePrefieres/QuePrefieres";
 import { defaultReelProps, Reel, ReelProps } from "./Reel/Reel";
+import { Clips, ClipsProps, clipsDuration, defaultClipsProps } from "./Clips/Clips";
 import { defaultReel2Props, Reel2, Reel2Props, reel2Duration } from "./Reel2/Reel2";
 import { DURATION, FPS, H, W } from "./Lumora/common";
 import { Video1 } from "./Lumora/Video1";
@@ -10,6 +11,16 @@ import { Video2 } from "./Lumora/Video2";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="Clips"
+        component={Clips}
+        durationInFrames={240}
+        fps={FPS}
+        width={W}
+        height={H}
+        defaultProps={defaultClipsProps}
+        calculateMetadata={({ props }: { props: ClipsProps }) => ({ durationInFrames: Math.max(1, clipsDuration(props)) })}
+      />
       <Composition
         id="Reel2"
         component={Reel2}

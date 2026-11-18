@@ -8,3 +8,7 @@ out
 
 # daily build intermediates
 public/daily
+
+# raw clips from Google Flow and their normalized copies
+entrada
+public/clips
