@@ -10,7 +10,7 @@ Rama de trabajo: `claude/practical-fermi-g5yl5j` (rama por defecto del repo).
 - Lámpara LED que proyecta un círculo de atardecer en la pared.
 - Se conecta por **USB**, **sin instalación**.
 - Precio: **antes 49,95 €, ahora 29,95 €** (−40 %, oferta de Navidad).
-- Marca **Lumora**. Compra: **link en la bio**.
+- Marca **Lumora**. Compra: **link en la bio**. Cuenta de Instagram donde se publica: **lumora.esst** (id 17841422628356887).
 - Fotos reales: `public/lampara-real.jpg` (`photo: "real"`) y `public/lampara.jpg` (`photo: "estudio"`).
 - Prohibido inventar características, reseñas, cifras de ventas o testimonios.
 
@@ -34,7 +34,7 @@ Rama de trabajo: `claude/practical-fermi-g5yl5j` (rama por defecto del repo).
 7. URL: `https://cdn.jsdelivr.net/gh/dzkh2hstr4-oss/Hola@<SHA>/publicados/<ID>.mp4`
    (comprueba con `curl -sI`: 200 y `video/mp4`).
 8. **Instagram** (Windsor.ai): `execute_action` con `connector="instagram"`,
-   `account="17841466665010853"`, `action="create_video_post"`,
+   `account="17841422628356887"`, `action="create_video_post"`,
    `params={"video_url": <URL>, "caption": <caption + "\n\n" + hashtags_base (+ "\n🔊 Voz generada con IA" si lleva voz)>, "share_to_feed": true}`.
 9. Marca la entrada `"status": "publicado"` con `publicado_en` y el id de Instagram; commit + push.
 10. **TikTok**: la conexión no permite publicar. Deja en el resumen la URL y la caption.
