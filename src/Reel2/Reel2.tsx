@@ -45,6 +45,9 @@ export type Beat =
   | { kind: "photo"; dur: number; text: TLine[]; photo?: "real" | "estudio" }
   | { kind: "montage"; dur: number; text: TLine[]; worlds: WorldName[] }
   | { kind: "urgency"; dur: number; text: TLine[] }
+  | { kind: "tease"; dur: number; text: TLine[]; sub?: TLine[]; world?: WorldName; lit?: number }
+  | { kind: "mystery"; dur: number; text: TLine[]; sub?: TLine[] }
+  | { kind: "checklist"; dur: number; text: TLine[]; items: { t: string; ok: boolean }[]; world?: WorldName; lit?: number }
   | { kind: "offer"; dur: number; top?: string }
   | { kind: "cta"; dur: number; text?: string };
 
@@ -547,6 +550,107 @@ const UrgencyBeat: React.FC<{ b: Extract<Beat, { kind: "urgency" }>; first: bool
   );
 };
 
+
+/** Big intriguing question over a slowly drifting, softened place. */
+const TeaseBeat: React.FC<{ b: Extract<Beat, { kind: "tease" }>; first: boolean }> = ({ b, first }) => {
+  const t = useCurrentFrame();
+  const p = t / b.dur;
+  return (
+    <AbsoluteFill style={{ overflow: "hidden", background: "#000" }}>
+      {b.world ? (
+        <AbsoluteFill style={{ transform: `scale(${1.15 + p * 0.12}) rotate(${-1 + p * 2}deg)`, filter: "blur(7px) brightness(0.42) saturate(0.8)" }}>
+          <World name={b.world} lit={b.lit ?? 0} id={`tease-${b.world}`} />
+        </AbsoluteFill>
+      ) : (
+        <AbsoluteFill style={{ background: "radial-gradient(circle at 50% 40%, #3a2a24, #0e0a09)" }} />
+      )}
+      {/* floating question marks */}
+      {new Array(9).fill(0).map((_, i) => {
+        const x = 80 + random(`qx${i}`) * 900;
+        const y = 1700 - ((t * (2 + random(`qv${i}`) * 3) + random(`qy${i}`) * 1700) % 1700);
+        return (
+          <div key={i} style={{ position: "absolute", left: x, top: y, fontFamily: SERIF, fontStyle: "italic", fontWeight: 900, fontSize: 90 + random(`qs${i}`) * 120, color: GOLD, opacity: 0.18, transform: `rotate(${(random(`qr${i}`) - 0.5) * 40}deg)` }}>?</div>
+        );
+      })}
+      <BigText lines={b.text} pos="center" instant={first} />
+      {b.sub ? (
+        <Sequence from={Math.min(18, Math.round(b.dur * 0.3))}>
+          <div style={{ position: "absolute", left: 0, right: 0, top: 1330, zIndex: 21 }}>
+            <BigText lines={b.sub.map((l) => ({ ...l, size: l.size ?? 62 }))} pos="top" />
+          </div>
+        </Sequence>
+      ) : null}
+      {/* "something is coming" bar */}
+      <div style={{ position: "absolute", left: 140, right: 140, bottom: 260, height: 10, borderRadius: 5, background: "rgba(255,255,255,0.18)", zIndex: 21 }}>
+        <div style={{ width: `${p * 100}%`, height: "100%", borderRadius: 5, background: GOLD }} />
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+/** The product hidden behind blur + a big pulsing question mark. */
+const MysteryBeat: React.FC<{ b: Extract<Beat, { kind: "mystery" }>; first: boolean }> = ({ b, first }) => {
+  const t = useCurrentFrame();
+  const p = t / b.dur;
+  const pulse = 1 + 0.08 * Math.sin(t / 4);
+  const blur = interpolate(p, [0, 1], [38, 18]);
+  return (
+    <AbsoluteFill style={{ overflow: "hidden", background: "radial-gradient(circle at 50% 50%, #3a1a0c, #050302)" }}>
+      <div style={{ position: "absolute", left: 540 - 300, top: 560, width: 600, height: 800, borderRadius: 40, overflow: "hidden", filter: `blur(${blur}px) brightness(0.45)`, transform: `scale(${1 + p * 0.06})` }}>
+        <Img src={staticFile("lampara-real.jpg")} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+      </div>
+      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", zIndex: 18 }}>
+        <div style={{ marginTop: 120, fontFamily: SERIF, fontStyle: "italic", fontWeight: 900, fontSize: 420, color: GOLD, transform: `scale(${pulse}) rotate(${Math.sin(t / 9) * 6}deg)`, textShadow: "0 0 60px rgba(255,180,60,0.6)" }}>?</div>
+      </AbsoluteFill>
+      <BigText lines={b.text} instant={first} />
+      {b.sub ? (
+        <Sequence from={14}>
+          <div style={{ position: "absolute", left: 0, right: 0, top: 1420, zIndex: 21 }}>
+            <BigText lines={b.sub.map((l) => ({ ...l, size: l.size ?? 62 }))} pos="top" />
+          </div>
+        </Sequence>
+      ) : null}
+      <div style={{ position: "absolute", left: 160, right: 160, top: 1640, zIndex: 21, textAlign: "center", fontFamily, fontWeight: 800, fontSize: 34, color: "#fff", letterSpacing: 6 }}>
+        REVELANDO… {Math.round(p * 100)}%
+        <div style={{ marginTop: 14, height: 14, borderRadius: 7, background: "rgba(255,255,255,0.2)", overflow: "hidden" }}>
+          <div style={{ width: `${p * 100}%`, height: "100%", background: `linear-gradient(90deg, ${GOLD}, ${RED})` }} />
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+/** Title + items that land one by one with ✅ / ❌. */
+const ChecklistBeat: React.FC<{ b: Extract<Beat, { kind: "checklist" }>; first: boolean }> = ({ b, first }) => {
+  const t = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const gap = Math.max(10, Math.floor((b.dur - 20) / (b.items.length + 1)));
+  return (
+    <AbsoluteFill style={{ overflow: "hidden", background: "#000" }}>
+      <AbsoluteFill style={{ transform: `scale(${1.2 + t * 0.001})`, filter: "blur(9px) brightness(0.42)" }}>
+        <World name={b.world ?? "dormitorio"} lit={b.lit ?? 0} id={`chk-${b.world}`} />
+      </AbsoluteFill>
+      <BigText lines={b.text} instant={first} />
+      <div style={{ position: "absolute", top: 640, left: 80, right: 80, display: "flex", flexDirection: "column", gap: 36, zIndex: 20 }}>
+        {b.items.map((it, i) => {
+          const at = 8 + i * gap;
+          const s = spring({ frame: t - at, fps, config: { damping: 11, stiffness: 190 } });
+          const strike = it.ok ? 0 : interpolate(t - at, [6, 14], [0, 1], clamp);
+          return (
+            <div key={i} style={{ display: "flex", alignItems: "center", gap: 28, background: it.ok ? "rgba(255,255,255,0.95)" : "rgba(30,20,18,0.85)", borderRadius: 30, padding: "22px 30px", transform: `translateX(${(1 - s) * (i % 2 ? 900 : -900)}px) rotate(${i % 2 ? 1.5 : -1.5}deg)`, boxShadow: "0 18px 40px rgba(0,0,0,0.35)" }}>
+              <div style={{ fontSize: 72 }}>{it.ok ? "✅" : "❌"}</div>
+              <div style={{ position: "relative", fontFamily, fontWeight: 900, fontSize: 58, color: it.ok ? INK : "#fff", lineHeight: 1.05 }}>
+                {it.t}
+                {!it.ok ? <div style={{ position: "absolute", left: -6, top: "52%", height: 8, width: `${strike * 104}%`, background: RED, borderRadius: 4 }} /> : null}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 const Burst: React.FC<{ size: number; color: string; rot: number }> = ({ size, color, rot }) => {
   const pts = new Array(32)
     .fill(0)
@@ -646,6 +750,12 @@ const BeatView: React.FC<{ b: Beat; first: boolean }> = ({ b, first }) => {
       return <MontageBeat b={b} first={first} />;
     case "urgency":
       return <UrgencyBeat b={b} first={first} />;
+    case "tease":
+      return <TeaseBeat b={b} first={first} />;
+    case "mystery":
+      return <MysteryBeat b={b} first={first} />;
+    case "checklist":
+      return <ChecklistBeat b={b} first={first} />;
     case "offer":
       return <OfferBeat b={b} />;
     case "cta":
@@ -720,6 +830,18 @@ const sfxFor = (b: Beat, from: number): [number, string, number][] => {
       for (let i = 0; i < L; i += 15) out.push([from + i, i % 30 ? "tock.wav" : "tick.wav", 0.45]);
       out.push([from, "heart.wav", 0.5]);
       break;
+    case "tease":
+      out.push([from, "boom.wav", 0.28], [from + 2, "heart.wav", 0.45]);
+      if (b.sub) out.push([from + Math.min(18, Math.round(L * 0.3)), "pop.wav", 0.35]);
+      break;
+    case "mystery":
+      out.push([from, "zap.wav", 0.3], [from + 4, "riser.wav", 0.35], [from + 30, "heart.wav", 0.5]);
+      break;
+    case "checklist": {
+      const gap = Math.max(10, Math.floor((L - 20) / (b.items.length + 1)));
+      b.items.forEach((it, i) => out.push([from + 8 + i * gap, it.ok ? "ding.wav" : "zap.wav", it.ok ? 0.3 : 0.35], [from + 8 + i * gap, "pop.wav", 0.3]));
+      break;
+    }
     case "offer":
       out.push([from - 30, "riser.wav", 0.3], [from + 10, "boom.wav", 0.5], [from + 22, "ding.wav", 0.4]);
       break;
