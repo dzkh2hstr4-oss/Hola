@@ -8,6 +8,116 @@
   "hashtags_base": "#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora",
   "videos": [
     {
+      "id": "especial-tiras-led",
+      "tema": "Especial con voz: tiras LED caducadas",
+      "theme": "clasico",
+      "beats": [
+        {
+          "kind": "strips",
+          "dur": 150,
+          "text": [
+            {
+              "t": "¿Todavía con"
+            },
+            {
+              "t": "tiras LED?",
+              "serif": true
+            }
+          ],
+          "stamp": "CADUCADO",
+          "textAfter": [
+            {
+              "t": "Ahora todo el mundo"
+            },
+            {
+              "t": "tiene esto",
+              "serif": true,
+              "size": 150
+            }
+          ]
+        },
+        {
+          "kind": "tease",
+          "dur": 60,
+          "world": "salon",
+          "focus": "sofa",
+          "lit": 0,
+          "text": [
+            {
+              "t": "¿Sabes"
+            },
+            {
+              "t": "qué es?",
+              "serif": true
+            }
+          ]
+        },
+        {
+          "kind": "room",
+          "dur": 100,
+          "world": "salon",
+          "from": 0,
+          "to": 1,
+          "switchAt": 43,
+          "text": [
+            {
+              "t": "Lo enciendes y…"
+            }
+          ],
+          "textAfter": [
+            {
+              "t": "¡BOOM!",
+              "serif": true,
+              "size": 170
+            }
+          ]
+        },
+        {
+          "kind": "product",
+          "dur": 75,
+          "text": [
+            {
+              "t": "Un atardecer"
+            },
+            {
+              "t": "en tu pared",
+              "serif": true
+            }
+          ],
+          "photo": "real"
+        },
+        {
+          "kind": "montage",
+          "dur": 70,
+          "worlds": [
+            "dormitorio",
+            "escritorio",
+            "rincon",
+            "salon"
+          ],
+          "text": [
+            {
+              "t": "Donde"
+            },
+            {
+              "t": "tú quieras",
+              "serif": true
+            }
+          ]
+        },
+        {
+          "kind": "offer",
+          "dur": 90
+        },
+        {
+          "kind": "cta",
+          "dur": 60
+        }
+      ],
+      "caption": "¿Todavía con tiras LED? 💀 Eso ya está caducado. Ahora se lleva el atardecer en la pared 🌅 Lámpara LED atardecer, USB y sin instalación. -40% por Navidad: 29,95 € (antes 49,95 €). Link en la bio 🔗",
+      "status": "pendiente"
+    },
+    {
       "id": "2026-11-19-manana",
       "tema": "Las tiras LED ya están caducadas",
       "beats": [
