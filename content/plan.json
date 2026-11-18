@@ -3,7 +3,8 @@
   "voz": {
     "motor": "Higgsfield text2speech_v2, variant elevenlabs",
     "voice_id": "858499d9-fef5-40e1-bc29-b4dc661dc283",
-    "nombre": "Callum"
+    "nombre": "Callum",
+    "archivos": "content/voz/<id>.mp3"
   },
   "hashtags_base": "#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora",
   "videos": [
@@ -318,7 +319,8 @@
       "caption": "Las tiras LED ya están caducadas 💀 Ahora se lleva el atardecer en la pared 🌅 Lámpara LED atardecer, USB y sin instalación. -40% por Navidad: 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
       "status": "pendiente",
       "theme": "clasico",
-      "producto": "atardecer"
+      "producto": "atardecer",
+      "voz_guion": "¡Adiós, tiras LED! Eso ya está caducado. Ahora se lleva esto: un atardecer en tu pared. Veintinueve noventa y cinco. Link en la bio."
     },
     {
       "id": "2026-11-19-noche",
@@ -328,8 +330,8 @@
       "beats": [
         {
           "kind": "photo",
-          "dur": 66,
-          "photo": "real",
+          "dur": 60,
+          "photo": "extra",
           "text": [
             {
               "t": "POV: tu techo"
@@ -342,12 +344,18 @@
           ]
         },
         {
-          "kind": "product",
-          "dur": 75,
-          "photo": "estudio",
+          "kind": "reveal",
+          "dur": 90,
+          "switchAt": 38,
+          "photo": "real",
           "text": [
             {
-              "t": "Una aurora boreal"
+              "t": "Apagas la luz…"
+            }
+          ],
+          "textAfter": [
+            {
+              "t": "Aurora boreal"
             },
             {
               "t": "en tu cuarto",
@@ -366,7 +374,8 @@
         }
       ],
       "caption": "POV: tu techo a medianoche 🌌 Una aurora boreal en tu cuarto con el proyector aurora de Lumora. Ahora 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
-      "status": "pendiente"
+      "status": "pendiente",
+      "voz_guion": "POV: tu techo a medianoche. Apagas la luz y... ¡boom! Una aurora boreal en tu cuarto. Treinta y nueve noventa y cinco. Link en la bio."
     },
     {
       "id": "2026-11-20-manana",
@@ -393,11 +402,11 @@
         },
         {
           "kind": "room",
-          "dur": 55,
+          "dur": 80,
           "world": "dormitorio",
-          "from": 0,
-          "to": 0,
-          "cam": "wall",
+          "from": 0.15,
+          "to": 1,
+          "cam": "push",
           "text": [
             {
               "t": "Tu pared"
@@ -410,6 +419,17 @@
             {
               "t": "😐",
               "size": 150
+            }
+          ],
+          "switchAt": 34,
+          "textAfter": [
+            {
+              "t": "Ponle"
+            },
+            {
+              "t": "esto 🌅",
+              "serif": true,
+              "color": "#FFC94A"
             }
           ]
         },
@@ -425,7 +445,8 @@
       "caption": "Tu pared ahora mismo 😐 vs tu pared con una lámpara atardecer 🌅 ¿Con cuál te quedas? -40%: 29,95 €. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
       "status": "pendiente",
       "theme": "clasico",
-      "producto": "atardecer"
+      "producto": "atardecer",
+      "voz_guion": "Así está mi pared ahora. ¿Y la tuya? Así de sosa... Ponle un atardecer por veintinueve noventa y cinco. Link en la bio."
     },
     {
       "id": "2026-11-20-noche",
@@ -435,7 +456,7 @@
       "beats": [
         {
           "kind": "photo",
-          "dur": 66,
+          "dur": 60,
           "photo": "estudio",
           "text": [
             {
@@ -449,12 +470,20 @@
           ]
         },
         {
-          "kind": "product",
-          "dur": 75,
+          "kind": "reveal",
+          "dur": 90,
+          "switchAt": 38,
           "photo": "real",
           "text": [
             {
-              "t": "Esto"
+              "t": "La enciendes…"
+            }
+          ],
+          "textAfter": [
+            {
+              "t": "y mira esto",
+              "serif": true,
+              "color": "#7EF0C8"
             },
             {
               "t": "🌌",
@@ -472,7 +501,8 @@
         }
       ],
       "caption": "¿Qué hace esta cajita? 👀 Apaga la luz y tu techo se llena de ondas de luz y estrellas 🌌 Proyector aurora con mando: 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
-      "status": "pendiente"
+      "status": "pendiente",
+      "voz_guion": "¿Qué hace esta cajita? La enciendes y... mira esto. Aurora y estrellas en tu techo. Treinta y nueve noventa y cinco. Link en la bio."
     },
     {
       "id": "2026-11-21-manana",
@@ -532,7 +562,8 @@
       "caption": "Tu salón cambia en 3… 2… 1… 🌅 El truco: una lámpara atardecer. USB y sin instalación. -40%: 29,95 €. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
       "status": "pendiente",
       "theme": "impacto",
-      "producto": "atardecer"
+      "producto": "atardecer",
+      "voz_guion": "Sin obras, solo USB. Tu salón cambia en tres, dos, uno... ¡boom! Otro salón. Veintinueve noventa y cinco. Link en la bio."
     },
     {
       "id": "2026-11-21-noche",
@@ -542,8 +573,8 @@
       "beats": [
         {
           "kind": "photo",
-          "dur": 66,
-          "photo": "real",
+          "dur": 60,
+          "photo": "extra",
           "text": [
             {
               "t": "No es"
@@ -556,15 +587,21 @@
           ]
         },
         {
-          "kind": "product",
-          "dur": 75,
-          "photo": "estudio",
+          "kind": "reveal",
+          "dur": 90,
+          "switchAt": 38,
+          "photo": "real",
           "text": [
             {
-              "t": "Es un proyector"
+              "t": "Pulsas el mando…"
+            }
+          ],
+          "textAfter": [
+            {
+              "t": "y tu techo"
             },
             {
-              "t": "con mando 📲",
+              "t": "cambia 📲",
               "serif": true,
               "color": "#7EF0C8"
             }
@@ -580,7 +617,8 @@
         }
       ],
       "caption": "No es un filtro 🌌 Es un proyector de aurora con mando a distancia: cambias el efecto sin levantarte de la cama. 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
-      "status": "pendiente"
+      "status": "pendiente",
+      "voz_guion": "No es un filtro. Pulsas el mando y tu techo se llena de aurora, sin levantarte de la cama. Link en la bio."
     },
     {
       "id": "2026-11-22-manana",
@@ -607,11 +645,11 @@
         },
         {
           "kind": "room",
-          "dur": 60,
+          "dur": 80,
           "world": "salon",
-          "from": 0,
-          "to": 0,
-          "cam": "pan",
+          "from": 0.15,
+          "to": 1,
+          "cam": "push",
           "text": [
             {
               "t": "Le falta algo"
@@ -619,6 +657,17 @@
             {
               "t": "a tu salón…",
               "serif": true
+            }
+          ],
+          "switchAt": 34,
+          "textAfter": [
+            {
+              "t": "y es"
+            },
+            {
+              "t": "esto 🌅",
+              "serif": true,
+              "color": "#FFC94A"
             }
           ]
         },
@@ -634,7 +683,8 @@
       "caption": "A tu salón le falta algo… 🍿 Noche de peli con luz de atardecer 🌅 -40%: 29,95 €. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
       "status": "pendiente",
       "theme": "elegante",
-      "producto": "atardecer"
+      "producto": "atardecer",
+      "voz_guion": "Noche de peli, pero así. A tu salón le falta algo... y es esto. Un cuarenta por ciento menos. Link en la bio."
     },
     {
       "id": "2026-11-22-noche",
@@ -644,8 +694,8 @@
       "beats": [
         {
           "kind": "photo",
-          "dur": 66,
-          "photo": "real",
+          "dur": 60,
+          "photo": "estudio",
           "text": [
             {
               "t": "Deja de mirar"
@@ -658,15 +708,21 @@
           ]
         },
         {
-          "kind": "product",
-          "dur": 75,
-          "photo": "estudio",
+          "kind": "reveal",
+          "dur": 90,
+          "switchAt": 38,
+          "photo": "real",
           "text": [
             {
-              "t": "Aurora"
+              "t": "Así era…"
+            }
+          ],
+          "textAfter": [
+            {
+              "t": "y así es"
             },
             {
-              "t": "+ estrellas ✨",
+              "t": "ahora ✨",
               "serif": true,
               "color": "#7EF0C8"
             }
@@ -682,7 +738,8 @@
         }
       ],
       "caption": "Deja de mirar un techo blanco 😴 Aurora y estrellas en movimiento sobre tu techo y paredes 🌌 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
-      "status": "pendiente"
+      "status": "pendiente",
+      "voz_guion": "Deja de mirar un techo blanco. Así era... y así es ahora. Aurora y estrellas por treinta y nueve noventa y cinco. Link en la bio."
     },
     {
       "id": "2026-11-23-manana",
@@ -742,18 +799,19 @@
       "caption": "Apaga la luz. Ahora mira… 🌅 Un atardecer en tu pared, donde tú quieras. -40%: 29,95 €. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
       "status": "pendiente",
       "theme": "galeria",
-      "producto": "atardecer"
+      "producto": "atardecer",
+      "voz_guion": "Apaga la luz... y mira. ¡Clic! Un atardecer en tu pared. Ahora a veintinueve noventa y cinco. Link en la bio."
     },
     {
       "id": "2026-11-23-noche",
       "producto": "aurora",
       "tema": "Para quien lo tiene todo",
-      "theme": "pastel",
+      "theme": "clasico",
       "beats": [
         {
           "kind": "photo",
-          "dur": 66,
-          "photo": "estudio",
+          "dur": 60,
+          "photo": "extra",
           "text": [
             {
               "t": "Para quien"
@@ -766,15 +824,18 @@
           ]
         },
         {
-          "kind": "product",
-          "dur": 75,
+          "kind": "reveal",
+          "dur": 90,
+          "switchAt": 38,
           "photo": "real",
           "text": [
             {
-              "t": "Apagas la luz"
-            },
+              "t": "Lo enciende…"
+            }
+          ],
+          "textAfter": [
             {
-              "t": "y…",
+              "t": "¡aurora boreal!",
               "serif": true,
               "color": "#7EF0C8"
             }
@@ -790,7 +851,8 @@
         }
       ],
       "caption": "El regalo para quien lo tiene todo 🎁 Apagas la luz y su cuarto se convierte en una aurora boreal 🌌 Mando incluido. 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
-      "status": "pendiente"
+      "status": "pendiente",
+      "voz_guion": "¿Un regalo para quien lo tiene todo? Lo enciende y... aurora boreal en su cuarto. Con mando incluido. Link en la bio."
     },
     {
       "id": "2026-11-24-manana",
@@ -840,7 +902,8 @@
       "caption": "Lo abrí y… 😱 La enchufé y no reconozco mi salón 🌅 El regalo de esta Navidad: -40%, 29,95 €. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
       "status": "pendiente",
       "theme": "navidad",
-      "producto": "atardecer"
+      "producto": "atardecer",
+      "voz_guion": "El regalo que sí van a usar. Lo abrí y... ¡madre mía! Veintinueve noventa y cinco por Navidad. Link en la bio."
     },
     {
       "id": "2026-11-24-noche",
@@ -850,8 +913,8 @@
       "beats": [
         {
           "kind": "photo",
-          "dur": 66,
-          "photo": "real",
+          "dur": 60,
+          "photo": "estudio",
           "text": [
             {
               "t": "Esto cuesta"
@@ -864,15 +927,21 @@
           ]
         },
         {
-          "kind": "product",
-          "dur": 75,
-          "photo": "estudio",
+          "kind": "reveal",
+          "dur": 90,
+          "switchAt": 38,
+          "photo": "real",
           "text": [
             {
-              "t": "Recargable"
+              "t": "Lo cargas por USB…"
+            }
+          ],
+          "textAfter": [
+            {
+              "t": "y lo pones"
             },
             {
-              "t": "por USB 🔋",
+              "t": "donde quieras",
               "serif": true,
               "color": "#7EF0C8"
             }
@@ -888,7 +957,8 @@
         }
       ],
       "caption": "Esto cuesta menos de 40 € 😳 Proyector aurora recargable por USB y con mando: úsalo donde quieras 🌌 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
-      "status": "pendiente"
+      "status": "pendiente",
+      "voz_guion": "Esto cuesta menos de cuarenta euros. Lo cargas por USB, lo pones donde quieras y... ¡boom! Aurora boreal. Link en la bio."
     },
     {
       "id": "2026-11-25-manana",
@@ -948,7 +1018,8 @@
       "caption": "Tus fotos con luz normal vs con luz de atardecer 📸🌅 Mismo cuarto, otra vibra. -40%: 29,95 €. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
       "status": "pendiente",
       "theme": "editorial",
-      "producto": "atardecer"
+      "producto": "atardecer",
+      "voz_guion": "Tus fotos con luz normal... y tus fotos con esto. Otra vibra. Veintinueve noventa y cinco. Link en la bio."
     },
     {
       "id": "2026-11-25-noche",
@@ -958,8 +1029,8 @@
       "beats": [
         {
           "kind": "photo",
-          "dur": 66,
-          "photo": "real",
+          "dur": 60,
+          "photo": "extra",
           "text": [
             {
               "t": "Mi cuarto"
@@ -972,15 +1043,21 @@
           ]
         },
         {
-          "kind": "product",
-          "dur": 75,
-          "photo": "estudio",
+          "kind": "reveal",
+          "dur": 90,
+          "switchAt": 38,
+          "photo": "real",
           "text": [
             {
-              "t": "Ondas de luz"
+              "t": "Antes: oscuro…"
+            }
+          ],
+          "textAfter": [
+            {
+              "t": "Ahora:"
             },
             {
-              "t": "en movimiento",
+              "t": "esto",
               "serif": true,
               "color": "#7EF0C8"
             }
@@ -996,7 +1073,8 @@
         }
       ],
       "caption": "Así se ve mi cuarto de noche ahora 🌌 Ondas de luz en movimiento en el techo, sin instalación. 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis",
-      "status": "pendiente"
+      "status": "pendiente",
+      "voz_guion": "Así se ve mi cuarto de noche ahora. Antes, oscuro. Ahora, esto: ondas de luz en el techo. Link en la bio."
     }
   ],
   "hashtags_aurora": "#proyectoraurora #proyectorgalaxia #auroraboreal #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora"

@@ -20,7 +20,8 @@ const arg = (k) => {
   return i >= 0 ? argv[i + 1] : undefined;
 };
 const id = arg("id");
-const voz = arg("voz");
+// voice: --voz, or the pre-generated content/voz/<id>.mp3
+const voz = arg("voz") ?? (existsSync(join(ROOT, "content/voz", `${arg("id")}.mp3`)) ? join(ROOT, "content/voz", `${arg("id")}.mp3`) : undefined);
 const publicar = argv.includes("--publicar");
 if (!id) {
   console.error("uso: node scripts/crear-reel.mjs --id <id> [--voz archivo] [--publicar]");
@@ -57,7 +58,7 @@ if (entry.drop !== undefined) {
   sh("python3", [join(ROOT, "scripts/musica.py"), "--seed", String(seed), "--seconds", String(totalFrames / FPS + 1), "--out", join(ROOT, "public", musicRel)]);
 }
 
-const props = { beats, music: musicRel, musicVolume: voz ? (entry.drop !== undefined ? 0.34 : 0.16) : 0.42, voice: voiceRel, theme: entry.theme ?? "clasico", product: entry.producto ?? "atardecer" };
+const props = { beats, music: musicRel, musicVolume: voz ? (entry.drop !== undefined ? 0.34 : 0.22) : 0.42, voice: voiceRel, theme: entry.theme ?? "clasico", product: entry.producto ?? "atardecer" };
 const propsFile = join(dir, "props2.json");
 writeFileSync(propsFile, JSON.stringify(props, null, 2));
 

@@ -18,7 +18,12 @@ La gente se va a los 3–4 s. Por eso, a partir de ahora:
 - **El primer beat SIEMPRE es `photo`** (foto real del efecto, alternando `real` / `estudio`), `dur` 60–70,
   con el gancho escrito encima. El texto ya se ve en el fotograma 0.
 - Después, **un solo** beat de historia (máx. 105 fotogramas), luego `offer` (60) y `cta` (45).
-- **Sin voz** (la voz de IA y la etiqueta «Voz generada con IA» restan). No uses `--voz`.
+- **Voz SIEMPRE** (petición del dueño, 18/11): cada vídeo lleva voz en off que dice lo mismo que el texto
+  en pantalla. Las voces ya generadas están en `content/voz/<ID>.mp3` y `crear-reel.mjs` las usa solas.
+- **Animación SIEMPRE**: nada de fotos quietas. Las fotos llevan efectos de luz animados
+  (aurora/estrellas o brillo de atardecer) y cada vídeo tiene al menos una escena con «momento» (clic,
+  cuenta atrás, regalo, antes/después…).
+- **Duración con voz: 8–11 s.**
 - Nada de urgencia falsa («última oportunidad», «corre que vuelan»). La urgencia real es la Navidad:
   añade a cada caption `🎄 Pide antes del 2/12 y llega para Navidad · Envío gratis`.
 
@@ -40,7 +45,9 @@ La gente se va a los 3–4 s. Por eso, a partir de ahora:
 - Fotos reales: `public/aurora-real.jpg` (techo con galaxia, `photo: "real"`) y `public/aurora.jpg`
   (el proyector en una mesilla, `photo: "estudio"`).
 - Hashtags: `hashtags_aurora` de `content/plan.json` (no los de la lámpara).
-- **Solo beats con fotos reales**: `photo`, `product`, `offer`, `cta`. Nada de `room`, `strips`, `tease`,
+- **Solo beats con fotos reales**: `photo`, `reveal`, `product`, `offer`, `cta`. Estructura que funciona:
+  `photo` (gancho, 60, `photo: "extra"` o `"estudio"`) → `reveal` (90, `switchAt` 38: «Apagas la luz…» →
+  clic → aurora) → `offer` (60) → `cta` (45). Fotos: `real`, `estudio`, `extra` (`public/aurora-2.jpg`). Nada de `room`, `strips`, `tease`,
   `lightswitch`, `montage`… (son dibujos de la lámpara atardecer). Textos en color `#7EF0C8` (menta).
 - Mismas reglas de duración (7–10 s) y gancho visible en el fotograma 0.
 
@@ -53,22 +60,36 @@ La gente se va a los 3–4 s. Por eso, a partir de ahora:
    - si `ID` ya está `"publicado"`, termina;
    - si `ID` no existe, **escribe vídeos nuevos** (ver «Cómo crear vídeos nuevos») para hoy y
      los próximos días hasta tener al menos 6 pendientes (mañana = atardecer, noche = aurora); commit.
-4. **Voz: NO se usa** (ver «Reglas nuevas»). Texto antiguo, solo como referencia:: escribe un guion corto que diga lo mismo que los
-   textos en pantalla, con expresiones («¡Madre mía!», «¡boom!»…), y genéralo en Higgsfield:
-   `generate_audio` con `{"model":"text2speech_v2","variant":"elevenlabs","voice_type":"preset","voice_id":"858499d9-fef5-40e1-bc29-b4dc661dc283","use_unlim":false,"prompt": <guion>}`;
-   `jobs_wait`, descarga el mp3 a `/tmp/voz-<ID>.mp3`. Si no hay créditos, sigue **sin voz**
-   (el vídeo funciona solo con música, efectos y texto grande) y dilo en el resumen.
-5. `node scripts/crear-reel.mjs --id <ID> --publicar` (~2 min, sin voz).
-   Mira 3–4 fotogramas con ffmpeg para comprobar que nada está roto.
-6. `git add publicados/<ID>.mp4 content/plan.json && git commit && git push`; `SHA = git rev-parse HEAD`.
-7. URL: `https://cdn.jsdelivr.net/gh/dzkh2hstr4-oss/Hola@<SHA>/publicados/<ID>.mp4`
+4. **Voz (obligatoria)**: si existe `content/voz/<ID>.mp3`, ya está. Si no, usa el campo `voz_guion` de la
+   entrada (o escribe uno: 18–24 palabras, dice lo mismo que los textos, precios en letra, termina en
+   «Link en la bio») y genéralo en Higgsfield con `generate_audio_batch` (UNA petición cada vez: el límite
+   da error 429 si mandas varias): `{"model":"text2speech_v2","variant":"elevenlabs","voice_type":"preset",
+   "voice_id":"858499d9-fef5-40e1-bc29-b4dc661dc283","use_unlim":false,"prompt": <guion>}`; `jobs_wait`;
+   descarga el mp3 a `content/voz/<ID>.mp3`. **Si no hay créditos o falla: NO publiques**; marca la entrada
+   `"status": "sin-voz"` y dilo en el resumen.
+5. `node scripts/crear-reel.mjs --id <ID> --publicar` (~1 min; usa la voz sola).
+6. **CONTROL DE CALIDAD (obligatorio, nunca te lo saltes):**
+   a. `node scripts/revisar-reel.mjs --id <ID>`. Si sale `NO PUBLICAR`, arregla la entrada y vuelve a
+      renderizar (máx. 2 intentos). Si sigue fallando: no publiques, marca `"status": "revisar"` con el motivo.
+   b. Mira `out/revision/<ID>.jpg` (8 fotogramas) y comprueba TODO esto:
+      - el gancho se lee en el primer fotograma (texto grande, sin cortar, sin tapar);
+      - el producto (o su efecto de luz) se ve en el primer segundo y es el producto correcto;
+      - ningún texto se sale de la pantalla, se solapa o es ilegible;
+      - el precio de la oferta es el del producto (atardecer 29,95 €, aurora 39,95 €);
+      - termina con el CTA «Link en la bio».
+      Un fotograma blanco o negro suelto es la transición: normal. Si dudas de algo, saca más fotogramas
+      con ffmpeg alrededor de ese momento antes de decidir.
+   c. Solo si a y b están bien, sigue. Ante la duda, NO publiques.
+7. `git add publicados/<ID>.mp4 content/plan.json content/voz && git commit && git push`; `SHA = git rev-parse HEAD`.
+8. URL: `https://cdn.jsdelivr.net/gh/dzkh2hstr4-oss/Hola@<SHA>/publicados/<ID>.mp4`
    (comprueba con `curl -sI`: 200 y `video/mp4`).
-8. **Instagram** (Windsor.ai): `execute_action` con `connector="instagram"`,
+9. **Instagram** (Windsor.ai): `execute_action` con `connector="instagram"`,
    `account="17841422628356887"`, `action="create_video_post"`,
    `params={"video_url": <URL>, "caption": <caption + "\n\n" + hashtags>, "share_to_feed": true}`,
-   donde `hashtags` = `hashtags_aurora` si `producto` es `aurora`, si no `hashtags_base`.
-9. Marca la entrada `"status": "publicado"` con `publicado_en` y el id de Instagram; commit + push.
-10. **TikTok**: la conexión no permite publicar. Deja en el resumen la URL y la caption.
+   donde `hashtags` = `hashtags_aurora` si `producto` es `aurora`, si no `hashtags_base`; añade al final
+   `\n🔊 Voz IA`.
+10. Marca la entrada `"status": "publicado"` con `publicado_en` y el id de Instagram; commit + push.
+11. **TikTok**: la conexión no permite publicar. Deja en el resumen la URL y la caption.
 
 ## Cómo crear vídeos nuevos
 
@@ -101,7 +122,8 @@ Tipos de beat (ver `src/Reel2/Reel2.tsx`):
 `price` (etiqueta de precio que cae), `lightswitch` (interruptor → se ilumina `world`),
 `split` (1 vs 2 lado a lado), `board` (tablero tipo Pinterest), `camera` (cámara de fotos:
 foto sosa → foto con la lámpara), `gift` (caja que se abre), `countdown` (3-2-1 y se enciende),
-`product` (foto real con rayos), `photo` (foto real a pantalla completa), `montage` (cortes
+`product` (foto real con rayos), `photo` (foto real a pantalla completa con luz animada),
+`reveal` (foto real a oscuras → clic → se enciende con destello y luz animada; `text`, `textAfter`, `switchAt`), `montage` (cortes
 rápidos por varios lugares), `urgency` (contador «última oportunidad»), `offer`, `cta`.
 
 Copia el formato de una entrada existente de `content/plan.json`.

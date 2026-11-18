@@ -254,6 +254,7 @@ type ProductSpec = {
   name: string;
   real: string; // real photo of the effect
   estudio: string; // product photo
+  extra: string; // second real photo of the effect
   price: string;
   old: string;
   pct: string;
@@ -264,6 +265,7 @@ export const PRODUCTS: Record<ProductId, ProductSpec> = {
     name: "Lámpara LED atardecer",
     real: "lampara-real.jpg",
     estudio: "lampara.jpg",
+    extra: "lampara-real.jpg",
     price: "29,95 €",
     old: "49,95 €",
     pct: "-40%",
@@ -273,6 +275,7 @@ export const PRODUCTS: Record<ProductId, ProductSpec> = {
     name: "Proyector aurora",
     real: "aurora-real.jpg",
     estudio: "aurora.jpg",
+    extra: "aurora-2.jpg",
     price: "39,95 €",
     old: "64,95 €",
     pct: "-38%",
@@ -366,8 +369,16 @@ export type Beat =
       text: TLine[];
       textAfter: TLine[];
     }
-  | { kind: "product"; dur: number; text: TLine[]; photo?: "real" | "estudio" }
-  | { kind: "photo"; dur: number; text: TLine[]; photo?: "real" | "estudio" }
+  | { kind: "product"; dur: number; text: TLine[]; photo?: "real" | "estudio" | "extra" }
+  | { kind: "photo"; dur: number; text: TLine[]; photo?: "real" | "estudio" | "extra" }
+  | {
+      kind: "reveal";
+      dur: number;
+      text: TLine[];
+      textAfter: TLine[];
+      switchAt?: number;
+      photo?: "real" | "estudio" | "extra";
+    }
   | { kind: "montage"; dur: number; text: TLine[]; worlds: WorldName[] }
   | { kind: "urgency"; dur: number; text: TLine[] }
   | {
@@ -1704,6 +1715,128 @@ const CountdownBeat: React.FC<{
   );
 };
 
+/* ---------- live light effects over real photos ---------- */
+
+// Moving aurora waves + twinkling stars (screen blend over the photo).
+const AuroraFX: React.FC<{ o?: number; seed?: string }> = ({
+  o = 1,
+  seed = "au",
+}) => {
+  const t = useCurrentFrame();
+  const blobs = [
+    { c: "#36ffb0", x: 260, y: 380, w: 900, h: 420, sp: 0.045, ph: 0 },
+    { c: "#3ab8ff", x: 760, y: 620, w: 980, h: 460, sp: 0.037, ph: 2 },
+    { c: "#a45cff", x: 420, y: 900, w: 860, h: 400, sp: 0.052, ph: 4 },
+  ];
+  return (
+    <AbsoluteFill style={{ zIndex: 9, pointerEvents: "none", opacity: o }}>
+      {blobs.map((b, i) => (
+        <div
+          key={i}
+          style={{
+            position: "absolute",
+            left: b.x - b.w / 2 + Math.sin(t * b.sp + b.ph) * 220,
+            top: b.y - b.h / 2 + Math.cos(t * b.sp * 0.8 + b.ph) * 120,
+            width: b.w,
+            height: b.h,
+            borderRadius: "50%",
+            background: b.c,
+            opacity: 0.32 + 0.14 * Math.sin(t * 0.09 + i * 2),
+            filter: "blur(90px)",
+            mixBlendMode: "screen",
+            transform: `rotate(${Math.sin(t * 0.03 + i) * 18 - 12}deg)`,
+          }}
+        />
+      ))}
+      {new Array(34).fill(0).map((_, i) => {
+        const tw = Math.max(0, Math.sin(t / (5 + (i % 4)) + i * 1.7));
+        return (
+          <div
+            key={`s${i}`}
+            style={{
+              position: "absolute",
+              left: random(`${seed}x${i}`) * 1080,
+              top: random(`${seed}y${i}`) * 1250,
+              width: 6 + (i % 3) * 3,
+              height: 6 + (i % 3) * 3,
+              borderRadius: 8,
+              background: "#fff",
+              opacity: tw,
+              boxShadow: "0 0 14px #bfe9ff, 0 0 28px #7ef0c8",
+            }}
+          />
+        );
+      })}
+    </AbsoluteFill>
+  );
+};
+
+// Warm breathing sunset glow + floating light dust.
+const SunFX: React.FC<{ o?: number; seed?: string }> = ({
+  o = 1,
+  seed = "sun",
+}) => {
+  const t = useCurrentFrame();
+  const pulse = 0.5 + 0.5 * Math.sin(t / 9);
+  return (
+    <AbsoluteFill style={{ zIndex: 9, pointerEvents: "none", opacity: o }}>
+      <AbsoluteFill
+        style={{
+          background: `radial-gradient(circle at 50% 42%, rgba(255,170,60,${0.28 + pulse * 0.18}) 0%, rgba(255,90,20,${0.12 + pulse * 0.08}) 35%, transparent 65%)`,
+          mixBlendMode: "screen",
+        }}
+      />
+      <Sparkles seed={seed} n={18} />
+    </AbsoluteFill>
+  );
+};
+
+const ProductFX: React.FC<{ o?: number; seed?: string }> = (p) =>
+  curProduct === "aurora" ? <AuroraFX {...p} /> : <SunFX {...p} />;
+
+// Real photo in the dark -> click -> light on (flash, punch-in, live effect).
+const RevealBeat: React.FC<{
+  b: Extract<Beat, { kind: "reveal" }>;
+  first: boolean;
+}> = ({ b, first }) => {
+  const t = useCurrentFrame();
+  const sw = b.switchAt ?? Math.round(b.dur * 0.42);
+  const on = interpolate(t, [sw, sw + 8], [0, 1], clamp);
+  const img = b.photo === "estudio" ? P().estudio : b.photo === "extra" ? P().extra : P().real;
+  const punch = t >= sw ? 1 + 0.08 * Math.exp(-(t - sw) / 6) : 1;
+  return (
+    <AbsoluteFill style={{ overflow: "hidden", background: "#000" }}>
+      <Img
+        src={staticFile(img)}
+        style={{
+          position: "absolute",
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          filter: `brightness(${0.3 + on * 0.75}) saturate(${0.25 + on * 0.85}) hue-rotate(${(1 - on) * 200}deg)`,
+          transform: `scale(${(1.18 - (t / b.dur) * 0.1) * punch})`,
+        }}
+      />
+      <ProductFX o={on} seed="rv" />
+      <AbsoluteFill
+        style={{
+          background: "#fff",
+          opacity: interpolate(t, [sw, sw + 2, sw + 7], [0, 0.75, 0], clamp),
+          zIndex: 30,
+        }}
+      />
+      <Shade s={0.5} />
+      {t < sw ? (
+        <BigText lines={b.text} instant={first} />
+      ) : (
+        <Sequence from={sw} layout="none">
+          <BigText lines={b.textAfter} />
+        </Sequence>
+      )}
+    </AbsoluteFill>
+  );
+};
+
 const ProductBeat: React.FC<{
   b: Extract<Beat, { kind: "product" }>;
   first: boolean;
@@ -1714,7 +1847,7 @@ const ProductBeat: React.FC<{
     ? 1
     : spring({ frame: t - 2, fps, config: { damping: 12, stiffness: 130 } });
   const shine = interpolate(t, [14, 34], [-700, 900], clamp);
-  const img = b.photo === "estudio" ? P().estudio : P().real;
+  const img = b.photo === "estudio" ? P().estudio : b.photo === "extra" ? P().extra : P().real;
   return (
     <AbsoluteFill style={{ overflow: "hidden" }}>
       <AbsoluteFill
@@ -1762,6 +1895,7 @@ const ProductBeat: React.FC<{
           }}
         />
       </div>
+      {curProduct === "aurora" ? <AuroraFX seed="pr" o={0.8} /> : null}
       <Sparkles seed="pr" />
     </AbsoluteFill>
   );
@@ -1772,7 +1906,7 @@ const PhotoBeat: React.FC<{
   first: boolean;
 }> = ({ b, first }) => {
   const t = useCurrentFrame();
-  const img = b.photo === "estudio" ? P().estudio : P().real;
+  const img = b.photo === "estudio" ? P().estudio : b.photo === "extra" ? P().extra : P().real;
   return (
     <AbsoluteFill style={{ overflow: "hidden", background: "#000" }}>
       <Img
@@ -1785,6 +1919,7 @@ const PhotoBeat: React.FC<{
           transform: `scale(${1.3 - (t / b.dur) * 0.2}) translateY(${-30 + (t / b.dur) * 50}px)`,
         }}
       />
+      <ProductFX seed="ph" />
       <Shade s={0.55} bottom />
       <BigText lines={b.text} instant={first} />
     </AbsoluteFill>
@@ -2963,6 +3098,8 @@ const BeatView: React.FC<{ b: Beat; first: boolean }> = ({ b, first }) => {
       return <CountdownBeat b={b} first={first} />;
     case "product":
       return <ProductBeat b={b} first={first} />;
+    case "reveal":
+      return <RevealBeat b={b} first={first} />;
     case "photo":
       return <PhotoBeat b={b} first={first} />;
     case "montage":
@@ -3084,6 +3221,20 @@ const sfxFor = (b: Beat, from: number): [number, string, number][] => {
     case "product":
       out.push([from + 2, "sparkle.wav", 0.35], [from + 14, "ding.wav", 0.25]);
       break;
+    case "photo":
+      out.push([from, "boom.wav", from === 0 ? 0.45 : 0.3], [from + 3, "sparkle.wav", 0.3]);
+      break;
+    case "reveal": {
+      const sw = b.switchAt ?? Math.round(L * 0.42);
+      out.push(
+        [from, "heart.wav", 0.4],
+        [from + Math.max(0, sw - 24), "riser.wav", 0.3],
+        [from + sw - 1, "tick.wav", 1],
+        [from + sw, "boom.wav", 0.45],
+        [from + sw, "sparkle.wav", 0.45],
+      );
+      break;
+    }
     case "montage": {
       const cut = Math.max(10, Math.floor(L / b.worlds.length));
       for (let i = 0; i < b.worlds.length; i++)
