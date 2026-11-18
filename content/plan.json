@@ -1,193 +1,187 @@
 {
+  "formato": "Reel2 (beats). Duraciones en fotogramas a 30 fps. Ver AUTOMATIZACION.md.",
   "voz": {
     "motor": "Higgsfield text2speech_v2, variant elevenlabs",
     "voice_id": "858499d9-fef5-40e1-bc29-b4dc661dc283",
-    "nombre": "Callum",
-    "nota": "Unir las frases de 'say' con un espacio; cada frase termina en . ! ? o … para que haya pausa entre ellas."
+    "nombre": "Callum"
   },
   "hashtags_base": "#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora",
   "videos": [
     {
       "id": "2026-11-19-manana",
-      "tema": "POV transformación en 1 segundo",
-      "lines": [
-        { "say": "POV: tu habitación pasa de aburrida… a esto.", "scene": { "type": "hook", "text": "POV: TU CUARTO EN 1 SEGUNDO" } },
-        { "say": "Solo enchufas esta lámpara… y ¡boom!", "scene": { "type": "lampOn", "text": "Solo la enchufas…", "textAfter": "¡BOOM! 🌅" } },
-        { "say": "¡Mira el antes y el después, es otro cuarto!", "scene": { "type": "beforeAfter", "text": "¿Es el mismo cuarto?" } },
-        { "say": "Y ahora con un cuarenta por ciento de descuento. ¡Veintinueve noventa y cinco!", "scene": { "type": "offer" } },
-        { "say": "¡Corre, tienes el link en la bio!", "scene": { "type": "cta" } }
+      "tema": "Las tiras LED ya están caducadas",
+      "beats": [
+        { "kind": "strips", "dur": 105, "text": [{ "t": "¿Todavía con" }, { "t": "tiras LED?", "serif": true, "color": "#FFC94A" }], "stamp": "CADUCADO", "textAfter": [{ "t": "Ahora se lleva" }, { "t": "esto", "serif": true, "color": "#FFC94A", "size": 160 }] },
+        { "kind": "product", "dur": 70, "text": [{ "t": "Lámpara" }, { "t": "atardecer", "serif": true, "color": "#FFC94A" }], "photo": "real" },
+        { "kind": "montage", "dur": 72, "worlds": ["dormitorio", "escritorio", "salon", "rincon"], "text": [{ "t": "Queda brutal" }, { "t": "en todas partes", "serif": true, "color": "#FFC94A" }] },
+        { "kind": "offer", "dur": 80 },
+        { "kind": "cta", "dur": 55 }
       ],
-      "caption": "POV: tu cuarto pasa de aburrido a aesthetic en 1 segundo 🌅 Lámpara LED atardecer, USB y sin instalación. -40% por Navidad: 29,95 € (antes 49,95 €). Link en la bio 🔗",
+      "caption": "Las tiras LED ya están caducadas 💀 Ahora se lleva el atardecer en la pared 🌅 Lámpara LED atardecer, USB y sin instalación. -40% por Navidad: 29,95 € (antes 49,95 €). Link en la bio 🔗",
       "status": "pendiente"
     },
     {
       "id": "2026-11-19-noche",
-      "tema": "Si tu cuarto se ve así de noche",
-      "lines": [
-        { "say": "Si tu cuarto se ve así de noche… tenemos que hablar.", "scene": { "type": "hook", "text": "¿TU CUARTO SE VE ASÍ DE NOCHE?" } },
-        { "say": "¡Pero tiene arreglo!", "scene": { "type": "slam", "text": "ESTO TIENE ARREGLO" } },
-        { "say": "La lámpara LED atardecer. Un atardecer en tu pared, todo el año.", "scene": { "type": "product", "text": "Lámpara LED atardecer" } },
-        { "say": "La enciendes… ¡y mira qué ambientazo!", "scene": { "type": "lampOn", "text": "La enciendes…", "textAfter": "¡QUÉ AMBIENTAZO! ✨" } },
-        { "say": "Antes cuarenta y nueve noventa y cinco… ¡ahora veintinueve noventa y cinco!", "scene": { "type": "offer" } },
-        { "say": "¡Link en la bio, que vuela!", "scene": { "type": "cta" } }
+      "tema": "El chat de mamá",
+      "beats": [
+        { "kind": "chat", "dur": 110, "name": "Mamá", "text": [{ "t": "Mi madre al ver" }, { "t": "mi cuarto 😳", "serif": true, "color": "#FFC94A" }], "msgs": [{ "t": "¿Qué has hecho en tu cuarto? 😳", "at": 0 }, { "me": true, "t": "nada… solo puse una lámpara", "at": 38 }, { "t": "¡¡QUÉ PASADA!! 😍", "at": 72 }] },
+        { "kind": "room", "dur": 85, "world": "dormitorio", "from": 0, "to": 1, "switchAt": 24, "text": [{ "t": "Lo que" }, { "t": "ha visto…", "serif": true, "color": "#FFC94A" }], "textAfter": [{ "t": "Normal que" }, { "t": "flipe 😱", "serif": true, "color": "#FFC94A" }] },
+        { "kind": "photo", "dur": 60, "text": [{ "t": "Lámpara LED" }, { "t": "atardecer", "serif": true, "color": "#FFC94A" }], "photo": "real" },
+        { "kind": "offer", "dur": 80 },
+        { "kind": "cta", "dur": 55 }
       ],
-      "caption": "Si tu cuarto se ve así de noche… tenemos que hablar 😅🌅 Lámpara LED atardecer con un -40%: 29,95 €. Link en la bio 🔗",
+      "caption": "Mi madre cuando vio mi cuarto 😳😍 Solo puse una lámpara atardecer. -40%: 29,95 €. Link en la bio 🔗",
       "status": "pendiente"
     },
     {
       "id": "2026-11-20-manana",
-      "tema": "El regalo que nadie espera",
-      "lines": [
-        { "say": "¿Buscas un regalo de Navidad que nadie se espera… pero que todos quieren?", "scene": { "type": "gift", "text": "EL REGALO QUE TODOS QUIEREN 🎁" } },
-        { "say": "Es esta. La lámpara que pone un atardecer en tu pared.", "scene": { "type": "product", "text": "Un atardecer en tu pared" } },
-        { "say": "Para estudiar, para fotos, para relajarte… ¡sirve para todo!", "scene": { "type": "uses", "text": "Perfecta para…", "items": ["📚 Estudiar", "📸 Fotos", "😌 Relajarte", "🎮 Gaming"] } },
-        { "say": "Y ahora a veintinueve noventa y cinco. ¡Un cuarenta por ciento menos!", "scene": { "type": "offer" } },
-        { "say": "¡Pídela ya, link en la bio!", "scene": { "type": "cta" } }
+      "tema": "Tu pared ahora mismo",
+      "beats": [
+        { "kind": "room", "dur": 55, "world": "dormitorio", "from": 0, "to": 0, "cam": "wall", "text": [{ "t": "Tu pared" }, { "t": "ahora mismo", "serif": true, "color": "#FFC94A" }, { "t": "😐", "size": 150 }] },
+        { "kind": "room", "dur": 75, "world": "dormitorio", "from": 0, "to": 1, "switchAt": 6, "cam": "push", "textAfter": [{ "t": "Tu pared" }, { "t": "con esto", "serif": true, "color": "#FFC94A" }, { "t": "🌅", "size": 150 }] },
+        { "kind": "split", "dur": 85, "world": "dormitorio", "text": [{ "t": "¿Con cuál" }, { "t": "te quedas?", "serif": true, "color": "#FFC94A" }], "a": "SOSO 😴", "b": "ESTO 🔥" },
+        { "kind": "offer", "dur": 80 },
+        { "kind": "cta", "dur": 55 }
       ],
-      "caption": "El regalo de Navidad que nadie espera… y todos quieren 🎁🌅 -40%: 29,95 €. Link en la bio 🔗",
+      "caption": "Tu pared ahora mismo 😐 vs tu pared con una lámpara atardecer 🌅 ¿Con cuál te quedas? -40%: 29,95 €. Link en la bio 🔗",
       "status": "pendiente"
     },
     {
       "id": "2026-11-20-noche",
-      "tema": "3 razones",
-      "lines": [
-        { "say": "Tres razones para tener esta lámpara. ¡La tercera te va a encantar!", "scene": { "type": "hookLit", "text": "3 RAZONES PARA TENERLA" } },
-        { "say": "Uno: un atardecer todo el año. Dos: solo la conectas por USB. Tres: es el regalo perfecto.", "scene": { "type": "uses", "text": "Las razones:", "items": ["1️⃣ Atardecer todo el año", "2️⃣ Solo USB", "3️⃣ Regalo perfecto 🎁"] } },
-        { "say": "Mira cómo cambia todo cuando la enciendes.", "scene": { "type": "lampOn", "text": "Mira esto…", "textAfter": "¡OTRO NIVEL! 🔥" } },
-        { "say": "¡Y encima con un cuarenta por ciento de descuento!", "scene": { "type": "offer" } },
-        { "say": "Link en la bio. ¡No te quedes sin ella!", "scene": { "type": "cta" } }
+      "tema": "Lo que buscas a las 3 AM",
+      "beats": [
+        { "kind": "search", "dur": 110, "query": "cómo hacer mi cuarto aesthetic sin gastar mucho", "text": [{ "t": "Lo que buscas" }, { "t": "a las 3 AM", "serif": true, "color": "#E8401C" }] },
+        { "kind": "room", "dur": 80, "world": "escritorio", "from": 0, "to": 1, "switchAt": 20, "text": [{ "t": "Spoiler:" }], "textAfter": [{ "t": "Funciona" }, { "t": "de verdad ✨", "serif": true, "color": "#FFC94A" }] },
+        { "kind": "offer", "dur": 80 },
+        { "kind": "cta", "dur": 55 }
       ],
-      "caption": "3 razones para tener una lámpara atardecer 🌅 1) atardecer todo el año 2) solo USB 3) regalo perfecto. -40%: 29,95 €. Link en la bio 🔗",
+      "caption": "Lo que buscas a las 3 AM: cómo hacer tu cuarto aesthetic sin gastar mucho 👀 Respuesta: lámpara atardecer a 29,95 € (-40%). Link en la bio 🔗",
       "status": "pendiente"
     },
     {
       "id": "2026-11-21-manana",
-      "tema": "¿Sabías que…?",
-      "lines": [
-        { "say": "¿Sabías que puedes tener un atardecer en tu pared… a cualquier hora?", "scene": { "type": "hook", "text": "¿SABÍAS QUE ESTO EXISTE?" } },
-        { "say": "Pues sí. Mira esto.", "scene": { "type": "lampOn", "text": "Mira…", "textAfter": "¡A CUALQUIER HORA! 🌅" } },
-        { "say": "Así queda en una habitación de verdad. ¡Increíble!", "scene": { "type": "photo", "text": "Así queda de verdad", "photo": "real" } },
-        { "say": "Hoy la tienes a veintinueve noventa y cinco, en vez de cuarenta y nueve noventa y cinco.", "scene": { "type": "offer" } },
-        { "say": "¡Corre al link de la bio!", "scene": { "type": "cta" } }
+      "tema": "Tu salón cambia en 3, 2, 1",
+      "beats": [
+        { "kind": "countdown", "dur": 90, "world": "salon", "text": [{ "t": "Tu salón" }, { "t": "cambia en…", "serif": true, "color": "#FFC94A" }], "textAfter": [{ "t": "¿Lo ves?" }, { "t": "Otro salón", "serif": true, "color": "#FFC94A" }] },
+        { "kind": "product", "dur": 70, "text": [{ "t": "El truco:" }, { "t": "esta lámpara", "serif": true, "color": "#FFC94A" }], "photo": "estudio" },
+        { "kind": "offer", "dur": 80 },
+        { "kind": "cta", "dur": 55 }
       ],
-      "caption": "¿Sabías que puedes tener un atardecer en tu pared a cualquier hora? 🌅 Lámpara LED atardecer -40%: 29,95 €. Link en la bio 🔗",
+      "caption": "Tu salón cambia en 3… 2… 1… 🌅 El truco: una lámpara atardecer. USB y sin instalación. -40%: 29,95 €. Link en la bio 🔗",
       "status": "pendiente"
     },
     {
       "id": "2026-11-21-noche",
-      "tema": "Antes y después",
-      "lines": [
-        { "say": "Antes y después de comprar esta lámpara. ¡Fíjate bien!", "scene": { "type": "beforeAfter", "text": "ANTES VS DESPUÉS" } },
-        { "say": "De un cuarto aburrido… a un cuarto de película.", "scene": { "type": "hookLit", "text": "DE ABURRIDO A DE PELÍCULA 🎬" } },
-        { "say": "Es la lámpara LED atardecer. Se conecta por USB y ya está.", "scene": { "type": "product", "text": "USB · Sin instalación" } },
-        { "say": "¡Y ahora con un cuarenta por ciento menos!", "scene": { "type": "offer" } },
-        { "say": "La tienes en el link de la bio.", "scene": { "type": "cta" } }
+      "tema": "Tu setup da pena",
+      "beats": [
+        { "kind": "room", "dur": 55, "world": "escritorio", "from": 0, "to": 0, "cam": "push", "text": [{ "t": "Tu setup" }, { "t": "da pena 💀", "serif": true, "color": "#E8401C" }] },
+        { "kind": "room", "dur": 80, "world": "escritorio", "from": 0, "to": 1, "switchAt": 8, "cam": "pull", "textAfter": [{ "t": "Ahora sí" }, { "t": "es un setup", "serif": true, "color": "#FFC94A" }] },
+        { "kind": "camera", "dur": 75, "world": "escritorio", "textA": [{ "t": "Y tus fotos…" }], "textB": [{ "t": "de otro" }, { "t": "nivel 📸", "serif": true, "color": "#FFC94A" }] },
+        { "kind": "offer", "dur": 80 },
+        { "kind": "cta", "dur": 55 }
       ],
-      "caption": "Antes y después 😴➡️🔥 Lámpara LED atardecer, USB y sin instalación. -40%: 29,95 €. Link en la bio 🔗",
+      "caption": "Tu setup da pena 💀… hasta que le pones esto 🌅 Lámpara atardecer -40%: 29,95 €. Link en la bio 🔗",
       "status": "pendiente"
     },
     {
       "id": "2026-11-22-manana",
-      "tema": "Deja de scrollear",
-      "lines": [
-        { "say": "¡Para! Deja de scrollear un segundo.", "scene": { "type": "slam", "text": "DEJA DE SCROLLEAR" } },
-        { "say": "Mira tu pared. ¿Gris? ¿Sosa? ¿Aburrida?", "scene": { "type": "hook", "text": "MIRA TU PARED 👀" } },
-        { "say": "Ahora imagínala así.", "scene": { "type": "lampOn", "text": "Ahora imagínala…", "textAfter": "¡ASÍ! 🌅" } },
-        { "say": "Cuarenta por ciento de descuento. ¡Solo veintinueve noventa y cinco!", "scene": { "type": "offer" } },
-        { "say": "¡Link en la bio, venga!", "scene": { "type": "cta" } }
+      "tema": "Le falta algo a tu salón",
+      "beats": [
+        { "kind": "room", "dur": 60, "world": "salon", "from": 0, "to": 0, "cam": "pan", "text": [{ "t": "Le falta algo" }, { "t": "a tu salón…", "serif": true, "color": "#FFC94A" }] },
+        { "kind": "room", "dur": 85, "world": "salon", "from": 0, "to": 1, "switchAt": 4, "textAfter": [{ "t": "Noche de peli" }, { "t": "nivel cine 🍿", "serif": true, "color": "#FFC94A" }] },
+        { "kind": "photo", "dur": 60, "text": [{ "t": "Así queda" }, { "t": "de verdad", "serif": true, "color": "#FFC94A" }], "photo": "real" },
+        { "kind": "offer", "dur": 80 },
+        { "kind": "cta", "dur": 55 }
       ],
-      "caption": "Deja de scrollear y mira tu pared 👀 ¿Y si fuera un atardecer? 🌅 -40%: 29,95 €. Link en la bio 🔗",
+      "caption": "A tu salón le falta algo… 🍿 Noche de peli con luz de atardecer 🌅 -40%: 29,95 €. Link en la bio 🔗",
       "status": "pendiente"
     },
     {
       "id": "2026-11-22-noche",
-      "tema": "Cuarto para fotos",
-      "lines": [
-        { "say": "¿Quieres fotos aesthetic sin salir de tu cuarto?", "scene": { "type": "hookLit", "text": "FOTOS AESTHETIC EN TU CUARTO 📸" } },
-        { "say": "Con esta luz, todo sale mil veces mejor.", "scene": { "type": "photo", "text": "Esta luz lo cambia todo", "photo": "estudio" } },
-        { "say": "Selfies, TikToks, fotos… ¡lo que quieras!", "scene": { "type": "uses", "text": "Perfecta para…", "items": ["🤳 Selfies", "🎥 TikToks", "📸 Fotos", "✨ Stories"] } },
-        { "say": "Y ahora con un cuarenta por ciento menos: ¡veintinueve noventa y cinco!", "scene": { "type": "offer" } },
-        { "say": "¡Link en la bio!", "scene": { "type": "cta" } }
+      "tema": "¿Cambiar tu cuarto por 29,95 €?",
+      "beats": [
+        { "kind": "price", "dur": 85, "price": "29,95 €", "text": [{ "t": "¿Cambiar tu cuarto" }, { "t": "por esto?", "serif": true, "color": "#FFC94A" }], "sub": [{ "t": "Sí. Mira 👇" }] },
+        { "kind": "room", "dur": 80, "world": "rincon", "from": 0, "to": 1, "switchAt": 16, "text": [{ "t": "Antes:" }, { "t": "un rincón soso", "serif": true }], "textAfter": [{ "t": "Después:" }, { "t": "un atardecer", "serif": true, "color": "#FFC94A" }] },
+        { "kind": "product", "dur": 60, "text": [{ "t": "Lámpara LED" }, { "t": "atardecer", "serif": true, "color": "#FFC94A" }], "photo": "real" },
+        { "kind": "offer", "dur": 80 },
+        { "kind": "cta", "dur": 55 }
       ],
-      "caption": "Fotos aesthetic sin salir de tu cuarto 📸🌅 Lámpara LED atardecer -40%: 29,95 €. Link en la bio 🔗",
+      "caption": "¿Cambiar tu cuarto por 29,95 €? Sí 🌅 Antes un rincón soso, después un atardecer. -40% por Navidad. Link en la bio 🔗",
       "status": "pendiente"
     },
     {
       "id": "2026-11-23-manana",
-      "tema": "Lo que tu cuarto necesita en Navidad",
-      "lines": [
-        { "say": "Esto es lo que tu cuarto necesita esta Navidad.", "scene": { "type": "gift", "text": "LO QUE TU CUARTO NECESITA 🎄" } },
-        { "say": "La pones en la mesilla, la enciendes… ¡y magia!", "scene": { "type": "lampOn", "text": "La enciendes…", "textAfter": "¡MAGIA! ✨" } },
-        { "say": "Un atardecer en tu pared, todo el año.", "scene": { "type": "product", "text": "Atardecer todo el año", "photo": "estudio" } },
-        { "say": "¡Cuarenta por ciento de descuento solo por Navidad!", "scene": { "type": "offer" } },
-        { "say": "Pídela en el link de la bio.", "scene": { "type": "cta" } }
+      "tema": "Apaga la luz",
+      "beats": [
+        { "kind": "lightswitch", "dur": 110, "world": "rincon", "text1": [{ "t": "Apaga la luz." }, { "t": "Ahora mira…", "serif": true, "color": "#FFC94A" }], "text2": [{ "t": "Un atardecer" }, { "t": "en tu pared 🌅", "serif": true, "color": "#FFC94A" }] },
+        { "kind": "montage", "dur": 70, "worlds": ["salon", "dormitorio", "escritorio"], "text": [{ "t": "Donde" }, { "t": "tú quieras", "serif": true, "color": "#FFC94A" }] },
+        { "kind": "offer", "dur": 80 },
+        { "kind": "cta", "dur": 55 }
       ],
-      "caption": "Lo que tu cuarto necesita esta Navidad 🎄🌅 -40%: 29,95 €. Link en la bio 🔗",
+      "caption": "Apaga la luz. Ahora mira… 🌅 Un atardecer en tu pared, donde tú quieras. -40%: 29,95 €. Link en la bio 🔗",
       "status": "pendiente"
     },
     {
       "id": "2026-11-23-noche",
-      "tema": "¿Error de precio?",
-      "lines": [
-        { "say": "¿Cuarenta por ciento menos? ¿Es un error?", "scene": { "type": "slam", "text": "¿-40%? ¿ERROR?" } },
-        { "say": "No. Es la oferta de Navidad de esta lámpara.", "scene": { "type": "product", "text": "Oferta de Navidad 🎄" } },
-        { "say": "Mira lo que hace en tu cuarto.", "scene": { "type": "lampOn", "text": "Mira lo que hace…", "textAfter": "🤯🌅" } },
-        { "say": "De cuarenta y nueve noventa y cinco… ¡a veintinueve noventa y cinco!", "scene": { "type": "offer" } },
-        { "say": "¡Antes de que se acabe, link en la bio!", "scene": { "type": "cta" } }
+      "tema": "Cuartos de Pinterest",
+      "beats": [
+        { "kind": "board", "dur": 95, "text": [{ "t": "Cuartos de" }, { "t": "Pinterest", "serif": true, "color": "#E8401C", "size": 140 }] },
+        { "kind": "room", "dur": 80, "world": "dormitorio", "from": 0, "to": 1, "switchAt": 18, "text": [{ "t": "¿El secreto?" }], "textAfter": [{ "t": "Esta lámpara", "serif": true, "color": "#FFC94A" }, { "t": "✨", "size": 140 }] },
+        { "kind": "offer", "dur": 80 },
+        { "kind": "cta", "dur": 55 }
       ],
-      "caption": "¿-40%? No es un error, es la oferta de Navidad 🎄 Lámpara LED atardecer a 29,95 € (antes 49,95 €). Link en la bio 🔗",
+      "caption": "¿El secreto de los cuartos de Pinterest? ✨ Una lámpara atardecer 🌅 -40%: 29,95 €. Link en la bio 🔗",
       "status": "pendiente"
     },
     {
       "id": "2026-11-24-manana",
-      "tema": "Cosas que hacen tu cuarto aesthetic",
-      "lines": [
-        { "say": "Cosas que hacen tu cuarto aesthetic. Número uno…", "scene": { "type": "hookLit", "text": "COSAS QUE HACEN TU CUARTO AESTHETIC" } },
-        { "say": "¡La lámpara de atardecer!", "scene": { "type": "product", "text": "Nº1: Lámpara atardecer 🌅" } },
-        { "say": "Mira la diferencia, es brutal.", "scene": { "type": "beforeAfter", "text": "La diferencia 👀" } },
-        { "say": "Y ahora con un cuarenta por ciento de descuento.", "scene": { "type": "offer" } },
-        { "say": "La tienes en el link de la bio.", "scene": { "type": "cta" } }
+      "tema": "Lo abrí y…",
+      "beats": [
+        { "kind": "gift", "dur": 85, "text": [{ "t": "Lo abrí y…" }, { "t": "😱", "size": 160 }] },
+        { "kind": "room", "dur": 80, "world": "salon", "from": 0, "to": 1, "switchAt": 16, "text": [{ "t": "La enchufé…" }], "textAfter": [{ "t": "No reconozco" }, { "t": "mi salón", "serif": true, "color": "#FFC94A" }] },
+        { "kind": "photo", "dur": 60, "text": [{ "t": "El regalo" }, { "t": "de esta Navidad 🎁", "serif": true, "color": "#FFC94A" }], "photo": "estudio" },
+        { "kind": "offer", "dur": 80 },
+        { "kind": "cta", "dur": 55 }
       ],
-      "caption": "Cosas que hacen tu cuarto aesthetic: nº1, la lámpara atardecer 🌅 -40%: 29,95 €. Link en la bio 🔗",
+      "caption": "Lo abrí y… 😱 La enchufé y no reconozco mi salón 🌅 El regalo de esta Navidad: -40%, 29,95 €. Link en la bio 🔗",
       "status": "pendiente"
     },
     {
       "id": "2026-11-24-noche",
-      "tema": "Noche de peli",
-      "lines": [
-        { "say": "Noche de peli más esta luz… igual a plan perfecto.", "scene": { "type": "hook", "text": "NOCHE DE PELI + ESTA LUZ = 🍿" } },
-        { "say": "Apagas la luz, enciendes la lámpara… ¡y ambientazo!", "scene": { "type": "lampOn", "text": "Apagas la luz…", "textAfter": "¡AMBIENTAZO! 🍿" } },
-        { "say": "Para pelis, para relajarte, para estudiar… ¡para todo!", "scene": { "type": "uses", "text": "Para…", "items": ["🍿 Pelis", "😌 Relax", "📚 Estudiar", "💤 Dormir"] } },
-        { "say": "¡Solo veintinueve noventa y cinco por tiempo limitado!", "scene": { "type": "offer" } },
-        { "say": "¡Link en la bio!", "scene": { "type": "cta" } }
+      "tema": "¿1 o 2?",
+      "beats": [
+        { "kind": "split", "dur": 95, "world": "rincon", "text": [{ "t": "¿1 o 2?" }, { "t": "Sé sincero", "serif": true, "color": "#FFC94A" }], "a": "1 😴", "b": "2 😍" },
+        { "kind": "room", "dur": 70, "world": "rincon", "from": 0, "to": 1, "switchAt": 6, "textAfter": [{ "t": "El 2 cuesta" }, { "t": "29,95 €", "serif": true, "color": "#FFC94A", "size": 140 }] },
+        { "kind": "product", "dur": 60, "text": [{ "t": "Es esta" }, { "t": "lámpara 👇", "serif": true, "color": "#FFC94A" }], "photo": "real" },
+        { "kind": "offer", "dur": 80 },
+        { "kind": "cta", "dur": 55 }
       ],
-      "caption": "Noche de peli + luz de atardecer = plan perfecto 🍿🌅 -40%: 29,95 €. Link en la bio 🔗",
+      "caption": "¿1 o 2? Sé sincero 👀 El 2 cuesta 29,95 € con el -40% 🌅 Link en la bio 🔗",
       "status": "pendiente"
     },
     {
       "id": "2026-11-25-manana",
-      "tema": "Si se lo regalas…",
-      "lines": [
-        { "say": "Si regalas esto en Navidad… te deben una muy grande.", "scene": { "type": "gift", "text": "SI REGALAS ESTO… 🎁" } },
-        { "say": "La lámpara LED atardecer. Todo el mundo la quiere.", "scene": { "type": "product", "text": "Todo el mundo la quiere" } },
-        { "say": "Mira la cara que va a poner cuando la encienda.", "scene": { "type": "lampOn", "text": "Cuando la encienda…", "textAfter": "😍🌅" } },
-        { "say": "¡Y ahora a solo veintinueve noventa y cinco!", "scene": { "type": "offer" } },
-        { "say": "¡Corre, link en la bio!", "scene": { "type": "cta" } }
+      "tema": "Tus fotos con luz normal vs con esto",
+      "beats": [
+        { "kind": "camera", "dur": 90, "world": "dormitorio", "textA": [{ "t": "Tus fotos" }, { "t": "con luz normal", "serif": true }], "textB": [{ "t": "Tus fotos" }, { "t": "con esto", "serif": true, "color": "#FFC94A" }] },
+        { "kind": "photo", "dur": 65, "text": [{ "t": "Luz de" }, { "t": "atardecer", "serif": true, "color": "#FFC94A" }], "photo": "real" },
+        { "kind": "split", "dur": 75, "world": "escritorio", "text": [{ "t": "Mismo cuarto," }, { "t": "otra vibra", "serif": true, "color": "#FFC94A" }], "a": "ANTES", "b": "DESPUÉS" },
+        { "kind": "offer", "dur": 80 },
+        { "kind": "cta", "dur": 55 }
       ],
-      "caption": "Si regalas esto en Navidad, te deben una muy grande 🎁🌅 Lámpara LED atardecer -40%: 29,95 €. Link en la bio 🔗",
+      "caption": "Tus fotos con luz normal vs con luz de atardecer 📸🌅 Mismo cuarto, otra vibra. -40%: 29,95 €. Link en la bio 🔗",
       "status": "pendiente"
     },
     {
       "id": "2026-11-25-noche",
-      "tema": "Último aviso",
-      "lines": [
-        { "say": "¡Último aviso!", "scene": { "type": "slam", "text": "ÚLTIMO AVISO" } },
-        { "say": "La oferta del cuarenta por ciento no va a durar.", "scene": { "type": "offer", "text": "LA OFERTA SE ACABA" } },
-        { "say": "La lámpara que convierte tu cuarto en un atardecer.", "scene": { "type": "product", "text": "Tu cuarto, un atardecer 🌅", "photo": "estudio" } },
-        { "say": "Enciéndela… y disfruta.", "scene": { "type": "lampOn", "text": "Enciéndela…", "textAfter": "…y disfruta ✨" } },
-        { "say": "¡Pídela ya en el link de la bio!", "scene": { "type": "cta" } }
+      "tema": "Última oportunidad del -40%",
+      "beats": [
+        { "kind": "urgency", "dur": 85, "text": [{ "t": "Última oportunidad" }, { "t": "del -40%", "serif": true, "color": "#FFC94A", "size": 140 }] },
+        { "kind": "montage", "dur": 80, "worlds": ["dormitorio", "tiras", "salon", "escritorio", "rincon"], "text": [{ "t": "Un atardecer" }, { "t": "en cualquier sitio", "serif": true, "color": "#FFC94A" }] },
+        { "kind": "offer", "dur": 80, "top": "Se acaba ya" },
+        { "kind": "cta", "dur": 55 }
       ],
-      "caption": "Último aviso ⏳ La oferta del -40% no va a durar: lámpara LED atardecer a 29,95 €. Link en la bio 🔗",
+      "caption": "Última oportunidad del -40% ⏳ Lámpara LED atardecer a 29,95 € (antes 49,95 €). Link en la bio 🔗",
       "status": "pendiente"
     }
   ]
