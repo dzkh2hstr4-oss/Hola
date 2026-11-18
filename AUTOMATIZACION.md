@@ -37,7 +37,17 @@ Rama de trabajo: `claude/practical-fermi-g5yl5j` (rama por defecto del repo).
    `account="17841422628356887"`, `action="create_video_post"`,
    `params={"video_url": <URL>, "caption": <caption + "\n\n" + hashtags_base (+ "\n🔊 Voz generada con IA" si lleva voz)>, "share_to_feed": true}`.
 9. Marca la entrada `"status": "publicado"` con `publicado_en` y el id de Instagram; commit + push.
-10. **TikTok**: la conexión no permite publicar. Deja en el resumen la URL y la caption.
+10. **TikTok** (cuenta conectada en Higgsfield, connector_id `cf881682-2828-4826-8c33-ace3d82c1866`):
+    sube el mp4 con `media_upload` (PUT con `If-None-Match: *`) + `media_confirm`, y llama a
+    `tiktok_prepare_publish` (`mode: DIRECT_POST`, `media_type: VIDEO`, título = gancho, descripción =
+    caption + hashtags). TikTok **exige que Dani confirme el formulario** (privacidad, contenido
+    comercial «tu marca», IA). Una tarea automática no puede publicar sola: deja el vídeo preparado
+    y avisa en el resumen.
+
+## Tienda (Shopify «Lumora»)
+
+- Reseñas: **Judge.me** (sección «Aplicaciones → Review Widget» en la plantilla de producto).
+  Nunca inventar reseñas. Código para quien deja reseña: **GRACIAS10** (10 %, 1 uso por cliente).
 
 ## Cómo crear vídeos nuevos
 
