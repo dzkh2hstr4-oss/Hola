@@ -42,10 +42,10 @@ Carreras, motocross, paracaídas, pantanos y más en GTA 6 🌴 ¿Qué harás pr
 
 ---
 
-## Short 5 — gta6-short5.mp4 (club de Boobie)
+## Short 5 — gta6-short5.mp4 (el Tacón)
 
 **Título:**
-Así es POR DENTRO el club de Boobie en GTA 6 👀 #shorts
+¿No sabes cómo ir al TACÓN en GTA 6? 👀 #shorts
 
 **Descripción:**
-El club Jack of Hearts de Boobie Ike en GTA 6 con gameplay real 👀 ¿Tú entrarías? 👇 #GTA6
+Así se llega al Tacón en GTA 6 y así es por dentro 👀 Gameplay real. ¿Vas a ir? 👇 #GTA6
