@@ -1,89 +1,89 @@
 {
- "voice": "gta6/audio/voz1b.mp3",
+ "voice": "gta6/audio/voz1e.mp3",
  "music": "gta6/audio/musica1.wav",
  "musicVolume": 0.22,
- "total": 35.4,
+ "total": 27.73,
  "captions": [
   {
    "t": "¡Trece años! Trece años esperando…",
-   "s": 0,
-   "e": 1.78
+   "s": 0.05,
+   "e": 2.53
   },
   {
    "t": "Y ya está aquí.",
-   "s": 1.78,
-   "e": 2.9
+   "s": 2.6,
+   "e": 3.4
   },
   {
    "t": "GTA 6 lleva horas a la venta,",
-   "s": 2.9,
-   "e": 5.15
+   "s": 3.47,
+   "e": 5.03
   },
   {
    "t": "y la gente ya está jugando.",
-   "s": 5.15,
-   "e": 6.73
+   "s": 4.98,
+   "e": 6.27
   },
   {
    "t": "Volvemos a Vice City, en el estado de Leonida…",
-   "s": 6.73,
-   "e": 9.63
+   "s": 6.34,
+   "e": 8.68
   },
   {
    "t": "y mira esto, esto ya no parece un videojuego.",
-   "s": 9.63,
-   "e": 14.01
+   "s": 8.75,
+   "e": 10.99
   },
   {
    "t": "Los protagonistas: Jason y Lucía.",
-   "s": 14.01,
-   "e": 16.83
+   "s": 11.06,
+   "e": 13.05
   },
   {
    "t": "Una pareja a la que un golpe fácil les sale fatal…",
-   "s": 16.83,
-   "e": 19.89
+   "s": 13.12,
+   "e": 15.27
   },
   {
    "t": "y acaban metidos en una conspiración criminal por todo el estado.",
-   "s": 19.89,
-   "e": 23.71
+   "s": 15.34,
+   "e": 18.24
   },
   {
    "t": "Sale en PlayStation 5 y Xbox Series.",
-   "s": 23.71,
-   "e": 27.06
+   "s": 18.31,
+   "e": 20.56
   },
   {
    "t": "¿Y en PC? De momento… nada.",
-   "s": 27.06,
-   "e": 29.39
+   "s": 20.63,
+   "e": 23.16
   },
   {
    "t": "Ahora dime:",
-   "s": 29.39,
-   "e": 30.25
+   "s": 23.23,
+   "e": 23.8
   },
   {
    "t": "¿Tú ya lo estás jugando?",
-   "s": 30.25,
-   "e": 31.8
+   "s": 23.75,
+   "e": 24.72
   },
   {
    "t": "¿Qué te parece?",
-   "s": 31.8,
-   "e": 32.85
+   "s": 24.79,
+   "e": 25.42
   },
   {
    "t": "Te leo en comentarios.",
-   "s": 32.85,
-   "e": 34.4
+   "s": 25.49,
+   "e": 26.58
   }
  ],
  "scenes": [
   {
    "s": 0,
-   "e": 1.78,
+   "e": 2.6,
    "hook": true,
    "imgs": [
     "extended"
@@ -98,25 +98,25 @@
     ]
    ],
    "titleAt": [
-    0,
-    0.5
+    0.0,
+    0.73
    ],
    "sfx": [
     {
      "f": "wyr/sfx/riser.wav",
-     "at": 0.2,
+     "at": 0.29,
      "v": 0.7
     },
     {
      "f": "voz/impacto.wav",
-     "at": 0,
+     "at": 0.0,
      "v": 0.8
     }
    ]
   },
   {
-   "s": 1.78,
-   "e": 2.93,
+   "s": 2.6,
+   "e": 3.49,
    "hook": true,
    "flash": true,
    "shake": true,
@@ -133,20 +133,20 @@
     ]
    ],
    "titleAt": [
-    0,
-    0.3
+    0.0,
+    0.23
    ],
    "sfx": [
     {
      "f": "wyr/sfx/boom.wav",
-     "at": 0,
+     "at": 0.0,
      "v": 0.9
     }
    ]
   },
   {
-   "s": 2.93,
-   "e": 5.15,
+   "s": 3.49,
+   "e": 4.98,
    "imgs": [
     "keyart"
    ],
@@ -163,33 +163,33 @@
     ]
    ],
    "titleAt": [
-    0,
-    0.7
+    0.0,
+    0.47
    ],
    "overlays": [
     {
      "kind": "tag",
      "text": "🟢 LLEVA HORAS DISPONIBLE",
-     "at": 1.0,
+     "at": 0.67,
      "y": 1340
     }
    ],
    "sfx": [
     {
      "f": "wyr/sfx/whoosh.wav",
-     "at": 0,
+     "at": 0.0,
      "v": 0.5
     },
     {
      "f": "wyr/sfx/ding.wav",
-     "at": 1.0,
+     "at": 0.67,
      "v": 0.6
     }
    ]
   },
   {
-   "s": 5.15,
-   "e": 6.73,
+   "s": 4.98,
+   "e": 6.34,
    "imgs": [
     "jason_duval_11"
    ],
@@ -204,25 +204,25 @@
     ]
    ],
    "titleAt": [
-    0,
-    0.5
+    0.0,
+    0.43
    ],
    "sfx": [
     {
      "f": "wyr/sfx/whoosh.wav",
-     "at": 0,
+     "at": 0.0,
      "v": 0.5
     },
     {
      "f": "wyr/sfx/zap.wav",
-     "at": 0.5,
+     "at": 0.43,
      "v": 0.5
     }
    ]
   },
   {
-   "s": 6.73,
-   "e": 9.63,
+   "s": 6.34,
+   "e": 8.75,
    "imgs": [
     "vice_city_15",
     "aerial"
@@ -237,25 +237,25 @@
     ]
    ],
    "titleAt": [
-    0,
-    1.4
+    0.0,
+    1.16
    ],
    "sfx": [
     {
      "f": "wyr/sfx/whoosh.wav",
-     "at": 0,
+     "at": 0.0,
      "v": 0.5
     },
     {
      "f": "wyr/sfx/whoosh.wav",
-     "at": 1.45,
+     "at": 1.2,
      "v": 0.45
     }
    ]
   },
   {
-   "s": 9.63,
-   "e": 14.01,
+   "s": 8.75,
+   "e": 11.06,
    "imgs": [
     "vice_city_13",
     "vice_city_22",
@@ -275,35 +275,35 @@
     ]
    ],
    "titleAt": [
-    0,
-    1.5
+    0.0,
+    0.79
    ],
    "sfx": [
     {
      "f": "wyr/sfx/zap.wav",
-     "at": 0,
+     "at": 0.0,
      "v": 0.5
     },
     {
      "f": "wyr/sfx/whoosh.wav",
-     "at": 1.1,
+     "at": 0.58,
      "v": 0.45
     },
     {
      "f": "wyr/sfx/whoosh.wav",
-     "at": 2.2,
+     "at": 1.16,
      "v": 0.45
     },
     {
      "f": "wyr/sfx/whoosh.wav",
-     "at": 3.3,
+     "at": 1.74,
      "v": 0.45
     }
    ]
   },
   {
-   "s": 14.01,
-   "e": 16.83,
+   "s": 11.06,
+   "e": 13.12,
    "split": [
     "jason_duval_01",
     "JASON",
@@ -320,24 +320,24 @@
    "sfx": [
     {
      "f": "wyr/sfx/pop.wav",
-     "at": 0,
+     "at": 0.0,
      "v": 0.8
     },
     {
      "f": "wyr/sfx/pop.wav",
-     "at": 0.27,
+     "at": 0.2,
      "v": 0.8
     },
     {
      "f": "wyr/sfx/sparkle.wav",
-     "at": 1.3,
+     "at": 0.95,
      "v": 0.4
     }
    ]
   },
   {
-   "s": 16.83,
-   "e": 19.89,
+   "s": 13.12,
+   "e": 15.34,
    "imgs": [
     "jason_and_lucia_15"
    ],
@@ -353,14 +353,14 @@
     ]
    ],
    "titleAt": [
-    0,
-    1.9
+    0.0,
+    1.38
    ],
    "overlays": [
     {
      "kind": "stamp",
      "text": "FAIL",
-     "at": 2.1,
+     "at": 1.52,
      "rot": -12,
      "y": 1150
     }
@@ -368,19 +368,19 @@
    "sfx": [
     {
      "f": "wyr/sfx/whoosh.wav",
-     "at": 0,
+     "at": 0.0,
      "v": 0.5
     },
     {
      "f": "voz/impacto.wav",
-     "at": 2.1,
+     "at": 1.52,
      "v": 0.8
     }
    ]
   },
   {
-   "s": 19.89,
-   "e": 23.71,
+   "s": 15.34,
+   "e": 18.31,
    "imgs": [
     "jason_and_lucia_19",
     "lucia_caminos_14"
@@ -394,35 +394,35 @@
     ]
    ],
    "titleAt": [
-    0,
-    0.9
+    0.0,
+    0.7
    ],
    "sfx": [
     {
      "f": "wyr/sfx/whoosh.wav",
-     "at": 0,
+     "at": 0.0,
      "v": 0.5
     },
     {
      "f": "wyr/sfx/heart.wav",
-     "at": 0.6,
+     "at": 0.47,
      "v": 0.6
     },
     {
      "f": "wyr/sfx/heart.wav",
-     "at": 1.3,
+     "at": 1.01,
      "v": 0.6
     },
     {
      "f": "wyr/sfx/whoosh.wav",
-     "at": 1.9,
+     "at": 1.48,
      "v": 0.45
     }
    ]
   },
   {
-   "s": 23.71,
-   "e": 27.06,
+   "s": 18.31,
+   "e": 20.63,
    "imgs": [
     "jason_and_lucia_20"
    ],
@@ -442,34 +442,34 @@
       "PS5",
       "XBOX SERIES"
      ],
-     "at": 0.5
+     "at": 0.35
     }
    ],
    "sfx": [
     {
      "f": "wyr/sfx/whoosh.wav",
-     "at": 0,
+     "at": 0.0,
      "v": 0.5
     },
     {
      "f": "wyr/sfx/pop.wav",
-     "at": 0.5,
+     "at": 0.35,
      "v": 0.8
     },
     {
      "f": "wyr/sfx/pop.wav",
-     "at": 0.95,
+     "at": 0.66,
      "v": 0.8
     }
    ],
    "titleAt": [
-    0,
-    0.4
+    0.0,
+    0.28
    ]
   },
   {
-   "s": 27.06,
-   "e": 29.39,
+   "s": 20.63,
+   "e": 23.23,
    "shake": true,
    "imgs": [
     "lucia_caminos_13"
@@ -485,7 +485,7 @@
     {
      "kind": "stamp",
      "text": "DE MOMENTO, NO",
-     "at": 1.0,
+     "at": 1.12,
      "rot": -8,
      "y": 1120
     }
@@ -493,19 +493,19 @@
    "sfx": [
     {
      "f": "wyr/sfx/redoble.wav",
-     "at": 0,
+     "at": 0.0,
      "v": 0.4
     },
     {
      "f": "wyr/sfx/boom.wav",
-     "at": 1.0,
+     "at": 1.12,
      "v": 0.8
     }
    ]
   },
   {
-   "s": 29.39,
-   "e": 32.85,
+   "s": 23.23,
+   "e": 25.49,
    "imgs": [
     "jason_and_lucia_17"
    ],
@@ -520,38 +520,38 @@
     ]
    ],
    "titleAt": [
-    0,
-    0.95
+    0.0,
+    0.62
    ],
    "overlays": [
     {
      "kind": "choice",
      "a": "SÍ 🔥",
      "b": "AÚN NO ⏳",
-     "at": 1.3
+     "at": 0.85
     }
    ],
    "sfx": [
     {
      "f": "wyr/sfx/whoosh.wav",
-     "at": 0,
+     "at": 0.0,
      "v": 0.5
     },
     {
      "f": "wyr/sfx/beep.wav",
-     "at": 1.3,
+     "at": 0.85,
      "v": 0.6
     },
     {
      "f": "wyr/sfx/beep.wav",
-     "at": 1.65,
+     "at": 1.08,
      "v": 0.6
     }
    ]
   },
   {
-   "s": 32.85,
-   "e": 35.4,
+   "s": 25.49,
+   "e": 27.73,
    "imgs": [
     "beachcar"
    ],
@@ -566,13 +566,13 @@
     {
      "kind": "comment",
      "text": "¿Qué te parece?",
-     "at": 0.3
+     "at": 0.26
     }
    ],
    "sfx": [
     {
      "f": "wyr/sfx/ding.wav",
-     "at": 0.3,
+     "at": 0.26,
      "v": 0.6
     }
    ]

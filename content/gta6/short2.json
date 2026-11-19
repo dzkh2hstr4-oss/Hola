@@ -1,51 +1,536 @@
 {
-  "voice": "gta6/audio/voz2.mp3",
-  "music": "gta6/audio/musica2.wav",
-  "musicVolume": 0.2,
-  "total": 31.6,
-  "captions": [
-    {"t":"Lucía, la protagonista de GTA 6,","s":0.0,"e":2.66},
-    {"t":"acaba de salir de la cárcel.","s":2.66,"e":4.33},
-    {"t":"Y no, no fue por buena conducta.","s":4.33,"e":6.27},
-    {"t":"Su padre le enseñó a pelear nada más aprender a andar.","s":6.27,"e":9.17},
-    {"t":"Peleando por su familia acabó en la Penitenciaría de Leonida…","s":9.17,"e":12.63},
-    {"t":"y salió por pura suerte.","s":12.63,"e":14.15},
-    {"t":"Ahora quiere la buena vida que su madre soñaba desde sus días en Liberty City.","s":14.15,"e":18.28},
-    {"t":"Y Jason creció entre estafadores.","s":18.28,"e":20.46},
-    {"t":"Después del ejército, acabó en los Cayos trabajando para traficantes.","s":20.46,"e":24.5},
-    {"t":"Conocer a Lucía puede ser lo mejor…","s":24.5,"e":26.6},
-    {"t":"o lo peor que le ha pasado.","s":26.6,"e":28.99},
-    {"t":"¿Tú con quién vas, Jason o Lucía?","s":28.99,"e":30.4}
-  ],
-  "scenes": [
-    {"s":0,"e":2.66,"hook":true,"imgs":["lucia_caminos_05"],"title":[["LA","PROTA","DE"],["*GTA 6*…"]],"titleAt":[0,0.7],
-     "sfx":[{"f":"voz/impacto.wav","at":0,"v":0.8},{"f":"wyr/sfx/beep.wav","at":0.9,"v":0.5},{"f":"wyr/sfx/beep.wav","at":1.3,"v":0.5},{"f":"wyr/sfx/riser.wav","at":1.1,"v":0.6}]},
-    {"s":2.66,"e":4.33,"hook":true,"flash":true,"shake":true,"imgs":["lucia_caminos_05"],"title":[["SALE","DE"],["LA","*CÁRCEL*"]],"titleAt":[0,0.4],
-     "overlays":[{"kind":"bars","at":0},{"kind":"stamp","text":"EX-PRESA","at":0.6,"rot":-10,"y":1150}],
-     "sfx":[{"f":"wyr/sfx/boom.wav","at":0,"v":0.9},{"f":"voz/impacto.wav","at":0.6,"v":0.7}]},
-    {"s":4.33,"e":6.27,"imgs":["lucia_caminos_04"],"title":[["¿BUENA"],["*CONDUCTA*?"]],"titleAt":[0,0.4],
-     "overlays":[{"kind":"stamp","text":"NO ❌","at":0.9,"rot":8,"y":1150}],
-     "sfx":[{"f":"wyr/sfx/whoosh.wav","at":0,"v":0.5},{"f":"wyr/sfx/zap.wav","at":0.9,"v":0.7}]},
-    {"s":6.27,"e":9.17,"imgs":["lucia_caminos_01"],"title":[["PELEA","DESDE"],["QUE","*ANDA*","🥊"]],"titleAt":[0,1.2],
-     "sfx":[{"f":"wyr/sfx/whoosh.wav","at":0,"v":0.5},{"f":"voz/impacto.wav","at":0.5,"v":0.7},{"f":"voz/impacto.wav","at":1.6,"v":0.6}]},
-    {"s":9.17,"e":12.63,"imgs":["lucia_caminos_11","lucia_caminos_12"],"title":[["PENITENCIARÍA"],["DE","*LEONIDA*"]],"titleAt":[0,1.0],
-     "overlays":[{"kind":"tag","text":"PELEANDO POR SU FAMILIA","at":0.3,"y":1340}],
-     "sfx":[{"f":"wyr/sfx/whoosh.wav","at":0,"v":0.5},{"f":"wyr/sfx/heart.wav","at":1.0,"v":0.6},{"f":"wyr/sfx/whoosh.wav","at":1.73,"v":0.45}]},
-    {"s":12.63,"e":14.15,"imgs":["lucia_caminos_02"],"title":[["PURA"],["*SUERTE*","🍀"]],"titleAt":[0,0.3],
-     "sfx":[{"f":"wyr/sfx/sparkle.wav","at":0,"v":0.6}]},
-    {"s":14.15,"e":18.28,"imgs":["lucia_caminos_06","vice_city_15"],"title":[["SU","SUEÑO:"],["LA","*BUENA VIDA*"]],"titleAt":[0,0.7],
-     "overlays":[{"kind":"tag","text":"🗽 VIENE DE LIBERTY CITY","at":2.4,"y":1340}],
-     "sfx":[{"f":"wyr/sfx/whoosh.wav","at":0,"v":0.5},{"f":"wyr/sfx/whoosh.wav","at":2.06,"v":0.45},{"f":"wyr/sfx/ding.wav","at":2.4,"v":0.5}]},
-    {"s":18.28,"e":20.46,"flash":true,"imgs":["jason_duval_06"],"title":[["Y","*JASON*…"]],
-     "overlays":[{"kind":"tag","text":"CRIADO ENTRE ESTAFADORES","at":0.6,"y":1340}],
-     "sfx":[{"f":"wyr/sfx/boom.wav","at":0,"v":0.6},{"f":"wyr/sfx/pop.wav","at":0.6,"v":0.8}]},
-    {"s":20.46,"e":24.5,"imgs":["jason_duval_12","jason_duval_03"],"title":[["EX","*MILITAR*","🎖️"],["LOS","CAYOS"]],"titleAt":[0,2.0],
-     "overlays":[{"kind":"tag","text":"TRABAJA PARA TRAFICANTES","at":2.4,"y":1340}],
-     "sfx":[{"f":"wyr/sfx/whoosh.wav","at":0,"v":0.5},{"f":"wyr/sfx/whoosh.wav","at":2.02,"v":0.45},{"f":"wyr/sfx/pop.wav","at":2.4,"v":0.8}]},
-    {"s":24.5,"e":28.99,"imgs":["jason_and_lucia_14","jason_and_lucia_17"],"title":[["¿LO","*MEJOR*…"],["O","LO","*PEOR*?"]],"titleAt":[0,2.1],
-     "sfx":[{"f":"wyr/sfx/heart.wav","at":0.2,"v":0.7},{"f":"wyr/sfx/heart.wav","at":0.8,"v":0.7},{"f":"wyr/sfx/zap.wav","at":2.2,"v":0.7}]},
-    {"s":28.99,"e":31.6,"split":["jason_duval_01","JASON","lucia_caminos_13","LUCÍA"],"imgs":[],"title":[["¿CON","QUIÉN"],["*VAS*?","👇"]],"titleAt":[0,0.4],
-     "overlays":[{"kind":"stamp","text":"VS","color":"#FFB13B","at":0.5,"rot":0,"y":890}],
-     "sfx":[{"f":"wyr/sfx/pop.wav","at":0,"v":0.8},{"f":"wyr/sfx/pop.wav","at":0.27,"v":0.8},{"f":"wyr/sfx/boom.wav","at":0.5,"v":0.7}]}
-  ]
+ "voice": "gta6/audio/voz2e.mp3",
+ "music": "gta6/audio/musica2.wav",
+ "musicVolume": 0.2,
+ "total": 25.7,
+ "captions": [
+  {
+   "t": "Lucía, la protagonista de GTA 6,",
+   "s": 0.05,
+   "e": 2.11
+  },
+  {
+   "t": "acaba de salir de la cárcel.",
+   "s": 2.06,
+   "e": 3.38
+  },
+  {
+   "t": "Y no, no fue por buena conducta.",
+   "s": 3.45,
+   "e": 5.11
+  },
+  {
+   "t": "Su padre le enseñó a pelear nada más aprender a andar.",
+   "s": 5.18,
+   "e": 7.58
+  },
+  {
+   "t": "Peleando por su familia acabó en la Penitenciaría de Leonida…",
+   "s": 7.65,
+   "e": 10.24
+  },
+  {
+   "t": "y salió por pura suerte.",
+   "s": 10.31,
+   "e": 11.54
+  },
+  {
+   "t": "Ahora quiere la buena vida que su madre soñaba desde sus días en Liberty City.",
+   "s": 11.61,
+   "e": 14.74
+  },
+  {
+   "t": "Y Jason creció entre estafadores.",
+   "s": 14.81,
+   "e": 16.38
+  },
+  {
+   "t": "Después del ejército, acabó en los Cayos trabajando para traficantes.",
+   "s": 16.45,
+   "e": 19.79
+  },
+  {
+   "t": "Conocer a Lucía puede ser lo mejor…",
+   "s": 19.86,
+   "e": 21.52
+  },
+  {
+   "t": "o lo peor que le ha pasado.",
+   "s": 21.59,
+   "e": 22.78
+  },
+  {
+   "t": "¿Tú con quién vas, Jason o Lucía?",
+   "s": 22.85,
+   "e": 24.55
+  }
+ ],
+ "scenes": [
+  {
+   "s": 0,
+   "e": 2.06,
+   "hook": true,
+   "imgs": [
+    "lucia_caminos_05"
+   ],
+   "title": [
+    [
+     "LA",
+     "PROTA",
+     "DE"
+    ],
+    [
+     "*GTA 6*…"
+    ]
+   ],
+   "titleAt": [
+    0.0,
+    0.54
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0.0,
+     "v": 0.8
+    },
+    {
+     "f": "wyr/sfx/beep.wav",
+     "at": 0.7,
+     "v": 0.5
+    },
+    {
+     "f": "wyr/sfx/beep.wav",
+     "at": 1.01,
+     "v": 0.5
+    },
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 0.85,
+     "v": 0.6
+    }
+   ]
+  },
+  {
+   "s": 2.06,
+   "e": 3.45,
+   "hook": true,
+   "flash": true,
+   "shake": true,
+   "imgs": [
+    "lucia_caminos_05"
+   ],
+   "title": [
+    [
+     "SALE",
+     "DE"
+    ],
+    [
+     "LA",
+     "*CÁRCEL*"
+    ]
+   ],
+   "titleAt": [
+    0.0,
+    0.33
+   ],
+   "overlays": [
+    {
+     "kind": "bars",
+     "at": 0.0
+    },
+    {
+     "kind": "stamp",
+     "text": "EX-PRESA",
+     "at": 0.5,
+     "rot": -10,
+     "y": 1150
+    }
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0.0,
+     "v": 0.9
+    },
+    {
+     "f": "voz/impacto.wav",
+     "at": 0.5,
+     "v": 0.7
+    }
+   ]
+  },
+  {
+   "s": 3.45,
+   "e": 5.18,
+   "imgs": [
+    "lucia_caminos_04"
+   ],
+   "title": [
+    [
+     "¿BUENA"
+    ],
+    [
+     "*CONDUCTA*?"
+    ]
+   ],
+   "titleAt": [
+    0.0,
+    0.36
+   ],
+   "overlays": [
+    {
+     "kind": "stamp",
+     "text": "NO ❌",
+     "at": 0.8,
+     "rot": 8,
+     "y": 1150
+    }
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0.0,
+     "v": 0.5
+    },
+    {
+     "f": "wyr/sfx/zap.wav",
+     "at": 0.8,
+     "v": 0.7
+    }
+   ]
+  },
+  {
+   "s": 5.18,
+   "e": 7.65,
+   "imgs": [
+    "lucia_caminos_01"
+   ],
+   "title": [
+    [
+     "PELEA",
+     "DESDE"
+    ],
+    [
+     "QUE",
+     "*ANDA*",
+     "🥊"
+    ]
+   ],
+   "titleAt": [
+    0.0,
+    1.02
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0.0,
+     "v": 0.5
+    },
+    {
+     "f": "voz/impacto.wav",
+     "at": 0.43,
+     "v": 0.7
+    },
+    {
+     "f": "voz/impacto.wav",
+     "at": 1.36,
+     "v": 0.6
+    }
+   ]
+  },
+  {
+   "s": 7.65,
+   "e": 10.31,
+   "imgs": [
+    "lucia_caminos_11",
+    "lucia_caminos_12"
+   ],
+   "title": [
+    [
+     "PENITENCIARÍA"
+    ],
+    [
+     "DE",
+     "*LEONIDA*"
+    ]
+   ],
+   "titleAt": [
+    0.0,
+    0.77
+   ],
+   "overlays": [
+    {
+     "kind": "tag",
+     "text": "PELEANDO POR SU FAMILIA",
+     "at": 0.23,
+     "y": 1340
+    }
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0.0,
+     "v": 0.5
+    },
+    {
+     "f": "wyr/sfx/heart.wav",
+     "at": 0.77,
+     "v": 0.6
+    },
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 1.33,
+     "v": 0.45
+    }
+   ]
+  },
+  {
+   "s": 10.31,
+   "e": 11.61,
+   "imgs": [
+    "lucia_caminos_02"
+   ],
+   "title": [
+    [
+     "PURA"
+    ],
+    [
+     "*SUERTE*",
+     "🍀"
+    ]
+   ],
+   "titleAt": [
+    0.0,
+    0.26
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/sparkle.wav",
+     "at": 0.0,
+     "v": 0.6
+    }
+   ]
+  },
+  {
+   "s": 11.61,
+   "e": 14.81,
+   "imgs": [
+    "lucia_caminos_06",
+    "vice_city_15"
+   ],
+   "title": [
+    [
+     "SU",
+     "SUEÑO:"
+    ],
+    [
+     "LA",
+     "*BUENA VIDA*"
+    ]
+   ],
+   "titleAt": [
+    0.0,
+    0.54
+   ],
+   "overlays": [
+    {
+     "kind": "tag",
+     "text": "🗽 VIENE DE LIBERTY CITY",
+     "at": 1.86,
+     "y": 1340
+    }
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0.0,
+     "v": 0.5
+    },
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 1.6,
+     "v": 0.45
+    },
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.86,
+     "v": 0.5
+    }
+   ]
+  },
+  {
+   "s": 14.81,
+   "e": 16.45,
+   "flash": true,
+   "imgs": [
+    "jason_duval_06"
+   ],
+   "title": [
+    [
+     "Y",
+     "*JASON*…"
+    ]
+   ],
+   "overlays": [
+    {
+     "kind": "tag",
+     "text": "CRIADO ENTRE ESTAFADORES",
+     "at": 0.45,
+     "y": 1340
+    }
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0.0,
+     "v": 0.6
+    },
+    {
+     "f": "wyr/sfx/pop.wav",
+     "at": 0.45,
+     "v": 0.8
+    }
+   ]
+  },
+  {
+   "s": 16.45,
+   "e": 19.86,
+   "imgs": [
+    "jason_duval_12",
+    "jason_duval_03"
+   ],
+   "title": [
+    [
+     "EX",
+     "*MILITAR*",
+     "🎖️"
+    ],
+    [
+     "LOS",
+     "CAYOS"
+    ]
+   ],
+   "titleAt": [
+    0.0,
+    1.69
+   ],
+   "overlays": [
+    {
+     "kind": "tag",
+     "text": "TRABAJA PARA TRAFICANTES",
+     "at": 2.03,
+     "y": 1340
+    }
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0.0,
+     "v": 0.5
+    },
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 1.71,
+     "v": 0.45
+    },
+    {
+     "f": "wyr/sfx/pop.wav",
+     "at": 2.03,
+     "v": 0.8
+    }
+   ]
+  },
+  {
+   "s": 19.86,
+   "e": 22.85,
+   "imgs": [
+    "jason_and_lucia_14",
+    "jason_and_lucia_17"
+   ],
+   "title": [
+    [
+     "¿LO",
+     "*MEJOR*…"
+    ],
+    [
+     "O",
+     "LO",
+     "*PEOR*?"
+    ]
+   ],
+   "titleAt": [
+    0.0,
+    1.4
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/heart.wav",
+     "at": 0.13,
+     "v": 0.7
+    },
+    {
+     "f": "wyr/sfx/heart.wav",
+     "at": 0.53,
+     "v": 0.7
+    },
+    {
+     "f": "wyr/sfx/zap.wav",
+     "at": 1.47,
+     "v": 0.7
+    }
+   ]
+  },
+  {
+   "s": 22.85,
+   "e": 25.7,
+   "split": [
+    "jason_duval_01",
+    "JASON",
+    "lucia_caminos_13",
+    "LUCÍA"
+   ],
+   "imgs": [],
+   "title": [
+    [
+     "¿CON",
+     "QUIÉN"
+    ],
+    [
+     "*VAS*?",
+     "👇"
+    ]
+   ],
+   "titleAt": [
+    0.0,
+    0.44
+   ],
+   "overlays": [
+    {
+     "kind": "stamp",
+     "text": "VS",
+     "color": "#FFB13B",
+     "at": 0.55,
+     "rot": 0,
+     "y": 890
+    }
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/pop.wav",
+     "at": 0.0,
+     "v": 0.8
+    },
+    {
+     "f": "wyr/sfx/pop.wav",
+     "at": 0.29,
+     "v": 0.8
+    },
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0.55,
+     "v": 0.7
+    }
+   ]
+  }
+ ]
 }
