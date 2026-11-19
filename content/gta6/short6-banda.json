@@ -1,5 +1,5 @@
-[{"s":0,"e":19.96,"mood":"suspense","seed":44},
- {"s":19.96,"e":40.96,"mood":"emotiva","seed":12},
- {"s":40.96,"e":49.17,"mood":"accion","seed":7},
- {"s":49.17,"e":58.05,"mood":"suspense","seed":52},
- {"s":58.05,"e":65.67,"mood":"epica","seed":9}]
+[{"s":0,"e":21.93,"mood":"suspense","seed":44},
+ {"s":21.93,"e":35.7,"mood":"emotiva","seed":12},
+ {"s":35.7,"e":43.87,"mood":"accion","seed":7},
+ {"s":43.87,"e":51.42,"mood":"suspense","seed":52},
+ {"s":51.42,"e":60.17,"mood":"epica","seed":9}]

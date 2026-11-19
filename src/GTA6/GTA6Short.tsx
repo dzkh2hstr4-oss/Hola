@@ -51,6 +51,7 @@ export type Scene = {
   emojis?: string[];
   full?: boolean;
   vol?: number;
+  clipFrom?: number;
 };
 
 export type Caption = { t: string; s: number; e: number; full?: boolean };
@@ -67,9 +68,12 @@ export type GTA6Props = {
   sfxGain?: number;
   capSize?: number;
   capTop?: number;
+  smooth?: boolean;
 };
 
 const sec = (s: number) => Math.round(s * FPS);
+
+const SmoothCtx = React.createContext(false);
 
 // ---------- background ----------
 const Bg: React.FC<{ img: string }> = ({ img }) => {
@@ -473,26 +477,28 @@ const Stickers: React.FC<{ emojis: string[]; dur: number; seed: number }> = ({ e
   );
 };
 
-const FullMedia: React.FC<{ m: string; clipLen: Record<string, number>; vol: number; seed: number }> = ({ m, clipLen, vol, seed }) => {
+const FullMedia: React.FC<{ m: string; clipLen: Record<string, number>; vol: number; seed: number; from?: number }> = ({ m, clipLen, vol, seed, from = 0 }) => {
   const f = useCurrentFrame();
-  const punch = seed === 0 ? 1.06 : interpolate(f, [0, 7], [1.25, 1.06], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const smooth = React.useContext(SmoothCtx);
+  const punch = seed === 0 || smooth ? 1.06 : interpolate(f, [0, 7], [1.25, 1.06], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
   const z = punch + f * 0.0012;
   const px = Math.sin(f / 50 + seed) * 20;
   const style: React.CSSProperties = { width: "100%", height: "100%", objectFit: "cover", transform: `scale(${z}) translateX(${px}px)` };
   const isV = m.startsWith("v:");
   const name = isV ? m.slice(2) : m;
-  const len = Math.max(1, Math.round((clipLen[name] ?? 3) * FPS) - 1);
+  const startF = Math.round(from * FPS);
+  const len = Math.max(1, Math.round((clipLen[name] ?? 3) * FPS) - 1 - startF);
   return (
     <AbsoluteFill style={{ overflow: "hidden" }}>
       {isV ? (
         <Loop durationInFrames={len} layout="none">
-          <OffthreadVideo src={staticFile(`gta6/gp/${name}.mp4`)} volume={vol} style={style} />
+          <OffthreadVideo src={staticFile(`gta6/gp/${name}.mp4`)} startFrom={startF} volume={vol} style={style} />
         </Loop>
       ) : (
         <Img src={staticFile(`gta6/img/${m}.jpg`)} style={style} />
       )}
       <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(20,4,42,0.82) 0%, rgba(20,4,42,0.1) 32%, rgba(20,4,42,0) 55%, rgba(20,4,42,0.75) 100%)" }} />
-      {seed === 0 ? null : <AbsoluteFill style={{ background: "white", opacity: interpolate(f, [0, 4], [0.4, 0], { extrapolateRight: "clamp" }) }} />}
+      {seed === 0 || smooth ? null : <AbsoluteFill style={{ background: "white", opacity: interpolate(f, [0, 4], [0.4, 0], { extrapolateRight: "clamp" }) }} />}
     </AbsoluteFill>
   );
 };
@@ -510,15 +516,16 @@ const GameBadge: React.FC = () => {
 const SceneView: React.FC<{ sc: Scene; idx: number; clipLen?: Record<string, number>; gameVolume?: number }> = ({ sc, idx, clipLen = {}, gameVolume = 0.3 }) => {
   const f = useCurrentFrame();
   const dur = sec(sc.e - sc.s);
-  const shake = (sc.shake ? 18 : 7) * Math.max(0, 1 - f / 10);
+  const smooth = React.useContext(SmoothCtx);
+  const shake = (sc.shake ? 18 : smooth ? 0 : 7) * Math.max(0, 1 - f / 10);
   const sx = shake * Math.sin(f * 2.3);
   const sy = shake * Math.cos(f * 3.1);
   const n = sc.imgs.length;
   const per = dur / Math.max(1, n);
   const cur = Math.min(n - 1, Math.floor(f / per));
-  const whip = idx === 0 ? 0 : interpolate(f, [0, 6], [idx % 2 ? 260 : -260, 0], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
-  const blur = idx === 0 ? 0 : interpolate(f, [0, 6], [18, 0], { extrapolateRight: "clamp" });
-  const zoomIn = interpolate(f, [0, 8], [1.12, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const whip = idx === 0 || smooth ? 0 : interpolate(f, [0, 6], [idx % 2 ? 260 : -260, 0], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const blur = idx === 0 || smooth ? 0 : interpolate(f, [0, 6], [18, 0], { extrapolateRight: "clamp" });
+  const zoomIn = smooth ? 1 : interpolate(f, [0, 8], [1.12, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
   return (
     <AbsoluteFill style={{ transform: `translate(${sx + whip}px, ${sy}px) scale(${zoomIn})`, filter: blur ? `blur(${blur}px)` : undefined }}>
       {sc.full ? null : <Bg img={sc.split ? sc.split[0] : sc.imgs[cur]} />}
@@ -526,7 +533,7 @@ const SceneView: React.FC<{ sc: Scene; idx: number; clipLen?: Record<string, num
         sc.imgs.map((im, i) =>
           i === cur ? (
             <Sequence key={i} from={Math.round(i * per)} durationInFrames={Math.max(1, Math.round(per))}>
-              <FullMedia m={im} clipLen={clipLen} vol={sc.vol ?? gameVolume} seed={idx + i} />
+              <FullMedia m={im} clipLen={clipLen} vol={sc.vol ?? gameVolume} seed={idx + i} from={i === 0 ? sc.clipFrom ?? 0 : 0} />
             </Sequence>
           ) : null,
         )
@@ -551,13 +558,14 @@ const SceneView: React.FC<{ sc: Scene; idx: number; clipLen?: Record<string, num
         <OverlayView key={i} o={o} />
       ))}
       {/* cut flashes: every scene start and every image change */}
+      {smooth ? null : (
       <AbsoluteFill
         style={{
           background: sc.flash ? "white" : PINK,
           mixBlendMode: sc.flash ? "normal" : "screen",
           opacity: idx === 0 && f < per ? 0 : interpolate(f - (n > 1 && !sc.split ? Math.floor(f / per) * per : 0), [0, sc.flash ? 6 : 4], [sc.flash ? 0.9 : 0.45, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
         }}
-      />
+      />)}
     </AbsoluteFill>
   );
 };
@@ -621,15 +629,25 @@ const Captions: React.FC<{ caps: Caption[]; size?: number; top?: number }> = ({ 
   );
 };
 
+const FadeIn: React.FC<{ on: boolean; children: React.ReactNode }> = ({ on, children }) => {
+  const f = useCurrentFrame();
+  if (!on) return <>{children}</>;
+  return <AbsoluteFill style={{ opacity: interpolate(f, [0, 10], [0, 1], { extrapolateRight: "clamp" }) }}>{children}</AbsoluteFill>;
+};
+
 // ---------- main ----------
-export const GTA6Short: React.FC<GTA6Props> = ({ scenes, captions, voice, music, musicVolume, total, clipLen, gameVolume, sfxGain = 1, capSize, capTop }) => {
+export const GTA6Short: React.FC<GTA6Props> = ({ scenes, captions, voice, music, musicVolume, total, clipLen, gameVolume, sfxGain = 1, capSize, capTop, smooth = false }) => {
   const f = useCurrentFrame();
   const end = sec(total);
   return (
     <AbsoluteFill style={{ background: "#14042a" }}>
       {scenes.map((sc, i) => (
-        <Sequence key={i} from={sec(sc.s)} durationInFrames={Math.max(1, sec(sc.e) - sec(sc.s))}>
-          <SceneView sc={sc} idx={i} clipLen={clipLen} gameVolume={gameVolume} />
+        <Sequence key={i} from={Math.max(0, sec(sc.s) - (smooth && i > 0 ? 10 : 0))} durationInFrames={Math.max(1, sec(sc.e) - sec(sc.s) + (smooth && i > 0 ? 10 : 0))}>
+          <SmoothCtx.Provider value={smooth}>
+            <FadeIn on={smooth && i > 0}>
+              <SceneView sc={sc} idx={i} clipLen={clipLen} gameVolume={gameVolume} />
+            </FadeIn>
+          </SmoothCtx.Provider>
         </Sequence>
       ))}
       <Captions caps={captions} size={capSize} top={capTop} />

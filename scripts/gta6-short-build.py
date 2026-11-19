@@ -33,10 +33,10 @@ for i, ln in enumerate(plan["lines"]):
     subprocess.run(["ffmpeg","-nostdin","-y","-v","error","-f","lavfi","-i","anullsrc=r=44100:cl=mono","-t",f"{max(t-prev,0.01):.3f}",sil], check=True)
     pieces += [sil, wav]; prev = t + L
     e = t + L + (0.18 if re.search(r"[.?!…]$", ln["t"]) else 0.08)
-    sc = {k: v for k, v in ln.items() if k not in ("t", "rate", "pitch", "fx", "voice")}
+    sc = {k: v for k, v in ln.items() if k not in ("t", "rate", "pitch", "fx", "voice", "quote")}
     sc.setdefault("title", [])
     sc.update(s=0 if i == 0 else round(t, 2), e=round(e, 2), full=True)
-    scenes.append(sc); caps.append({"t": ln["t"], "s": round(t, 2), "e": round(t + L + 0.1, 2)})
+    scenes.append(sc); caps.append({"t": ("«" + ln["t"] + "»") if ln.get("quote") else ln["t"], "s": round(t, 2), "e": round(t + L + 0.1, 2), **({"full": True} if ln.get("quote") else {})})
     t = e
 scenes[-1]["e"] = round(t + 1.2, 2)
 lst = os.path.join(tmp, "list.txt"); open(lst, "w").write("".join(f"file '{p}'\n" for p in pieces))

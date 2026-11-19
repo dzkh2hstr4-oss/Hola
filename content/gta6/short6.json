@@ -14,7 +14,6 @@
     ]
    ],
    "hook": true,
-   "shake": true,
    "sfx": [
     {
      "f": "voz/impacto.wav",
@@ -23,84 +22,136 @@
     },
     {
      "f": "wyr/sfx/riser.wav",
-     "at": 1.2,
-     "v": 0.5
+     "at": 3.4,
+     "v": 0.45
     }
    ],
    "s": 0,
-   "e": 4.52,
+   "e": 6.39,
    "full": true
   },
   {
    "imgs": [
-    "v:d_carrusel"
+    "v:c_brian1"
    ],
    "title": [],
-   "s": 4.52,
-   "e": 10.24,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.3
+    },
+    {
+     "f": "wyr/sfx/tick.wav",
+     "at": 4.0,
+     "v": 0.5
+    },
+    {
+     "f": "wyr/sfx/tock.wav",
+     "at": 4.5,
+     "v": 0.5
+    },
+    {
+     "f": "wyr/sfx/tick.wav",
+     "at": 5.0,
+     "v": 0.5
+    },
+    {
+     "f": "wyr/sfx/tock.wav",
+     "at": 5.5,
+     "v": 0.5
+    }
+   ],
+   "s": 6.39,
+   "e": 14.18,
    "full": true
   },
   {
    "imgs": [
-    "v:d_mesa2",
-    "v:d_carrusel"
+    "brian_heder_03"
    ],
    "title": [],
    "sfx": [
     {
      "f": "wyr/sfx/heart.wav",
-     "at": 2.5,
+     "at": 2.2,
      "v": 0.6
     },
     {
      "f": "wyr/sfx/heart.wav",
-     "at": 3.3,
+     "at": 2.9,
+     "v": 0.6
+    },
+    {
+     "f": "wyr/sfx/heart.wav",
+     "at": 3.6,
      "v": 0.6
     },
     {
      "f": "wyr/sfx/riser.wav",
-     "at": 3.6,
-     "v": 0.5
+     "at": 4.2,
+     "v": 0.55
     }
    ],
-   "s": 10.24,
-   "e": 19.78,
+   "s": 14.18,
+   "e": 21.93,
    "full": true
   },
   {
    "imgs": [
-    "v:q_salte"
+    "v:c_brian1"
    ],
-   "vol": 1.0,
-   "full": true,
-   "s": 19.78,
-   "e": 32.68,
-   "sfx": [],
-   "title": []
-  },
-  {
-   "flash": true,
+   "vol": 0.15,
+   "title": [],
    "sfx": [
     {
      "f": "wyr/sfx/boom.wav",
+     "at": 0.1,
+     "v": 0.45
+    }
+   ],
+   "s": 21.93,
+   "e": 28.39,
+   "full": true,
+   "clipFrom": 7.79
+  },
+  {
+   "imgs": [
+    "v:q_bajarte"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/redoble.wav",
+     "at": 0.6,
+     "v": 0.35
+    }
+   ],
+   "s": 28.39,
+   "e": 31.32,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:q_bajarte"
+   ],
+   "vol": 0.18,
+   "title": [],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
      "at": 0,
      "v": 0.5
     }
    ],
-   "imgs": [
-    "v:q_bajarte"
-   ],
-   "vol": 1.0,
+   "s": 31.32,
+   "e": 35.7,
    "full": true,
-   "s": 32.68,
-   "e": 40.78,
-   "title": []
+   "clipFrom": 2.93
   },
   {
    "imgs": [
-    "v:d_tiro3",
-    "v:m_poli_flip",
-    "v:d_redada"
+    "v:d_tiro3"
    ],
    "title": [
     [
@@ -108,16 +159,30 @@
      "*CARRUSEL*"
     ]
    ],
-   "flash": true,
    "sfx": [
     {
-     "f": "voz/impacto.wav",
+     "f": "wyr/sfx/whoosh.wav",
      "at": 0,
+     "v": 0.35
+    },
+    {
+     "f": "wyr/sfx/heart.wav",
+     "at": 4.0,
      "v": 0.6
+    },
+    {
+     "f": "wyr/sfx/heart.wav",
+     "at": 4.7,
+     "v": 0.6
+    },
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 6.6,
+     "v": 0.5
     }
    ],
-   "s": 40.78,
-   "e": 48.99,
+   "s": 35.7,
+   "e": 43.87,
    "full": true
   },
   {
@@ -125,20 +190,33 @@
     "v:d_final"
    ],
    "title": [],
-   "s": 48.99,
-   "e": 50.77,
+   "sfx": [
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 1.5,
+     "v": 0.45
+    }
+   ],
+   "s": 43.87,
+   "e": 47.09,
    "full": true
   },
   {
    "imgs": [
-    "v:q_gloria2"
+    "v:d_final"
    ],
-   "vol": 1.0,
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/sparkle.wav",
+     "at": 0.2,
+     "v": 0.45
+    }
+   ],
+   "s": 47.09,
+   "e": 51.42,
    "full": true,
-   "s": 50.77,
-   "e": 57.87,
-   "sfx": [],
-   "title": []
+   "clipFrom": 3.22
   },
   {
    "imgs": [
@@ -156,71 +234,78 @@
    "sfx": [
     {
      "f": "wyr/sfx/ding.wav",
-     "at": 0.3,
+     "at": 4.2,
      "v": 0.5
     }
    ],
-   "s": 57.87,
-   "e": 65.49,
-   "full": true
+   "s": 51.42,
+   "e": 60.17,
+   "full": true,
+   "clipFrom": 7.55
   }
  ],
  "captions": [
   {
-   "t": "Creo que este personaje acaba de spoilear el final de GTA 6… y casi nadie se ha dado cuenta.",
+   "t": "Atento… porque creo que este personaje acaba de spoilear el final de GTA 6. ¡Y casi nadie se ha dado cuenta!",
    "s": 0.05,
-   "e": 4.44
+   "e": 6.31
   },
   {
-   "t": "Se llama Brian. Y en el gameplay oficial, se lleva a Jason aparte… y le cuenta una historia.",
-   "s": 4.52,
-   "e": 10.16
+   "t": "Este es Brian, un traficante veterano. En el gameplay oficial, se lleva a Jason a una terraza… y le cuenta una historia de cuando era niño.",
+   "s": 6.39,
+   "e": 14.1
   },
   {
-   "t": "Una noche, de niño, se coló en una feria con un amigo. Encendieron el carrusel… y lo pusieron cada vez más rápido. Más… y más rápido.",
-   "s": 10.24,
-   "e": 19.7
+   "t": "Una noche se coló en una feria con su amigo Jimmy. Encendieron el carrusel… y lo pusieron a toda velocidad. ¡Cada vez más rápido!",
+   "s": 14.18,
+   "e": 21.85
   },
   {
-   "t": "«Y salté. Jimmy se quedó… salió despedido y murió esa noche.»",
-   "s": 19.93,
-   "e": 32.48,
+   "t": "«Yo salté. Pero Jimmy se quedó… salió volando. Y murió esa noche.»",
+   "s": 21.93,
+   "e": 28.31,
    "full": true
+  },
+  {
+   "t": "Y entonces, mirándole a los ojos, le suelta esto:",
+   "s": 28.39,
+   "e": 31.34
   },
   {
    "t": "«Tienes que saber cuándo bajarte, Jason. ¿Me oyes?»",
-   "s": 32.83,
-   "e": 40.58,
+   "s": 31.32,
+   "e": 35.62,
    "full": true
   },
   {
-   "t": "¿Lo pillas? El carrusel es la vida criminal de Jason. Va cada vez más rápido… y el que no se baja a tiempo, acaba como Jimmy.",
-   "s": 40.78,
-   "e": 48.91
+   "t": "¿Lo pillas? El carrusel es la vida criminal de Jason. Cada vez va más rápido… y el que no se baja a tiempo… acaba como Jimmy.",
+   "s": 35.7,
+   "e": 43.79
   },
   {
-   "t": "Y por si fuera poco… el gameplay termina con esta frase.",
-   "s": 48.99,
-   "e": 50.69
+   "t": "Y ojo, porque el gameplay termina con alguien diciéndole justo esto:",
+   "s": 43.87,
+   "e": 47.11
   },
   {
-   "t": "«Disfrútalo. Esto, ahora… es todo lo que hay.»",
-   "s": 50.92,
-   "e": 57.67,
+   "t": "«Disfrútalo. Porque esto, ahora… es todo lo que hay.»",
+   "s": 47.09,
+   "e": 51.34,
    "full": true
   },
   {
-   "t": "Días de gloria… justo antes de que todo se venga abajo. ¿Jason se bajará a tiempo? Te leo.",
-   "s": 57.87,
-   "e": 64.21
+   "t": "Días de gloria… justo antes de que todo se venga abajo. ¿Tú crees que Jason se bajará a tiempo? ¡Te leo en comentarios!",
+   "s": 51.42,
+   "e": 58.89
   }
  ],
  "voice": "gta6/audio/voz6.mp3",
  "music": "gta6/audio/musica1.wav",
  "musicVolume": 0,
- "total": 65.49,
+ "total": 60.17,
  "clipLen": {
   "q_salte": 12.6,
+  "c_brian1": 14.5,
   "d_ascensor3": 23.0,
   "d_coche2": 40.0,
   "d_parking": 34.0,
@@ -306,7 +391,8 @@
   "a_paracaidas": 9.7
  },
  "gameVolume": 0.1,
- "sfxGain": 0.5,
+ "sfxGain": 0.6,
  "capSize": 84,
- "capTop": 1500
+ "capTop": 1500,
+ "smooth": true
 }
