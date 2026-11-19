@@ -19,3 +19,23 @@ La prota de GTA 6 SALE DE LA CÁRCEL 🚨 #shorts
 Lucía salió de la cárcel 🚨 ¿Tú con quién vas, Jason o Lucía? 👇 #GTA6 #Shorts
 
 (Los vídeos van sin música: añádela al subir.)
+
+---
+
+## Short 3 — gta6-short3.mp4 (cómo ganar dinero)
+
+**Título:**
+Cómo GANAR DINERO en GTA 6 💰 (gameplay real) #shorts
+
+**Descripción:**
+5 formas de forrarte en GTA 6 según el gameplay oficial 💰 ¿Tiendas o golpes grandes? 👇 #GTA6
+
+---
+
+## Short 4 — gta6-short4.mp4 (cosas que hacer)
+
+**Título:**
+En GTA 6 NO TODO es robar 😱 Mira lo que puedes hacer #shorts
+
+**Descripción:**
+Carreras, motocross, paracaídas, pantanos y más en GTA 6 🌴 ¿Qué harás primero? 👇 #GTA6

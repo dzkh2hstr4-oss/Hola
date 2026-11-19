@@ -1,0 +1,288 @@
+{
+ "scenes": [
+  {
+   "imgs": [
+    "v:m_poli_flip"
+   ],
+   "title": [
+    [
+     "¿QUIERES"
+    ],
+    [
+     "*FORRARTE*?",
+     "💰"
+    ]
+   ],
+   "hook": true,
+   "shake": true,
+   "emojis": [
+    "💸"
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.8
+    },
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 0.6,
+     "v": 0.5
+    }
+   ],
+   "s": 0,
+   "e": 4.02,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:m_tienda1",
+    "v:m_tienda2",
+    "v:m_tienda3"
+   ],
+   "title": [
+    [
+     "*1.*",
+     "ATRACAR"
+    ],
+    [
+     "TIENDAS"
+    ]
+   ],
+   "flash": true,
+   "emojis": [
+    "🏪",
+    "🔫"
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ],
+   "s": 4.02,
+   "e": 7.85,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:m_joya1",
+    "v:m_joya2"
+   ],
+   "title": [
+    [
+     "*2.*",
+     "GOLPES"
+    ],
+    [
+     "RÁPIDOS"
+    ]
+   ],
+   "flash": true,
+   "emojis": [
+    "💎",
+    "🏍️"
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ],
+   "s": 7.85,
+   "e": 13.23,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:m_furgon"
+   ],
+   "title": [
+    [
+     "*3.*",
+     "FURGONES"
+    ],
+    [
+     "BLINDADOS"
+    ]
+   ],
+   "flash": true,
+   "emojis": [
+    "🚚"
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ],
+   "s": 13.23,
+   "e": 15.65,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:m_golpe1",
+    "v:m_golpe2",
+    "v:m_golpe3"
+   ],
+   "title": [
+    [
+     "*4.*",
+     "EL",
+     "GRAN"
+    ],
+    [
+     "GOLPE"
+    ]
+   ],
+   "flash": true,
+   "emojis": [
+    "🏢",
+    "💥"
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ],
+   "s": 15.65,
+   "e": 22.13,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:m_poli_tiro",
+    "v:m_poli_flip"
+   ],
+   "title": [
+    [
+     "*5.*",
+     "ESCAPA"
+    ],
+    [
+     "DE",
+     "LA",
+     "POLI"
+    ]
+   ],
+   "flash": true,
+   "emojis": [
+    "🚔",
+    "🚨"
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ],
+   "s": 22.13,
+   "e": 24.96,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:a_coche"
+   ],
+   "title": [
+    [
+     "¿TIENDAS",
+     "O"
+    ],
+    [
+     "*GOLPES*?",
+     "👇"
+    ]
+   ],
+   "emojis": [
+    "💬"
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 0.3,
+     "v": 0.6
+    }
+   ],
+   "s": 24.96,
+   "e": 29.2,
+   "full": true
+  }
+ ],
+ "captions": [
+  {
+   "t": "¿Quieres forrarte en GTA 6? Esto es lo que enseña el gameplay oficial.",
+   "s": 0.05,
+   "e": 3.94
+  },
+  {
+   "t": "Uno: atracar tiendas. Pañuelo en la cara… y a por la caja.",
+   "s": 4.02,
+   "e": 7.77
+  },
+  {
+   "t": "Dos: golpes rápidos. Entras en la joyería, sales con la bolsa, y te piras en moto.",
+   "s": 7.85,
+   "e": 13.15
+  },
+  {
+   "t": "Tres: furgones blindados, en plena calle.",
+   "s": 13.23,
+   "e": 15.57
+  },
+  {
+   "t": "Cuatro: el gran golpe. Te cuelas en una fiesta de lujo, Lucía te avisa de que hay guardias por todas partes… y toca pelear.",
+   "s": 15.65,
+   "e": 22.05
+  },
+  {
+   "t": "Y después del golpe, viene lo mejor: escapar de la policía.",
+   "s": 22.13,
+   "e": 24.88
+  },
+  {
+   "t": "¿Tú eres más de tiendas o de golpes grandes? Comenta.",
+   "s": 24.96,
+   "e": 27.92
+  }
+ ],
+ "voice": "gta6/audio/voz3.mp3",
+ "music": "gta6/audio/musica1.wav",
+ "musicVolume": 0,
+ "total": 29.2,
+ "clipLen": {
+  "a_patinete": 3.5,
+  "a_hidro": 3.0,
+  "a_kayak": 2.0,
+  "a_selfie": 3.2,
+  "m_poli_tiro": 4.5,
+  "m_tienda1": 4.0,
+  "a_motocross": 4.2,
+  "a_jetski": 1.83,
+  "a_mar": 2.6,
+  "a_circuito": 5.3,
+  "m_golpe2": 5.0,
+  "a_club": 4.0,
+  "m_golpe3": 7.0,
+  "a_gym": 3.3,
+  "a_coche": 6.0,
+  "m_poli_flip": 6.0,
+  "m_joya2": 6.6,
+  "m_tienda2": 6.0,
+  "m_joya1": 3.2,
+  "m_tienda3": 3.0,
+  "m_furgon": 1.9,
+  "a_disco": 2.7,
+  "m_golpe1": 6.0,
+  "a_playa": 2.6,
+  "a_paracaidas": 9.7
+ },
+ "gameVolume": 0.28
+}

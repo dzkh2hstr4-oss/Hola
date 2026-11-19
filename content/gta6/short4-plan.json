@@ -1,0 +1,16 @@
+{
+ "rate": "+20%", "pitch": "+5Hz",
+ "lines": [
+  {"t": "En GTA 6 no todo es robar. Mira todo lo que se puede hacer.", "imgs": ["v:a_paracaidas"], "title": [["NO", "TODO"], ["ES", "*ROBAR*"]], "hook": true, "shake": true, "emojis": ["😱"], "sfx": [{"f": "voz/impacto.wav", "at": 0, "v": 0.8}, {"f": "wyr/sfx/riser.wav", "at": 0.6, "v": 0.5}]},
+  {"t": "Carreras en circuito, con cronómetro y todo.", "imgs": ["v:a_circuito"], "title": [["*CARRERAS*"]], "flash": true, "emojis": ["🏁"], "sfx": [{"f": "wyr/sfx/boom.wav", "at": 0, "v": 0.6}]},
+  {"t": "Motocross por la montaña.", "imgs": ["v:a_motocross"], "title": [["*MOTOCROSS*"]], "emojis": ["🏍️"]},
+  {"t": "Tirarte en paracaídas desde un rascacielos.", "imgs": ["v:a_paracaidas"], "title": [["*PARACAÍDAS*"]], "emojis": ["🪂"]},
+  {"t": "Recorrer los pantanos en hidrodeslizador.", "imgs": ["v:a_hidro"], "title": [["LOS", "*PANTANOS*"]], "emojis": ["🐊"]},
+  {"t": "Moto de agua, kayak… o tirarte al mar.", "imgs": ["v:a_jetski", "v:a_kayak", "v:a_mar"], "title": [["*AGUA*", "🌊"]], "emojis": ["🚤"]},
+  {"t": "Ponerte fuerte en el gimnasio.", "imgs": ["v:a_gym"], "title": [["*GIMNASIO*"]], "emojis": ["💪"]},
+  {"t": "Ir en patinete por la ciudad.", "imgs": ["v:a_patinete"], "title": [["*PATINETE*"]], "emojis": ["🛴"]},
+  {"t": "Salir de fiesta…", "imgs": ["v:a_disco", "v:a_club"], "title": [["*FIESTA*", "🎉"]], "emojis": ["🪩"]},
+  {"t": "Hacerte selfies, o simplemente tumbarte en la playa.", "imgs": ["v:a_selfie", "v:a_playa"], "title": [["SELFIES", "Y"], ["*PLAYA*"]], "emojis": ["🤳", "🏖️"]},
+  {"t": "Y todo esto es gameplay real. ¿Qué harás tú primero? Comenta.", "imgs": ["v:a_coche"], "title": [["¿QUÉ", "HARÁS"], ["*PRIMERO*?", "👇"]], "emojis": ["💬"], "sfx": [{"f": "wyr/sfx/ding.wav", "at": 0.3, "v": 0.6}]}
+ ]
+}

@@ -5,6 +5,8 @@ import {
   Easing,
   Img,
   interpolate,
+  Loop,
+  OffthreadVideo,
   Sequence,
   spring,
   staticFile,
@@ -47,6 +49,7 @@ export type Scene = {
   sfx?: { f: string; at?: number; v?: number }[];
   hook?: boolean;
   emojis?: string[];
+  full?: boolean;
 };
 
 export type Caption = { t: string; s: number; e: number };
@@ -58,6 +61,8 @@ export type GTA6Props = {
   music: string;
   musicVolume: number;
   total: number; // seconds
+  clipLen?: Record<string, number>;
+  gameVolume?: number;
 };
 
 const sec = (s: number) => Math.round(s * FPS);
@@ -464,7 +469,41 @@ const Stickers: React.FC<{ emojis: string[]; dur: number; seed: number }> = ({ e
   );
 };
 
-const SceneView: React.FC<{ sc: Scene; idx: number }> = ({ sc, idx }) => {
+const FullMedia: React.FC<{ m: string; clipLen: Record<string, number>; vol: number; seed: number }> = ({ m, clipLen, vol, seed }) => {
+  const f = useCurrentFrame();
+  const punch = seed === 0 ? 1.06 : interpolate(f, [0, 7], [1.25, 1.06], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const z = punch + f * 0.0012;
+  const px = Math.sin(f / 50 + seed) * 20;
+  const style: React.CSSProperties = { width: "100%", height: "100%", objectFit: "cover", transform: `scale(${z}) translateX(${px}px)` };
+  const isV = m.startsWith("v:");
+  const name = isV ? m.slice(2) : m;
+  const len = Math.max(1, Math.round((clipLen[name] ?? 3) * FPS) - 1);
+  return (
+    <AbsoluteFill style={{ overflow: "hidden" }}>
+      {isV ? (
+        <Loop durationInFrames={len} layout="none">
+          <OffthreadVideo src={staticFile(`gta6/gp/${name}.mp4`)} volume={vol} style={style} />
+        </Loop>
+      ) : (
+        <Img src={staticFile(`gta6/img/${m}.jpg`)} style={style} />
+      )}
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(20,4,42,0.82) 0%, rgba(20,4,42,0.1) 32%, rgba(20,4,42,0) 55%, rgba(20,4,42,0.75) 100%)" }} />
+      {seed === 0 ? null : <AbsoluteFill style={{ background: "white", opacity: interpolate(f, [0, 4], [0.4, 0], { extrapolateRight: "clamp" }) }} />}
+    </AbsoluteFill>
+  );
+};
+
+const GameBadge: React.FC = () => {
+  const f = useCurrentFrame();
+  return (
+    <div style={{ position: "absolute", left: 40, top: 40, display: "flex", alignItems: "center", gap: 12, fontFamily: "Montserrat", fontWeight: 900, fontSize: 34, color: "white", background: "rgba(10,0,20,0.6)", border: `3px solid ${CYAN}`, padding: "10px 20px", borderRadius: 14 }}>
+      <div style={{ width: 18, height: 18, borderRadius: 9, background: "#FF2D2D", opacity: Math.sin(f / 5) > 0 ? 1 : 0.3 }} />
+      GAMEPLAY REAL
+    </div>
+  );
+};
+
+const SceneView: React.FC<{ sc: Scene; idx: number; clipLen?: Record<string, number>; gameVolume?: number }> = ({ sc, idx, clipLen = {}, gameVolume = 0.3 }) => {
   const f = useCurrentFrame();
   const dur = sec(sc.e - sc.s);
   const shake = (sc.shake ? 18 : 7) * Math.max(0, 1 - f / 10);
@@ -478,8 +517,16 @@ const SceneView: React.FC<{ sc: Scene; idx: number }> = ({ sc, idx }) => {
   const zoomIn = interpolate(f, [0, 8], [1.12, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
   return (
     <AbsoluteFill style={{ transform: `translate(${sx + whip}px, ${sy}px) scale(${zoomIn})`, filter: blur ? `blur(${blur}px)` : undefined }}>
-      <Bg img={sc.split ? sc.split[0] : sc.imgs[cur]} />
-      {sc.split ? (
+      {sc.full ? null : <Bg img={sc.split ? sc.split[0] : sc.imgs[cur]} />}
+      {sc.full ? (
+        sc.imgs.map((im, i) =>
+          i === cur ? (
+            <Sequence key={i} from={Math.round(i * per)} durationInFrames={Math.max(1, Math.round(per))}>
+              <FullMedia m={im} clipLen={clipLen} vol={gameVolume} seed={idx + i} />
+            </Sequence>
+          ) : null,
+        )
+      ) : sc.split ? (
         <>
           <Card img={sc.split[0]} idx={0} w={500} h={680} x={30} y={680} label={sc.split[1]} labelColor={PINK} />
           <Card img={sc.split[2]} idx={1} w={500} h={680} x={550} y={680} label={sc.split[3]} labelColor="#3A86FF" delay={8} />
@@ -493,6 +540,7 @@ const SceneView: React.FC<{ sc: Scene; idx: number }> = ({ sc, idx }) => {
           ) : null,
         )
       )}
+      {sc.full ? <GameBadge /> : null}
       <Stickers emojis={sc.emojis ?? []} dur={dur} seed={idx} />
       <Title lines={sc.title} at={sc.titleAt ?? sc.title.map((_, i) => i * 0.4)} hook={sc.hook} />
       {(sc.overlays ?? []).map((o, i) => (
@@ -562,14 +610,14 @@ const Captions: React.FC<{ caps: Caption[] }> = ({ caps }) => {
 };
 
 // ---------- main ----------
-export const GTA6Short: React.FC<GTA6Props> = ({ scenes, captions, voice, music, musicVolume, total }) => {
+export const GTA6Short: React.FC<GTA6Props> = ({ scenes, captions, voice, music, musicVolume, total, clipLen, gameVolume }) => {
   const f = useCurrentFrame();
   const end = sec(total);
   return (
     <AbsoluteFill style={{ background: "#14042a" }}>
       {scenes.map((sc, i) => (
         <Sequence key={i} from={sec(sc.s)} durationInFrames={Math.max(1, sec(sc.e) - sec(sc.s))}>
-          <SceneView sc={sc} idx={i} />
+          <SceneView sc={sc} idx={i} clipLen={clipLen} gameVolume={gameVolume} />
         </Sequence>
       ))}
       <Captions caps={captions} />

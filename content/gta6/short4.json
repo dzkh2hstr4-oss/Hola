@@ -1,0 +1,320 @@
+{
+ "scenes": [
+  {
+   "imgs": [
+    "v:a_paracaidas"
+   ],
+   "title": [
+    [
+     "NO",
+     "TODO"
+    ],
+    [
+     "ES",
+     "*ROBAR*"
+    ]
+   ],
+   "hook": true,
+   "shake": true,
+   "emojis": [
+    "😱"
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.8
+    },
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 0.6,
+     "v": 0.5
+    }
+   ],
+   "s": 0,
+   "e": 3.87,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:a_circuito"
+   ],
+   "title": [
+    [
+     "*CARRERAS*"
+    ]
+   ],
+   "flash": true,
+   "emojis": [
+    "🏁"
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "s": 3.87,
+   "e": 6.16,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:a_motocross"
+   ],
+   "title": [
+    [
+     "*MOTOCROSS*"
+    ]
+   ],
+   "emojis": [
+    "🏍️"
+   ],
+   "s": 6.16,
+   "e": 7.43,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:a_paracaidas"
+   ],
+   "title": [
+    [
+     "*PARACAÍDAS*"
+    ]
+   ],
+   "emojis": [
+    "🪂"
+   ],
+   "s": 7.43,
+   "e": 9.43,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:a_hidro"
+   ],
+   "title": [
+    [
+     "LOS",
+     "*PANTANOS*"
+    ]
+   ],
+   "emojis": [
+    "🐊"
+   ],
+   "s": 9.43,
+   "e": 11.35,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:a_jetski",
+    "v:a_kayak",
+    "v:a_mar"
+   ],
+   "title": [
+    [
+     "*AGUA*",
+     "🌊"
+    ]
+   ],
+   "emojis": [
+    "🚤"
+   ],
+   "s": 11.35,
+   "e": 13.54,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:a_gym"
+   ],
+   "title": [
+    [
+     "*GIMNASIO*"
+    ]
+   ],
+   "emojis": [
+    "💪"
+   ],
+   "s": 13.54,
+   "e": 14.96,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:a_patinete"
+   ],
+   "title": [
+    [
+     "*PATINETE*"
+    ]
+   ],
+   "emojis": [
+    "🛴"
+   ],
+   "s": 14.96,
+   "e": 16.29,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:a_disco",
+    "v:a_club"
+   ],
+   "title": [
+    [
+     "*FIESTA*",
+     "🎉"
+    ]
+   ],
+   "emojis": [
+    "🪩"
+   ],
+   "s": 16.29,
+   "e": 17.17,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:a_selfie",
+    "v:a_playa"
+   ],
+   "title": [
+    [
+     "SELFIES",
+     "Y"
+    ],
+    [
+     "*PLAYA*"
+    ]
+   ],
+   "emojis": [
+    "🤳",
+    "🏖️"
+   ],
+   "s": 17.17,
+   "e": 19.73,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:a_coche"
+   ],
+   "title": [
+    [
+     "¿QUÉ",
+     "HARÁS"
+    ],
+    [
+     "*PRIMERO*?",
+     "👇"
+    ]
+   ],
+   "emojis": [
+    "💬"
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 0.3,
+     "v": 0.6
+    }
+   ],
+   "s": 19.73,
+   "e": 25.21,
+   "full": true
+  }
+ ],
+ "captions": [
+  {
+   "t": "En GTA 6 no todo es robar. Mira todo lo que se puede hacer.",
+   "s": 0.05,
+   "e": 3.79
+  },
+  {
+   "t": "Carreras en circuito, con cronómetro y todo.",
+   "s": 3.87,
+   "e": 6.08
+  },
+  {
+   "t": "Motocross por la montaña.",
+   "s": 6.16,
+   "e": 7.35
+  },
+  {
+   "t": "Tirarte en paracaídas desde un rascacielos.",
+   "s": 7.43,
+   "e": 9.35
+  },
+  {
+   "t": "Recorrer los pantanos en hidrodeslizador.",
+   "s": 9.43,
+   "e": 11.27
+  },
+  {
+   "t": "Moto de agua, kayak… o tirarte al mar.",
+   "s": 11.35,
+   "e": 13.46
+  },
+  {
+   "t": "Ponerte fuerte en el gimnasio.",
+   "s": 13.54,
+   "e": 14.88
+  },
+  {
+   "t": "Ir en patinete por la ciudad.",
+   "s": 14.96,
+   "e": 16.21
+  },
+  {
+   "t": "Salir de fiesta…",
+   "s": 16.29,
+   "e": 17.09
+  },
+  {
+   "t": "Hacerte selfies, o simplemente tumbarte en la playa.",
+   "s": 17.17,
+   "e": 19.65
+  },
+  {
+   "t": "Y todo esto es gameplay real. ¿Qué harás tú primero? Comenta.",
+   "s": 19.73,
+   "e": 23.93
+  }
+ ],
+ "voice": "gta6/audio/voz4.mp3",
+ "music": "gta6/audio/musica1.wav",
+ "musicVolume": 0,
+ "total": 25.21,
+ "clipLen": {
+  "a_patinete": 3.5,
+  "a_hidro": 3.0,
+  "a_kayak": 2.0,
+  "a_selfie": 3.2,
+  "m_poli_tiro": 4.5,
+  "m_tienda1": 4.0,
+  "a_motocross": 4.2,
+  "a_jetski": 1.83,
+  "a_mar": 2.6,
+  "a_circuito": 5.3,
+  "m_golpe2": 5.0,
+  "a_club": 4.0,
+  "m_golpe3": 7.0,
+  "a_gym": 3.3,
+  "a_coche": 6.0,
+  "m_poli_flip": 6.0,
+  "m_joya2": 6.6,
+  "m_tienda2": 6.0,
+  "m_joya1": 3.2,
+  "m_tienda3": 3.0,
+  "m_furgon": 1.9,
+  "a_disco": 2.7,
+  "m_golpe1": 6.0,
+  "a_playa": 2.6,
+  "a_paracaidas": 9.7
+ },
+ "gameVolume": 0.28
+}

@@ -1,0 +1,12 @@
+{
+ "rate": "+20%", "pitch": "+5Hz",
+ "lines": [
+  {"t": "¿Quieres forrarte en GTA 6? Esto es lo que enseña el gameplay oficial.", "imgs": ["v:m_poli_flip"], "title": [["¿QUIERES"], ["*FORRARTE*?", "💰"]], "hook": true, "shake": true, "emojis": ["💸"], "sfx": [{"f": "voz/impacto.wav", "at": 0, "v": 0.8}, {"f": "wyr/sfx/riser.wav", "at": 0.6, "v": 0.5}]},
+  {"t": "Uno: atracar tiendas. Pañuelo en la cara… y a por la caja.", "imgs": ["v:m_tienda1", "v:m_tienda2", "v:m_tienda3"], "title": [["*1.*", "ATRACAR"], ["TIENDAS"]], "flash": true, "emojis": ["🏪", "🔫"], "sfx": [{"f": "wyr/sfx/boom.wav", "at": 0, "v": 0.7}]},
+  {"t": "Dos: golpes rápidos. Entras en la joyería, sales con la bolsa, y te piras en moto.", "imgs": ["v:m_joya1", "v:m_joya2"], "title": [["*2.*", "GOLPES"], ["RÁPIDOS"]], "flash": true, "emojis": ["💎", "🏍️"], "sfx": [{"f": "wyr/sfx/boom.wav", "at": 0, "v": 0.7}]},
+  {"t": "Tres: furgones blindados, en plena calle.", "imgs": ["v:m_furgon"], "title": [["*3.*", "FURGONES"], ["BLINDADOS"]], "flash": true, "emojis": ["🚚"], "sfx": [{"f": "wyr/sfx/boom.wav", "at": 0, "v": 0.7}]},
+  {"t": "Cuatro: el gran golpe. Te cuelas en una fiesta de lujo, Lucía te avisa de que hay guardias por todas partes… y toca pelear.", "imgs": ["v:m_golpe1", "v:m_golpe2", "v:m_golpe3"], "title": [["*4.*", "EL", "GRAN"], ["GOLPE"]], "flash": true, "emojis": ["🏢", "💥"], "sfx": [{"f": "wyr/sfx/boom.wav", "at": 0, "v": 0.7}]},
+  {"t": "Y después del golpe, viene lo mejor: escapar de la policía.", "imgs": ["v:m_poli_tiro", "v:m_poli_flip"], "title": [["*5.*", "ESCAPA"], ["DE", "LA", "POLI"]], "flash": true, "emojis": ["🚔", "🚨"], "sfx": [{"f": "wyr/sfx/boom.wav", "at": 0, "v": 0.7}]},
+  {"t": "¿Tú eres más de tiendas o de golpes grandes? Comenta.", "imgs": ["v:a_coche"], "title": [["¿TIENDAS", "O"], ["*GOLPES*?", "👇"]], "emojis": ["💬"], "sfx": [{"f": "wyr/sfx/ding.wav", "at": 0.3, "v": 0.6}]}
+ ]
+}
