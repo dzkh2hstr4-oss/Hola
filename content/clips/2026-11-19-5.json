@@ -1,0 +1,40 @@
+{
+  "id": "2026-11-19-5",
+  "producto": "aurora",
+  "status": "esperando-clips",
+  "formato": "rutina de noche",
+  "gancho": [
+    "Mi rutina para dormirme",
+    "sin el móvil 🌙"
+  ],
+  "ganchoSegundos": 2.6,
+  "boton": "Cómpralo en mi bio",
+  "comenta": "¿tú también te duermes con el móvil? 👇",
+  "finalSegundos": 2.6,
+  "clips": [
+    {
+      "archivo": "entrada/2026-11-19-5/1.mp4",
+      "segundos": 2.6
+    },
+    {
+      "archivo": "entrada/2026-11-19-5/2.mp4",
+      "segundos": 2.0,
+      "texto": [
+        "dejo el móvil lejos 📵"
+      ]
+    },
+    {
+      "archivo": "entrada/2026-11-19-5/3.mp4",
+      "segundos": 2.0,
+      "texto": [
+        "apago la luz",
+        "y enciendo esto ✨"
+      ]
+    },
+    {
+      "archivo": "entrada/2026-11-19-5/4.mp4",
+      "segundos": 2.6
+    }
+  ],
+  "caption": "Mi rutina para dormirme sin el móvil 🌙 Móvil lejos, luz apagada y aurora en el techo. Proyector aurora con mando (lo apagas sin levantarte) y recargable por USB. 39,95 € (antes 64,95 €) · Envío gratis. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad\n\n#proyectoraurora #auroraboreal #rutinadenoche #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora"
+}
