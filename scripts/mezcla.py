@@ -13,6 +13,7 @@ ap.add_argument("--mv", type=float, default=0.2, help="volumen de la música ant
 ap.add_argument("--seg", type=float, default=150, help="segundos por pista")
 ap.add_argument("--crf", default="21"); ap.add_argument("--maxrate", default="")
 ap.add_argument("--ss", type=float, default=0.0, help="recortar el inicio del vídeo")
+ap.add_argument("--music-file", default="", help="usar esta banda sonora en vez de generarla")
 a = ap.parse_args()
 def dur(f): return float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f],capture_output=True,text=True).stdout)
 L = dur(a.video) - a.ss
@@ -20,14 +21,14 @@ tmp = tempfile.mkdtemp()
 seeds = [int(s) for s in a.seeds.split(",")]
 n = max(1, int(L // a.seg) + 1)
 parts = []
-for i in range(n):
+for i in range(0 if a.music_file else n):
     p = os.path.join(tmp, f"m{i}.wav")
     args = ["python3", os.path.join(ROOT, "scripts", a.gen + ".py"), "--seed", str(seeds[i % len(seeds)] + i * 17), "--seconds", str(a.seg + 4), "--out", p]
     if a.gen == "musica2": args += ["--drop", "6"]
     subprocess.run(args, check=True, capture_output=True)
     parts.append(p)
 # chain crossfades
-music = parts[0]
+music = a.music_file or parts[0]
 for i, p in enumerate(parts[1:]):
     o = os.path.join(tmp, f"x{i}.wav")
     subprocess.run(["ffmpeg","-nostdin","-y","-v","error","-i",music,"-i",p,"-filter_complex","acrossfade=d=4:c1=tri:c2=tri",o], check=True)

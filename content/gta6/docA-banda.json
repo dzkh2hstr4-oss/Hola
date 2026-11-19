@@ -1,0 +1,12 @@
+[{"s":0,"e":36.09,"mood":"suspense","seed":3},
+ {"s":36.09,"e":92.68,"mood":"suspense","seed":11},
+ {"s":92.68,"e":151.49,"mood":"accion","seed":5},
+ {"s":151.49,"e":197.22,"mood":"chill","seed":8},
+ {"s":197.22,"e":261.12,"mood":"groove","seed":4},
+ {"s":261.12,"e":321.93,"mood":"emotiva","seed":6},
+ {"s":321.93,"e":352.24,"mood":"suspense","seed":21},
+ {"s":352.24,"e":407.01,"mood":"accion","seed":13},
+ {"s":407.01,"e":464.72,"mood":"fiesta","seed":9},
+ {"s":464.72,"e":534.84,"mood":"suspense","seed":17},
+ {"s":534.84,"e":553.16,"mood":"accion","seed":23},
+ {"s":553.16,"e":608.65,"mood":"epica","seed":2}]
