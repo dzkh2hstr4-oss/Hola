@@ -1,0 +1,1397 @@
+{
+ "beats": [
+  {
+   "ch": 0,
+   "layout": "montage",
+   "media": [
+    "clip:jason_duval",
+    "clip:lucia_caminos",
+    "clip:real_dimez",
+    "clip:raul_bautista"
+   ],
+   "title": [
+    [
+     "GTA",
+     "*6*"
+    ],
+    [
+     "YA",
+     "ESTÁ",
+     "AQUÍ"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0
+    },
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 0.2,
+     "v": 0.5
+    }
+   ],
+   "s": 0.6,
+   "e": 2.21
+  },
+  {
+   "ch": 0,
+   "layout": "hero",
+   "media": [
+    "clip:night",
+    "vice_city_27"
+   ],
+   "title": [
+    [
+     "*13*",
+     "AÑOS"
+    ],
+    [
+     "DE",
+     "ESPERA"
+    ]
+   ],
+   "flash": true,
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.8
+    }
+   ],
+   "s": 2.21,
+   "e": 7.24
+  },
+  {
+   "ch": 0,
+   "layout": "card",
+   "media": [
+    "jason_and_lucia_17"
+   ],
+   "title": [
+    [
+     "LO",
+     "QUE",
+     "TIENES"
+    ],
+    [
+     "QUE",
+     "*SABER*"
+    ]
+   ],
+   "emojis": [
+    "👀"
+   ],
+   "s": 7.24,
+   "e": 10.23
+  },
+  {
+   "ch": 0,
+   "layout": "grid",
+   "media": [
+    "extended",
+    "jason_duval_01",
+    "lucia_caminos_03",
+    "boobie_ike_03",
+    "vice_city_15",
+    "keyart"
+   ],
+   "title": [
+    [
+     "EN",
+     "ESTE",
+     "*VÍDEO*"
+    ]
+   ],
+   "s": 10.23,
+   "e": 16.58
+  },
+  {
+   "ch": 0,
+   "layout": "card",
+   "media": [
+    "launch"
+   ],
+   "title": [
+    [
+     "QUÉDATE",
+     "HASTA"
+    ],
+    [
+     "EL",
+     "*FINAL*"
+    ]
+   ],
+   "emojis": [
+    "🎬",
+    "🔥"
+   ],
+   "s": 16.58,
+   "e": 19.78
+  },
+  {
+   "ch": 1,
+   "chapter": "LA HISTORIA",
+   "layout": "chapter",
+   "media": [
+    "skyline_dusk"
+   ],
+   "title": [
+    [
+     "LA"
+    ],
+    [
+     "*HISTORIA*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.7
+    },
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.5
+    }
+   ],
+   "s": 19.78,
+   "e": 21.91
+  },
+  {
+   "ch": 1,
+   "layout": "hero",
+   "media": [
+    "clip:hug",
+    "jason_and_lucia_14"
+   ],
+   "title": [
+    [
+     "TODO",
+     "EN"
+    ],
+    [
+     "*CONTRA*"
+    ]
+   ],
+   "s": 21.91,
+   "e": 25.1
+  },
+  {
+   "ch": 1,
+   "layout": "card",
+   "media": [
+    "jason_and_lucia_15",
+    "jason_and_lucia_19"
+   ],
+   "title": [
+    [
+     "UN",
+     "GOLPE"
+    ],
+    [
+     "SALE",
+     "*MAL*"
+    ]
+   ],
+   "tags": [
+    "EL LADO MÁS OSCURO",
+    "DEL LUGAR MÁS SOLEADO"
+   ],
+   "emojis": [
+    "💣"
+   ],
+   "s": 25.1,
+   "e": 30.18
+  },
+  {
+   "ch": 1,
+   "layout": "hero",
+   "media": [
+    "lucia_caminos_14",
+    "vice_city_17"
+   ],
+   "title": [
+    [
+     "CONSPIRACIÓN"
+    ],
+    [
+     "*CRIMINAL*"
+    ]
+   ],
+   "emojis": [
+    "🚨"
+   ],
+   "s": 30.18,
+   "e": 34.44
+  },
+  {
+   "ch": 1,
+   "layout": "card",
+   "media": [
+    "jason_and_lucia_17",
+    "jason_and_lucia_16"
+   ],
+   "title": [
+    [
+     "SALIR",
+     "CON"
+    ],
+    [
+     "*VIDA*"
+    ]
+   ],
+   "emojis": [
+    "❤️",
+    "🔫"
+   ],
+   "s": 34.44,
+   "e": 38.48
+  },
+  {
+   "ch": 2,
+   "chapter": "JASON DUVAL",
+   "layout": "chapter",
+   "media": [
+    "jason_duval_01"
+   ],
+   "title": [
+    [
+     "JASON"
+    ],
+    [
+     "*DUVAL*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ],
+   "s": 38.48,
+   "e": 40.09
+  },
+  {
+   "ch": 2,
+   "layout": "profile",
+   "name": "JASON",
+   "media": [
+    "clip:jason_duval",
+    "jason_duval_02"
+   ],
+   "title": [
+    [
+     "QUIERE",
+     "UNA"
+    ],
+    [
+     "VIDA",
+     "*FÁCIL*"
+    ]
+   ],
+   "tags": [
+    "PROTAGONISTA"
+   ],
+   "s": 40.09,
+   "e": 43.52
+  },
+  {
+   "ch": 2,
+   "layout": "profile",
+   "name": "JASON",
+   "media": [
+    "jason_duval_06"
+   ],
+   "title": [
+    [
+     "CRIADO",
+     "ENTRE"
+    ],
+    [
+     "*ESTAFADORES*"
+    ]
+   ],
+   "tags": [
+    "PROTAGONISTA",
+    "INFANCIA DURA"
+   ],
+   "s": 43.52,
+   "e": 46.03
+  },
+  {
+   "ch": 2,
+   "layout": "profile",
+   "name": "JASON",
+   "media": [
+    "jason_duval_12",
+    "jason_duval_03",
+    "jason_duval_04"
+   ],
+   "title": [
+    [
+     "EX",
+     "*MILITAR*"
+    ]
+   ],
+   "tags": [
+    "PROTAGONISTA",
+    "EX MILITAR",
+    "LOS CAYOS"
+   ],
+   "emojis": [
+    "🎖️"
+   ],
+   "s": 46.03,
+   "e": 52.16
+  },
+  {
+   "ch": 2,
+   "layout": "card",
+   "media": [
+    "jason_duval_14"
+   ],
+   "title": [
+    [
+     "TRABAJA",
+     "PARA"
+    ],
+    [
+     "*TRAFICANTES*"
+    ]
+   ],
+   "emojis": [
+    "💰"
+   ],
+   "s": 52.16,
+   "e": 54.16
+  },
+  {
+   "ch": 2,
+   "layout": "card",
+   "media": [
+    "jason_and_lucia_14",
+    "jason_and_lucia_20"
+   ],
+   "title": [
+    [
+     "¿LO",
+     "*MEJOR*"
+    ],
+    [
+     "O",
+     "LO",
+     "*PEOR*?"
+    ]
+   ],
+   "emojis": [
+    "❤️",
+    "💔"
+   ],
+   "s": 54.16,
+   "e": 57.75
+  },
+  {
+   "ch": 3,
+   "chapter": "LUCÍA CAMINOS",
+   "layout": "chapter",
+   "media": [
+    "lucia_caminos_13"
+   ],
+   "title": [
+    [
+     "LUCÍA"
+    ],
+    [
+     "*CAMINOS*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ],
+   "s": 57.75,
+   "e": 59.53
+  },
+  {
+   "ch": 3,
+   "layout": "profile",
+   "name": "LUCÍA",
+   "media": [
+    "clip:lucia_caminos",
+    "lucia_caminos_01"
+   ],
+   "title": [
+    [
+     "PELEA",
+     "DESDE"
+    ],
+    [
+     "QUE",
+     "*ANDA*"
+    ]
+   ],
+   "tags": [
+    "PROTAGONISTA"
+   ],
+   "emojis": [
+    "🥊"
+   ],
+   "s": 59.53,
+   "e": 62.92
+  },
+  {
+   "ch": 3,
+   "layout": "profile",
+   "name": "LUCÍA",
+   "media": [
+    "lucia_caminos_05",
+    "lucia_caminos_02"
+   ],
+   "title": [
+    [
+     "EX",
+     "*PRESA*"
+    ]
+   ],
+   "tags": [
+    "PROTAGONISTA",
+    "PENITENCIARÍA DE LEONIDA"
+   ],
+   "emojis": [
+    "⛓️",
+    "🍀"
+   ],
+   "s": 62.92,
+   "e": 67.46
+  },
+  {
+   "ch": 3,
+   "layout": "card",
+   "media": [
+    "lucia_caminos_03"
+   ],
+   "title": [
+    [
+     "SOLO",
+     "MOVIMIENTOS"
+    ],
+    [
+     "*INTELIGENTES*"
+    ]
+   ],
+   "emojis": [
+    "🧠"
+   ],
+   "s": 67.46,
+   "e": 69.83
+  },
+  {
+   "ch": 3,
+   "layout": "hero",
+   "media": [
+    "lucia_caminos_06",
+    "vice_city_15"
+   ],
+   "title": [
+    [
+     "LA",
+     "*BUENA*"
+    ],
+    [
+     "*VIDA*"
+    ]
+   ],
+   "tags": [
+    "🗽 VIENE DE LIBERTY CITY"
+   ],
+   "emojis": [
+    "💎"
+   ],
+   "s": 69.83,
+   "e": 73.56
+  },
+  {
+   "ch": 3,
+   "layout": "card",
+   "media": [
+    "jason_and_lucia_20"
+   ],
+   "title": [
+    [
+     "SU",
+     "*SALIDA*"
+    ]
+   ],
+   "emojis": [
+    "🚗"
+   ],
+   "s": 73.56,
+   "e": 76.05
+  },
+  {
+   "ch": 4,
+   "chapter": "EL VÍDEO",
+   "layout": "chapter",
+   "media": [
+    "keyart"
+   ],
+   "title": [
+    [
+     "MIRA"
+    ],
+    [
+     "*ESTO*"
+    ]
+   ],
+   "emojis": [
+    "👀"
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/redoble.wav",
+     "at": 0,
+     "v": 0.5
+    }
+   ],
+   "s": 76.05,
+   "e": 78.24
+  },
+  {
+   "ch": 4,
+   "video": "gta6/clips/cover.mp4",
+   "dur": 18,
+   "layout": "video",
+   "title": [
+    [
+     "ANIMACIÓN",
+     "OFICIAL",
+     "DE",
+     "LA",
+     "*PORTADA*"
+    ]
+   ],
+   "s": 78.24,
+   "e": 96.54
+  },
+  {
+   "ch": 5,
+   "chapter": "PERSONAJES",
+   "layout": "chapter",
+   "media": [
+    "vice_city_20"
+   ],
+   "title": [
+    [
+     "NO",
+     "ESTÁN"
+    ],
+    [
+     "*SOLOS*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ],
+   "s": 96.54,
+   "e": 98.97
+  },
+  {
+   "ch": 5,
+   "layout": "profile",
+   "name": "BOOBIE IKE",
+   "media": [
+    "clip:boobie_ike",
+    "boobie_ike_03"
+   ],
+   "title": [
+    [
+     "LEYENDA",
+     "DE"
+    ],
+    [
+     "*VICE CITY*"
+    ]
+   ],
+   "tags": [
+    "EMPRESARIO"
+   ],
+   "s": 98.97,
+   "e": 101.41
+  },
+  {
+   "ch": 5,
+   "layout": "profile",
+   "name": "BOOBIE IKE",
+   "media": [
+    "boobie_ike_01",
+    "boobie_ike_02"
+   ],
+   "title": [
+    [
+     "UN",
+     "*IMPERIO*"
+    ]
+   ],
+   "tags": [
+    "EMPRESARIO",
+    "INMOBILIARIA",
+    "CLUB",
+    "ESTUDIO"
+   ],
+   "emojis": [
+    "💸"
+   ],
+   "s": 101.41,
+   "e": 106.82
+  },
+  {
+   "ch": 5,
+   "layout": "profile",
+   "name": "DRE'QUAN PRIEST",
+   "media": [
+    "clip:drequan_priest",
+    "drequan_priest_02"
+   ],
+   "title": [
+    [
+     "MÁS",
+     "*BUSCAVIDAS*"
+    ],
+    [
+     "QUE",
+     "GÁNSTER"
+    ]
+   ],
+   "tags": [
+    "SOCIO DE BOOBIE"
+   ],
+   "s": 106.82,
+   "e": 110.72
+  },
+  {
+   "ch": 5,
+   "layout": "profile",
+   "name": "DRE'QUAN PRIEST",
+   "media": [
+    "drequan_priest_04",
+    "drequan_priest_03"
+   ],
+   "title": [
+    [
+     "ONLY",
+     "RAW"
+    ],
+    [
+     "*RECORDS*"
+    ]
+   ],
+   "tags": [
+    "SOCIO DE BOOBIE",
+    "SELLO MUSICAL"
+   ],
+   "emojis": [
+    "🎤"
+   ],
+   "s": 110.72,
+   "e": 114.46
+  },
+  {
+   "ch": 5,
+   "layout": "profile",
+   "name": "REAL DIMEZ",
+   "media": [
+    "clip:real_dimez",
+    "real_dimez_04",
+    "real_dimez_03",
+    "real_dimez_01",
+    "real_dimez_02"
+   ],
+   "title": [
+    [
+     "*VIRALES*"
+    ]
+   ],
+   "tags": [
+    "BAE-LUXE",
+    "ROXY",
+    "ONLY RAW RECORDS"
+   ],
+   "emojis": [
+    "🔥",
+    "📱"
+   ],
+   "s": 114.46,
+   "e": 122.33
+  },
+  {
+   "ch": 5,
+   "layout": "profile",
+   "name": "RAÚL BAUTISTA",
+   "media": [
+    "clip:raul_bautista",
+    "raul_bautista_03",
+    "raul_bautista_02",
+    "raul_bautista_04"
+   ],
+   "title": [
+    [
+     "ATRACADOR",
+     "DE"
+    ],
+    [
+     "*BANCOS*"
+    ]
+   ],
+   "tags": [
+    "VETERANO",
+    "BUSCA TALENTO"
+   ],
+   "emojis": [
+    "🏦",
+    "💰"
+   ],
+   "s": 122.33,
+   "e": 129.0
+  },
+  {
+   "ch": 5,
+   "layout": "profile",
+   "name": "BRIAN HEDER",
+   "media": [
+    "clip:brian_heder",
+    "brian_heder_01"
+   ],
+   "title": [
+    [
+     "VIEJA",
+     "*ESCUELA*"
+    ]
+   ],
+   "tags": [
+    "LOS CAYOS"
+   ],
+   "s": 129.0,
+   "e": 132.5
+  },
+  {
+   "ch": 5,
+   "layout": "profile",
+   "name": "BRIAN HEDER",
+   "media": [
+    "brian_heder_02",
+    "brian_heder_03"
+   ],
+   "title": [
+    [
+     "UN",
+     "*TIBURÓN*"
+    ],
+    [
+     "BLANCO"
+    ]
+   ],
+   "tags": [
+    "LOS CAYOS",
+    "CASERO DE JASON"
+   ],
+   "emojis": [
+    "🦈"
+   ],
+   "s": 132.5,
+   "e": 135.91
+  },
+  {
+   "ch": 5,
+   "layout": "card",
+   "media": [
+    "brian_heder_04"
+   ],
+   "title": [
+    [
+     "CASA",
+     "*GRATIS*"
+    ]
+   ],
+   "emojis": [
+    "🏠"
+   ],
+   "s": 135.91,
+   "e": 139.35
+  },
+  {
+   "ch": 6,
+   "chapter": "LEONIDA",
+   "layout": "chapter",
+   "media": [
+    "aerial"
+   ],
+   "title": [
+    [
+     "*LEONIDA*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ],
+   "s": 139.35,
+   "e": 142.73
+  },
+  {
+   "ch": 6,
+   "layout": "hero",
+   "media": [
+    "clip:night",
+    "vice_city_27",
+    "vice_city_14"
+   ],
+   "title": [
+    [
+     "*VICE*",
+     "CITY"
+    ]
+   ],
+   "emojis": [
+    "🌴",
+    "🌃"
+   ],
+   "s": 142.73,
+   "e": 145.85
+  },
+  {
+   "ch": 6,
+   "layout": "grid",
+   "media": [
+    "leonida_keys_07",
+    "grassrivers_07",
+    "vice_city_22",
+    "vice_city_26",
+    "jason_and_lucia_16",
+    "grassrivers_08"
+   ],
+   "title": [
+    [
+     "MUCHO",
+     "*MÁS*"
+    ]
+   ],
+   "tags": [
+    "LEONIDA KEYS",
+    "GRASSRIVERS",
+    "PORT GELLHORN",
+    "AMBROSIA",
+    "MOUNT KALAGA"
+   ],
+   "s": 145.85,
+   "e": 151.45
+  },
+  {
+   "ch": 6,
+   "layout": "hero",
+   "media": [
+    "clip:beach",
+    "vice_city_15",
+    "vice_city_24"
+   ],
+   "title": [
+    [
+     "ESTE",
+     "NIVEL"
+    ],
+    [
+     "DE",
+     "*DETALLE*"
+    ]
+   ],
+   "emojis": [
+    "🤯"
+   ],
+   "s": 151.45,
+   "e": 156.91
+  },
+  {
+   "ch": 6,
+   "layout": "card",
+   "media": [
+    "music",
+    "vice_city_13",
+    "vice_city_25"
+   ],
+   "title": [
+    [
+     "RADIO",
+     "Y"
+    ],
+    [
+     "*BANDA SONORA*"
+    ]
+   ],
+   "emojis": [
+    "🎧",
+    "📻"
+   ],
+   "s": 156.91,
+   "e": 164.17
+  },
+  {
+   "ch": 7,
+   "chapter": "¿DÓNDE JUGAR?",
+   "layout": "chapter",
+   "media": [
+    "jason_and_lucia_20"
+   ],
+   "title": [
+    [
+     "¿DÓNDE"
+    ],
+    [
+     "SE",
+     "*JUEGA*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ],
+   "s": 164.17,
+   "e": 165.89
+  },
+  {
+   "ch": 7,
+   "layout": "card",
+   "media": [
+    "keyart",
+    "preload",
+    "beachcar",
+    "jason_and_lucia_20"
+   ],
+   "title": [
+    [
+     "PS5",
+     "Y",
+     "*XBOX*"
+    ],
+    [
+     "SERIES",
+     "X|S"
+    ]
+   ],
+   "tags": [
+    "PS5",
+    "XBOX SERIES X|S",
+    "MEJOR EN PS5"
+   ],
+   "emojis": [
+    "🎮"
+   ],
+   "s": 165.89,
+   "e": 174.42
+  },
+  {
+   "ch": 7,
+   "layout": "card",
+   "media": [
+    "lucia_caminos_13"
+   ],
+   "title": [
+    [
+     "¿Y",
+     "EN",
+     "*PC*?"
+    ]
+   ],
+   "stamp": "DE MOMENTO, NO",
+   "emojis": [
+    "💻"
+   ],
+   "s": 174.42,
+   "e": 178.73
+  },
+  {
+   "ch": 7,
+   "layout": "grid",
+   "media": [
+    "ue_cheetah",
+    "ue_squalo",
+    "ue_style",
+    "ue_wyman",
+    "ue_stock305",
+    "ue_safehouse"
+   ],
+   "title": [
+    [
+     "ULTIMATE",
+     "*EDITION*"
+    ]
+   ],
+   "tags": [
+    "'95 GROTTI CHEETAH",
+    "ESTILO VICE CITY"
+   ],
+   "emojis": [
+    "🏎️",
+    "✨"
+   ],
+   "s": 178.73,
+   "e": 187.85
+  },
+  {
+   "ch": 7,
+   "layout": "grid",
+   "media": [
+    "vintage1",
+    "vintage2",
+    "vintage3"
+   ],
+   "title": [
+    [
+     "VINTAGE",
+     "*VICE CITY*"
+    ]
+   ],
+   "tags": [
+    "BONUS DE RESERVA"
+   ],
+   "emojis": [
+    "🕶️"
+   ],
+   "s": 187.85,
+   "e": 193.8
+  },
+  {
+   "ch": 7,
+   "layout": "montage",
+   "media": [
+    "extended",
+    "jason_and_lucia_15",
+    "vice_city_17",
+    "clip:night",
+    "vice_city_15",
+    "jason_and_lucia_17"
+   ],
+   "title": [
+    [
+     "*RESUMIENDO*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 0,
+     "v": 0.5
+    }
+   ],
+   "s": 193.8,
+   "e": 201.22
+  },
+  {
+   "ch": 7,
+   "layout": "card",
+   "media": [
+    "jason_and_lucia_17"
+   ],
+   "title": [
+    [
+     "¿QUÉ",
+     "VAS",
+     "A"
+    ],
+    [
+     "*HACER*?"
+    ]
+   ],
+   "comment": "¿Qué harás primero? 👇",
+   "emojis": [
+    "💬"
+   ],
+   "s": 201.22,
+   "e": 204.74
+  },
+  {
+   "ch": 7,
+   "layout": "outro",
+   "media": [
+    "extended"
+   ],
+   "title": [
+    [
+     "NOS",
+     "VEMOS",
+     "EN"
+    ],
+    [
+     "*LEONIDA*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 0.6,
+     "v": 0.6
+    }
+   ],
+   "s": 204.74,
+   "e": 211.09
+  }
+ ],
+ "captions": [
+  {
+   "t": "GTA 6 ya está aquí.",
+   "s": 0.6,
+   "e": 2.01
+  },
+  {
+   "t": "Después de trece años de espera, Vice City por fin tiene dueño… y la gente ya está jugando.",
+   "s": 2.21,
+   "e": 7.04
+  },
+  {
+   "t": "Pero antes de lanzarte, hay cosas que tienes que saber.",
+   "s": 7.24,
+   "e": 10.03
+  },
+  {
+   "t": "La historia, los protagonistas, los personajes que te vas a cruzar, el mapa de Leonida, y dónde puedes jugarlo.",
+   "s": 10.23,
+   "e": 16.38
+  },
+  {
+   "t": "Y quédate hasta el final, porque hay un vídeo que tienes que ver.",
+   "s": 16.58,
+   "e": 19.58
+  },
+  {
+   "t": "Empecemos por la historia.",
+   "s": 20.13,
+   "e": 21.46
+  },
+  {
+   "t": "Jason y Lucía siempre han sabido que lo tienen todo en contra.",
+   "s": 21.91,
+   "e": 24.9
+  },
+  {
+   "t": "Pero cuando un golpe fácil sale mal, acaban en el lado más oscuro del lugar más soleado de América.",
+   "s": 25.1,
+   "e": 29.98
+  },
+  {
+   "t": "Metidos en una conspiración criminal que se extiende por todo el estado de Leonida.",
+   "s": 30.18,
+   "e": 34.24
+  },
+  {
+   "t": "Y para salir con vida, van a tener que confiar el uno en el otro más que nunca.",
+   "s": 34.44,
+   "e": 38.28
+  },
+  {
+   "t": "Jason Duval.",
+   "s": 38.83,
+   "e": 39.64
+  },
+  {
+   "t": "Quiere una vida fácil, pero las cosas no paran de complicarse.",
+   "s": 40.09,
+   "e": 43.32
+  },
+  {
+   "t": "Creció rodeado de estafadores y delincuentes.",
+   "s": 43.52,
+   "e": 45.83
+  },
+  {
+   "t": "Tras pasar por el ejército para dejar atrás una adolescencia complicada, acabó en los Cayos haciendo lo que mejor sabe:",
+   "s": 46.03,
+   "e": 52.14
+  },
+  {
+   "t": "trabajar para traficantes locales.",
+   "s": 52.16,
+   "e": 53.96
+  },
+  {
+   "t": "Conocer a Lucía puede ser lo mejor… o lo peor que le ha pasado.",
+   "s": 54.16,
+   "e": 57.55
+  },
+  {
+   "t": "Lucía Caminos.",
+   "s": 58.1,
+   "e": 59.08
+  },
+  {
+   "t": "Aprendió a pelear en cuanto supo andar: se lo enseñó su padre.",
+   "s": 59.53,
+   "e": 62.72
+  },
+  {
+   "t": "Pelear por su familia la llevó a la Penitenciaría de Leonida… y salió por pura suerte.",
+   "s": 62.92,
+   "e": 67.26
+  },
+  {
+   "t": "Ahora solo quiere movimientos inteligentes.",
+   "s": 67.46,
+   "e": 69.63
+  },
+  {
+   "t": "Quiere la buena vida con la que su madre soñaba desde sus días en Liberty City.",
+   "s": 69.83,
+   "e": 73.36
+  },
+  {
+   "t": "Y una vida con Jason podría ser su salida.",
+   "s": 73.56,
+   "e": 75.85
+  },
+  {
+   "t": "Y ahora, mira esto.",
+   "s": 76.4,
+   "e": 77.79
+  },
+  {
+   "t": "Pero en Leonida no están solos.",
+   "s": 96.89,
+   "e": 98.52
+  },
+  {
+   "t": "Boobie Ike es una leyenda local de Vice City.",
+   "s": 98.97,
+   "e": 101.21
+  },
+  {
+   "t": "Convirtió su pasado en la calle en un imperio legal: inmobiliaria, un club y un estudio de grabación.",
+   "s": 101.41,
+   "e": 106.62
+  },
+  {
+   "t": "Su socio, Dre'Quan Priest, siempre fue más buscavidas que gánster.",
+   "s": 106.82,
+   "e": 110.52
+  },
+  {
+   "t": "Su sueño es triunfar en la música con su sello, Only Raw Records.",
+   "s": 110.72,
+   "e": 114.26
+  },
+  {
+   "t": "Y su gran fichaje son las Real Dimez: Bae-Luxe y Roxy, amigas desde el instituto, que arrasan con canciones virales y redes sociales.",
+   "s": 114.46,
+   "e": 122.13
+  },
+  {
+   "t": "Raúl Bautista es un atracador de bancos con experiencia, siempre buscando talento dispuesto a arriesgarse por el gran golpe.",
+   "s": 122.33,
+   "e": 128.8
+  },
+  {
+   "t": "Y Brian Heder, un traficante de la vieja escuela de los Cayos.",
+   "s": 129.0,
+   "e": 132.3
+  },
+  {
+   "t": "Parece un vago de playa… pero se mueve como un tiburón blanco.",
+   "s": 132.5,
+   "e": 135.71
+  },
+  {
+   "t": "Y es quien le deja a Jason vivir gratis en una de sus propiedades.",
+   "s": 135.91,
+   "e": 139.15
+  },
+  {
+   "t": "Todo esto pasa en Leonida, el estado del sol.",
+   "s": 139.7,
+   "e": 142.28
+  },
+  {
+   "t": "Su joya es Vice City, con sus calles llenas de neón.",
+   "s": 142.73,
+   "e": 145.65
+  },
+  {
+   "t": "Pero hay mucho más: los Cayos de Leonida, Grassrivers, Port Gellhorn, Ambrosia y Mount Kalaga.",
+   "s": 145.85,
+   "e": 151.25
+  },
+  {
+   "t": "Playas, pantanos, ciudad, carreteras infinitas… y todo con este nivel de detalle.",
+   "s": 151.45,
+   "e": 156.71
+  },
+  {
+   "t": "Y ojo a la música: Rockstar ha publicado la banda sonora oficial y algunas emisoras de radio del juego, para que las escuches donde quieras.",
+   "s": 156.91,
+   "e": 163.97
+  },
+  {
+   "t": "¿Y dónde se juega?",
+   "s": 164.52,
+   "e": 165.44
+  },
+  {
+   "t": "GTA 6 está en PlayStation 5 y en Xbox Series X y S. Y según Rockstar, donde mejor se juega es en PlayStation 5.",
+   "s": 165.89,
+   "e": 174.22
+  },
+  {
+   "t": "¿Y en PC? De momento, Rockstar no ha anunciado versión.",
+   "s": 174.42,
+   "e": 178.53
+  },
+  {
+   "t": "Y si te pillaste la Ultimate Edition, tienes extras repartidos por toda la historia: coches como el Grotti Cheetah del noventa y cinco, ropa al estilo Vice City y mucho más.",
+   "s": 178.73,
+   "e": 187.65
+  },
+  {
+   "t": "Y quien lo reservó se llevó el Vintage Vice City Pack, que te lleva a la época en la que el neón brillaba más que nunca.",
+   "s": 187.85,
+   "e": 193.6
+  },
+  {
+   "t": "Resumiendo: dos protagonistas, un golpe que sale mal, una conspiración por todo Leonida… y un mundo que no parece un videojuego.",
+   "s": 193.8,
+   "e": 201.02
+  },
+  {
+   "t": "Y ahora te toca a ti: ¿qué es lo primero que vas a hacer en Vice City?",
+   "s": 201.22,
+   "e": 204.54
+  },
+  {
+   "t": "Déjamelo en comentarios, suscríbete para más GTA 6… y nos vemos en Leonida.",
+   "s": 204.74,
+   "e": 209.39
+  }
+ ],
+ "voice": "gta6/audio/largo-voz.wav",
+ "chapters": [
+  "INTRO",
+  "LA HISTORIA",
+  "JASON",
+  "LUCÍA",
+  "EL VÍDEO",
+  "PERSONAJES",
+  "LEONIDA",
+  "¿DÓNDE JUGAR?"
+ ],
+ "total": 211.09
+}

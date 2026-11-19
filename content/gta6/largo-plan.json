@@ -1,0 +1,1118 @@
+{
+ "voice": "es-ES-AlvaroNeural",
+ "rate": "+3%",
+ "pitch": "+3Hz",
+ "chapters": [
+  "INTRO",
+  "LA HISTORIA",
+  "JASON",
+  "LUCÍA",
+  "EL VÍDEO",
+  "PERSONAJES",
+  "LEONIDA",
+  "¿DÓNDE JUGAR?"
+ ],
+ "lines": [
+  {
+   "ch": 0,
+   "t": "GTA 6 ya está aquí.",
+   "layout": "montage",
+   "media": [
+    "clip:jason_duval",
+    "clip:lucia_caminos",
+    "clip:real_dimez",
+    "clip:raul_bautista"
+   ],
+   "title": [
+    [
+     "GTA",
+     "*6*"
+    ],
+    [
+     "YA",
+     "ESTÁ",
+     "AQUÍ"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0
+    },
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 0.2,
+     "v": 0.5
+    }
+   ]
+  },
+  {
+   "ch": 0,
+   "t": "Después de trece años de espera, Vice City por fin tiene dueño… y la gente ya está jugando.",
+   "layout": "hero",
+   "media": [
+    "clip:night",
+    "vice_city_27"
+   ],
+   "title": [
+    [
+     "*13*",
+     "AÑOS"
+    ],
+    [
+     "DE",
+     "ESPERA"
+    ]
+   ],
+   "flash": true,
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.8
+    }
+   ]
+  },
+  {
+   "ch": 0,
+   "t": "Pero antes de lanzarte, hay cosas que tienes que saber.",
+   "layout": "card",
+   "media": [
+    "jason_and_lucia_17"
+   ],
+   "title": [
+    [
+     "LO",
+     "QUE",
+     "TIENES"
+    ],
+    [
+     "QUE",
+     "*SABER*"
+    ]
+   ],
+   "emojis": [
+    "👀"
+   ]
+  },
+  {
+   "ch": 0,
+   "t": "La historia, los protagonistas, los personajes que te vas a cruzar, el mapa de Leonida, y dónde puedes jugarlo.",
+   "layout": "grid",
+   "media": [
+    "extended",
+    "jason_duval_01",
+    "lucia_caminos_03",
+    "boobie_ike_03",
+    "vice_city_15",
+    "keyart"
+   ],
+   "title": [
+    [
+     "EN",
+     "ESTE",
+     "*VÍDEO*"
+    ]
+   ]
+  },
+  {
+   "ch": 0,
+   "t": "Y quédate hasta el final, porque hay un vídeo que tienes que ver.",
+   "layout": "card",
+   "media": [
+    "launch"
+   ],
+   "title": [
+    [
+     "QUÉDATE",
+     "HASTA"
+    ],
+    [
+     "EL",
+     "*FINAL*"
+    ]
+   ],
+   "emojis": [
+    "🎬",
+    "🔥"
+   ]
+  },
+  {
+   "ch": 1,
+   "chapter": "LA HISTORIA",
+   "t": "Empecemos por la historia.",
+   "layout": "chapter",
+   "media": [
+    "skyline_dusk"
+   ],
+   "title": [
+    [
+     "LA"
+    ],
+    [
+     "*HISTORIA*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.7
+    },
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.5
+    }
+   ]
+  },
+  {
+   "ch": 1,
+   "t": "Jason y Lucía siempre han sabido que lo tienen todo en contra.",
+   "layout": "hero",
+   "media": [
+    "clip:hug",
+    "jason_and_lucia_14"
+   ],
+   "title": [
+    [
+     "TODO",
+     "EN"
+    ],
+    [
+     "*CONTRA*"
+    ]
+   ]
+  },
+  {
+   "ch": 1,
+   "t": "Pero cuando un golpe fácil sale mal, acaban en el lado más oscuro del lugar más soleado de América.",
+   "layout": "card",
+   "media": [
+    "jason_and_lucia_15",
+    "jason_and_lucia_19"
+   ],
+   "title": [
+    [
+     "UN",
+     "GOLPE"
+    ],
+    [
+     "SALE",
+     "*MAL*"
+    ]
+   ],
+   "tags": [
+    "EL LADO MÁS OSCURO",
+    "DEL LUGAR MÁS SOLEADO"
+   ],
+   "emojis": [
+    "💣"
+   ]
+  },
+  {
+   "ch": 1,
+   "t": "Metidos en una conspiración criminal que se extiende por todo el estado de Leonida.",
+   "layout": "hero",
+   "media": [
+    "lucia_caminos_14",
+    "vice_city_17"
+   ],
+   "title": [
+    [
+     "CONSPIRACIÓN"
+    ],
+    [
+     "*CRIMINAL*"
+    ]
+   ],
+   "emojis": [
+    "🚨"
+   ]
+  },
+  {
+   "ch": 1,
+   "t": "Y para salir con vida, van a tener que confiar el uno en el otro más que nunca.",
+   "layout": "card",
+   "media": [
+    "jason_and_lucia_17",
+    "jason_and_lucia_16"
+   ],
+   "title": [
+    [
+     "SALIR",
+     "CON"
+    ],
+    [
+     "*VIDA*"
+    ]
+   ],
+   "emojis": [
+    "❤️",
+    "🔫"
+   ]
+  },
+  {
+   "ch": 2,
+   "chapter": "JASON DUVAL",
+   "t": "Jason Duval.",
+   "layout": "chapter",
+   "media": [
+    "jason_duval_01"
+   ],
+   "title": [
+    [
+     "JASON"
+    ],
+    [
+     "*DUVAL*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ]
+  },
+  {
+   "ch": 2,
+   "t": "Quiere una vida fácil, pero las cosas no paran de complicarse.",
+   "layout": "profile",
+   "name": "JASON",
+   "media": [
+    "clip:jason_duval",
+    "jason_duval_02"
+   ],
+   "title": [
+    [
+     "QUIERE",
+     "UNA"
+    ],
+    [
+     "VIDA",
+     "*FÁCIL*"
+    ]
+   ],
+   "tags": [
+    "PROTAGONISTA"
+   ]
+  },
+  {
+   "ch": 2,
+   "t": "Creció rodeado de estafadores y delincuentes.",
+   "layout": "profile",
+   "name": "JASON",
+   "media": [
+    "jason_duval_06"
+   ],
+   "title": [
+    [
+     "CRIADO",
+     "ENTRE"
+    ],
+    [
+     "*ESTAFADORES*"
+    ]
+   ],
+   "tags": [
+    "PROTAGONISTA",
+    "INFANCIA DURA"
+   ]
+  },
+  {
+   "ch": 2,
+   "t": "Tras pasar por el ejército para dejar atrás una adolescencia complicada, acabó en los Cayos haciendo lo que mejor sabe:",
+   "layout": "profile",
+   "name": "JASON",
+   "media": [
+    "jason_duval_12",
+    "jason_duval_03",
+    "jason_duval_04"
+   ],
+   "title": [
+    [
+     "EX",
+     "*MILITAR*"
+    ]
+   ],
+   "tags": [
+    "PROTAGONISTA",
+    "EX MILITAR",
+    "LOS CAYOS"
+   ],
+   "emojis": [
+    "🎖️"
+   ]
+  },
+  {
+   "ch": 2,
+   "t": "trabajar para traficantes locales.",
+   "layout": "card",
+   "media": [
+    "jason_duval_14"
+   ],
+   "title": [
+    [
+     "TRABAJA",
+     "PARA"
+    ],
+    [
+     "*TRAFICANTES*"
+    ]
+   ],
+   "emojis": [
+    "💰"
+   ]
+  },
+  {
+   "ch": 2,
+   "t": "Conocer a Lucía puede ser lo mejor… o lo peor que le ha pasado.",
+   "layout": "card",
+   "media": [
+    "jason_and_lucia_14",
+    "jason_and_lucia_20"
+   ],
+   "title": [
+    [
+     "¿LO",
+     "*MEJOR*"
+    ],
+    [
+     "O",
+     "LO",
+     "*PEOR*?"
+    ]
+   ],
+   "emojis": [
+    "❤️",
+    "💔"
+   ]
+  },
+  {
+   "ch": 3,
+   "chapter": "LUCÍA CAMINOS",
+   "t": "Lucía Caminos.",
+   "layout": "chapter",
+   "media": [
+    "lucia_caminos_13"
+   ],
+   "title": [
+    [
+     "LUCÍA"
+    ],
+    [
+     "*CAMINOS*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ]
+  },
+  {
+   "ch": 3,
+   "t": "Aprendió a pelear en cuanto supo andar: se lo enseñó su padre.",
+   "layout": "profile",
+   "name": "LUCÍA",
+   "media": [
+    "clip:lucia_caminos",
+    "lucia_caminos_01"
+   ],
+   "title": [
+    [
+     "PELEA",
+     "DESDE"
+    ],
+    [
+     "QUE",
+     "*ANDA*"
+    ]
+   ],
+   "tags": [
+    "PROTAGONISTA"
+   ],
+   "emojis": [
+    "🥊"
+   ]
+  },
+  {
+   "ch": 3,
+   "t": "Pelear por su familia la llevó a la Penitenciaría de Leonida… y salió por pura suerte.",
+   "layout": "profile",
+   "name": "LUCÍA",
+   "media": [
+    "lucia_caminos_05",
+    "lucia_caminos_02"
+   ],
+   "title": [
+    [
+     "EX",
+     "*PRESA*"
+    ]
+   ],
+   "tags": [
+    "PROTAGONISTA",
+    "PENITENCIARÍA DE LEONIDA"
+   ],
+   "emojis": [
+    "⛓️",
+    "🍀"
+   ]
+  },
+  {
+   "ch": 3,
+   "t": "Ahora solo quiere movimientos inteligentes.",
+   "layout": "card",
+   "media": [
+    "lucia_caminos_03"
+   ],
+   "title": [
+    [
+     "SOLO",
+     "MOVIMIENTOS"
+    ],
+    [
+     "*INTELIGENTES*"
+    ]
+   ],
+   "emojis": [
+    "🧠"
+   ]
+  },
+  {
+   "ch": 3,
+   "t": "Quiere la buena vida con la que su madre soñaba desde sus días en Liberty City.",
+   "layout": "hero",
+   "media": [
+    "lucia_caminos_06",
+    "vice_city_15"
+   ],
+   "title": [
+    [
+     "LA",
+     "*BUENA*"
+    ],
+    [
+     "*VIDA*"
+    ]
+   ],
+   "tags": [
+    "🗽 VIENE DE LIBERTY CITY"
+   ],
+   "emojis": [
+    "💎"
+   ]
+  },
+  {
+   "ch": 3,
+   "t": "Y una vida con Jason podría ser su salida.",
+   "layout": "card",
+   "media": [
+    "jason_and_lucia_20"
+   ],
+   "title": [
+    [
+     "SU",
+     "*SALIDA*"
+    ]
+   ],
+   "emojis": [
+    "🚗"
+   ]
+  },
+  {
+   "ch": 4,
+   "chapter": "EL VÍDEO",
+   "t": "Y ahora, mira esto.",
+   "layout": "chapter",
+   "media": [
+    "keyart"
+   ],
+   "title": [
+    [
+     "MIRA"
+    ],
+    [
+     "*ESTO*"
+    ]
+   ],
+   "emojis": [
+    "👀"
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/redoble.wav",
+     "at": 0,
+     "v": 0.5
+    }
+   ]
+  },
+  {
+   "ch": 4,
+   "video": "gta6/clips/cover.mp4",
+   "dur": 18,
+   "layout": "video",
+   "title": [
+    [
+     "ANIMACIÓN",
+     "OFICIAL",
+     "DE",
+     "LA",
+     "*PORTADA*"
+    ]
+   ]
+  },
+  {
+   "ch": 5,
+   "chapter": "PERSONAJES",
+   "t": "Pero en Leonida no están solos.",
+   "layout": "chapter",
+   "media": [
+    "vice_city_20"
+   ],
+   "title": [
+    [
+     "NO",
+     "ESTÁN"
+    ],
+    [
+     "*SOLOS*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ]
+  },
+  {
+   "ch": 5,
+   "t": "Boobie Ike es una leyenda local de Vice City.",
+   "layout": "profile",
+   "name": "BOOBIE IKE",
+   "media": [
+    "clip:boobie_ike",
+    "boobie_ike_03"
+   ],
+   "title": [
+    [
+     "LEYENDA",
+     "DE"
+    ],
+    [
+     "*VICE CITY*"
+    ]
+   ],
+   "tags": [
+    "EMPRESARIO"
+   ]
+  },
+  {
+   "ch": 5,
+   "t": "Convirtió su pasado en la calle en un imperio legal: inmobiliaria, un club y un estudio de grabación.",
+   "layout": "profile",
+   "name": "BOOBIE IKE",
+   "media": [
+    "boobie_ike_01",
+    "boobie_ike_02"
+   ],
+   "title": [
+    [
+     "UN",
+     "*IMPERIO*"
+    ]
+   ],
+   "tags": [
+    "EMPRESARIO",
+    "INMOBILIARIA",
+    "CLUB",
+    "ESTUDIO"
+   ],
+   "emojis": [
+    "💸"
+   ]
+  },
+  {
+   "ch": 5,
+   "t": "Su socio, Dre'Quan Priest, siempre fue más buscavidas que gánster.",
+   "layout": "profile",
+   "name": "DRE'QUAN PRIEST",
+   "media": [
+    "clip:drequan_priest",
+    "drequan_priest_02"
+   ],
+   "title": [
+    [
+     "MÁS",
+     "*BUSCAVIDAS*"
+    ],
+    [
+     "QUE",
+     "GÁNSTER"
+    ]
+   ],
+   "tags": [
+    "SOCIO DE BOOBIE"
+   ]
+  },
+  {
+   "ch": 5,
+   "t": "Su sueño es triunfar en la música con su sello, Only Raw Records.",
+   "layout": "profile",
+   "name": "DRE'QUAN PRIEST",
+   "media": [
+    "drequan_priest_04",
+    "drequan_priest_03"
+   ],
+   "title": [
+    [
+     "ONLY",
+     "RAW"
+    ],
+    [
+     "*RECORDS*"
+    ]
+   ],
+   "tags": [
+    "SOCIO DE BOOBIE",
+    "SELLO MUSICAL"
+   ],
+   "emojis": [
+    "🎤"
+   ]
+  },
+  {
+   "ch": 5,
+   "t": "Y su gran fichaje son las Real Dimez: Bae-Luxe y Roxy, amigas desde el instituto, que arrasan con canciones virales y redes sociales.",
+   "layout": "profile",
+   "name": "REAL DIMEZ",
+   "media": [
+    "clip:real_dimez",
+    "real_dimez_04",
+    "real_dimez_03",
+    "real_dimez_01",
+    "real_dimez_02"
+   ],
+   "title": [
+    [
+     "*VIRALES*"
+    ]
+   ],
+   "tags": [
+    "BAE-LUXE",
+    "ROXY",
+    "ONLY RAW RECORDS"
+   ],
+   "emojis": [
+    "🔥",
+    "📱"
+   ]
+  },
+  {
+   "ch": 5,
+   "t": "Raúl Bautista es un atracador de bancos con experiencia, siempre buscando talento dispuesto a arriesgarse por el gran golpe.",
+   "layout": "profile",
+   "name": "RAÚL BAUTISTA",
+   "media": [
+    "clip:raul_bautista",
+    "raul_bautista_03",
+    "raul_bautista_02",
+    "raul_bautista_04"
+   ],
+   "title": [
+    [
+     "ATRACADOR",
+     "DE"
+    ],
+    [
+     "*BANCOS*"
+    ]
+   ],
+   "tags": [
+    "VETERANO",
+    "BUSCA TALENTO"
+   ],
+   "emojis": [
+    "🏦",
+    "💰"
+   ]
+  },
+  {
+   "ch": 5,
+   "t": "Y Brian Heder, un traficante de la vieja escuela de los Cayos.",
+   "layout": "profile",
+   "name": "BRIAN HEDER",
+   "media": [
+    "clip:brian_heder",
+    "brian_heder_01"
+   ],
+   "title": [
+    [
+     "VIEJA",
+     "*ESCUELA*"
+    ]
+   ],
+   "tags": [
+    "LOS CAYOS"
+   ]
+  },
+  {
+   "ch": 5,
+   "t": "Parece un vago de playa… pero se mueve como un tiburón blanco.",
+   "layout": "profile",
+   "name": "BRIAN HEDER",
+   "media": [
+    "brian_heder_02",
+    "brian_heder_03"
+   ],
+   "title": [
+    [
+     "UN",
+     "*TIBURÓN*"
+    ],
+    [
+     "BLANCO"
+    ]
+   ],
+   "tags": [
+    "LOS CAYOS",
+    "CASERO DE JASON"
+   ],
+   "emojis": [
+    "🦈"
+   ]
+  },
+  {
+   "ch": 5,
+   "t": "Y es quien le deja a Jason vivir gratis en una de sus propiedades.",
+   "layout": "card",
+   "media": [
+    "brian_heder_04"
+   ],
+   "title": [
+    [
+     "CASA",
+     "*GRATIS*"
+    ]
+   ],
+   "emojis": [
+    "🏠"
+   ]
+  },
+  {
+   "ch": 6,
+   "chapter": "LEONIDA",
+   "t": "Todo esto pasa en Leonida, el estado del sol.",
+   "layout": "chapter",
+   "media": [
+    "aerial"
+   ],
+   "title": [
+    [
+     "*LEONIDA*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ]
+  },
+  {
+   "ch": 6,
+   "t": "Su joya es Vice City, con sus calles llenas de neón.",
+   "layout": "hero",
+   "media": [
+    "clip:night",
+    "vice_city_27",
+    "vice_city_14"
+   ],
+   "title": [
+    [
+     "*VICE*",
+     "CITY"
+    ]
+   ],
+   "emojis": [
+    "🌴",
+    "🌃"
+   ]
+  },
+  {
+   "ch": 6,
+   "t": "Pero hay mucho más: los Cayos de Leonida, Grassrivers, Port Gellhorn, Ambrosia y Mount Kalaga.",
+   "layout": "grid",
+   "media": [
+    "leonida_keys_07",
+    "grassrivers_07",
+    "vice_city_22",
+    "vice_city_26",
+    "jason_and_lucia_16",
+    "grassrivers_08"
+   ],
+   "title": [
+    [
+     "MUCHO",
+     "*MÁS*"
+    ]
+   ],
+   "tags": [
+    "LEONIDA KEYS",
+    "GRASSRIVERS",
+    "PORT GELLHORN",
+    "AMBROSIA",
+    "MOUNT KALAGA"
+   ]
+  },
+  {
+   "ch": 6,
+   "t": "Playas, pantanos, ciudad, carreteras infinitas… y todo con este nivel de detalle.",
+   "layout": "hero",
+   "media": [
+    "clip:beach",
+    "vice_city_15",
+    "vice_city_24"
+   ],
+   "title": [
+    [
+     "ESTE",
+     "NIVEL"
+    ],
+    [
+     "DE",
+     "*DETALLE*"
+    ]
+   ],
+   "emojis": [
+    "🤯"
+   ]
+  },
+  {
+   "ch": 6,
+   "t": "Y ojo a la música: Rockstar ha publicado la banda sonora oficial y algunas emisoras de radio del juego, para que las escuches donde quieras.",
+   "layout": "card",
+   "media": [
+    "music",
+    "vice_city_13",
+    "vice_city_25"
+   ],
+   "title": [
+    [
+     "RADIO",
+     "Y"
+    ],
+    [
+     "*BANDA SONORA*"
+    ]
+   ],
+   "emojis": [
+    "🎧",
+    "📻"
+   ]
+  },
+  {
+   "ch": 7,
+   "chapter": "¿DÓNDE JUGAR?",
+   "t": "¿Y dónde se juega?",
+   "layout": "chapter",
+   "media": [
+    "jason_and_lucia_20"
+   ],
+   "title": [
+    [
+     "¿DÓNDE"
+    ],
+    [
+     "SE",
+     "*JUEGA*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ]
+  },
+  {
+   "ch": 7,
+   "t": "GTA 6 está en PlayStation 5 y en Xbox Series X y S. Y según Rockstar, donde mejor se juega es en PlayStation 5.",
+   "layout": "card",
+   "media": [
+    "keyart",
+    "preload",
+    "beachcar",
+    "jason_and_lucia_20"
+   ],
+   "title": [
+    [
+     "PS5",
+     "Y",
+     "*XBOX*"
+    ],
+    [
+     "SERIES",
+     "X|S"
+    ]
+   ],
+   "tags": [
+    "PS5",
+    "XBOX SERIES X|S",
+    "MEJOR EN PS5"
+   ],
+   "emojis": [
+    "🎮"
+   ]
+  },
+  {
+   "ch": 7,
+   "t": "¿Y en PC? De momento, Rockstar no ha anunciado versión.",
+   "layout": "card",
+   "media": [
+    "lucia_caminos_13"
+   ],
+   "title": [
+    [
+     "¿Y",
+     "EN",
+     "*PC*?"
+    ]
+   ],
+   "stamp": "DE MOMENTO, NO",
+   "emojis": [
+    "💻"
+   ]
+  },
+  {
+   "ch": 7,
+   "t": "Y si te pillaste la Ultimate Edition, tienes extras repartidos por toda la historia: coches como el Grotti Cheetah del noventa y cinco, ropa al estilo Vice City y mucho más.",
+   "layout": "grid",
+   "media": [
+    "ue_cheetah",
+    "ue_squalo",
+    "ue_style",
+    "ue_wyman",
+    "ue_stock305",
+    "ue_safehouse"
+   ],
+   "title": [
+    [
+     "ULTIMATE",
+     "*EDITION*"
+    ]
+   ],
+   "tags": [
+    "'95 GROTTI CHEETAH",
+    "ESTILO VICE CITY"
+   ],
+   "emojis": [
+    "🏎️",
+    "✨"
+   ]
+  },
+  {
+   "ch": 7,
+   "t": "Y quien lo reservó se llevó el Vintage Vice City Pack, que te lleva a la época en la que el neón brillaba más que nunca.",
+   "layout": "grid",
+   "media": [
+    "vintage1",
+    "vintage2",
+    "vintage3"
+   ],
+   "title": [
+    [
+     "VINTAGE",
+     "*VICE CITY*"
+    ]
+   ],
+   "tags": [
+    "BONUS DE RESERVA"
+   ],
+   "emojis": [
+    "🕶️"
+   ]
+  },
+  {
+   "ch": 7,
+   "t": "Resumiendo: dos protagonistas, un golpe que sale mal, una conspiración por todo Leonida… y un mundo que no parece un videojuego.",
+   "layout": "montage",
+   "media": [
+    "extended",
+    "jason_and_lucia_15",
+    "vice_city_17",
+    "clip:night",
+    "vice_city_15",
+    "jason_and_lucia_17"
+   ],
+   "title": [
+    [
+     "*RESUMIENDO*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 0,
+     "v": 0.5
+    }
+   ]
+  },
+  {
+   "ch": 7,
+   "t": "Y ahora te toca a ti: ¿qué es lo primero que vas a hacer en Vice City?",
+   "layout": "card",
+   "media": [
+    "jason_and_lucia_17"
+   ],
+   "title": [
+    [
+     "¿QUÉ",
+     "VAS",
+     "A"
+    ],
+    [
+     "*HACER*?"
+    ]
+   ],
+   "comment": "¿Qué harás primero? 👇",
+   "emojis": [
+    "💬"
+   ]
+  },
+  {
+   "ch": 7,
+   "t": "Déjamelo en comentarios, suscríbete para más GTA 6… y nos vemos en Leonida.",
+   "layout": "outro",
+   "media": [
+    "extended"
+   ],
+   "title": [
+    [
+     "NOS",
+     "VEMOS",
+     "EN"
+    ],
+    [
+     "*LEONIDA*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 0.6,
+     "v": 0.6
+    }
+   ]
+  }
+ ]
+}
