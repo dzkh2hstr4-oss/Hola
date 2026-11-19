@@ -1,4 +1,5 @@
 import { Composition } from "remotion";
+import { G_FPS, G_H, G_W, Golpe, GOLPE_DURATION } from "./Golpe/Golpe";
 import { calcLyricMetadata, defaultLyricProps, LV_FPS, LV_H, LV_W, LyricVideo } from "./Letras/LyricVideo";
 import { Anuncio, ANUNCIO_DURATION } from "./Anuncio/Anuncio";
 import { QP_DURATION, QuePrefieres } from "./QuePrefieres/QuePrefieres";
@@ -11,6 +12,7 @@ import { Video2 } from "./Lumora/Video2";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition id="ElGolpeDelBalonDeOro" component={Golpe} durationInFrames={GOLPE_DURATION} fps={G_FPS} width={G_W} height={G_H} />
       <Composition
         id="VideoLetra"
         component={LyricVideo}
