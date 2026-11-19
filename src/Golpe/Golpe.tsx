@@ -295,7 +295,24 @@ type Actor = { who: Who; x: KF; y?: KF; walk?: [number, number]; flip?: boolean;
 type Line = { at: number; d: number; who: Who | "narr"; text: string };
 type SceneDef = { dur: number; bg: string; actors: Actor[]; lines: Line[]; under?: (t: number, f: number) => React.ReactNode; over?: (t: number, f: number) => React.ReactNode; sfx?: [number, string][] };
 
-const Scene: React.FC<{ s: SceneDef }> = ({ s }) => {
+const EXTRA: Record<number, [number, string, number?][]> = {
+  0: [[0, "pasos", 0.5], [12.4, "whoosh"]],
+  1: [[0.2, "whoosh"], [0.5, "redoble", 0.5], [9, "pasos", 0.4]],
+  2: [[4, "mordisco"]],
+  3: [[0, "whoosh", 0.4]],
+  4: [[0, "motor", 0.35], [3.9, "motor", 0.35], [7.8, "motor", 0.35], [11.7, "motor", 0.35]],
+  5: [[2, "pasos", 0.5], [2.8, "puerta"]],
+  6: [[1, "pasos", 0.4], [3, "magia", 0.6]],
+  7: [[0, "pasos", 0.5], [3, "pasos", 0.5], [6, "whoosh"], [9, "pasos", 0.5], [13, "whoosh"], [15, "pasos", 0.5], [19, "whoosh"], [21, "pasos", 0.5]],
+  8: [[0.5, "aleteo"], [2.5, "aleteo"], [5.3, "redoble", 0.4], [17.3, "ding", 0.5]],
+  9: [[0, "helicoptero", 0.5], [5.5, "helicoptero", 0.5], [6, "whoosh"], [11.5, "helicoptero", 0.3]],
+  10: [[0, "motor", 0.6], [2.8, "whoosh"]],
+  11: [[0, "pasos", 0.5], [2.4, "puerta"], [5.5, "magia", 0.6], [8, "alarma", 0.35], [11.5, "ding", 0.5], [17, "redoble", 0.5], [20.4, "whoosh"], [22.3, "jaula"]],
+  12: [[0.5, "magia", 0.5]],
+  13: [[0, "jaula", 0.5], [5, "redoble", 0.5]],
+};
+
+const Scene: React.FC<{ s: SceneDef; si: number }> = ({ s, si }) => {
   const f = useCurrentFrame();
   const t = f / G_FPS;
   const pos: Partial<Record<Who, { x: number; y: number }>> = {};
@@ -333,6 +350,22 @@ const Scene: React.FC<{ s: SceneDef }> = ({ s }) => {
           <Audio src={staticFile(`golpe/${file}`)} volume={0.6} />
         </Sequence>
       ))}
+      {(EXTRA[si] ?? []).map(([at, file, vol], i) => (
+        <Sequence key={`x${i}`} from={Math.round(at * G_FPS)}>
+          <Audio src={staticFile(`golpe/${file}.wav`)} volume={vol ?? 0.7} />
+        </Sequence>
+      ))}
+      {s.lines.map((l, i) => (
+        <Sequence key={`v${i}`} from={Math.round(l.at * G_FPS)}>
+          <Audio src={staticFile("golpe/pop.wav")} volume={0.25} />
+          {!l.text.startsWith("*") && <Audio src={staticFile(`golpe/voz/s${si}_${i}.wav`)} volume={1} />}
+        </Sequence>
+      ))}
+      {si === 8 && (
+        <Sequence from={Math.round(5.5 * G_FPS)}>
+          <Audio src={staticFile("golpe/voz/carta.wav")} />
+        </Sequence>
+      )}
     </AbsoluteFill>
   );
 };
@@ -663,7 +696,13 @@ export const Golpe: React.FC = () => {
   let from = INTRO * G_FPS;
   return (
     <AbsoluteFill style={{ background: "#000" }}>
-      <Audio src={staticFile("golpe/musica.wav")} volume={0.25} />
+      <Audio src={staticFile("golpe/musica.wav")} volume={0.1} />
+      <Sequence from={6}>
+        <Audio src={staticFile("golpe/whoosh.wav")} />
+      </Sequence>
+      <Sequence from={15}>
+        <Audio src={staticFile("golpe/brillo.wav")} volume={0.6} />
+      </Sequence>
       <Sequence durationInFrames={INTRO * G_FPS}>
         <Title big="EL GOLPE DEL BALÓN DE ORO" small="Parodia animada de ficción · Nada de esto ha ocurrido" dur={INTRO} />
       </Sequence>
@@ -671,7 +710,7 @@ export const Golpe: React.FC = () => {
         const d = s.dur * G_FPS;
         const el = (
           <Sequence key={i} from={from} durationInFrames={d}>
-            <Scene s={s} />
+            <Scene s={s} si={i} />
           </Sequence>
         );
         from += d;
