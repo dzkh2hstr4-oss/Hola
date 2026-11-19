@@ -1,0 +1,1247 @@
+{
+ "theme": "tier",
+ "scenes": [
+  {
+   "kind": "intro",
+   "clips": [
+    "a_paracaidas",
+    "m_poli_flip",
+    "a_circuito",
+    "m_joya2"
+   ],
+   "label": "TIER LIST DEFINITIVA",
+   "title": "PUNTÚO TODO GTA 6",
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ],
+   "s": 0.0,
+   "e": 8.44
+  },
+  {
+   "kind": "cards",
+   "clips": [
+    "d_coche",
+    "a_hidro",
+    "d_fiesta"
+   ],
+   "label": "GAMEPLAY OFICIAL · PS5",
+   "s": 8.44,
+   "e": 16.73
+  },
+  {
+   "kind": "list",
+   "clips": [
+    "a_motocross"
+   ],
+   "label": "LAS REGLAS",
+   "title": "MI CRITERIO",
+   "items": [
+    "¿Es divertido?",
+    "¿Es nuevo en la saga?",
+    "¿Lo vas a repetir?"
+   ],
+   "s": 16.73,
+   "e": 23.91
+  },
+  {
+   "kind": "panel",
+   "clips": [
+    "a_circuito"
+   ],
+   "label": "AL FINAL",
+   "title": "LA TABLA COMPLETA",
+   "s": 23.91,
+   "e": 30.6
+  },
+  {
+   "kind": "panel",
+   "clips": [
+    "a_playa"
+   ],
+   "label": "RETO",
+   "title": "HAZ TU TIER LIST",
+   "s": 30.6,
+   "e": 37.58
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_patinete"
+   ],
+   "label": "ACTIVIDAD 01",
+   "title": "EL PATINETE",
+   "s": 37.58,
+   "e": 40.76
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_patinete"
+   ],
+   "s": 40.76,
+   "e": 47.0
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "a_patinete"
+   ],
+   "label": "ACTIVIDAD 01",
+   "tier": {
+    "item": "Patinete",
+    "rank": "D",
+    "thumb": "a_patinete"
+   },
+   "s": 47.0,
+   "e": 61.94,
+   "reveal": 13.19
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_selfie"
+   ],
+   "label": "ACTIVIDAD 02",
+   "title": "LOS SELFIES",
+   "s": 61.94,
+   "e": 64.36
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_selfie"
+   ],
+   "s": 64.36,
+   "e": 74.87
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "a_selfie"
+   ],
+   "label": "ACTIVIDAD 02",
+   "tier": {
+    "item": "Selfies",
+    "rank": "D",
+    "thumb": "a_selfie"
+   },
+   "s": 74.87,
+   "e": 86.86,
+   "reveal": 10.24
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_gym"
+   ],
+   "label": "ACTIVIDAD 03",
+   "title": "EL GIMNASIO",
+   "s": 86.86,
+   "e": 88.54
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_gym"
+   ],
+   "s": 88.54,
+   "e": 97.13
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "a_gym"
+   ],
+   "label": "ACTIVIDAD 03",
+   "tier": {
+    "item": "Gimnasio",
+    "rank": "C",
+    "thumb": "a_gym"
+   },
+   "s": 97.13,
+   "e": 110.08,
+   "reveal": 11.2
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_kayak",
+    "a_jetski"
+   ],
+   "label": "ACTIVIDAD 04",
+   "title": "KAYAK Y MOTO DE AGUA",
+   "s": 110.08,
+   "e": 112.11
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_jetski"
+   ],
+   "s": 112.11,
+   "e": 121.3
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "a_kayak"
+   ],
+   "label": "ACTIVIDAD 04",
+   "tier": {
+    "item": "Kayak / moto de agua",
+    "rank": "C",
+    "thumb": "a_kayak"
+   },
+   "s": 121.3,
+   "e": 132.23,
+   "reveal": 9.18
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_playa"
+   ],
+   "label": "ACTIVIDAD 05",
+   "title": "LA PLAYA",
+   "s": 132.23,
+   "e": 133.65
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_playa"
+   ],
+   "s": 133.65,
+   "e": 141.92
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "a_playa"
+   ],
+   "label": "ACTIVIDAD 05",
+   "tier": {
+    "item": "Playa",
+    "rank": "C",
+    "thumb": "a_playa"
+   },
+   "s": 141.92,
+   "e": 154.7,
+   "reveal": 11.02
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_tele"
+   ],
+   "label": "ACTIVIDAD 06",
+   "title": "VER LA TELE",
+   "s": 154.7,
+   "e": 157.72
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_tele"
+   ],
+   "s": 157.72,
+   "e": 166.02
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "d_tele"
+   ],
+   "label": "ACTIVIDAD 06",
+   "tier": {
+    "item": "Ver la tele",
+    "rank": "B",
+    "thumb": "d_tele"
+   },
+   "s": 166.02,
+   "e": 181.46,
+   "reveal": 13.69
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_disco",
+    "a_club"
+   ],
+   "label": "ACTIVIDAD 07",
+   "title": "LAS DISCOTECAS",
+   "s": 181.46,
+   "e": 183.3
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_disco"
+   ],
+   "s": 183.3,
+   "e": 191.73
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "a_club"
+   ],
+   "label": "ACTIVIDAD 07",
+   "tier": {
+    "item": "Discotecas",
+    "rank": "B",
+    "thumb": "a_club"
+   },
+   "s": 191.73,
+   "e": 204.54,
+   "reveal": 11.05
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_hidro"
+   ],
+   "label": "ACTIVIDAD 08",
+   "title": "LOS PANTANOS",
+   "s": 204.54,
+   "e": 207.31
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_hidro"
+   ],
+   "s": 207.31,
+   "e": 215.68
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "a_hidro"
+   ],
+   "label": "ACTIVIDAD 08",
+   "tier": {
+    "item": "Hidrodeslizador",
+    "rank": "B",
+    "thumb": "a_hidro"
+   },
+   "s": 215.68,
+   "e": 229.37,
+   "reveal": 11.95
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_motocross"
+   ],
+   "label": "ACTIVIDAD 09",
+   "title": "MOTOCROSS",
+   "s": 229.37,
+   "e": 231.03
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_motocross"
+   ],
+   "s": 231.03,
+   "e": 236.53
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "a_motocross"
+   ],
+   "label": "ACTIVIDAD 09",
+   "tier": {
+    "item": "Motocross",
+    "rank": "B",
+    "thumb": "a_motocross"
+   },
+   "s": 236.53,
+   "e": 249.01,
+   "reveal": 10.73
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "m_furgon"
+   ],
+   "label": "ACTIVIDAD 10",
+   "title": "FURGONES BLINDADOS",
+   "s": 249.01,
+   "e": 251.39
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "m_furgon"
+   ],
+   "s": 251.39,
+   "e": 260.1
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "m_furgon"
+   ],
+   "label": "ACTIVIDAD 10",
+   "tier": {
+    "item": "Furgones blindados",
+    "rank": "B",
+    "thumb": "m_furgon"
+   },
+   "s": 260.1,
+   "e": 272.45,
+   "reveal": 10.61
+  },
+  {
+   "kind": "board",
+   "label": "A MITAD DE CAMINO",
+   "s": 272.45,
+   "e": 282.01
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_coche"
+   ],
+   "label": "ACTIVIDAD 11",
+   "title": "CONDUCIR POR VICE CITY",
+   "s": 282.01,
+   "e": 287.04
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_coche"
+   ],
+   "s": 287.04,
+   "e": 295.95
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "d_coche"
+   ],
+   "label": "ACTIVIDAD 11",
+   "tier": {
+    "item": "Conducir",
+    "rank": "A",
+    "thumb": "d_coche"
+   },
+   "s": 295.95,
+   "e": 309.07,
+   "reveal": 11.36
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "m_tienda1",
+    "m_tienda2",
+    "m_tienda3"
+   ],
+   "label": "ACTIVIDAD 12",
+   "title": "ATRACAR TIENDAS",
+   "s": 309.07,
+   "e": 311.17
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "m_tienda3"
+   ],
+   "s": 311.17,
+   "e": 319.3
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "m_tienda2"
+   ],
+   "label": "ACTIVIDAD 12",
+   "tier": {
+    "item": "Atracar tiendas",
+    "rank": "A",
+    "thumb": "m_tienda2"
+   },
+   "s": 319.3,
+   "e": 331.15,
+   "reveal": 10.1
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_circuito"
+   ],
+   "label": "ACTIVIDAD 13",
+   "title": "CARRERAS EN CIRCUITO",
+   "s": 331.15,
+   "e": 333.86
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_circuito"
+   ],
+   "s": 333.86,
+   "e": 339.45
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "a_circuito"
+   ],
+   "label": "ACTIVIDAD 13",
+   "tier": {
+    "item": "Circuito",
+    "rank": "A",
+    "thumb": "a_circuito"
+   },
+   "s": 339.45,
+   "e": 348.58,
+   "reveal": 7.38
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_callejera"
+   ],
+   "label": "ACTIVIDAD 14",
+   "title": "CARRERAS CALLEJERAS",
+   "s": 348.58,
+   "e": 351.45
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_callejera"
+   ],
+   "s": 351.45,
+   "e": 360.1
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "d_callejera"
+   ],
+   "label": "ACTIVIDAD 14",
+   "tier": {
+    "item": "Carreras callejeras",
+    "rank": "A",
+    "thumb": "d_callejera"
+   },
+   "s": 360.1,
+   "e": 371.21,
+   "reveal": 9.37
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_trunk"
+   ],
+   "label": "ACTIVIDAD 15",
+   "title": "RETOS VIRALES",
+   "s": 371.21,
+   "e": 373.48
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_trunk"
+   ],
+   "s": 373.48,
+   "e": 380.89
+  },
+  {
+   "label": "AUDIO ORIGINAL",
+   "kind": "clip",
+   "clips": [
+    "q_trunk"
+   ],
+   "vol": 1.0,
+   "s": 380.89,
+   "e": 394.44,
+   "sfx": []
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "d_trunk"
+   ],
+   "label": "ACTIVIDAD 15",
+   "tier": {
+    "item": "Retos virales",
+    "rank": "A",
+    "thumb": "d_trunk"
+   },
+   "s": 394.64,
+   "e": 407.21,
+   "reveal": 10.81
+  },
+  {
+   "kind": "panel",
+   "clips": [
+    "a_paracaidas"
+   ],
+   "label": "ZONA S",
+   "title": "LO MEJOR DE GTA 6",
+   "s": 407.21,
+   "e": 412.51
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_paracaidas"
+   ],
+   "label": "ACTIVIDAD 16",
+   "title": "PARACAÍDAS",
+   "s": 412.51,
+   "e": 415.97
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_paracaidas"
+   ],
+   "s": 415.97,
+   "e": 423.62
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "a_paracaidas"
+   ],
+   "label": "ACTIVIDAD 16",
+   "tier": {
+    "item": "Paracaídas",
+    "rank": "S",
+    "thumb": "a_paracaidas"
+   },
+   "s": 423.62,
+   "e": 436.06,
+   "reveal": 10.69
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "m_joya1",
+    "m_joya2"
+   ],
+   "label": "ACTIVIDAD 17",
+   "title": "JOYERÍAS",
+   "s": 436.06,
+   "e": 438.65
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "m_joya1"
+   ],
+   "s": 438.65,
+   "e": 446.37
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "m_joya2"
+   ],
+   "label": "ACTIVIDAD 17",
+   "tier": {
+    "item": "Joyerías",
+    "rank": "S",
+    "thumb": "m_joya2"
+   },
+   "s": 446.37,
+   "e": 458.02,
+   "reveal": 9.9
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_persecucion",
+    "m_poli_flip"
+   ],
+   "label": "ACTIVIDAD 18",
+   "title": "PERSECUCIONES",
+   "s": 458.02,
+   "e": 460.9
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_persecucion"
+   ],
+   "s": 460.9,
+   "e": 467.09
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "m_poli_flip"
+   ],
+   "label": "ACTIVIDAD 18",
+   "tier": {
+    "item": "Persecuciones",
+    "rank": "S",
+    "thumb": "m_poli_flip"
+   },
+   "s": 467.09,
+   "e": 479.6,
+   "reveal": 10.76
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_redada",
+    "d_fiesta",
+    "d_tiro3"
+   ],
+   "label": "ACTIVIDAD 19",
+   "title": "LAS MISIONES",
+   "s": 479.6,
+   "e": 484.06
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_raul"
+   ],
+   "s": 484.06,
+   "e": 491.26
+  },
+  {
+   "label": "AUDIO ORIGINAL",
+   "kind": "clip",
+   "clips": [
+    "q_ladrillos"
+   ],
+   "vol": 1.0,
+   "s": 491.26,
+   "e": 494.81,
+   "sfx": []
+  },
+  {
+   "label": "AUDIO ORIGINAL",
+   "kind": "clip",
+   "clips": [
+    "q_prueba"
+   ],
+   "vol": 1.0,
+   "s": 495.01,
+   "e": 504.96,
+   "sfx": []
+  },
+  {
+   "kind": "tier",
+   "clips": [
+    "d_tiro3"
+   ],
+   "label": "ACTIVIDAD 19",
+   "tier": {
+    "item": "Misiones",
+    "rank": "S",
+    "thumb": "d_tiro3"
+   },
+   "s": 505.16,
+   "e": 521.43,
+   "reveal": 14.52
+  },
+  {
+   "kind": "list",
+   "clips": [
+    "d_jet"
+   ],
+   "label": "LO QUE FALTA",
+   "title": "TODAVÍA NO LO HEMOS VISTO",
+   "items": [
+    "Pilotar aviones",
+    "Comprar negocios",
+    "Talleres de coches",
+    "GTA Online"
+   ],
+   "s": 521.43,
+   "e": 533.85
+  },
+  {
+   "kind": "board",
+   "clips": [
+    "a_paracaidas"
+   ],
+   "label": "RESULTADO FINAL",
+   "title": "LA TIER LIST",
+   "s": 533.85,
+   "e": 544.22
+  },
+  {
+   "kind": "list",
+   "clips": [
+    "a_paracaidas"
+   ],
+   "label": "MI TOP 3",
+   "title": "LO MEJOR DE LO MEJOR",
+   "items": [
+    "Las misiones",
+    "Las persecuciones",
+    "El paracaídas"
+   ],
+   "s": 544.22,
+   "e": 554.31
+  },
+  {
+   "kind": "outro",
+   "clips": [
+    "d_final"
+   ],
+   "title": "¿QUÉ CAMBIARÍAS TÚ?",
+   "s": 554.31,
+   "e": 567.28
+  }
+ ],
+ "captions": [
+  {
+   "t": "Rockstar ha enseñado diecinueve cosas que se pueden hacer en GTA 6. Las he puntuado todas, de la D a la S… y alguna te va a cabrear.",
+   "s": 0.05,
+   "e": 8.26
+  },
+  {
+   "t": "Todo lo que vas a ver es gameplay real, del vídeo de casi veintisiete minutos que publicó Rockstar. Nada de tráileres ni de capturas retocadas.",
+   "s": 8.49,
+   "e": 16.55
+  },
+  {
+   "t": "Mi criterio es muy simple: lo divertido que parece, lo nuevo que es para la saga, y las veces que te vas a pasar el rato haciéndolo.",
+   "s": 16.78,
+   "e": 23.73
+  },
+  {
+   "t": "Y al final te enseño la tabla completa, para que me digas en comentarios en qué me he equivocado. Empezamos.",
+   "s": 23.96,
+   "e": 30.42
+  },
+  {
+   "t": "Y un reto: mientras ves el vídeo, apunta tu propia tier list y déjala en comentarios. Al final comparamos.",
+   "s": 30.65,
+   "e": 37.4
+  },
+  {
+   "t": "Empezamos por lo más tranquilo: el patinete eléctrico.",
+   "s": 37.63,
+   "e": 40.58
+  },
+  {
+   "t": "Lo curioso es que no es un adorno: se ve a Lucía usándolo de verdad para moverse, esquivando a la gente por la acera.",
+   "s": 40.81,
+   "e": 46.82
+  },
+  {
+   "t": "Se ve a Lucía cruzando la ciudad en patinete, entre murales y tiendas. Queda muy realista, muy Miami… pero en un GTA, con un deportivo aparcado en cada esquina, no le veo mucho recorrido. Para mí, D.",
+   "s": 47.25,
+   "e": 60.64
+  },
+  {
+   "t": "Segunda: hacerte selfies con el móvil.",
+   "s": 61.99,
+   "e": 64.18
+  },
+  {
+   "t": "En GTA 5 ya podías hacerte fotos con el móvil, y aquí la cámara vuelve con Jason y Lucía posando juntos. Y con Snapmatic de vuelta, imagino que habrá likes y comentarios.",
+   "s": 64.41,
+   "e": 74.69
+  },
+  {
+   "t": "Jason y Lucía se hacen una foto en plena calle. Es un detalle bonito, y seguro que da para muchas capturas en redes… pero como actividad, no da para más. D.",
+   "s": 75.12,
+   "e": 85.56
+  },
+  {
+   "t": "Tercera: el gimnasio.",
+   "s": 86.91,
+   "e": 88.36
+  },
+  {
+   "t": "Eso sí, la animación es brutal: la cara de esfuerzo de Lucía, la barra temblando… El nivel de detalle es una locura hasta en lo más aburrido.",
+   "s": 88.59,
+   "e": 96.95
+  },
+  {
+   "t": "Lucía haciendo press de banca. En San Andreas ponerte fuerte tenía su gracia, y aquí parece que vuelve. Pero levantar pesas en un juego… es levantar pesas. C.",
+   "s": 97.38,
+   "e": 108.78
+  },
+  {
+   "t": "Cuarta: kayak y moto de agua.",
+   "s": 110.13,
+   "e": 111.93
+  },
+  {
+   "t": "Y fíjate en el agua: los reflejos, las olas que deja el kayak, la moto de agua levantando espuma. Probablemente el mejor agua que se ha visto en un videojuego.",
+   "s": 112.16,
+   "e": 121.12
+  },
+  {
+   "t": "El agua de GTA 6 se ve espectacular, y remar en kayak frente a los rascacielos es precioso. Pero es más para relajarte que para viciarte. C.",
+   "s": 121.55,
+   "e": 130.93
+  },
+  {
+   "t": "Quinta: la playa.",
+   "s": 132.28,
+   "e": 133.47
+  },
+  {
+   "t": "Lo impresionante es la cantidad de gente: cada persona con su toalla, su sombrilla y lo suyo. Vice City se siente como un sitio real.",
+   "s": 133.7,
+   "e": 141.74
+  },
+  {
+   "t": "Sombrillas, tumbonas y cientos de personas. Es la playa más viva que he visto en un videojuego. Pero tumbarte al sol… tampoco es que sea el plan del siglo. C.",
+   "s": 142.17,
+   "e": 153.4
+  },
+  {
+   "t": "Sexta, y aquí empieza lo bueno: ver la tele.",
+   "s": 154.75,
+   "e": 157.54
+  },
+  {
+   "t": "Los anuncios de Rockstar siempre han sido de lo más gracioso de la saga. Encender la tele en casa y quedarte un rato mirando va a ser un clásico.",
+   "s": 157.77,
+   "e": 165.84
+  },
+  {
+   "t": "En el piso de Lucía la tele está encendida y van saliendo anuncios de parodia: una pastilla para la desesperación, un documental de naturaleza, hamburguesas imposibles. El humor de Rockstar en estado puro. Por las risas, B.",
+   "s": 166.27,
+   "e": 180.16
+  },
+  {
+   "t": "Séptima: las discotecas.",
+   "s": 181.51,
+   "e": 183.12
+  },
+  {
+   "t": "En el gameplay se ven varias: una con control de identificación en la puerta, otra llena de neones y gente bailando, y la fiesta de MegaMundo en lo alto de una torre.",
+   "s": 183.35,
+   "e": 191.55
+  },
+  {
+   "t": "Luces, gente bailando, control en la puerta… y en una de ellas Lucía con un vaso en la mano. Las fiestas de Vice City pintan increíbles, y además salen en las misiones. B.",
+   "s": 191.98,
+   "e": 203.24
+  },
+  {
+   "t": "Octava: el hidrodeslizador por los pantanos.",
+   "s": 204.59,
+   "e": 207.13
+  },
+  {
+   "t": "El hidrodeslizador va por canales estrechos llenos de vegetación, con ese ventilador enorme detrás. Es el vehículo más de Florida que existe.",
+   "s": 207.36,
+   "e": 215.5
+  },
+  {
+   "t": "Esto es Florida al cien por cien. El agua verde, la vegetación, los caimanes… Explorar los pantanos promete muchísimo, y es algo que no habíamos visto en un GTA. B.",
+   "s": 215.93,
+   "e": 228.07
+  },
+  {
+   "t": "Novena: el motocross.",
+   "s": 229.42,
+   "e": 230.85
+  },
+  {
+   "t": "Y ojo al detalle: en pantalla se ve tu posición y el número de vuelta, como en una competición de verdad.",
+   "s": 231.08,
+   "e": 236.35
+  },
+  {
+   "t": "Una carrera de motos de tierra por la montaña, con posición y número de vuelta en pantalla. Divertido, pero las motos siempre han sido lo más difícil de controlar en GTA. B.",
+   "s": 236.78,
+   "e": 247.71
+  },
+  {
+   "t": "Décima: atracar furgones blindados.",
+   "s": 249.06,
+   "e": 251.21
+  },
+  {
+   "t": "En GTA 5, asaltar furgones de seguridad ya era uno de los eventos aleatorios más divertidos. Si vuelve así, puede ser de lo mejor.",
+   "s": 251.44,
+   "e": 259.92
+  },
+  {
+   "t": "Aparece en el gameplay, en plena calle, junto a un furgón de transporte de dinero. Pero se ve apenas un par de segundos, así que de momento, por lo poco que sabemos… B.",
+   "s": 260.35,
+   "e": 271.15
+  },
+  {
+   "t": "Vamos a ver cómo va la tabla a mitad de camino. Abajo, lo más tranquilo… y la parte de arriba todavía está vacía. Lo mejor está por llegar.",
+   "s": 272.5,
+   "e": 281.83
+  },
+  {
+   "t": "Y ahora entramos en la zona alta. Undécima: conducir por Vice City.",
+   "s": 282.06,
+   "e": 286.86
+  },
+  {
+   "t": "Abajo a la izquierda, el minimapa con la ruta en rosa. Y los coches se ven más pesados y realistas que en GTA 5, sobre todo en las curvas.",
+   "s": 287.09,
+   "e": 295.77
+  },
+  {
+   "t": "Un descapotable rojo, la radio, el tráfico, los rascacielos. Parece una tontería, pero en GTA pasas la mitad del tiempo conduciendo, y esto se ve mejor que nunca. A.",
+   "s": 296.2,
+   "e": 307.77
+  },
+  {
+   "t": "Duodécima: atracar tiendas.",
+   "s": 309.12,
+   "e": 310.99
+  },
+  {
+   "t": "Y en el gameplay se ve que la gente reacciona: levantan las manos, se tiran al suelo, intentan escapar. No es solo apretar un botón.",
+   "s": 311.22,
+   "e": 319.12
+  },
+  {
+   "t": "Pañuelo en la cara, encañonar al dependiente y salir corriendo. Es el atraco más clásico de la saga, rápido y con tensión. Para ganar dinero rápido, A.",
+   "s": 319.55,
+   "e": 329.85
+  },
+  {
+   "t": "Decimotercera: las carreras en circuito.",
+   "s": 331.2,
+   "e": 333.68
+  },
+  {
+   "t": "Y fíjate en los coches: llevan sus pegatinas y sus patrocinadores, como si fuera un campeonato de verdad.",
+   "s": 333.91,
+   "e": 339.27
+  },
+  {
+   "t": "Un circuito de verdad, con cronómetro y número de vuelta. Es como tener un juego de carreras dentro de GTA. A.",
+   "s": 339.7,
+   "e": 347.28
+  },
+  {
+   "t": "Decimocuarta: las carreras callejeras de noche.",
+   "s": 348.63,
+   "e": 351.27
+  },
+  {
+   "t": "Neones debajo de los coches, la ciudad iluminada al fondo… Si te gustaba Midnight Club, el otro juego de carreras de Rockstar, esto es para ti.",
+   "s": 351.5,
+   "e": 359.92
+  },
+  {
+   "t": "Coches tuneados con neones, de noche, por la ciudad, con un contador de progreso en pantalla. Esto huele a película de coches por todos lados. A.",
+   "s": 360.35,
+   "e": 369.91
+  },
+  {
+   "t": "Decimoquinta: los retos virales.",
+   "s": 371.26,
+   "e": 373.3
+  },
+  {
+   "t": "En el gameplay, hasta la gente de la calle saca el móvil para grabarte. Vice City es una ciudad obsesionada con hacerse viral.",
+   "s": 373.53,
+   "e": 380.71
+  },
+  {
+   "t": "«¡El reto del maletero!» … «¡Mira, nos persigue la poli de verdad!»",
+   "s": 381.04,
+   "e": 394.39
+  },
+  {
+   "t": "Gente metiéndose en maleteros, grabándolo todo con el móvil y retransmitiendo en directo mientras les persigue la policía. Es la crítica a las redes sociales más GTA posible. A.",
+   "s": 394.89,
+   "e": 405.91
+  },
+  {
+   "t": "Y llegamos a la S. Solo quedan cuatro… y una de ellas va a dar mucho que hablar.",
+   "s": 407.26,
+   "e": 412.33
+  },
+  {
+   "t": "Decimosexta: saltar en paracaídas desde un rascacielos.",
+   "s": 412.56,
+   "e": 415.79
+  },
+  {
+   "t": "Antes del salto ves Vice City entera desde arriba: los canales, las islas, los rascacielos. El mapa se ve enorme.",
+   "s": 416.02,
+   "e": 423.44
+  },
+  {
+   "t": "Lucía corre por la azotea, salta al vacío y abre el paracaídas con toda Vice City debajo. Es, literalmente, el plano más bonito de todo el gameplay. S.",
+   "s": 423.87,
+   "e": 434.76
+  },
+  {
+   "t": "Decimoséptima: los golpes a joyerías.",
+   "s": 436.11,
+   "e": 438.47
+  },
+  {
+   "t": "Y lo mejor es que todo va seguido, sin pantallas de carga: entras, robas, sales, te subes a la moto y te pierdes en el tráfico.",
+   "s": 438.7,
+   "e": 446.19
+  },
+  {
+   "t": "Entrar en la joyería, salir con la bolsa y huir en moto entre el tráfico, todo en un solo plano. Rápido, tenso, y con muchísimo estilo. S.",
+   "s": 446.62,
+   "e": 456.72
+  },
+  {
+   "t": "Decimoctava: las persecuciones con la policía.",
+   "s": 458.07,
+   "e": 460.72
+  },
+  {
+   "t": "Fíjate arriba a la derecha: el nivel de búsqueda y la munición. La policía no te deja ni respirar.",
+   "s": 460.95,
+   "e": 466.91
+  },
+  {
+   "t": "Coches patrulla que te embisten, disparos desde la ventanilla, y un coche de policía volcando en mitad de la calle. Es el corazón de GTA, y se ve más brutal que nunca. S.",
+   "s": 467.34,
+   "e": 478.3
+  },
+  {
+   "t": "Y la última. La número diecinueve: las misiones de la historia.",
+   "s": 479.65,
+   "e": 483.88
+  },
+  {
+   "t": "Y lo mejor es cómo se cuentan: conversaciones naturales en el coche, cambios entre Jason y Lucía, y giros que no ves venir.",
+   "s": 484.11,
+   "e": 491.08
+  },
+  {
+   "t": "«Tengo los ladrillos de Boobie.» «¡Que le den a Boobie!»",
+   "s": 491.41,
+   "e": 494.76
+  },
+  {
+   "t": "«¿Hemos pasado la prueba?» «Lo hicisteis bien. Seguís vivos. Esto podría ser el principio de algo bueno.»",
+   "s": 495.16,
+   "e": 504.91
+  },
+  {
+   "t": "Una redada de policías corruptos, una prueba para entrar en la banda de Raúl, una fiesta de millonarios que acaba a tiros. Cada misión parece una película. Y para mí, esto es lo mejor de todo GTA 6. S, sin discusión.",
+   "s": 505.41,
+   "e": 520.13
+  },
+  {
+   "t": "Y ojo, porque hay cosas que Rockstar todavía no ha enseñado en este gameplay: pilotar aviones, comprar negocios, personalizar coches en un taller, o el modo online. Cuando las veamos, actualizo la tabla.",
+   "s": 521.48,
+   "e": 533.67
+  },
+  {
+   "t": "Y así queda la tabla completa. Cuatro en la S, cinco en la A, cinco en la B, tres en la C y dos en la D. Lo más tranquilo abajo… y la acción, arriba del todo.",
+   "s": 533.9,
+   "e": 544.04
+  },
+  {
+   "t": "Y si tuviera que quedarme solo con tres: las misiones, las persecuciones y el salto en paracaídas. Tres cosas que, en este gameplay, ya parecen de otra generación.",
+   "s": 544.27,
+   "e": 554.13
+  },
+  {
+   "t": "¿Qué cambiarías tú? ¿Qué subirías a la S y qué bajarías a la D? Déjamelo en comentarios, que los leo todos. Y suscríbete, que vienen más vídeos de GTA 6.",
+   "s": 554.36,
+   "e": 565.6
+  }
+ ],
+ "voice": "gta6/audio/docB-voz.wav",
+ "total": 567.28,
+ "clipLen": {
+  "q_salte": 12.6,
+  "d_ascensor3": 23.0,
+  "d_coche2": 40.0,
+  "d_parking": 34.0,
+  "d_carrusel": 73.0,
+  "d_noche": 8.0,
+  "a_patinete": 3.5,
+  "d_coche": 50.0,
+  "d_grupo": 18.0,
+  "d_lucia": 26.0,
+  "d_raul": 35.0,
+  "q_redada": 5.8,
+  "d_tiro1": 17.0,
+  "a_hidro": 3.0,
+  "a_kayak": 2.0,
+  "d_ascensor": 21.0,
+  "a_selfie": 3.2,
+  "m_poli_tiro": 4.5,
+  "m_tienda1": 4.0,
+  "a_motocross": 4.2,
+  "q_prueba": 9.8,
+  "d_huida": 27.0,
+  "d_cama": 15.0,
+  "a_jetski": 1.83,
+  "a_mar": 2.6,
+  "d_tele": 32.0,
+  "d_fiesta": 34.0,
+  "d_casa": 20.0,
+  "a_circuito": 5.3,
+  "d_final": 33.0,
+  "d_oficina": 36.0,
+  "d_pasillo": 14.0,
+  "d_monitores": 12.0,
+  "d_ascensor2": 15.0,
+  "d_mensaje": 16.0,
+  "d_torre": 7.0,
+  "d_llamada": 32.0,
+  "m_golpe2": 5.0,
+  "q_ernesto": 11.3,
+  "a_club": 4.0,
+  "q_trabajo": 12.8,
+  "m_golpe3": 7.0,
+  "q_ladrillos": 3.4,
+  "d_persecucion": 30.0,
+  "d_callejera": 8.0,
+  "a_gym": 3.3,
+  "d_ropa": 16.0,
+  "d_tiro2": 28.0,
+  "d_mesa": 20.0,
+  "a_coche": 6.0,
+  "m_poli_flip": 6.0,
+  "d_titulo": 20.0,
+  "m_joya2": 6.6,
+  "d_redada": 18.0,
+  "d_discurso": 22.0,
+  "d_bolsa": 8.0,
+  "q_profesional": 11.4,
+  "m_tienda2": 6.0,
+  "m_joya1": 3.2,
+  "d_perro": 9.0,
+  "q_gloria": 16.0,
+  "m_tienda3": 3.0,
+  "m_furgon": 1.9,
+  "d_llegada": 8.0,
+  "d_ataque": 18.0,
+  "a_disco": 2.7,
+  "d_trunk": 19.0,
+  "m_golpe1": 6.0,
+  "d_cochenoche": 14.0,
+  "d_puerta": 20.0,
+  "d_azotea": 38.0,
+  "d_jet": 14.0,
+  "d_aeropuerto": 27.0,
+  "d_mesa2": 23.0,
+  "d_tiro3": 42.0,
+  "q_trunk": 13.4,
+  "a_playa": 2.6,
+  "q_bajarte": 7.8,
+  "a_paracaidas": 9.7
+ },
+ "clipVolume": 0.12,
+ "brand": "TIER LIST · GTA VI"
+}

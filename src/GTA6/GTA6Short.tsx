@@ -63,6 +63,7 @@ export type GTA6Props = {
   total: number; // seconds
   clipLen?: Record<string, number>;
   gameVolume?: number;
+  sfxGain?: number;
 };
 
 const sec = (s: number) => Math.round(s * FPS);
@@ -610,7 +611,7 @@ const Captions: React.FC<{ caps: Caption[] }> = ({ caps }) => {
 };
 
 // ---------- main ----------
-export const GTA6Short: React.FC<GTA6Props> = ({ scenes, captions, voice, music, musicVolume, total, clipLen, gameVolume }) => {
+export const GTA6Short: React.FC<GTA6Props> = ({ scenes, captions, voice, music, musicVolume, total, clipLen, gameVolume, sfxGain = 1 }) => {
   const f = useCurrentFrame();
   const end = sec(total);
   return (
@@ -640,7 +641,7 @@ export const GTA6Short: React.FC<GTA6Props> = ({ scenes, captions, voice, music,
         (sc.emojis ?? []).forEach((_, k) => extra.push({ f: "wyr/sfx/pop.wav", at: (6 + (k * sec(sc.e - sc.s)) / Math.max(2, (sc.emojis ?? []).length + 0.6)) / FPS, v: 0.45 }));
         return [...base, ...extra].map((x, j) => (
           <Sequence key={`${i}-${j}`} from={sec(sc.s + (x.at ?? 0))} durationInFrames={sec(2)}>
-            <Audio src={staticFile(x.f)} volume={x.v ?? 0.6} />
+            <Audio src={staticFile(x.f)} volume={(x.v ?? 0.6) * sfxGain} />
           </Sequence>
         ));
       })}

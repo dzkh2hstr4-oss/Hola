@@ -1,7 +1,7 @@
 {
  "theme": "tier",
  "voice": "es-ES-AlvaroNeural",
- "rate": "+8%",
+ "rate": "+3%",
  "pitch": "+3Hz",
  "brand": "TIER LIST · GTA VI",
  "lines": [
@@ -59,6 +59,16 @@
    "sub": "Y tú me dices en qué me equivoco"
   },
   {
+   "t": "Y un reto: mientras ves el vídeo, apunta tu propia tier list y déjala en comentarios. Al final comparamos.",
+   "kind": "panel",
+   "clips": [
+    "a_playa"
+   ],
+   "label": "RETO",
+   "title": "HAZ TU TIER LIST",
+   "sub": "Y déjala en comentarios 👇"
+  },
+  {
    "t": "Empezamos por lo más tranquilo: el patinete eléctrico.",
    "kind": "clip",
    "clips": [
@@ -66,6 +76,13 @@
    ],
    "label": "ACTIVIDAD 01",
    "title": "EL PATINETE"
+  },
+  {
+   "t": "Lo curioso es que no es un adorno: se ve a Lucía usándolo de verdad para moverse, esquivando a la gente por la acera.",
+   "kind": "clip",
+   "clips": [
+    "a_patinete"
+   ]
   },
   {
    "t": "Se ve a Lucía cruzando la ciudad en patinete, entre murales y tiendas. Queda muy realista, muy Miami… pero en un GTA, con un deportivo aparcado en cada esquina, no le veo mucho recorrido. Para mí, D.",
@@ -90,6 +107,13 @@
    "title": "LOS SELFIES"
   },
   {
+   "t": "En GTA 5 ya podías hacerte fotos con el móvil, y aquí la cámara vuelve con Jason y Lucía posando juntos. Y con Snapmatic de vuelta, imagino que habrá likes y comentarios.",
+   "kind": "clip",
+   "clips": [
+    "a_selfie"
+   ]
+  },
+  {
    "t": "Jason y Lucía se hacen una foto en plena calle. Es un detalle bonito, y seguro que da para muchas capturas en redes… pero como actividad, no da para más. D.",
    "kind": "tier",
    "clips": [
@@ -110,6 +134,13 @@
    ],
    "label": "ACTIVIDAD 03",
    "title": "EL GIMNASIO"
+  },
+  {
+   "t": "Eso sí, la animación es brutal: la cara de esfuerzo de Lucía, la barra temblando… El nivel de detalle es una locura hasta en lo más aburrido.",
+   "kind": "clip",
+   "clips": [
+    "a_gym"
+   ]
   },
   {
    "t": "Lucía haciendo press de banca. En San Andreas ponerte fuerte tenía su gracia, y aquí parece que vuelve. Pero levantar pesas en un juego… es levantar pesas. C.",
@@ -135,6 +166,13 @@
    "title": "KAYAK Y MOTO DE AGUA"
   },
   {
+   "t": "Y fíjate en el agua: los reflejos, las olas que deja el kayak, la moto de agua levantando espuma. Probablemente el mejor agua que se ha visto en un videojuego.",
+   "kind": "clip",
+   "clips": [
+    "a_jetski"
+   ]
+  },
+  {
    "t": "El agua de GTA 6 se ve espectacular, y remar en kayak frente a los rascacielos es precioso. Pero es más para relajarte que para viciarte. C.",
    "kind": "tier",
    "clips": [
@@ -157,6 +195,13 @@
    "title": "LA PLAYA"
   },
   {
+   "t": "Lo impresionante es la cantidad de gente: cada persona con su toalla, su sombrilla y lo suyo. Vice City se siente como un sitio real.",
+   "kind": "clip",
+   "clips": [
+    "a_playa"
+   ]
+  },
+  {
    "t": "Sombrillas, tumbonas y cientos de personas. Es la playa más viva que he visto en un videojuego. Pero tumbarte al sol… tampoco es que sea el plan del siglo. C.",
    "kind": "tier",
    "clips": [
@@ -177,6 +222,13 @@
    ],
    "label": "ACTIVIDAD 06",
    "title": "VER LA TELE"
+  },
+  {
+   "t": "Los anuncios de Rockstar siempre han sido de lo más gracioso de la saga. Encender la tele en casa y quedarte un rato mirando va a ser un clásico.",
+   "kind": "clip",
+   "clips": [
+    "d_tele"
+   ]
   },
   {
    "t": "En el piso de Lucía la tele está encendida y van saliendo anuncios de parodia: una pastilla para la desesperación, un documental de naturaleza, hamburguesas imposibles. El humor de Rockstar en estado puro. Por las risas, B.",
@@ -202,6 +254,13 @@
    "title": "LAS DISCOTECAS"
   },
   {
+   "t": "En el gameplay se ven varias: una con control de identificación en la puerta, otra llena de neones y gente bailando, y la fiesta de MegaMundo en lo alto de una torre.",
+   "kind": "clip",
+   "clips": [
+    "a_disco"
+   ]
+  },
+  {
    "t": "Luces, gente bailando, control en la puerta… y en una de ellas Lucía con un vaso en la mano. Las fiestas de Vice City pintan increíbles, y además salen en las misiones. B.",
    "kind": "tier",
    "clips": [
@@ -222,6 +281,13 @@
    ],
    "label": "ACTIVIDAD 08",
    "title": "LOS PANTANOS"
+  },
+  {
+   "t": "El hidrodeslizador va por canales estrechos llenos de vegetación, con ese ventilador enorme detrás. Es el vehículo más de Florida que existe.",
+   "kind": "clip",
+   "clips": [
+    "a_hidro"
+   ]
   },
   {
    "t": "Esto es Florida al cien por cien. El agua verde, la vegetación, los caimanes… Explorar los pantanos promete muchísimo, y es algo que no habíamos visto en un GTA. B.",
@@ -246,6 +312,13 @@
    "title": "MOTOCROSS"
   },
   {
+   "t": "Y ojo al detalle: en pantalla se ve tu posición y el número de vuelta, como en una competición de verdad.",
+   "kind": "clip",
+   "clips": [
+    "a_motocross"
+   ]
+  },
+  {
    "t": "Una carrera de motos de tierra por la montaña, con posición y número de vuelta en pantalla. Divertido, pero las motos siempre han sido lo más difícil de controlar en GTA. B.",
    "kind": "tier",
    "clips": [
@@ -268,6 +341,13 @@
    "title": "FURGONES BLINDADOS"
   },
   {
+   "t": "En GTA 5, asaltar furgones de seguridad ya era uno de los eventos aleatorios más divertidos. Si vuelve así, puede ser de lo mejor.",
+   "kind": "clip",
+   "clips": [
+    "m_furgon"
+   ]
+  },
+  {
    "t": "Aparece en el gameplay, en plena calle, junto a un furgón de transporte de dinero. Pero se ve apenas un par de segundos, así que de momento, por lo poco que sabemos… B.",
    "kind": "tier",
    "clips": [
@@ -281,6 +361,11 @@
    }
   },
   {
+   "t": "Vamos a ver cómo va la tabla a mitad de camino. Abajo, lo más tranquilo… y la parte de arriba todavía está vacía. Lo mejor está por llegar.",
+   "kind": "board",
+   "label": "A MITAD DE CAMINO"
+  },
+  {
    "t": "Y ahora entramos en la zona alta. Undécima: conducir por Vice City.",
    "kind": "clip",
    "clips": [
@@ -288,6 +373,13 @@
    ],
    "label": "ACTIVIDAD 11",
    "title": "CONDUCIR POR VICE CITY"
+  },
+  {
+   "t": "Abajo a la izquierda, el minimapa con la ruta en rosa. Y los coches se ven más pesados y realistas que en GTA 5, sobre todo en las curvas.",
+   "kind": "clip",
+   "clips": [
+    "d_coche"
+   ]
   },
   {
    "t": "Un descapotable rojo, la radio, el tráfico, los rascacielos. Parece una tontería, pero en GTA pasas la mitad del tiempo conduciendo, y esto se ve mejor que nunca. A.",
@@ -314,6 +406,13 @@
    "title": "ATRACAR TIENDAS"
   },
   {
+   "t": "Y en el gameplay se ve que la gente reacciona: levantan las manos, se tiran al suelo, intentan escapar. No es solo apretar un botón.",
+   "kind": "clip",
+   "clips": [
+    "m_tienda3"
+   ]
+  },
+  {
    "t": "Pañuelo en la cara, encañonar al dependiente y salir corriendo. Es el atraco más clásico de la saga, rápido y con tensión. Para ganar dinero rápido, A.",
    "kind": "tier",
    "clips": [
@@ -334,6 +433,13 @@
    ],
    "label": "ACTIVIDAD 13",
    "title": "CARRERAS EN CIRCUITO"
+  },
+  {
+   "t": "Y fíjate en los coches: llevan sus pegatinas y sus patrocinadores, como si fuera un campeonato de verdad.",
+   "kind": "clip",
+   "clips": [
+    "a_circuito"
+   ]
   },
   {
    "t": "Un circuito de verdad, con cronómetro y número de vuelta. Es como tener un juego de carreras dentro de GTA. A.",
@@ -358,6 +464,13 @@
    "title": "CARRERAS CALLEJERAS"
   },
   {
+   "t": "Neones debajo de los coches, la ciudad iluminada al fondo… Si te gustaba Midnight Club, el otro juego de carreras de Rockstar, esto es para ti.",
+   "kind": "clip",
+   "clips": [
+    "d_callejera"
+   ]
+  },
+  {
    "t": "Coches tuneados con neones, de noche, por la ciudad, con un contador de progreso en pantalla. Esto huele a película de coches por todos lados. A.",
    "kind": "tier",
    "clips": [
@@ -378,6 +491,13 @@
    ],
    "label": "ACTIVIDAD 15",
    "title": "RETOS VIRALES"
+  },
+  {
+   "t": "En el gameplay, hasta la gente de la calle saca el móvil para grabarte. Vice City es una ciudad obsesionada con hacerse viral.",
+   "kind": "clip",
+   "clips": [
+    "d_trunk"
+   ]
   },
   {
    "play": "q_trunk",
@@ -417,6 +537,13 @@
    "title": "PARACAÍDAS"
   },
   {
+   "t": "Antes del salto ves Vice City entera desde arriba: los canales, las islas, los rascacielos. El mapa se ve enorme.",
+   "kind": "clip",
+   "clips": [
+    "a_paracaidas"
+   ]
+  },
+  {
    "t": "Lucía corre por la azotea, salta al vacío y abre el paracaídas con toda Vice City debajo. Es, literalmente, el plano más bonito de todo el gameplay. S.",
    "kind": "tier",
    "clips": [
@@ -440,6 +567,13 @@
    "title": "JOYERÍAS"
   },
   {
+   "t": "Y lo mejor es que todo va seguido, sin pantallas de carga: entras, robas, sales, te subes a la moto y te pierdes en el tráfico.",
+   "kind": "clip",
+   "clips": [
+    "m_joya1"
+   ]
+  },
+  {
    "t": "Entrar en la joyería, salir con la bolsa y huir en moto entre el tráfico, todo en un solo plano. Rápido, tenso, y con muchísimo estilo. S.",
    "kind": "tier",
    "clips": [
@@ -461,6 +595,13 @@
    ],
    "label": "ACTIVIDAD 18",
    "title": "PERSECUCIONES"
+  },
+  {
+   "t": "Fíjate arriba a la derecha: el nivel de búsqueda y la munición. La policía no te deja ni respirar.",
+   "kind": "clip",
+   "clips": [
+    "d_persecucion"
+   ]
   },
   {
    "t": "Coches patrulla que te embisten, disparos desde la ventanilla, y un coche de policía volcando en mitad de la calle. Es el corazón de GTA, y se ve más brutal que nunca. S.",
@@ -487,6 +628,23 @@
    "title": "LAS MISIONES"
   },
   {
+   "t": "Y lo mejor es cómo se cuentan: conversaciones naturales en el coche, cambios entre Jason y Lucía, y giros que no ves venir.",
+   "kind": "clip",
+   "clips": [
+    "d_raul"
+   ]
+  },
+  {
+   "play": "q_ladrillos",
+   "sub": "«Tengo los ladrillos de Boobie.» «¡Que le den a Boobie!»",
+   "label": "AUDIO ORIGINAL"
+  },
+  {
+   "play": "q_prueba",
+   "sub": "«¿Hemos pasado la prueba?» «Lo hicisteis bien. Seguís vivos. Esto podría ser el principio de algo bueno.»",
+   "label": "AUDIO ORIGINAL"
+  },
+  {
    "t": "Una redada de policías corruptos, una prueba para entrar en la banda de Raúl, una fiesta de millonarios que acaba a tiros. Cada misión parece una película. Y para mí, esto es lo mejor de todo GTA 6. S, sin discusión.",
    "kind": "tier",
    "clips": [
@@ -500,7 +658,22 @@
    }
   },
   {
-   "t": "Y así queda la tabla completa.",
+   "t": "Y ojo, porque hay cosas que Rockstar todavía no ha enseñado en este gameplay: pilotar aviones, comprar negocios, personalizar coches en un taller, o el modo online. Cuando las veamos, actualizo la tabla.",
+   "kind": "list",
+   "clips": [
+    "d_jet"
+   ],
+   "label": "LO QUE FALTA",
+   "title": "TODAVÍA NO LO HEMOS VISTO",
+   "items": [
+    "Pilotar aviones",
+    "Comprar negocios",
+    "Talleres de coches",
+    "GTA Online"
+   ]
+  },
+  {
+   "t": "Y así queda la tabla completa. Cuatro en la S, cinco en la A, cinco en la B, tres en la C y dos en la D. Lo más tranquilo abajo… y la acción, arriba del todo.",
    "kind": "board",
    "clips": [
     "a_paracaidas"
@@ -510,19 +683,17 @@
    "sub": "19 actividades · gameplay real"
   },
   {
-   "t": "Cuatro en la S, cinco en la A, cinco en la B, tres en la C y dos en la D. Lo más tranquilo abajo… y la acción arriba del todo.",
+   "t": "Y si tuviera que quedarme solo con tres: las misiones, las persecuciones y el salto en paracaídas. Tres cosas que, en este gameplay, ya parecen de otra generación.",
    "kind": "list",
    "clips": [
-    "m_poli_flip"
+    "a_paracaidas"
    ],
-   "label": "RESUMEN",
-   "title": "ASÍ HA QUEDADO",
+   "label": "MI TOP 3",
+   "title": "LO MEJOR DE LO MEJOR",
    "items": [
-    "S: paracaídas, joyerías, persecuciones, misiones",
-    "A: conducir, tiendas, circuito, callejeras, retos",
-    "B: tele, discotecas, pantanos, motocross, furgones",
-    "C: gimnasio, kayak, playa",
-    "D: patinete, selfies"
+    "Las misiones",
+    "Las persecuciones",
+    "El paracaídas"
    ]
   },
   {

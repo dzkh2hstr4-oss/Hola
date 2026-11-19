@@ -561,7 +561,7 @@ const SceneView: React.FC<{ sc: DScene; idx: number; all: DScene[] }> = ({ sc, i
       </>
     );
   } else if (sc.kind === "board") {
-    const placed = all.filter((s) => s.kind === "tier").map((s) => ({ ...s.tier!, at: 0 }));
+    const placed = all.filter((s) => s.kind === "tier" && s.s <= sc.s).map((s) => ({ ...s.tier!, at: 0 }));
     const sp = spring({ frame: f, fps: DFPS, config: { damping: 15, stiffness: 140 } });
     body = (
       <>

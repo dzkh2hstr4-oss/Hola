@@ -284,5 +284,6 @@
   "a_playa": 2.6,
   "a_paracaidas": 9.7
  },
- "gameVolume": 0.28
+ "gameVolume": 0.12,
+ "sfxGain": 0.5
 }
