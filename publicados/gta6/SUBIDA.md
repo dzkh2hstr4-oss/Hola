@@ -73,7 +73,7 @@ He puntuado las 19 cosas que se pueden hacer en GTA 6 según el gameplay REAL, d
 3:24 Los pantanos
 3:49 Motocross
 4:09 Furgones blindados
-4:42 Conducir por vice city
+4:42 Conducir por Vice City
 5:09 Atracar tiendas
 5:31 Carreras en circuito
 5:48 Carreras callejeras
