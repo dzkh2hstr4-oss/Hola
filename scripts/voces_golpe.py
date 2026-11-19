@@ -11,11 +11,11 @@ os.makedirs(OUT, exist_ok=True)
 # quién -> (modelo, speaker, tono, velocidad)
 VOICE = {
     "narr":  ("es_ES-davefx-medium", None, 0.94, 1.0),
-    "cr7":   ("es_MX-ald-medium", None, 1.04, 0.9),
-    "messi": ("es_MX-claude-high", None, 1.0, 1.0),
-    "ney":   ("es_ES-sharvard-medium", 0, 1.10, 0.85),
-    "benz":  ("es_ES-carlfm-x_low", None, 0.88, 1.05),
-    "ramos": ("es_ES-sharvard-medium", 1, 0.9, 0.95),
+    "cr7":   ("pt_PT-tugão-medium", None, 1.0, 0.95),  # acento portugués
+    "messi": ("es_AR-daniela-high", None, 0.78, 1.05),  # acento argentino
+    "ney":   ("pt_BR-faber-medium", None, 1.06, 0.9),  # acento brasileño
+    "benz":  ("fr_FR-tom-medium", None, 0.92, 1.05),  # acento francés
+    "ramos": ("es_ES-carlfm-x_low", None, 0.92, 0.95),
     "villa": ("es_ES-davefx-medium", None, 0.78, 1.1),
 }
 src = open(SRC).read()
