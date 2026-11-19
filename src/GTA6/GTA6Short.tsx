@@ -50,9 +50,10 @@ export type Scene = {
   hook?: boolean;
   emojis?: string[];
   full?: boolean;
+  vol?: number;
 };
 
-export type Caption = { t: string; s: number; e: number };
+export type Caption = { t: string; s: number; e: number; full?: boolean };
 
 export type GTA6Props = {
   scenes: Scene[];
@@ -64,6 +65,8 @@ export type GTA6Props = {
   clipLen?: Record<string, number>;
   gameVolume?: number;
   sfxGain?: number;
+  capSize?: number;
+  capTop?: number;
 };
 
 const sec = (s: number) => Math.round(s * FPS);
@@ -523,7 +526,7 @@ const SceneView: React.FC<{ sc: Scene; idx: number; clipLen?: Record<string, num
         sc.imgs.map((im, i) =>
           i === cur ? (
             <Sequence key={i} from={Math.round(i * per)} durationInFrames={Math.max(1, Math.round(per))}>
-              <FullMedia m={im} clipLen={clipLen} vol={gameVolume} seed={idx + i} />
+              <FullMedia m={im} clipLen={clipLen} vol={sc.vol ?? gameVolume} seed={idx + i} />
             </Sequence>
           ) : null,
         )
@@ -560,12 +563,20 @@ const SceneView: React.FC<{ sc: Scene; idx: number; clipLen?: Record<string, num
 };
 
 // ---------- kinetic captions (word by word) ----------
-const Captions: React.FC<{ caps: Caption[] }> = ({ caps }) => {
+const Captions: React.FC<{ caps: Caption[]; size?: number; top?: number }> = ({ caps, size = 132, top = 1400 }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = f / FPS;
   const c = caps.find((x) => t >= x.s && t < x.e);
   if (!c) return null;
+  if (c.full) {
+    const fp = interpolate(f - Math.round(c.s * FPS), [0, 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+    return (
+      <div style={{ position: "absolute", left: 60, right: 60, top: top - 40, display: "flex", justifyContent: "center", opacity: fp, transform: `translateY(${(1 - fp) * 20}px)` }}>
+        <div style={{ fontFamily: "Montserrat", fontWeight: 900, fontSize: 52, lineHeight: 1.3, color: "#FFE14A", textAlign: "center", padding: "14px 24px", background: "rgba(10,0,20,0.6)", borderRadius: 18 }}>{c.t}</div>
+      </div>
+    );
+  }
   const words = c.t.split(" ").filter(Boolean);
   const weights = words.map((w) => w.length + 2);
   const tot = weights.reduce((a, b) => a + b, 0);
@@ -590,11 +601,11 @@ const Captions: React.FC<{ caps: Caption[] }> = ({ caps }) => {
   const colors = ["#FFFFFF", "#FFE14A", "#FFFFFF", "#7CFFEA"];
   const col = colors[wi % colors.length];
   return (
-    <div style={{ position: "absolute", left: 30, right: 30, top: 1400, height: 250, display: "flex", alignItems: "center", justifyContent: "center" }}>
+    <div style={{ position: "absolute", left: 30, right: 30, top, height: 250, display: "flex", alignItems: "center", justifyContent: "center" }}>
       <div
         style={{
           fontFamily: "Anton",
-          fontSize: 132,
+          fontSize: size,
           textTransform: "uppercase",
           color: col,
           transform: `scale(${interpolate(sp, [0, 1], [0.4, 1])}) rotate(${wi % 2 ? -3 : 3}deg)`,
@@ -611,7 +622,7 @@ const Captions: React.FC<{ caps: Caption[] }> = ({ caps }) => {
 };
 
 // ---------- main ----------
-export const GTA6Short: React.FC<GTA6Props> = ({ scenes, captions, voice, music, musicVolume, total, clipLen, gameVolume, sfxGain = 1 }) => {
+export const GTA6Short: React.FC<GTA6Props> = ({ scenes, captions, voice, music, musicVolume, total, clipLen, gameVolume, sfxGain = 1, capSize, capTop }) => {
   const f = useCurrentFrame();
   const end = sec(total);
   return (
@@ -621,7 +632,7 @@ export const GTA6Short: React.FC<GTA6Props> = ({ scenes, captions, voice, music,
           <SceneView sc={sc} idx={i} clipLen={clipLen} gameVolume={gameVolume} />
         </Sequence>
       ))}
-      <Captions caps={captions} />
+      <Captions caps={captions} size={capSize} top={capTop} />
       {/* progress bar */}
       <div style={{ position: "absolute", top: 0, left: 0, height: 12, width: `${(f / end) * 100}%`, background: `linear-gradient(90deg, ${ORANGE}, ${PINK})` }} />
       {/* audio */}

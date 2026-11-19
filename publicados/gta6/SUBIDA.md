@@ -107,6 +107,7 @@ He puntuado las 19 cosas que se pueden hacer en GTA 6 según el gameplay REAL, d
 | `gta6-short2.mp4` | La prota de GTA 6 SALE DE LA CÁRCEL 🚨 #shorts | Lucía salió de la cárcel 🚨 ¿Tú con quién vas, Jason o Lucía? 👇 #GTA6 #Shorts |
 | `gta6-short3.mp4` | Cómo GANAR DINERO en GTA 6 💰 (gameplay real) #shorts | 5 formas de forrarte en GTA 6 según el gameplay oficial 💰 ¿Tiendas o golpes grandes? 👇 #GTA6 |
 | `gta6-short5.mp4` | ¿No sabes cómo ir al TACÓN en GTA 6? 👀 #shorts | Así se llega al Tacón en GTA 6 y así es por dentro 👀 Gameplay real. ¿Vas a ir? 👇 #GTA6 |
+| `gta6-short6.mp4` | ¿Este personaje SPOILEÓ el final de GTA 6? 😳 #shorts | La historia del carrusel de Brian esconde un aviso… ¿Jason se bajará a tiempo? 👇 #GTA6 |
 | `gta6-short4.mp4` | En GTA 6 NO TODO es robar 😱 Mira lo que puedes hacer #shorts | Carreras, motocross, paracaídas, pantanos y más en GTA 6 🌴 ¿Qué harás primero? 👇 #GTA6 |
 
 ## 🗓️ Orden recomendado

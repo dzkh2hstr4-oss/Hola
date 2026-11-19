@@ -49,3 +49,13 @@ Carreras, motocross, paracaídas, pantanos y más en GTA 6 🌴 ¿Qué harás pr
 
 **Descripción:**
 Así se llega al Tacón en GTA 6 y así es por dentro 👀 Gameplay real. ¿Vas a ir? 👇 #GTA6
+
+---
+
+## Short 6 — gta6-short6.mp4 (spoiler del carrusel)
+
+**Título:**
+¿Este personaje SPOILEÓ el final de GTA 6? 😳 #shorts
+
+**Descripción:**
+La historia del carrusel de Brian esconde un aviso… ¿Jason se bajará a tiempo? 👇 #GTA6
