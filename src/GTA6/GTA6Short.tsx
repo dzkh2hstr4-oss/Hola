@@ -2,6 +2,7 @@ import React from "react";
 import {
   AbsoluteFill,
   Audio,
+  Easing,
   Img,
   interpolate,
   Sequence,
@@ -45,6 +46,7 @@ export type Scene = {
   overlays?: Overlay[];
   sfx?: { f: string; at?: number; v?: number }[];
   hook?: boolean;
+  emojis?: string[];
 };
 
 export type Caption = { t: string; s: number; e: number };
@@ -75,12 +77,29 @@ const Bg: React.FC<{ img: string }> = ({ img }) => {
           transform: `scale(${1.25 + f * 0.0008})`,
         }}
       />
+      <Particles />
       <AbsoluteFill
         style={{
           background:
             "linear-gradient(180deg, rgba(20,4,40,0.75) 0%, rgba(20,4,40,0.15) 35%, rgba(20,4,40,0.2) 65%, rgba(20,4,40,0.85) 100%)",
         }}
       />
+    </AbsoluteFill>
+  );
+};
+
+const Particles: React.FC = () => {
+  const f = useCurrentFrame();
+  return (
+    <AbsoluteFill>
+      {Array.from({ length: 28 }).map((_, i) => {
+        const x = (i * 397) % 1080;
+        const sp = 2 + (i % 5);
+        const y = 1920 - ((f * sp + i * 173) % 2100);
+        const r = 4 + (i % 4) * 3;
+        const c = i % 3 === 0 ? PINK : i % 3 === 1 ? CYAN : ORANGE;
+        return <div key={i} style={{ position: "absolute", left: x + Math.sin((f + i * 20) / 18) * 30, top: y, width: r, height: r, borderRadius: r, background: c, boxShadow: `0 0 ${r * 3}px ${c}`, opacity: 0.7 }} />;
+      })}
     </AbsoluteFill>
   );
 };
@@ -99,12 +118,17 @@ const Card: React.FC<{ img: string; idx: number; w?: number; h?: number; x?: num
 }) => {
   const f = useCurrentFrame() - delay;
   const { fps } = useVideoConfig();
-  const sp = spring({ frame: f, fps, config: { damping: 13, stiffness: 160, mass: 0.7 } });
+  const sp = spring({ frame: f, fps, config: { damping: 12, stiffness: 260, mass: 0.6 } });
   const dir = idx % 2 === 0 ? -1 : 1;
-  const scale = interpolate(sp, [0, 1], [0.55, 1]);
-  const rot = interpolate(sp, [0, 1], [dir * 9, dir * 1.2]);
-  const tx = interpolate(sp, [0, 1], [dir * 500, 0]);
-  const zoom = 1.04 + Math.max(0, f) * 0.0022;
+  const v = idx % 4;
+  const pulse = 1 + 0.025 * Math.max(0, 1 - (Math.max(0, f) % 15) / 5);
+  const float = Math.sin(f / 14) * 10;
+  const scale = (v === 1 ? interpolate(sp, [0, 1], [1.5, 1]) : interpolate(sp, [0, 1], [0.5, 1])) * pulse;
+  const rot = interpolate(sp, [0, 1], [v === 3 ? dir * 25 : dir * 9, dir * 1.2]) + Math.sin(f / 22) * 1.3;
+  const tx = v === 0 ? interpolate(sp, [0, 1], [dir * 600, 0]) : 0;
+  const ty = (v === 2 ? interpolate(sp, [0, 1], [-900, 0]) : 0) + float;
+  const zoom = 1.08 + Math.max(0, f) * 0.004 + (idx % 2 ? 0 : 0.05);
+  const pan = Math.sin(f / 40 + idx) * 25;
   if (f < 0) return null;
   return (
     <div
@@ -114,7 +138,8 @@ const Card: React.FC<{ img: string; idx: number; w?: number; h?: number; x?: num
         top: y,
         width: w,
         height: h,
-        transform: `translateX(${tx}px) scale(${scale}) rotate(${rot}deg)`,
+        transform: `translate(${tx}px, ${ty}px) scale(${scale}) rotate(${rot}deg)`,
+        filter: `blur(${interpolate(sp, [0, 0.6], [14, 0], { extrapolateRight: "clamp" })}px)`,
         borderRadius: 34,
         overflow: "hidden",
         border: "7px solid white",
@@ -124,7 +149,7 @@ const Card: React.FC<{ img: string; idx: number; w?: number; h?: number; x?: num
     >
       <Img
         src={staticFile(`gta6/img/${img}.jpg`)}
-        style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${zoom})` }}
+        style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${zoom}) translateX(${pan}px)` }}
       />
       {label ? (
         <div
@@ -155,6 +180,8 @@ const Title: React.FC<{ lines: Word[][]; at: number[]; hook?: boolean }> = ({ li
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const size = hook ? 150 : 118;
+  const tp = 1 + 0.04 * Math.max(0, 1 - (f % 15) / 5);
+  const g = hook && f < 20 ? (f % 4 < 2 ? 8 : -8) : 0;
   let k = 0;
   return (
     <div
@@ -169,6 +196,8 @@ const Title: React.FC<{ lines: Word[][]; at: number[]; hook?: boolean }> = ({ li
         justifyContent: "flex-end",
         alignItems: "center",
         gap: 4,
+        transform: `scale(${tp})`,
+        textShadow: g ? `${g}px 0 0 rgba(255,0,80,0.9), ${-g}px 0 0 rgba(0,240,255,0.9)` : undefined,
       }}
     >
       {lines.map((line, li) => {
@@ -285,7 +314,7 @@ const OverlayView: React.FC<{ o: Overlay }> = ({ o }) => {
       );
     case "chips":
       return (
-        <div style={{ position: "absolute", top: 1360, left: 0, right: 0, display: "flex", justifyContent: "center", gap: 28 }}>
+        <div style={{ position: "absolute", top: 1235, left: 0, right: 0, display: "flex", justifyContent: "center", gap: 28 }}>
           {o.items.map((it, i) => (
             <Pop key={i} at={at + i * 0.45}>
               {(sp) => (
@@ -311,7 +340,7 @@ const OverlayView: React.FC<{ o: Overlay }> = ({ o }) => {
       );
     case "choice":
       return (
-        <div style={{ position: "absolute", top: 1370, left: 60, right: 60, display: "flex", gap: 30 }}>
+        <div style={{ position: "absolute", top: 1215, left: 60, right: 60, display: "flex", gap: 30 }}>
           {[o.a, o.b].map((t, i) => (
             <Pop key={i} at={at + i * 0.35}>
               {(sp, f) => (
@@ -345,7 +374,7 @@ const OverlayView: React.FC<{ o: Overlay }> = ({ o }) => {
                 position: "absolute",
                 left: 90,
                 right: 90,
-                top: 1370,
+                top: 1200,
                 background: "white",
                 borderRadius: 40,
                 padding: "26px 34px",
@@ -387,7 +416,7 @@ const OverlayView: React.FC<{ o: Overlay }> = ({ o }) => {
       return (
         <Pop at={at}>
           {(sp) => (
-            <div style={{ position: "absolute", left: 0, right: 0, top: o.y ?? 1330, display: "flex", justifyContent: "center" }}>
+            <div style={{ position: "absolute", left: 0, right: 0, top: o.y ?? 1250, display: "flex", justifyContent: "center" }}>
               <div
                 style={{
                   fontFamily: "Montserrat",
@@ -411,17 +440,44 @@ const OverlayView: React.FC<{ o: Overlay }> = ({ o }) => {
 };
 
 // ---------- scene ----------
+const Stickers: React.FC<{ emojis: string[]; dur: number; seed: number }> = ({ emojis, dur, seed }) => {
+  const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const spots = [
+    [40, 640], [880, 620], [60, 1250], [870, 1240], [470, 600],
+  ];
+  return (
+    <>
+      {emojis.map((e, i) => {
+        const at = Math.round(6 + (i * dur) / Math.max(2, emojis.length + 0.6));
+        const sp = spring({ frame: f - at, fps, config: { damping: 8, stiffness: 240, mass: 0.5 } });
+        if (f < at) return null;
+        const [x, y] = spots[(seed + i * 2) % spots.length];
+        const wob = Math.sin((f - at) / 5) * 10;
+        return (
+          <div key={i} style={{ position: "absolute", left: x, top: y, fontSize: 130, transform: `scale(${sp}) rotate(${wob + (i % 2 ? 14 : -14)}deg)`, filter: "drop-shadow(0 10px 14px rgba(0,0,0,0.6))" }}>
+            {e}
+          </div>
+        );
+      })}
+    </>
+  );
+};
+
 const SceneView: React.FC<{ sc: Scene; idx: number }> = ({ sc, idx }) => {
   const f = useCurrentFrame();
   const dur = sec(sc.e - sc.s);
-  const shake = sc.shake ? Math.max(0, 1 - f / 12) * 18 : 0;
+  const shake = (sc.shake ? 18 : 7) * Math.max(0, 1 - f / 10);
   const sx = shake * Math.sin(f * 2.3);
   const sy = shake * Math.cos(f * 3.1);
   const n = sc.imgs.length;
-  const per = dur / n;
+  const per = dur / Math.max(1, n);
   const cur = Math.min(n - 1, Math.floor(f / per));
+  const whip = idx === 0 ? 0 : interpolate(f, [0, 6], [idx % 2 ? 260 : -260, 0], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const blur = idx === 0 ? 0 : interpolate(f, [0, 6], [18, 0], { extrapolateRight: "clamp" });
+  const zoomIn = interpolate(f, [0, 8], [1.12, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
   return (
-    <AbsoluteFill style={{ transform: `translate(${sx}px, ${sy}px)` }}>
+    <AbsoluteFill style={{ transform: `translate(${sx + whip}px, ${sy}px) scale(${zoomIn})`, filter: blur ? `blur(${blur}px)` : undefined }}>
       <Bg img={sc.split ? sc.split[0] : sc.imgs[cur]} />
       {sc.split ? (
         <>
@@ -432,52 +488,75 @@ const SceneView: React.FC<{ sc: Scene; idx: number }> = ({ sc, idx }) => {
         sc.imgs.map((im, i) =>
           i === cur ? (
             <Sequence key={i} from={Math.round(i * per)} layout="none">
-              <Card img={im} idx={idx + i} delay={sc.hook && idx === 0 && i === 0 ? -12 : 0} />
+              <Card img={im} idx={idx === 0 && i === 0 ? 1 : idx + i} delay={sc.hook && idx === 0 && i === 0 ? -12 : 0} />
             </Sequence>
           ) : null,
         )
       )}
+      <Stickers emojis={sc.emojis ?? []} dur={dur} seed={idx} />
       <Title lines={sc.title} at={sc.titleAt ?? sc.title.map((_, i) => i * 0.4)} hook={sc.hook} />
       {(sc.overlays ?? []).map((o, i) => (
         <OverlayView key={i} o={o} />
       ))}
-      {sc.flash ? (
-        <AbsoluteFill style={{ background: "white", opacity: interpolate(f, [0, 6], [0.9, 0], { extrapolateRight: "clamp" }) }} />
-      ) : null}
+      {/* cut flashes: every scene start and every image change */}
+      <AbsoluteFill
+        style={{
+          background: sc.flash ? "white" : PINK,
+          mixBlendMode: sc.flash ? "normal" : "screen",
+          opacity: idx === 0 && f < per ? 0 : interpolate(f - (n > 1 && !sc.split ? Math.floor(f / per) * per : 0), [0, sc.flash ? 6 : 4], [sc.flash ? 0.9 : 0.45, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
+        }}
+      />
     </AbsoluteFill>
   );
 };
 
-// ---------- captions ----------
+// ---------- kinetic captions (word by word) ----------
 const Captions: React.FC<{ caps: Caption[] }> = ({ caps }) => {
   const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
   const t = f / FPS;
   const c = caps.find((x) => t >= x.s && t < x.e);
   if (!c) return null;
-  const words = c.t.split(" ");
-  const prog = (t - c.s) / Math.max(0.1, c.e - c.s);
-  const lit = Math.ceil(prog * words.length * 1.05);
+  const words = c.t.split(" ").filter(Boolean);
+  const weights = words.map((w) => w.length + 2);
+  const tot = weights.reduce((a, b) => a + b, 0);
+  const span = Math.max(0.1, c.e - 0.15 - c.s);
+  let acc = 0;
+  let wi = words.length - 1;
+  let wStart = c.s;
+  for (let i = 0; i < words.length; i++) {
+    const ws = c.s + (acc / tot) * span;
+    acc += weights[i];
+    const we = c.s + (acc / tot) * span;
+    if (t < we) {
+      wi = i;
+      wStart = ws;
+      break;
+    }
+  }
+  // show the current word plus the next short one, if it is tiny
+  const shown = [words[wi]];
+  const local = f - Math.round(wStart * FPS);
+  const sp = spring({ frame: local, fps, config: { damping: 9, stiffness: 300, mass: 0.5 } });
+  const colors = ["#FFFFFF", "#FFE14A", "#FFFFFF", "#7CFFEA"];
+  const col = colors[wi % colors.length];
   return (
-    <div style={{ position: "absolute", left: 70, right: 70, top: 1560, textAlign: "center" }}>
-      <span
+    <div style={{ position: "absolute", left: 30, right: 30, top: 1400, height: 250, display: "flex", alignItems: "center", justifyContent: "center" }}>
+      <div
         style={{
-          fontFamily: "Montserrat",
-          fontWeight: 900,
-          fontSize: 50,
-          lineHeight: 1.3,
-          padding: "8px 18px",
-          background: "rgba(10,0,20,0.55)",
-          borderRadius: 16,
-          boxDecorationBreak: "clone",
-          WebkitBoxDecorationBreak: "clone",
+          fontFamily: "Anton",
+          fontSize: 132,
+          textTransform: "uppercase",
+          color: col,
+          transform: `scale(${interpolate(sp, [0, 1], [0.4, 1])}) rotate(${wi % 2 ? -3 : 3}deg)`,
+          WebkitTextStroke: "10px #12031f",
+          paintOrder: "stroke fill",
+          filter: "drop-shadow(0 8px 0 #12031f) drop-shadow(0 0 24px rgba(255,62,165,0.6))",
+          whiteSpace: "nowrap",
         }}
       >
-        {words.map((w, i) => (
-          <span key={i} style={{ color: i < lit ? ORANGE : "white" }}>
-            {w}{" "}
-          </span>
-        ))}
-      </span>
+        {shown.join(" ")}
+      </div>
     </div>
   );
 };
@@ -498,17 +577,25 @@ export const GTA6Short: React.FC<GTA6Props> = ({ scenes, captions, voice, music,
       <div style={{ position: "absolute", top: 0, left: 0, height: 12, width: `${(f / end) * 100}%`, background: `linear-gradient(90deg, ${ORANGE}, ${PINK})` }} />
       {/* audio */}
       <Audio src={staticFile(voice)} />
-      <Audio
+      {musicVolume > 0 ? <Audio
         src={staticFile(music)}
         volume={(fr) => interpolate(fr, [0, 10, end - 30, end], [0, musicVolume, musicVolume, 0], { extrapolateRight: "clamp" })}
-      />
-      {scenes.flatMap((sc, i) =>
-        (sc.sfx ?? [{ f: "wyr/sfx/whoosh.wav", at: 0, v: 0.5 }]).map((x, j) => (
+      /> : null}
+      {scenes.flatMap((sc, i) => {
+        const base = sc.sfx ?? [{ f: "wyr/sfx/whoosh.wav", at: 0, v: 0.5 }];
+        const extra: { f: string; at?: number; v?: number }[] = [];
+        const n = sc.split ? 0 : sc.imgs.length;
+        for (let k = 1; k < n; k++) {
+          const at = ((sc.e - sc.s) * k) / n;
+          if (!base.some((b) => Math.abs((b.at ?? 0) - at) < 0.25)) extra.push({ f: "wyr/sfx/whoosh.wav", at, v: 0.4 });
+        }
+        (sc.emojis ?? []).forEach((_, k) => extra.push({ f: "wyr/sfx/pop.wav", at: (6 + (k * sec(sc.e - sc.s)) / Math.max(2, (sc.emojis ?? []).length + 0.6)) / FPS, v: 0.45 }));
+        return [...base, ...extra].map((x, j) => (
           <Sequence key={`${i}-${j}`} from={sec(sc.s + (x.at ?? 0))} durationInFrames={sec(2)}>
             <Audio src={staticFile(x.f)} volume={x.v ?? 0.6} />
           </Sequence>
-        )),
-      )}
+        ));
+      })}
     </AbsoluteFill>
   );
 };

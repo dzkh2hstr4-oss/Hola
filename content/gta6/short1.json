@@ -86,7 +86,8 @@
    "e": 2.6,
    "hook": true,
    "imgs": [
-    "extended"
+    "extended",
+    "launch"
    ],
    "title": [
     [
@@ -112,6 +113,10 @@
      "at": 0.0,
      "v": 0.8
     }
+   ],
+   "emojis": [
+    "😱",
+    "⏳"
    ]
   },
   {
@@ -142,13 +147,18 @@
      "at": 0.0,
      "v": 0.9
     }
+   ],
+   "emojis": [
+    "🔥",
+    "💥"
    ]
   },
   {
    "s": 3.49,
    "e": 4.98,
    "imgs": [
-    "keyart"
+    "keyart",
+    "preload"
    ],
    "title": [
     [
@@ -171,7 +181,7 @@
      "kind": "tag",
      "text": "🟢 LLEVA HORAS DISPONIBLE",
      "at": 0.67,
-     "y": 1340
+     "y": 1250
     }
    ],
    "sfx": [
@@ -185,13 +195,18 @@
      "at": 0.67,
      "v": 0.6
     }
+   ],
+   "emojis": [
+    "💰",
+    "🛒"
    ]
   },
   {
    "s": 4.98,
    "e": 6.34,
    "imgs": [
-    "jason_duval_11"
+    "jason_duval_11",
+    "jason_duval_13"
    ],
    "title": [
     [
@@ -218,6 +233,10 @@
      "at": 0.43,
      "v": 0.5
     }
+   ],
+   "emojis": [
+    "🎮",
+    "🔥"
    ]
   },
   {
@@ -225,7 +244,8 @@
    "e": 8.75,
    "imgs": [
     "vice_city_15",
-    "aerial"
+    "aerial",
+    "skyline_dusk"
    ],
    "title": [
     [
@@ -251,6 +271,10 @@
      "at": 1.2,
      "v": 0.45
     }
+   ],
+   "emojis": [
+    "🌴",
+    "😎"
    ]
   },
   {
@@ -299,6 +323,10 @@
      "at": 1.74,
      "v": 0.45
     }
+   ],
+   "emojis": [
+    "👀",
+    "🤯"
    ]
   },
   {
@@ -333,13 +361,18 @@
      "at": 0.95,
      "v": 0.4
     }
+   ],
+   "emojis": [
+    "❤️",
+    "🔫"
    ]
   },
   {
    "s": 13.12,
    "e": 15.34,
    "imgs": [
-    "jason_and_lucia_15"
+    "jason_and_lucia_15",
+    "jason_duval_12"
    ],
    "title": [
     [
@@ -376,6 +409,10 @@
      "at": 1.52,
      "v": 0.8
     }
+   ],
+   "emojis": [
+    "💣",
+    "😬"
    ]
   },
   {
@@ -383,7 +420,8 @@
    "e": 18.31,
    "imgs": [
     "jason_and_lucia_19",
-    "lucia_caminos_14"
+    "lucia_caminos_14",
+    "vice_city_17"
    ],
    "title": [
     [
@@ -418,13 +456,18 @@
      "at": 1.48,
      "v": 0.45
     }
+   ],
+   "emojis": [
+    "🚨",
+    "🚔"
    ]
   },
   {
    "s": 18.31,
    "e": 20.63,
    "imgs": [
-    "jason_and_lucia_20"
+    "jason_and_lucia_20",
+    "vice_city_24"
    ],
    "title": [
     [
@@ -465,6 +508,10 @@
    "titleAt": [
     0.0,
     0.28
+   ],
+   "emojis": [
+    "🎮",
+    "✅"
    ]
   },
   {
@@ -472,7 +519,8 @@
    "e": 23.23,
    "shake": true,
    "imgs": [
-    "lucia_caminos_13"
+    "lucia_caminos_13",
+    "lucia_caminos_12"
    ],
    "title": [
     [
@@ -501,13 +549,18 @@
      "at": 1.12,
      "v": 0.8
     }
+   ],
+   "emojis": [
+    "💻",
+    "❌"
    ]
   },
   {
    "s": 23.23,
    "e": 25.49,
    "imgs": [
-    "jason_and_lucia_17"
+    "jason_and_lucia_17",
+    "jason_duval_05"
    ],
    "title": [
     [
@@ -547,13 +600,18 @@
      "at": 1.08,
      "v": 0.6
     }
+   ],
+   "emojis": [
+    "🤔",
+    "🔥"
    ]
   },
   {
    "s": 25.49,
    "e": 27.73,
    "imgs": [
-    "beachcar"
+    "beachcar",
+    "vice_city_25"
    ],
    "title": [
     [
@@ -575,6 +633,10 @@
      "at": 0.26,
      "v": 0.6
     }
+   ],
+   "emojis": [
+    "💬",
+    "👇"
    ]
   }
  ]
