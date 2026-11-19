@@ -47,7 +47,7 @@ Rockstar ha publicado casi 27 minutos de gameplay REAL de GTA 6 y me lo he visto
 
 ---
 
-## 🎬 VÍDEO LARGO 2 — Tier list (9:27)
+## 🎬 VÍDEO LARGO 2 — Tier list (9:14)
 - **Archivo:** `gta6-tierlist.mp4` (o la versión ligera `gta6-tierlist-ligero.mp4`)
 - **Programar:** viernes 20 de noviembre, 19:00 (hora de España)
 - **Miniatura:** `miniatura-tierlist.jpg`
@@ -73,16 +73,16 @@ He puntuado las 19 cosas que se pueden hacer en GTA 6 según el gameplay REAL, d
 3:24 Los pantanos
 3:49 Motocross
 4:09 Furgones blindados
-4:42 Conducir por Vice City
+4:42 Conducir por vice city
 5:09 Atracar tiendas
 5:31 Carreras en circuito
 5:48 Carreras callejeras
 6:11 Retos virales
-6:52 Paracaídas
-7:16 Joyerías
-7:38 Persecuciones
-7:59 Las misiones
-8:53 La tabla final
+6:42 Paracaídas
+7:06 Joyerías
+7:28 Persecuciones
+7:49 Las misiones
+8:41 La tabla final
 
 🔔 Suscríbete y activa la campanita: cada semana más GTA 6 en español.
 
