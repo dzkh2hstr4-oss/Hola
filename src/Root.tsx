@@ -1,4 +1,5 @@
 import { Composition } from "remotion";
+import { calcHistoria, defaultHistoriaProps, H_FPS, HistoriaIA } from "./Historia/HistoriaIA";
 import { G_FPS, G_H, G_W, Golpe, GOLPE_DURATION } from "./Golpe/Golpe";
 import { calcLyricMetadata, defaultLyricProps, LV_FPS, LV_H, LV_W, LyricVideo } from "./Letras/LyricVideo";
 import { Anuncio, ANUNCIO_DURATION } from "./Anuncio/Anuncio";
@@ -12,6 +13,7 @@ import { Video2 } from "./Lumora/Video2";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition id="HistoriaIA" component={HistoriaIA} durationInFrames={300} fps={H_FPS} width={1920} height={1080} defaultProps={defaultHistoriaProps} calculateMetadata={calcHistoria} />
       <Composition id="ElGolpeDelBalonDeOro" component={Golpe} durationInFrames={GOLPE_DURATION} fps={G_FPS} width={G_W} height={G_H} />
       <Composition
         id="VideoLetra"
