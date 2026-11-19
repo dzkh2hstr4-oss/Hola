@@ -39,3 +39,13 @@ En GTA 6 NO TODO es robar 😱 Mira lo que puedes hacer #shorts
 
 **Descripción:**
 Carreras, motocross, paracaídas, pantanos y más en GTA 6 🌴 ¿Qué harás primero? 👇 #GTA6
+
+---
+
+## Short 5 — gta6-short5.mp4 (club de Boobie)
+
+**Título:**
+Así es POR DENTRO el club de Boobie en GTA 6 👀 #shorts
+
+**Descripción:**
+El club Jack of Hearts de Boobie Ike en GTA 6 con gameplay real 👀 ¿Tú entrarías? 👇 #GTA6

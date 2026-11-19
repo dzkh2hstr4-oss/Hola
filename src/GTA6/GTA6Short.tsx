@@ -541,7 +541,7 @@ const SceneView: React.FC<{ sc: Scene; idx: number; clipLen?: Record<string, num
           ) : null,
         )
       )}
-      {sc.full ? <GameBadge /> : null}
+      {sc.full && (sc.imgs[cur] ?? "").startsWith("v:") ? <GameBadge /> : null}
       <Stickers emojis={sc.emojis ?? []} dur={dur} seed={idx} />
       <Title lines={sc.title} at={sc.titleAt ?? sc.title.map((_, i) => i * 0.4)} hook={sc.hook} />
       {(sc.overlays ?? []).map((o, i) => (

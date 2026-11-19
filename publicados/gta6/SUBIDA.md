@@ -105,6 +105,7 @@ He puntuado las 19 actividades que Rockstar ha enseñado en el gameplay real de 
 | `gta6-short1.mp4` | 13 AÑOS ESPERANDO… y GTA 6 YA ESTÁ AQUÍ 😱 #shorts | GTA 6 ya está aquí 🌴 ¿Ya lo estás jugando? ¿Qué te parece? 👇 #GTA6 #Shorts |
 | `gta6-short2.mp4` | La prota de GTA 6 SALE DE LA CÁRCEL 🚨 #shorts | Lucía salió de la cárcel 🚨 ¿Tú con quién vas, Jason o Lucía? 👇 #GTA6 #Shorts |
 | `gta6-short3.mp4` | Cómo GANAR DINERO en GTA 6 💰 (gameplay real) #shorts | 5 formas de forrarte en GTA 6 según el gameplay oficial 💰 ¿Tiendas o golpes grandes? 👇 #GTA6 |
+| `gta6-short5.mp4` | Así es POR DENTRO el club de Boobie en GTA 6 👀 #shorts | El club Jack of Hearts de Boobie Ike en GTA 6 con gameplay real 👀 ¿Tú entrarías? 👇 #GTA6 |
 | `gta6-short4.mp4` | En GTA 6 NO TODO es robar 😱 Mira lo que puedes hacer #shorts | Carreras, motocross, paracaídas, pantanos y más en GTA 6 🌴 ¿Qué harás primero? 👇 #GTA6 |
 
 ## 🗓️ Orden recomendado
