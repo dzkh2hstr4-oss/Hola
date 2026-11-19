@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-19-3",
+  "producto": "aurora",
+  "status": "esperando-clips",
+  "formato": "adivina el precio",
+  "gancho": [
+    "¿Cuánto crees",
+    "que cuesta esto? 👇"
+  ],
+  "ganchoSegundos": 2.8,
+  "boton": "Cómpralo en mi bio",
+  "finalSegundos": 2.5,
+  "clips": [
+    {
+      "archivo": "entrada/2026-11-19-3/1.mp4",
+      "segundos": 2.8
+    },
+    {
+      "archivo": "entrada/2026-11-19-3/2.mp4",
+      "segundos": 1.8,
+      "texto": [
+        "¿100 €? ¿80 €? 🤔"
+      ]
+    },
+    {
+      "archivo": "entrada/2026-11-19-3/3.mp4",
+      "segundos": 2.2,
+      "numero": "39,95 €",
+      "texto": [
+        "Ni de cerca 😳"
+      ]
+    },
+    {
+      "archivo": "entrada/2026-11-19-3/4.mp4",
+      "segundos": 2.5,
+      "texto": [
+        "con mando y",
+        "envío gratis 🚚"
+      ]
+    }
+  ],
+  "caption": "¿Cuánto crees que cuesta esto? 👇 Proyector aurora: aurora y estrellas en tu techo, con mando y recargable por USB. 39,95 € (antes 64,95 €) · Envío gratis. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad\n\n#proyectoraurora #auroraboreal #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora"
+}

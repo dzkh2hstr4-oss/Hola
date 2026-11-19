@@ -56,3 +56,5 @@ con clips realistas de **Google Flow** que graba el dueño, montados en el estil
 - «POV: por fin llegó el proyector de TikTok / ¿cuál pongo esta noche? 1, 2, 3, 4» (vídeo del dueño, 18/11)
 - 2026-11-19-1 · aurora · «¿Esto es un cuarto / o un planetario? 🌌» (pregunta que intriga)
 - 2026-11-19-2 · atardecer · «Mi cuarto antes… / y ahora 🌅» (antes/después)
+- 2026-11-19-3 · aurora · «¿Cuánto crees / que cuesta esto? 👇» (adivina el precio)
+- 2026-11-19-4 · atardecer · «POV: tu madre entra / a tu cuarto a las 12 😳» (POV de una situación)
