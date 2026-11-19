@@ -1,0 +1,776 @@
+{
+ "theme": "doc",
+ "voice": "es-ES-AlvaroNeural",
+ "rate": "+3%",
+ "pitch": "+2Hz",
+ "brand": "ANÁLISIS · GTA VI",
+ "lines": [
+  {
+   "t": "En la primera misión de GTA 6, la policía no viene a detenerte… viene a robarte.",
+   "kind": "intro",
+   "clips": [
+    "d_redada",
+    "d_tiro1"
+   ],
+   "label": "GTA 6 · GAMEPLAY OFICIAL",
+   "title": "LA POLICÍA VIENE A ROBARTE",
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ]
+  },
+  {
+   "t": "Y no es una teoría. Está en el gameplay real que ha publicado Rockstar.",
+   "kind": "cards",
+   "clips": [
+    "d_coche",
+    "d_azotea",
+    "d_fiesta"
+   ],
+   "label": "TODO LO QUE ROCKSTAR HA ENSEÑADO"
+  },
+  {
+   "t": "Casi veintisiete minutos jugando de verdad, grabados en PlayStation 5. Sin música épica y sin cortes de tráiler: misiones, conducción, tiroteos y mundo abierto.",
+   "kind": "stat",
+   "clips": [
+    "d_coche2"
+   ],
+   "label": "GAMEPLAY REAL",
+   "stat": {
+    "value": 26,
+    "suffix": " MIN"
+   },
+   "title": "SIN CORTES DE TRÁILER"
+  },
+  {
+   "t": "Me lo he visto entero, frase a frase y plano a plano. Y en este vídeo te cuento todo lo que pasa… y los detalles que casi nadie ha visto.",
+   "kind": "panel",
+   "clips": [
+    "d_azotea"
+   ],
+   "label": "LO QUE VAS A VER",
+   "title": "ME LO HE VISTO ENTERO",
+   "sub": "Frase a frase. Plano a plano."
+  },
+  {
+   "t": "Hay una historia de un carrusel que esconde un aviso, una prueba para entrar en una banda, y un final que da bastante mal rollo.",
+   "kind": "list",
+   "clips": [
+    "d_carrusel"
+   ],
+   "label": "EN ESTE VÍDEO",
+   "title": "OCHO PARTES",
+   "items": [
+    "El encargo de Boobie",
+    "La vida en casa",
+    "Vice City de día",
+    "La historia del carrusel",
+    "La prueba de Raúl",
+    "Mundo abierto",
+    "La fiesta de MegaMundo",
+    "El final"
+   ]
+  },
+  {
+   "t": "Así que vamos al lío.",
+   "kind": "clip",
+   "clips": [
+    "d_llegada"
+   ]
+  },
+  {
+   "t": "Parte uno. El encargo de Boobie.",
+   "kind": "chapter",
+   "chapterNo": 1,
+   "clips": [
+    "d_llegada"
+   ],
+   "label": "PARTE 01",
+   "title": "EL ENCARGO DE BOOBIE"
+  },
+  {
+   "t": "Todo empieza de noche, en un bloque de pisos bastante chungo. Jason y Lucía llegan a pie, sin prisas.",
+   "kind": "clip",
+   "clips": [
+    "d_llegada"
+   ],
+   "label": "MISIÓN 1",
+   "title": "UN SIMPLE RECADO"
+  },
+  {
+   "t": "Preguntan por Boobie, el empresario de Vice City que ya conocíamos de la web oficial. Les dicen que no está, pero que pregunten dentro por un tal Raymond.",
+   "kind": "clip",
+   "clips": [
+    "d_grupo"
+   ]
+  },
+  {
+   "t": "La excusa es sencilla: vienen a recoger algo para Boobie.",
+   "kind": "quote",
+   "clips": [
+    "d_grupo"
+   ],
+   "quote": {
+    "who": "JASON",
+    "img": "jason_duval_06",
+    "text": "Venimos a recoger algo para Boobie."
+   }
+  },
+  {
+   "t": "Y aquí ya ves algo importante: pasan de la calle al interior del edificio sin ningún corte. Todo es continuo.",
+   "kind": "clip",
+   "clips": [
+    "d_pasillo"
+   ],
+   "label": "DETALLE",
+   "title": "SIN CORTES"
+  },
+  {
+   "t": "Los pasillos están llenos de gente, cada uno a lo suyo: hablando, discutiendo, mirando el móvil.",
+   "kind": "clip",
+   "clips": [
+    "d_ascensor"
+   ]
+  },
+  {
+   "t": "Y fíjate en las conversaciones de fondo: los vecinos discuten entre ellos aunque nadie les esté prestando atención. El edificio está vivo.",
+   "kind": "clip",
+   "clips": [
+    "d_pasillo"
+   ]
+  },
+  {
+   "t": "Incluso hay un perro en uno de los pisos, y Jason se agacha junto a él.",
+   "kind": "clip",
+   "clips": [
+    "d_perro"
+   ],
+   "label": "DETALLE",
+   "title": "HAY PERROS EN LOS PISOS"
+  },
+  {
+   "t": "Al final llegan a una habitación donde están preparando… digamos, mercancía.",
+   "kind": "clip",
+   "clips": [
+    "d_mesa"
+   ]
+  },
+  {
+   "t": "Y entonces suena un teléfono. Es un tal Ernesto, y lo ponen en altavoz.",
+   "kind": "clip",
+   "clips": [
+    "d_llamada"
+   ]
+  },
+  {
+   "play": "q_ernesto",
+   "sub": "«Mis amigos del grupo especial van de camino… Dejad que se lleven lo que quieran.»",
+   "label": "AUDIO ORIGINAL"
+  },
+  {
+   "t": "Lo que está diciendo es que viene una redada… pero no para detener a nadie. Sus amigos del cuerpo vienen a llevarse la mercancía. Policías corruptos. En la primera misión.",
+   "kind": "panel",
+   "clips": [
+    "d_redada"
+   ],
+   "label": "EL GIRO",
+   "title": "POLICÍAS CORRUPTOS",
+   "sub": "La redada es un robo"
+  },
+  {
+   "play": "q_redada",
+   "sub": "«¡Ray, es la poli! ¡Están por todas partes!»",
+   "label": "AUDIO ORIGINAL"
+  },
+  {
+   "t": "Y empieza el tiroteo. Fíjate arriba a la derecha: el contador de munición, pequeño, sin llenar la pantalla.",
+   "kind": "clip",
+   "clips": [
+    "d_tiro1"
+   ],
+   "callouts": [
+    {
+     "at": 1.6,
+     "x": 1830,
+     "y": 44,
+     "r": 60,
+     "text": "MUNICIÓN"
+    }
+   ]
+  },
+  {
+   "t": "Las coberturas funcionan como en un juego de acción moderno: Jason se pega a las paredes, asoma, dispara y avanza.",
+   "kind": "clip",
+   "clips": [
+    "d_tiro2"
+   ]
+  },
+  {
+   "play": "q_ladrillos",
+   "sub": "«Tengo los ladrillos de Boobie.» «¡Que le den a Boobie!»",
+   "label": "AUDIO ORIGINAL"
+  },
+  {
+   "t": "Escapan con la mercancía de Boobie… y justo después pasa algo que no te esperas.",
+   "kind": "clip",
+   "clips": [
+    "d_huida"
+   ]
+  },
+  {
+   "t": "Aparecen los créditos: Rockstar Games presenta. La primera misión es, literalmente, el prólogo de una película.",
+   "kind": "clip",
+   "clips": [
+    "d_titulo"
+   ],
+   "label": "DETALLE",
+   "title": "LOS CRÉDITOS INICIALES"
+  },
+  {
+   "t": "Parte dos. La vida en casa.",
+   "kind": "chapter",
+   "chapterNo": 2,
+   "clips": [
+    "d_casa"
+   ],
+   "label": "PARTE 02",
+   "title": "LA VIDA EN CASA"
+  },
+  {
+   "t": "Siguiente escena: el piso de Lucía. Jason le ha comprado ropa, y ella le suelta que puede comprarse la suya.",
+   "kind": "clip",
+   "clips": [
+    "d_ropa"
+   ]
+  },
+  {
+   "t": "Lucía tumbada en la cama mirando el móvil, Jason eligiendo qué ponerse. Escenas tranquilas, de pareja normal… que roba para vivir.",
+   "kind": "clip",
+   "clips": [
+    "d_cama"
+   ]
+  },
+  {
+   "t": "Y el piso se recorre entero: la cocina con la nevera llena de notas, el salón, el baño con el espejo de luces.",
+   "kind": "clip",
+   "clips": [
+    "d_casa"
+   ],
+   "label": "DETALLE",
+   "title": "LA CASA SE RECORRE ENTERA"
+  },
+  {
+   "t": "Y mira la tele: está encendida y van pasando anuncios y programas. Una pastilla que promete sacarte de la desesperación, un documental de naturaleza, y un anuncio de hamburguesas. El humor de Rockstar de siempre.",
+   "kind": "clip",
+   "clips": [
+    "d_tele"
+   ],
+   "label": "DETALLE",
+   "title": "LA TELE FUNCIONA"
+  },
+  {
+   "t": "Pero tienen prisa: Brian, el traficante veterano de los Cayos, los ha invitado a tomar algo. Y no quieren llegar tarde.",
+   "kind": "panel",
+   "clips": [
+    "d_casa"
+   ],
+   "label": "LA CITA",
+   "title": "BRIAN LOS ESPERA",
+   "sub": "Cócteles en una azotea"
+  },
+  {
+   "t": "Parte tres. Vice City de día.",
+   "kind": "chapter",
+   "chapterNo": 3,
+   "clips": [
+    "d_coche"
+   ],
+   "label": "PARTE 03",
+   "title": "VICE CITY DE DÍA"
+  },
+  {
+   "t": "Y aquí ves por primera vez Vice City de día, a los mandos de un descapotable rojo. Abajo a la izquierda, el minimapa con la ruta marcada en rosa.",
+   "kind": "clip",
+   "clips": [
+    "d_coche"
+   ],
+   "callouts": [
+    {
+     "at": 2.2,
+     "x": 165,
+     "y": 985,
+     "r": 85,
+     "text": "GPS"
+    }
+   ]
+  },
+  {
+   "t": "Por el camino, Jason va nervioso. Brian les va a presentar a alguien importante… y llegan tarde.",
+   "kind": "map",
+   "map": "route",
+   "label": "EN RUTA",
+   "title": "LA AZOTEA DE BRIAN"
+  },
+  {
+   "t": "Y en la conversación sale un detalle buenísimo: el Snapmatic de Lori, la mujer de Brian.",
+   "kind": "clip",
+   "clips": [
+    "d_coche"
+   ]
+  },
+  {
+   "t": "Snapmatic, la red social que ya conocíamos de GTA 5, vuelve. Y no es decorado: los personajes la usan para cotillear la vida de los demás.",
+   "kind": "panel",
+   "clips": [
+    "d_azotea"
+   ],
+   "label": "DETALLE",
+   "title": "VUELVE SNAPMATIC",
+   "sub": "La red social del juego"
+  },
+  {
+   "t": "Suben en ascensor hasta un bar en una azotea, con vistas a toda la ciudad.",
+   "kind": "clip",
+   "clips": [
+    "d_ascensor2"
+   ]
+  },
+  {
+   "t": "Y fíjate en la cantidad de gente: cada mesa con su conversación, cada persona con su ropa y su pose.",
+   "kind": "clip",
+   "clips": [
+    "d_azotea"
+   ]
+  },
+  {
+   "t": "Allí están Brian y Lori. Y Lori se alegra muchísimo de verlos… porque le había dicho a Brian que seguro que estaban los dos muertos.",
+   "kind": "clip",
+   "clips": [
+    "d_mesa2"
+   ]
+  },
+  {
+   "t": "Lori le pide un abrazo a Lucía y quiere saberlo todo: «¿En qué lío os habéis metido ahora?». Se nota que se conocen de hace tiempo.",
+   "kind": "clip",
+   "clips": [
+    "d_mesa2"
+   ]
+  },
+  {
+   "t": "Y en la mesa se habla de un trabajo que tiene que hacerse esa misma noche… y para el que solo quieren a uno de los dos.",
+   "kind": "panel",
+   "clips": [
+    "d_mesa2"
+   ],
+   "label": "OJO",
+   "title": "ESTA MISMA NOCHE",
+   "sub": "Y solo quieren a uno de los dos"
+  },
+  {
+   "t": "Parte cuatro. La historia del carrusel.",
+   "kind": "chapter",
+   "chapterNo": 4,
+   "clips": [
+    "d_carrusel"
+   ],
+   "label": "PARTE 04",
+   "title": "LA HISTORIA DEL CARRUSEL"
+  },
+  {
+   "t": "Y aquí viene mi parte favorita. Brian se lleva a Jason aparte, con la ciudad de fondo, y le cuenta una historia de cuando era niño.",
+   "kind": "clip",
+   "clips": [
+    "d_carrusel"
+   ]
+  },
+  {
+   "t": "Una feria llegó a su pueblo. Una noche se colaron con un amigo, encendieron el carrusel… y lo pusieron cada vez más rápido. Tan rápido que costaba agarrarse.",
+   "kind": "clip",
+   "clips": [
+    "d_carrusel"
+   ]
+  },
+  {
+   "play": "q_salte",
+   "sub": "«Y salté. Jimmy se quedó… salió despedido y murió esa noche.»",
+   "label": "AUDIO ORIGINAL"
+  },
+  {
+   "play": "q_bajarte",
+   "sub": "«Tienes que saber cuándo bajarte, Jason. ¿Me oyes?»",
+   "label": "AUDIO ORIGINAL"
+  },
+  {
+   "t": "Esto no es una anécdota. Es un aviso. Brian le está diciendo a Jason que el mundo en el que se está metiendo va cada vez más rápido… y que el que no sabe bajarse a tiempo, acaba mal.",
+   "kind": "panel",
+   "clips": [
+    "d_carrusel"
+   ],
+   "label": "TEORÍA",
+   "title": "ES UN AVISO",
+   "sub": "¿Para Jason… o para nosotros?"
+  },
+  {
+   "t": "Y conociendo a Rockstar, esta frase va a volver a salir más adelante en la historia. Apúntatela.",
+   "kind": "quote",
+   "clips": [
+    "d_carrusel"
+   ],
+   "quote": {
+    "who": "BRIAN HEDER",
+    "img": "brian_heder_02",
+    "text": "Tienes que saber cuándo bajarte."
+   }
+  },
+  {
+   "t": "Parte cinco. La prueba de Raúl.",
+   "kind": "chapter",
+   "chapterNo": 5,
+   "clips": [
+    "d_raul"
+   ],
+   "label": "PARTE 05",
+   "title": "LA PRUEBA DE RAÚL"
+  },
+  {
+   "t": "Después, Jason y Lucía tienen que llevarle un coche a un tal Raúl. Raúl Bautista, el atracador de bancos veterano.",
+   "kind": "clip",
+   "clips": [
+    "d_coche2"
+   ]
+  },
+  {
+   "t": "En el camino discuten si contarle sus problemas. Deciden ir con calma: saludar, entregar el coche, cobrar… y ya veremos.",
+   "kind": "clip",
+   "clips": [
+    "d_coche2"
+   ]
+  },
+  {
+   "t": "Y fíjate en cómo hablan: discuten, se pican, se ríen… En un momento, Jason le suelta a Lucía que es la criminal perfecta. Parecen una pareja de verdad.",
+   "kind": "clip",
+   "clips": [
+    "d_coche2"
+   ]
+  },
+  {
+   "t": "Pero Raúl se sube al coche con prisas… y la entrega se convierte en una huida.",
+   "kind": "clip",
+   "clips": [
+    "d_raul"
+   ]
+  },
+  {
+   "t": "Y llega la persecución. Arriba a la derecha, el nivel de búsqueda, como siempre en la saga.",
+   "kind": "clip",
+   "clips": [
+    "d_persecucion"
+   ],
+   "callouts": [
+    {
+     "at": 1.4,
+     "x": 1840,
+     "y": 40,
+     "r": 70,
+     "text": "NIVEL DE BÚSQUEDA"
+    }
+   ]
+  },
+  {
+   "t": "Los coches patrulla te persiguen y te embisten sin parar, y Jason dispara desde la ventanilla para quitárselos de encima.",
+   "kind": "map",
+   "map": "chase",
+   "label": "PERSECUCIÓN",
+   "title": "LA POLICÍA DE GTA 6"
+  },
+  {
+   "t": "Y en mitad de la huida, Raúl suelta la frase que define a este personaje.",
+   "kind": "clip",
+   "clips": [
+    "d_lucia"
+   ]
+  },
+  {
+   "play": "q_profesional",
+   "sub": "«Siempre hay algún imprevisto. Un profesional se adapta. ¿Eres una profesional, Lucía?» «Claro.»",
+   "label": "AUDIO ORIGINAL"
+  },
+  {
+   "t": "Al final esconden el coche en un aparcamiento y cambian de vehículo.",
+   "kind": "clip",
+   "clips": [
+    "d_parking"
+   ]
+  },
+  {
+   "play": "q_prueba",
+   "sub": "«¿Hemos pasado la prueba?» «Lo hicisteis bien. Seguís vivos. Esto podría ser el principio de algo bueno.»",
+   "label": "AUDIO ORIGINAL"
+  },
+  {
+   "t": "Era una prueba. Y la han pasado. Raúl les dice que tengan los móviles encendidos: Jason y Lucía acaban de entrar en su banda.",
+   "kind": "panel",
+   "clips": [
+    "d_parking"
+   ],
+   "label": "CLAVE",
+   "title": "ENTRAN EN LA BANDA",
+   "sub": "«Tened los móviles encendidos»"
+  },
+  {
+   "t": "Parte seis. El mundo abierto.",
+   "kind": "chapter",
+   "chapterNo": 6,
+   "clips": [
+    "a_hidro"
+   ],
+   "label": "PARTE 06",
+   "title": "MUNDO ABIERTO"
+  },
+  {
+   "t": "Después, el juego te suelta en Bayside y te deja hacer lo que quieras. Y esto es lo que se ve.",
+   "kind": "clip",
+   "clips": [
+    "a_selfie",
+    "a_patinete"
+   ]
+  },
+  {
+   "t": "Carreras en circuito con cronómetro, motocross por la montaña, saltos en paracaídas desde rascacielos…",
+   "kind": "cards",
+   "clips": [
+    "a_circuito",
+    "a_motocross",
+    "a_paracaidas"
+   ],
+   "label": "ACTIVIDADES"
+  },
+  {
+   "t": "Hidrodeslizador por los pantanos, kayak, gimnasio…",
+   "kind": "cards",
+   "clips": [
+    "a_hidro",
+    "a_kayak",
+    "a_gym"
+   ],
+   "label": "MÁS ACTIVIDADES"
+  },
+  {
+   "t": "Playas llenas de gente, discotecas con cola en la puerta, saltos al mar desde un muelle…",
+   "kind": "cards",
+   "clips": [
+    "a_playa",
+    "a_disco",
+    "a_mar"
+   ],
+   "label": "Y MÁS"
+  },
+  {
+   "t": "Y carreras callejeras de noche, con coches tuneados y un contador de progreso en pantalla.",
+   "kind": "clip",
+   "clips": [
+    "d_callejera"
+   ],
+   "label": "DETALLE",
+   "title": "CARRERAS CALLEJERAS"
+  },
+  {
+   "t": "También atracos rápidos a joyerías, con la huida en moto.",
+   "kind": "clip",
+   "clips": [
+    "m_joya1",
+    "m_joya2"
+   ]
+  },
+  {
+   "play": "q_trunk",
+   "sub": "«¡El reto del maletero!» … «¡Mira, nos persigue la poli de verdad!»",
+   "label": "AUDIO ORIGINAL"
+  },
+  {
+   "t": "Y esto es lo más GTA del mundo: gente haciendo retos virales, grabándolo todo con el móvil, y retransmitiendo en directo mientras les persigue la policía. Una parodia de las redes sociales… y de Florida.",
+   "kind": "panel",
+   "clips": [
+    "d_trunk"
+   ],
+   "label": "DETALLE",
+   "title": "RETOS VIRALES",
+   "sub": "Todo el mundo graba con el móvil"
+  },
+  {
+   "t": "Parte siete. La fiesta de MegaMundo.",
+   "kind": "chapter",
+   "chapterNo": 7,
+   "clips": [
+    "d_fiesta"
+   ],
+   "label": "PARTE 07",
+   "title": "LA FIESTA DE MEGAMUNDO"
+  },
+  {
+   "t": "La última misión empieza en la sala VIP de un aeropuerto. Les ofrecen té, café o champán.",
+   "kind": "clip",
+   "clips": [
+    "d_aeropuerto"
+   ]
+  },
+  {
+   "play": "q_trabajo",
+   "sub": "«El trabajo es Andrés de León. Protegedle, pero que no se desmadre. Subidle el ego.»",
+   "label": "AUDIO ORIGINAL"
+  },
+  {
+   "t": "Jason y Lucía ahora son escoltas de Andrés de León, un tipo muy famoso… y con un ego enorme.",
+   "kind": "clip",
+   "clips": [
+    "d_jet"
+   ],
+   "label": "EL TRABAJO",
+   "title": "ESCOLTAS"
+  },
+  {
+   "t": "Y Andrés es justo lo que parece. Lo primero que pregunta al bajar del avión es si las azafatas han firmado un acuerdo de confidencialidad.",
+   "kind": "clip",
+   "clips": [
+    "d_jet"
+   ],
+   "label": "DETALLE",
+   "title": "UN EGO ENORME"
+  },
+  {
+   "t": "De ahí, en un todoterreno negro, a una fiesta por todo lo alto.",
+   "kind": "clip",
+   "clips": [
+    "d_cochenoche",
+    "d_torre"
+   ]
+  },
+  {
+   "t": "Es la inauguración de la primera sede en Estados Unidos de MegaMundo, una gran empresa. Globos, invitados VIP… y un detalle: en la entrada, la seguridad le quita las armas a Jason.",
+   "kind": "clip",
+   "clips": [
+    "d_fiesta"
+   ]
+  },
+  {
+   "t": "Andrés se encierra en la sala de conferencias del piso veinticuatro con unos amigos productores, a hablar de su… hoja de ruta creativa.",
+   "kind": "clip",
+   "clips": [
+    "d_ascensor3",
+    "d_oficina"
+   ]
+  },
+  {
+   "t": "Le avisan de que abajo va a empezar el discurso y que el CEO quiere verle. Y su respuesta es que ni hablar: que está en racha y que se le están ocurriendo un montón de ideas.",
+   "kind": "clip",
+   "clips": [
+    "d_oficina"
+   ]
+  },
+  {
+   "t": "Y mientras abajo empieza el discurso de inauguración…",
+   "kind": "clip",
+   "clips": [
+    "d_discurso"
+   ]
+  },
+  {
+   "t": "Todo se tuerce. Entran hombres armados, con monos blancos y mascarillas.",
+   "kind": "clip",
+   "clips": [
+    "d_ataque"
+   ],
+   "flash": true,
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ]
+  },
+  {
+   "t": "Y aquí otro detalle: los mensajes del móvil aparecen en pantalla en plena acción. Lucía le escribe a Jason que hay tíos por todas partes.",
+   "kind": "clip",
+   "clips": [
+    "d_mensaje"
+   ],
+   "callouts": [
+    {
+     "at": 0.8,
+     "x": 1290,
+     "y": 490,
+     "r": 95,
+     "text": "MENSAJE DE LUCÍA"
+    }
+   ]
+  },
+  {
+   "t": "Y Jason tiene que abrirse paso por las oficinas a oscuras, a tiros, para salir de allí.",
+   "kind": "clip",
+   "clips": [
+    "d_tiro3"
+   ]
+  },
+  {
+   "t": "Parte ocho. El final.",
+   "kind": "chapter",
+   "chapterNo": 8,
+   "clips": [
+    "d_final"
+   ],
+   "label": "PARTE 08",
+   "title": "EL FINAL"
+  },
+  {
+   "play": "q_gloria",
+   "sub": "«Puede que no lo parezca, pero estos son tus días de gloria… Disfrútalo. Esto, ahora, es todo lo que hay.»",
+   "label": "AUDIO ORIGINAL"
+  },
+  {
+   "t": "El gameplay termina con una piscina en lo alto de un rascacielos, el atardecer sobre Vice City… y esa frase.",
+   "kind": "clip",
+   "clips": [
+    "d_final"
+   ]
+  },
+  {
+   "t": "Y si lo juntas con la historia del carrusel, el mensaje está bastante claro: Jason y Lucía están en su mejor momento… justo antes de que todo se venga abajo.",
+   "kind": "panel",
+   "clips": [
+    "d_final"
+   ],
+   "label": "MI LECTURA",
+   "title": "DÍAS DE GLORIA",
+   "sub": "Antes de que todo se venga abajo"
+  },
+  {
+   "t": "Resumiendo: policías corruptos desde la primera misión, un aviso de Brian, una prueba de Raúl, un mundo abierto lleno de redes sociales… y un trabajo de escoltas que acaba a tiros.",
+   "kind": "list",
+   "clips": [
+    "d_final"
+   ],
+   "label": "RESUMEN",
+   "title": "LO QUE NOS DEJAN 26 MINUTOS",
+   "items": [
+    "Policías corruptos en la misión 1",
+    "El aviso del carrusel",
+    "La prueba de Raúl",
+    "Retos virales en la calle",
+    "La fiesta que acaba a tiros"
+   ]
+  },
+  {
+   "t": "Y ahora dime tú: ¿qué detalle te ha sorprendido más? Te leo en comentarios. Suscríbete si quieres más análisis de GTA 6… y nos vemos en Leonida.",
+   "kind": "outro",
+   "clips": [
+    "d_final"
+   ],
+   "title": "¿QUÉ DETALLE TE HA SORPRENDIDO MÁS?",
+   "sub": "Te leo en comentarios 👇"
+  }
+ ]
+}

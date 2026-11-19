@@ -1,0 +1,538 @@
+{
+ "theme": "tier",
+ "voice": "es-ES-AlvaroNeural",
+ "rate": "+8%",
+ "pitch": "+3Hz",
+ "brand": "TIER LIST · GTA VI",
+ "lines": [
+  {
+   "t": "Rockstar ha enseñado diecinueve cosas que se pueden hacer en GTA 6. Las he puntuado todas, de la D a la S… y alguna te va a cabrear.",
+   "kind": "intro",
+   "clips": [
+    "a_paracaidas",
+    "m_poli_flip",
+    "a_circuito",
+    "m_joya2"
+   ],
+   "label": "TIER LIST DEFINITIVA",
+   "title": "PUNTÚO TODO GTA 6",
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ]
+  },
+  {
+   "t": "Todo lo que vas a ver es gameplay real, del vídeo de casi veintisiete minutos que publicó Rockstar. Nada de tráileres ni de capturas retocadas.",
+   "kind": "cards",
+   "clips": [
+    "d_coche",
+    "a_hidro",
+    "d_fiesta"
+   ],
+   "label": "GAMEPLAY OFICIAL · PS5"
+  },
+  {
+   "t": "Mi criterio es muy simple: lo divertido que parece, lo nuevo que es para la saga, y las veces que te vas a pasar el rato haciéndolo.",
+   "kind": "list",
+   "clips": [
+    "a_motocross"
+   ],
+   "label": "LAS REGLAS",
+   "title": "MI CRITERIO",
+   "items": [
+    "¿Es divertido?",
+    "¿Es nuevo en la saga?",
+    "¿Lo vas a repetir?"
+   ]
+  },
+  {
+   "t": "Y al final te enseño la tabla completa, para que me digas en comentarios en qué me he equivocado. Empezamos.",
+   "kind": "panel",
+   "clips": [
+    "a_circuito"
+   ],
+   "label": "AL FINAL",
+   "title": "LA TABLA COMPLETA",
+   "sub": "Y tú me dices en qué me equivoco"
+  },
+  {
+   "t": "Empezamos por lo más tranquilo: el patinete eléctrico.",
+   "kind": "clip",
+   "clips": [
+    "a_patinete"
+   ],
+   "label": "ACTIVIDAD 01",
+   "title": "EL PATINETE"
+  },
+  {
+   "t": "Se ve a Lucía cruzando la ciudad en patinete, entre murales y tiendas. Queda muy realista, muy Miami… pero en un GTA, con un deportivo aparcado en cada esquina, no le veo mucho recorrido. Para mí, D.",
+   "kind": "tier",
+   "clips": [
+    "a_patinete"
+   ],
+   "label": "ACTIVIDAD 01",
+   "tier": {
+    "item": "Patinete",
+    "rank": "D",
+    "thumb": "a_patinete"
+   }
+  },
+  {
+   "t": "Segunda: hacerte selfies con el móvil.",
+   "kind": "clip",
+   "clips": [
+    "a_selfie"
+   ],
+   "label": "ACTIVIDAD 02",
+   "title": "LOS SELFIES"
+  },
+  {
+   "t": "Jason y Lucía se hacen una foto en plena calle. Es un detalle bonito, y seguro que da para muchas capturas en redes… pero como actividad, no da para más. D.",
+   "kind": "tier",
+   "clips": [
+    "a_selfie"
+   ],
+   "label": "ACTIVIDAD 02",
+   "tier": {
+    "item": "Selfies",
+    "rank": "D",
+    "thumb": "a_selfie"
+   }
+  },
+  {
+   "t": "Tercera: el gimnasio.",
+   "kind": "clip",
+   "clips": [
+    "a_gym"
+   ],
+   "label": "ACTIVIDAD 03",
+   "title": "EL GIMNASIO"
+  },
+  {
+   "t": "Lucía haciendo press de banca. En San Andreas ponerte fuerte tenía su gracia, y aquí parece que vuelve. Pero levantar pesas en un juego… es levantar pesas. C.",
+   "kind": "tier",
+   "clips": [
+    "a_gym"
+   ],
+   "label": "ACTIVIDAD 03",
+   "tier": {
+    "item": "Gimnasio",
+    "rank": "C",
+    "thumb": "a_gym"
+   }
+  },
+  {
+   "t": "Cuarta: kayak y moto de agua.",
+   "kind": "clip",
+   "clips": [
+    "a_kayak",
+    "a_jetski"
+   ],
+   "label": "ACTIVIDAD 04",
+   "title": "KAYAK Y MOTO DE AGUA"
+  },
+  {
+   "t": "El agua de GTA 6 se ve espectacular, y remar en kayak frente a los rascacielos es precioso. Pero es más para relajarte que para viciarte. C.",
+   "kind": "tier",
+   "clips": [
+    "a_kayak"
+   ],
+   "label": "ACTIVIDAD 04",
+   "tier": {
+    "item": "Kayak / moto de agua",
+    "rank": "C",
+    "thumb": "a_kayak"
+   }
+  },
+  {
+   "t": "Quinta: la playa.",
+   "kind": "clip",
+   "clips": [
+    "a_playa"
+   ],
+   "label": "ACTIVIDAD 05",
+   "title": "LA PLAYA"
+  },
+  {
+   "t": "Sombrillas, tumbonas y cientos de personas. Es la playa más viva que he visto en un videojuego. Pero tumbarte al sol… tampoco es que sea el plan del siglo. C.",
+   "kind": "tier",
+   "clips": [
+    "a_playa"
+   ],
+   "label": "ACTIVIDAD 05",
+   "tier": {
+    "item": "Playa",
+    "rank": "C",
+    "thumb": "a_playa"
+   }
+  },
+  {
+   "t": "Sexta, y aquí empieza lo bueno: ver la tele.",
+   "kind": "clip",
+   "clips": [
+    "d_tele"
+   ],
+   "label": "ACTIVIDAD 06",
+   "title": "VER LA TELE"
+  },
+  {
+   "t": "En el piso de Lucía la tele está encendida y van saliendo anuncios de parodia: una pastilla para la desesperación, un documental de naturaleza, hamburguesas imposibles. El humor de Rockstar en estado puro. Por las risas, B.",
+   "kind": "tier",
+   "clips": [
+    "d_tele"
+   ],
+   "label": "ACTIVIDAD 06",
+   "tier": {
+    "item": "Ver la tele",
+    "rank": "B",
+    "thumb": "d_tele"
+   }
+  },
+  {
+   "t": "Séptima: las discotecas.",
+   "kind": "clip",
+   "clips": [
+    "a_disco",
+    "a_club"
+   ],
+   "label": "ACTIVIDAD 07",
+   "title": "LAS DISCOTECAS"
+  },
+  {
+   "t": "Luces, gente bailando, control en la puerta… y en una de ellas Lucía con un vaso en la mano. Las fiestas de Vice City pintan increíbles, y además salen en las misiones. B.",
+   "kind": "tier",
+   "clips": [
+    "a_club"
+   ],
+   "label": "ACTIVIDAD 07",
+   "tier": {
+    "item": "Discotecas",
+    "rank": "B",
+    "thumb": "a_club"
+   }
+  },
+  {
+   "t": "Octava: el hidrodeslizador por los pantanos.",
+   "kind": "clip",
+   "clips": [
+    "a_hidro"
+   ],
+   "label": "ACTIVIDAD 08",
+   "title": "LOS PANTANOS"
+  },
+  {
+   "t": "Esto es Florida al cien por cien. El agua verde, la vegetación, los caimanes… Explorar los pantanos promete muchísimo, y es algo que no habíamos visto en un GTA. B.",
+   "kind": "tier",
+   "clips": [
+    "a_hidro"
+   ],
+   "label": "ACTIVIDAD 08",
+   "tier": {
+    "item": "Hidrodeslizador",
+    "rank": "B",
+    "thumb": "a_hidro"
+   }
+  },
+  {
+   "t": "Novena: el motocross.",
+   "kind": "clip",
+   "clips": [
+    "a_motocross"
+   ],
+   "label": "ACTIVIDAD 09",
+   "title": "MOTOCROSS"
+  },
+  {
+   "t": "Una carrera de motos de tierra por la montaña, con posición y número de vuelta en pantalla. Divertido, pero las motos siempre han sido lo más difícil de controlar en GTA. B.",
+   "kind": "tier",
+   "clips": [
+    "a_motocross"
+   ],
+   "label": "ACTIVIDAD 09",
+   "tier": {
+    "item": "Motocross",
+    "rank": "B",
+    "thumb": "a_motocross"
+   }
+  },
+  {
+   "t": "Décima: atracar furgones blindados.",
+   "kind": "clip",
+   "clips": [
+    "m_furgon"
+   ],
+   "label": "ACTIVIDAD 10",
+   "title": "FURGONES BLINDADOS"
+  },
+  {
+   "t": "Aparece en el gameplay, en plena calle, junto a un furgón de transporte de dinero. Pero se ve apenas un par de segundos, así que de momento, por lo poco que sabemos… B.",
+   "kind": "tier",
+   "clips": [
+    "m_furgon"
+   ],
+   "label": "ACTIVIDAD 10",
+   "tier": {
+    "item": "Furgones blindados",
+    "rank": "B",
+    "thumb": "m_furgon"
+   }
+  },
+  {
+   "t": "Y ahora entramos en la zona alta. Undécima: conducir por Vice City.",
+   "kind": "clip",
+   "clips": [
+    "d_coche"
+   ],
+   "label": "ACTIVIDAD 11",
+   "title": "CONDUCIR POR VICE CITY"
+  },
+  {
+   "t": "Un descapotable rojo, la radio, el tráfico, los rascacielos. Parece una tontería, pero en GTA pasas la mitad del tiempo conduciendo, y esto se ve mejor que nunca. A.",
+   "kind": "tier",
+   "clips": [
+    "d_coche"
+   ],
+   "label": "ACTIVIDAD 11",
+   "tier": {
+    "item": "Conducir",
+    "rank": "A",
+    "thumb": "d_coche"
+   }
+  },
+  {
+   "t": "Duodécima: atracar tiendas.",
+   "kind": "clip",
+   "clips": [
+    "m_tienda1",
+    "m_tienda2",
+    "m_tienda3"
+   ],
+   "label": "ACTIVIDAD 12",
+   "title": "ATRACAR TIENDAS"
+  },
+  {
+   "t": "Pañuelo en la cara, encañonar al dependiente y salir corriendo. Es el atraco más clásico de la saga, rápido y con tensión. Para ganar dinero rápido, A.",
+   "kind": "tier",
+   "clips": [
+    "m_tienda2"
+   ],
+   "label": "ACTIVIDAD 12",
+   "tier": {
+    "item": "Atracar tiendas",
+    "rank": "A",
+    "thumb": "m_tienda2"
+   }
+  },
+  {
+   "t": "Decimotercera: las carreras en circuito.",
+   "kind": "clip",
+   "clips": [
+    "a_circuito"
+   ],
+   "label": "ACTIVIDAD 13",
+   "title": "CARRERAS EN CIRCUITO"
+  },
+  {
+   "t": "Un circuito de verdad, con cronómetro y número de vuelta. Es como tener un juego de carreras dentro de GTA. A.",
+   "kind": "tier",
+   "clips": [
+    "a_circuito"
+   ],
+   "label": "ACTIVIDAD 13",
+   "tier": {
+    "item": "Circuito",
+    "rank": "A",
+    "thumb": "a_circuito"
+   }
+  },
+  {
+   "t": "Decimocuarta: las carreras callejeras de noche.",
+   "kind": "clip",
+   "clips": [
+    "d_callejera"
+   ],
+   "label": "ACTIVIDAD 14",
+   "title": "CARRERAS CALLEJERAS"
+  },
+  {
+   "t": "Coches tuneados con neones, de noche, por la ciudad, con un contador de progreso en pantalla. Esto huele a película de coches por todos lados. A.",
+   "kind": "tier",
+   "clips": [
+    "d_callejera"
+   ],
+   "label": "ACTIVIDAD 14",
+   "tier": {
+    "item": "Carreras callejeras",
+    "rank": "A",
+    "thumb": "d_callejera"
+   }
+  },
+  {
+   "t": "Decimoquinta: los retos virales.",
+   "kind": "clip",
+   "clips": [
+    "d_trunk"
+   ],
+   "label": "ACTIVIDAD 15",
+   "title": "RETOS VIRALES"
+  },
+  {
+   "play": "q_trunk",
+   "sub": "«¡El reto del maletero!» … «¡Mira, nos persigue la poli de verdad!»",
+   "label": "AUDIO ORIGINAL"
+  },
+  {
+   "t": "Gente metiéndose en maleteros, grabándolo todo con el móvil y retransmitiendo en directo mientras les persigue la policía. Es la crítica a las redes sociales más GTA posible. A.",
+   "kind": "tier",
+   "clips": [
+    "d_trunk"
+   ],
+   "label": "ACTIVIDAD 15",
+   "tier": {
+    "item": "Retos virales",
+    "rank": "A",
+    "thumb": "d_trunk"
+   }
+  },
+  {
+   "t": "Y llegamos a la S. Solo quedan cuatro… y una de ellas va a dar mucho que hablar.",
+   "kind": "panel",
+   "clips": [
+    "a_paracaidas"
+   ],
+   "label": "ZONA S",
+   "title": "LO MEJOR DE GTA 6",
+   "sub": "Solo quedan cuatro"
+  },
+  {
+   "t": "Decimosexta: saltar en paracaídas desde un rascacielos.",
+   "kind": "clip",
+   "clips": [
+    "a_paracaidas"
+   ],
+   "label": "ACTIVIDAD 16",
+   "title": "PARACAÍDAS"
+  },
+  {
+   "t": "Lucía corre por la azotea, salta al vacío y abre el paracaídas con toda Vice City debajo. Es, literalmente, el plano más bonito de todo el gameplay. S.",
+   "kind": "tier",
+   "clips": [
+    "a_paracaidas"
+   ],
+   "label": "ACTIVIDAD 16",
+   "tier": {
+    "item": "Paracaídas",
+    "rank": "S",
+    "thumb": "a_paracaidas"
+   }
+  },
+  {
+   "t": "Decimoséptima: los golpes a joyerías.",
+   "kind": "clip",
+   "clips": [
+    "m_joya1",
+    "m_joya2"
+   ],
+   "label": "ACTIVIDAD 17",
+   "title": "JOYERÍAS"
+  },
+  {
+   "t": "Entrar en la joyería, salir con la bolsa y huir en moto entre el tráfico, todo en un solo plano. Rápido, tenso, y con muchísimo estilo. S.",
+   "kind": "tier",
+   "clips": [
+    "m_joya2"
+   ],
+   "label": "ACTIVIDAD 17",
+   "tier": {
+    "item": "Joyerías",
+    "rank": "S",
+    "thumb": "m_joya2"
+   }
+  },
+  {
+   "t": "Decimoctava: las persecuciones con la policía.",
+   "kind": "clip",
+   "clips": [
+    "d_persecucion",
+    "m_poli_flip"
+   ],
+   "label": "ACTIVIDAD 18",
+   "title": "PERSECUCIONES"
+  },
+  {
+   "t": "Coches patrulla que te embisten, disparos desde la ventanilla, y un coche de policía volcando en mitad de la calle. Es el corazón de GTA, y se ve más brutal que nunca. S.",
+   "kind": "tier",
+   "clips": [
+    "m_poli_flip"
+   ],
+   "label": "ACTIVIDAD 18",
+   "tier": {
+    "item": "Persecuciones",
+    "rank": "S",
+    "thumb": "m_poli_flip"
+   }
+  },
+  {
+   "t": "Y la última. La número diecinueve: las misiones de la historia.",
+   "kind": "clip",
+   "clips": [
+    "d_redada",
+    "d_fiesta",
+    "d_tiro3"
+   ],
+   "label": "ACTIVIDAD 19",
+   "title": "LAS MISIONES"
+  },
+  {
+   "t": "Una redada de policías corruptos, una prueba para entrar en la banda de Raúl, una fiesta de millonarios que acaba a tiros. Cada misión parece una película. Y para mí, esto es lo mejor de todo GTA 6. S, sin discusión.",
+   "kind": "tier",
+   "clips": [
+    "d_tiro3"
+   ],
+   "label": "ACTIVIDAD 19",
+   "tier": {
+    "item": "Misiones",
+    "rank": "S",
+    "thumb": "d_tiro3"
+   }
+  },
+  {
+   "t": "Y así queda la tabla completa.",
+   "kind": "board",
+   "clips": [
+    "a_paracaidas"
+   ],
+   "label": "RESULTADO FINAL",
+   "title": "LA TIER LIST",
+   "sub": "19 actividades · gameplay real"
+  },
+  {
+   "t": "Cuatro en la S, cinco en la A, cinco en la B, tres en la C y dos en la D. Lo más tranquilo abajo… y la acción arriba del todo.",
+   "kind": "list",
+   "clips": [
+    "m_poli_flip"
+   ],
+   "label": "RESUMEN",
+   "title": "ASÍ HA QUEDADO",
+   "items": [
+    "S: paracaídas, joyerías, persecuciones, misiones",
+    "A: conducir, tiendas, circuito, callejeras, retos",
+    "B: tele, discotecas, pantanos, motocross, furgones",
+    "C: gimnasio, kayak, playa",
+    "D: patinete, selfies"
+   ]
+  },
+  {
+   "t": "¿Qué cambiarías tú? ¿Qué subirías a la S y qué bajarías a la D? Déjamelo en comentarios, que los leo todos. Y suscríbete, que vienen más vídeos de GTA 6.",
+   "kind": "outro",
+   "clips": [
+    "d_final"
+   ],
+   "title": "¿QUÉ CAMBIARÍAS TÚ?",
+   "sub": "Te leo en comentarios 👇"
+  }
+ ]
+}
