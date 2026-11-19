@@ -17,7 +17,7 @@ for i, ln in enumerate(plan["lines"]):
     if "play" in ln:
         L = dur(os.path.join(GP0, ln["play"] + ".mp4"))
         sc = {k: v for k, v in ln.items() if k not in ("play", "sub")}
-        sc.update(imgs=["v:" + ln["play"]], vol=1.0, full=True, s=0 if i == 0 else round(t, 2), e=round(t + 0.3 + L, 2), sfx=sc.get("sfx", []))
+        sc.update(imgs=["v:" + ln["play"]], vol=0, full=True, s=0 if i == 0 else round(t, 2), e=round(t + 0.3 + L, 2), sfx=sc.get("sfx", []))
         sc.setdefault("title", [])
         scenes.append(sc); caps.append({"t": ln["sub"], "s": round(t + 0.15, 2), "e": round(t + 0.1 + L, 2), "full": True})
         t = t + 0.15 + L + 0.15; continue
@@ -43,6 +43,6 @@ lst = os.path.join(tmp, "list.txt"); open(lst, "w").write("".join(f"file '{p}'\n
 subprocess.run(["ffmpeg","-nostdin","-y","-v","error","-f","concat","-safe","0","-i",lst,"-c:a","libmp3lame","-b:a","192k",os.path.join(AUD, name + ".mp3")], check=True)
 gp = os.path.join(ROOT, "public/gta6/gp")
 clip = {f[:-4]: round(dur(os.path.join(gp, f)), 2) for f in os.listdir(gp) if f.endswith(".mp4")}
-props = {"scenes": scenes, "captions": caps, "voice": f"gta6/audio/{name}.mp3", "music": "gta6/audio/musica1.wav", "musicVolume": 0, "total": scenes[-1]["e"], "clipLen": clip, "gameVolume": 0.28}
+props = {"scenes": scenes, "captions": caps, "voice": f"gta6/audio/{name}.mp3", "music": "gta6/audio/musica1.wav", "musicVolume": 0, "total": scenes[-1]["e"], "clipLen": clip, "gameVolume": 0}
 json.dump(props, open(out_p, "w"), ensure_ascii=False, indent=1)
 print(json.dumps({"out": out_p, "total": props["total"]}))

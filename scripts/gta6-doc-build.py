@@ -20,7 +20,7 @@ for i, ln in enumerate(plan["lines"]):
     if "play" in ln:
         L = dur(os.path.join(GP, ln["play"] + ".mp4"))
         s = t + 0.15; e = s + L
-        sc.update(kind="clip", clips=[ln["play"]], vol=1.0, s=round(t, 2), e=round(e, 2), sfx=[])
+        sc.update(kind="clip", clips=[ln["play"]], vol=0, s=round(t, 2), e=round(e, 2), sfx=[])
         if ln.get("label"): sc["label"] = ln["label"]
         scenes.append(sc); caps.append({"t": ln["sub"], "s": round(s, 2), "e": round(e - 0.05, 2)})
         t = e + 0.2; continue
@@ -59,7 +59,7 @@ for sc in scenes:
     if tr and not os.path.exists(os.path.join(TH, tr["thumb"] + ".jpg")):
         src = os.path.join(GP, tr["thumb"] + ".mp4")
         subprocess.run(["ffmpeg","-nostdin","-y","-v","error","-ss",str(min(1.0, clip.get(tr["thumb"], 2) / 2)),"-i",src,"-frames:v","1","-vf","scale=320:180",os.path.join(TH, tr["thumb"] + ".jpg")], check=True)
-props = {"theme": plan["theme"], "scenes": scenes, "captions": caps, "voice": f"gta6/audio/{name}-voz.wav", "total": total, "clipLen": clip, "clipVolume": plan.get("clipVolume", 0.12), "brand": plan.get("brand")}
+props = {"theme": plan["theme"], "scenes": scenes, "captions": caps, "voice": f"gta6/audio/{name}-voz.wav", "total": total, "clipLen": clip, "clipVolume": plan.get("clipVolume", 0), "brand": plan.get("brand")}
 json.dump(props, open(out_p, "w"), ensure_ascii=False, indent=1)
 m, s_ = divmod(int(total), 60)
 print(json.dumps({"out": out_p, "total": total, "mmss": f"{m}:{s_:02d}", "scenes": len(scenes)}))
