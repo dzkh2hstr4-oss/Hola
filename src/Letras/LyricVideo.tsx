@@ -34,8 +34,8 @@ export type LyricProps = {
 export const defaultLyricProps: LyricProps = {
   audio: "letras/cancion.mp3",
   letra: "letras/letra.lrc",
-  titulo: "TÍTULO",
-  artista: "ARTISTA",
+  titulo: "Vuelve",
+  artista: "Anuel AA",
   tema: "noche-roja",
 };
 
