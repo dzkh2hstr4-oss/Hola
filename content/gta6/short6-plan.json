@@ -1,14 +1,149 @@
 {
- "rate": "+14%", "pitch": "+4Hz",
+ "rate": "+14%",
+ "pitch": "+4Hz",
  "lines": [
-  {"t": "Creo que este personaje acaba de spoilear el final de GTA 6… y casi nadie se ha dado cuenta.", "rate": "+18%", "pitch": "+6Hz", "fx": ["eco"], "imgs": ["v:d_carrusel"], "title": [["¿SPOILER", "DEL"], ["*FINAL*?"]], "hook": true, "shake": true, "sfx": [{"f": "voz/impacto.wav", "at": 0, "v": 0.8}, {"f": "wyr/sfx/riser.wav", "at": 1.2, "v": 0.5}]},
-  {"t": "Se llama Brian. Y en el gameplay oficial, se lleva a Jason aparte… y le cuenta una historia.", "rate": "+8%", "imgs": ["v:d_carrusel"], "title": []},
-  {"t": "Una noche, de niño, se coló en una feria con un amigo. Encendieron el carrusel… y lo pusieron cada vez más rápido. Más… y más rápido.", "rate": "+4%", "pitch": "+0Hz", "imgs": ["v:d_mesa2", "v:d_carrusel"], "title": [], "sfx": [{"f": "wyr/sfx/heart.wav", "at": 2.5, "v": 0.6}, {"f": "wyr/sfx/heart.wav", "at": 3.3, "v": 0.6}, {"f": "wyr/sfx/riser.wav", "at": 3.6, "v": 0.5}]},
-  {"play": "q_salte", "sub": "«Y salté. Jimmy se quedó… salió despedido y murió esa noche.»"},
-  {"play": "q_bajarte", "sub": "«Tienes que saber cuándo bajarte, Jason. ¿Me oyes?»", "flash": true, "sfx": [{"f": "wyr/sfx/boom.wav", "at": 0, "v": 0.5}]},
-  {"t": "¿Lo pillas? El carrusel es la vida criminal de Jason. Va cada vez más rápido… y el que no se baja a tiempo, acaba como Jimmy.", "rate": "+10%", "imgs": ["v:d_tiro3", "v:m_poli_flip", "v:d_redada"], "title": [["EL", "*CARRUSEL*"]], "flash": true, "sfx": [{"f": "voz/impacto.wav", "at": 0, "v": 0.6}]},
-  {"t": "Y por si fuera poco… el gameplay termina con esta frase.", "rate": "+0%", "fx": ["grave"], "imgs": ["v:d_final"], "title": []},
-  {"play": "q_gloria2", "sub": "«Disfrútalo. Esto, ahora… es todo lo que hay.»"},
-  {"t": "Días de gloria… justo antes de que todo se venga abajo. ¿Jason se bajará a tiempo? Te leo.", "rate": "+10%", "imgs": ["v:d_final"], "title": [["¿SE", "*BAJARÁ*?"]], "emojis": ["👇"], "sfx": [{"f": "wyr/sfx/ding.wav", "at": 0.3, "v": 0.5}]}
+  {
+   "t": "Creo que este personaje acaba de spoilear el final de GTA 6… y casi nadie se ha dado cuenta.",
+   "rate": "+18%",
+   "pitch": "+6Hz",
+   "imgs": [
+    "v:d_carrusel"
+   ],
+   "title": [
+    [
+     "¿SPOILER",
+     "DEL"
+    ],
+    [
+     "*FINAL*?"
+    ]
+   ],
+   "hook": true,
+   "shake": true,
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.8
+    },
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 1.2,
+     "v": 0.5
+    }
+   ]
+  },
+  {
+   "t": "Se llama Brian. Y en el gameplay oficial, se lleva a Jason aparte… y le cuenta una historia.",
+   "rate": "+8%",
+   "imgs": [
+    "v:d_carrusel"
+   ],
+   "title": []
+  },
+  {
+   "t": "Una noche, de niño, se coló en una feria con un amigo. Encendieron el carrusel… y lo pusieron cada vez más rápido. Más… y más rápido.",
+   "rate": "+4%",
+   "pitch": "+0Hz",
+   "imgs": [
+    "v:d_mesa2",
+    "v:d_carrusel"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/heart.wav",
+     "at": 2.5,
+     "v": 0.6
+    },
+    {
+     "f": "wyr/sfx/heart.wav",
+     "at": 3.3,
+     "v": 0.6
+    },
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 3.6,
+     "v": 0.5
+    }
+   ]
+  },
+  {
+   "play": "q_salte",
+   "sub": "«Y salté. Jimmy se quedó… salió despedido y murió esa noche.»"
+  },
+  {
+   "play": "q_bajarte",
+   "sub": "«Tienes que saber cuándo bajarte, Jason. ¿Me oyes?»",
+   "flash": true,
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0,
+     "v": 0.5
+    }
+   ]
+  },
+  {
+   "t": "¿Lo pillas? El carrusel es la vida criminal de Jason. Va cada vez más rápido… y el que no se baja a tiempo, acaba como Jimmy.",
+   "rate": "+10%",
+   "imgs": [
+    "v:d_tiro3",
+    "v:m_poli_flip",
+    "v:d_redada"
+   ],
+   "title": [
+    [
+     "EL",
+     "*CARRUSEL*"
+    ]
+   ],
+   "flash": true,
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ]
+  },
+  {
+   "t": "Y por si fuera poco… el gameplay termina con esta frase.",
+   "rate": "+0%",
+   "fx": [
+    "grave"
+   ],
+   "imgs": [
+    "v:d_final"
+   ],
+   "title": []
+  },
+  {
+   "play": "q_gloria2",
+   "sub": "«Disfrútalo. Esto, ahora… es todo lo que hay.»"
+  },
+  {
+   "t": "Días de gloria… justo antes de que todo se venga abajo. ¿Jason se bajará a tiempo? Te leo.",
+   "rate": "+10%",
+   "imgs": [
+    "v:d_final"
+   ],
+   "title": [
+    [
+     "¿SE",
+     "*BAJARÁ*?"
+    ]
+   ],
+   "emojis": [
+    "👇"
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 0.3,
+     "v": 0.5
+    }
+   ]
+  }
  ]
 }
