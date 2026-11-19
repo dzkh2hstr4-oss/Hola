@@ -558,15 +558,13 @@
    "e": 380.89
   },
   {
-   "label": "AUDIO ORIGINAL",
    "kind": "clip",
    "clips": [
     "q_trunk"
    ],
-   "vol": 1.0,
+   "label": "LO QUE DICE (DOBLADO)",
    "s": 380.89,
-   "e": 394.44,
-   "sfx": []
+   "e": 384.73
   },
   {
    "kind": "tier",
@@ -579,8 +577,8 @@
     "rank": "A",
     "thumb": "d_trunk"
    },
-   "s": 394.64,
-   "e": 407.21,
+   "s": 384.73,
+   "e": 397.29,
    "reveal": 10.81
   },
   {
@@ -590,8 +588,8 @@
    ],
    "label": "ZONA S",
    "title": "LO MEJOR DE GTA 6",
-   "s": 407.21,
-   "e": 412.51
+   "s": 397.29,
+   "e": 402.6
   },
   {
    "kind": "clip",
@@ -600,16 +598,16 @@
    ],
    "label": "ACTIVIDAD 16",
    "title": "PARACAÍDAS",
-   "s": 412.51,
-   "e": 415.97
+   "s": 402.6,
+   "e": 406.06
   },
   {
    "kind": "clip",
    "clips": [
     "a_paracaidas"
    ],
-   "s": 415.97,
-   "e": 423.62
+   "s": 406.06,
+   "e": 413.71
   },
   {
    "kind": "tier",
@@ -622,8 +620,8 @@
     "rank": "S",
     "thumb": "a_paracaidas"
    },
-   "s": 423.62,
-   "e": 436.06,
+   "s": 413.71,
+   "e": 426.15,
    "reveal": 10.69
   },
   {
@@ -634,16 +632,16 @@
    ],
    "label": "ACTIVIDAD 17",
    "title": "JOYERÍAS",
-   "s": 436.06,
-   "e": 438.65
+   "s": 426.15,
+   "e": 428.74
   },
   {
    "kind": "clip",
    "clips": [
     "m_joya1"
    ],
-   "s": 438.65,
-   "e": 446.37
+   "s": 428.74,
+   "e": 436.46
   },
   {
    "kind": "tier",
@@ -656,8 +654,8 @@
     "rank": "S",
     "thumb": "m_joya2"
    },
-   "s": 446.37,
-   "e": 458.02,
+   "s": 436.46,
+   "e": 448.11,
    "reveal": 9.9
   },
   {
@@ -668,16 +666,16 @@
    ],
    "label": "ACTIVIDAD 18",
    "title": "PERSECUCIONES",
-   "s": 458.02,
-   "e": 460.9
+   "s": 448.11,
+   "e": 450.99
   },
   {
    "kind": "clip",
    "clips": [
     "d_persecucion"
    ],
-   "s": 460.9,
-   "e": 467.09
+   "s": 450.99,
+   "e": 457.18
   },
   {
    "kind": "tier",
@@ -690,8 +688,8 @@
     "rank": "S",
     "thumb": "m_poli_flip"
    },
-   "s": 467.09,
-   "e": 479.6,
+   "s": 457.18,
+   "e": 469.69,
    "reveal": 10.76
   },
   {
@@ -703,38 +701,34 @@
    ],
    "label": "ACTIVIDAD 19",
    "title": "LAS MISIONES",
-   "s": 479.6,
-   "e": 484.06
+   "s": 469.69,
+   "e": 474.14
   },
   {
    "kind": "clip",
    "clips": [
     "d_raul"
    ],
-   "s": 484.06,
-   "e": 491.26
+   "s": 474.14,
+   "e": 481.34
   },
   {
-   "label": "AUDIO ORIGINAL",
    "kind": "clip",
    "clips": [
     "q_ladrillos"
    ],
-   "vol": 1.0,
-   "s": 491.26,
-   "e": 494.81,
-   "sfx": []
+   "label": "LO QUE DICE (DOBLADO)",
+   "s": 481.34,
+   "e": 484.38
   },
   {
-   "label": "AUDIO ORIGINAL",
    "kind": "clip",
    "clips": [
     "q_prueba"
    ],
-   "vol": 1.0,
-   "s": 495.01,
-   "e": 504.96,
-   "sfx": []
+   "label": "LO QUE DICE (DOBLADO)",
+   "s": 484.38,
+   "e": 492.59
   },
   {
    "kind": "tier",
@@ -747,8 +741,8 @@
     "rank": "S",
     "thumb": "d_tiro3"
    },
-   "s": 505.16,
-   "e": 521.43,
+   "s": 492.59,
+   "e": 508.86,
    "reveal": 14.52
   },
   {
@@ -764,8 +758,8 @@
     "Talleres de coches",
     "GTA Online"
    ],
-   "s": 521.43,
-   "e": 533.85
+   "s": 508.86,
+   "e": 521.28
   },
   {
    "kind": "board",
@@ -774,8 +768,8 @@
    ],
    "label": "RESULTADO FINAL",
    "title": "LA TIER LIST",
-   "s": 533.85,
-   "e": 544.22
+   "s": 521.28,
+   "e": 531.65
   },
   {
    "kind": "list",
@@ -789,8 +783,8 @@
     "Las persecuciones",
     "El paracaídas"
    ],
-   "s": 544.22,
-   "e": 554.31
+   "s": 531.65,
+   "e": 541.74
   },
   {
    "kind": "outro",
@@ -798,8 +792,8 @@
     "d_final"
    ],
    "title": "¿QUÉ CAMBIARÍAS TÚ?",
-   "s": 554.31,
-   "e": 567.28
+   "s": 541.74,
+   "e": 554.71
   }
  ],
  "captions": [
@@ -1054,122 +1048,126 @@
    "e": 380.71
   },
   {
-   "t": "«¡El reto del maletero!» … «¡Mira, nos persigue la poli de verdad!»",
-   "s": 381.04,
-   "e": 394.39
+   "t": "«¡El reto del maletero! … ¡Mira, nos persigue la poli de verdad!»",
+   "s": 380.94,
+   "e": 384.55
   },
   {
    "t": "Gente metiéndose en maleteros, grabándolo todo con el móvil y retransmitiendo en directo mientras les persigue la policía. Es la crítica a las redes sociales más GTA posible. A.",
-   "s": 394.89,
-   "e": 405.91
+   "s": 384.98,
+   "e": 395.99
   },
   {
    "t": "Y llegamos a la S. Solo quedan cuatro… y una de ellas va a dar mucho que hablar.",
-   "s": 407.26,
-   "e": 412.33
+   "s": 397.34,
+   "e": 402.42
   },
   {
    "t": "Decimosexta: saltar en paracaídas desde un rascacielos.",
-   "s": 412.56,
-   "e": 415.79
+   "s": 402.65,
+   "e": 405.88
   },
   {
    "t": "Antes del salto ves Vice City entera desde arriba: los canales, las islas, los rascacielos. El mapa se ve enorme.",
-   "s": 416.02,
-   "e": 423.44
+   "s": 406.11,
+   "e": 413.53
   },
   {
    "t": "Lucía corre por la azotea, salta al vacío y abre el paracaídas con toda Vice City debajo. Es, literalmente, el plano más bonito de todo el gameplay. S.",
-   "s": 423.87,
-   "e": 434.76
+   "s": 413.96,
+   "e": 424.85
   },
   {
    "t": "Decimoséptima: los golpes a joyerías.",
-   "s": 436.11,
-   "e": 438.47
+   "s": 426.2,
+   "e": 428.56
   },
   {
    "t": "Y lo mejor es que todo va seguido, sin pantallas de carga: entras, robas, sales, te subes a la moto y te pierdes en el tráfico.",
-   "s": 438.7,
-   "e": 446.19
+   "s": 428.79,
+   "e": 436.28
   },
   {
    "t": "Entrar en la joyería, salir con la bolsa y huir en moto entre el tráfico, todo en un solo plano. Rápido, tenso, y con muchísimo estilo. S.",
-   "s": 446.62,
-   "e": 456.72
+   "s": 436.71,
+   "e": 446.81
   },
   {
    "t": "Decimoctava: las persecuciones con la policía.",
-   "s": 458.07,
-   "e": 460.72
+   "s": 448.16,
+   "e": 450.81
   },
   {
    "t": "Fíjate arriba a la derecha: el nivel de búsqueda y la munición. La policía no te deja ni respirar.",
-   "s": 460.95,
-   "e": 466.91
+   "s": 451.04,
+   "e": 457.0
   },
   {
    "t": "Coches patrulla que te embisten, disparos desde la ventanilla, y un coche de policía volcando en mitad de la calle. Es el corazón de GTA, y se ve más brutal que nunca. S.",
-   "s": 467.34,
-   "e": 478.3
+   "s": 457.43,
+   "e": 468.39
   },
   {
    "t": "Y la última. La número diecinueve: las misiones de la historia.",
-   "s": 479.65,
-   "e": 483.88
+   "s": 469.74,
+   "e": 473.96
   },
   {
    "t": "Y lo mejor es cómo se cuentan: conversaciones naturales en el coche, cambios entre Jason y Lucía, y giros que no ves venir.",
-   "s": 484.11,
-   "e": 491.08
+   "s": 474.19,
+   "e": 481.16
   },
   {
-   "t": "«Tengo los ladrillos de Boobie.» «¡Que le den a Boobie!»",
-   "s": 491.41,
-   "e": 494.76
+   "t": "«Tengo los ladrillos de Boobie. ¡Que le den a Boobie!»",
+   "s": 481.39,
+   "e": 484.2
   },
   {
-   "t": "«¿Hemos pasado la prueba?» «Lo hicisteis bien. Seguís vivos. Esto podría ser el principio de algo bueno.»",
-   "s": 495.16,
-   "e": 504.91
+   "t": "«¿Hemos pasado la prueba? Lo hicisteis bien. Seguís vivos. Esto podría ser el principio de algo bueno.»",
+   "s": 484.43,
+   "e": 492.41
   },
   {
    "t": "Una redada de policías corruptos, una prueba para entrar en la banda de Raúl, una fiesta de millonarios que acaba a tiros. Cada misión parece una película. Y para mí, esto es lo mejor de todo GTA 6. S, sin discusión.",
-   "s": 505.41,
-   "e": 520.13
+   "s": 492.84,
+   "e": 507.56
   },
   {
    "t": "Y ojo, porque hay cosas que Rockstar todavía no ha enseñado en este gameplay: pilotar aviones, comprar negocios, personalizar coches en un taller, o el modo online. Cuando las veamos, actualizo la tabla.",
-   "s": 521.48,
-   "e": 533.67
+   "s": 508.91,
+   "e": 521.1
   },
   {
    "t": "Y así queda la tabla completa. Cuatro en la S, cinco en la A, cinco en la B, tres en la C y dos en la D. Lo más tranquilo abajo… y la acción, arriba del todo.",
-   "s": 533.9,
-   "e": 544.04
+   "s": 521.33,
+   "e": 531.47
   },
   {
    "t": "Y si tuviera que quedarme solo con tres: las misiones, las persecuciones y el salto en paracaídas. Tres cosas que, en este gameplay, ya parecen de otra generación.",
-   "s": 544.27,
-   "e": 554.13
+   "s": 531.7,
+   "e": 541.56
   },
   {
    "t": "¿Qué cambiarías tú? ¿Qué subirías a la S y qué bajarías a la D? Déjamelo en comentarios, que los leo todos. Y suscríbete, que vienen más vídeos de GTA 6.",
-   "s": 554.36,
-   "e": 565.6
+   "s": 541.79,
+   "e": 553.03
   }
  ],
  "voice": "gta6/audio/docB-voz.wav",
- "total": 567.28,
+ "total": 554.71,
  "clipLen": {
   "q_salte": 12.6,
+  "c_brian1": 14.5,
   "d_ascensor3": 23.0,
   "d_coche2": 40.0,
   "d_parking": 34.0,
   "d_carrusel": 73.0,
+  "c_callejon": 1.23,
   "d_noche": 8.0,
   "a_patinete": 3.5,
   "d_coche": 50.0,
+  "c_entrada": 3.9,
+  "c_dentro": 2.47,
   "d_grupo": 18.0,
   "d_lucia": 26.0,
   "d_raul": 35.0,
@@ -1197,6 +1195,7 @@
   "d_monitores": 12.0,
   "d_ascensor2": 15.0,
   "d_mensaje": 16.0,
+  "q_gloria2": 6.8,
   "d_torre": 7.0,
   "d_llamada": 32.0,
   "m_golpe2": 5.0,
@@ -1236,12 +1235,13 @@
   "d_jet": 14.0,
   "d_aeropuerto": 27.0,
   "d_mesa2": 23.0,
+  "c_saludo": 2.47,
   "d_tiro3": 42.0,
   "q_trunk": 13.4,
   "a_playa": 2.6,
   "q_bajarte": 7.8,
   "a_paracaidas": 9.7
  },
- "clipVolume": 0.12,
+ "clipVolume": 0,
  "brand": "TIER LIST · GTA VI"
 }

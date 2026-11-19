@@ -16,7 +16,7 @@ def dur(f): return float(subprocess.run(["ffprobe","-v","error","-show_entries",
 def silence(p, L): subprocess.run(["ffmpeg","-nostdin","-y","-v","error","-f","lavfi","-i","anullsrc=r=44100:cl=mono","-t",f"{max(L,0.01):.3f}",p],check=True)
 t = 0.0; scenes = []; caps = []; pieces = []; prev = 0.0
 for i, ln in enumerate(plan["lines"]):
-    sc = {k: v for k, v in ln.items() if k not in ("t", "play", "sub")}
+    sc = {k: v for k, v in ln.items() if k not in ("t", "play", "sub", "voice", "rate", "pitch", "dub")}
     if "play" in ln:
         L = dur(os.path.join(GP, ln["play"] + ".mp4"))
         s = t + 0.15; e = s + L
@@ -25,13 +25,13 @@ for i, ln in enumerate(plan["lines"]):
         scenes.append(sc); caps.append({"t": ln["sub"], "s": round(s, 2), "e": round(e - 0.05, 2)})
         t = e + 0.2; continue
     raw = os.path.join(tmp, f"{i}.mp3"); wav = os.path.join(tmp, f"{i}.wav"); key = os.path.join(tmp, f"{i}.txt")
-    if not (os.path.exists(wav) and os.path.exists(key) and open(key).read() == plan["rate"] + plan["pitch"] + ln["t"]):
-        cmd = ["edge-tts","--voice",plan["voice"],f"--rate={plan['rate']}",f"--pitch={plan['pitch']}","--text",ln["t"],"--write-media",raw]
+    if not (os.path.exists(wav) and os.path.exists(key) and open(key).read() == ln.get("voice","") + ln.get("rate",plan["rate"]) + ln.get("pitch",plan["pitch"]) + ln["t"]):
+        cmd = ["edge-tts","--voice",ln.get("voice",plan["voice"]),f"--rate={ln.get('rate',plan['rate'])}",f"--pitch={ln.get('pitch',plan['pitch'])}","--text",ln["t"],"--write-media",raw]
         if proxy: cmd[1:1] = ["--proxy", proxy]
         subprocess.run(cmd, check=True, capture_output=True)
         af = "silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse"
         subprocess.run(["ffmpeg","-nostdin","-y","-v","error","-i",raw,"-af",af,"-ar","44100","-ac","1",wav], check=True)
-        open(key, "w").write(plan["rate"] + plan["pitch"] + ln["t"])
+        open(key, "w").write(ln.get("voice","") + ln.get("rate",plan["rate"]) + ln.get("pitch",plan["pitch"]) + ln["t"])
     L = dur(wav)
     lead = 0.4 if ln.get("kind") == "chapter" else (0.25 if ln.get("kind") == "tier" else 0.05)
     s = t + lead
@@ -41,7 +41,7 @@ for i, ln in enumerate(plan["lines"]):
     sc.update(s=round(t, 2), e=round(e, 2))
     if ln.get("kind") == "tier": sc["reveal"] = round(lead + L - 0.35, 2)
     scenes.append(sc)
-    caps.append({"t": ln["t"], "s": round(s, 2), "e": round(s + L + 0.1, 2)})
+    caps.append({"t": ("«" + ln["t"] + "»") if ln.get("dub") else ln["t"], "s": round(s, 2), "e": round(s + L + 0.1, 2)})
     t = e
 # fill the voice track up to the end and add silence where clips play
 total = round(t + 1.5, 2); scenes[-1]["e"] = total
@@ -59,7 +59,7 @@ for sc in scenes:
     if tr and not os.path.exists(os.path.join(TH, tr["thumb"] + ".jpg")):
         src = os.path.join(GP, tr["thumb"] + ".mp4")
         subprocess.run(["ffmpeg","-nostdin","-y","-v","error","-ss",str(min(1.0, clip.get(tr["thumb"], 2) / 2)),"-i",src,"-frames:v","1","-vf","scale=320:180",os.path.join(TH, tr["thumb"] + ".jpg")], check=True)
-props = {"theme": plan["theme"], "scenes": scenes, "captions": caps, "voice": f"gta6/audio/{name}-voz.wav", "total": total, "clipLen": clip, "clipVolume": 0.12, "brand": plan.get("brand")}
+props = {"theme": plan["theme"], "scenes": scenes, "captions": caps, "voice": f"gta6/audio/{name}-voz.wav", "total": total, "clipLen": clip, "clipVolume": plan.get("clipVolume", 0.12), "brand": plan.get("brand")}
 json.dump(props, open(out_p, "w"), ensure_ascii=False, indent=1)
 m, s_ = divmod(int(total), 60)
 print(json.dumps({"out": out_p, "total": total, "mmss": f"{m}:{s_:02d}", "scenes": len(scenes)}))

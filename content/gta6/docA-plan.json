@@ -166,9 +166,16 @@
    ]
   },
   {
-   "play": "q_ernesto",
-   "sub": "«Mis amigos del grupo especial van de camino… Dejad que se lleven lo que quieran.»",
-   "label": "AUDIO ORIGINAL"
+   "t": "Mis amigos del grupo especial van de camino… Dejad que se lleven lo que quieran.",
+   "kind": "clip",
+   "clips": [
+    "q_ernesto"
+   ],
+   "label": "LO QUE DICE (DOBLADO)",
+   "voice": "es-MX-JorgeNeural",
+   "rate": "-4%",
+   "pitch": "-6Hz",
+   "dub": true
   },
   {
    "t": "Lo que está diciendo es que viene una redada… pero no para detener a nadie. Sus amigos del cuerpo vienen a llevarse la mercancía. Policías corruptos. En la primera misión.",
@@ -181,9 +188,16 @@
    "sub": "La redada es un robo"
   },
   {
-   "play": "q_redada",
-   "sub": "«¡Ray, es la poli! ¡Están por todas partes!»",
-   "label": "AUDIO ORIGINAL"
+   "t": "¡Ray, es la poli! ¡Están por todas partes!",
+   "kind": "clip",
+   "clips": [
+    "q_redada"
+   ],
+   "label": "LO QUE DICE (DOBLADO)",
+   "voice": "es-CO-GonzaloNeural",
+   "rate": "+12%",
+   "pitch": "+0Hz",
+   "dub": true
   },
   {
    "t": "Y empieza el tiroteo. Fíjate arriba a la derecha: el contador de munición, pequeño, sin llenar la pantalla.",
@@ -209,9 +223,16 @@
    ]
   },
   {
-   "play": "q_ladrillos",
-   "sub": "«Tengo los ladrillos de Boobie.» «¡Que le den a Boobie!»",
-   "label": "AUDIO ORIGINAL"
+   "t": "Tengo los ladrillos de Boobie. ¡Que le den a Boobie!",
+   "kind": "clip",
+   "clips": [
+    "q_ladrillos"
+   ],
+   "label": "LO QUE DICE (DOBLADO)",
+   "voice": "es-CO-GonzaloNeural",
+   "rate": "+8%",
+   "pitch": "+0Hz",
+   "dub": true
   },
   {
    "t": "Escapan con la mercancía de Boobie… y justo después pasa algo que no te esperas.",
@@ -394,14 +415,28 @@
    ]
   },
   {
-   "play": "q_salte",
-   "sub": "«Y salté. Jimmy se quedó… salió despedido y murió esa noche.»",
-   "label": "AUDIO ORIGINAL"
+   "t": "Y salté. Jimmy se quedó… salió despedido y murió esa noche.",
+   "kind": "clip",
+   "clips": [
+    "q_salte"
+   ],
+   "label": "LO QUE DICE (DOBLADO)",
+   "voice": "es-MX-JorgeNeural",
+   "rate": "-8%",
+   "pitch": "-10Hz",
+   "dub": true
   },
   {
-   "play": "q_bajarte",
-   "sub": "«Tienes que saber cuándo bajarte, Jason. ¿Me oyes?»",
-   "label": "AUDIO ORIGINAL"
+   "t": "Tienes que saber cuándo bajarte, Jason. ¿Me oyes?",
+   "kind": "clip",
+   "clips": [
+    "q_bajarte"
+   ],
+   "label": "LO QUE DICE (DOBLADO)",
+   "voice": "es-MX-JorgeNeural",
+   "rate": "-10%",
+   "pitch": "-10Hz",
+   "dub": true
   },
   {
    "t": "Esto no es una anécdota. Es un aviso. Brian le está diciendo a Jason que el mundo en el que se está metiendo va cada vez más rápido… y que el que no sabe bajarse a tiempo, acaba mal.",
@@ -494,9 +529,16 @@
    ]
   },
   {
-   "play": "q_profesional",
-   "sub": "«Siempre hay algún imprevisto. Un profesional se adapta. ¿Eres una profesional, Lucía?» «Claro.»",
-   "label": "AUDIO ORIGINAL"
+   "t": "Siempre hay algún imprevisto. Un profesional se adapta. ¿Eres una profesional, Lucía? Claro.",
+   "kind": "clip",
+   "clips": [
+    "q_profesional"
+   ],
+   "label": "LO QUE DICE (DOBLADO)",
+   "voice": "es-CL-LorenzoNeural",
+   "rate": "-4%",
+   "pitch": "-6Hz",
+   "dub": true
   },
   {
    "t": "Al final esconden el coche en un aparcamiento y cambian de vehículo.",
@@ -506,9 +548,16 @@
    ]
   },
   {
-   "play": "q_prueba",
-   "sub": "«¿Hemos pasado la prueba?» «Lo hicisteis bien. Seguís vivos. Esto podría ser el principio de algo bueno.»",
-   "label": "AUDIO ORIGINAL"
+   "t": "¿Hemos pasado la prueba? Lo hicisteis bien. Seguís vivos. Esto podría ser el principio de algo bueno.",
+   "kind": "clip",
+   "clips": [
+    "q_prueba"
+   ],
+   "label": "LO QUE DICE (DOBLADO)",
+   "voice": "es-CL-LorenzoNeural",
+   "rate": "-4%",
+   "pitch": "-6Hz",
+   "dub": true
   },
   {
    "t": "Era una prueba. Y la han pasado. Raúl les dice que tengan los móviles encendidos: Jason y Lucía acaban de entrar en su banda.",
@@ -586,9 +635,16 @@
    ]
   },
   {
-   "play": "q_trunk",
-   "sub": "«¡El reto del maletero!» … «¡Mira, nos persigue la poli de verdad!»",
-   "label": "AUDIO ORIGINAL"
+   "t": "¡El reto del maletero! … ¡Mira, nos persigue la poli de verdad!",
+   "kind": "clip",
+   "clips": [
+    "q_trunk"
+   ],
+   "label": "LO QUE DICE (DOBLADO)",
+   "voice": "es-CO-GonzaloNeural",
+   "rate": "+12%",
+   "pitch": "+4Hz",
+   "dub": true
   },
   {
    "t": "Y esto es lo más GTA del mundo: gente haciendo retos virales, grabándolo todo con el móvil, y retransmitiendo en directo mientras les persigue la policía. Una parodia de las redes sociales… y de Florida.",
@@ -618,9 +674,16 @@
    ]
   },
   {
-   "play": "q_trabajo",
-   "sub": "«El trabajo es Andrés de León. Protegedle, pero que no se desmadre. Subidle el ego.»",
-   "label": "AUDIO ORIGINAL"
+   "t": "El trabajo es Andrés de León. Protegedle, pero que no se desmadre. Subidle el ego.",
+   "kind": "clip",
+   "clips": [
+    "q_trabajo"
+   ],
+   "label": "LO QUE DICE (DOBLADO)",
+   "voice": "es-ES-ElviraNeural",
+   "rate": "+0%",
+   "pitch": "+0Hz",
+   "dub": true
   },
   {
    "t": "Jason y Lucía ahora son escoltas de Andrés de León, un tipo muy famoso… y con un ego enorme.",
@@ -726,9 +789,16 @@
    "title": "EL FINAL"
   },
   {
-   "play": "q_gloria",
-   "sub": "«Puede que no lo parezca, pero estos son tus días de gloria… Disfrútalo. Esto, ahora, es todo lo que hay.»",
-   "label": "AUDIO ORIGINAL"
+   "t": "Puede que no lo parezca, pero estos son tus días de gloria… Disfrútalo. Esto, ahora, es todo lo que hay.",
+   "kind": "clip",
+   "clips": [
+    "q_gloria"
+   ],
+   "label": "LO QUE DICE (DOBLADO)",
+   "voice": "es-CO-GonzaloNeural",
+   "rate": "-8%",
+   "pitch": "-6Hz",
+   "dub": true
   },
   {
    "t": "El gameplay termina con una piscina en lo alto de un rascacielos, el atardecer sobre Vice City… y esa frase.",
@@ -772,5 +842,6 @@
    "title": "¿QUÉ DETALLE TE HA SORPRENDIDO MÁS?",
    "sub": "Te leo en comentarios 👇"
   }
- ]
+ ],
+ "clipVolume": 0
 }

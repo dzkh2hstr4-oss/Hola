@@ -500,9 +500,16 @@
    ]
   },
   {
-   "play": "q_trunk",
-   "sub": "«¡El reto del maletero!» … «¡Mira, nos persigue la poli de verdad!»",
-   "label": "AUDIO ORIGINAL"
+   "t": "¡El reto del maletero! … ¡Mira, nos persigue la poli de verdad!",
+   "kind": "clip",
+   "clips": [
+    "q_trunk"
+   ],
+   "label": "LO QUE DICE (DOBLADO)",
+   "voice": "es-CO-GonzaloNeural",
+   "rate": "+12%",
+   "pitch": "+4Hz",
+   "dub": true
   },
   {
    "t": "Gente metiéndose en maleteros, grabándolo todo con el móvil y retransmitiendo en directo mientras les persigue la policía. Es la crítica a las redes sociales más GTA posible. A.",
@@ -635,14 +642,28 @@
    ]
   },
   {
-   "play": "q_ladrillos",
-   "sub": "«Tengo los ladrillos de Boobie.» «¡Que le den a Boobie!»",
-   "label": "AUDIO ORIGINAL"
+   "t": "Tengo los ladrillos de Boobie. ¡Que le den a Boobie!",
+   "kind": "clip",
+   "clips": [
+    "q_ladrillos"
+   ],
+   "label": "LO QUE DICE (DOBLADO)",
+   "voice": "es-CO-GonzaloNeural",
+   "rate": "+8%",
+   "pitch": "+0Hz",
+   "dub": true
   },
   {
-   "play": "q_prueba",
-   "sub": "«¿Hemos pasado la prueba?» «Lo hicisteis bien. Seguís vivos. Esto podría ser el principio de algo bueno.»",
-   "label": "AUDIO ORIGINAL"
+   "t": "¿Hemos pasado la prueba? Lo hicisteis bien. Seguís vivos. Esto podría ser el principio de algo bueno.",
+   "kind": "clip",
+   "clips": [
+    "q_prueba"
+   ],
+   "label": "LO QUE DICE (DOBLADO)",
+   "voice": "es-CL-LorenzoNeural",
+   "rate": "-4%",
+   "pitch": "-6Hz",
+   "dub": true
   },
   {
    "t": "Una redada de policías corruptos, una prueba para entrar en la banda de Raúl, una fiesta de millonarios que acaba a tiros. Cada misión parece una película. Y para mí, esto es lo mejor de todo GTA 6. S, sin discusión.",
@@ -705,5 +726,6 @@
    "title": "¿QUÉ CAMBIARÍAS TÚ?",
    "sub": "Te leo en comentarios 👇"
   }
- ]
+ ],
+ "clipVolume": 0
 }

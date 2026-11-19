@@ -177,15 +177,13 @@
    "e": 92.68
   },
   {
-   "label": "AUDIO ORIGINAL",
    "kind": "clip",
    "clips": [
     "q_ernesto"
    ],
-   "vol": 1.0,
+   "label": "LO QUE DICE (DOBLADO)",
    "s": 92.68,
-   "e": 104.13,
-   "sfx": []
+   "e": 98.0
   },
   {
    "kind": "panel",
@@ -194,19 +192,17 @@
    ],
    "label": "EL GIRO",
    "title": "POLICÍAS CORRUPTOS",
-   "s": 104.33,
-   "e": 115.86
+   "s": 98.0,
+   "e": 109.53
   },
   {
-   "label": "AUDIO ORIGINAL",
    "kind": "clip",
    "clips": [
     "q_redada"
    ],
-   "vol": 1.0,
-   "s": 115.86,
-   "e": 121.81,
-   "sfx": []
+   "label": "LO QUE DICE (DOBLADO)",
+   "s": 109.53,
+   "e": 112.68
   },
   {
    "kind": "clip",
@@ -222,35 +218,33 @@
      "text": "MUNICIÓN"
     }
    ],
-   "s": 122.01,
-   "e": 129.18
+   "s": 112.68,
+   "e": 119.85
   },
   {
    "kind": "clip",
    "clips": [
     "d_tiro2"
    ],
-   "s": 129.18,
-   "e": 135.86
+   "s": 119.85,
+   "e": 126.52
   },
   {
-   "label": "AUDIO ORIGINAL",
    "kind": "clip",
    "clips": [
     "q_ladrillos"
    ],
-   "vol": 1.0,
-   "s": 135.86,
-   "e": 139.41,
-   "sfx": []
+   "label": "LO QUE DICE (DOBLADO)",
+   "s": 126.52,
+   "e": 129.56
   },
   {
    "kind": "clip",
    "clips": [
     "d_huida"
    ],
-   "s": 139.61,
-   "e": 143.98
+   "s": 129.56,
+   "e": 133.93
   },
   {
    "kind": "clip",
@@ -259,8 +253,8 @@
    ],
    "label": "DETALLE",
    "title": "LOS CRÉDITOS INICIALES",
-   "s": 143.98,
-   "e": 151.49
+   "s": 133.93,
+   "e": 141.44
   },
   {
    "kind": "chapter",
@@ -270,24 +264,24 @@
    ],
    "label": "PARTE 02",
    "title": "LA VIDA EN CASA",
-   "s": 151.49,
-   "e": 154.93
+   "s": 141.44,
+   "e": 144.88
   },
   {
    "kind": "clip",
    "clips": [
     "d_ropa"
    ],
-   "s": 154.93,
-   "e": 162.11
+   "s": 144.88,
+   "e": 152.06
   },
   {
    "kind": "clip",
    "clips": [
     "d_cama"
    ],
-   "s": 162.11,
-   "e": 170.35
+   "s": 152.06,
+   "e": 160.3
   },
   {
    "kind": "clip",
@@ -296,8 +290,8 @@
    ],
    "label": "DETALLE",
    "title": "LA CASA SE RECORRE ENTERA",
-   "s": 170.35,
-   "e": 176.73
+   "s": 160.3,
+   "e": 166.68
   },
   {
    "kind": "clip",
@@ -306,8 +300,8 @@
    ],
    "label": "DETALLE",
    "title": "LA TELE FUNCIONA",
-   "s": 176.73,
-   "e": 189.56
+   "s": 166.68,
+   "e": 179.51
   },
   {
    "kind": "panel",
@@ -316,8 +310,8 @@
    ],
    "label": "LA CITA",
    "title": "BRIAN LOS ESPERA",
-   "s": 189.56,
-   "e": 197.22
+   "s": 179.51,
+   "e": 187.17
   },
   {
    "kind": "chapter",
@@ -327,8 +321,8 @@
    ],
    "label": "PARTE 03",
    "title": "VICE CITY DE DÍA",
-   "s": 197.22,
-   "e": 200.79
+   "s": 187.17,
+   "e": 190.74
   },
   {
    "kind": "clip",
@@ -344,24 +338,24 @@
      "text": "GPS"
     }
    ],
-   "s": 200.79,
-   "e": 209.69
+   "s": 190.74,
+   "e": 199.64
   },
   {
    "kind": "map",
    "map": "route",
    "label": "EN RUTA",
    "title": "LA AZOTEA DE BRIAN",
-   "s": 209.69,
-   "e": 216.22
+   "s": 199.64,
+   "e": 206.17
   },
   {
    "kind": "clip",
    "clips": [
     "d_coche"
    ],
-   "s": 216.22,
-   "e": 221.24
+   "s": 206.17,
+   "e": 211.19
   },
   {
    "kind": "panel",
@@ -370,40 +364,40 @@
    ],
    "label": "DETALLE",
    "title": "VUELVE SNAPMATIC",
-   "s": 221.24,
-   "e": 230.4
+   "s": 211.19,
+   "e": 220.35
   },
   {
    "kind": "clip",
    "clips": [
     "d_ascensor2"
    ],
-   "s": 230.4,
-   "e": 234.26
+   "s": 220.35,
+   "e": 224.21
   },
   {
    "kind": "clip",
    "clips": [
     "d_azotea"
    ],
-   "s": 234.26,
-   "e": 239.93
+   "s": 224.21,
+   "e": 229.87
   },
   {
    "kind": "clip",
    "clips": [
     "d_mesa2"
    ],
-   "s": 239.93,
-   "e": 247.47
+   "s": 229.87,
+   "e": 237.42
   },
   {
    "kind": "clip",
    "clips": [
     "d_mesa2"
    ],
-   "s": 247.47,
-   "e": 255.2
+   "s": 237.42,
+   "e": 245.15
   },
   {
    "kind": "panel",
@@ -412,8 +406,8 @@
    ],
    "label": "OJO",
    "title": "ESTA MISMA NOCHE",
-   "s": 255.2,
-   "e": 261.12
+   "s": 245.15,
+   "e": 251.07
   },
   {
    "kind": "chapter",
@@ -423,46 +417,42 @@
    ],
    "label": "PARTE 04",
    "title": "LA HISTORIA DEL CARRUSEL",
-   "s": 261.12,
-   "e": 264.85
+   "s": 251.07,
+   "e": 254.8
   },
   {
    "kind": "clip",
    "clips": [
     "d_carrusel"
    ],
-   "s": 264.85,
-   "e": 272.76
+   "s": 254.8,
+   "e": 262.7
   },
   {
    "kind": "clip",
    "clips": [
     "d_carrusel"
    ],
-   "s": 272.76,
-   "e": 283.1
+   "s": 262.7,
+   "e": 273.05
   },
   {
-   "label": "AUDIO ORIGINAL",
    "kind": "clip",
    "clips": [
     "q_salte"
    ],
-   "vol": 1.0,
-   "s": 283.1,
-   "e": 295.85,
-   "sfx": []
+   "label": "LO QUE DICE (DOBLADO)",
+   "s": 273.05,
+   "e": 278.46
   },
   {
-   "label": "AUDIO ORIGINAL",
    "kind": "clip",
    "clips": [
     "q_bajarte"
    ],
-   "vol": 1.0,
-   "s": 296.05,
-   "e": 304.0,
-   "sfx": []
+   "label": "LO QUE DICE (DOBLADO)",
+   "s": 278.46,
+   "e": 282.99
   },
   {
    "kind": "panel",
@@ -471,8 +461,8 @@
    ],
    "label": "TEORÍA",
    "title": "ES UN AVISO",
-   "s": 304.2,
-   "e": 315.7
+   "s": 282.99,
+   "e": 294.49
   },
   {
    "kind": "quote",
@@ -484,8 +474,8 @@
     "img": "brian_heder_02",
     "text": "Tienes que saber cuándo bajarte."
    },
-   "s": 315.7,
-   "e": 321.93
+   "s": 294.49,
+   "e": 300.71
   },
   {
    "kind": "chapter",
@@ -495,40 +485,40 @@
    ],
    "label": "PARTE 05",
    "title": "LA PRUEBA DE RAÚL",
-   "s": 321.93,
-   "e": 325.52
+   "s": 300.71,
+   "e": 304.31
   },
   {
    "kind": "clip",
    "clips": [
     "d_coche2"
    ],
-   "s": 325.52,
-   "e": 333.13
+   "s": 304.31,
+   "e": 311.92
   },
   {
    "kind": "clip",
    "clips": [
     "d_coche2"
    ],
-   "s": 333.13,
-   "e": 341.59
+   "s": 311.92,
+   "e": 320.38
   },
   {
    "kind": "clip",
    "clips": [
     "d_coche2"
    ],
-   "s": 341.59,
-   "e": 352.24
+   "s": 320.38,
+   "e": 331.03
   },
   {
    "kind": "clip",
    "clips": [
     "d_raul"
    ],
-   "s": 352.24,
-   "e": 356.58
+   "s": 331.03,
+   "e": 335.37
   },
   {
    "kind": "clip",
@@ -544,54 +534,50 @@
      "text": "NIVEL DE BÚSQUEDA"
     }
    ],
-   "s": 356.58,
-   "e": 362.79
+   "s": 335.37,
+   "e": 341.58
   },
   {
    "kind": "map",
    "map": "chase",
    "label": "PERSECUCIÓN",
    "title": "LA POLICÍA DE GTA 6",
-   "s": 362.79,
-   "e": 368.99
+   "s": 341.58,
+   "e": 347.78
   },
   {
    "kind": "clip",
    "clips": [
     "d_lucia"
    ],
-   "s": 368.99,
-   "e": 373.03
+   "s": 347.78,
+   "e": 351.82
   },
   {
-   "label": "AUDIO ORIGINAL",
    "kind": "clip",
    "clips": [
     "q_profesional"
    ],
-   "vol": 1.0,
-   "s": 373.03,
-   "e": 384.58,
-   "sfx": []
+   "label": "LO QUE DICE (DOBLADO)",
+   "s": 351.82,
+   "e": 359.63
   },
   {
    "kind": "clip",
    "clips": [
     "d_parking"
    ],
-   "s": 384.78,
-   "e": 388.19
+   "s": 359.63,
+   "e": 363.03
   },
   {
-   "label": "AUDIO ORIGINAL",
    "kind": "clip",
    "clips": [
     "q_prueba"
    ],
-   "vol": 1.0,
-   "s": 388.19,
-   "e": 398.14,
-   "sfx": []
+   "label": "LO QUE DICE (DOBLADO)",
+   "s": 363.03,
+   "e": 371.24
   },
   {
    "kind": "panel",
@@ -600,8 +586,8 @@
    ],
    "label": "CLAVE",
    "title": "ENTRAN EN LA BANDA",
-   "s": 398.34,
-   "e": 407.01
+   "s": 371.24,
+   "e": 379.91
   },
   {
    "kind": "chapter",
@@ -611,8 +597,8 @@
    ],
    "label": "PARTE 06",
    "title": "MUNDO ABIERTO",
-   "s": 407.01,
-   "e": 410.48
+   "s": 379.91,
+   "e": 383.38
   },
   {
    "kind": "clip",
@@ -620,8 +606,8 @@
     "a_selfie",
     "a_patinete"
    ],
-   "s": 410.48,
-   "e": 416.38
+   "s": 383.38,
+   "e": 389.28
   },
   {
    "kind": "cards",
@@ -631,8 +617,8 @@
     "a_paracaidas"
    ],
    "label": "ACTIVIDADES",
-   "s": 416.38,
-   "e": 422.22
+   "s": 389.28,
+   "e": 395.12
   },
   {
    "kind": "cards",
@@ -642,8 +628,8 @@
     "a_gym"
    ],
    "label": "MÁS ACTIVIDADES",
-   "s": 422.22,
-   "e": 425.77
+   "s": 395.12,
+   "e": 398.67
   },
   {
    "kind": "cards",
@@ -653,8 +639,8 @@
     "a_mar"
    ],
    "label": "Y MÁS",
-   "s": 425.77,
-   "e": 430.64
+   "s": 398.67,
+   "e": 403.54
   },
   {
    "kind": "clip",
@@ -663,8 +649,8 @@
    ],
    "label": "DETALLE",
    "title": "CARRERAS CALLEJERAS",
-   "s": 430.64,
-   "e": 435.5
+   "s": 403.54,
+   "e": 408.4
   },
   {
    "kind": "clip",
@@ -672,19 +658,17 @@
     "m_joya1",
     "m_joya2"
    ],
-   "s": 435.5,
-   "e": 438.83
+   "s": 408.4,
+   "e": 411.73
   },
   {
-   "label": "AUDIO ORIGINAL",
    "kind": "clip",
    "clips": [
     "q_trunk"
    ],
-   "vol": 1.0,
-   "s": 438.83,
-   "e": 452.38,
-   "sfx": []
+   "label": "LO QUE DICE (DOBLADO)",
+   "s": 411.73,
+   "e": 415.57
   },
   {
    "kind": "panel",
@@ -693,8 +677,8 @@
    ],
    "label": "DETALLE",
    "title": "RETOS VIRALES",
-   "s": 452.58,
-   "e": 464.72
+   "s": 415.57,
+   "e": 427.7
   },
   {
    "kind": "chapter",
@@ -704,27 +688,25 @@
    ],
    "label": "PARTE 07",
    "title": "LA FIESTA DE MEGAMUNDO",
-   "s": 464.72,
-   "e": 468.48
+   "s": 427.7,
+   "e": 431.46
   },
   {
    "kind": "clip",
    "clips": [
     "d_aeropuerto"
    ],
-   "s": 468.48,
-   "e": 474.48
+   "s": 431.46,
+   "e": 437.47
   },
   {
-   "label": "AUDIO ORIGINAL",
    "kind": "clip",
    "clips": [
     "q_trabajo"
    ],
-   "vol": 1.0,
-   "s": 474.48,
-   "e": 487.43,
-   "sfx": []
+   "label": "LO QUE DICE (DOBLADO)",
+   "s": 437.47,
+   "e": 444.2
   },
   {
    "kind": "clip",
@@ -733,8 +715,8 @@
    ],
    "label": "EL TRABAJO",
    "title": "ESCOLTAS",
-   "s": 487.63,
-   "e": 492.84
+   "s": 444.2,
+   "e": 449.41
   },
   {
    "kind": "clip",
@@ -743,8 +725,8 @@
    ],
    "label": "DETALLE",
    "title": "UN EGO ENORME",
-   "s": 492.84,
-   "e": 500.45
+   "s": 449.41,
+   "e": 457.02
   },
   {
    "kind": "clip",
@@ -752,16 +734,16 @@
     "d_cochenoche",
     "d_torre"
    ],
-   "s": 500.45,
-   "e": 504.39
+   "s": 457.02,
+   "e": 460.96
   },
   {
    "kind": "clip",
    "clips": [
     "d_fiesta"
    ],
-   "s": 504.39,
-   "e": 515.37
+   "s": 460.96,
+   "e": 471.93
   },
   {
    "kind": "clip",
@@ -769,24 +751,24 @@
     "d_ascensor3",
     "d_oficina"
    ],
-   "s": 515.37,
-   "e": 522.63
+   "s": 471.93,
+   "e": 479.19
   },
   {
    "kind": "clip",
    "clips": [
     "d_oficina"
    ],
-   "s": 522.63,
-   "e": 532.04
+   "s": 479.19,
+   "e": 488.61
   },
   {
    "kind": "clip",
    "clips": [
     "d_discurso"
    ],
-   "s": 532.04,
-   "e": 534.84
+   "s": 488.61,
+   "e": 491.41
   },
   {
    "kind": "clip",
@@ -801,8 +783,8 @@
      "v": 0.6
     }
    ],
-   "s": 534.84,
-   "e": 539.92
+   "s": 491.41,
+   "e": 496.48
   },
   {
    "kind": "clip",
@@ -818,16 +800,16 @@
      "text": "MENSAJE DE LUCÍA"
     }
    ],
-   "s": 539.92,
-   "e": 548.22
+   "s": 496.48,
+   "e": 504.78
   },
   {
    "kind": "clip",
    "clips": [
     "d_tiro3"
    ],
-   "s": 548.22,
-   "e": 553.16
+   "s": 504.78,
+   "e": 509.72
   },
   {
    "kind": "chapter",
@@ -837,27 +819,25 @@
    ],
    "label": "PARTE 08",
    "title": "EL FINAL",
-   "s": 553.16,
-   "e": 556.23
+   "s": 509.72,
+   "e": 512.79
   },
   {
-   "label": "AUDIO ORIGINAL",
    "kind": "clip",
    "clips": [
     "q_gloria"
    ],
-   "vol": 1.0,
-   "s": 556.23,
-   "e": 572.38,
-   "sfx": []
+   "label": "LO QUE DICE (DOBLADO)",
+   "s": 512.79,
+   "e": 521.09
   },
   {
    "kind": "clip",
    "clips": [
     "d_final"
    ],
-   "s": 572.58,
-   "e": 578.55
+   "s": 521.09,
+   "e": 527.07
   },
   {
    "kind": "panel",
@@ -866,8 +846,8 @@
    ],
    "label": "MI LECTURA",
    "title": "DÍAS DE GLORIA",
-   "s": 578.55,
-   "e": 587.11
+   "s": 527.07,
+   "e": 535.62
   },
   {
    "kind": "list",
@@ -883,8 +863,8 @@
     "Retos virales en la calle",
     "La fiesta que acaba a tiros"
    ],
-   "s": 587.11,
-   "e": 597.2
+   "s": 535.62,
+   "e": 545.71
   },
   {
    "kind": "outro",
@@ -892,8 +872,8 @@
     "d_final"
    ],
    "title": "¿QUÉ DETALLE TE HA SORPRENDIDO MÁS?",
-   "s": 597.2,
-   "e": 608.65
+   "s": 545.71,
+   "e": 557.17
   }
  ],
  "captions": [
@@ -979,371 +959,375 @@
   },
   {
    "t": "«Mis amigos del grupo especial van de camino… Dejad que se lleven lo que quieran.»",
-   "s": 92.83,
-   "e": 104.08
+   "s": 92.73,
+   "e": 97.82
   },
   {
    "t": "Lo que está diciendo es que viene una redada… pero no para detener a nadie. Sus amigos del cuerpo vienen a llevarse la mercancía. Policías corruptos. En la primera misión.",
-   "s": 104.38,
-   "e": 115.68
+   "s": 98.05,
+   "e": 109.35
   },
   {
    "t": "«¡Ray, es la poli! ¡Están por todas partes!»",
-   "s": 116.01,
-   "e": 121.76
+   "s": 109.58,
+   "e": 112.5
   },
   {
    "t": "Y empieza el tiroteo. Fíjate arriba a la derecha: el contador de munición, pequeño, sin llenar la pantalla.",
-   "s": 122.06,
-   "e": 129.0
+   "s": 112.73,
+   "e": 119.67
   },
   {
    "t": "Las coberturas funcionan como en un juego de acción moderno: Jason se pega a las paredes, asoma, dispara y avanza.",
-   "s": 129.23,
-   "e": 135.68
+   "s": 119.9,
+   "e": 126.34
   },
   {
-   "t": "«Tengo los ladrillos de Boobie.» «¡Que le den a Boobie!»",
-   "s": 136.01,
-   "e": 139.36
+   "t": "«Tengo los ladrillos de Boobie. ¡Que le den a Boobie!»",
+   "s": 126.57,
+   "e": 129.38
   },
   {
    "t": "Escapan con la mercancía de Boobie… y justo después pasa algo que no te esperas.",
-   "s": 139.66,
-   "e": 143.8
+   "s": 129.61,
+   "e": 133.75
   },
   {
    "t": "Aparecen los créditos: Rockstar Games presenta. La primera misión es, literalmente, el prólogo de una película.",
-   "s": 144.03,
-   "e": 151.31
+   "s": 133.98,
+   "e": 141.26
   },
   {
    "t": "Parte dos. La vida en casa.",
-   "s": 151.89,
-   "e": 154.43
+   "s": 141.84,
+   "e": 144.38
   },
   {
    "t": "Siguiente escena: el piso de Lucía. Jason le ha comprado ropa, y ella le suelta que puede comprarse la suya.",
-   "s": 154.98,
-   "e": 161.93
+   "s": 144.93,
+   "e": 151.88
   },
   {
    "t": "Lucía tumbada en la cama mirando el móvil, Jason eligiendo qué ponerse. Escenas tranquilas, de pareja normal… que roba para vivir.",
-   "s": 162.16,
-   "e": 170.17
+   "s": 152.11,
+   "e": 160.12
   },
   {
    "t": "Y el piso se recorre entero: la cocina con la nevera llena de notas, el salón, el baño con el espejo de luces.",
-   "s": 170.4,
-   "e": 176.55
+   "s": 160.35,
+   "e": 166.5
   },
   {
    "t": "Y mira la tele: está encendida y van pasando anuncios y programas. Una pastilla que promete sacarte de la desesperación, un documental de naturaleza, y un anuncio de hamburguesas. El humor de Rockstar de siempre.",
-   "s": 176.78,
-   "e": 189.38
+   "s": 166.73,
+   "e": 179.33
   },
   {
    "t": "Pero tienen prisa: Brian, el traficante veterano de los Cayos, los ha invitado a tomar algo. Y no quieren llegar tarde.",
-   "s": 189.61,
-   "e": 197.04
+   "s": 179.56,
+   "e": 186.99
   },
   {
    "t": "Parte tres. Vice City de día.",
-   "s": 197.62,
-   "e": 200.29
+   "s": 187.57,
+   "e": 190.24
   },
   {
    "t": "Y aquí ves por primera vez Vice City de día, a los mandos de un descapotable rojo. Abajo a la izquierda, el minimapa con la ruta marcada en rosa.",
-   "s": 200.84,
-   "e": 209.51
+   "s": 190.79,
+   "e": 199.46
   },
   {
    "t": "Por el camino, Jason va nervioso. Brian les va a presentar a alguien importante… y llegan tarde.",
-   "s": 209.74,
-   "e": 216.04
+   "s": 199.69,
+   "e": 205.99
   },
   {
    "t": "Y en la conversación sale un detalle buenísimo: el Snapmatic de Lori, la mujer de Brian.",
-   "s": 216.27,
-   "e": 221.06
+   "s": 206.22,
+   "e": 211.01
   },
   {
    "t": "Snapmatic, la red social que ya conocíamos de GTA 5, vuelve. Y no es decorado: los personajes la usan para cotillear la vida de los demás.",
-   "s": 221.29,
-   "e": 230.22
+   "s": 211.24,
+   "e": 220.17
   },
   {
    "t": "Suben en ascensor hasta un bar en una azotea, con vistas a toda la ciudad.",
-   "s": 230.45,
-   "e": 234.08
+   "s": 220.4,
+   "e": 224.03
   },
   {
    "t": "Y fíjate en la cantidad de gente: cada mesa con su conversación, cada persona con su ropa y su pose.",
-   "s": 234.31,
-   "e": 239.75
+   "s": 224.26,
+   "e": 229.69
   },
   {
    "t": "Allí están Brian y Lori. Y Lori se alegra muchísimo de verlos… porque le había dicho a Brian que seguro que estaban los dos muertos.",
-   "s": 239.98,
-   "e": 247.29
+   "s": 229.92,
+   "e": 237.24
   },
   {
    "t": "Lori le pide un abrazo a Lucía y quiere saberlo todo: «¿En qué lío os habéis metido ahora?». Se nota que se conocen de hace tiempo.",
-   "s": 247.52,
-   "e": 255.02
+   "s": 237.47,
+   "e": 244.97
   },
   {
    "t": "Y en la mesa se habla de un trabajo que tiene que hacerse esa misma noche… y para el que solo quieren a uno de los dos.",
-   "s": 255.25,
-   "e": 260.94
+   "s": 245.2,
+   "e": 250.89
   },
   {
    "t": "Parte cuatro. La historia del carrusel.",
-   "s": 261.52,
-   "e": 264.35
+   "s": 251.47,
+   "e": 254.3
   },
   {
    "t": "Y aquí viene mi parte favorita. Brian se lleva a Jason aparte, con la ciudad de fondo, y le cuenta una historia de cuando era niño.",
-   "s": 264.9,
-   "e": 272.58
+   "s": 254.85,
+   "e": 262.52
   },
   {
    "t": "Una feria llegó a su pueblo. Una noche se colaron con un amigo, encendieron el carrusel… y lo pusieron cada vez más rápido. Tan rápido que costaba agarrarse.",
-   "s": 272.81,
-   "e": 282.92
+   "s": 262.75,
+   "e": 272.87
   },
   {
    "t": "«Y salté. Jimmy se quedó… salió despedido y murió esa noche.»",
-   "s": 283.25,
-   "e": 295.8
+   "s": 273.1,
+   "e": 278.28
   },
   {
    "t": "«Tienes que saber cuándo bajarte, Jason. ¿Me oyes?»",
-   "s": 296.2,
-   "e": 303.95
+   "s": 278.51,
+   "e": 282.81
   },
   {
    "t": "Esto no es una anécdota. Es un aviso. Brian le está diciendo a Jason que el mundo en el que se está metiendo va cada vez más rápido… y que el que no sabe bajarse a tiempo, acaba mal.",
-   "s": 304.25,
-   "e": 315.52
+   "s": 283.04,
+   "e": 294.31
   },
   {
    "t": "Y conociendo a Rockstar, esta frase va a volver a salir más adelante en la historia. Apúntatela.",
-   "s": 315.75,
-   "e": 321.75
+   "s": 294.54,
+   "e": 300.53
   },
   {
    "t": "Parte cinco. La prueba de Raúl.",
-   "s": 322.33,
-   "e": 325.02
+   "s": 301.11,
+   "e": 303.81
   },
   {
    "t": "Después, Jason y Lucía tienen que llevarle un coche a un tal Raúl. Raúl Bautista, el atracador de bancos veterano.",
-   "s": 325.57,
-   "e": 332.95
+   "s": 304.36,
+   "e": 311.74
   },
   {
    "t": "En el camino discuten si contarle sus problemas. Deciden ir con calma: saludar, entregar el coche, cobrar… y ya veremos.",
-   "s": 333.18,
-   "e": 341.41
+   "s": 311.97,
+   "e": 320.2
   },
   {
    "t": "Y fíjate en cómo hablan: discuten, se pican, se ríen… En un momento, Jason le suelta a Lucía que es la criminal perfecta. Parecen una pareja de verdad.",
-   "s": 341.64,
-   "e": 352.06
+   "s": 320.43,
+   "e": 330.85
   },
   {
    "t": "Pero Raúl se sube al coche con prisas… y la entrega se convierte en una huida.",
-   "s": 352.29,
-   "e": 356.4
+   "s": 331.08,
+   "e": 335.19
   },
   {
    "t": "Y llega la persecución. Arriba a la derecha, el nivel de búsqueda, como siempre en la saga.",
-   "s": 356.63,
-   "e": 362.61
+   "s": 335.42,
+   "e": 341.4
   },
   {
    "t": "Los coches patrulla te persiguen y te embisten sin parar, y Jason dispara desde la ventanilla para quitárselos de encima.",
-   "s": 362.84,
-   "e": 368.81
+   "s": 341.63,
+   "e": 347.6
   },
   {
    "t": "Y en mitad de la huida, Raúl suelta la frase que define a este personaje.",
-   "s": 369.04,
-   "e": 372.85
+   "s": 347.83,
+   "e": 351.64
   },
   {
-   "t": "«Siempre hay algún imprevisto. Un profesional se adapta. ¿Eres una profesional, Lucía?» «Claro.»",
-   "s": 373.18,
-   "e": 384.53
+   "t": "«Siempre hay algún imprevisto. Un profesional se adapta. ¿Eres una profesional, Lucía? Claro.»",
+   "s": 351.87,
+   "e": 359.45
   },
   {
    "t": "Al final esconden el coche en un aparcamiento y cambian de vehículo.",
-   "s": 384.83,
-   "e": 388.01
+   "s": 359.68,
+   "e": 362.85
   },
   {
-   "t": "«¿Hemos pasado la prueba?» «Lo hicisteis bien. Seguís vivos. Esto podría ser el principio de algo bueno.»",
-   "s": 388.34,
-   "e": 398.09
+   "t": "«¿Hemos pasado la prueba? Lo hicisteis bien. Seguís vivos. Esto podría ser el principio de algo bueno.»",
+   "s": 363.08,
+   "e": 371.06
   },
   {
    "t": "Era una prueba. Y la han pasado. Raúl les dice que tengan los móviles encendidos: Jason y Lucía acaban de entrar en su banda.",
-   "s": 398.39,
-   "e": 406.83
+   "s": 371.29,
+   "e": 379.73
   },
   {
    "t": "Parte seis. El mundo abierto.",
-   "s": 407.41,
-   "e": 409.98
+   "s": 380.31,
+   "e": 382.88
   },
   {
    "t": "Después, el juego te suelta en Bayside y te deja hacer lo que quieras. Y esto es lo que se ve.",
-   "s": 410.53,
-   "e": 416.2
+   "s": 383.43,
+   "e": 389.1
   },
   {
    "t": "Carreras en circuito con cronómetro, motocross por la montaña, saltos en paracaídas desde rascacielos…",
-   "s": 416.43,
-   "e": 422.04
+   "s": 389.33,
+   "e": 394.94
   },
   {
    "t": "Hidrodeslizador por los pantanos, kayak, gimnasio…",
-   "s": 422.27,
-   "e": 425.59
+   "s": 395.17,
+   "e": 398.49
   },
   {
    "t": "Playas llenas de gente, discotecas con cola en la puerta, saltos al mar desde un muelle…",
-   "s": 425.82,
-   "e": 430.46
+   "s": 398.72,
+   "e": 403.36
   },
   {
    "t": "Y carreras callejeras de noche, con coches tuneados y un contador de progreso en pantalla.",
-   "s": 430.69,
-   "e": 435.32
+   "s": 403.59,
+   "e": 408.22
   },
   {
    "t": "También atracos rápidos a joyerías, con la huida en moto.",
-   "s": 435.55,
-   "e": 438.65
+   "s": 408.45,
+   "e": 411.55
   },
   {
-   "t": "«¡El reto del maletero!» … «¡Mira, nos persigue la poli de verdad!»",
-   "s": 438.98,
-   "e": 452.33
+   "t": "«¡El reto del maletero! … ¡Mira, nos persigue la poli de verdad!»",
+   "s": 411.78,
+   "e": 415.39
   },
   {
    "t": "Y esto es lo más GTA del mundo: gente haciendo retos virales, grabándolo todo con el móvil, y retransmitiendo en directo mientras les persigue la policía. Una parodia de las redes sociales… y de Florida.",
-   "s": 452.63,
-   "e": 464.54
+   "s": 415.62,
+   "e": 427.52
   },
   {
    "t": "Parte siete. La fiesta de MegaMundo.",
-   "s": 465.12,
-   "e": 467.98
+   "s": 428.1,
+   "e": 430.96
   },
   {
    "t": "La última misión empieza en la sala VIP de un aeropuerto. Les ofrecen té, café o champán.",
-   "s": 468.53,
-   "e": 474.3
+   "s": 431.51,
+   "e": 437.29
   },
   {
    "t": "«El trabajo es Andrés de León. Protegedle, pero que no se desmadre. Subidle el ego.»",
-   "s": 474.63,
-   "e": 487.38
+   "s": 437.52,
+   "e": 444.02
   },
   {
    "t": "Jason y Lucía ahora son escoltas de Andrés de León, un tipo muy famoso… y con un ego enorme.",
-   "s": 487.68,
-   "e": 492.66
+   "s": 444.25,
+   "e": 449.23
   },
   {
    "t": "Y Andrés es justo lo que parece. Lo primero que pregunta al bajar del avión es si las azafatas han firmado un acuerdo de confidencialidad.",
-   "s": 492.89,
-   "e": 500.27
+   "s": 449.46,
+   "e": 456.84
   },
   {
    "t": "De ahí, en un todoterreno negro, a una fiesta por todo lo alto.",
-   "s": 500.5,
-   "e": 504.21
+   "s": 457.07,
+   "e": 460.78
   },
   {
    "t": "Es la inauguración de la primera sede en Estados Unidos de MegaMundo, una gran empresa. Globos, invitados VIP… y un detalle: en la entrada, la seguridad le quita las armas a Jason.",
-   "s": 504.44,
-   "e": 515.19
+   "s": 461.01,
+   "e": 471.75
   },
   {
    "t": "Andrés se encierra en la sala de conferencias del piso veinticuatro con unos amigos productores, a hablar de su… hoja de ruta creativa.",
-   "s": 515.42,
-   "e": 522.45
+   "s": 471.98,
+   "e": 479.01
   },
   {
    "t": "Le avisan de que abajo va a empezar el discurso y que el CEO quiere verle. Y su respuesta es que ni hablar: que está en racha y que se le están ocurriendo un montón de ideas.",
-   "s": 522.68,
-   "e": 531.86
+   "s": 479.24,
+   "e": 488.43
   },
   {
    "t": "Y mientras abajo empieza el discurso de inauguración…",
-   "s": 532.09,
-   "e": 534.66
+   "s": 488.66,
+   "e": 491.23
   },
   {
    "t": "Todo se tuerce. Entran hombres armados, con monos blancos y mascarillas.",
-   "s": 534.89,
-   "e": 539.74
+   "s": 491.46,
+   "e": 496.3
   },
   {
    "t": "Y aquí otro detalle: los mensajes del móvil aparecen en pantalla en plena acción. Lucía le escribe a Jason que hay tíos por todas partes.",
-   "s": 539.97,
-   "e": 548.04
+   "s": 496.53,
+   "e": 504.6
   },
   {
    "t": "Y Jason tiene que abrirse paso por las oficinas a oscuras, a tiros, para salir de allí.",
-   "s": 548.27,
-   "e": 552.98
+   "s": 504.83,
+   "e": 509.54
   },
   {
    "t": "Parte ocho. El final.",
-   "s": 553.56,
-   "e": 555.73
+   "s": 510.12,
+   "e": 512.29
   },
   {
    "t": "«Puede que no lo parezca, pero estos son tus días de gloria… Disfrútalo. Esto, ahora, es todo lo que hay.»",
-   "s": 556.38,
-   "e": 572.33
+   "s": 512.84,
+   "e": 520.91
   },
   {
    "t": "El gameplay termina con una piscina en lo alto de un rascacielos, el atardecer sobre Vice City… y esa frase.",
-   "s": 572.63,
-   "e": 578.37
+   "s": 521.14,
+   "e": 526.89
   },
   {
    "t": "Y si lo juntas con la historia del carrusel, el mensaje está bastante claro: Jason y Lucía están en su mejor momento… justo antes de que todo se venga abajo.",
-   "s": 578.6,
-   "e": 586.93
+   "s": 527.12,
+   "e": 535.44
   },
   {
    "t": "Resumiendo: policías corruptos desde la primera misión, un aviso de Brian, una prueba de Raúl, un mundo abierto lleno de redes sociales… y un trabajo de escoltas que acaba a tiros.",
-   "s": 587.16,
-   "e": 597.02
+   "s": 535.67,
+   "e": 545.53
   },
   {
    "t": "Y ahora dime tú: ¿qué detalle te ha sorprendido más? Te leo en comentarios. Suscríbete si quieres más análisis de GTA 6… y nos vemos en Leonida.",
-   "s": 597.25,
-   "e": 606.97
+   "s": 545.76,
+   "e": 555.49
   }
  ],
  "voice": "gta6/audio/docA-voz.wav",
- "total": 608.65,
+ "total": 557.17,
  "clipLen": {
   "q_salte": 12.6,
+  "c_brian1": 14.5,
   "d_ascensor3": 23.0,
   "d_coche2": 40.0,
   "d_parking": 34.0,
   "d_carrusel": 73.0,
+  "c_callejon": 1.23,
   "d_noche": 8.0,
   "a_patinete": 3.5,
   "d_coche": 50.0,
+  "c_entrada": 3.9,
+  "c_dentro": 2.47,
   "d_grupo": 18.0,
   "d_lucia": 26.0,
   "d_raul": 35.0,
@@ -1371,6 +1355,7 @@
   "d_monitores": 12.0,
   "d_ascensor2": 15.0,
   "d_mensaje": 16.0,
+  "q_gloria2": 6.8,
   "d_torre": 7.0,
   "d_llamada": 32.0,
   "m_golpe2": 5.0,
@@ -1410,12 +1395,13 @@
   "d_jet": 14.0,
   "d_aeropuerto": 27.0,
   "d_mesa2": 23.0,
+  "c_saludo": 2.47,
   "d_tiro3": 42.0,
   "q_trunk": 13.4,
   "a_playa": 2.6,
   "q_bajarte": 7.8,
   "a_paracaidas": 9.7
  },
- "clipVolume": 0.12,
+ "clipVolume": 0,
  "brand": "ANÁLISIS · GTA VI"
 }
