@@ -1,4 +1,6 @@
 import { Composition } from "remotion";
+import { GTA6Short, GTA6Props, gta6Duration } from "./GTA6/GTA6Short";
+import short1 from "../content/gta6/short1.json";
 import { Anuncio, ANUNCIO_DURATION } from "./Anuncio/Anuncio";
 import { QP_DURATION, QuePrefieres } from "./QuePrefieres/QuePrefieres";
 import { defaultReelProps, Reel, ReelProps } from "./Reel/Reel";
@@ -10,6 +12,16 @@ import { Video2 } from "./Lumora/Video2";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="GTA6Short"
+        component={GTA6Short}
+        durationInFrames={300}
+        fps={FPS}
+        width={W}
+        height={H}
+        defaultProps={short1 as unknown as GTA6Props}
+        calculateMetadata={({ props }: { props: GTA6Props }) => ({ durationInFrames: gta6Duration(props) })}
+      />
       <Composition
         id="Reel2"
         component={Reel2}

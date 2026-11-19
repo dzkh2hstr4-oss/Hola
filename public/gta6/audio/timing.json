@@ -1,0 +1,156 @@
+{
+ "voz1": [
+  {
+   "t": "¡Trece años!",
+   "s": 0.108322,
+   "e": 0.72
+  },
+  {
+   "t": "Trece años esperando…",
+   "s": 0.72,
+   "e": 2.79
+  },
+  {
+   "t": "y por fin es HOY.",
+   "s": 2.79,
+   "e": 3.79
+  },
+  {
+   "t": "GTA 6 sale hoy,",
+   "s": 3.79,
+   "e": 5.4
+  },
+  {
+   "t": "diecinueve de noviembre.",
+   "s": 5.4,
+   "e": 7.32
+  },
+  {
+   "t": "Volvemos a Vice City,",
+   "s": 7.32,
+   "e": 8.85
+  },
+  {
+   "t": "en el estado de Leonida…",
+   "s": 8.85,
+   "e": 10.23
+  },
+  {
+   "t": "y mira esto,",
+   "s": 10.23,
+   "e": 11.68
+  },
+  {
+   "t": "esto ya no parece un videojuego.",
+   "s": 11.68,
+   "e": 14.59
+  },
+  {
+   "t": "Los protagonistas:",
+   "s": 14.59,
+   "e": 15.89
+  },
+  {
+   "t": "Jason y Lucía.",
+   "s": 15.89,
+   "e": 16.61
+  },
+  {
+   "t": "Una pareja a la que un golpe fácil les sale fatal…",
+   "s": 16.61,
+   "e": 20.48
+  },
+  {
+   "t": "y acaban metidos en una conspiración criminal por todo el estado.",
+   "s": 20.48,
+   "e": 26.2
+  },
+  {
+   "t": "Sale en PlayStation 5 y Xbox Series.",
+   "s": 26.2,
+   "e": 28.49
+  },
+  {
+   "t": "¿Y en PC?",
+   "s": 28.49,
+   "e": 28.3
+  },
+  {
+   "t": "De momento… nada.",
+   "s": 28.3,
+   "e": 29.42
+  },
+  {
+   "t": "Ahora dime: ¿lo juegas hoy, o esperas?",
+   "s": 29.42,
+   "e": 32.7
+  },
+  {
+   "t": "Te leo en comentarios.",
+   "s": 32.7,
+   "e": 34.12
+  }
+ ],
+ "voz2": [
+  {
+   "t": "Lucía, la protagonista de GTA 6,",
+   "s": 0.0,
+   "e": 2.66
+  },
+  {
+   "t": "acaba de salir de la cárcel.",
+   "s": 2.66,
+   "e": 4.33
+  },
+  {
+   "t": "Y no, no fue por buena conducta.",
+   "s": 4.33,
+   "e": 6.27
+  },
+  {
+   "t": "Su padre le enseñó a pelear nada más aprender a andar.",
+   "s": 6.27,
+   "e": 9.17
+  },
+  {
+   "t": "Peleando por su familia acabó en la Penitenciaría de Leonida…",
+   "s": 9.17,
+   "e": 12.63
+  },
+  {
+   "t": "y salió por pura suerte.",
+   "s": 12.63,
+   "e": 14.15
+  },
+  {
+   "t": "Ahora quiere la buena vida que su madre soñaba desde sus días en Liberty City.",
+   "s": 14.15,
+   "e": 18.28
+  },
+  {
+   "t": "Y Jason creció entre estafadores.",
+   "s": 18.28,
+   "e": 20.46
+  },
+  {
+   "t": "Después del ejército, acabó en los Cayos trabajando para traficantes.",
+   "s": 20.46,
+   "e": 24.5
+  },
+  {
+   "t": "Conocer a Lucía puede ser lo mejor…",
+   "s": 24.5,
+   "e": 26.6
+  },
+  {
+   "t": "o lo peor que le ha pasado.",
+   "s": 26.6,
+   "e": 28.99
+  },
+  {
+   "t": "¿Tú con quién vas, Jason o Lucía?",
+   "s": 28.99,
+   "e": 30.35
+  }
+ ]
+}
