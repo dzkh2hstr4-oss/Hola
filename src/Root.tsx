@@ -1,4 +1,5 @@
 import { Composition } from "remotion";
+import { calcLyricMetadata, defaultLyricProps, LV_FPS, LV_H, LV_W, LyricVideo } from "./Letras/LyricVideo";
 import { Anuncio, ANUNCIO_DURATION } from "./Anuncio/Anuncio";
 import { QP_DURATION, QuePrefieres } from "./QuePrefieres/QuePrefieres";
 import { defaultReelProps, Reel, ReelProps } from "./Reel/Reel";
@@ -10,6 +11,16 @@ import { Video2 } from "./Lumora/Video2";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="VideoLetra"
+        component={LyricVideo}
+        durationInFrames={900}
+        fps={LV_FPS}
+        width={LV_W}
+        height={LV_H}
+        defaultProps={defaultLyricProps}
+        calculateMetadata={calcLyricMetadata}
+      />
       <Composition
         id="Reel2"
         component={Reel2}
