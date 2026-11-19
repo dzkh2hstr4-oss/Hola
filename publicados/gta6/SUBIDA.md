@@ -48,19 +48,20 @@ Rockstar ha publicado casi 27 minutos de gameplay REAL de GTA 6 y me lo he visto
 ---
 
 ## 🎬 VÍDEO LARGO 2 — Tier list (9:27)
-- **Archivo:** `gta6-tierlist.mp4`
+- **Archivo:** `gta6-tierlist.mp4` (o la versión ligera `gta6-tierlist-ligero.mp4`)
+- **Programar:** viernes 20 de noviembre, 19:00 (hora de España)
 - **Miniatura:** `miniatura-tierlist.jpg`
-- **Título** (71 car.):
+- **Título** (82 car.):
 ```
-TIER LIST de GTA 6: puntúo TODO lo que se puede hacer (gameplay real) 🔥
+Puntúo TODO lo que se puede hacer en GTA 6… y alguna te va a cabrear 😳 (TIER LIST)
 ```
 - **Descripción:**
 ```
-He puntuado las 19 actividades que Rockstar ha enseñado en el gameplay real de GTA 6, de la D a la S: atracos, persecuciones, carreras, paracaídas, pantanos, discotecas, retos virales… y alguna te va a cabrear 😅
+He puntuado las 19 cosas que se pueden hacer en GTA 6 según el gameplay REAL, de la D a la S. Atracos, persecuciones, carreras, paracaídas, pantanos, discotecas, retos virales… y el patinete. 😅
 
-🏆 Haz tu propia tier list en comentarios y comparamos 👇
+👇 Deja TU tier list en comentarios y vemos en qué me equivoco.
 
-⏱️ CAPÍTULOS:
+⏱️ CAPÍTULOS
 0:00 Intro
 0:37 El patinete
 1:01 Los selfies
@@ -83,13 +84,13 @@ He puntuado las 19 actividades que Rockstar ha enseñado en el gameplay real de 
 7:59 Las misiones
 8:53 La tabla final
 
-🔔 Suscríbete para más vídeos de GTA 6.
+🔔 Suscríbete y activa la campanita: cada semana más GTA 6 en español.
 
-⚠️ Canal de fans no oficial. No estamos afiliados a Rockstar Games ni a Take-Two Interactive. Imágenes, clips y gameplay oficiales: Rockstar Games (uso con fines de análisis y comentario). Voz generada con IA.
+⚠️ Canal de fans no oficial. No afiliado a Rockstar Games ni a Take-Two. Gameplay e imágenes oficiales de Rockstar Games, usados para análisis y comentario. Voz generada con IA.
 
-#GTA6 #GTAVI #TierList #ViceCity #RockstarGames #GTA6Gameplay
+#GTA6 #TierList #GTAVI
 ```
-- **Etiquetas:** GTA 6, GTA VI, GTA 6 gameplay, GTA 6 español, GTA 6 análisis, Vice City, Leonida, Jason y Lucía, Rockstar Games, GTA 6 detalles, GTA 6 tier list, GTA 6 misiones
+- **Etiquetas:** GTA 6, GTA VI, tier list GTA 6, GTA 6 tier list, GTA 6 gameplay, GTA 6 español, qué hacer en GTA 6, actividades GTA 6, Vice City, Rockstar Games, GTA 6 paracaídas, GTA 6 persecuciones, GTA 6 atracos
 
 ---
 
