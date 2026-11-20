@@ -1,0 +1,347 @@
+{
+  "id": "v2",
+  "title": "¿QUÉ PREFIERES?",
+  "subtitle": "SUPERVIVENCIA EXTREMA",
+  "theme": {
+    "bg1": "#1E88FF",
+    "bg2": "#0B3FB0",
+    "accent": "#FFE135",
+    "a": "#00C853",
+    "b": "#FF3D3D"
+  },
+  "hook": [
+    "¡Atención! Este vídeo tiene las veinte decisiones de supervivencia más extremas que vas a ver hoy.",
+    "Cuenta cuántas veces eliges lo mismo que la mayoría… ¡y al final te digo si sobrevivirías! ¡Vamos!"
+  ],
+  "levels": [
+    {
+      "at": 0,
+      "name": "NIVEL 1: SUSTO",
+      "emoji": "😬",
+      "say": "¡Calentamos motores! Nivel uno: susto."
+    },
+    {
+      "at": 5,
+      "name": "NIVEL 2: PELIGRO",
+      "emoji": "⚠️",
+      "say": "¡Cuidado! Nivel dos: peligro."
+    },
+    {
+      "at": 10,
+      "name": "NIVEL 3: PESADILLA",
+      "emoji": "😱",
+      "say": "¡Ay, madre! Nivel tres: pesadilla. ¡Esto se pone feo!"
+    },
+    {
+      "at": 15,
+      "name": "NIVEL 4: EXTREMO",
+      "emoji": "☠️",
+      "say": "¡Y llegamos al último nivel! ¡Extremo! Solo los más valientes llegan aquí."
+    }
+  ],
+  "mid": "¡Eh! ¿Sigues vivo? Si llevas más de siete aciertos, ¡eres un superviviente! Suscríbete y dale a like… ¡que ahora viene lo peor!",
+  "outro": [
+    "¡Lo has conseguido! ¿Cuántas has acertado?",
+    "Más de quince… ¡sobrevivirías a cualquier cosa! Menos de ocho… ¡eres impredecible, y eso también te salva!",
+    "¡Pon tu puntuación en los comentarios, suscríbete, y nos vemos en el próximo dilema!"
+  ],
+  "questions": [
+    {
+      "a": {
+        "label": "DESPERTAR CON UNA SERPIENTE EN TU CAMA",
+        "prompt": "a large snake coiled on a white bed pillow in a bedroom, morning light, scary, realistic"
+      },
+      "b": {
+        "label": "DESPERTAR CON 100 CUCARACHAS EN TU CUARTO",
+        "prompt": "many cockroaches crawling on a bedroom floor near a bed, disgusting, realistic, dramatic light"
+      },
+      "sayA": "¿Despertarte con una serpiente en tu cama…",
+      "sayB": "o con cien cucarachas en tu habitación?",
+      "pa": 57,
+      "reveal": "¡Qué asco! Cincuenta y siete por ciento prefiere la serpiente."
+    },
+    {
+      "a": {
+        "label": "PERDIDO EN EL DESIERTO",
+        "prompt": "a lost explorer walking alone through huge sand dunes in the desert under a burning sun, cinematic"
+      },
+      "b": {
+        "label": "PERDIDO EN LA SELVA",
+        "prompt": "a lost explorer with a machete in a dense green jungle with vines, humid, cinematic"
+      },
+      "sayA": "¿Perderte en el desierto…",
+      "sayB": "o perderte en la selva?",
+      "pa": 38,
+      "reveal": "¡La selva gana! ¡Sesenta y dos por ciento!"
+    },
+    {
+      "a": {
+        "label": "NADAR CON TIBURONES",
+        "prompt": "a scuba diver swimming next to a big shark in clear blue ocean water, cinematic"
+      },
+      "b": {
+        "label": "DORMIR EN UN BOSQUE CON OSOS",
+        "prompt": "a small tent in a dark forest at night with a big brown bear nearby, scary, cinematic"
+      },
+      "sayA": "¿Nadar con tiburones…",
+      "sayB": "o pasar una noche en un bosque lleno de osos?",
+      "pa": 45,
+      "reveal": "¡Por poquito! Ganan los osos."
+    },
+    {
+      "a": {
+        "label": "COMER UN INSECTO FRITO",
+        "prompt": "a plate of fried crickets and insects as street food, close up, realistic"
+      },
+      "b": {
+        "label": "BEBER UN BATIDO DE SARDINAS",
+        "prompt": "a glass of strange grey green smoothie with fish heads sticking out, disgusting, funny, studio"
+      },
+      "sayA": "¿Comerte un insecto frito…",
+      "sayB": "o beberte un batido de sardinas con brócoli?",
+      "pa": 51,
+      "reveal": "¡Empate técnico! El insecto gana por uno."
+    },
+    {
+      "a": {
+        "label": "ATRAPADO 5 HORAS EN UN ASCENSOR",
+        "prompt": "a worried person trapped inside a small dark elevator, emergency red light, claustrophobic"
+      },
+      "b": {
+        "label": "ATRAPADO 5 HORAS EN LO ALTO DE UNA NORIA",
+        "prompt": "a giant ferris wheel cabin stopped at the very top at night, high above the city, scary height"
+      },
+      "sayA": "¿Quedarte atrapado cinco horas en un ascensor…",
+      "sayB": "o cinco horas en lo más alto de una noria?",
+      "pa": 58,
+      "reveal": "¡El ascensor gana! ¡El vértigo puede más!"
+    },
+    {
+      "a": {
+        "label": "ISLA DESIERTA CON TU MEJOR AMIGO",
+        "prompt": "two friends sitting on a tropical desert island beach with palm trees, castaway, sunny"
+      },
+      "b": {
+        "label": "CIUDAD GIGANTE SIN CONOCER A NADIE",
+        "prompt": "a lonely person standing in a huge busy crowd in a giant city at night, neon, cinematic"
+      },
+      "sayA": "¿Vivir en una isla desierta con tu mejor amigo…",
+      "sayB": "o en una ciudad gigante sin conocer a nadie?",
+      "pa": 64,
+      "reveal": "¡Sesenta y cuatro por ciento a la isla!"
+    },
+    {
+      "a": {
+        "label": "QUE TE PERSIGA UN ENJAMBRE DE ABEJAS",
+        "prompt": "a man running away from a huge swarm of bees in a field, funny, action shot"
+      },
+      "b": {
+        "label": "QUE TE PERSIGA UN TORO",
+        "prompt": "an angry black bull charging forward kicking up dust, action shot, dramatic"
+      },
+      "sayA": "¿Que te persiga un enjambre de abejas…",
+      "sayB": "o que te persiga un toro?",
+      "pa": 47,
+      "reveal": "¡Cincuenta y tres por ciento prefiere el toro! ¡A correr!"
+    },
+    {
+      "a": {
+        "label": "1 SEMANA EN LA ANTÁRTIDA",
+        "prompt": "an explorer in a red jacket in a frozen antarctic snow storm with penguins, extreme cold"
+      },
+      "b": {
+        "label": "1 SEMANA EN EL SÁHARA",
+        "prompt": "a camel caravan in the sahara desert under a scorching sun with heat haze, extreme heat"
+      },
+      "sayA": "¿Sobrevivir una semana en la Antártida…",
+      "sayB": "o una semana en el desierto del Sáhara?",
+      "pa": 56,
+      "reveal": "¡Gana el frío! ¡Cincuenta y seis por ciento!"
+    },
+    {
+      "a": {
+        "label": "CRUZAR UN PUENTE DE CUERDA ROTO",
+        "prompt": "an old broken rope bridge over a deep canyon with fog, scary height, cinematic"
+      },
+      "b": {
+        "label": "ARRASTRARTE POR UNA CUEVA ESTRECHA",
+        "prompt": "a person with a headlamp crawling through a very narrow dark rock cave tunnel, claustrophobic"
+      },
+      "sayA": "¿Cruzar un puente de cuerda medio roto…",
+      "sayB": "o arrastrarte por una cueva oscura y estrechísima?",
+      "pa": 59,
+      "reveal": "¡El puente gana! ¡Pero no mires abajo!"
+    },
+    {
+      "a": {
+        "label": "SIN LUZ EN TODO EL MUNDO 1 MES",
+        "prompt": "a whole city completely dark at night during a blackout, only moonlight, eerie"
+      },
+      "b": {
+        "label": "SIN INTERNET EN TODO EL MUNDO 1 AÑO",
+        "prompt": "a frustrated teenager staring at a laptop showing a no wifi symbol, funny, bright room"
+      },
+      "sayA": "¿Quedarte sin luz en todo el mundo un mes…",
+      "sayB": "o sin internet en todo el mundo un año entero?",
+      "pa": 61,
+      "reveal": "¡Gana el apagón! ¡Un año sin internet, ni loco!"
+    },
+    {
+      "a": {
+        "label": "UNA NOCHE EN UN HOSPITAL ABANDONADO",
+        "prompt": "a dark abandoned hospital corridor with flickering lights and an old wheelchair, horror atmosphere"
+      },
+      "b": {
+        "label": "UNA NOCHE EN UN BARCO ABANDONADO",
+        "prompt": "a rusty abandoned ghost ship floating on a foggy sea at night, horror atmosphere"
+      },
+      "sayA": "¿Pasar una noche en un hospital abandonado…",
+      "sayB": "o en un barco abandonado en alta mar?",
+      "pa": 48,
+      "reveal": "¡Qué miedo! El barco gana por poco."
+    },
+    {
+      "a": {
+        "label": "SOLO DUCHAS DE AGUA HELADA 1 AÑO",
+        "prompt": "a shocked man screaming under an ice cold shower with ice cubes, funny, bathroom"
+      },
+      "b": {
+        "label": "SOLO COMIDA FRÍA 1 AÑO",
+        "prompt": "a sad plate of cold leftover spaghetti from the fridge, unappetizing, close up"
+      },
+      "sayA": "¿Ducharte solo con agua helada durante un año…",
+      "sayB": "o comer solo comida fría durante un año?",
+      "pa": 37,
+      "reveal": "¡Gana la comida fría! ¡Sesenta y tres por ciento!"
+    },
+    {
+      "a": {
+        "label": "APOCALIPSIS ZOMBIE",
+        "prompt": "a destroyed city street with zombies walking in the fog, post apocalyptic, cinematic"
+      },
+      "b": {
+        "label": "INVASIÓN ALIENÍGENA",
+        "prompt": "giant alien spaceships hovering over a city with beams of light, sci-fi, cinematic"
+      },
+      "sayA": "¿Sobrevivir a un apocalipsis zombie…",
+      "sayB": "o a una invasión alienígena?",
+      "pa": 54,
+      "reveal": "¡Zombies! ¡Al menos van lentos!"
+    },
+    {
+      "a": {
+        "label": "LUCHAR CONTRA UN GORILA",
+        "prompt": "a huge angry silverback gorilla beating its chest in the jungle, powerful, dramatic"
+      },
+      "b": {
+        "label": "LUCHAR CONTRA 50 GALLINAS FURIOSAS",
+        "prompt": "a large flock of angry chickens running together on a farm, funny, action shot"
+      },
+      "sayA": "¿Luchar contra un gorila…",
+      "sayB": "o contra cincuenta gallinas furiosas?",
+      "pa": 32,
+      "reveal": "¡Jajaja! ¡Sesenta y ocho por ciento elige las gallinas!"
+    },
+    {
+      "a": {
+        "label": "3 HORAS DE TURBULENCIAS EN AVIÓN",
+        "prompt": "scared passengers holding on inside an airplane cabin during strong turbulence, oxygen masks dropped"
+      },
+      "b": {
+        "label": "3 HORAS EN UN BARCO CON OLAS GIGANTES",
+        "prompt": "a small boat in a stormy sea with giant waves crashing, dramatic, cinematic"
+      },
+      "sayA": "¿Tres horas de turbulencias en un avión…",
+      "sayB": "o tres horas en un barco con olas gigantes?",
+      "pa": 60,
+      "reveal": "¡El avión gana! ¡Agárrate fuerte!"
+    },
+    {
+      "a": {
+        "label": "NO VER NADA DURANTE 1 DÍA",
+        "prompt": "a person wearing a black blindfold reaching out with hands in a bright room, dramatic"
+      },
+      "b": {
+        "label": "NO OÍR NADA DURANTE 1 SEMANA",
+        "prompt": "a person covering both ears with hands with eyes closed, silence, moody light"
+      },
+      "sayA": "¿No poder ver nada durante un día…",
+      "sayB": "o no poder oír nada durante una semana?",
+      "pa": 43,
+      "reveal": "¡Cincuenta y siete por ciento prefiere no oír!"
+    },
+    {
+      "a": {
+        "label": "1 MES EN UNA CUEVA SIN LUZ",
+        "prompt": "a lonely person sitting by a tiny candle deep inside a dark cave, eerie, cinematic"
+      },
+      "b": {
+        "label": "1 MES EN UNA CASA DE CRISTAL (TODOS TE VEN)",
+        "prompt": "a transparent glass house in the middle of a busy city square with a crowd of people looking inside"
+      },
+      "sayA": "¿Vivir un mes en una cueva sin luz…",
+      "sayB": "o un mes en una casa de cristal en medio de la ciudad, donde todos te ven?",
+      "pa": 46,
+      "reveal": "¡Bienvenidos al reality! Gana la casa de cristal."
+    },
+    {
+      "a": {
+        "label": "COMERTE EL PIMIENTO MÁS PICANTE DEL MUNDO",
+        "prompt": "a red hot chili pepper on fire with flames, close up, dramatic black background"
+      },
+      "b": {
+        "label": "METER LA MANO EN UNA CAJA MISTERIOSA",
+        "prompt": "a hand reaching into a mysterious black box with a hole on top, scary, dramatic spotlight"
+      },
+      "sayA": "¿Comerte el pimiento más picante del mundo…",
+      "sayB": "o meter la mano en una caja misteriosa con algo vivo dentro?",
+      "pa": 47,
+      "reveal": "¡Valientes! Cincuenta y tres por ciento mete la mano."
+    },
+    {
+      "a": {
+        "label": "SER EL ÚLTIMO HUMANO DE LA TIERRA",
+        "prompt": "a lone person standing in an empty abandoned city overgrown with plants, post apocalyptic, cinematic"
+      },
+      "b": {
+        "label": "VIVIR CON 1.000 MILLONES DE CLONES TUYOS",
+        "prompt": "a huge crowd of identical men wearing the same red hoodie in a city street, surreal, funny"
+      },
+      "sayA": "¿Ser el último humano de la Tierra…",
+      "sayB": "o vivir con mil millones de clones tuyos?",
+      "pa": 38,
+      "reveal": "¡Sesenta y dos por ciento elige los clones!"
+    },
+    {
+      "a": {
+        "label": "24 H EN UNA JAULA RODEADO DE TIBURONES",
+        "prompt": "a diver inside a metal shark cage underwater surrounded by great white sharks, cinematic"
+      },
+      "b": {
+        "label": "24 H EN LA CIMA DEL EVEREST",
+        "prompt": "a climber standing on the snowy summit of mount everest with a storm coming, epic, cinematic"
+      },
+      "sayA": "Y la última, la más extrema. ¿Veinticuatro horas en una jaula rodeado de tiburones…",
+      "sayB": "o veinticuatro horas en la cima del Everest?",
+      "pa": 37,
+      "reveal": "¡El Everest gana con un sesenta y tres por ciento! ¡Pero lleva abrigo, que hace menos cuarenta!"
+    }
+  ],
+  "scores": [
+    [
+      "0-7",
+      "IMPREDECIBLE",
+      "🎲"
+    ],
+    [
+      "8-14",
+      "SUPERVIVIENTE",
+      "💪"
+    ],
+    [
+      "15-20",
+      "INDESTRUCTIBLE",
+      "🛡️"
+    ]
+  ]
+}

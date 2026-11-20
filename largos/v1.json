@@ -1,0 +1,347 @@
+{
+  "id": "v1",
+  "title": "¿QUÉ PREFIERES?",
+  "subtitle": "DECISIONES QUE TE ROMPEN LA CABEZA",
+  "theme": {
+    "bg1": "#FF3B4E",
+    "bg2": "#C8102E",
+    "accent": "#FFD60A",
+    "a": "#2F7BFF",
+    "b": "#FF8A00"
+  },
+  "hook": [
+    "¡Madre mía! Solo el tres por ciento de la gente coincide con la mayoría en las veinte preguntas de este vídeo.",
+    "¿Serás tú uno de ellos? ¡Coge papel y boli, cuenta tus aciertos, y vamos allá!"
+  ],
+  "levels": [
+    {
+      "at": 0,
+      "name": "NIVEL FÁCIL",
+      "emoji": "😎",
+      "say": "¡Empezamos suave! Nivel fácil."
+    },
+    {
+      "at": 5,
+      "name": "NIVEL MEDIO",
+      "emoji": "🤔",
+      "say": "¡Vale, vale! Ahora sube la cosa. ¡Nivel medio!"
+    },
+    {
+      "at": 10,
+      "name": "NIVEL DIFÍCIL",
+      "emoji": "😰",
+      "say": "¡Atención! Entramos en el nivel difícil. ¡Aquí ya no hay respuestas fáciles!"
+    },
+    {
+      "at": 15,
+      "name": "NIVEL IMPOSIBLE",
+      "emoji": "💀",
+      "say": "¡Uff! Y ahora sí… ¡nivel imposible! ¡Prepárate!"
+    }
+  ],
+  "mid": "¡Oye! Si llevas más de siete aciertos, piensas como la mayoría. ¡Suscríbete y dale a like, que se viene lo más difícil!",
+  "outro": [
+    "¡Y hasta aquí! ¿Cuántas has acertado?",
+    "Si tienes más de quince, piensas igual que todo el mundo. Si tienes menos de ocho… ¡eres una persona única!",
+    "¡Escríbeme tu puntuación en los comentarios, suscríbete, y nos vemos en el próximo dilema!"
+  ],
+  "questions": [
+    {
+      "a": {
+        "label": "PAUSAR EL TIEMPO 10 SEGUNDOS AL DÍA",
+        "prompt": "a man in a city street raising his hand while everything around him is frozen in time, birds frozen mid air, water droplets frozen, cinematic"
+      },
+      "b": {
+        "label": "REBOBINAR EL TIEMPO 10 SEGUNDOS AL DÍA",
+        "prompt": "a giant glowing clock spinning backwards in a dark room with motion blur light trails, magical, cinematic"
+      },
+      "sayA": "¿Poder pausar el tiempo diez segundos al día…",
+      "sayB": "o poder rebobinarlo diez segundos?",
+      "pa": 42,
+      "reveal": "¡Rebobinar gana! ¡Cincuenta y ocho por ciento!"
+    },
+    {
+      "a": {
+        "label": "SABER LA FECHA DE TU MUERTE",
+        "prompt": "close up of a paper wall calendar with one date circled in red marker, dramatic moody light"
+      },
+      "b": {
+        "label": "SABER CÓMO VAS A MORIR",
+        "prompt": "a mysterious fortune teller crystal ball glowing on a dark table with candles, dramatic"
+      },
+      "sayA": "¿Saber la fecha exacta de tu muerte…",
+      "sayB": "o saber cómo vas a morir?",
+      "pa": 44,
+      "reveal": "¡Uy! El cincuenta y seis por ciento quiere saber el cómo."
+    },
+    {
+      "a": {
+        "label": "HABLAR CON LOS ANIMALES",
+        "prompt": "a young woman talking face to face with a smiling golden retriever dog in a sunny park, joyful"
+      },
+      "b": {
+        "label": "HABLAR TODOS LOS IDIOMAS",
+        "prompt": "a smiling young man surrounded by many colorful flags of different countries, bright studio"
+      },
+      "sayA": "¿Poder hablar con los animales…",
+      "sayB": "o hablar todos los idiomas del mundo?",
+      "pa": 39,
+      "reveal": "¡Los idiomas ganan! ¡Sesenta y uno por ciento!"
+    },
+    {
+      "a": {
+        "label": "VIVIR 1 AÑO EN EL ESPACIO",
+        "prompt": "an astronaut floating inside a space station looking at planet earth through a big window, cinematic"
+      },
+      "b": {
+        "label": "VIVIR 1 AÑO BAJO EL MAR",
+        "prompt": "a futuristic underwater glass base on the ocean floor with fish and coral around, blue light, cinematic"
+      },
+      "sayA": "¿Vivir un año entero en el espacio…",
+      "sayB": "o un año en una base en el fondo del mar?",
+      "pa": 63,
+      "reveal": "¡Al espacio! ¡Sesenta y tres por ciento!"
+    },
+    {
+      "a": {
+        "label": "BOTÓN PARA SALTARTE LO ABURRIDO",
+        "prompt": "a hand pressing a big glowing red button on a remote control, futuristic, dramatic light"
+      },
+      "b": {
+        "label": "BOTÓN PARA REPETIR LO BONITO",
+        "prompt": "a group of happy friends laughing together at a sunset beach party, warm golden light"
+      },
+      "sayA": "¿Un botón para saltarte los momentos aburridos…",
+      "sayB": "o un botón para repetir los momentos bonitos?",
+      "pa": 47,
+      "reveal": "¡Ajustadísimo! Gana repetir lo bonito."
+    },
+    {
+      "a": {
+        "label": "QUE TUS SUEÑOS SE GRABEN EN VÍDEO",
+        "prompt": "a person sleeping in bed with a colorful dreamy galaxy projection floating above their head, magical"
+      },
+      "b": {
+        "label": "QUE TUS PENSAMIENTOS SE OIGAN 1 H AL DÍA",
+        "prompt": "a surprised man in an office with glowing sound waves coming out of his head, coworkers staring, funny"
+      },
+      "sayA": "¿Que tus sueños se graben en vídeo…",
+      "sayB": "o que tus pensamientos se oigan en voz alta una hora al día?",
+      "pa": 81,
+      "reveal": "¡Paliza! ¡Ochenta y uno por ciento elige los sueños!"
+    },
+    {
+      "a": {
+        "label": "SER 10 CM MÁS ALTO",
+        "prompt": "a tall confident young man standing next to a height measuring wall chart, smiling, bright studio"
+      },
+      "b": {
+        "label": "SER MUCHO MÁS INTELIGENTE",
+        "prompt": "a glowing human brain with electric sparks and neon light, futuristic, dark background"
+      },
+      "sayA": "¿Ser diez centímetros más alto…",
+      "sayB": "o ser muchísimo más inteligente?",
+      "pa": 33,
+      "reveal": "¡El cerebro gana! ¡Sesenta y siete por ciento!"
+    },
+    {
+      "a": {
+        "label": "VIAJAR AL PASADO SIN VOLVER",
+        "prompt": "a medieval castle and knights on horses at sunset, epic, cinematic, old times"
+      },
+      "b": {
+        "label": "VIAJAR AL FUTURO SIN VOLVER",
+        "prompt": "a futuristic city with flying cars and neon skyscrapers at night, cinematic"
+      },
+      "sayA": "¿Viajar al pasado sin poder volver…",
+      "sayB": "o viajar al futuro sin poder volver?",
+      "pa": 46,
+      "reveal": "¡El futuro, por los pelos! Cincuenta y cuatro."
+    },
+    {
+      "a": {
+        "label": "TELETRANSPORTARTE (SOLO A SITIOS CONOCIDOS)",
+        "prompt": "a person disappearing in a burst of blue magical light particles in a bedroom, teleportation, cinematic"
+      },
+      "b": {
+        "label": "VOLAR (PERO SOLO A 10 KM/H)",
+        "prompt": "a man in casual clothes flying slowly above green fields with arms open, clouds, joyful, cinematic"
+      },
+      "sayA": "¿Teletransportarte, pero solo a sitios donde ya has estado…",
+      "sayB": "o volar, pero solo a diez kilómetros por hora?",
+      "pa": 71,
+      "reveal": "¡Teletransporte! ¡Setenta y uno por ciento!"
+    },
+    {
+      "a": {
+        "label": "UN DRAGÓN DEL TAMAÑO DE UN PERRO",
+        "prompt": "a cute small green dragon sitting on a sofa in a cozy living room like a pet, detailed, cinematic"
+      },
+      "b": {
+        "label": "UN PERRO DEL TAMAÑO DE UN DRAGÓN",
+        "prompt": "a gigantic golden retriever dog as big as a house standing next to a small house, people tiny, funny, cinematic"
+      },
+      "sayA": "¿Tener un dragón del tamaño de un perro…",
+      "sayB": "o un perro del tamaño de un dragón?",
+      "pa": 58,
+      "reveal": "¡El mini dragón gana! ¡Cincuenta y ocho por ciento!"
+    },
+    {
+      "a": {
+        "label": "UN CASTILLO EN MEDIO DE LA NADA",
+        "prompt": "a huge stone castle alone on a hill in an empty landscape, misty, epic"
+      },
+      "b": {
+        "label": "UN PISO PEQUEÑO EN TU CIUDAD FAVORITA",
+        "prompt": "a small cozy modern apartment balcony with a view of a beautiful city skyline at sunset"
+      },
+      "sayA": "¿Vivir en un castillo en medio de la nada…",
+      "sayB": "o en un piso pequeño en tu ciudad favorita?",
+      "pa": 49,
+      "reveal": "¡No me lo creo! ¡El piso gana por un pelo!"
+    },
+    {
+      "a": {
+        "label": "SABER LAS RESPUESTAS DE TODOS LOS EXÁMENES",
+        "prompt": "a student smiling confidently at a desk in an exam classroom, glowing light over his paper"
+      },
+      "b": {
+        "label": "SABER SIEMPRE QUIÉN TE MIENTE",
+        "prompt": "close up of a person with a long wooden nose like a liar, funny, studio light"
+      },
+      "sayA": "¿Saber todas las respuestas de los exámenes…",
+      "sayB": "o saber siempre cuándo alguien te miente?",
+      "pa": 36,
+      "reveal": "¡Sesenta y cuatro por ciento quiere pillar mentirosos!"
+    },
+    {
+      "a": {
+        "label": "1.000 € CADA VEZ QUE ESTORNUDAS",
+        "prompt": "a man sneezing with euro banknotes flying out around him, funny, bright studio"
+      },
+      "b": {
+        "label": "100 € CADA VEZ QUE DICEN TU NOMBRE",
+        "prompt": "a crowd of people shouting and pointing at a happy young man, money raining, funny"
+      },
+      "sayA": "¿Ganar mil euros cada vez que estornudas…",
+      "sayB": "o cien euros cada vez que alguien dice tu nombre?",
+      "pa": 31,
+      "reveal": "¡Gana tu nombre! ¡Sesenta y nueve por ciento!"
+    },
+    {
+      "a": {
+        "label": "VIVIR DENTRO DE UN VIDEOJUEGO",
+        "prompt": "a teenager standing inside a colorful fantasy video game world with floating islands and glowing coins"
+      },
+      "b": {
+        "label": "VIVIR DENTRO DE UNA PELÍCULA",
+        "prompt": "a person standing on a hollywood movie set with cameras, spotlights and red carpet, cinematic"
+      },
+      "sayA": "¿Vivir dentro de un videojuego…",
+      "sayB": "o dentro de una película?",
+      "pa": 61,
+      "reveal": "¡Game on! ¡Sesenta y uno por ciento!"
+    },
+    {
+      "a": {
+        "label": "BORRAR UN RECUERDO",
+        "prompt": "an old photograph fading and dissolving into dust particles, sad, dramatic light"
+      },
+      "b": {
+        "label": "REVIVIR UN RECUERDO",
+        "prompt": "a happy family hugging in a warm nostalgic golden light, film photo look"
+      },
+      "sayA": "¿Poder borrar un recuerdo…",
+      "sayB": "o poder revivir un recuerdo?",
+      "pa": 28,
+      "reveal": "¡Qué bonito! ¡Setenta y dos por ciento quiere revivir!"
+    },
+    {
+      "a": {
+        "label": "NO VOLVER A SENTIR DOLOR",
+        "prompt": "a man walking barefoot on sharp lego bricks smiling calmly, funny, bright"
+      },
+      "b": {
+        "label": "NO VOLVER A NECESITAR DORMIR",
+        "prompt": "a person full of energy at night in a bright city looking at the stars, alarm clock, energetic"
+      },
+      "sayA": "¿No volver a sentir dolor nunca…",
+      "sayB": "o no volver a necesitar dormir?",
+      "pa": 48,
+      "reveal": "¡Uff! Cincuenta y dos por ciento: ¡no dormir nunca!"
+    },
+    {
+      "a": {
+        "label": "SER FAMOSO PERO OLVIDADO AL MORIR",
+        "prompt": "a famous celebrity on a red carpet with many camera flashes and paparazzi, glamour"
+      },
+      "b": {
+        "label": "SER DESCONOCIDO PERO RECORDADO 1.000 AÑOS",
+        "prompt": "a giant marble statue of a person in an ancient museum hall, epic light"
+      },
+      "sayA": "¿Ser famoso ahora, pero que te olviden al morir…",
+      "sayB": "o ser un desconocido, pero que te recuerden durante mil años?",
+      "pa": 42,
+      "reveal": "¡Cincuenta y ocho por ciento quiere ser leyenda!"
+    },
+    {
+      "a": {
+        "label": "EL MÓVIL DEL AÑO 2076",
+        "prompt": "a futuristic transparent holographic smartphone floating above a hand, neon blue, sci-fi"
+      },
+      "b": {
+        "label": "EL COCHE DEL AÑO 2076",
+        "prompt": "a futuristic flying sports car hovering above a road at night, neon lights, sci-fi"
+      },
+      "sayA": "¿Tener el móvil de dentro de cincuenta años…",
+      "sayB": "o el coche de dentro de cincuenta años?",
+      "pa": 46,
+      "reveal": "¡El coche gana por poco! ¡Seguro que vuela!"
+    },
+    {
+      "a": {
+        "label": "VIAJAR POR TODO EL MUNDO GRATIS, PERO SOLO",
+        "prompt": "a lone traveler with a backpack looking at a beautiful mountain landscape alone, epic"
+      },
+      "b": {
+        "label": "VIAJAR SOLO POR TU PAÍS, CON TUS AMIGOS",
+        "prompt": "a group of happy friends on a road trip in a van, laughing, sunny countryside"
+      },
+      "sayA": "¿Viajar por todo el mundo gratis, pero solo…",
+      "sayB": "o viajar solo por tu país, pero con tus mejores amigos?",
+      "pa": 34,
+      "reveal": "¡Los amigos ganan! ¡Sesenta y seis por ciento!"
+    },
+    {
+      "a": {
+        "label": "1 MILLÓN DE EUROS AHORA",
+        "prompt": "a big open briefcase full of euro banknotes on a table, dramatic light"
+      },
+      "b": {
+        "label": "10 € QUE SE DUPLICAN CADA DÍA DURANTE 30 DÍAS",
+        "prompt": "a small stack of coins growing into a giant mountain of gold coins, magical light, cinematic"
+      },
+      "sayA": "Y la última, la definitiva. ¿Un millón de euros ahora mismo…",
+      "sayB": "o diez euros que se duplican cada día durante treinta días?",
+      "pa": 61,
+      "reveal": "¡El sesenta y uno por ciento coge el millón! Pero ojo… ¡los diez euros acaban en más de cinco mil millones!"
+    }
+  ],
+  "scores": [
+    [
+      "0-7",
+      "¡ERES ÚNICO!",
+      "🦄"
+    ],
+    [
+      "8-14",
+      "EQUILIBRADO",
+      "⚖️"
+    ],
+    [
+      "15-20",
+      "PIENSAS COMO LA MAYORÍA",
+      "🧠"
+    ]
+  ]
+}
