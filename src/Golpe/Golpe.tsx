@@ -696,7 +696,7 @@ export const Golpe: React.FC = () => {
   let from = INTRO * G_FPS;
   return (
     <AbsoluteFill style={{ background: "#000" }}>
-      <Audio src={staticFile("golpe/musica.wav")} volume={0.1} />
+      <Audio src={staticFile("golpe/banda_sonora.wav")} volume={0.3} />
       <Sequence from={6}>
         <Audio src={staticFile("golpe/whoosh.wav")} />
       </Sequence>
