@@ -9,3 +9,8 @@ out
 # daily build intermediates
 public/daily
 __pycache__
+
+# vídeos largos: se regeneran con scripts/qp_voz.py y scripts/qp_montaje.py
+public/qp/*/audio.wav
+public/qp/*/voz/
+out/

@@ -1,0 +1,548 @@
+{
+ "id": "v2",
+ "title": "¿QUÉ PREFIERES?",
+ "subtitle": "SUPERVIVENCIA EXTREMA",
+ "theme": {
+  "bg1": "#1E88FF",
+  "bg2": "#0B3FB0",
+  "accent": "#FFE135",
+  "a": "#00C853",
+  "b": "#FF3D3D"
+ },
+ "channel": "DILEMAZO",
+ "scores": [
+  [
+   "0-7",
+   "IMPREDECIBLE",
+   "🎲"
+  ],
+  [
+   "8-14",
+   "SUPERVIVIENTE",
+   "💪"
+  ],
+  [
+   "15-20",
+   "INDESTRUCTIBLE",
+   "🛡️"
+  ]
+ ],
+ "nq": 20,
+ "total": 10018,
+ "segments": [
+  {
+   "type": "hook",
+   "from": 0,
+   "to": 369
+  },
+  {
+   "type": "level",
+   "from": 369,
+   "to": 488,
+   "idx": 0,
+   "name": "NIVEL 1: SUSTO",
+   "emoji": "😬"
+  },
+  {
+   "type": "q",
+   "n": 1,
+   "from": 488,
+   "to": 921,
+   "aAt": 502,
+   "bAt": 564,
+   "cdFrom": 628,
+   "cdTo": 778,
+   "revealAt": 782,
+   "pa": 57,
+   "reaction": "¡LA MAYORÍA HA HABLADO!",
+   "a": {
+    "img": "qp/v2/img/01a.png",
+    "label": "DESPERTAR CON UNA SERPIENTE EN TU CAMA"
+   },
+   "b": {
+    "img": "qp/v2/img/01b.png",
+    "label": "DESPERTAR CON 100 CUCARACHAS EN TU CUARTO"
+   }
+  },
+  {
+   "type": "q",
+   "n": 2,
+   "from": 921,
+   "to": 1283,
+   "aAt": 934,
+   "bAt": 974,
+   "cdFrom": 1016,
+   "cdTo": 1166,
+   "revealAt": 1171,
+   "pa": 38,
+   "reaction": "¡LA MAYORÍA HA HABLADO!",
+   "a": {
+    "img": "qp/v2/img/02a.png",
+    "label": "PERDIDO EN EL DESIERTO"
+   },
+   "b": {
+    "img": "qp/v2/img/02b.png",
+    "label": "PERDIDO EN LA SELVA"
+   }
+  },
+  {
+   "type": "q",
+   "n": 3,
+   "from": 1283,
+   "to": 1657,
+   "aAt": 1297,
+   "bAt": 1334,
+   "cdFrom": 1406,
+   "cdTo": 1556,
+   "revealAt": 1561,
+   "pa": 45,
+   "reaction": "¡AJUSTADÍSIMO!",
+   "a": {
+    "img": "qp/v2/img/03a.png",
+    "label": "NADAR CON TIBURONES"
+   },
+   "b": {
+    "img": "qp/v2/img/03b.png",
+    "label": "DORMIR EN UN BOSQUE CON OSOS"
+   }
+  },
+  {
+   "type": "q",
+   "n": 4,
+   "from": 1657,
+   "to": 2054,
+   "aAt": 1671,
+   "bAt": 1716,
+   "cdFrom": 1785,
+   "cdTo": 1935,
+   "revealAt": 1940,
+   "pa": 51,
+   "reaction": "¡EMPATE TÉCNICO!",
+   "a": {
+    "img": "qp/v2/img/04a.png",
+    "label": "COMER UN INSECTO FRITO"
+   },
+   "b": {
+    "img": "qp/v2/img/04b.png",
+    "label": "BEBER UN BATIDO DE SARDINAS"
+   }
+  },
+  {
+   "type": "q",
+   "n": 5,
+   "from": 2054,
+   "to": 2471,
+   "aAt": 2068,
+   "bAt": 2138,
+   "cdFrom": 2207,
+   "cdTo": 2357,
+   "revealAt": 2361,
+   "pa": 58,
+   "reaction": "¡LA MAYORÍA HA HABLADO!",
+   "a": {
+    "img": "qp/v2/img/05a.png",
+    "label": "ATRAPADO 5 HORAS EN UN ASCENSOR"
+   },
+   "b": {
+    "img": "qp/v2/img/05b.png",
+    "label": "ATRAPADO 5 HORAS EN LO ALTO DE UNA NORIA"
+   }
+  },
+  {
+   "type": "level",
+   "from": 2471,
+   "to": 2578,
+   "idx": 1,
+   "name": "NIVEL 2: PELIGRO",
+   "emoji": "⚠️"
+  },
+  {
+   "type": "q",
+   "n": 6,
+   "from": 2578,
+   "to": 2968,
+   "aAt": 2591,
+   "bAt": 2663,
+   "cdFrom": 2736,
+   "cdTo": 2886,
+   "revealAt": 2890,
+   "pa": 64,
+   "reaction": "¡SIN DISCUSIÓN!",
+   "a": {
+    "img": "qp/v2/img/06a.png",
+    "label": "ISLA DESIERTA CON TU MEJOR AMIGO"
+   },
+   "b": {
+    "img": "qp/v2/img/06b.png",
+    "label": "CIUDAD GIGANTE SIN CONOCER A NADIE"
+   }
+  },
+  {
+   "type": "q",
+   "n": 7,
+   "from": 2968,
+   "to": 3365,
+   "aAt": 2982,
+   "bAt": 3040,
+   "cdFrom": 3084,
+   "cdTo": 3234,
+   "revealAt": 3238,
+   "pa": 47,
+   "reaction": "¡AJUSTADÍSIMO!",
+   "a": {
+    "img": "qp/v2/img/07a.png",
+    "label": "QUE TE PERSIGA UN ENJAMBRE DE ABEJAS"
+   },
+   "b": {
+    "img": "qp/v2/img/07b.png",
+    "label": "QUE TE PERSIGA UN TORO"
+   }
+  },
+  {
+   "type": "q",
+   "n": 8,
+   "from": 3365,
+   "to": 3774,
+   "aAt": 3379,
+   "bAt": 3439,
+   "cdFrom": 3504,
+   "cdTo": 3654,
+   "revealAt": 3658,
+   "pa": 56,
+   "reaction": "¡LA MAYORÍA HA HABLADO!",
+   "a": {
+    "img": "qp/v2/img/08a.png",
+    "label": "1 SEMANA EN LA ANTÁRTIDA"
+   },
+   "b": {
+    "img": "qp/v2/img/08b.png",
+    "label": "1 SEMANA EN EL SÁHARA"
+   }
+  },
+  {
+   "type": "q",
+   "n": 9,
+   "from": 3774,
+   "to": 4185,
+   "aAt": 3788,
+   "bAt": 3846,
+   "cdFrom": 3926,
+   "cdTo": 4076,
+   "revealAt": 4081,
+   "pa": 59,
+   "reaction": "¡LA MAYORÍA HA HABLADO!",
+   "a": {
+    "img": "qp/v2/img/09a.png",
+    "label": "CRUZAR UN PUENTE DE CUERDA ROTO"
+   },
+   "b": {
+    "img": "qp/v2/img/09b.png",
+    "label": "ARRASTRARTE POR UNA CUEVA ESTRECHA"
+   }
+  },
+  {
+   "type": "q",
+   "n": 10,
+   "from": 4185,
+   "to": 4613,
+   "aAt": 4198,
+   "bAt": 4263,
+   "cdFrom": 4333,
+   "cdTo": 4483,
+   "revealAt": 4488,
+   "pa": 61,
+   "reaction": "¡LA MAYORÍA HA HABLADO!",
+   "a": {
+    "img": "qp/v2/img/10a.png",
+    "label": "SIN LUZ EN TODO EL MUNDO 1 MES"
+   },
+   "b": {
+    "img": "qp/v2/img/10b.png",
+    "label": "SIN INTERNET EN TODO EL MUNDO 1 AÑO"
+   }
+  },
+  {
+   "type": "mid",
+   "from": 4613,
+   "to": 4897
+  },
+  {
+   "type": "level",
+   "from": 4897,
+   "to": 5075,
+   "idx": 2,
+   "name": "NIVEL 3: PESADILLA",
+   "emoji": "😱"
+  },
+  {
+   "type": "q",
+   "n": 11,
+   "from": 5075,
+   "to": 5469,
+   "aAt": 5089,
+   "bAt": 5151,
+   "cdFrom": 5211,
+   "cdTo": 5361,
+   "revealAt": 5366,
+   "pa": 48,
+   "reaction": "¡EMPATE TÉCNICO!",
+   "a": {
+    "img": "qp/v2/img/11a.png",
+    "label": "UNA NOCHE EN UN HOSPITAL ABANDONADO"
+   },
+   "b": {
+    "img": "qp/v2/img/11b.png",
+    "label": "UNA NOCHE EN UN BARCO ABANDONADO"
+   }
+  },
+  {
+   "type": "q",
+   "n": 12,
+   "from": 5469,
+   "to": 5900,
+   "aAt": 5483,
+   "bAt": 5553,
+   "cdFrom": 5621,
+   "cdTo": 5771,
+   "revealAt": 5776,
+   "pa": 37,
+   "reaction": "¡SIN DISCUSIÓN!",
+   "a": {
+    "img": "qp/v2/img/12a.png",
+    "label": "SOLO DUCHAS DE AGUA HELADA 1 AÑO"
+   },
+   "b": {
+    "img": "qp/v2/img/12b.png",
+    "label": "SOLO COMIDA FRÍA 1 AÑO"
+   }
+  },
+  {
+   "type": "q",
+   "n": 13,
+   "from": 5900,
+   "to": 6273,
+   "aAt": 5913,
+   "bAt": 5969,
+   "cdFrom": 6019,
+   "cdTo": 6169,
+   "revealAt": 6173,
+   "pa": 54,
+   "reaction": "¡AJUSTADÍSIMO!",
+   "a": {
+    "img": "qp/v2/img/13a.png",
+    "label": "APOCALIPSIS ZOMBIE"
+   },
+   "b": {
+    "img": "qp/v2/img/13b.png",
+    "label": "INVASIÓN ALIENÍGENA"
+   }
+  },
+  {
+   "type": "q",
+   "n": 14,
+   "from": 6273,
+   "to": 6675,
+   "aAt": 6287,
+   "bAt": 6328,
+   "cdFrom": 6393,
+   "cdTo": 6543,
+   "revealAt": 6547,
+   "pa": 32,
+   "reaction": "¡SIN DISCUSIÓN!",
+   "a": {
+    "img": "qp/v2/img/14a.png",
+    "label": "LUCHAR CONTRA UN GORILA"
+   },
+   "b": {
+    "img": "qp/v2/img/14b.png",
+    "label": "LUCHAR CONTRA 50 GALLINAS FURIOSAS"
+   }
+  },
+  {
+   "type": "q",
+   "n": 15,
+   "from": 6675,
+   "to": 7076,
+   "aAt": 6689,
+   "bAt": 6748,
+   "cdFrom": 6821,
+   "cdTo": 6971,
+   "revealAt": 6975,
+   "pa": 60,
+   "reaction": "¡LA MAYORÍA HA HABLADO!",
+   "a": {
+    "img": "qp/v2/img/15a.png",
+    "label": "3 HORAS DE TURBULENCIAS EN AVIÓN"
+   },
+   "b": {
+    "img": "qp/v2/img/15b.png",
+    "label": "3 HORAS EN UN BARCO CON OLAS GIGANTES"
+   }
+  },
+  {
+   "type": "level",
+   "from": 7076,
+   "to": 7258,
+   "idx": 3,
+   "name": "NIVEL 4: EXTREMO",
+   "emoji": "☠️"
+  },
+  {
+   "type": "q",
+   "n": 16,
+   "from": 7258,
+   "to": 7634,
+   "aAt": 7271,
+   "bAt": 7327,
+   "cdFrom": 7392,
+   "cdTo": 7542,
+   "revealAt": 7547,
+   "pa": 43,
+   "reaction": "¡LA MAYORÍA HA HABLADO!",
+   "a": {
+    "img": "qp/v2/img/16a.png",
+    "label": "NO VER NADA DURANTE 1 DÍA"
+   },
+   "b": {
+    "img": "qp/v2/img/16b.png",
+    "label": "NO OÍR NADA DURANTE 1 SEMANA"
+   }
+  },
+  {
+   "type": "q",
+   "n": 17,
+   "from": 7634,
+   "to": 8088,
+   "aAt": 7647,
+   "bAt": 7700,
+   "cdFrom": 7811,
+   "cdTo": 7961,
+   "revealAt": 7965,
+   "pa": 46,
+   "reaction": "¡AJUSTADÍSIMO!",
+   "a": {
+    "img": "qp/v2/img/17a.png",
+    "label": "1 MES EN UNA CUEVA SIN LUZ"
+   },
+   "b": {
+    "img": "qp/v2/img/17b.png",
+    "label": "1 MES EN UNA CASA DE CRISTAL (TODOS TE VEN)"
+   }
+  },
+  {
+   "type": "q",
+   "n": 18,
+   "from": 8088,
+   "to": 8540,
+   "aAt": 8102,
+   "bAt": 8167,
+   "cdFrom": 8258,
+   "cdTo": 8408,
+   "revealAt": 8412,
+   "pa": 47,
+   "reaction": "¡AJUSTADÍSIMO!",
+   "a": {
+    "img": "qp/v2/img/18a.png",
+    "label": "COMERTE EL PIMIENTO MÁS PICANTE DEL MUNDO"
+   },
+   "b": {
+    "img": "qp/v2/img/18b.png",
+    "label": "METER LA MANO EN UNA CAJA MISTERIOSA"
+   }
+  },
+  {
+   "type": "q",
+   "n": 19,
+   "from": 8540,
+   "to": 8911,
+   "aAt": 8554,
+   "bAt": 8604,
+   "cdFrom": 8671,
+   "cdTo": 8821,
+   "revealAt": 8825,
+   "pa": 38,
+   "reaction": "¡LA MAYORÍA HA HABLADO!",
+   "a": {
+    "img": "qp/v2/img/19a.png",
+    "label": "SER EL ÚLTIMO HUMANO DE LA TIERRA"
+   },
+   "b": {
+    "img": "qp/v2/img/19b.png",
+    "label": "VIVIR CON 1.000 MILLONES DE CLONES TUYOS"
+   }
+  },
+  {
+   "type": "q",
+   "n": 20,
+   "from": 8911,
+   "to": 9492,
+   "aAt": 8924,
+   "bAt": 9088,
+   "cdFrom": 9156,
+   "cdTo": 9306,
+   "revealAt": 9311,
+   "pa": 37,
+   "reaction": "¡SIN DISCUSIÓN!",
+   "a": {
+    "img": "qp/v2/img/20a.png",
+    "label": "24 H EN UNA JAULA RODEADO DE TIBURONES"
+   },
+   "b": {
+    "img": "qp/v2/img/20b.png",
+    "label": "24 H EN LA CIMA DEL EVEREST"
+   }
+  },
+  {
+   "type": "outro",
+   "from": 9492,
+   "to": 10018,
+   "lines": [
+    9504,
+    9597,
+    9808
+   ]
+  }
+ ],
+ "thumbs": [
+  "qp/v2/img/01a.png",
+  "qp/v2/img/01b.png",
+  "qp/v2/img/02a.png",
+  "qp/v2/img/02b.png",
+  "qp/v2/img/03a.png",
+  "qp/v2/img/03b.png",
+  "qp/v2/img/04a.png",
+  "qp/v2/img/04b.png",
+  "qp/v2/img/05a.png",
+  "qp/v2/img/05b.png",
+  "qp/v2/img/06a.png",
+  "qp/v2/img/06b.png",
+  "qp/v2/img/07a.png",
+  "qp/v2/img/07b.png",
+  "qp/v2/img/08a.png",
+  "qp/v2/img/08b.png",
+  "qp/v2/img/09a.png",
+  "qp/v2/img/09b.png",
+  "qp/v2/img/10a.png",
+  "qp/v2/img/10b.png",
+  "qp/v2/img/11a.png",
+  "qp/v2/img/11b.png",
+  "qp/v2/img/12a.png",
+  "qp/v2/img/12b.png",
+  "qp/v2/img/13a.png",
+  "qp/v2/img/13b.png",
+  "qp/v2/img/14a.png",
+  "qp/v2/img/14b.png",
+  "qp/v2/img/15a.png",
+  "qp/v2/img/15b.png",
+  "qp/v2/img/16a.png",
+  "qp/v2/img/16b.png",
+  "qp/v2/img/17a.png",
+  "qp/v2/img/17b.png",
+  "qp/v2/img/18a.png",
+  "qp/v2/img/18b.png",
+  "qp/v2/img/19a.png",
+  "qp/v2/img/19b.png",
+  "qp/v2/img/20a.png",
+  "qp/v2/img/20b.png"
+ ]
+}

@@ -66,7 +66,7 @@ const pop = (frame: number, fps: number, delay = 0, damping = 11, stiffness = 16
 
 export const Logo: React.FC<{ size: number; theme?: Theme; spin?: number }> = ({ size, theme, spin = 0 }) => {
   const a = theme?.a ?? "#2F7BFF";
-  const b = theme?.b ?? "#FF3B4E";
+  const b = theme?.b ?? "#FF8A00";
   return (
     <div
       style={{
@@ -163,7 +163,7 @@ const Header: React.FC<{ tl: Timeline; q?: QSeg }> = ({ tl, q }) => {
   return (
     <>
       <div style={{ position: "absolute", left: 105, top: 26 }}>
-        <Logo size={118} theme={tl.theme} spin={frame * 0.4} />
+        <Logo size={118} spin={frame * 0.4} />
       </div>
       <div style={{ position: "absolute", top: 20, left: 0, right: 0, textAlign: "center", transform: `translateY(${bob}px)` }}>
         <span style={{ fontFamily: FONT, fontSize: 112, color: "#fff", letterSpacing: 1, ...stroke(14), textShadow: "0 9px 0 rgba(0,0,0,0.35)" }}>
@@ -513,7 +513,7 @@ const HookScene: React.FC<{ tl: Timeline; to: number }> = ({ tl, to }) => {
       <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 50%, ${tl.theme.bg2}EE 0%, ${tl.theme.bg2}CC 45%, ${tl.theme.bg2}55 100%)` }} />
       <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", transform: `translate(${Math.sin(frame * 7) * shake}px, ${Math.cos(frame * 5) * shake}px)` }}>
         <div style={{ transform: `scale(${title}) rotate(${(1 - title) * -20 - 2}deg)` }}>
-          <Logo size={170} theme={tl.theme} spin={frame} />
+          <Logo size={170} spin={frame} />
         </div>
         <div style={{ marginTop: 16, fontFamily: FONT, fontSize: 170, lineHeight: 1, color: "#fff", ...stroke(20), textShadow: "0 14px 0 rgba(0,0,0,0.35)", transform: `scale(${title})` }}>
           ¿QUÉ <span style={{ color: tl.theme.accent }}>PREFIERES?</span>

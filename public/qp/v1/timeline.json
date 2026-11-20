@@ -1,0 +1,548 @@
+{
+ "id": "v1",
+ "title": "¿QUÉ PREFIERES?",
+ "subtitle": "DECISIONES QUE TE ROMPEN LA CABEZA",
+ "theme": {
+  "bg1": "#FF3B4E",
+  "bg2": "#C8102E",
+  "accent": "#FFD60A",
+  "a": "#2F7BFF",
+  "b": "#FF8A00"
+ },
+ "channel": "DILEMAZO",
+ "scores": [
+  [
+   "0-7",
+   "¡ERES ÚNICO!",
+   "🦄"
+  ],
+  [
+   "8-14",
+   "EQUILIBRADO",
+   "⚖️"
+  ],
+  [
+   "15-20",
+   "PIENSAS COMO LA MAYORÍA",
+   "🧠"
+  ]
+ ],
+ "nq": 20,
+ "total": 10117,
+ "segments": [
+  {
+   "type": "hook",
+   "from": 0,
+   "to": 360
+  },
+  {
+   "type": "level",
+   "from": 360,
+   "to": 463,
+   "idx": 0,
+   "name": "NIVEL FÁCIL",
+   "emoji": "😎"
+  },
+  {
+   "type": "q",
+   "n": 1,
+   "from": 463,
+   "to": 877,
+   "aAt": 477,
+   "bAt": 545,
+   "cdFrom": 606,
+   "cdTo": 756,
+   "revealAt": 760,
+   "pa": 42,
+   "reaction": "¡LA MAYORÍA HA HABLADO!",
+   "a": {
+    "img": "qp/v1/img/01a.png",
+    "label": "PAUSAR EL TIEMPO 10 SEGUNDOS AL DÍA"
+   },
+   "b": {
+    "img": "qp/v1/img/01b.png",
+    "label": "REBOBINAR EL TIEMPO 10 SEGUNDOS AL DÍA"
+   }
+  },
+  {
+   "type": "q",
+   "n": 2,
+   "from": 877,
+   "to": 1278,
+   "aAt": 890,
+   "bAt": 946,
+   "cdFrom": 992,
+   "cdTo": 1142,
+   "revealAt": 1147,
+   "pa": 44,
+   "reaction": "¡LA MAYORÍA HA HABLADO!",
+   "a": {
+    "img": "qp/v1/img/02a.png",
+    "label": "SABER LA FECHA DE TU MUERTE"
+   },
+   "b": {
+    "img": "qp/v1/img/02b.png",
+    "label": "SABER CÓMO VAS A MORIR"
+   }
+  },
+  {
+   "type": "q",
+   "n": 3,
+   "from": 1278,
+   "to": 1669,
+   "aAt": 1292,
+   "bAt": 1339,
+   "cdFrom": 1398,
+   "cdTo": 1548,
+   "revealAt": 1552,
+   "pa": 39,
+   "reaction": "¡LA MAYORÍA HA HABLADO!",
+   "a": {
+    "img": "qp/v1/img/03a.png",
+    "label": "HABLAR CON LOS ANIMALES"
+   },
+   "b": {
+    "img": "qp/v1/img/03b.png",
+    "label": "HABLAR TODOS LOS IDIOMAS"
+   }
+  },
+  {
+   "type": "q",
+   "n": 4,
+   "from": 1669,
+   "to": 2066,
+   "aAt": 1682,
+   "bAt": 1736,
+   "cdFrom": 1800,
+   "cdTo": 1950,
+   "revealAt": 1954,
+   "pa": 63,
+   "reaction": "¡SIN DISCUSIÓN!",
+   "a": {
+    "img": "qp/v1/img/04a.png",
+    "label": "VIVIR 1 AÑO EN EL ESPACIO"
+   },
+   "b": {
+    "img": "qp/v1/img/04b.png",
+    "label": "VIVIR 1 AÑO BAJO EL MAR"
+   }
+  },
+  {
+   "type": "q",
+   "n": 5,
+   "from": 2066,
+   "to": 2495,
+   "aAt": 2079,
+   "bAt": 2153,
+   "cdFrom": 2228,
+   "cdTo": 2378,
+   "revealAt": 2382,
+   "pa": 47,
+   "reaction": "¡AJUSTADÍSIMO!",
+   "a": {
+    "img": "qp/v1/img/05a.png",
+    "label": "BOTÓN PARA SALTARTE LO ABURRIDO"
+   },
+   "b": {
+    "img": "qp/v1/img/05b.png",
+    "label": "BOTÓN PARA REPETIR LO BONITO"
+   }
+  },
+  {
+   "type": "level",
+   "from": 2495,
+   "to": 2654,
+   "idx": 1,
+   "name": "NIVEL MEDIO",
+   "emoji": "🤔"
+  },
+  {
+   "type": "q",
+   "n": 6,
+   "from": 2654,
+   "to": 3085,
+   "aAt": 2668,
+   "bAt": 2718,
+   "cdFrom": 2809,
+   "cdTo": 2959,
+   "revealAt": 2963,
+   "pa": 81,
+   "reaction": "¡PALIZA TOTAL!",
+   "a": {
+    "img": "qp/v1/img/06a.png",
+    "label": "QUE TUS SUEÑOS SE GRABEN EN VÍDEO"
+   },
+   "b": {
+    "img": "qp/v1/img/06b.png",
+    "label": "QUE TUS PENSAMIENTOS SE OIGAN 1 H AL DÍA"
+   }
+  },
+  {
+   "type": "q",
+   "n": 7,
+   "from": 3085,
+   "to": 3481,
+   "aAt": 3098,
+   "bAt": 3151,
+   "cdFrom": 3209,
+   "cdTo": 3359,
+   "revealAt": 3364,
+   "pa": 33,
+   "reaction": "¡SIN DISCUSIÓN!",
+   "a": {
+    "img": "qp/v1/img/07a.png",
+    "label": "SER 10 CM MÁS ALTO"
+   },
+   "b": {
+    "img": "qp/v1/img/07b.png",
+    "label": "SER MUCHO MÁS INTELIGENTE"
+   }
+  },
+  {
+   "type": "q",
+   "n": 8,
+   "from": 3481,
+   "to": 3887,
+   "aAt": 3495,
+   "bAt": 3552,
+   "cdFrom": 3614,
+   "cdTo": 3764,
+   "revealAt": 3768,
+   "pa": 46,
+   "reaction": "¡AJUSTADÍSIMO!",
+   "a": {
+    "img": "qp/v1/img/08a.png",
+    "label": "VIAJAR AL PASADO SIN VOLVER"
+   },
+   "b": {
+    "img": "qp/v1/img/08b.png",
+    "label": "VIAJAR AL FUTURO SIN VOLVER"
+   }
+  },
+  {
+   "type": "q",
+   "n": 9,
+   "from": 3887,
+   "to": 4338,
+   "aAt": 3900,
+   "bAt": 3993,
+   "cdFrom": 4072,
+   "cdTo": 4222,
+   "revealAt": 4226,
+   "pa": 71,
+   "reaction": "¡PALIZA TOTAL!",
+   "a": {
+    "img": "qp/v1/img/09a.png",
+    "label": "TELETRANSPORTARTE (SOLO A SITIOS CONOCIDOS)"
+   },
+   "b": {
+    "img": "qp/v1/img/09b.png",
+    "label": "VOLAR (PERO SOLO A 10 KM/H)"
+   }
+  },
+  {
+   "type": "q",
+   "n": 10,
+   "from": 4338,
+   "to": 4746,
+   "aAt": 4352,
+   "bAt": 4410,
+   "cdFrom": 4470,
+   "cdTo": 4620,
+   "revealAt": 4625,
+   "pa": 58,
+   "reaction": "¡LA MAYORÍA HA HABLADO!",
+   "a": {
+    "img": "qp/v1/img/10a.png",
+    "label": "UN DRAGÓN DEL TAMAÑO DE UN PERRO"
+   },
+   "b": {
+    "img": "qp/v1/img/10b.png",
+    "label": "UN PERRO DEL TAMAÑO DE UN DRAGÓN"
+   }
+  },
+  {
+   "type": "mid",
+   "from": 4746,
+   "to": 4997
+  },
+  {
+   "type": "level",
+   "from": 4997,
+   "to": 5180,
+   "idx": 2,
+   "name": "NIVEL DIFÍCIL",
+   "emoji": "😰"
+  },
+  {
+   "type": "q",
+   "n": 11,
+   "from": 5180,
+   "to": 5589,
+   "aAt": 5193,
+   "bAt": 5255,
+   "cdFrom": 5322,
+   "cdTo": 5472,
+   "revealAt": 5477,
+   "pa": 49,
+   "reaction": "¡EMPATE TÉCNICO!",
+   "a": {
+    "img": "qp/v1/img/11a.png",
+    "label": "UN CASTILLO EN MEDIO DE LA NADA"
+   },
+   "b": {
+    "img": "qp/v1/img/11b.png",
+    "label": "UN PISO PEQUEÑO EN TU CIUDAD FAVORITA"
+   }
+  },
+  {
+   "type": "q",
+   "n": 12,
+   "from": 5589,
+   "to": 5984,
+   "aAt": 5603,
+   "bAt": 5670,
+   "cdFrom": 5731,
+   "cdTo": 5881,
+   "revealAt": 5886,
+   "pa": 36,
+   "reaction": "¡SIN DISCUSIÓN!",
+   "a": {
+    "img": "qp/v1/img/12a.png",
+    "label": "SABER LAS RESPUESTAS DE TODOS LOS EXÁMENES"
+   },
+   "b": {
+    "img": "qp/v1/img/12b.png",
+    "label": "SABER SIEMPRE QUIÉN TE MIENTE"
+   }
+  },
+  {
+   "type": "q",
+   "n": 13,
+   "from": 5984,
+   "to": 6405,
+   "aAt": 5997,
+   "bAt": 6065,
+   "cdFrom": 6137,
+   "cdTo": 6287,
+   "revealAt": 6292,
+   "pa": 31,
+   "reaction": "¡SIN DISCUSIÓN!",
+   "a": {
+    "img": "qp/v1/img/13a.png",
+    "label": "1.000 € CADA VEZ QUE ESTORNUDAS"
+   },
+   "b": {
+    "img": "qp/v1/img/13b.png",
+    "label": "100 € CADA VEZ QUE DICEN TU NOMBRE"
+   }
+  },
+  {
+   "type": "q",
+   "n": 14,
+   "from": 6405,
+   "to": 6769,
+   "aAt": 6419,
+   "bAt": 6468,
+   "cdFrom": 6510,
+   "cdTo": 6660,
+   "revealAt": 6665,
+   "pa": 61,
+   "reaction": "¡LA MAYORÍA HA HABLADO!",
+   "a": {
+    "img": "qp/v1/img/14a.png",
+    "label": "VIVIR DENTRO DE UN VIDEOJUEGO"
+   },
+   "b": {
+    "img": "qp/v1/img/14b.png",
+    "label": "VIVIR DENTRO DE UNA PELÍCULA"
+   }
+  },
+  {
+   "type": "q",
+   "n": 15,
+   "from": 6769,
+   "to": 7153,
+   "aAt": 6782,
+   "bAt": 6824,
+   "cdFrom": 6874,
+   "cdTo": 7024,
+   "revealAt": 7029,
+   "pa": 28,
+   "reaction": "¡PALIZA TOTAL!",
+   "a": {
+    "img": "qp/v1/img/15a.png",
+    "label": "BORRAR UN RECUERDO"
+   },
+   "b": {
+    "img": "qp/v1/img/15b.png",
+    "label": "REVIVIR UN RECUERDO"
+   }
+  },
+  {
+   "type": "level",
+   "from": 7153,
+   "to": 7306,
+   "idx": 3,
+   "name": "NIVEL IMPOSIBLE",
+   "emoji": "💀"
+  },
+  {
+   "type": "q",
+   "n": 16,
+   "from": 7306,
+   "to": 7708,
+   "aAt": 7319,
+   "bAt": 7371,
+   "cdFrom": 7424,
+   "cdTo": 7574,
+   "revealAt": 7579,
+   "pa": 48,
+   "reaction": "¡EMPATE TÉCNICO!",
+   "a": {
+    "img": "qp/v1/img/16a.png",
+    "label": "NO VOLVER A SENTIR DOLOR"
+   },
+   "b": {
+    "img": "qp/v1/img/16b.png",
+    "label": "NO VOLVER A NECESITAR DORMIR"
+   }
+  },
+  {
+   "type": "q",
+   "n": 17,
+   "from": 7708,
+   "to": 8140,
+   "aAt": 7721,
+   "bAt": 7797,
+   "cdFrom": 7896,
+   "cdTo": 8046,
+   "revealAt": 8050,
+   "pa": 42,
+   "reaction": "¡LA MAYORÍA HA HABLADO!",
+   "a": {
+    "img": "qp/v1/img/17a.png",
+    "label": "SER FAMOSO PERO OLVIDADO AL MORIR"
+   },
+   "b": {
+    "img": "qp/v1/img/17b.png",
+    "label": "SER DESCONOCIDO PERO RECORDADO 1.000 AÑOS"
+   }
+  },
+  {
+   "type": "q",
+   "n": 18,
+   "from": 8140,
+   "to": 8551,
+   "aAt": 8153,
+   "bAt": 8218,
+   "cdFrom": 8282,
+   "cdTo": 8432,
+   "revealAt": 8437,
+   "pa": 46,
+   "reaction": "¡AJUSTADÍSIMO!",
+   "a": {
+    "img": "qp/v1/img/18a.png",
+    "label": "EL MÓVIL DEL AÑO 2076"
+   },
+   "b": {
+    "img": "qp/v1/img/18b.png",
+    "label": "EL COCHE DEL AÑO 2076"
+   }
+  },
+  {
+   "type": "q",
+   "n": 19,
+   "from": 8551,
+   "to": 9005,
+   "aAt": 8564,
+   "bAt": 8636,
+   "cdFrom": 8733,
+   "cdTo": 8883,
+   "revealAt": 8887,
+   "pa": 34,
+   "reaction": "¡SIN DISCUSIÓN!",
+   "a": {
+    "img": "qp/v1/img/19a.png",
+    "label": "VIAJAR POR TODO EL MUNDO GRATIS, PERO SOLO"
+   },
+   "b": {
+    "img": "qp/v1/img/19b.png",
+    "label": "VIAJAR SOLO POR TU PAÍS, CON TUS AMIGOS"
+   }
+  },
+  {
+   "type": "q",
+   "n": 20,
+   "from": 9005,
+   "to": 9595,
+   "aAt": 9019,
+   "bAt": 9147,
+   "cdFrom": 9240,
+   "cdTo": 9390,
+   "revealAt": 9394,
+   "pa": 61,
+   "reaction": "¡LA MAYORÍA HA HABLADO!",
+   "a": {
+    "img": "qp/v1/img/20a.png",
+    "label": "1 MILLÓN DE EUROS AHORA"
+   },
+   "b": {
+    "img": "qp/v1/img/20b.png",
+    "label": "10 € QUE SE DUPLICAN CADA DÍA DURANTE 30 DÍAS"
+   }
+  },
+  {
+   "type": "outro",
+   "from": 9595,
+   "to": 10117,
+   "lines": [
+    9607,
+    9692,
+    9895
+   ]
+  }
+ ],
+ "thumbs": [
+  "qp/v1/img/01a.png",
+  "qp/v1/img/01b.png",
+  "qp/v1/img/02a.png",
+  "qp/v1/img/02b.png",
+  "qp/v1/img/03a.png",
+  "qp/v1/img/03b.png",
+  "qp/v1/img/04a.png",
+  "qp/v1/img/04b.png",
+  "qp/v1/img/05a.png",
+  "qp/v1/img/05b.png",
+  "qp/v1/img/06a.png",
+  "qp/v1/img/06b.png",
+  "qp/v1/img/07a.png",
+  "qp/v1/img/07b.png",
+  "qp/v1/img/08a.png",
+  "qp/v1/img/08b.png",
+  "qp/v1/img/09a.png",
+  "qp/v1/img/09b.png",
+  "qp/v1/img/10a.png",
+  "qp/v1/img/10b.png",
+  "qp/v1/img/11a.png",
+  "qp/v1/img/11b.png",
+  "qp/v1/img/12a.png",
+  "qp/v1/img/12b.png",
+  "qp/v1/img/13a.png",
+  "qp/v1/img/13b.png",
+  "qp/v1/img/14a.png",
+  "qp/v1/img/14b.png",
+  "qp/v1/img/15a.png",
+  "qp/v1/img/15b.png",
+  "qp/v1/img/16a.png",
+  "qp/v1/img/16b.png",
+  "qp/v1/img/17a.png",
+  "qp/v1/img/17b.png",
+  "qp/v1/img/18a.png",
+  "qp/v1/img/18b.png",
+  "qp/v1/img/19a.png",
+  "qp/v1/img/19b.png",
+  "qp/v1/img/20a.png",
+  "qp/v1/img/20b.png"
+ ]
+}
