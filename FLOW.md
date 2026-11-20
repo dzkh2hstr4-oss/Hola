@@ -62,3 +62,5 @@ con clips realistas de **Google Flow** que graba el dueño, montados en el estil
 - 2026-11-19-6 · atardecer · «Si no sabes qué regalar / esta Navidad… 🎁» (regalo)
 - 2026-11-20-1 · aurora · «Mi setup de día / vs de noche 🎮» (setup gamer)
 - 2026-11-20-2 · atardecer · «Las tiras LED / ya pasaron de moda 💀» (polémica suave)
+- 2026-11-20-3 · aurora · «Tus fotos con flash / vs con esto 📸» (fotos)
+- 2026-11-20-4 · atardecer · «El truco de los cuartos / de Pinterest 🤫» (truco de decoración)

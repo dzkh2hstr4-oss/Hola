@@ -1,0 +1,40 @@
+{
+  "id": "2026-11-20-3",
+  "producto": "aurora",
+  "status": "esperando-clips",
+  "formato": "fotos",
+  "gancho": [
+    "Tus fotos con flash",
+    "vs con esto 📸"
+  ],
+  "ganchoSegundos": 2.4,
+  "boton": "Cómpralo en mi bio",
+  "comenta": "¿flash o aurora? 👇",
+  "finalSegundos": 2.6,
+  "clips": [
+    {
+      "archivo": "entrada/2026-11-20-3/1.mp4",
+      "segundos": 2.4
+    },
+    {
+      "archivo": "entrada/2026-11-20-3/2.mp4",
+      "segundos": 2.2,
+      "texto": [
+        "con esto 🌌"
+      ]
+    },
+    {
+      "archivo": "entrada/2026-11-20-3/3.mp4",
+      "segundos": 2.0,
+      "texto": [
+        "el «esto»: un proyector",
+        "de 10 cm 🤏"
+      ]
+    },
+    {
+      "archivo": "entrada/2026-11-20-3/4.mp4",
+      "segundos": 2.6
+    }
+  ],
+  "caption": "Tus fotos con flash vs con esto 📸🌌 Un proyector aurora de 10 cm que llena el cuarto de aurora y estrellas. Con mando y recargable por USB. 39,95 € (antes 64,95 €) · Envío gratis. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad\n\n#proyectoraurora #auroraboreal #fotosaesthetic #roomdecor #aesthetic #regalosnavidad #lumora"
+}
