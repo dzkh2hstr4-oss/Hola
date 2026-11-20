@@ -60,3 +60,5 @@ con clips realistas de **Google Flow** que graba el dueño, montados en el estil
 - 2026-11-19-4 · atardecer · «POV: tu madre entra / a tu cuarto a las 12 😳» (POV de una situación)
 - 2026-11-19-5 · aurora · «Mi rutina para dormirme / sin el móvil 🌙» (rutina de noche)
 - 2026-11-19-6 · atardecer · «Si no sabes qué regalar / esta Navidad… 🎁» (regalo)
+- 2026-11-20-1 · aurora · «Mi setup de día / vs de noche 🎮» (setup gamer)
+- 2026-11-20-2 · atardecer · «Las tiras LED / ya pasaron de moda 💀» (polémica suave)
