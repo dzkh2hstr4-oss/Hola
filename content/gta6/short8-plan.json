@@ -1,0 +1,178 @@
+{
+ "rate": "+12%",
+ "pitch": "+4Hz",
+ "mic": true,
+ "lines": [
+  {
+   "t": "Lucía es mejor que Jason… ¡y te lo voy a demostrar!",
+   "imgs": [
+    "lucia_caminos_13"
+   ],
+   "title": [
+    [
+     "LUCÍA",
+     "ES"
+    ],
+    [
+     "*MEJOR*"
+    ]
+   ],
+   "hook": true,
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.7
+    }
+   ]
+  },
+  {
+   "t": "Jason creció entre estafadores, y acabó trabajando para traficantes. Lo que quiere… es una vida fácil.",
+   "rate": "+8%",
+   "imgs": [
+    "jason_duval_06"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.3
+    }
+   ]
+  },
+  {
+   "t": "Lucía, en cambio, aprendió a pelear antes que a andar… y sobrevivió a la cárcel de Leonida.",
+   "imgs": [
+    "lucia_caminos_01",
+    "lucia_caminos_05"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.3
+    },
+    {
+     "f": "voz/impacto.wav",
+     "at": 1.2,
+     "v": 0.4
+    }
+   ]
+  },
+  {
+   "t": "Y en el gameplay oficial, ¿quién conduce en la huida? Ella.",
+   "imgs": [
+    "v:d_lucia"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.3
+    },
+    {
+     "f": "wyr/sfx/pop.wav",
+     "at": 2.4,
+     "v": 0.5
+    }
+   ]
+  },
+  {
+   "t": "¿Quién se tira en paracaídas desde un rascacielos? Ella.",
+   "imgs": [
+    "v:a_paracaidas"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.3
+    },
+    {
+     "f": "wyr/sfx/pop.wav",
+     "at": 2.3,
+     "v": 0.5
+    }
+   ]
+  },
+  {
+   "t": "Y cuando Raúl le pregunta si es una profesional, ni lo duda.",
+   "imgs": [
+    "v:d_lucia"
+   ],
+   "clipFrom": 4,
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/redoble.wav",
+     "at": 1.2,
+     "v": 0.35
+    }
+   ]
+  },
+  {
+   "t": "Por supuesto.",
+   "quote": true,
+   "voice": "es-ES-ElviraNeural",
+   "rate": "-10%",
+   "pitch": "-4Hz",
+   "imgs": [
+    "lucia_caminos_03"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.5
+    }
+   ]
+  },
+  {
+   "t": "Y hasta el propio Jason la llama… la criminal perfecta.",
+   "rate": "+6%",
+   "imgs": [
+    "v:d_coche2"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/sparkle.wav",
+     "at": 2.0,
+     "v": 0.45
+    }
+   ]
+  },
+  {
+   "t": "Así que dime: ¿Team Jason… o Team Lucía? ¡Te leo!",
+   "rate": "+10%",
+   "imgs": [
+    "jason_and_lucia_17"
+   ],
+   "title": [
+    [
+     "¿TEAM",
+     "*JASON*"
+    ],
+    [
+     "O",
+     "*LUCÍA*?"
+    ]
+   ],
+   "emojis": [
+    "👇"
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 2.4,
+     "v": 0.5
+    }
+   ]
+  }
+ ]
+}

@@ -59,3 +59,25 @@ Así se llega al Tacón en GTA 6 y así es por dentro 👀 Gameplay real. ¿Vas 
 
 **Descripción:**
 La historia del carrusel de Brian esconde un aviso… ¿Jason se bajará a tiempo? 👇 #GTA6
+
+---
+
+## Short 7 — gta6-short7.mp4 (esto no es una foto)
+
+**Título:**
+Esto NO es una foto… es GTA 6 🤯 #shorts
+
+**Descripción:**
+Gameplay REAL de GTA 6 grabado en PS5. ¿Cuál te parece más real? 👇 #GTA6
+🎵 "Miami Nights - Extended Theme" Kevin MacLeod (incompetech.com) · CC BY 4.0
+
+---
+
+## Short 8 — gta6-short8.mp4 (Lucía vs Jason)
+
+**Título:**
+Lucía es MEJOR que Jason en GTA 6 (y te lo demuestro) #shorts
+
+**Descripción:**
+¿Team Jason o Team Lucía? Datos oficiales y gameplay real de GTA 6 👇 #GTA6
+🎵 "Voltaic" Kevin MacLeod (incompetech.com) · CC BY 4.0

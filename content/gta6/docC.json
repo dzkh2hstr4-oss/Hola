@@ -1,0 +1,1458 @@
+{
+ "theme": "detective",
+ "scenes": [
+  {
+   "kind": "intro",
+   "clips": [
+    "d_raul",
+    "d_carrusel",
+    "d_grupo"
+   ],
+   "label": "GTA 6 · TEORÍA",
+   "title": "¿QUIÉN LOS VA A TRAICIONAR?",
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.7
+    },
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 2.2,
+     "v": 0.4
+    }
+   ],
+   "s": 0.0,
+   "e": 5.15
+  },
+  {
+   "kind": "cork",
+   "suspects": [
+    {
+     "name": "Real Dimez",
+     "img": "real_dimez_04"
+    },
+    {
+     "name": "Dre'Quan",
+     "img": "drequan_priest_03"
+    },
+    {
+     "name": "Andrés",
+     "img": "andres_de_leon"
+    },
+    {
+     "name": "Raúl",
+     "img": "raul_bautista_03"
+    },
+    {
+     "name": "Brian",
+     "img": "brian_heder_02"
+    },
+    {
+     "name": "Boobie",
+     "img": "boobie_ike_03"
+    },
+    {
+     "name": "Ernesto",
+     "img": "?"
+    }
+   ],
+   "focus": null,
+   "stamp": null,
+   "s": 5.15,
+   "e": 14.42
+  },
+  {
+   "kind": "panel",
+   "clips": [
+    "d_azotea"
+   ],
+   "label": "LAS REGLAS",
+   "title": "SOLO PRUEBAS OFICIALES",
+   "s": 14.42,
+   "e": 25.33
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "img:keyart"
+   ],
+   "label": "LA TRADICIÓN",
+   "title": "SIEMPRE HAY UN TRAIDOR",
+   "s": 25.33,
+   "e": 31.14
+  },
+  {
+   "kind": "list",
+   "clips": [
+    "img:skyline_dusk"
+   ],
+   "label": "LOS PRECEDENTES",
+   "title": "TRAIDORES DE LA SAGA",
+   "items": [
+    "Vice City: Lance Vance",
+    "San Andreas: Big Smoke y Ryder",
+    "GTA IV: Dimitri Rascalov"
+   ],
+   "s": 31.14,
+   "e": 44.05
+  },
+  {
+   "kind": "panel",
+   "clips": [
+    "d_carrusel"
+   ],
+   "label": "LA PREGUNTA",
+   "title": "¿QUIÉN?",
+   "s": 44.05,
+   "e": 48.51
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "d_llegada"
+   ],
+   "label": "EL EXPEDIENTE",
+   "title": "SEIS SOSPECHOSOS",
+   "s": 48.51,
+   "e": 54.84
+  },
+  {
+   "kind": "cork",
+   "suspects": [
+    {
+     "name": "Real Dimez",
+     "img": "real_dimez_04"
+    },
+    {
+     "name": "Dre'Quan",
+     "img": "drequan_priest_03"
+    },
+    {
+     "name": "Andrés",
+     "img": "andres_de_leon"
+    },
+    {
+     "name": "Raúl",
+     "img": "raul_bautista_03"
+    },
+    {
+     "name": "Brian",
+     "img": "brian_heder_02"
+    },
+    {
+     "name": "Boobie",
+     "img": "boobie_ike_03"
+    },
+    {
+     "name": "Ernesto",
+     "img": "?"
+    }
+   ],
+   "focus": "Real Dimez",
+   "stamp": null,
+   "s": 54.84,
+   "e": 56.49
+  },
+  {
+   "kind": "suspect",
+   "suspects": [
+    {
+     "name": "Real Dimez",
+     "img": "real_dimez_04"
+    }
+   ],
+   "role": "Raperas · Only Raw Records",
+   "meter": 15,
+   "label": "SOSPECHOSO Nº 6",
+   "stamp": null,
+   "s": 56.49,
+   "e": 63.74
+  },
+  {
+   "kind": "evidence",
+   "evidence": {
+    "n": 1,
+    "text": "Convirtieron lo de sacarles dinero a los camellos en canciones virales.",
+    "source": "Web oficial de Rockstar"
+   },
+   "clips": [
+    "img:real_dimez_03"
+   ],
+   "stamp": null,
+   "s": 63.74,
+   "e": 70.73
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:real_dimez_01",
+    "img:real_dimez_02"
+   ],
+   "s": 70.73,
+   "e": 80.25
+  },
+  {
+   "kind": "suspect",
+   "suspects": [
+    {
+     "name": "Real Dimez",
+     "img": "real_dimez_04"
+    }
+   ],
+   "role": "Raperas · Only Raw Records",
+   "meter": 15,
+   "label": "VEREDICTO",
+   "stamp": null,
+   "s": 80.25,
+   "e": 86.53
+  },
+  {
+   "kind": "cork",
+   "suspects": [
+    {
+     "name": "Real Dimez",
+     "img": "real_dimez_04"
+    },
+    {
+     "name": "Dre'Quan",
+     "img": "drequan_priest_03"
+    },
+    {
+     "name": "Andrés",
+     "img": "andres_de_leon"
+    },
+    {
+     "name": "Raúl",
+     "img": "raul_bautista_03"
+    },
+    {
+     "name": "Brian",
+     "img": "brian_heder_02"
+    },
+    {
+     "name": "Boobie",
+     "img": "boobie_ike_03"
+    },
+    {
+     "name": "Ernesto",
+     "img": "?"
+    }
+   ],
+   "focus": "Dre'Quan",
+   "stamp": null,
+   "s": 86.53,
+   "e": 88.24
+  },
+  {
+   "kind": "suspect",
+   "suspects": [
+    {
+     "name": "Dre'Quan",
+     "img": "drequan_priest_03"
+    }
+   ],
+   "role": "Productor · socio de Boobie",
+   "meter": 25,
+   "label": "SOSPECHOSO Nº 5",
+   "stamp": null,
+   "s": 88.24,
+   "e": 92.97
+  },
+  {
+   "kind": "evidence",
+   "evidence": {
+    "n": 2,
+    "text": "Sus días en el club de Boobie podrían estar contados.",
+    "source": "Web oficial de Rockstar"
+   },
+   "clips": [
+    "img:drequan_priest_04"
+   ],
+   "stamp": null,
+   "s": 92.97,
+   "e": 100.27
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:drequan_priest_02",
+    "img:boobie_ike_01"
+   ],
+   "s": 100.27,
+   "e": 110.74
+  },
+  {
+   "kind": "suspect",
+   "suspects": [
+    {
+     "name": "Dre'Quan",
+     "img": "drequan_priest_03"
+    }
+   ],
+   "role": "Productor · socio de Boobie",
+   "meter": 25,
+   "label": "VEREDICTO",
+   "stamp": null,
+   "s": 110.74,
+   "e": 118.46
+  },
+  {
+   "kind": "cork",
+   "suspects": [
+    {
+     "name": "Real Dimez",
+     "img": "real_dimez_04"
+    },
+    {
+     "name": "Dre'Quan",
+     "img": "drequan_priest_03"
+    },
+    {
+     "name": "Andrés",
+     "img": "andres_de_leon"
+    },
+    {
+     "name": "Raúl",
+     "img": "raul_bautista_03"
+    },
+    {
+     "name": "Brian",
+     "img": "brian_heder_02"
+    },
+    {
+     "name": "Boobie",
+     "img": "boobie_ike_03"
+    },
+    {
+     "name": "Ernesto",
+     "img": "?"
+    }
+   ],
+   "focus": "Andrés",
+   "stamp": null,
+   "s": 118.46,
+   "e": 122.58
+  },
+  {
+   "kind": "suspect",
+   "suspects": [
+    {
+     "name": "Andrés de León",
+     "img": "andres_de_leon"
+    }
+   ],
+   "role": "Celebridad · cliente VIP",
+   "meter": 35,
+   "label": "SOSPECHOSO Nº 4",
+   "stamp": null,
+   "s": 122.58,
+   "e": 128.83
+  },
+  {
+   "kind": "evidence",
+   "evidence": {
+    "n": 3,
+    "text": "Protegedle, que no se desmadre, y subidle el ego.",
+    "source": "Gameplay oficial · sala VIP del aeropuerto"
+   },
+   "clips": [
+    "d_aeropuerto"
+   ],
+   "stamp": null,
+   "s": 128.83,
+   "e": 133.41
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_jet",
+    "d_oficina"
+   ],
+   "s": 133.41,
+   "e": 143.2
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_ataque"
+   ],
+   "flash": true,
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 3.2,
+     "v": 0.5
+    }
+   ],
+   "s": 143.2,
+   "e": 150.65
+  },
+  {
+   "kind": "suspect",
+   "suspects": [
+    {
+     "name": "Andrés de León",
+     "img": "andres_de_leon"
+    }
+   ],
+   "role": "Celebridad · cliente VIP",
+   "meter": 35,
+   "label": "VEREDICTO",
+   "stamp": null,
+   "s": 150.65,
+   "e": 159.17
+  },
+  {
+   "kind": "cork",
+   "suspects": [
+    {
+     "name": "Real Dimez",
+     "img": "real_dimez_04"
+    },
+    {
+     "name": "Dre'Quan",
+     "img": "drequan_priest_03"
+    },
+    {
+     "name": "Andrés",
+     "img": "andres_de_leon"
+    },
+    {
+     "name": "Raúl",
+     "img": "raul_bautista_03"
+    },
+    {
+     "name": "Brian",
+     "img": "brian_heder_02"
+    },
+    {
+     "name": "Boobie",
+     "img": "boobie_ike_03"
+    },
+    {
+     "name": "Ernesto",
+     "img": "?"
+    }
+   ],
+   "focus": "Raúl",
+   "stamp": null,
+   "s": 159.17,
+   "e": 162.95
+  },
+  {
+   "kind": "suspect",
+   "suspects": [
+    {
+     "name": "Raúl Bautista",
+     "img": "raul_bautista_03"
+    }
+   ],
+   "role": "Atracador de bancos",
+   "meter": 60,
+   "label": "SOSPECHOSO Nº 3",
+   "stamp": null,
+   "s": 162.95,
+   "e": 169.22
+  },
+  {
+   "kind": "evidence",
+   "evidence": {
+    "n": 4,
+    "text": "Su temeridad sube la apuesta en cada golpe.",
+    "source": "Web oficial de Rockstar"
+   },
+   "clips": [
+    "img:raul_bautista_02"
+   ],
+   "stamp": null,
+   "s": 169.22,
+   "e": 177.39
+  },
+  {
+   "kind": "evidence",
+   "evidence": {
+    "n": 5,
+    "text": "Podría vendernos o pegarnos un tiro. ¿Qué razón tenemos para fiarnos de él?",
+    "source": "Jason, gameplay oficial"
+   },
+   "clips": [
+    "d_coche2"
+   ],
+   "stamp": null,
+   "s": 177.39,
+   "e": 181.08
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_raul",
+    "d_persecucion"
+   ],
+   "s": 181.08,
+   "e": 188.61
+  },
+  {
+   "kind": "suspect",
+   "suspects": [
+    {
+     "name": "Raúl Bautista",
+     "img": "raul_bautista_03"
+    }
+   ],
+   "role": "Atracador de bancos",
+   "meter": 60,
+   "label": "VEREDICTO",
+   "stamp": null,
+   "s": 188.61,
+   "e": 194.28
+  },
+  {
+   "kind": "cork",
+   "suspects": [
+    {
+     "name": "Real Dimez",
+     "img": "real_dimez_04"
+    },
+    {
+     "name": "Dre'Quan",
+     "img": "drequan_priest_03"
+    },
+    {
+     "name": "Andrés",
+     "img": "andres_de_leon"
+    },
+    {
+     "name": "Raúl",
+     "img": "raul_bautista_03"
+    },
+    {
+     "name": "Brian",
+     "img": "brian_heder_02"
+    },
+    {
+     "name": "Boobie",
+     "img": "boobie_ike_03"
+    },
+    {
+     "name": "Ernesto",
+     "img": "?"
+    }
+   ],
+   "focus": "Ernesto",
+   "s": 194.28,
+   "e": 196.59
+  },
+  {
+   "kind": "suspect",
+   "suspects": [
+    {
+     "name": "Ernesto",
+     "img": "?"
+    }
+   ],
+   "role": "Contacto con policías corruptos",
+   "meter": 50,
+   "label": "EL COMODÍN",
+   "s": 196.59,
+   "e": 205.84
+  },
+  {
+   "kind": "evidence",
+   "evidence": {
+    "n": 11,
+    "text": "Es lo que hay, amigo mío.",
+    "source": "Ernesto, gameplay oficial"
+   },
+   "clips": [
+    "d_llamada"
+   ],
+   "s": 205.84,
+   "e": 210.88
+  },
+  {
+   "kind": "suspect",
+   "suspects": [
+    {
+     "name": "Ernesto",
+     "img": "?"
+    }
+   ],
+   "role": "Contacto con policías corruptos",
+   "meter": 50,
+   "label": "VEREDICTO",
+   "s": 210.88,
+   "e": 220.57
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "d_carrusel"
+   ],
+   "label": "EL TOP 2",
+   "title": "LOS MÁS PELIGROSOS",
+   "s": 220.57,
+   "e": 225.78
+  },
+  {
+   "kind": "cork",
+   "suspects": [
+    {
+     "name": "Real Dimez",
+     "img": "real_dimez_04"
+    },
+    {
+     "name": "Dre'Quan",
+     "img": "drequan_priest_03"
+    },
+    {
+     "name": "Andrés",
+     "img": "andres_de_leon"
+    },
+    {
+     "name": "Raúl",
+     "img": "raul_bautista_03"
+    },
+    {
+     "name": "Brian",
+     "img": "brian_heder_02"
+    },
+    {
+     "name": "Boobie",
+     "img": "boobie_ike_03"
+    },
+    {
+     "name": "Ernesto",
+     "img": "?"
+    }
+   ],
+   "focus": "Brian",
+   "stamp": null,
+   "s": 225.78,
+   "e": 227.44
+  },
+  {
+   "kind": "suspect",
+   "suspects": [
+    {
+     "name": "Brian Heder",
+     "img": "brian_heder_02"
+    }
+   ],
+   "role": "Traficante · casero de Jason",
+   "meter": 75,
+   "label": "SOSPECHOSO Nº 2",
+   "stamp": null,
+   "s": 227.44,
+   "e": 233.88
+  },
+  {
+   "kind": "evidence",
+   "evidence": {
+    "n": 6,
+    "text": "Parece un vago de playa, pero se mueve como un tiburón blanco.",
+    "source": "Web oficial de Rockstar"
+   },
+   "clips": [
+    "c_brian1"
+   ],
+   "stamp": null,
+   "s": 233.88,
+   "e": 238.52
+  },
+  {
+   "kind": "evidence",
+   "evidence": {
+    "n": 7,
+    "text": "Siempre que le ayude con los chanchullos locales.",
+    "source": "Web oficial de Rockstar"
+   },
+   "clips": [
+    "img:brian_heder_04"
+   ],
+   "stamp": null,
+   "s": 238.52,
+   "e": 243.01
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "c_brian1",
+    "d_carrusel"
+   ],
+   "s": 243.01,
+   "e": 253.48
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_carrusel"
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/heart.wav",
+     "at": 0.4,
+     "v": 0.6
+    },
+    {
+     "f": "wyr/sfx/heart.wav",
+     "at": 1.1,
+     "v": 0.6
+    }
+   ],
+   "s": 253.48,
+   "e": 256.18
+  },
+  {
+   "kind": "suspect",
+   "suspects": [
+    {
+     "name": "Brian Heder",
+     "img": "brian_heder_02"
+    }
+   ],
+   "role": "Traficante · casero de Jason",
+   "meter": 75,
+   "label": "VEREDICTO",
+   "stamp": null,
+   "s": 256.18,
+   "e": 262.19
+  },
+  {
+   "kind": "cork",
+   "suspects": [
+    {
+     "name": "Real Dimez",
+     "img": "real_dimez_04"
+    },
+    {
+     "name": "Dre'Quan",
+     "img": "drequan_priest_03"
+    },
+    {
+     "name": "Andrés",
+     "img": "andres_de_leon"
+    },
+    {
+     "name": "Raúl",
+     "img": "raul_bautista_03"
+    },
+    {
+     "name": "Brian",
+     "img": "brian_heder_02"
+    },
+    {
+     "name": "Boobie",
+     "img": "boobie_ike_03"
+    },
+    {
+     "name": "Ernesto",
+     "img": "?"
+    }
+   ],
+   "focus": "Boobie",
+   "stamp": null,
+   "sfx": [
+    {
+     "f": "wyr/sfx/redoble.wav",
+     "at": 0.3,
+     "v": 0.5
+    }
+   ],
+   "s": 262.19,
+   "e": 264.24
+  },
+  {
+   "kind": "suspect",
+   "suspects": [
+    {
+     "name": "Boobie Ike",
+     "img": "boobie_ike_03"
+    }
+   ],
+   "role": "Empresario · leyenda de Vice City",
+   "meter": 90,
+   "label": "SOSPECHOSO Nº 1",
+   "stamp": "Nº 1",
+   "s": 264.24,
+   "e": 267.42
+  },
+  {
+   "kind": "evidence",
+   "evidence": {
+    "n": 8,
+    "text": "Todo sonrisas… hasta que toca hablar de negocios.",
+    "source": "Web oficial de Rockstar"
+   },
+   "clips": [
+    "img:boobie_ike_01"
+   ],
+   "stamp": null,
+   "s": 267.42,
+   "e": 271.03
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_llegada",
+    "d_grupo"
+   ],
+   "s": 271.03,
+   "e": 281.3
+  },
+  {
+   "kind": "evidence",
+   "evidence": {
+    "n": 9,
+    "text": "¿Por qué no viene Boobie a recogerlo él? ¿No os lo habéis preguntado?",
+    "source": "Raymond, gameplay oficial"
+   },
+   "clips": [
+    "d_puerta"
+   ],
+   "stamp": null,
+   "s": 281.3,
+   "e": 284.16
+  },
+  {
+   "kind": "evidence",
+   "evidence": {
+    "n": 10,
+    "text": "El problema es que Boobie solo se preocupa por sí mismo.",
+    "source": "Raymond, gameplay oficial"
+   },
+   "clips": [
+    "d_mesa"
+   ],
+   "stamp": null,
+   "s": 284.16,
+   "e": 285.07
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_redada",
+    "d_tiro1"
+   ],
+   "flash": true,
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "s": 285.07,
+   "e": 293.73
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_huida"
+   ],
+   "s": 293.73,
+   "e": 302.37
+  },
+  {
+   "kind": "evidence",
+   "evidence": {
+    "n": 12,
+    "text": "El dinero del club paga el estudio… y el de la droga lo paga todo.",
+    "source": "Boobie Ike, web oficial de Rockstar"
+   },
+   "clips": [
+    "c_dentro"
+   ],
+   "s": 302.37,
+   "e": 306.77
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_huida"
+   ],
+   "label": "EL GIRO",
+   "title": "¿Y SI LOS TRAIDORES SON ELLOS?",
+   "s": 306.77,
+   "e": 318.52
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_tiro2"
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0.4,
+     "v": 0.45
+    }
+   ],
+   "s": 318.52,
+   "e": 323.99
+  },
+  {
+   "kind": "suspect",
+   "suspects": [
+    {
+     "name": "Boobie Ike",
+     "img": "boobie_ike_03"
+    }
+   ],
+   "role": "Empresario · leyenda de Vice City",
+   "meter": 90,
+   "label": "VEREDICTO FINAL",
+   "stamp": "TRAIDOR",
+   "s": 323.99,
+   "e": 330.19
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "d_cama"
+   ],
+   "label": "EL ÚLTIMO EXPEDIENTE",
+   "title": "¿Y SI ESTÁ DENTRO?",
+   "sfx": [
+    {
+     "f": "wyr/sfx/redoble.wav",
+     "at": 0.5,
+     "v": 0.45
+    }
+   ],
+   "s": 330.19,
+   "e": 334.38
+  },
+  {
+   "kind": "split",
+   "clips": [
+    "img:jason_duval_01",
+    "img:lucia_caminos_03"
+   ],
+   "label": "JASON VS LUCÍA",
+   "items": [
+    "JASON",
+    "LUCÍA"
+   ],
+   "s": 334.38,
+   "e": 338.62
+  },
+  {
+   "kind": "evidence",
+   "evidence": {
+    "n": 13,
+    "text": "Conocer a Lucía puede ser lo mejor… o lo peor que le ha pasado.",
+    "source": "Web oficial de Rockstar"
+   },
+   "clips": [
+    "img:jason_and_lucia_14"
+   ],
+   "s": 338.62,
+   "e": 341.34
+  },
+  {
+   "kind": "evidence",
+   "evidence": {
+    "n": 14,
+    "text": "Una vida con Jason podría ser su salida.",
+    "source": "Web oficial de Rockstar"
+   },
+   "clips": [
+    "img:lucia_caminos_06"
+   ],
+   "s": 341.34,
+   "e": 343.65
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_cama",
+    "d_ropa"
+   ],
+   "s": 343.65,
+   "e": 354.97
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:lucia_caminos_13"
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/heart.wav",
+     "at": 1.0,
+     "v": 0.6
+    },
+    {
+     "f": "wyr/sfx/heart.wav",
+     "at": 1.7,
+     "v": 0.6
+    },
+    {
+     "f": "voz/impacto.wav",
+     "at": 4.2,
+     "v": 0.5
+    }
+   ],
+   "s": 354.97,
+   "e": 360.46
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:jason_and_lucia_17"
+   ],
+   "s": 360.46,
+   "e": 365.19
+  },
+  {
+   "kind": "cork",
+   "suspects": [
+    {
+     "name": "Real Dimez",
+     "img": "real_dimez_04"
+    },
+    {
+     "name": "Dre'Quan",
+     "img": "drequan_priest_03"
+    },
+    {
+     "name": "Andrés",
+     "img": "andres_de_leon"
+    },
+    {
+     "name": "Raúl",
+     "img": "raul_bautista_03"
+    },
+    {
+     "name": "Brian",
+     "img": "brian_heder_02"
+    },
+    {
+     "name": "Boobie",
+     "img": "boobie_ike_03"
+    },
+    {
+     "name": "Ernesto",
+     "img": "?"
+    }
+   ],
+   "focus": null,
+   "stamp": null,
+   "s": 365.19,
+   "e": 383.25
+  },
+  {
+   "kind": "outro",
+   "clips": [
+    "d_final"
+   ],
+   "title": "¿QUIÉN CREES TÚ?",
+   "s": 383.25,
+   "e": 397.17
+  }
+ ],
+ "captions": [
+  {
+   "t": "Uno de estos personajes va a traicionar a Jason y Lucía. ¡Y creo que ya sé quién es!",
+   "s": 0.05,
+   "e": 4.97
+  },
+  {
+   "t": "Estos son los sospechosos. Todos salen en la web oficial de Rockstar o en el gameplay real… y todos, absolutamente todos, tienen algo que esconder.",
+   "s": 5.2,
+   "e": 14.24
+  },
+  {
+   "t": "Las reglas son simples: solo valen pruebas oficiales. Nada de filtraciones ni de rumores. Y al final te digo mi sospechoso número uno… que no es quien te imaginas.",
+   "s": 14.47,
+   "e": 25.15
+  },
+  {
+   "t": "Y ojo, que esto no es una teoría loca. En GTA siempre hay un traidor.",
+   "s": 25.73,
+   "e": 30.64
+  },
+  {
+   "t": "En Vice City, Lance Vance traiciona a Tommy. En San Andreas, Big Smoke y Ryder venden a CJ. En GTA cuatro, Dimitri traiciona a Niko. Es casi una ley de la saga.",
+   "s": 31.19,
+   "e": 43.87
+  },
+  {
+   "t": "Así que la pregunta no es si alguien va a traicionar a Jason y Lucía… sino quién.",
+   "s": 44.1,
+   "e": 48.33
+  },
+  {
+   "t": "Vamos a ir del menos sospechoso… al que más. ¿Preparado? Empezamos.",
+   "s": 48.91,
+   "e": 54.34
+  },
+  {
+   "t": "Sospechoso número seis.",
+   "s": 54.89,
+   "e": 56.31
+  },
+  {
+   "t": "Las Real Dimez. Bae-Luxe y Roxy, amigas desde el instituto, y el gran fichaje del sello musical de Dre'Quan.",
+   "s": 56.54,
+   "e": 63.56
+  },
+  {
+   "t": "Según Rockstar, empezaron sacándoles dinero a camellos locales… y lo convirtieron en canciones picantes y redes sociales.",
+   "s": 63.79,
+   "e": 70.55
+  },
+  {
+   "t": "Pero fíjate en lo que quieren de verdad: un éxito. Fama. Seguidores. Jason y Lucía, para ellas… son lo de menos.",
+   "s": 70.78,
+   "e": 80.07
+  },
+  {
+   "t": "Veredicto: peligrosas para tu reputación… pero no para Jason y Lucía. Quince por ciento.",
+   "s": 80.3,
+   "e": 86.35
+  },
+  {
+   "t": "Sospechoso número cinco.",
+   "s": 86.58,
+   "e": 88.06
+  },
+  {
+   "t": "Dre'Quan Priest. El socio de Boobie y dueño del sello Only Raw Records.",
+   "s": 88.29,
+   "e": 92.79
+  },
+  {
+   "t": "Rockstar dice que siempre fue más buscavidas que gánster… y que sus días organizando actuaciones en el club de Boobie podrían estar contados.",
+   "s": 93.02,
+   "e": 100.09
+  },
+  {
+   "t": "O sea: Dre'Quan quiere volar solo. Y eso apunta a un problema… pero con Boobie, no con Jason y Lucía. Apúntate esto, porque luego va a importar.",
+   "s": 100.32,
+   "e": 110.56
+  },
+  {
+   "t": "Veredicto: veinticinco por ciento. Ambicioso, sí. Traidor de Jason y Lucía… no lo creo.",
+   "s": 110.79,
+   "e": 118.28
+  },
+  {
+   "t": "Sospechoso número cuatro. Y aquí empieza lo interesante.",
+   "s": 118.51,
+   "e": 122.4
+  },
+  {
+   "t": "Andrés de León. El tipo famoso al que Jason y Lucía tienen que proteger en la última misión del gameplay.",
+   "s": 122.63,
+   "e": 128.65
+  },
+  {
+   "t": "Las órdenes eran claras: protegerlo, que no se desmadre… y subirle el ego.",
+   "s": 128.88,
+   "e": 133.23
+  },
+  {
+   "t": "Andrés se baja de un jet privado, pregunta si las azafatas han firmado un acuerdo de confidencialidad… y luego pasa del discurso del CEO para encerrarse con sus amigos en el piso veinticuatro.",
+   "s": 133.46,
+   "e": 143.02
+  },
+  {
+   "t": "¿Y qué pasa justo cuando Jason y Lucía están con él? Que entran hombres armados en el edificio. ¿Casualidad?",
+   "s": 143.25,
+   "e": 150.47
+  },
+  {
+   "t": "Veredicto: no creo que los traicione a propósito… pero con alguien así, cualquier trabajo puede acabar a tiros. Treinta y cinco por ciento.",
+   "s": 150.7,
+   "e": 158.99
+  },
+  {
+   "t": "Sospechoso número tres. Y este da miedo de verdad.",
+   "s": 159.22,
+   "e": 162.77
+  },
+  {
+   "t": "Raúl Bautista. Atracador de bancos veterano, siempre buscando gente dispuesta a arriesgarse.",
+   "s": 163.0,
+   "e": 169.04
+  },
+  {
+   "t": "Rockstar lo deja claro: su temeridad sube la apuesta en cada golpe, y tarde o temprano su banda tendrá que doblar la apuesta… o retirarse de la mesa.",
+   "s": 169.27,
+   "e": 177.21
+  },
+  {
+   "t": "Y en el gameplay, el propio Jason desconfía de él antes de conocerlo.",
+   "s": 177.44,
+   "e": 180.9
+  },
+  {
+   "t": "Encima, la primera vez que los ve, los mete en una huida a tiros sin avisar. Era una prueba… y Raúl ni se inmuta.",
+   "s": 181.13,
+   "e": 188.43
+  },
+  {
+   "t": "Veredicto: sesenta por ciento. Raúl no es leal a nadie… es leal al golpe.",
+   "s": 188.66,
+   "e": 194.1
+  },
+  {
+   "t": "Pero antes del top dos… hay un comodín.",
+   "s": 194.33,
+   "e": 196.41
+  },
+  {
+   "t": "Ernesto. No tiene foto oficial, pero es el que llama en mitad de la primera misión… y avisa de que sus amigos del grupo especial de la policía van de camino.",
+   "s": 196.64,
+   "e": 205.66
+  },
+  {
+   "t": "Y cuando el traficante le pide explicaciones, Ernesto le contesta con toda la calma del mundo.",
+   "s": 205.89,
+   "e": 210.7
+  },
+  {
+   "t": "O sea: alguien que vende a sus socios a la policía sin pestañear. No sabemos si volverá… pero si vuelve, cuidado. Cincuenta por ciento.",
+   "s": 210.93,
+   "e": 220.39
+  },
+  {
+   "t": "Y ahora… los dos últimos. Y aquí es donde todo cambia.",
+   "s": 220.97,
+   "e": 225.28
+  },
+  {
+   "t": "Sospechoso número dos.",
+   "s": 225.83,
+   "e": 227.26
+  },
+  {
+   "t": "Brian Heder. El traficante veterano de los Cayos. El que parece el amigo de la familia.",
+   "s": 227.49,
+   "e": 233.7
+  },
+  {
+   "t": "La web oficial lo describe así… y es una frase muy, muy rara para un amigo.",
+   "s": 233.93,
+   "e": 238.34
+  },
+  {
+   "t": "Además, deja a Jason vivir gratis en una de sus casas… con una condición.",
+   "s": 238.57,
+   "e": 242.83
+  },
+  {
+   "t": "Jason le debe favores. Brian es quien le presenta a Raúl. Y en la azotea, le cuenta la historia del carrusel… y le suelta: tienes que saber cuándo bajarte.",
+   "s": 243.06,
+   "e": 253.3
+  },
+  {
+   "t": "¿Era un consejo de amigo… o una amenaza?",
+   "s": 253.53,
+   "e": 256.0
+  },
+  {
+   "t": "Veredicto: setenta y cinco por ciento. El que más sonríe… suele ser el más peligroso.",
+   "s": 256.23,
+   "e": 262.01
+  },
+  {
+   "t": "Y mi sospechoso número uno es…",
+   "s": 262.24,
+   "e": 264.06
+  },
+  {
+   "t": "Boobie Ike. La leyenda de Vice City.",
+   "s": 264.29,
+   "e": 267.24
+  },
+  {
+   "t": "La primera frase que Rockstar escribe sobre él ya es una advertencia.",
+   "s": 267.47,
+   "e": 270.85
+  },
+  {
+   "t": "Y ahora recuerda la primera misión del gameplay. Boobie manda a Jason y Lucía a recoger algo a un bloque de pisos. Él no va. Los manda a ellos.",
+   "s": 271.08,
+   "e": 281.12
+  },
+  {
+   "t": "Y allí, uno de los traficantes les suelta esto.",
+   "s": 281.35,
+   "e": 283.98
+  },
+  {
+   "t": "Y remata.",
+   "s": 284.21,
+   "e": 284.89
+  },
+  {
+   "t": "Minutos después, entra una redada de policías corruptos. Justo cuando Jason y Lucía están dentro. Con la mercancía de Boobie.",
+   "s": 285.12,
+   "e": 293.55
+  },
+  {
+   "t": "Boobie los mandó al lugar más peligroso de Vice City… en el peor momento posible. ¿Casualidad? Yo no creo en las casualidades.",
+   "s": 293.78,
+   "e": 302.19
+  },
+  {
+   "t": "Y su propia frase en la web de Rockstar lo dice todo sobre cómo funciona su imperio.",
+   "s": 302.42,
+   "e": 306.59
+  },
+  {
+   "t": "Pero aquí viene el giro. Cuando escapan con la mercancía, Jason y Lucía ya no se fían de él. Uno dice: tengo los ladrillos de Boobie. Y el otro contesta: ¡que le den a Boobie!",
+   "s": 306.82,
+   "e": 318.34
+  },
+  {
+   "t": "Así que ojo… porque igual el que acaba traicionado no es Jason. Es Boobie.",
+   "s": 318.57,
+   "e": 323.81
+  },
+  {
+   "t": "Veredicto final: noventa por ciento. Si alguien va a vender a Jason y Lucía… es Boobie.",
+   "s": 324.04,
+   "e": 330.01
+  },
+  {
+   "t": "Pero espera… porque hay un último sospechoso del que nadie habla.",
+   "s": 330.59,
+   "e": 333.88
+  },
+  {
+   "t": "La propia pareja. Y no lo digo yo: lo dice Rockstar.",
+   "s": 334.43,
+   "e": 338.44
+  },
+  {
+   "t": "Sobre Jason, la web oficial escribe esto.",
+   "s": 338.67,
+   "e": 341.16
+  },
+  {
+   "t": "Y sobre Lucía, todavía más claro.",
+   "s": 341.39,
+   "e": 343.47
+  },
+  {
+   "t": "Su salida. No su final feliz… su salida. Lucía ha estado en la cárcel y no piensa volver. Y quiere la buena vida que su madre soñaba, cueste lo que cueste.",
+   "s": 343.7,
+   "e": 354.79
+  },
+  {
+   "t": "Así que, si un día tiene que elegir entre Jason… y su libertad… ¿tú qué crees que elegiría?",
+   "s": 355.02,
+   "e": 360.28
+  },
+  {
+   "t": "No la meto en el ranking, porque es la protagonista… pero yo no la perdería de vista.",
+   "s": 360.51,
+   "e": 365.01
+  },
+  {
+   "t": "Este es mi tablero final. Real Dimez, quince por ciento. Dre'Quan, veinticinco. Andrés, treinta y cinco. Ernesto, cincuenta. Raúl, sesenta. Brian, setenta y cinco… y Boobie, noventa.",
+   "s": 365.24,
+   "e": 383.07
+  },
+  {
+   "t": "Y tú, ¿quién crees que los va a traicionar? ¿Me he equivocado? Déjamelo en comentarios, que los leo todos. Y suscríbete, que cuando salga la verdad… hacemos la segunda parte.",
+   "s": 383.3,
+   "e": 395.49
+  }
+ ],
+ "voice": "gta6/audio/docC-voz.wav",
+ "total": 397.17,
+ "clipLen": {
+  "q_salte": 12.6,
+  "c_brian1": 14.5,
+  "d_ascensor3": 23.0,
+  "d_coche2": 40.0,
+  "d_parking": 34.0,
+  "d_carrusel": 73.0,
+  "c_callejon": 1.23,
+  "d_noche": 8.0,
+  "a_patinete": 3.5,
+  "d_coche": 50.0,
+  "c_entrada": 3.9,
+  "c_dentro": 2.47,
+  "d_grupo": 18.0,
+  "d_lucia": 26.0,
+  "d_raul": 35.0,
+  "q_redada": 5.8,
+  "d_tiro1": 17.0,
+  "a_hidro": 3.0,
+  "a_kayak": 2.0,
+  "d_ascensor": 21.0,
+  "a_selfie": 3.2,
+  "m_poli_tiro": 4.5,
+  "m_tienda1": 4.0,
+  "a_motocross": 4.2,
+  "q_prueba": 9.8,
+  "d_huida": 27.0,
+  "d_cama": 15.0,
+  "a_jetski": 1.83,
+  "a_mar": 2.6,
+  "d_tele": 32.0,
+  "d_fiesta": 34.0,
+  "d_casa": 20.0,
+  "a_circuito": 5.3,
+  "d_final": 33.0,
+  "d_oficina": 36.0,
+  "d_pasillo": 14.0,
+  "d_monitores": 12.0,
+  "d_ascensor2": 15.0,
+  "d_mensaje": 16.0,
+  "q_gloria2": 6.8,
+  "d_torre": 7.0,
+  "d_llamada": 32.0,
+  "m_golpe2": 5.0,
+  "q_ernesto": 11.3,
+  "a_club": 4.0,
+  "q_trabajo": 12.8,
+  "m_golpe3": 7.0,
+  "q_ladrillos": 3.4,
+  "d_persecucion": 30.0,
+  "d_callejera": 8.0,
+  "a_gym": 3.3,
+  "d_ropa": 16.0,
+  "d_tiro2": 28.0,
+  "d_mesa": 20.0,
+  "a_coche": 6.0,
+  "m_poli_flip": 6.0,
+  "d_titulo": 20.0,
+  "m_joya2": 6.6,
+  "d_redada": 18.0,
+  "d_discurso": 22.0,
+  "d_bolsa": 8.0,
+  "q_profesional": 11.4,
+  "m_tienda2": 6.0,
+  "m_joya1": 3.2,
+  "d_perro": 9.0,
+  "q_gloria": 16.0,
+  "m_tienda3": 3.0,
+  "m_furgon": 1.9,
+  "d_llegada": 8.0,
+  "d_ataque": 18.0,
+  "a_disco": 2.7,
+  "d_trunk": 19.0,
+  "m_golpe1": 6.0,
+  "d_cochenoche": 14.0,
+  "d_puerta": 20.0,
+  "d_azotea": 38.0,
+  "d_jet": 14.0,
+  "d_aeropuerto": 27.0,
+  "d_mesa2": 23.0,
+  "c_saludo": 2.47,
+  "d_tiro3": 42.0,
+  "q_trunk": 13.4,
+  "a_playa": 2.6,
+  "q_bajarte": 7.8,
+  "a_paracaidas": 9.7
+ },
+ "clipVolume": 0,
+ "brand": "EXPEDIENTE · GTA VI"
+}

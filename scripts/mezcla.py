@@ -38,6 +38,6 @@ fc = (f"[1:a]atrim=0:{L:.2f},afade=t=in:d=1.5,afade=t=out:st={max(0, L-3):.2f}:d
       "[m][key]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=400:makeup=1[md];"
       "[v][md]amix=inputs=2:normalize=0:duration=first,acompressor=threshold=0.25:ratio=2.5:attack=10:release=200,loudnorm=I=-14:TP=-1.5:LRA=9[out]")
 vargs = ["-c:v","libx264","-crf",a.crf,"-preset","medium"]
-if a.maxrate: vargs += ["-maxrate",a.maxrate,"-bufsize",str(int(a.maxrate[:-1])*2)+"M"]
+if a.maxrate: vargs += ["-maxrate",a.maxrate,"-bufsize",str(int(a.maxrate[:-1])*2)+a.maxrate[-1]]
 subprocess.run(["ffmpeg","-nostdin","-y","-v","error","-ss",str(a.ss),"-i",a.video,"-i",music,"-filter_complex",fc,"-map","0:v","-map","[out]",*vargs,"-c:a","aac","-b:a","192k","-ar","48000","-movflags","+faststart",a.out], check=True)
 print(a.out, round(L, 1), "s", round(os.path.getsize(a.out)/1e6, 1), "MB")

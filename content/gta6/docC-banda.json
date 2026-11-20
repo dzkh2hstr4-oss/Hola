@@ -1,0 +1,47 @@
+[
+{
+"s": 0,
+"e": 54.84,
+"mood": "track:i_can_feel_it_coming@0"
+},
+{
+"s": 54.84,
+"e": 118.46,
+"mood": "track:private_eye@0"
+},
+{
+"s": 118.46,
+"e": 159.17,
+"mood": "track:ethernight_club@20"
+},
+{
+"s": 159.17,
+"e": 194.28,
+"mood": "track:hot_pursuit@8"
+},
+{
+"s": 194.28,
+"e": 220.57,
+"mood": "track:griphop@4"
+},
+{
+"s": 220.57,
+"e": 262.19,
+"mood": "track:mta@6"
+},
+{
+"s": 262.19,
+"e": 330.19,
+"mood": "track:mistake_the_getaway@0"
+},
+{
+"s": 330.19,
+"e": 365.19,
+"mood": "track:ethernight_club@95"
+},
+{
+"s": 365.19,
+"e": 397.17,
+"mood": "track:miami_nights@0"
+}
+]

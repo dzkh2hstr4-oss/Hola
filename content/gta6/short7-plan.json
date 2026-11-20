@@ -1,0 +1,152 @@
+{
+ "rate": "+8%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "lines": [
+  {
+   "t": "Esto no es una foto… ¡es GTA 6!",
+   "rate": "+4%",
+   "imgs": [
+    "v:d_final"
+   ],
+   "title": [
+    [
+     "ESTO",
+     "NO",
+     "ES"
+    ],
+    [
+     "UNA",
+     "*FOTO*"
+    ]
+   ],
+   "hook": true,
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.7
+    },
+    {
+     "f": "wyr/sfx/sparkle.wav",
+     "at": 1.4,
+     "v": 0.5
+    }
+   ],
+   "clipFrom": 28.6
+  },
+  {
+   "t": "Mira el agua. Los reflejos, las olas que deja el kayak… parece grabado con un móvil.",
+   "imgs": [
+    "v:a_kayak"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.3
+    }
+   ],
+   "speed": 0.5
+  },
+  {
+   "t": "Fíjate en la playa: cientos de personas, y cada una con su toalla, su sombrilla… y lo suyo.",
+   "imgs": [
+    "v:a_playa"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.3
+    }
+   ],
+   "speed": 0.5
+  },
+  {
+   "t": "La luz del atardecer, el humo del cigarro… y toda Vice City de fondo.",
+   "rate": "+2%",
+   "imgs": [
+    "v:c_brian1"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.3
+    }
+   ]
+  },
+  {
+   "t": "Los pantanos de Leonida. ¿Esto es un videojuego? ¡Venga ya!",
+   "rate": "+10%",
+   "imgs": [
+    "v:a_hidro"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.3
+    },
+    {
+     "f": "wyr/sfx/pop.wav",
+     "at": 2.0,
+     "v": 0.4
+    }
+   ],
+   "speed": 0.5
+  },
+  {
+   "t": "Y de noche… con las luces de la ciudad reflejadas en el asfalto mojado.",
+   "rate": "+0%",
+   "imgs": [
+    "v:d_cochenoche"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.3
+    }
+   ]
+  },
+  {
+   "t": "Todo esto es gameplay real, grabado en PS5. ¿Cuál te ha parecido más real? ¡Comenta!",
+   "rate": "+10%",
+   "imgs": [
+    "v:a_paracaidas"
+   ],
+   "title": [
+    [
+     "¿CUÁL",
+     "ES",
+     "MÁS"
+    ],
+    [
+     "*REAL*?"
+    ]
+   ],
+   "emojis": [
+    "👇"
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 0,
+     "v": 0.4
+    },
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 2.6,
+     "v": 0.5
+    }
+   ]
+  }
+ ]
+}

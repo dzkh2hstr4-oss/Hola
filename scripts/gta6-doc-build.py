@@ -6,6 +6,7 @@ Líneas con "t" llevan voz (edge-tts, gratis). Líneas con "play" reproducen un 
 con su audio original y un subtítulo traducido ("sub").
 """
 import json, os, re, subprocess, sys
+MIC_CHAIN = "highpass=f=80,equalizer=f=220:t=q:w=1:g=-2,equalizer=f=3200:t=q:w=1.2:g=3,equalizer=f=9000:t=q:w=1:g=2,acompressor=threshold=-20dB:ratio=3:attack=5:release=80:makeup=4,alimiter=limit=0.95"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 plan_p, out_p, name = sys.argv[1:4]
 plan = json.load(open(plan_p))
@@ -29,7 +30,7 @@ for i, ln in enumerate(plan["lines"]):
         cmd = ["edge-tts","--voice",ln.get("voice",plan["voice"]),f"--rate={ln.get('rate',plan['rate'])}",f"--pitch={ln.get('pitch',plan['pitch'])}","--text",ln["t"],"--write-media",raw]
         if proxy: cmd[1:1] = ["--proxy", proxy]
         subprocess.run(cmd, check=True, capture_output=True)
-        af = "silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse"
+        af = "silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse" + ("," + MIC_CHAIN if plan.get("mic") else "")
         subprocess.run(["ffmpeg","-nostdin","-y","-v","error","-i",raw,"-af",af,"-ar","44100","-ac","1",wav], check=True)
         open(key, "w").write(ln.get("voice","") + ln.get("rate",plan["rate"]) + ln.get("pitch",plan["pitch"]) + ln["t"])
     L = dur(wav)

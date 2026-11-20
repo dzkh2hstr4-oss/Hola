@@ -52,6 +52,7 @@ export type Scene = {
   full?: boolean;
   vol?: number;
   clipFrom?: number;
+  speed?: number;
 };
 
 export type Caption = { t: string; s: number; e: number; full?: boolean };
@@ -477,7 +478,7 @@ const Stickers: React.FC<{ emojis: string[]; dur: number; seed: number }> = ({ e
   );
 };
 
-const FullMedia: React.FC<{ m: string; clipLen: Record<string, number>; vol: number; seed: number; from?: number }> = ({ m, clipLen, vol, seed, from = 0 }) => {
+const FullMedia: React.FC<{ m: string; clipLen: Record<string, number>; vol: number; seed: number; from?: number; speed?: number }> = ({ m, clipLen, vol, seed, from = 0, speed = 1 }) => {
   const f = useCurrentFrame();
   const smooth = React.useContext(SmoothCtx);
   const punch = seed === 0 || smooth ? 1.06 : interpolate(f, [0, 7], [1.25, 1.06], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
@@ -487,12 +488,12 @@ const FullMedia: React.FC<{ m: string; clipLen: Record<string, number>; vol: num
   const isV = m.startsWith("v:");
   const name = isV ? m.slice(2) : m;
   const startF = Math.round(from * FPS);
-  const len = Math.max(1, Math.round((clipLen[name] ?? 3) * FPS) - 1 - startF);
+  const len = Math.max(1, Math.round(((clipLen[name] ?? 3) * FPS - 1 - startF) / speed));
   return (
     <AbsoluteFill style={{ overflow: "hidden" }}>
       {isV ? (
         <Loop durationInFrames={len} layout="none">
-          <OffthreadVideo src={staticFile(`gta6/gp/${name}.mp4`)} startFrom={startF} volume={vol} style={style} />
+          <OffthreadVideo src={staticFile(`gta6/gp/${name}.mp4`)} startFrom={startF} playbackRate={speed} volume={vol} style={style} />
         </Loop>
       ) : (
         <Img src={staticFile(`gta6/img/${m}.jpg`)} style={style} />
@@ -533,7 +534,7 @@ const SceneView: React.FC<{ sc: Scene; idx: number; clipLen?: Record<string, num
         sc.imgs.map((im, i) =>
           i === cur ? (
             <Sequence key={i} from={Math.round(i * per)} durationInFrames={Math.max(1, Math.round(per))}>
-              <FullMedia m={im} clipLen={clipLen} vol={sc.vol ?? gameVolume} seed={idx + i} from={i === 0 ? sc.clipFrom ?? 0 : 0} />
+              <FullMedia m={im} clipLen={clipLen} vol={sc.vol ?? gameVolume} seed={idx + i} from={i === 0 ? sc.clipFrom ?? 0 : 0} speed={sc.speed ?? 1} />
             </Sequence>
           ) : null,
         )

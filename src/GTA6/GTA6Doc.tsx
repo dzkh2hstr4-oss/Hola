@@ -17,6 +17,8 @@ import { loadFont } from "@remotion/fonts";
 loadFont({ family: "Anton", url: staticFile("fonts/anton.woff2") });
 loadFont({ family: "Bebas", url: staticFile("fonts/bebas.woff2") });
 loadFont({ family: "Archivo", url: staticFile("fonts/archivo-black.woff2") });
+loadFont({ family: "Caveat", url: staticFile("fonts/caveat.woff2") });
+loadFont({ family: "Grotesk", url: staticFile("fonts/space-grotesk.woff2") });
 for (const weight of ["600", "800", "900"]) {
   loadFont({ family: "Montserrat", url: staticFile(`fonts/montserrat-${weight}.woff2`), weight });
 }
@@ -27,6 +29,7 @@ const sec = (s: number) => Math.round(s * DFPS);
 type Theme = { bg: string; panel: string; accent: string; accent2: string; text: string; dim: string };
 const THEMES: Record<string, Theme> = {
   doc: { bg: "#0f0f12", panel: "rgba(18,18,22,0.92)", accent: "#E9B949", accent2: "#5BD6A0", text: "#F4F1EA", dim: "#8d8a83" },
+  detective: { bg: "#140d08", panel: "rgba(24,17,11,0.94)", accent: "#E23B3B", accent2: "#F2C14E", text: "#F5EBDD", dim: "#b9a993" },
   tier: { bg: "#0d0618", panel: "rgba(20,10,36,0.92)", accent: "#FF3EA5", accent2: "#3EF6FF", text: "#FFFFFF", dim: "#a99bc4" },
 };
 const TIER_COLORS: Record<string, string> = { S: "#FF4D5E", A: "#FF9F43", B: "#FFD84D", C: "#5BD6A0", D: "#4DA3FF" };
@@ -35,7 +38,7 @@ export type Callout = { at: number; x: number; y: number; r: number; text: strin
 export type DScene = {
   s: number;
   e: number;
-  kind: "clip" | "panel" | "cards" | "map" | "stat" | "quote" | "tier" | "chapter" | "intro" | "outro" | "list" | "split" | "board";
+  kind: "clip" | "panel" | "cards" | "map" | "stat" | "quote" | "tier" | "chapter" | "intro" | "outro" | "list" | "split" | "board" | "cork" | "suspect" | "evidence";
   clips?: string[];
   label?: string;
   title?: string;
@@ -52,10 +55,16 @@ export type DScene = {
   flash?: boolean;
   vol?: number;
   reveal?: number;
+  suspects?: { name: string; img: string }[];
+  focus?: string;
+  meter?: number;
+  role?: string;
+  evidence?: { n: number; text: string; source: string };
+  stamp?: string;
 };
 export type DCaption = { t: string; s: number; e: number };
 export type DocProps = {
-  theme: "doc" | "tier";
+  theme: "doc" | "tier" | "detective";
   scenes: DScene[];
   captions: DCaption[];
   voice: string;
@@ -367,6 +376,154 @@ const TierBoard: React.FC<{ placed: { item: string; rank: string; thumb: string;
   );
 };
 
+
+// ---------- detective components ----------
+const Cork: React.FC = () => (
+  <AbsoluteFill
+    style={{
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(255,220,170,0.10), transparent 40%), radial-gradient(circle at 80% 80%, rgba(0,0,0,0.35), transparent 50%), repeating-radial-gradient(circle at 10% 10%, #6b4a2e 0px, #5c3f27 3px, #6f4d30 5px, #5a3d26 7px)",
+    }}
+  >
+    <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, rgba(0,0,0,0) 40%, rgba(0,0,0,0.6) 100%)" }} />
+  </AbsoluteFill>
+);
+
+const Pin: React.FC<{ color?: string }> = ({ color = "#E23B3B" }) => (
+  <div style={{ position: "absolute", left: "50%", top: -14, width: 30, height: 30, marginLeft: -15, borderRadius: 15, background: `radial-gradient(circle at 35% 35%, #fff8, ${color} 45%, #6b0d0d)`, boxShadow: "0 6px 8px rgba(0,0,0,0.5)", zIndex: 3 }} />
+);
+
+const Polaroid: React.FC<{ img: string; name: string; w: number; rot?: number; dim?: boolean; glow?: boolean }> = ({ img, name, w, rot = 0, dim, glow }) => (
+  <div style={{ position: "relative", width: w, background: "#f3eee4", padding: `${w * 0.05}px ${w * 0.05}px ${w * 0.2}px`, transform: `rotate(${rot}deg)`, boxShadow: glow ? "0 0 0 6px #E23B3B, 0 25px 60px rgba(0,0,0,0.7)" : "0 18px 40px rgba(0,0,0,0.6)", filter: dim ? "grayscale(0.9) brightness(0.55)" : undefined }}>
+    <Pin />
+    <div style={{ width: "100%", aspectRatio: "1 / 1", overflow: "hidden", background: "#222" }}>
+      {img === "?" ? (
+        <div style={{ width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Archivo", fontSize: w * 0.55, color: "#888" }}>?</div>
+      ) : (
+        <Img src={staticFile(`gta6/img/${img}.jpg`)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+      )}
+    </div>
+    <div style={{ position: "absolute", left: 0, right: 0, bottom: w * 0.03, textAlign: "center", fontFamily: "Caveat", fontSize: w * 0.13, color: "#222" }}>{name}</div>
+  </div>
+);
+
+const SLOTS = [
+  [170, 120], [560, 90], [1250, 90], [1630, 130], [210, 610], [1580, 600], [820, 660],
+];
+
+const CorkBoard: React.FC<{ sc: DScene; dur: number }> = ({ sc, dur }) => {
+  const f = useCurrentFrame();
+  const sus = sc.suspects ?? [];
+  const cx = 960, cy = 470;
+  const focusIdx = sus.findIndex((x) => x.name === sc.focus);
+  const zoom = focusIdx >= 0 ? interpolate(f, [8, 30], [1, 1.55], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.inOut(Easing.cubic) }) : 1 + f * 0.0004;
+  const [fx, fy] = focusIdx >= 0 ? SLOTS[focusIdx % SLOTS.length] : [cx - 110, cy - 110];
+  const tx = focusIdx >= 0 ? (cx - (fx + 110)) * (zoom - 1) / zoom : 0;
+  const ty = focusIdx >= 0 ? (cy - (fy + 140)) * (zoom - 1) / zoom : 0;
+  return (
+    <AbsoluteFill>
+      <Cork />
+      <AbsoluteFill style={{ transform: `scale(${zoom}) translate(${tx}px, ${ty}px)` }}>
+        <svg width={1920} height={1080} style={{ position: "absolute" }}>
+          {sus.map((x, i) => {
+            const [sx, sy] = SLOTS[i % SLOTS.length];
+            const prog = interpolate(f, [4 + i * 4, 20 + i * 4], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+            const ex = cx + (sx + 110 - cx) * prog, ey = cy + (sy - 4 - cy) * prog;
+            return <line key={i} x1={cx} y1={cy} x2={ex} y2={ey} stroke="#c62828" strokeWidth={5} opacity={0.9} />;
+          })}
+        </svg>
+        <div style={{ position: "absolute", left: cx - 90, top: cy - 90, width: 180, height: 180, borderRadius: 90, background: "#f3eee4", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Archivo", fontSize: 130, color: "#c62828", boxShadow: "0 18px 40px rgba(0,0,0,0.6)" }}>?</div>
+        {sus.map((x, i) => {
+          const [sx, sy] = SLOTS[i % SLOTS.length];
+          const sp = spring({ frame: f - i * 4, fps: DFPS, config: { damping: 12, stiffness: 160 } });
+          return (
+            <div key={i} style={{ position: "absolute", left: sx, top: sy, transform: `scale(${sp})` }}>
+              <Polaroid img={x.img} name={x.name} w={220} rot={((i * 37) % 11) - 5} dim={focusIdx >= 0 && i !== focusIdx} glow={i === focusIdx} />
+            </div>
+          );
+        })}
+      </AbsoluteFill>
+      {sc.stamp ? <Stamp text={sc.stamp} at={Math.round(dur * 0.45)} /> : null}
+    </AbsoluteFill>
+  );
+};
+
+const Stamp: React.FC<{ text: string; at: number }> = ({ text, at }) => {
+  const f = useCurrentFrame() - at;
+  if (f < 0) return null;
+  const sp = spring({ frame: f, fps: DFPS, config: { damping: 10, stiffness: 220 } });
+  return (
+    <div style={{ position: "absolute", right: 140, bottom: 170, transform: `rotate(-12deg) scale(${interpolate(sp, [0, 1], [2.6, 1])})`, opacity: Math.min(1, sp * 1.5), fontFamily: "Archivo", fontSize: 76, color: "#d32f2f", border: "10px solid #d32f2f", padding: "6px 30px", borderRadius: 12, background: "rgba(255,245,235,0.15)", letterSpacing: 4 }}>{text}</div>
+  );
+};
+
+const Meter: React.FC<{ value: number; delay?: number }> = ({ value, delay = 12 }) => {
+  const f = useCurrentFrame() - delay;
+  const v = interpolate(f, [0, 40], [0, value], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const col = v < 35 ? "#5BD6A0" : v < 65 ? "#F2C14E" : "#E23B3B";
+  return (
+    <div>
+      <div style={{ display: "flex", justifyContent: "space-between", fontFamily: "Bebas", fontSize: 40, letterSpacing: 4, color: "#F5EBDD" }}>
+        <span>NIVEL DE SOSPECHA</span>
+        <span style={{ color: col }}>{Math.round(v)}%</span>
+      </div>
+      <div style={{ marginTop: 8, height: 34, borderRadius: 17, background: "rgba(255,255,255,0.12)", overflow: "hidden", border: "2px solid rgba(255,255,255,0.2)" }}>
+        <div style={{ width: `${v}%`, height: "100%", background: `linear-gradient(90deg, #5BD6A0, ${col})`, boxShadow: `0 0 20px ${col}` }} />
+      </div>
+    </div>
+  );
+};
+
+const SuspectCard: React.FC<{ sc: DScene; dur: number }> = ({ sc, dur }) => {
+  const f = useCurrentFrame();
+  const sp = spring({ frame: f, fps: DFPS, config: { damping: 13, stiffness: 150 } });
+  const s0 = (sc.suspects ?? [])[0] ?? { name: sc.focus ?? "", img: "?" };
+  return (
+    <AbsoluteFill>
+      <Cork />
+      <div style={{ position: "absolute", left: 130, top: 150, transform: `translateX(${(1 - sp) * -500}px) rotate(${interpolate(sp, [0, 1], [-14, -4])}deg)` }}>
+        <Polaroid img={s0.img} name={s0.name} w={560} />
+      </div>
+      <div style={{ position: "absolute", left: 860, top: 200, width: 920, padding: "40px 50px", background: "rgba(243,238,228,0.95)", boxShadow: "0 25px 60px rgba(0,0,0,0.6)", transform: `translateX(${(1 - sp) * 600}px) rotate(1deg)` }}>
+        <Pin color="#2a6fdb" />
+        <div style={{ fontFamily: "Grotesk", fontSize: 30, letterSpacing: 6, color: "#8a2b2b" }}>{sc.label ?? "SOSPECHOSO"}</div>
+        <div style={{ fontFamily: "Archivo", fontSize: 92, color: "#1b140f", lineHeight: 1.05, marginTop: 6 }}>{s0.name.toUpperCase()}</div>
+        <div style={{ fontFamily: "Grotesk", fontSize: 36, color: "#3a2f26", marginTop: 12 }}>{sc.role}</div>
+        <div style={{ marginTop: 34, padding: "22px 26px", background: "#1b140f", borderRadius: 14 }}>
+          <Meter value={sc.meter ?? 0} />
+        </div>
+      </div>
+      {sc.stamp ? <Stamp text={sc.stamp} at={Math.round(dur * 0.55)} /> : null}
+    </AbsoluteFill>
+  );
+};
+
+const EvidenceCard: React.FC<{ sc: DScene; dur: number; idx: number }> = ({ sc, dur, idx }) => {
+  const f = useCurrentFrame();
+  const ev = sc.evidence!;
+  const sp = spring({ frame: f, fps: DFPS, config: { damping: 14, stiffness: 150 } });
+  const chars = Math.round(ev.text.length * interpolate(f, [10, 10 + ev.text.length * 0.7], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }));
+  return (
+    <AbsoluteFill>
+      <AbsoluteFill style={{ filter: "blur(14px) brightness(0.35) sepia(0.4)", transform: "scale(1.1)" }}>
+        <Cycle clips={sc.clips ?? ["img:keyart"]} dur={dur} still />
+      </AbsoluteFill>
+      <AbsoluteFill style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <div style={{ position: "relative", width: 1300, padding: "56px 70px 50px", background: "linear-gradient(180deg,#f4ecd9,#e9dcc0)", boxShadow: "0 30px 80px rgba(0,0,0,0.7)", transform: `rotate(${idx % 2 ? 1.2 : -1.2}deg) translateY(${(1 - sp) * 120}px)`, opacity: sp }}>
+          <Pin />
+          <div style={{ fontFamily: "Grotesk", fontSize: 32, letterSpacing: 8, color: "#8a2b2b" }}>PRUEBA Nº {ev.n}</div>
+          <div style={{ marginTop: 22, fontFamily: "Grotesk", fontSize: 54, lineHeight: 1.3, color: "#1b140f", minHeight: 150 }}>
+            «{ev.text.slice(0, chars)}
+            <span style={{ opacity: f % 20 < 10 && chars < ev.text.length ? 1 : 0 }}>|</span>»
+          </div>
+          <div style={{ marginTop: 26, fontFamily: "Caveat", fontSize: 44, color: "#5a4636" }}>— {ev.source}</div>
+          <div style={{ position: "absolute", right: 50, top: 40, fontFamily: "Archivo", fontSize: 40, color: "#c62828", border: "6px solid #c62828", padding: "2px 18px", transform: "rotate(8deg)", opacity: interpolate(f, [24, 30], [0, 0.9], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>{sc.stamp ?? "CONFIDENCIAL"}</div>
+        </div>
+      </AbsoluteFill>
+    </AbsoluteFill>
+  );
+};
+
 // ---------- scene renderer ----------
 const SceneView: React.FC<{ sc: DScene; idx: number; all: DScene[] }> = ({ sc, idx, all }) => {
   const t = useTheme();
@@ -560,6 +717,12 @@ const SceneView: React.FC<{ sc: DScene; idx: number; all: DScene[] }> = ({ sc, i
         </div>
       </>
     );
+  } else if (sc.kind === "cork") {
+    body = <CorkBoard sc={sc} dur={dur} />;
+  } else if (sc.kind === "suspect") {
+    body = <SuspectCard sc={sc} dur={dur} />;
+  } else if (sc.kind === "evidence") {
+    body = <EvidenceCard sc={sc} dur={dur} idx={idx} />;
   } else if (sc.kind === "board") {
     const placed = all.filter((s) => s.kind === "tier" && s.s <= sc.s).map((s) => ({ ...s.tier!, at: 0 }));
     const sp = spring({ frame: f, fps: DFPS, config: { damping: 15, stiffness: 140 } });
@@ -725,6 +888,10 @@ export const GTA6Doc: React.FC<DocProps> = ({ theme, scenes, captions, voice, to
               extra.push({ f: "wyr/sfx/redoble.wav", at: Math.max(0, rv - 1.2), v: 0.3 }, { f: "voz/impacto.wav", at: rv, v: 0.6 });
             }
             if (sc.kind === "board") extra.push({ f: "wyr/sfx/sparkle.wav", at: 0.3, v: 0.5 });
+            if (sc.kind === "cork") (sc.suspects ?? []).forEach((_, k) => extra.push({ f: "wyr/sfx/pop.wav", at: (k * 4) / DFPS + 0.1, v: 0.5 }));
+            if (sc.kind === "suspect") extra.push({ f: "wyr/sfx/riser.wav", at: 0.3, v: 0.35 }, { f: "wyr/sfx/ding.wav", at: 1.75, v: 0.35 });
+            if (sc.kind === "evidence") for (let k = 0; k < 18; k++) extra.push({ f: "wyr/sfx/tick.wav", at: 0.35 + k * 0.075 + (k % 3) * 0.012, v: 0.45 });
+            if (sc.stamp && (sc.kind === "cork" || sc.kind === "suspect")) extra.push({ f: "voz/impacto.wav", at: (sc.e - sc.s) * (sc.kind === "cork" ? 0.45 : 0.55), v: 0.55 });
             if (sc.kind === "stat") extra.push({ f: "wyr/sfx/ding.wav", at: 1.3, v: 0.45 });
             if (sc.kind === "outro") extra.push({ f: "voz/click.wav", at: 2.5, v: 0.9 }, { f: "wyr/sfx/ding.wav", at: 2.55, v: 0.5 });
             if (sc.kind === "map" && sc.map === "chase") extra.push({ f: "wyr/sfx/heart.wav", at: 0.5, v: 0.4 }, { f: "wyr/sfx/heart.wav", at: 1.2, v: 0.4 });
