@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-21-3",
+  "producto": "aurora",
+  "status": "esperando-clips",
+  "formato": "unboxing",
+  "gancho": [
+    "Abriendo lo que",
+    "me ha llegado 📦"
+  ],
+  "ganchoSegundos": 2.4,
+  "boton": "Cómpralo en mi bio",
+  "comenta": "¿lo abrías tú también? 👇",
+  "finalSegundos": 2.6,
+  "clips": [
+    {
+      "archivo": "entrada/2026-11-21-3/1.mp4",
+      "segundos": 2.4
+    },
+    {
+      "archivo": "entrada/2026-11-21-3/2.mp4",
+      "segundos": 2.0,
+      "texto": [
+        "un cubito, un mando",
+        "y un cable USB"
+      ]
+    },
+    {
+      "archivo": "entrada/2026-11-21-3/3.mp4",
+      "segundos": 1.8,
+      "texto": [
+        "lo enciendo y…"
+      ]
+    },
+    {
+      "archivo": "entrada/2026-11-21-3/4.mp4",
+      "segundos": 2.6,
+      "texto": [
+        "😳🌌"
+      ]
+    }
+  ],
+  "caption": "Abriendo lo que me ha llegado 📦 Un proyector aurora: el cubo, el mando y el cable USB. Lo enciendes y tu techo se llena de aurora y estrellas 🌌 39,95 € (antes 64,95 €) · Envío gratis. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad\n\n#proyectoraurora #unboxing #auroraboreal #roomdecor #aesthetic #regalosnavidad #lumora"
+}

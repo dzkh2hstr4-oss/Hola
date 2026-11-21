@@ -66,3 +66,5 @@ con clips realistas de **Google Flow** que graba el dueño, montados en el estil
 - 2026-11-20-4 · atardecer · «El truco de los cuartos / de Pinterest 🤫» (truco de decoración)
 - 2026-11-21-1 · aurora · «Espera al final 👀» (espera al final + cuenta atrás)
 - 2026-11-21-2 · atardecer · «Plan de sábado: / peli en casa 🍿» (noche de peli)
+- 2026-11-21-3 · aurora · «Abriendo lo que / me ha llegado 📦» (unboxing)
+- 2026-11-21-4 · atardecer · «Dime un cuarto / más bonito que este 👇» (reto)
