@@ -64,3 +64,5 @@ con clips realistas de **Google Flow** que graba el dueño, montados en el estil
 - 2026-11-20-2 · atardecer · «Las tiras LED / ya pasaron de moda 💀» (polémica suave)
 - 2026-11-20-3 · aurora · «Tus fotos con flash / vs con esto 📸» (fotos)
 - 2026-11-20-4 · atardecer · «El truco de los cuartos / de Pinterest 🤫» (truco de decoración)
+- 2026-11-21-1 · aurora · «Espera al final 👀» (espera al final + cuenta atrás)
+- 2026-11-21-2 · atardecer · «Plan de sábado: / peli en casa 🍿» (noche de peli)

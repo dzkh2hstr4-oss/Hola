@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-21-1",
+  "producto": "aurora",
+  "status": "esperando-clips",
+  "formato": "espera al final",
+  "gancho": [
+    "Espera al final 👀"
+  ],
+  "ganchoSegundos": 2.2,
+  "boton": "Cómpralo en mi bio",
+  "comenta": "¿te lo esperabas? 👇",
+  "finalSegundos": 2.8,
+  "clips": [
+    {
+      "archivo": "entrada/2026-11-21-1/1.mp4",
+      "segundos": 2.2
+    },
+    {
+      "archivo": "entrada/2026-11-21-1/2.mp4",
+      "segundos": 1.8,
+      "texto": [
+        "3…"
+      ]
+    },
+    {
+      "archivo": "entrada/2026-11-21-1/3.mp4",
+      "segundos": 1.8,
+      "texto": [
+        "2… 1…"
+      ]
+    },
+    {
+      "archivo": "entrada/2026-11-21-1/4.mp4",
+      "segundos": 2.8,
+      "texto": [
+        "🌌"
+      ]
+    }
+  ],
+  "caption": "Espera al final 👀🌌 Apagas la luz, pulsas el mando y tu techo se convierte en una aurora boreal. Proyector aurora recargable por USB. 39,95 € (antes 64,95 €) · Envío gratis. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad\n\n#proyectoraurora #auroraboreal #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora"
+}
