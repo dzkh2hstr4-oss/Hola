@@ -68,3 +68,5 @@ con clips realistas de **Google Flow** que graba el dueño, montados en el estil
 - 2026-11-21-2 · atardecer · «Plan de sábado: / peli en casa 🍿» (noche de peli)
 - 2026-11-21-3 · aurora · «Abriendo lo que / me ha llegado 📦» (unboxing)
 - 2026-11-21-4 · atardecer · «Dime un cuarto / más bonito que este 👇» (reto)
+- 2026-11-22-1 · aurora · «Cosas que no sabías / que necesitabas 👀» (cosas que no sabías que necesitabas)
+- 2026-11-22-2 · atardecer · «Sube el volumen 🔊» (sonido satisfactorio del clic)
