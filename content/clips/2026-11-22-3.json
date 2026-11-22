@@ -1,0 +1,40 @@
+{
+  "id": "2026-11-22-3",
+  "producto": "aurora",
+  "status": "esperando-clips",
+  "formato": "cita en casa",
+  "gancho": [
+    "Cita en casa:",
+    "el plan que no falla 💫"
+  ],
+  "ganchoSegundos": 2.4,
+  "boton": "Cómpralo en mi bio",
+  "comenta": "etiqueta a tu cita 💫",
+  "finalSegundos": 2.6,
+  "clips": [
+    {
+      "archivo": "entrada/2026-11-22-3/1.mp4",
+      "segundos": 2.4
+    },
+    {
+      "archivo": "entrada/2026-11-22-3/2.mp4",
+      "segundos": 2.0,
+      "texto": [
+        "apagas la luz…"
+      ]
+    },
+    {
+      "archivo": "entrada/2026-11-22-3/3.mp4",
+      "segundos": 2.2,
+      "texto": [
+        "y os tumbáis",
+        "bajo la aurora 🌌"
+      ]
+    },
+    {
+      "archivo": "entrada/2026-11-22-3/4.mp4",
+      "segundos": 2.6
+    }
+  ],
+  "caption": "Cita en casa: el plan que no falla 💫 Apagas la luz y os tumbáis bajo una aurora boreal 🌌 Proyector aurora con mando, recargable por USB. 39,95 € (antes 64,95 €) · Envío gratis. Link en la bio 🔗\n\n🎄 Pide antes del 2/12 y llega para Navidad\n\n#proyectoraurora #citaencasa #planromantico #auroraboreal #aesthetic #regalosnavidad #lumora"
+}

@@ -70,3 +70,5 @@ con clips realistas de **Google Flow** que graba el dueño, montados en el estil
 - 2026-11-21-4 · atardecer · «Dime un cuarto / más bonito que este 👇» (reto)
 - 2026-11-22-1 · aurora · «Cosas que no sabías / que necesitabas 👀» (cosas que no sabías que necesitabas)
 - 2026-11-22-2 · atardecer · «Sube el volumen 🔊» (sonido satisfactorio del clic)
+- 2026-11-22-3 · aurora · «Cita en casa: / el plan que no falla 💫» (cita en casa)
+- 2026-11-22-4 · atardecer · «Lámpara normal / vs lámpara atardecer 💡🌅» (comparativa con otra luz)
