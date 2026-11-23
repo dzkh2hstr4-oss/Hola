@@ -22,6 +22,8 @@ export type Clip = {
   from?: number; // start offset inside the clip (frames)
   numero?: string; // big number / label in the middle ("1", "2"...)
   texto?: string[]; // labels for this clip (replace the question)
+  textoTop?: number; // y of the labels (default 260)
+  textoAncho?: number; // min label width (to cover old text in a clip)
   audio?: number; // volume of the clip's own sound (0 = mute)
 };
 
@@ -29,6 +31,8 @@ export type ClipsProps = {
   clips: Clip[];
   gancho: string[]; // hook, shown on the first clip(s) from frame 0
   ganchoFrames?: number; // how long the hook stays (default: first clip)
+  ganchoTop?: number; // y of the hook labels (default 260)
+  ganchoAncho?: number; // min hook label width
   pregunta?: string[]; // shown on numbered clips
   comenta?: string; // e.g. "comenta 1, 2, 3 o 4 💬"
   boton?: string; // e.g. "Cómpralo en mi bio"
@@ -45,11 +49,12 @@ const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
 /* ---------- pieces ---------- */
 
-const Label: React.FC<{ lines: string[]; top: number; delay?: number }> = ({
-  lines,
-  top,
-  delay = 0,
-}) => {
+const Label: React.FC<{
+  lines: string[];
+  top: number;
+  delay?: number;
+  minWidth?: number;
+}> = ({ lines, top, delay = 0, minWidth }) => {
   const t = useCurrentFrame();
   const { fps } = useVideoConfig();
   return (
@@ -62,7 +67,7 @@ const Label: React.FC<{ lines: string[]; top: number; delay?: number }> = ({
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        gap: 10,
+        gap: minWidth ? -4 : 10,
         zIndex: 40,
       }}
     >
@@ -90,6 +95,7 @@ const Label: React.FC<{ lines: string[]; top: number; delay?: number }> = ({
               transform: `scale(${0.6 + 0.4 * s})`,
               opacity: s,
               maxWidth: 940,
+              minWidth,
               textAlign: "center",
               lineHeight: 1.15,
             }}
@@ -301,13 +307,15 @@ export const Clips: React.FC<ClipsProps> = (p) => {
         <Sequence key={i} from={starts[i]} durationInFrames={c.frames}>
           <ClipView c={c} first={i === 0} />
           {c.numero ? <BigNumber n={c.numero} /> : null}
-          {c.texto ? <Label lines={c.texto} top={260} delay={2} /> : null}
+          {c.texto && !((p.comenta || p.boton) && starts[i] >= finalStart) ? (
+            <Label lines={c.texto} top={c.textoTop ?? 260} delay={c.textoAncho ? -1 : 2} minWidth={c.textoAncho} />
+          ) : null}
         </Sequence>
       ))}
 
       {/* hook: visible from frame 0 */}
       <Sequence from={0} durationInFrames={ganchoEnd}>
-        <Label lines={p.gancho} top={260} delay={-1} />
+        <Label lines={p.gancho} top={p.ganchoTop ?? 260} delay={-1} minWidth={p.ganchoAncho} />
       </Sequence>
 
       {/* question over the numbered clips */}
