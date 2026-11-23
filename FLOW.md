@@ -72,3 +72,5 @@ con clips realistas de **Google Flow** que graba el dueño, montados en el estil
 - 2026-11-22-2 · atardecer · «Sube el volumen 🔊» (sonido satisfactorio del clic)
 - 2026-11-22-3 · aurora · «Cita en casa: / el plan que no falla 💫» (cita en casa)
 - 2026-11-22-4 · atardecer · «Lámpara normal / vs lámpara atardecer 💡🌅» (comparativa con otra luz)
+- 2026-11-23-1 · aurora · «El regalo que va a querer / tu hermano pequeño 🎁» (regalo para los peques)
+- 2026-11-23-2 · atardecer · «Lo primero que hago / al llegar a casa 🏠» (rutina al llegar a casa)
