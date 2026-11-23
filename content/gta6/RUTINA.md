@@ -1,6 +1,6 @@
 # Rutina diaria del canal de GTA 6 (español)
 
-Cada día se entrega un **paquete**: 5 shorts + 1 vídeo largo, todos nuevos y distintos, con título,
+Cada día se entrega un **paquete**: 5 shorts nuevos y, **un día sí y un día no**, 1 vídeo largo nuevo (el 23-nov-2026 hubo largo, así que el 24 no; el 25 sí…), todos distintos, con título,
 descripción y hora de publicación. El dueño del canal los programa en YouTube Studio (desde aquí no se
 puede subir a YouTube).
 
@@ -15,7 +15,7 @@ Contexto: GTA 6 salió el **19 de noviembre de 2026**. La gente ya está jugando
 | Short 3 | 17:00 |
 | Short 4 | 21:00 |
 | Short 5 | 00:00 (del día siguiente) |
-| Vídeo largo | 19:00 |
+| Vídeo largo (días alternos) | 19:00 |
 
 ## Reglas que no se rompen
 
