@@ -1,0 +1,698 @@
+{
+ "theme": "news",
+ "scenes": [
+  {
+   "kind": "intro",
+   "clips": [
+    "a_hidro",
+    "img:aerial",
+    "d_tele",
+    "m_poli_flip",
+    "a_jetski"
+   ],
+   "label": "GTA 6",
+   "title": "25 COSAS QUE NO SABÍAS",
+   "mus": "track:hot_pursuit@8",
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.7
+    },
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 3.0,
+     "v": 0.4
+    }
+   ],
+   "s": 0.0,
+   "e": 8.31
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "img:skyline_dusk"
+   ],
+   "label": "CUENTA ATRÁS",
+   "title": "DEL 25 AL 1",
+   "s": 8.31,
+   "e": 13.99
+  },
+  {
+   "kind": "versus",
+   "clips": [
+    "img:aerial",
+    "img:skyline_dusk"
+   ],
+   "items": [
+    "#25 · LEONIDA",
+    "FLORIDA"
+   ],
+   "pin": [
+    -81.6,
+    28.2
+   ],
+   "mus": "track:miami_nights@0",
+   "s": 13.99,
+   "e": 23.74
+  },
+  {
+   "kind": "versus",
+   "clips": [
+    "img:vice_city_15",
+    "img:vice_city_27",
+    "img:ue_squalo"
+   ],
+   "items": [
+    "#24 · VICE CITY",
+    "MIAMI"
+   ],
+   "pin": [
+    -80.19,
+    25.77
+   ],
+   "s": 23.74,
+   "e": 34.26
+  },
+  {
+   "kind": "versus",
+   "clips": [
+    "a_hidro",
+    "img:grassrivers_07"
+   ],
+   "items": [
+    "#23 · GRASSRIVERS",
+    "EVERGLADES"
+   ],
+   "pin": [
+    -80.9,
+    25.9
+   ],
+   "s": 34.26,
+   "e": 45.0
+  },
+  {
+   "kind": "versus",
+   "clips": [
+    "img:leonida_keys_07",
+    "a_kayak",
+    "a_jetski"
+   ],
+   "items": [
+    "#22 · LEONIDA KEYS",
+    "CAYOS DE FLORIDA"
+   ],
+   "pin": [
+    -81.3,
+    24.7
+   ],
+   "s": 45.0,
+   "e": 55.14
+  },
+  {
+   "kind": "versus",
+   "clips": [
+    "img:ue_wyman",
+    "img:ue_safehouse"
+   ],
+   "items": [
+    "#21 · AMBROSIA",
+    "CLEWISTON"
+   ],
+   "pin": [
+    -80.93,
+    26.75
+   ],
+   "s": 55.14,
+   "e": 65.52
+  },
+  {
+   "kind": "versus",
+   "clips": [
+    "img:port_gellhorn_07",
+    "img:vice_city_22"
+   ],
+   "items": [
+    "#20 · PORT GELLHORN",
+    "PANHANDLE"
+   ],
+   "pin": [
+    -85.66,
+    30.16
+   ],
+   "s": 65.52,
+   "e": 74.37
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_mar",
+    "img:vice_city_15"
+   ],
+   "label": "#19",
+   "title": "FIESTAS EN EL MAR",
+   "s": 74.37,
+   "e": 85.83
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_gym",
+    "a_playa"
+   ],
+   "label": "#18",
+   "title": "EL GYM DE LA PLAYA",
+   "s": 85.83,
+   "e": 96.0
+  },
+  {
+   "kind": "headline",
+   "clips": [
+    "d_trunk"
+   ],
+   "label": "#17",
+   "title": "Hombre de Florida detenido por… lo que sea",
+   "sub": "El meme de buscar «Florida Man» más tu cumpleaños",
+   "mus": "track:private_eye@0",
+   "s": 96.0,
+   "e": 103.07
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_trunk",
+    "d_redada",
+    "m_poli_flip"
+   ],
+   "label": "EL SECRETO",
+   "title": "LEY DE REGISTROS PÚBLICOS",
+   "s": 103.07,
+   "e": 113.08
+  },
+  {
+   "kind": "stat",
+   "clips": [
+    "img:grassrivers_08"
+   ],
+   "label": "#16 · CAIMANES EN FLORIDA",
+   "stat": {
+    "value": 1300000,
+    "prefix": "+",
+    "suffix": ""
+   },
+   "title": "CAIMANES",
+   "s": 113.08,
+   "e": 122.9
+  },
+  {
+   "kind": "headline",
+   "clips": [
+    "img:grassrivers_07"
+   ],
+   "label": "2015 · JUPITER, FL",
+   "title": "Lanza un caimán por la ventanilla de un autoservicio",
+   "sub": "Una noticia real… que parece sacada de GTA",
+   "s": 122.9,
+   "e": 131.2
+  },
+  {
+   "kind": "headline",
+   "clips": [
+    "img:vice_city_16"
+   ],
+   "label": "#15 · DICIEMBRE 2023",
+   "title": "El Joker de Florida dice que GTA 6 se inspiró en él",
+   "sub": "Rockstar nunca lo confirmó",
+   "s": 131.2,
+   "e": 142.8
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:extended",
+    "img:launch",
+    "img:music"
+   ],
+   "label": "#14",
+   "title": "BONNIE Y CLYDE",
+   "s": 142.8,
+   "e": 154.0
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:lucia_caminos_02",
+    "d_lucia",
+    "img:lucia_caminos_05"
+   ],
+   "label": "#13",
+   "title": "LA PRIMERA PROTAGONISTA",
+   "s": 154.0,
+   "e": 163.3
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:vintage3",
+    "img:vintage1"
+   ],
+   "label": "#12",
+   "title": "LA VOZ DE TOMMY",
+   "s": 163.3,
+   "e": 173.56
+  },
+  {
+   "kind": "versus",
+   "clips": [
+    "img:vintage1",
+    "img:vintage2"
+   ],
+   "items": [
+    "#11 · OCEAN VIEW HOTEL",
+    "OCEAN DRIVE"
+   ],
+   "pin": [
+    -80.13,
+    25.78
+   ],
+   "s": 173.56,
+   "e": 182.55
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:music",
+    "img:launch"
+   ],
+   "label": "#10",
+   "title": "TOM PETTY ERA DE FLORIDA",
+   "s": 182.55,
+   "e": 191.81
+  },
+  {
+   "kind": "headline",
+   "clips": [
+    "img:preload"
+   ],
+   "label": "#9",
+   "title": "GTA 6 se retrasa… otra vez",
+   "sub": "Hasta el 19 de noviembre de 2026",
+   "s": 191.81,
+   "e": 202.55
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "img:vintage3",
+    "img:vintage2"
+   ],
+   "label": "#8",
+   "title": "1986 → 2026",
+   "sub": "Del Vice City original al de GTA 6",
+   "mus": "track:i_can_feel_it_coming@0",
+   "s": 202.55,
+   "e": 215.01
+  },
+  {
+   "kind": "stat",
+   "clips": [
+    "img:keyart"
+   ],
+   "label": "#7 · TRÁILER 1 · 24 HORAS",
+   "stat": {
+    "value": 93,
+    "suffix": " M"
+   },
+   "title": "VISUALIZACIONES",
+   "s": 215.01,
+   "e": 224.81
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:preload",
+    "img:keyart"
+   ],
+   "label": "DATO EXTRA",
+   "title": "LO TUVIERON QUE ADELANTAR",
+   "s": 224.81,
+   "e": 231.15
+  },
+  {
+   "kind": "stat",
+   "clips": [
+    "d_llegada",
+    "d_coche2"
+   ],
+   "label": "#6 · NETFLIX · 4 DÍAS",
+   "stat": {
+    "value": 31.1,
+    "decimals": 1,
+    "suffix": " M"
+   },
+   "title": "VISUALIZACIONES",
+   "s": 231.15,
+   "e": 238.59
+  },
+  {
+   "kind": "stat",
+   "clips": [
+    "img:launch"
+   ],
+   "label": "#5 · VÍDEOS DE GTA 6 EN YOUTUBE",
+   "stat": {
+    "value": 40000,
+    "suffix": " M"
+   },
+   "title": "VISUALIZACIONES",
+   "s": 238.59,
+   "e": 248.02
+  },
+  {
+   "kind": "stat",
+   "clips": [
+    "img:skyline_dusk"
+   ],
+   "label": "#4 · COPIAS DE GTA 5",
+   "stat": {
+    "value": 200,
+    "prefix": "+",
+    "suffix": " M"
+   },
+   "title": "VENDIDAS",
+   "s": 248.02,
+   "e": 258.47
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_trunk",
+    "a_selfie"
+   ],
+   "label": "#3",
+   "title": "TE GRABAN",
+   "mus": "track:voltaic@0",
+   "s": 258.47,
+   "e": 269.11
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_casa",
+    "d_tele",
+    "d_ropa"
+   ],
+   "label": "#2",
+   "title": "UNA CASA DE VERDAD",
+   "s": 269.11,
+   "e": 278.78
+  },
+  {
+   "kind": "headline",
+   "clips": [
+    "img:jason_and_lucia_16"
+   ],
+   "label": "#1 · SEPTIEMBRE 2022",
+   "title": "Un hacker filtra más de 90 vídeos de GTA 6",
+   "sub": "Rockstar: «Nada cambia en nuestros planes»",
+   "s": 278.78,
+   "e": 292.76
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_mar",
+    "img:aerial",
+    "d_cochenoche"
+   ],
+   "label": "",
+   "title": "",
+   "s": 292.76,
+   "e": 298.97
+  },
+  {
+   "kind": "outro",
+   "clips": [
+    "img:keyart"
+   ],
+   "title": "¿CUÁL NO SABÍAS?",
+   "sub": "Más secretos de GTA 6 cada semana",
+   "mus": "track:miami_viceroy@0",
+   "s": 298.97,
+   "e": 308.72
+  }
+ ],
+ "captions": [
+  {
+   "t": "Llevas días jugando a GTA 6… pero te apuesto lo que quieras a que NO sabías estas veinticinco cosas. Y la número uno… te va a volar la cabeza.",
+   "s": 0.05,
+   "e": 8.13
+  },
+  {
+   "t": "Vamos de la veinticinco a la uno. Quédate hasta el final, que lo mejor va al final.",
+   "s": 8.71,
+   "e": 13.49
+  },
+  {
+   "t": "Número veinticinco. Leonida no es un sitio inventado. Es Florida. Pero Florida de verdad, con todo lo bueno… y con todo lo raro.",
+   "s": 14.04,
+   "e": 23.56
+  },
+  {
+   "t": "Número veinticuatro. Vice City es Miami. Los rascacielos del centro, el puerto lleno de yates, los puentes hacia la playa… casi todo tiene su versión real.",
+   "s": 23.79,
+   "e": 34.08
+  },
+  {
+   "t": "Número veintitrés. Los pantanos de Grassrivers son los Everglades. Y esos hidrodeslizadores que ves en el juego existen: en Florida hay excursiones para turistas en ellos.",
+   "s": 34.31,
+   "e": 44.82
+  },
+  {
+   "t": "Número veintidós. Las Leonida Keys son los Cayos de Florida: un montón de islas unidas por puentes larguísimos sobre el mar. Uno de ellos mide más de diez kilómetros.",
+   "s": 45.05,
+   "e": 54.96
+  },
+  {
+   "t": "Número veintiuno. Ambrosia es un pueblo azucarero. Y en Florida existe uno que se llama a sí mismo «el pueblo más dulce de América», por su enorme refinería de azúcar.",
+   "s": 55.19,
+   "e": 65.34
+  },
+  {
+   "t": "Número veinte. Port Gellhorn, el puerto venido a menos del norte… muchos fans lo comparan con la costa del Panhandle de Florida, donde está Panama City.",
+   "s": 65.57,
+   "e": 74.19
+  },
+  {
+   "t": "Número diecinueve. ¿Has visto las fiestas en barco del juego? En Miami existen de verdad: los fines de semana, cientos de barcos se juntan en un banco de arena en mitad del mar a montar fiesta.",
+   "s": 74.42,
+   "e": 85.65
+  },
+  {
+   "t": "Número dieciocho. Y el gimnasio de la playa tampoco es casualidad: en Miami Beach hay un gimnasio al aire libre, en plena arena, donde la gente entrena delante de todo el mundo.",
+   "s": 85.88,
+   "e": 95.82
+  },
+  {
+   "t": "Número diecisiete. ¿Por qué GTA 6 está lleno de gente rara? Por culpa del famoso «Florida Man».",
+   "s": 96.05,
+   "e": 102.89
+  },
+  {
+   "t": "Florida tiene una ley que hace públicos muchísimos informes de detenciones. Por eso los periodistas encuentran titulares absurdos todos los días… y Rockstar los convierte en misiones.",
+   "s": 103.12,
+   "e": 112.9
+  },
+  {
+   "t": "Número dieciséis. En Florida viven más de un millón de caimanes. Y no es raro encontrarse uno en una piscina, en un campo de golf… o en la puerta de casa.",
+   "s": 113.13,
+   "e": 122.72
+  },
+  {
+   "t": "En dos mil quince, un hombre de Florida lanzó un caimán por la ventanilla de un autoservicio de comida rápida. Es real. Pasó.",
+   "s": 122.95,
+   "e": 131.02
+  },
+  {
+   "t": "Número quince. Cuando salió el primer tráiler, un hombre de Florida conocido como «el Joker de Florida», por sus tatuajes en la cara, dijo que uno de los personajes se parecía a él… y pidió que le pagaran.",
+   "s": 131.25,
+   "e": 142.62
+  },
+  {
+   "t": "Número catorce. Jason y Lucía están inspirados en Bonnie y Clyde, la pareja de atracadores más famosa de la historia de Estados Unidos. Así lo publicó la prensa en dos mil veintidós.",
+   "s": 142.85,
+   "e": 153.82
+  },
+  {
+   "t": "Número trece. Lucía es la primera protagonista femenina principal de la saga moderna de GTA. Llevábamos más de veinte años esperando algo así.",
+   "s": 154.05,
+   "e": 163.12
+  },
+  {
+   "t": "Número doce. En el Vice City de dos mil dos, Tommy Vercetti tenía la voz de un actor de Hollywood: Ray Liotta, el de Uno de los nuestros. Un lujo para la época.",
+   "s": 163.35,
+   "e": 173.38
+  },
+  {
+   "t": "Número once. El Ocean View Hotel de la web oficial… es un guiño enorme: en el Vice City de dos mil dos, ese era el primer piso franco de Tommy Vercetti.",
+   "s": 173.61,
+   "e": 182.37
+  },
+  {
+   "t": "Número diez. La canción del primer tráiler es de Tom Petty… que era de Florida. No es casualidad: todo en GTA 6 apunta al mismo sitio.",
+   "s": 182.6,
+   "e": 191.63
+  },
+  {
+   "t": "Número nueve. GTA 6 se retrasó dos veces: primero de dos mil veinticinco a mayo de dos mil veintiséis… y luego hasta el diecinueve de noviembre. Pero mereció la pena.",
+   "s": 191.86,
+   "e": 202.37
+  },
+  {
+   "t": "Número ocho. El Vice City original estaba ambientado en mil novecientos ochenta y seis, inspirado en Scarface y en la serie Corrupción en Miami. Ahora volvemos… veinticuatro años después.",
+   "s": 202.95,
+   "e": 214.51
+  },
+  {
+   "t": "Número siete. El primer tráiler es el tráiler más visto de la historia de YouTube. En sus primeras veinticuatro horas sumó unos noventa y tres millones de visualizaciones.",
+   "s": 215.06,
+   "e": 224.63
+  },
+  {
+   "t": "Y salió antes de tiempo. Se filtró en internet… y Rockstar tuvo que publicarlo horas antes de lo previsto.",
+   "s": 224.86,
+   "e": 230.97
+  },
+  {
+   "t": "Número seis. El gameplay extendido que Rockstar subió a Netflix lo vieron más de treinta y un millones de veces en solo cuatro días.",
+   "s": 231.2,
+   "e": 238.41
+  },
+  {
+   "t": "Número cinco. Antes de salir, los vídeos sobre GTA 6 ya sumaban más de cuarenta mil millones de visualizaciones en YouTube. Cuarenta mil millones.",
+   "s": 238.64,
+   "e": 247.84
+  },
+  {
+   "t": "Número cuatro. GTA 5 ha vendido más de doscientos millones de copias. Por eso GTA 6 era, probablemente, el juego más esperado de la historia.",
+   "s": 248.07,
+   "e": 258.29
+  },
+  {
+   "t": "Número tres. En GTA 6, la gente te graba. Si haces el tonto, los NPCs sacan el móvil… y hasta lo emiten en directo, con comentarios en pantalla.",
+   "s": 258.52,
+   "e": 268.93
+  },
+  {
+   "t": "Número dos. La casa de Jason y Lucía tiene notas en la nevera, ropa por el suelo… y una tele que funciona, con anuncios absurdos de pastillas contra la tristeza.",
+   "s": 269.16,
+   "e": 278.6
+  },
+  {
+   "t": "Y número uno. En dos mil veintidós, un hacker de diecisiete años filtró más de noventa vídeos del juego en desarrollo. Fue una de las mayores filtraciones de la historia de los videojuegos… y aun así, Rockstar siguió adelante y nos dio esto.",
+   "s": 278.83,
+   "e": 292.58
+  },
+  {
+   "t": "Así que la próxima vez que juegues, fíjate bien. Leonida está llena de Florida… y de secretos.",
+   "s": 292.81,
+   "e": 298.79
+  },
+  {
+   "t": "¿Cuál no sabías? Dímelo en comentarios. Y si quieres más secretos de GTA 6, suscríbete y activa la campanita.",
+   "s": 299.02,
+   "e": 307.04
+  }
+ ],
+ "voice": "gta6/audio/docD-voz.wav",
+ "total": 308.72,
+ "clipLen": {
+  "q_salte": 12.6,
+  "c_brian1": 14.5,
+  "d_ascensor3": 23.0,
+  "d_coche2": 40.0,
+  "d_parking": 34.0,
+  "d_carrusel": 73.0,
+  "c_callejon": 1.23,
+  "d_noche": 8.0,
+  "a_patinete": 3.5,
+  "d_coche": 50.0,
+  "c_entrada": 3.9,
+  "c_dentro": 2.47,
+  "d_grupo": 18.0,
+  "d_lucia": 26.0,
+  "d_raul": 35.0,
+  "q_redada": 5.8,
+  "d_tiro1": 17.0,
+  "a_hidro": 3.0,
+  "a_kayak": 2.0,
+  "d_ascensor": 21.0,
+  "a_selfie": 3.2,
+  "m_poli_tiro": 4.5,
+  "m_tienda1": 4.0,
+  "a_motocross": 4.2,
+  "q_prueba": 9.8,
+  "d_huida": 27.0,
+  "d_cama": 15.0,
+  "a_jetski": 1.83,
+  "a_mar": 2.6,
+  "d_tele": 32.0,
+  "d_fiesta": 34.0,
+  "d_casa": 20.0,
+  "a_circuito": 5.3,
+  "d_final": 33.0,
+  "d_oficina": 36.0,
+  "d_pasillo": 14.0,
+  "d_monitores": 12.0,
+  "d_ascensor2": 15.0,
+  "d_mensaje": 16.0,
+  "q_gloria2": 6.8,
+  "d_torre": 7.0,
+  "d_llamada": 32.0,
+  "m_golpe2": 5.0,
+  "q_ernesto": 11.3,
+  "a_club": 4.0,
+  "q_trabajo": 12.8,
+  "m_golpe3": 7.0,
+  "q_ladrillos": 3.4,
+  "d_persecucion": 30.0,
+  "d_callejera": 8.0,
+  "a_gym": 3.3,
+  "d_ropa": 16.0,
+  "d_tiro2": 28.0,
+  "d_mesa": 20.0,
+  "a_coche": 6.0,
+  "m_poli_flip": 6.0,
+  "d_titulo": 20.0,
+  "m_joya2": 6.6,
+  "d_redada": 18.0,
+  "d_discurso": 22.0,
+  "d_bolsa": 8.0,
+  "q_profesional": 11.4,
+  "m_tienda2": 6.0,
+  "m_joya1": 3.2,
+  "d_perro": 9.0,
+  "q_gloria": 16.0,
+  "m_tienda3": 3.0,
+  "m_furgon": 1.9,
+  "d_llegada": 8.0,
+  "d_ataque": 18.0,
+  "a_disco": 2.7,
+  "d_trunk": 19.0,
+  "m_golpe1": 6.0,
+  "d_cochenoche": 14.0,
+  "d_puerta": 20.0,
+  "d_azotea": 38.0,
+  "d_jet": 14.0,
+  "d_aeropuerto": 27.0,
+  "d_mesa2": 23.0,
+  "c_saludo": 2.47,
+  "d_tiro3": 42.0,
+  "q_trunk": 13.4,
+  "a_playa": 2.6,
+  "q_bajarte": 7.8,
+  "a_paracaidas": 9.7
+ },
+ "clipVolume": 0,
+ "brand": "GTA VI · SECRETOS"
+}

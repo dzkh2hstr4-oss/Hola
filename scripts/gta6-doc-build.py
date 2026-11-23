@@ -17,7 +17,7 @@ def dur(f): return float(subprocess.run(["ffprobe","-v","error","-show_entries",
 def silence(p, L): subprocess.run(["ffmpeg","-nostdin","-y","-v","error","-f","lavfi","-i","anullsrc=r=44100:cl=mono","-t",f"{max(L,0.01):.3f}",p],check=True)
 t = 0.0; scenes = []; caps = []; pieces = []; prev = 0.0
 for i, ln in enumerate(plan["lines"]):
-    sc = {k: v for k, v in ln.items() if k not in ("t", "play", "sub", "voice", "rate", "pitch", "dub")}
+    sc = {k: v for k, v in ln.items() if k not in ("t", "play", "voice", "rate", "pitch", "dub") and not (k == "sub" and "play" in ln)}
     if "play" in ln:
         L = dur(os.path.join(GP, ln["play"] + ".mp4"))
         s = t + 0.15; e = s + L

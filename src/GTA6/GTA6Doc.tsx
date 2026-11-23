@@ -30,6 +30,7 @@ type Theme = { bg: string; panel: string; accent: string; accent2: string; text:
 const THEMES: Record<string, Theme> = {
   doc: { bg: "#0f0f12", panel: "rgba(18,18,22,0.92)", accent: "#E9B949", accent2: "#5BD6A0", text: "#F4F1EA", dim: "#8d8a83" },
   detective: { bg: "#140d08", panel: "rgba(24,17,11,0.94)", accent: "#E23B3B", accent2: "#F2C14E", text: "#F5EBDD", dim: "#b9a993" },
+  news: { bg: "#0b1220", panel: "rgba(10,18,32,0.94)", accent: "#FF4B3E", accent2: "#36D6E7", text: "#FFFFFF", dim: "#9fb0c8" },
   tier: { bg: "#0d0618", panel: "rgba(20,10,36,0.92)", accent: "#FF3EA5", accent2: "#3EF6FF", text: "#FFFFFF", dim: "#a99bc4" },
 };
 const TIER_COLORS: Record<string, string> = { S: "#FF4D5E", A: "#FF9F43", B: "#FFD84D", C: "#5BD6A0", D: "#4DA3FF" };
@@ -38,7 +39,7 @@ export type Callout = { at: number; x: number; y: number; r: number; text: strin
 export type DScene = {
   s: number;
   e: number;
-  kind: "clip" | "panel" | "cards" | "map" | "stat" | "quote" | "tier" | "chapter" | "intro" | "outro" | "list" | "split" | "board" | "cork" | "suspect" | "evidence";
+  kind: "clip" | "panel" | "cards" | "map" | "stat" | "quote" | "tier" | "chapter" | "intro" | "outro" | "list" | "split" | "board" | "cork" | "suspect" | "evidence" | "headline" | "versus";
   clips?: string[];
   label?: string;
   title?: string;
@@ -61,10 +62,11 @@ export type DScene = {
   role?: string;
   evidence?: { n: number; text: string; source: string };
   stamp?: string;
+  pin?: [number, number];
 };
 export type DCaption = { t: string; s: number; e: number };
 export type DocProps = {
-  theme: "doc" | "tier" | "detective";
+  theme: "doc" | "tier" | "detective" | "news";
   scenes: DScene[];
   captions: DCaption[];
   voice: string;
@@ -524,6 +526,96 @@ const EvidenceCard: React.FC<{ sc: DScene; dur: number; idx: number }> = ({ sc, 
   );
 };
 
+
+// ---------- news theme: newspaper headline + game vs real Florida ----------
+const FL: [number, number][] = [[-87.6,31.0],[-85.0,31.0],[-84.9,30.7],[-82.2,30.57],[-81.5,30.72],[-81.4,30.4],[-81.25,29.7],[-80.9,29.0],[-80.6,28.5],[-80.55,28.0],[-80.2,27.2],[-80.03,26.6],[-80.1,26.0],[-80.3,25.45],[-80.45,25.2],[-81.0,25.15],[-81.3,25.8],[-81.75,26.1],[-82.1,26.7],[-82.6,27.4],[-82.8,28.1],[-82.7,28.9],[-83.1,29.25],[-83.65,29.9],[-84.3,30.08],[-84.9,29.75],[-85.35,29.68],[-85.6,30.0],[-86.3,30.38],[-87.0,30.36],[-87.5,30.3],[-87.6,31.0]];
+const flXY = (lon: number, lat: number) => ({ x: (lon + 88) * 78 + 40, y: (31.3 - lat) * 92 + 60 });
+const FloridaMap: React.FC<{ pin?: [number, number]; name?: string; delay?: number }> = ({ pin, name, delay = 8 }) => {
+  const t = useTheme();
+  const f = useCurrentFrame();
+  const draw = interpolate(f, [0, 22], [0, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const d = FL.map(([a, b], i) => { const p = flXY(a, b); return `${i ? "L" : "M"}${p.x.toFixed(1)},${p.y.toFixed(1)}`; }).join(" ") + "Z";
+  const k1 = flXY(-80.45, 25.15), k2 = flXY(-81.8, 24.55);
+  const drop = spring({ frame: f - delay - 10, fps: DFPS, config: { damping: 9, stiffness: 180 } });
+  const P = pin ? flXY(pin[0], pin[1]) : null;
+  const pulse = (f % 30) / 30;
+  return (
+    <svg width={740} height={720} viewBox="0 0 740 720">
+      <path d={d} fill={`${t.accent2}14`} stroke={t.accent2} strokeWidth={4} strokeDasharray={3000} strokeDashoffset={3000 * (1 - draw)} strokeLinejoin="round" />
+      <path d={`M${k1.x},${k1.y} Q${(k1.x + k2.x) / 2},${k2.y + 20} ${k2.x},${k2.y}`} fill="none" stroke={t.accent2} strokeWidth={5} strokeDasharray="4 10" opacity={draw} />
+      <text x={40} y={60} fill={t.dim} fontFamily="Bebas" fontSize={40} letterSpacing={6} opacity={draw}>EN LA VIDA REAL · FLORIDA</text>
+      {P ? (
+        <g opacity={Math.min(1, drop * 1.5)}>
+          <circle cx={P.x} cy={P.y} r={14 + pulse * 46} fill="none" stroke={t.accent} strokeWidth={4} opacity={1 - pulse} />
+          <g transform={`translate(${P.x}, ${P.y - (1 - drop) * 120})`}>
+            <path d="M0,0 C-18,-26 -26,-38 -26,-52 A26,26 0 1 1 26,-52 C26,-38 18,-26 0,0Z" fill={t.accent} stroke="white" strokeWidth={4} />
+            <circle cx={0} cy={-52} r={9} fill="white" />
+          </g>
+          {name ? <text x={Math.min(Math.max(P.x, 170), 570)} y={P.y + 54} textAnchor="middle" fill="white" fontFamily="Archivo" fontSize={36} stroke="#000" strokeWidth={6} paintOrder="stroke">{name}</text> : null}
+        </g>
+      ) : null}
+    </svg>
+  );
+};
+
+const VersusView: React.FC<{ sc: DScene; dur: number; idx: number }> = ({ sc, dur, idx }) => {
+  const t = useTheme();
+  const f = useCurrentFrame();
+  const sp = spring({ frame: f, fps: DFPS, config: { damping: 16, stiffness: 140 } });
+  const [game, real] = sc.items ?? ["", ""];
+  return (
+    <>
+      <AbsoluteFill style={{ background: `radial-gradient(ellipse at 75% 50%, ${t.accent2}22, ${t.bg} 60%)` }} />
+      <div style={{ position: "absolute", left: 60, top: 150, width: 1040, height: 585, borderRadius: 18, overflow: "hidden", border: `4px solid ${t.accent}`, transform: `translateX(${(1 - sp) * -200}px)`, opacity: sp, boxShadow: "0 20px 60px rgba(0,0,0,0.6)" }}>
+        <Cycle clips={sc.clips ?? []} dur={dur} seed={idx} />
+        <div style={{ position: "absolute", left: 18, top: 18, background: t.accent, color: "white", fontFamily: "Bebas", fontSize: 34, letterSpacing: 3, padding: "4px 16px", borderRadius: 6 }}>EN GTA 6</div>
+      </div>
+      <div style={{ position: "absolute", left: 60, top: 760, width: 1040, fontFamily: "Archivo", fontSize: 58, color: "white", opacity: sp }}>{game}</div>
+      <div style={{ position: "absolute", left: 1150, top: 120, opacity: sp }}>
+        <FloridaMap pin={sc.pin} name={real} />
+      </div>
+      
+      <div style={{ position: "absolute", left: 900, top: 420, width: 140, height: 140, borderRadius: 999, background: "white", color: "#111", fontFamily: "Archivo", fontSize: 54, display: "flex", alignItems: "center", justifyContent: "center", transform: `scale(${spring({ frame: f - 8, fps: DFPS, config: { damping: 8, stiffness: 220 } })})`, boxShadow: "0 8px 30px rgba(0,0,0,0.5)", marginLeft: 120 }}>VS</div>
+    </>
+  );
+};
+
+const HeadlineView: React.FC<{ sc: DScene; dur: number; idx: number }> = ({ sc, dur, idx }) => {
+  const f = useCurrentFrame();
+  const sp = spring({ frame: f, fps: DFPS, config: { damping: 13, stiffness: 120 } });
+  const rot = interpolate(sp, [0, 1], [-14, -2.5]);
+  const words = (sc.title ?? "").split(" ");
+  return (
+    <>
+      <BlurBg clips={sc.clips?.length ? sc.clips : ["img:skyline_dusk"]} dur={dur} dim={0.45} />
+      <AbsoluteFill style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <div style={{ width: 1280, background: "#f3eee2", color: "#141414", padding: "34px 50px 40px", transform: `translateY(${(1 - sp) * 500}px) rotate(${rot}deg) scale(${0.9 + sp * 0.1})`, boxShadow: "0 30px 80px rgba(0,0,0,0.7)", backgroundImage: "linear-gradient(rgba(0,0,0,0.03) 1px, transparent 1px)", backgroundSize: "100% 6px" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", borderBottom: "5px double #141414", paddingBottom: 8 }}>
+            <div style={{ fontFamily: "Anton", fontSize: 64, letterSpacing: 2 }}>CRÓNICAS DE FLORIDA</div>
+            <div style={{ fontFamily: "Grotesk", fontSize: 26, fontWeight: 700 }}>{sc.label ?? ""}</div>
+          </div>
+          <div style={{ display: "flex", gap: 34, marginTop: 24 }}>
+            <div style={{ flex: 1 }}>
+              <div style={{ fontFamily: "Anton", fontSize: 76, lineHeight: 1.04, textTransform: "uppercase" }}>
+                {words.map((w, i) => {
+                  const v = interpolate(f, [8 + i * 2, 12 + i * 2], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+                  return <span key={i} style={{ opacity: v }}>{w} </span>;
+                })}
+              </div>
+              {sc.sub ? <div style={{ marginTop: 18, fontFamily: "Grotesk", fontSize: 32, fontWeight: 500, color: "#333", opacity: interpolate(f, [20, 30], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>{sc.sub}</div> : null}
+            </div>
+            {sc.clips?.length ? (
+              <div style={{ width: 420, height: 300, overflow: "hidden", border: "3px solid #141414", filter: "grayscale(0.85) contrast(1.15)", flexShrink: 0 }}>
+                <Media m={sc.clips[0]} kb={idx} />
+              </div>
+            ) : null}
+          </div>
+        </div>
+      </AbsoluteFill>
+    </>
+  );
+};
+
 // ---------- scene renderer ----------
 const SceneView: React.FC<{ sc: DScene; idx: number; all: DScene[] }> = ({ sc, idx, all }) => {
   const t = useTheme();
@@ -663,7 +755,7 @@ const SceneView: React.FC<{ sc: DScene; idx: number; all: DScene[] }> = ({ sc, i
           {sc.label ? <Label text={sc.label} center delay={2} /> : null}
           <div style={{ fontFamily: "Archivo", fontSize: 260, color: t.accent, lineHeight: 1, textShadow: `0 0 60px ${t.accent}55` }}>
             {st.prefix ?? ""}
-            {v.toFixed(st.decimals ?? 0)}
+            {(() => { const [i, d] = v.toFixed(st.decimals ?? 0).split("."); return i.replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (d ? "," + d : ""); })()}
             {st.suffix ?? ""}
           </div>
           {sc.title ? <BigTitle text={sc.title} size={58} center delay={12} /> : null}
@@ -788,6 +880,10 @@ const SceneView: React.FC<{ sc: DScene; idx: number; all: DScene[] }> = ({ sc, i
         ) : null}
       </>
     );
+  } else if (sc.kind === "versus") {
+    body = <VersusView sc={sc} dur={dur} idx={idx} />;
+  } else if (sc.kind === "headline") {
+    body = <HeadlineView sc={sc} dur={dur} idx={idx} />;
   } else if (sc.kind === "outro") {
     const btn = spring({ frame: f - 30, fps: DFPS, config: { damping: 10, stiffness: 200 } });
     const clicked = f > 75;
@@ -892,6 +988,8 @@ export const GTA6Doc: React.FC<DocProps> = ({ theme, scenes, captions, voice, to
             if (sc.kind === "suspect") extra.push({ f: "wyr/sfx/riser.wav", at: 0.3, v: 0.35 }, { f: "wyr/sfx/ding.wav", at: 1.75, v: 0.35 });
             if (sc.kind === "evidence") for (let k = 0; k < 18; k++) extra.push({ f: "wyr/sfx/tick.wav", at: 0.35 + k * 0.075 + (k % 3) * 0.012, v: 0.45 });
             if (sc.stamp && (sc.kind === "cork" || sc.kind === "suspect")) extra.push({ f: "voz/impacto.wav", at: (sc.e - sc.s) * (sc.kind === "cork" ? 0.45 : 0.55), v: 0.55 });
+            if (sc.kind === "headline") extra.push({ f: "wyr/sfx/whoosh.wav", at: 0, v: 0.35 }, { f: "voz/impacto.wav", at: 0.45, v: 0.4 });
+            if (sc.kind === "versus") extra.push({ f: "wyr/sfx/pop.wav", at: 0.3, v: 0.45 }, { f: "wyr/sfx/ding.wav", at: 0.75, v: 0.4 });
             if (sc.kind === "stat") extra.push({ f: "wyr/sfx/ding.wav", at: 1.3, v: 0.45 });
             if (sc.kind === "outro") extra.push({ f: "voz/click.wav", at: 2.5, v: 0.9 }, { f: "wyr/sfx/ding.wav", at: 2.55, v: 0.5 });
             if (sc.kind === "map" && sc.map === "chase") extra.push({ f: "wyr/sfx/heart.wav", at: 0.5, v: 0.4 }, { f: "wyr/sfx/heart.wav", at: 1.2, v: 0.4 });

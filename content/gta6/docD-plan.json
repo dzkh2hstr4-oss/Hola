@@ -1,0 +1,422 @@
+{
+ "theme": "news",
+ "voice": "es-ES-AlvaroNeural",
+ "rate": "+6%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "clipVolume": 0,
+ "brand": "GTA VI · SECRETOS",
+ "lines": [
+  {
+   "t": "Llevas días jugando a GTA 6… pero te apuesto lo que quieras a que NO sabías estas veinticinco cosas. Y la número uno… te va a volar la cabeza.",
+   "kind": "intro",
+   "clips": [
+    "a_hidro",
+    "img:aerial",
+    "d_tele",
+    "m_poli_flip",
+    "a_jetski"
+   ],
+   "label": "GTA 6",
+   "title": "25 COSAS QUE NO SABÍAS",
+   "rate": "+10%",
+   "pitch": "+4Hz",
+   "mus": "track:hot_pursuit@8",
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.7
+    },
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 3.0,
+     "v": 0.4
+    }
+   ]
+  },
+  {
+   "t": "Vamos de la veinticinco a la uno. Quédate hasta el final, que lo mejor va al final.",
+   "kind": "chapter",
+   "clips": [
+    "img:skyline_dusk"
+   ],
+   "label": "CUENTA ATRÁS",
+   "title": "DEL 25 AL 1",
+   "rate": "+8%"
+  },
+  {
+   "t": "Número veinticinco. Leonida no es un sitio inventado. Es Florida. Pero Florida de verdad, con todo lo bueno… y con todo lo raro.",
+   "kind": "versus",
+   "clips": [
+    "img:aerial",
+    "img:skyline_dusk"
+   ],
+   "items": [
+    "#25 · LEONIDA",
+    "FLORIDA"
+   ],
+   "pin": [
+    -81.6,
+    28.2
+   ],
+   "mus": "track:miami_nights@0"
+  },
+  {
+   "t": "Número veinticuatro. Vice City es Miami. Los rascacielos del centro, el puerto lleno de yates, los puentes hacia la playa… casi todo tiene su versión real.",
+   "kind": "versus",
+   "clips": [
+    "img:vice_city_15",
+    "img:vice_city_27",
+    "img:ue_squalo"
+   ],
+   "items": [
+    "#24 · VICE CITY",
+    "MIAMI"
+   ],
+   "pin": [
+    -80.19,
+    25.77
+   ]
+  },
+  {
+   "t": "Número veintitrés. Los pantanos de Grassrivers son los Everglades. Y esos hidrodeslizadores que ves en el juego existen: en Florida hay excursiones para turistas en ellos.",
+   "kind": "versus",
+   "clips": [
+    "a_hidro",
+    "img:grassrivers_07"
+   ],
+   "items": [
+    "#23 · GRASSRIVERS",
+    "EVERGLADES"
+   ],
+   "pin": [
+    -80.9,
+    25.9
+   ]
+  },
+  {
+   "t": "Número veintidós. Las Leonida Keys son los Cayos de Florida: un montón de islas unidas por puentes larguísimos sobre el mar. Uno de ellos mide más de diez kilómetros.",
+   "kind": "versus",
+   "clips": [
+    "img:leonida_keys_07",
+    "a_kayak",
+    "a_jetski"
+   ],
+   "items": [
+    "#22 · LEONIDA KEYS",
+    "CAYOS DE FLORIDA"
+   ],
+   "pin": [
+    -81.3,
+    24.7
+   ]
+  },
+  {
+   "t": "Número veintiuno. Ambrosia es un pueblo azucarero. Y en Florida existe uno que se llama a sí mismo «el pueblo más dulce de América», por su enorme refinería de azúcar.",
+   "kind": "versus",
+   "clips": [
+    "img:ue_wyman",
+    "img:ue_safehouse"
+   ],
+   "items": [
+    "#21 · AMBROSIA",
+    "CLEWISTON"
+   ],
+   "pin": [
+    -80.93,
+    26.75
+   ]
+  },
+  {
+   "t": "Número veinte. Port Gellhorn, el puerto venido a menos del norte… muchos fans lo comparan con la costa del Panhandle de Florida, donde está Panama City.",
+   "kind": "versus",
+   "clips": [
+    "img:port_gellhorn_07",
+    "img:vice_city_22"
+   ],
+   "items": [
+    "#20 · PORT GELLHORN",
+    "PANHANDLE"
+   ],
+   "pin": [
+    -85.66,
+    30.16
+   ]
+  },
+  {
+   "t": "Número diecinueve. ¿Has visto las fiestas en barco del juego? En Miami existen de verdad: los fines de semana, cientos de barcos se juntan en un banco de arena en mitad del mar a montar fiesta.",
+   "kind": "clip",
+   "clips": [
+    "a_mar",
+    "img:vice_city_15"
+   ],
+   "label": "#19",
+   "title": "FIESTAS EN EL MAR"
+  },
+  {
+   "t": "Número dieciocho. Y el gimnasio de la playa tampoco es casualidad: en Miami Beach hay un gimnasio al aire libre, en plena arena, donde la gente entrena delante de todo el mundo.",
+   "kind": "clip",
+   "clips": [
+    "a_gym",
+    "a_playa"
+   ],
+   "label": "#18",
+   "title": "EL GYM DE LA PLAYA"
+  },
+  {
+   "t": "Número diecisiete. ¿Por qué GTA 6 está lleno de gente rara? Por culpa del famoso «Florida Man».",
+   "kind": "headline",
+   "clips": [
+    "d_trunk"
+   ],
+   "label": "#17",
+   "title": "Hombre de Florida detenido por… lo que sea",
+   "sub": "El meme de buscar «Florida Man» más tu cumpleaños",
+   "mus": "track:private_eye@0"
+  },
+  {
+   "t": "Florida tiene una ley que hace públicos muchísimos informes de detenciones. Por eso los periodistas encuentran titulares absurdos todos los días… y Rockstar los convierte en misiones.",
+   "kind": "clip",
+   "clips": [
+    "d_trunk",
+    "d_redada",
+    "m_poli_flip"
+   ],
+   "label": "EL SECRETO",
+   "title": "LEY DE REGISTROS PÚBLICOS"
+  },
+  {
+   "t": "Número dieciséis. En Florida viven más de un millón de caimanes. Y no es raro encontrarse uno en una piscina, en un campo de golf… o en la puerta de casa.",
+   "kind": "stat",
+   "clips": [
+    "img:grassrivers_08"
+   ],
+   "label": "#16 · CAIMANES EN FLORIDA",
+   "stat": {
+    "value": 1300000,
+    "prefix": "+",
+    "suffix": ""
+   },
+   "title": "CAIMANES"
+  },
+  {
+   "t": "En dos mil quince, un hombre de Florida lanzó un caimán por la ventanilla de un autoservicio de comida rápida. Es real. Pasó.",
+   "kind": "headline",
+   "clips": [
+    "img:grassrivers_07"
+   ],
+   "label": "2015 · JUPITER, FL",
+   "title": "Lanza un caimán por la ventanilla de un autoservicio",
+   "sub": "Una noticia real… que parece sacada de GTA"
+  },
+  {
+   "t": "Número quince. Cuando salió el primer tráiler, un hombre de Florida conocido como «el Joker de Florida», por sus tatuajes en la cara, dijo que uno de los personajes se parecía a él… y pidió que le pagaran.",
+   "kind": "headline",
+   "clips": [
+    "img:vice_city_16"
+   ],
+   "label": "#15 · DICIEMBRE 2023",
+   "title": "El Joker de Florida dice que GTA 6 se inspiró en él",
+   "sub": "Rockstar nunca lo confirmó"
+  },
+  {
+   "t": "Número catorce. Jason y Lucía están inspirados en Bonnie y Clyde, la pareja de atracadores más famosa de la historia de Estados Unidos. Así lo publicó la prensa en dos mil veintidós.",
+   "kind": "clip",
+   "clips": [
+    "img:extended",
+    "img:launch",
+    "img:music"
+   ],
+   "label": "#14",
+   "title": "BONNIE Y CLYDE"
+  },
+  {
+   "t": "Número trece. Lucía es la primera protagonista femenina principal de la saga moderna de GTA. Llevábamos más de veinte años esperando algo así.",
+   "kind": "clip",
+   "clips": [
+    "img:lucia_caminos_02",
+    "d_lucia",
+    "img:lucia_caminos_05"
+   ],
+   "label": "#13",
+   "title": "LA PRIMERA PROTAGONISTA"
+  },
+  {
+   "t": "Número doce. En el Vice City de dos mil dos, Tommy Vercetti tenía la voz de un actor de Hollywood: Ray Liotta, el de Uno de los nuestros. Un lujo para la época.",
+   "kind": "clip",
+   "clips": [
+    "img:vintage3",
+    "img:vintage1"
+   ],
+   "label": "#12",
+   "title": "LA VOZ DE TOMMY"
+  },
+  {
+   "t": "Número once. El Ocean View Hotel de la web oficial… es un guiño enorme: en el Vice City de dos mil dos, ese era el primer piso franco de Tommy Vercetti.",
+   "kind": "versus",
+   "clips": [
+    "img:vintage1",
+    "img:vintage2"
+   ],
+   "items": [
+    "#11 · OCEAN VIEW HOTEL",
+    "OCEAN DRIVE"
+   ],
+   "pin": [
+    -80.13,
+    25.78
+   ]
+  },
+  {
+   "t": "Número diez. La canción del primer tráiler es de Tom Petty… que era de Florida. No es casualidad: todo en GTA 6 apunta al mismo sitio.",
+   "kind": "clip",
+   "clips": [
+    "img:music",
+    "img:launch"
+   ],
+   "label": "#10",
+   "title": "TOM PETTY ERA DE FLORIDA"
+  },
+  {
+   "t": "Número nueve. GTA 6 se retrasó dos veces: primero de dos mil veinticinco a mayo de dos mil veintiséis… y luego hasta el diecinueve de noviembre. Pero mereció la pena.",
+   "kind": "headline",
+   "clips": [
+    "img:preload"
+   ],
+   "label": "#9",
+   "title": "GTA 6 se retrasa… otra vez",
+   "sub": "Hasta el 19 de noviembre de 2026"
+  },
+  {
+   "t": "Número ocho. El Vice City original estaba ambientado en mil novecientos ochenta y seis, inspirado en Scarface y en la serie Corrupción en Miami. Ahora volvemos… veinticuatro años después.",
+   "kind": "chapter",
+   "clips": [
+    "img:vintage3",
+    "img:vintage2"
+   ],
+   "label": "#8",
+   "title": "1986 → 2026",
+   "sub": "Del Vice City original al de GTA 6",
+   "mus": "track:i_can_feel_it_coming@0"
+  },
+  {
+   "t": "Número siete. El primer tráiler es el tráiler más visto de la historia de YouTube. En sus primeras veinticuatro horas sumó unos noventa y tres millones de visualizaciones.",
+   "kind": "stat",
+   "clips": [
+    "img:keyart"
+   ],
+   "label": "#7 · TRÁILER 1 · 24 HORAS",
+   "stat": {
+    "value": 93,
+    "suffix": " M"
+   },
+   "title": "VISUALIZACIONES"
+  },
+  {
+   "t": "Y salió antes de tiempo. Se filtró en internet… y Rockstar tuvo que publicarlo horas antes de lo previsto.",
+   "kind": "clip",
+   "clips": [
+    "img:preload",
+    "img:keyart"
+   ],
+   "label": "DATO EXTRA",
+   "title": "LO TUVIERON QUE ADELANTAR"
+  },
+  {
+   "t": "Número seis. El gameplay extendido que Rockstar subió a Netflix lo vieron más de treinta y un millones de veces en solo cuatro días.",
+   "kind": "stat",
+   "clips": [
+    "d_llegada",
+    "d_coche2"
+   ],
+   "label": "#6 · NETFLIX · 4 DÍAS",
+   "stat": {
+    "value": 31.1,
+    "decimals": 1,
+    "suffix": " M"
+   },
+   "title": "VISUALIZACIONES"
+  },
+  {
+   "t": "Número cinco. Antes de salir, los vídeos sobre GTA 6 ya sumaban más de cuarenta mil millones de visualizaciones en YouTube. Cuarenta mil millones.",
+   "kind": "stat",
+   "clips": [
+    "img:launch"
+   ],
+   "label": "#5 · VÍDEOS DE GTA 6 EN YOUTUBE",
+   "stat": {
+    "value": 40000,
+    "suffix": " M"
+   },
+   "title": "VISUALIZACIONES"
+  },
+  {
+   "t": "Número cuatro. GTA 5 ha vendido más de doscientos millones de copias. Por eso GTA 6 era, probablemente, el juego más esperado de la historia.",
+   "kind": "stat",
+   "clips": [
+    "img:skyline_dusk"
+   ],
+   "label": "#4 · COPIAS DE GTA 5",
+   "stat": {
+    "value": 200,
+    "prefix": "+",
+    "suffix": " M"
+   },
+   "title": "VENDIDAS"
+  },
+  {
+   "t": "Número tres. En GTA 6, la gente te graba. Si haces el tonto, los NPCs sacan el móvil… y hasta lo emiten en directo, con comentarios en pantalla.",
+   "kind": "clip",
+   "clips": [
+    "d_trunk",
+    "a_selfie"
+   ],
+   "label": "#3",
+   "title": "TE GRABAN",
+   "mus": "track:voltaic@0"
+  },
+  {
+   "t": "Número dos. La casa de Jason y Lucía tiene notas en la nevera, ropa por el suelo… y una tele que funciona, con anuncios absurdos de pastillas contra la tristeza.",
+   "kind": "clip",
+   "clips": [
+    "d_casa",
+    "d_tele",
+    "d_ropa"
+   ],
+   "label": "#2",
+   "title": "UNA CASA DE VERDAD"
+  },
+  {
+   "t": "Y número uno. En dos mil veintidós, un hacker de diecisiete años filtró más de noventa vídeos del juego en desarrollo. Fue una de las mayores filtraciones de la historia de los videojuegos… y aun así, Rockstar siguió adelante y nos dio esto.",
+   "kind": "headline",
+   "clips": [
+    "img:jason_and_lucia_16"
+   ],
+   "label": "#1 · SEPTIEMBRE 2022",
+   "title": "Un hacker filtra más de 90 vídeos de GTA 6",
+   "sub": "Rockstar: «Nada cambia en nuestros planes»"
+  },
+  {
+   "t": "Así que la próxima vez que juegues, fíjate bien. Leonida está llena de Florida… y de secretos.",
+   "kind": "clip",
+   "clips": [
+    "a_mar",
+    "img:aerial",
+    "d_cochenoche"
+   ],
+   "label": "",
+   "title": ""
+  },
+  {
+   "t": "¿Cuál no sabías? Dímelo en comentarios. Y si quieres más secretos de GTA 6, suscríbete y activa la campanita.",
+   "kind": "outro",
+   "clips": [
+    "img:keyart"
+   ],
+   "title": "¿CUÁL NO SABÍAS?",
+   "sub": "Más secretos de GTA 6 cada semana",
+   "mus": "track:miami_viceroy@0"
+  }
+ ]
+}

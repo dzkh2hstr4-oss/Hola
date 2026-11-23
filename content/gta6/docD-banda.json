@@ -1,0 +1,32 @@
+[
+{
+"s": 0.0,
+"e": 13.99,
+"mood": "track:hot_pursuit@8"
+},
+{
+"s": 13.99,
+"e": 96.0,
+"mood": "track:miami_nights@0"
+},
+{
+"s": 96.0,
+"e": 202.55,
+"mood": "track:private_eye@0"
+},
+{
+"s": 202.55,
+"e": 258.47,
+"mood": "track:i_can_feel_it_coming@0"
+},
+{
+"s": 258.47,
+"e": 298.97,
+"mood": "track:voltaic@0"
+},
+{
+"s": 298.97,
+"e": 308.72,
+"mood": "track:miami_viceroy@0"
+}
+]
