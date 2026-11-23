@@ -1,0 +1,173 @@
+{
+ "rate": "+10%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "music": "track:super_power_cool_dude@10",
+ "lines": [
+  {
+   "t": "En GTA 6, hasta los anuncios de la tele son una locura. Mira esto.",
+   "imgs": [
+    "v:d_tele"
+   ],
+   "title": [
+    [
+     "LA",
+     "TELE",
+     "DE"
+    ],
+    [
+     "*GTA 6*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "clipFrom": 0,
+   "hook": true
+  },
+  {
+   "t": "Primero, un anuncio de una pastilla contra la tristeza.",
+   "imgs": [
+    "v:d_tele"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 2
+  },
+  {
+   "t": "¿Sientes que la vida no tiene sentido? ¿Buscas una salida constantemente? ¡Se acabó! Gracias a Angstapan.",
+   "quote": true,
+   "voice": "es-MX-JorgeNeural",
+   "rate": "+12%",
+   "pitch": "+8Hz",
+   "imgs": [
+    "v:d_tele"
+   ],
+   "clipFrom": 4,
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/sparkle.wav",
+     "at": 4.5,
+     "v": 0.4
+    }
+   ]
+  },
+  {
+   "t": "Luego, un documental de naturaleza súper bonito…",
+   "imgs": [
+    "v:d_tele"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 11
+  },
+  {
+   "t": "Ah, la naturaleza. Criaturas grandes y pequeñas. Magníficas… y orgullosas.",
+   "quote": true,
+   "voice": "es-CO-GonzaloNeural",
+   "rate": "-8%",
+   "pitch": "-4Hz",
+   "imgs": [
+    "v:d_tele"
+   ],
+   "clipFrom": 18,
+   "title": [],
+   "sfx": []
+  },
+  {
+   "t": "…Ya no.",
+   "quote": true,
+   "voice": "es-CO-GonzaloNeural",
+   "rate": "-12%",
+   "pitch": "-6Hz",
+   "imgs": [
+    "v:d_tele"
+   ],
+   "clipFrom": 23,
+   "title": [],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0.2,
+     "v": 0.45
+    }
+   ]
+  },
+  {
+   "t": "Y justo después… ¡un anuncio de hamburguesas de carne!",
+   "imgs": [
+    "v:d_tele"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    },
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 1.4,
+     "v": 0.4
+    }
+   ],
+   "clipFrom": 26
+  },
+  {
+   "t": "Carnes jugosas de campo abierto. ¡Merece la pena esperar!",
+   "quote": true,
+   "voice": "es-MX-JorgeNeural",
+   "rate": "+8%",
+   "pitch": "+6Hz",
+   "imgs": [
+    "v:d_tele"
+   ],
+   "clipFrom": 28,
+   "title": [],
+   "sfx": []
+  },
+  {
+   "t": "El humor negro de Rockstar, en estado puro. ¿Cuál ha sido tu anuncio favorito de la saga? ¡Comenta!",
+   "imgs": [
+    "v:d_tele"
+   ],
+   "title": [
+    [
+     "TU",
+     "ANUNCIO"
+    ],
+    [
+     "*FAVORITO*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 3.6,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 20,
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

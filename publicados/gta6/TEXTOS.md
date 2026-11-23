@@ -81,3 +81,47 @@ Lucía es MEJOR que Jason en GTA 6 (y te lo demuestro) #shorts
 **Descripción:**
 ¿Team Jason o Team Lucía? Datos oficiales y gameplay real de GTA 6 👇 #GTA6
 🎵 "Voltaic" Kevin MacLeod (incompetech.com) · CC BY 4.0
+
+---
+
+## Short 9 — gta6-short9.mp4 (la casa de Jason y Lucía)
+
+**Título:**
+Así es la CASA de Jason y Lucía en GTA 6 🏠 #shorts
+
+**Descripción:**
+La casa de Jason y Lucía por dentro 🏠 ¿Casa o mansión? 👇 #GTA6
+🎵 "Miami Viceroy" Kevin MacLeod (incompetech.com) · CC BY 4.0
+
+---
+
+## Short 10 — gta6-short10.mp4 (si haces el tonto, te graban)
+
+**Título:**
+En GTA 6, si haces el TONTO… te GRABAN 📱 #shorts
+
+**Descripción:**
+En GTA 6 la gente lo graba todo y lo sube en directo 📱 ¿Tú lo harías? 👇 #GTA6
+🎵 "Griphop" Kevin MacLeod (incompetech.com) · CC BY 4.0
+
+---
+
+## Short 11 — gta6-short11.mp4 (todos los vehículos)
+
+**Título:**
+TODOS los vehículos de GTA 6 en 30 segundos 🚗🏍️ #shorts
+
+**Descripción:**
+Coches, motos, lanchas, jets… ¿Con cuál te quedas en GTA 6? 👇 #GTA6
+🎵 "Hot Pursuit" Kevin MacLeod (incompetech.com) · CC BY 4.0
+
+---
+
+## Short 12 — gta6-short12.mp4 (los anuncios de la tele)
+
+**Título:**
+Los ANUNCIOS de la tele de GTA 6 son una LOCURA 📺 #shorts
+
+**Descripción:**
+Los anuncios más locos de la tele de GTA 6, doblados 📺 ¿Cuál es tu favorito? 👇 #GTA6
+🎵 "Super Power Cool Dude" Kevin MacLeod (incompetech.com) · CC BY 4.0

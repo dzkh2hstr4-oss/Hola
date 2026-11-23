@@ -1,0 +1,134 @@
+{
+ "rate": "+12%",
+ "pitch": "+4Hz",
+ "mic": true,
+ "music": "track:griphop@4",
+ "lines": [
+  {
+   "t": "En GTA 6, si haces el tonto… ¡te graban!",
+   "imgs": [
+    "v:d_trunk"
+   ],
+   "title": [
+    [
+     "SI",
+     "HACES",
+     "EL"
+    ],
+    [
+     "*TONTO*…"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "clipFrom": 5,
+   "hook": true
+  },
+  {
+   "t": "Mira: unos chavales haciendo el reto del maletero, en plena calle.",
+   "imgs": [
+    "v:d_trunk"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0
+  },
+  {
+   "t": "Y en cuanto ven a Lucía… sacan el móvil y se ponen a grabar.",
+   "imgs": [
+    "v:d_trunk"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 3
+  },
+  {
+   "t": "Y lo mejor: lo retransmiten en directo, con los comentarios en pantalla… mientras les persigue la policía.",
+   "imgs": [
+    "v:d_trunk"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    },
+    {
+     "f": "wyr/sfx/pop.wav",
+     "at": 2.2,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 11.5
+  },
+  {
+   "t": "¡Mira, mira! ¡Que nos persigue la poli de verdad!",
+   "quote": true,
+   "voice": "es-CO-GonzaloNeural",
+   "rate": "+14%",
+   "pitch": "+6Hz",
+   "imgs": [
+    "v:d_trunk"
+   ],
+   "clipFrom": 13,
+   "title": [],
+   "sfx": []
+  },
+  {
+   "t": "Rockstar se está riendo de las redes sociales… y de Florida.",
+   "imgs": [
+    "v:d_trunk"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 16
+  },
+  {
+   "t": "¿Tú también lo grabarías todo? ¡Te leo!",
+   "imgs": [
+    "v:d_trunk"
+   ],
+   "title": [
+    [
+     "¿LO",
+     "*GRABARÍAS*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.6,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 7,
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,209 @@
+{
+ "rate": "+14%",
+ "pitch": "+4Hz",
+ "mic": true,
+ "music": "track:hot_pursuit@8",
+ "lines": [
+  {
+   "t": "Todos los vehículos que ya hemos visto en GTA 6… ¡en medio minuto!",
+   "imgs": [
+    "v:a_circuito"
+   ],
+   "title": [
+    [
+     "TODOS",
+     "LOS"
+    ],
+    [
+     "*VEHÍCULOS*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "clipFrom": 0,
+   "hook": true
+  },
+  {
+   "t": "Descapotables, para pasear por la costa.",
+   "imgs": [
+    "v:d_coche"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 4
+  },
+  {
+   "t": "Motos deportivas, a toda velocidad.",
+   "imgs": [
+    "v:m_joya2"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 3.2
+  },
+  {
+   "t": "Coches de carreras, en circuito.",
+   "imgs": [
+    "v:a_circuito"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 1.5
+  },
+  {
+   "t": "Motos de cross, para saltar por el barro.",
+   "imgs": [
+    "v:a_motocross"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0
+  },
+  {
+   "t": "Hidrodeslizadores, para cruzar los pantanos.",
+   "imgs": [
+    "v:a_hidro"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0
+  },
+  {
+   "t": "Motos de agua, en plena playa.",
+   "imgs": [
+    "v:a_jetski"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0
+  },
+  {
+   "t": "Kayaks, para ir con calma.",
+   "imgs": [
+    "v:a_kayak"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0
+  },
+  {
+   "t": "Y patinetes eléctricos, por la ciudad.",
+   "imgs": [
+    "v:a_patinete"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0
+  },
+  {
+   "t": "Coches de policía… que dan vueltas de campana.",
+   "imgs": [
+    "v:m_poli_flip"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 1.0
+  },
+  {
+   "t": "¡Y hasta jets privados!",
+   "imgs": [
+    "v:d_jet"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0
+  },
+  {
+   "t": "¿Con cuál te quedas tú? ¡Comenta!",
+   "imgs": [
+    "v:d_cochenoche"
+   ],
+   "title": [
+    [
+     "¿CON",
+     "CUÁL",
+     "TE"
+    ],
+    [
+     "*QUEDAS*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.4,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 4,
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

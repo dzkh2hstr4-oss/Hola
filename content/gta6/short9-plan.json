@@ -1,0 +1,151 @@
+{
+ "rate": "+10%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "music": "track:miami_viceroy@8",
+ "lines": [
+  {
+   "t": "Así es la casa de Jason y Lucía en GTA 6… ¡por dentro!",
+   "imgs": [
+    "v:d_casa"
+   ],
+   "title": [
+    [
+     "LA",
+     "CASA",
+     "DE"
+    ],
+    [
+     "*JASON*",
+     "Y",
+     "*LUCÍA*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "clipFrom": 8,
+   "hook": true
+  },
+  {
+   "t": "Un piso pequeñito en Vice City, todo en rosa, con neones y plantas por todas partes.",
+   "imgs": [
+    "v:d_casa"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 9.5
+  },
+  {
+   "t": "En el baño, un espejo con luces de camerino.",
+   "imgs": [
+    "v:d_casa"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0
+  },
+  {
+   "t": "En la cocina, la nevera llena de notas, fotos e imanes. Como una casa de verdad.",
+   "imgs": [
+    "v:d_casa"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 12
+  },
+  {
+   "t": "En el dormitorio, Lucía tirada en la cama, mirando el móvil.",
+   "imgs": [
+    "v:d_cama"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0
+  },
+  {
+   "t": "Jason le ha comprado ropa… y ella le suelta que puede comprarse la suya.",
+   "imgs": [
+    "v:d_ropa"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 2
+  },
+  {
+   "t": "Y hasta la tele del salón funciona, con anuncios y todo.",
+   "imgs": [
+    "v:d_tele"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 11
+  },
+  {
+   "t": "¿Te gusta su casa, o prefieres una mansión? ¡Comenta!",
+   "imgs": [
+    "v:d_casa"
+   ],
+   "title": [
+    [
+     "¿CASA",
+     "O"
+    ],
+    [
+     "*MANSIÓN*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 2.0,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 8,
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}
