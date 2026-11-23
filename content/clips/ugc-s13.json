@@ -1,0 +1,57 @@
+{
+  "id": "ugc-s13",
+  "producto": "atardecer",
+  "status": "creado",
+  "publicar": "2026-12-01T21:00",
+  "gancho": [
+    "Ponla donde",
+    "quieras 🌅"
+  ],
+  "ganchoSegundos": 2.8,
+  "comenta": "¿dónde la pondrías? 👇",
+  "boton": "Cómprala en mi bio",
+  "finalSegundos": 2.6,
+  "musica": "entrada/musica/Wallpaper.mp3",
+  "musicaDesde": 8,
+  "musicaVolumen": 0.16,
+  "clips": [
+    {
+      "archivo": "public/lampara.jpg",
+      "shake": true,
+      "modo": "full",
+      "segundos": 2.8
+    },
+    {
+      "archivo": "entrada/fotos/s4.jpg",
+      "shake": true,
+      "modo": "full",
+      "recorte": "700:1080:380:0",
+      "segundos": 2.09
+    },
+    {
+      "archivo": "entrada/fotos/ia-atardecer.png",
+      "shake": true,
+      "modo": "full",
+      "segundos": 2.09
+    },
+    {
+      "archivo": "public/lampara-real.jpg",
+      "shake": true,
+      "segundos": 2.09
+    },
+    {
+      "archivo": "entrada/fotos/s7.jpg",
+      "shake": true,
+      "recorte": "520:1020:0:0",
+      "segundos": 2.09
+    },
+    {
+      "archivo": "entrada/fotos/ia-atardecer.png",
+      "shake": true,
+      "modo": "full",
+      "segundos": 2.6,
+      "mov": "out"
+    }
+  ],
+  "caption": "Ponla donde quieras 🌅 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🤖 Imágenes y voz creadas con IA · 🎵 «Wallpaper» – Kevin MacLeod (incompetech.com), CC BY 4.0"
+}
