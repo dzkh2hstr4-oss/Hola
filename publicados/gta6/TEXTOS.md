@@ -125,3 +125,47 @@ Los ANUNCIOS de la tele de GTA 6 son una LOCURA 📺 #shorts
 **Descripción:**
 Los anuncios más locos de la tele de GTA 6, doblados 📺 ¿Cuál es tu favorito? 👇 #GTA6
 🎵 "Super Power Cool Dude" Kevin MacLeod (incompetech.com) · CC BY 4.0
+
+---
+
+## Short 13 — gta6-short13.mp4 (persecución policial)
+
+**Título:**
+Esto pasa si te PERSIGUE la policía en GTA 6 🚨 #shorts
+
+**Descripción:**
+Así es una persecución con la poli en GTA 6 🚨 ¿Te rindes o huyes? 👇 #GTA6
+🎵 "Mistake the Getaway" Kevin MacLeod (incompetech.com) · CC BY 4.0
+
+---
+
+## Short 14 — gta6-short14.mp4 (POV: llegas a Vice City)
+
+**Título:**
+POV: acabas de LLEGAR a Vice City ✈️🌴 #shorts
+
+**Descripción:**
+Tu primer día en Vice City en GTA 6 🌴 ¿Qué harías primero? 👇 #GTA6
+🎵 "Miami Nights - Extended Theme" Kevin MacLeod (incompetech.com) · CC BY 4.0
+
+---
+
+## Short 15 — gta6-short15.mp4 (Vice City de noche)
+
+**Título:**
+Vice City de NOCHE es OTRO JUEGO 🌃 #shorts
+
+**Descripción:**
+Neones, fiestas y carreras: así es Vice City de noche 🌃 ¿Día o noche? 👇 #GTA6
+🎵 "Ethernight Club" Kevin MacLeod (incompetech.com) · CC BY 4.0
+
+---
+
+## Short 16 — gta6-short16.mp4 (las vistas más bonitas)
+
+**Título:**
+Las VISTAS más BONITAS de GTA 6 😍 (pantalla completa) #shorts
+
+**Descripción:**
+Paracaídas, atardeceres y fondos marinos en GTA 6 😍 ¿Tu favorita? 👇 #GTA6
+🎵 "I Can Feel it Coming" Kevin MacLeod (incompetech.com) · CC BY 4.0

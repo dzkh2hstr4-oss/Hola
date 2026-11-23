@@ -1,0 +1,285 @@
+{
+ "scenes": [
+  {
+   "imgs": [
+    "v:d_persecucion"
+   ],
+   "title": [
+    [
+     "SI",
+     "TE",
+     "PERSIGUE"
+    ],
+    [
+     "LA",
+     "*POLI*…"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "clipFrom": 8,
+   "hook": true,
+   "s": 0,
+   "e": 2.98,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:d_persecucion"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0,
+   "s": 2.98,
+   "e": 7.84,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:d_persecucion"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 13,
+   "s": 7.84,
+   "e": 10.88,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:m_poli_tiro"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    },
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 1.6,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 1.0,
+   "s": 10.88,
+   "e": 14.35,
+   "full": true,
+   "speed": 0.85
+  },
+  {
+   "imgs": [
+    "v:m_poli_flip"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 2.0,
+   "s": 14.35,
+   "e": 17.97,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:d_persecucion"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 20,
+   "s": 17.97,
+   "e": 21.93,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:d_persecucion"
+   ],
+   "title": [
+    [
+     "¿TE",
+     "RINDES",
+     "O"
+    ],
+    [
+     "*HUYES*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.6,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 24,
+   "emojis": [
+    "👇"
+   ],
+   "s": 21.93,
+   "e": 26.32,
+   "full": true
+  }
+ ],
+ "captions": [
+  {
+   "t": "Esto es lo que pasa si te persigue la policía en GTA 6.",
+   "s": 0.05,
+   "e": 2.9
+  },
+  {
+   "t": "Primero, los coches patrulla aparecen por todas partes. No hay calle tranquila.",
+   "s": 2.98,
+   "e": 7.76
+  },
+  {
+   "t": "Te cierran el paso en los cruces… y no se andan con tonterías.",
+   "s": 7.84,
+   "e": 10.8
+  },
+  {
+   "t": "Mira esto: un todoterreno da vueltas de campana en mitad de la avenida.",
+   "s": 10.88,
+   "e": 14.27
+  },
+  {
+   "t": "Y los daños se quedan: cristales rotos, coches destrozados, humo…",
+   "s": 14.35,
+   "e": 17.89
+  },
+  {
+   "t": "La persecución sigue calle tras calle, entre palmeras y edificios de Vice City.",
+   "s": 17.97,
+   "e": 21.85
+  },
+  {
+   "t": "¿Tú te rindes… o huyes hasta el final? ¡Comenta!",
+   "s": 21.93,
+   "e": 25.04
+  }
+ ],
+ "voice": "gta6/audio/voz13.mp3",
+ "music": "gta6/audio/musica1.wav",
+ "musicVolume": 0,
+ "total": 26.32,
+ "clipLen": {
+  "q_salte": 12.6,
+  "c_brian1": 14.5,
+  "d_ascensor3": 23.0,
+  "d_coche2": 40.0,
+  "d_parking": 34.0,
+  "d_carrusel": 73.0,
+  "c_callejon": 1.23,
+  "d_noche": 8.0,
+  "a_patinete": 3.5,
+  "d_coche": 50.0,
+  "c_entrada": 3.9,
+  "c_dentro": 2.47,
+  "d_grupo": 18.0,
+  "d_lucia": 26.0,
+  "d_raul": 35.0,
+  "q_redada": 5.8,
+  "d_tiro1": 17.0,
+  "a_hidro": 3.0,
+  "a_kayak": 2.0,
+  "d_ascensor": 21.0,
+  "a_selfie": 3.2,
+  "m_poli_tiro": 4.5,
+  "m_tienda1": 4.0,
+  "a_motocross": 4.2,
+  "q_prueba": 9.8,
+  "d_huida": 27.0,
+  "d_cama": 15.0,
+  "a_jetski": 1.83,
+  "a_mar": 2.6,
+  "d_tele": 32.0,
+  "d_fiesta": 34.0,
+  "d_casa": 20.0,
+  "a_circuito": 5.3,
+  "d_final": 33.0,
+  "d_oficina": 36.0,
+  "d_pasillo": 14.0,
+  "d_monitores": 12.0,
+  "d_ascensor2": 15.0,
+  "d_mensaje": 16.0,
+  "q_gloria2": 6.8,
+  "d_torre": 7.0,
+  "d_llamada": 32.0,
+  "m_golpe2": 5.0,
+  "q_ernesto": 11.3,
+  "a_club": 4.0,
+  "q_trabajo": 12.8,
+  "m_golpe3": 7.0,
+  "q_ladrillos": 3.4,
+  "d_persecucion": 30.0,
+  "d_callejera": 8.0,
+  "a_gym": 3.3,
+  "d_ropa": 16.0,
+  "d_tiro2": 28.0,
+  "d_mesa": 20.0,
+  "a_coche": 6.0,
+  "m_poli_flip": 6.0,
+  "d_titulo": 20.0,
+  "m_joya2": 6.6,
+  "d_redada": 18.0,
+  "d_discurso": 22.0,
+  "d_bolsa": 8.0,
+  "q_profesional": 11.4,
+  "m_tienda2": 6.0,
+  "m_joya1": 3.2,
+  "d_perro": 9.0,
+  "q_gloria": 16.0,
+  "m_tienda3": 3.0,
+  "m_furgon": 1.9,
+  "d_llegada": 8.0,
+  "d_ataque": 18.0,
+  "a_disco": 2.7,
+  "d_trunk": 19.0,
+  "m_golpe1": 6.0,
+  "d_cochenoche": 14.0,
+  "d_puerta": 20.0,
+  "d_azotea": 38.0,
+  "d_jet": 14.0,
+  "d_aeropuerto": 27.0,
+  "d_mesa2": 23.0,
+  "c_saludo": 2.47,
+  "d_tiro3": 42.0,
+  "q_trunk": 13.4,
+  "a_playa": 2.6,
+  "q_bajarte": 7.8,
+  "a_paracaidas": 9.7
+ },
+ "gameVolume": 0,
+ "sfxGain": 0.6,
+ "capSize": 84,
+ "capTop": 1500,
+ "smooth": true
+}

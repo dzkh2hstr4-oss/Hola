@@ -15,6 +15,10 @@
 | nov 2026 | NPCs graban y emiten en directo | Si haces el tonto, te graban | d_trunk |
 | nov 2026 | Todos los vehículos | En 30 segundos | a_coche, a_circuito, a_hidro, a_jetski, d_jet… |
 | nov 2026 | Anuncios de la tele | Los anuncios son una locura | d_tele |
+| 23-nov-2026 | Persecución con la policía | Esto pasa si te persigue la poli | d_persecucion, m_poli_tiro, m_poli_flip |
+| 23-nov-2026 | Llegar a Vice City | POV: acabas de llegar | d_aeropuerto, d_coche2, a_mar, a_playa, d_noche |
+| 23-nov-2026 | Vice City de noche | Es otro juego | d_torre, d_callejera, d_fiesta, d_noche |
+| 23-nov-2026 | Las vistas más bonitas | Pon esto a pantalla completa | a_paracaidas, aerial, leonida_keys_07, skyline_dusk |
 
 ## Vídeos largos
 | Fecha | Tema | Formato |
@@ -28,8 +32,7 @@
 ## Ideas pendientes (tachar al usar)
 Shorts: cada personaje en un short (Cal, Boobie, Dre'Quan, Real Dimez, Raúl, Brian, Andrés) · coches icónicos
 (Cheetah, Squalo, Stock 305) · el gimnasio de la playa · motos de agua · motocross · paracaídas · la discoteca ·
-persecución con la policía · el golpe a la joyería · el aeropuerto y el jet · el perro · Vice City de noche ·
-«POV: llegas a Vice City» · «¿adivinas qué es?» (zoom y revelación) · «3 cosas que hacer nada más empezar» ·
+el golpe a la joyería · el aeropuerto y el jet · el perro · «¿adivinas qué es?» (zoom y revelación) · «3 cosas que hacer nada más empezar» ·
 «el detalle que nadie vio» · caimanes de Grassrivers · Leonida Keys bajo el agua · ascensores y edificios ·
 la redada · la azotea · el discurso · las bolsas de dinero.
 Largos: personajes explicados uno a uno · el mapa de Leonida región por región · guía para empezar (consejos) ·

@@ -1,0 +1,146 @@
+{
+ "rate": "+8%",
+ "pitch": "+2Hz",
+ "mic": true,
+ "music": "track:i_can_feel_it_coming@6",
+ "lines": [
+  {
+   "t": "Pon esto a pantalla completa. Estas son las vistas más bonitas de GTA 6.",
+   "imgs": [
+    "v:a_paracaidas"
+   ],
+   "title": [
+    [
+     "LAS",
+     "VISTAS",
+     "MÁS"
+    ],
+    [
+     "*BONITAS*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "clipFrom": 3.6,
+   "hook": true
+  },
+  {
+   "t": "Saltar en paracaídas sobre Vice City, con toda la costa debajo.",
+   "imgs": [
+    "v:a_paracaidas"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0
+  },
+  {
+   "t": "El paracaídas se abre… y tienes la ciudad entera a tus pies.",
+   "imgs": [
+    "v:a_paracaidas"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 4.8
+  },
+  {
+   "t": "La bahía al atardecer, llena de yates.",
+   "imgs": [
+    "aerial"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Y bajo el agua de las Leonida Keys… arrecifes y peces de verdad.",
+   "imgs": [
+    "leonida_keys_07"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Por la noche, el horizonte de la ciudad parece una postal.",
+   "imgs": [
+    "skyline_dusk"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Y conducir por la costa, con el sol de frente, no tiene precio.",
+   "imgs": [
+    "v:d_coche2"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 12
+  },
+  {
+   "t": "¿Cuál es tu vista favorita? ¡Comenta!",
+   "imgs": [
+    "v:a_paracaidas"
+   ],
+   "title": [
+    [
+     "¿TU",
+     "VISTA"
+    ],
+    [
+     "*FAVORITA*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.4,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 6,
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

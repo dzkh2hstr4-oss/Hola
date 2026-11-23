@@ -1,0 +1,296 @@
+{
+ "scenes": [
+  {
+   "imgs": [
+    "v:a_paracaidas"
+   ],
+   "title": [
+    [
+     "LAS",
+     "VISTAS",
+     "MÁS"
+    ],
+    [
+     "*BONITAS*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "clipFrom": 3.6,
+   "hook": true,
+   "s": 0,
+   "e": 4.88,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:a_paracaidas"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0,
+   "s": 4.88,
+   "e": 8.24,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:a_paracaidas"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 4.8,
+   "s": 8.24,
+   "e": 11.4,
+   "full": true
+  },
+  {
+   "imgs": [
+    "aerial"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "s": 11.4,
+   "e": 13.67,
+   "full": true
+  },
+  {
+   "imgs": [
+    "leonida_keys_07"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "s": 13.67,
+   "e": 16.97,
+   "full": true
+  },
+  {
+   "imgs": [
+    "skyline_dusk"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "s": 16.97,
+   "e": 19.89,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:d_coche2"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 12,
+   "s": 19.89,
+   "e": 23.37,
+   "full": true
+  },
+  {
+   "imgs": [
+    "v:a_paracaidas"
+   ],
+   "title": [
+    [
+     "¿TU",
+     "VISTA"
+    ],
+    [
+     "*FAVORITA*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.4,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 6,
+   "emojis": [
+    "👇"
+   ],
+   "s": 23.37,
+   "e": 27.25,
+   "full": true
+  }
+ ],
+ "captions": [
+  {
+   "t": "Pon esto a pantalla completa. Estas son las vistas más bonitas de GTA 6.",
+   "s": 0.05,
+   "e": 4.8
+  },
+  {
+   "t": "Saltar en paracaídas sobre Vice City, con toda la costa debajo.",
+   "s": 4.88,
+   "e": 8.16
+  },
+  {
+   "t": "El paracaídas se abre… y tienes la ciudad entera a tus pies.",
+   "s": 8.24,
+   "e": 11.32
+  },
+  {
+   "t": "La bahía al atardecer, llena de yates.",
+   "s": 11.4,
+   "e": 13.59
+  },
+  {
+   "t": "Y bajo el agua de las Leonida Keys… arrecifes y peces de verdad.",
+   "s": 13.67,
+   "e": 16.89
+  },
+  {
+   "t": "Por la noche, el horizonte de la ciudad parece una postal.",
+   "s": 16.97,
+   "e": 19.81
+  },
+  {
+   "t": "Y conducir por la costa, con el sol de frente, no tiene precio.",
+   "s": 19.89,
+   "e": 23.29
+  },
+  {
+   "t": "¿Cuál es tu vista favorita? ¡Comenta!",
+   "s": 23.37,
+   "e": 25.97
+  }
+ ],
+ "voice": "gta6/audio/voz16.mp3",
+ "music": "gta6/audio/musica1.wav",
+ "musicVolume": 0,
+ "total": 27.25,
+ "clipLen": {
+  "q_salte": 12.6,
+  "c_brian1": 14.5,
+  "d_ascensor3": 23.0,
+  "d_coche2": 40.0,
+  "d_parking": 34.0,
+  "d_carrusel": 73.0,
+  "c_callejon": 1.23,
+  "d_noche": 8.0,
+  "a_patinete": 3.5,
+  "d_coche": 50.0,
+  "c_entrada": 3.9,
+  "c_dentro": 2.47,
+  "d_grupo": 18.0,
+  "d_lucia": 26.0,
+  "d_raul": 35.0,
+  "q_redada": 5.8,
+  "d_tiro1": 17.0,
+  "a_hidro": 3.0,
+  "a_kayak": 2.0,
+  "d_ascensor": 21.0,
+  "a_selfie": 3.2,
+  "m_poli_tiro": 4.5,
+  "m_tienda1": 4.0,
+  "a_motocross": 4.2,
+  "q_prueba": 9.8,
+  "d_huida": 27.0,
+  "d_cama": 15.0,
+  "a_jetski": 1.83,
+  "a_mar": 2.6,
+  "d_tele": 32.0,
+  "d_fiesta": 34.0,
+  "d_casa": 20.0,
+  "a_circuito": 5.3,
+  "d_final": 33.0,
+  "d_oficina": 36.0,
+  "d_pasillo": 14.0,
+  "d_monitores": 12.0,
+  "d_ascensor2": 15.0,
+  "d_mensaje": 16.0,
+  "q_gloria2": 6.8,
+  "d_torre": 7.0,
+  "d_llamada": 32.0,
+  "m_golpe2": 5.0,
+  "q_ernesto": 11.3,
+  "a_club": 4.0,
+  "q_trabajo": 12.8,
+  "m_golpe3": 7.0,
+  "q_ladrillos": 3.4,
+  "d_persecucion": 30.0,
+  "d_callejera": 8.0,
+  "a_gym": 3.3,
+  "d_ropa": 16.0,
+  "d_tiro2": 28.0,
+  "d_mesa": 20.0,
+  "a_coche": 6.0,
+  "m_poli_flip": 6.0,
+  "d_titulo": 20.0,
+  "m_joya2": 6.6,
+  "d_redada": 18.0,
+  "d_discurso": 22.0,
+  "d_bolsa": 8.0,
+  "q_profesional": 11.4,
+  "m_tienda2": 6.0,
+  "m_joya1": 3.2,
+  "d_perro": 9.0,
+  "q_gloria": 16.0,
+  "m_tienda3": 3.0,
+  "m_furgon": 1.9,
+  "d_llegada": 8.0,
+  "d_ataque": 18.0,
+  "a_disco": 2.7,
+  "d_trunk": 19.0,
+  "m_golpe1": 6.0,
+  "d_cochenoche": 14.0,
+  "d_puerta": 20.0,
+  "d_azotea": 38.0,
+  "d_jet": 14.0,
+  "d_aeropuerto": 27.0,
+  "d_mesa2": 23.0,
+  "c_saludo": 2.47,
+  "d_tiro3": 42.0,
+  "q_trunk": 13.4,
+  "a_playa": 2.6,
+  "q_bajarte": 7.8,
+  "a_paracaidas": 9.7
+ },
+ "gameVolume": 0,
+ "sfxGain": 0.6,
+ "capSize": 84,
+ "capTop": 1500,
+ "smooth": true
+}

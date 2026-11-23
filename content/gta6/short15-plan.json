@@ -1,0 +1,137 @@
+{
+ "rate": "+10%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "music": "track:ethernight_club@20",
+ "lines": [
+  {
+   "t": "Vice City de noche… es otro juego.",
+   "imgs": [
+    "v:d_torre"
+   ],
+   "title": [
+    [
+     "VICE CITY",
+     "DE"
+    ],
+    [
+     "*NOCHE*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "clipFrom": 1.8,
+   "hook": true
+  },
+  {
+   "t": "Los edificios se encienden de colores: rosa, azul, morado.",
+   "imgs": [
+    "v:d_torre"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 1.8,
+   "speed": 0.6
+  },
+  {
+   "t": "En la calle, la gente monta fiesta en plena acera.",
+   "imgs": [
+    "v:d_callejera"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0,
+   "speed": 0.7
+  },
+  {
+   "t": "Los coches de carreras salen a correr entre los semáforos.",
+   "imgs": [
+    "v:d_callejera"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 2.5,
+   "speed": 0.7
+  },
+  {
+   "t": "Y dentro de las fiestas privadas… luces, globos y gente de todo tipo.",
+   "imgs": [
+    "v:d_fiesta"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 17
+  },
+  {
+   "t": "Cada rincón tiene un neón distinto.",
+   "imgs": [
+    "v:d_noche"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 2,
+   "speed": 0.7
+  },
+  {
+   "t": "¿Eres más de Vice City de día o de noche? ¡Comenta!",
+   "imgs": [
+    "v:d_torre"
+   ],
+   "title": [
+    [
+     "¿DÍA",
+     "O"
+    ],
+    [
+     "*NOCHE*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.6,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 3.6,
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

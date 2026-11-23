@@ -1,0 +1,153 @@
+{
+ "rate": "+8%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "music": "track:miami_nights@20",
+ "lines": [
+  {
+   "t": "POV: acabas de aterrizar en Vice City.",
+   "imgs": [
+    "v:d_aeropuerto"
+   ],
+   "title": [
+    [
+     "*POV*:"
+    ],
+    [
+     "LLEGAS",
+     "A"
+    ],
+    [
+     "*VICE CITY*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "clipFrom": 9,
+   "hook": true
+  },
+  {
+   "t": "Sales del aeropuerto, con los aviones despegando detrás del cristal.",
+   "imgs": [
+    "v:d_aeropuerto"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 6
+  },
+  {
+   "t": "Coges el coche… y te vas directo al centro, con el sol cayendo sobre el mar.",
+   "imgs": [
+    "v:d_coche2"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 8
+  },
+  {
+   "t": "Las palmeras, los rascacielos, el tráfico… todo brilla.",
+   "imgs": [
+    "v:d_coche2"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 28
+  },
+  {
+   "t": "Te das un baño en el muelle, porque aquí siempre hace calor.",
+   "imgs": [
+    "v:a_mar"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0,
+   "speed": 0.7
+  },
+  {
+   "t": "Y la playa está a reventar. No cabe ni una toalla más.",
+   "imgs": [
+    "v:a_playa"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0,
+   "speed": 0.6
+  },
+  {
+   "t": "Cuando se hace de noche, la ciudad se llena de neones.",
+   "imgs": [
+    "v:d_noche"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 2
+  },
+  {
+   "t": "¿Qué sería lo primero que harías al llegar? ¡Te leo!",
+   "imgs": [
+    "v:d_coche2"
+   ],
+   "title": [
+    [
+     "¿QUÉ",
+     "HARÍAS"
+    ],
+    [
+     "*PRIMERO*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.8,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 16,
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

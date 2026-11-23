@@ -1,0 +1,141 @@
+{
+ "rate": "+12%",
+ "pitch": "+4Hz",
+ "mic": true,
+ "music": "track:mistake_the_getaway@0",
+ "lines": [
+  {
+   "t": "Esto es lo que pasa si te persigue la policía en GTA 6.",
+   "imgs": [
+    "v:d_persecucion"
+   ],
+   "title": [
+    [
+     "SI",
+     "TE",
+     "PERSIGUE"
+    ],
+    [
+     "LA",
+     "*POLI*…"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "clipFrom": 8,
+   "hook": true
+  },
+  {
+   "t": "Primero, los coches patrulla aparecen por todas partes. No hay calle tranquila.",
+   "imgs": [
+    "v:d_persecucion"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0
+  },
+  {
+   "t": "Te cierran el paso en los cruces… y no se andan con tonterías.",
+   "imgs": [
+    "v:d_persecucion"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 13
+  },
+  {
+   "t": "Mira esto: un todoterreno da vueltas de campana en mitad de la avenida.",
+   "imgs": [
+    "v:m_poli_tiro"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    },
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 1.6,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 1.0
+  },
+  {
+   "t": "Y los daños se quedan: cristales rotos, coches destrozados, humo…",
+   "imgs": [
+    "v:m_poli_flip"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 2.0
+  },
+  {
+   "t": "La persecución sigue calle tras calle, entre palmeras y edificios de Vice City.",
+   "imgs": [
+    "v:d_persecucion"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 20
+  },
+  {
+   "t": "¿Tú te rindes… o huyes hasta el final? ¡Comenta!",
+   "imgs": [
+    "v:d_persecucion"
+   ],
+   "title": [
+    [
+     "¿TE",
+     "RINDES",
+     "O"
+    ],
+    [
+     "*HUYES*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.6,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 24,
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}
