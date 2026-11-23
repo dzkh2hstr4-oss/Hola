@@ -39,7 +39,7 @@
      "v": 0.28
     }
    ],
-   "clipFrom": 2,
+   "clipFrom": 0.5,
    "s": 4.75,
    "e": 7.46,
    "full": true
@@ -48,7 +48,7 @@
    "imgs": [
     "v:d_tele"
    ],
-   "clipFrom": 4,
+   "clipFrom": 3,
    "title": [],
    "sfx": [
     {
@@ -59,7 +59,8 @@
    ],
    "s": 7.46,
    "e": 15.28,
-   "full": true
+   "full": true,
+   "speed": 0.6
   },
   {
    "imgs": [
@@ -73,7 +74,7 @@
      "v": 0.28
     }
    ],
-   "clipFrom": 11,
+   "clipFrom": 11.5,
    "s": 15.28,
    "e": 17.96,
    "full": true
@@ -82,18 +83,19 @@
    "imgs": [
     "v:d_tele"
    ],
-   "clipFrom": 18,
+   "clipFrom": 17,
    "title": [],
    "sfx": [],
    "s": 17.96,
    "e": 25.49,
-   "full": true
+   "full": true,
+   "speed": 0.9
   },
   {
    "imgs": [
     "v:d_tele"
    ],
-   "clipFrom": 23,
+   "clipFrom": 24.6,
    "title": [],
    "sfx": [
     {
@@ -123,21 +125,23 @@
      "v": 0.4
     }
    ],
-   "clipFrom": 26,
+   "clipFrom": 25,
    "s": 26.04,
    "e": 28.82,
-   "full": true
+   "full": true,
+   "speed": 0.8
   },
   {
    "imgs": [
     "v:d_tele"
    ],
-   "clipFrom": 28,
+   "clipFrom": 27.4,
    "title": [],
    "sfx": [],
    "s": 28.82,
    "e": 32.59,
-   "full": true
+   "full": true,
+   "speed": 0.8
   },
   {
    "imgs": [
@@ -159,13 +163,14 @@
      "v": 0.45
     }
    ],
-   "clipFrom": 20,
+   "clipFrom": 21.5,
    "emojis": [
     "👇"
    ],
    "s": 32.59,
    "e": 40.26,
-   "full": true
+   "full": true,
+   "speed": 0.6
   }
  ],
  "captions": [
