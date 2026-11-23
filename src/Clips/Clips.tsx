@@ -25,6 +25,7 @@ export type Clip = {
   textoTop?: number; // y of the labels (default 260)
   textoAncho?: number; // min label width (to cover old text in a clip)
   audio?: number; // volume of the clip's own sound (0 = mute)
+  shake?: boolean; // handheld-camera motion (for stills)
 };
 
 export type ClipsProps = {
@@ -39,7 +40,9 @@ export type ClipsProps = {
   finalFrames?: number; // how many last frames show comenta + button
   music?: string;
   musicVolume?: number;
+  musicFrom?: number; // seconds into the track
   voice?: string;
+  subs?: { t: string; s: number; e: number }[]; // word timings (s) of the voice
 };
 
 export const clipsDuration = (p: ClipsProps) =>
@@ -252,9 +255,12 @@ const ClipView: React.FC<{ c: Clip; first: boolean }> = ({ c, first }) => {
     : 1 + 0.1 * Math.exp(-t / 5);
   const push = 1 + (t / Math.max(1, c.frames)) * 0.05;
   const flash = first ? 0 : interpolate(t, [0, 4], [0.45, 0], clamp);
+  const sx = c.shake ? Math.sin(t / 7) * 9 + Math.sin(t / 2.3) * 2.5 : 0;
+  const sy = c.shake ? Math.cos(t / 9) * 7 + Math.sin(t / 3.1) * 2 : 0;
+  const rot = c.shake ? Math.sin(t / 11) * 0.6 : 0;
   return (
     <AbsoluteFill style={{ background: "#000", overflow: "hidden" }}>
-      <AbsoluteFill style={{ transform: `scale(${punch * push})` }}>
+      <AbsoluteFill style={{ transform: `translate(${sx}px, ${sy}px) rotate(${rot}deg) scale(${punch * push * (c.shake ? 1.06 : 1)})` }}>
         <OffthreadVideo
           src={staticFile(c.src)}
           startFrom={c.from ?? 0}
@@ -264,6 +270,70 @@ const ClipView: React.FC<{ c: Clip; first: boolean }> = ({ c, first }) => {
       </AbsoluteFill>
       <AbsoluteFill style={{ background: "#fff", opacity: flash, zIndex: 30 }} />
     </AbsoluteFill>
+  );
+};
+
+// TikTok-style subtitles: 3 words at a time, current word in yellow with a pop.
+const Subs: React.FC<{ words: { t: string; s: number; e: number }[]; offset: number }> = ({
+  words,
+  offset,
+}) => {
+  const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const now = f / fps - offset;
+  const groups: { t: string; s: number; e: number }[][] = [];
+  let g: { t: string; s: number; e: number }[] = [];
+  for (const w of words) {
+    g.push(w);
+    if (g.length === 3 || /[.,!?…:]$/.test(w.t)) {
+      groups.push(g);
+      g = [];
+    }
+  }
+  if (g.length) groups.push(g);
+  const gi = groups.findIndex((gr, i) => now >= gr[0].s - 0.05 && now < (groups[i + 1]?.[0].s ?? gr[gr.length - 1].e + 0.6));
+  if (gi < 0) return null;
+  const gr = groups[gi];
+  const pop = spring({ frame: Math.round((now - gr[0].s) * fps), fps, config: { damping: 12, stiffness: 220 } });
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: 1290,
+        left: 40,
+        right: 40,
+        display: "flex",
+        flexWrap: "wrap",
+        justifyContent: "center",
+        gap: "4px 44px",
+        zIndex: 45,
+        transform: `scale(${0.8 + 0.2 * pop})`,
+      }}
+    >
+      {gr.map((w, i) => {
+        const next = gr[i + 1]?.s ?? w.e + 0.3;
+        const on = now >= w.s && now < next;
+        return (
+          <span
+            key={i}
+            style={{
+              fontFamily,
+              fontWeight: 900,
+              fontSize: 86,
+              lineHeight: 1.15,
+              color: on ? "#FFE03A" : "#fff",
+              WebkitTextStroke: "8px #000",
+              paintOrder: "stroke fill",
+              textShadow: "0 8px 24px rgba(0,0,0,0.5)",
+              display: "inline-block",
+              transform: on ? "scale(1.08) rotate(-2deg)" : "none",
+            }}
+          >
+            {w.t.toUpperCase()}
+          </span>
+        );
+      })}
+    </div>
   );
 };
 
@@ -338,7 +408,8 @@ export const Clips: React.FC<ClipsProps> = (p) => {
         </Sequence>
       ) : null}
 
-      {p.music ? <Audio src={staticFile(p.music)} volume={vol} /> : null}
+      {p.music ? <Audio src={staticFile(p.music)} volume={vol} startFrom={Math.round((p.musicFrom ?? 0) * 30)} /> : null}
+      {p.subs && p.subs.length ? <Subs words={p.subs} offset={6 / 30} /> : null}
       {p.voice ? (
         <Sequence from={6} layout="none">
           <Audio src={staticFile(p.voice)} />
@@ -354,7 +425,6 @@ export const Clips: React.FC<ClipsProps> = (p) => {
 export const defaultClipsProps: ClipsProps = {
   clips: [],
   gancho: ["POV: por fin llegó", "el proyector aurora 🌌"],
-  comenta: "comenta 1, 2, 3 o 4 💬",
   boton: "Cómpralo en mi bio",
 };
 

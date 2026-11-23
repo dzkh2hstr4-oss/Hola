@@ -1,0 +1,55 @@
+{
+  "id": "ugc-s1",
+  "producto": "atardecer",
+  "status": "creado",
+  "gancho": [
+    "La lámpara de los",
+    "cuartos aesthetic 🌅"
+  ],
+  "ganchoSegundos": 2.8,
+  "comenta": "¿te la pondrías? 👇",
+  "boton": "Cómprala en mi bio",
+  "finalSegundos": 2.6,
+  "musica": "entrada/musica/Wallpaper.mp3",
+  "musicaDesde": 8,
+  "musicaVolumen": 0.16,
+  "clips": [
+    {
+      "archivo": "entrada/fotos/ia-atardecer.png",
+      "shake": true,
+      "modo": "full",
+      "segundos": 2.8
+    },
+    {
+      "archivo": "entrada/fotos/s7.jpg",
+      "shake": true,
+      "recorte": "520:1020:0:0",
+      "segundos": 1.95
+    },
+    {
+      "archivo": "public/lampara.jpg",
+      "modo": "full",
+      "shake": true,
+      "segundos": 1.95
+    },
+    {
+      "archivo": "entrada/fotos/s4.jpg",
+      "shake": true,
+      "modo": "full",
+      "segundos": 1.95
+    },
+    {
+      "archivo": "public/lampara-real.jpg",
+      "shake": true,
+      "segundos": 1.95
+    },
+    {
+      "archivo": "entrada/fotos/ia-atardecer.png",
+      "shake": true,
+      "modo": "full",
+      "mov": "out",
+      "segundos": 2.6
+    }
+  ],
+  "caption": "La lámpara de los cuartos aesthetic 🌅 Por USB, sin obras: un atardecer en tu pared. 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🤖 Imágenes y voz creadas con IA · 🎵 «Wallpaper» – Kevin MacLeod (incompetech.com), CC BY 4.0"
+}

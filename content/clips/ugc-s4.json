@@ -1,0 +1,55 @@
+{
+  "id": "ugc-s4",
+  "producto": "atardecer",
+  "status": "creado",
+  "gancho": [
+    "Fotos así",
+    "con 1 lámpara 📸"
+  ],
+  "ganchoSegundos": 2.8,
+  "comenta": "¿lo pruebas? 👇",
+  "boton": "Cómprala en mi bio",
+  "finalSegundos": 2.6,
+  "musica": "entrada/musica/Carefree.mp3",
+  "musicaDesde": 8,
+  "musicaVolumen": 0.16,
+  "clips": [
+    {
+      "archivo": "public/lampara.jpg",
+      "modo": "full",
+      "shake": true,
+      "segundos": 2.8
+    },
+    {
+      "archivo": "entrada/fotos/ia-atardecer.png",
+      "shake": true,
+      "modo": "full",
+      "segundos": 2.2
+    },
+    {
+      "archivo": "public/lampara-real.jpg",
+      "shake": true,
+      "segundos": 2.2
+    },
+    {
+      "archivo": "entrada/fotos/s4.jpg",
+      "shake": true,
+      "modo": "full",
+      "segundos": 2.2
+    },
+    {
+      "archivo": "entrada/fotos/s7.jpg",
+      "shake": true,
+      "recorte": "520:1020:0:0",
+      "segundos": 2.2
+    },
+    {
+      "archivo": "entrada/fotos/ia-atardecer.png",
+      "shake": true,
+      "modo": "full",
+      "mov": "out",
+      "segundos": 2.6
+    }
+  ],
+  "caption": "Fotos así con 1 lámpara 📸🌅 La apuntas a la pared y la luz hace el resto. 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🤖 Imágenes y voz creadas con IA · 🎵 «Carefree» – Kevin MacLeod (incompetech.com), CC BY 4.0"
+}

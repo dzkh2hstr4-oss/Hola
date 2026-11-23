@@ -79,6 +79,7 @@ const clips = spec.clips.map((c, i) => {
     textoTop: c.textoTop,
     textoAncho: c.textoAncho,
     audio: c.audio ?? 0,
+    shake: c.shake ?? false,
   };
 });
 let total = clips.reduce((a, c) => a + c.frames, 0);
@@ -95,8 +96,16 @@ if (existsSync(voz)) {
 
 // 3. music bed
 const seed = [...id].reduce((a, c) => (a * 31 + c.charCodeAt(0)) % 100000, 7);
-const musicRel = `clips/${id}/musica.wav`;
-sh("python3", [join(ROOT, "scripts/musica.py"), "--seed", String(seed), "--seconds", String(total / FPS + 1), "--out", join(ROOT, "public", musicRel)]);
+let musicRel = `clips/${id}/musica.wav`;
+if (spec.musica) {
+  // real royalty-free track (entrada/musica/*.mp3)
+  musicRel = `clips/${id}/musica.mp3`;
+  sh("ffmpeg", ["-y", "-v", "error", "-i", resolve(ROOT, spec.musica), "-c", "copy", join(ROOT, "public", musicRel)]);
+} else {
+  sh("python3", [join(ROOT, "scripts/musica.py"), "--seed", String(seed), "--seconds", String(total / FPS + 1), "--out", join(ROOT, "public", musicRel)]);
+}
+const wordsFile = join(ROOT, "content/voz", `${id}.words.json`);
+const subs = existsSync(wordsFile) ? JSON.parse(readFileSync(wordsFile, "utf8")) : undefined;
 
 // 4. render
 const props = {
@@ -110,7 +119,9 @@ const props = {
   boton: spec.boton,
   finalFrames: spec.finalSegundos ? Math.round(spec.finalSegundos * FPS) : undefined,
   music: musicRel,
-  musicVolume: voiceRel ? 0.2 : 0.38,
+  musicVolume: spec.musicaVolumen ?? (voiceRel ? 0.16 : 0.38),
+  musicFrom: spec.musicaDesde ?? 0,
+  subs,
   voice: voiceRel,
 };
 const propsFile = join(outDir, "props.json");
