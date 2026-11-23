@@ -28,7 +28,7 @@
   },
   {
    "imgs": [
-    "v:d_coche"
+    "v:a_coche"
    ],
    "title": [],
    "sfx": [
@@ -38,7 +38,7 @@
      "v": 0.28
     }
    ],
-   "clipFrom": 4,
+   "clipFrom": 0,
    "s": 3.48,
    "e": 5.74,
    "full": true
