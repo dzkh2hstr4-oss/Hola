@@ -39,18 +39,22 @@ const clips = spec.clips.map((c, i) => {
   const dst = join(outDir, `c${i + 1}.mp4`);
   let desde = c.desde ?? 0;
   if (isImg(src)) {
-    // still photo -> slow zoom. "card": photo fitted on a blurred copy of itself (square/low-res photos);
-    // "full": photo covers the screen. Optional "recorte": "w:h:x:y" crop of the photo first.
+    // still photo -> real animated shot: 3D camera move from depth + living light (scripts/animar-foto.py).
+    // "card": square/low-res photo animated and laid over a blurred copy of itself; "full": covers the screen.
     const secs = (c.segundos ?? 2.5) + 0.5;
-    const n = Math.round(secs * FPS);
-    const crop = c.recorte ? `crop=${c.recorte},` : "";
-    const zIn = c.mov === "out" ? `1.14-0.14*on/${n}` : `1+0.14*on/${n}`;
-    const zx = c.mov === "left" ? `(iw-iw/zoom)*(1-on/${n})` : c.mov === "right" ? `(iw-iw/zoom)*on/${n}` : "iw/2-(iw/zoom/2)";
-    const zoom = `zoompan=z='${zIn}':x='${zx}':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=30`;
-    const fc = (c.modo ?? "card") === "full"
-      ? `[0]${crop}scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,scale=2160:3840,${zoom},format=yuv420p[v]`
-      : `[0]${crop}split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:3,eq=brightness=-0.12[bg];[b]scale=1040:-2[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2+60,scale=2160:3840,${zoom},format=yuv420p[v]`;
-    sh("ffmpeg", ["-y", "-v", "error", "-loop", "1", "-t", String(secs), "-i", src, "-f", "lavfi", "-t", String(secs), "-i", "anullsrc=r=44100:cl=stereo", "-filter_complex", fc, "-map", "[v]", "-map", "1:a", "-c:v", "libx264", "-crf", "18", "-preset", "fast", "-c:a", "aac", "-ar", "44100", "-shortest", dst]);
+    const efecto = c.efecto ?? (spec.producto === "atardecer" ? "atardecer" : spec.producto === "aurora" ? "aurora" : "nada");
+    const cams = ["push", "orbit", "left", "pull", "right"];
+    const cam = c.cam ?? (c.mov === "out" ? "pull" : c.mov === "left" ? "left" : c.mov === "right" ? "right" : cams[i % cams.length]);
+    const card = (c.modo ?? "card") !== "full";
+    const anim = join(outDir, `a${i + 1}.mp4`);
+    const pa = [join(ROOT, "scripts/animar-foto.py"), src, anim, "--segundos", String(secs), "--efecto", efecto, "--cam", cam, "--seed", String(i + 1)];
+    if (c.recorte) pa.push("--recorte", c.recorte);
+    if (card) pa.push("--tam", "1040x1040");
+    sh("python3", pa);
+    const fc = card
+      ? `[0]split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:3,eq=brightness=-0.12[bg];[bg][b]overlay=(W-w)/2:(H-h)/2+60,format=yuv420p[v]`
+      : `[0]format=yuv420p[v]`;
+    sh("ffmpeg", ["-y", "-v", "error", "-i", anim, "-f", "lavfi", "-t", String(secs), "-i", "anullsrc=r=44100:cl=stereo", "-filter_complex", fc, "-map", "[v]", "-map", "1:a", "-c:v", "libx264", "-crf", "18", "-preset", "fast", "-c:a", "aac", "-ar", "44100", "-shortest", dst]);
     desde = 0;
   } else {
     const hasAudio = sh("ffprobe", ["-v", "error", "-select_streams", "a", "-show_entries", "stream=index", "-of", "csv=p=0", src]).trim() !== "";
