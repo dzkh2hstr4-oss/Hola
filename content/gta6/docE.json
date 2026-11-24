@@ -1,0 +1,800 @@
+{
+ "theme": "doc",
+ "scenes": [
+  {
+   "kind": "intro",
+   "clips": [
+    "img:vintage1",
+    "d_coche2",
+    "img:skyline_dusk",
+    "d_torre"
+   ],
+   "label": "GTA 6",
+   "title": "LA HISTORIA DE VICE CITY",
+   "mus": "track:miami_nights@0",
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.7
+    },
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 4.0,
+     "v": 0.4
+    }
+   ],
+   "s": 0.0,
+   "e": 11.69
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "img:vintage2"
+   ],
+   "label": "CAPÍTULO 1",
+   "title": "1997",
+   "sub": "El origen",
+   "s": 11.69,
+   "e": 14.18
+  },
+  {
+   "kind": "list",
+   "clips": [
+    "img:vintage2"
+   ],
+   "label": "GTA 1 · 1997",
+   "title": "TRES CIUDADES",
+   "items": [
+    "Liberty City",
+    "San Andreas",
+    "Vice City"
+   ],
+   "s": 14.18,
+   "e": 26.42
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:aerial",
+    "img:vice_city_15"
+   ],
+   "label": "DATO",
+   "title": "UNA DE LAS PRIMERAS",
+   "s": 26.42,
+   "e": 32.2
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "img:vintage3"
+   ],
+   "label": "CAPÍTULO 2",
+   "title": "2002",
+   "sub": "GTA Vice City",
+   "mus": "track:ethernight_club@20",
+   "s": 32.2,
+   "e": 36.23
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:vintage3",
+    "img:vintage1"
+   ],
+   "label": "OCTUBRE 2002",
+   "title": "GTA VICE CITY",
+   "s": 36.23,
+   "e": 45.06
+  },
+  {
+   "kind": "split",
+   "clips": [
+    "img:vintage1",
+    "img:vintage2"
+   ],
+   "label": "AMBIENTADO EN 1986",
+   "items": [
+    "SCARFACE",
+    "CORRUPCIÓN EN MIAMI"
+   ],
+   "s": 45.06,
+   "e": 57.2
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:aerial",
+    "img:vice_city_17"
+   ],
+   "label": "EL MAPA DE 2002",
+   "title": "DOS ISLAS Y UN HURACÁN",
+   "s": 57.2,
+   "e": 66.36
+  },
+  {
+   "kind": "list",
+   "clips": [
+    "img:vice_city_26"
+   ],
+   "label": "MIAMI EN 2002",
+   "title": "BARRIOS DE VERDAD",
+   "items": [
+    "Ocean Beach → South Beach",
+    "Little Havana → Little Havana",
+    "Starfish Island → Star Island"
+   ],
+   "s": 66.36,
+   "e": 77.39
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:skyline_dusk"
+   ],
+   "label": "DATO",
+   "title": "HECHO EN ESCOCIA",
+   "s": 77.39,
+   "e": 84.51
+  },
+  {
+   "kind": "stat",
+   "clips": [
+    "img:vintage3"
+   ],
+   "label": "TOMMY VERCETTI · AÑOS EN LA CÁRCEL",
+   "stat": {
+    "value": 15
+   },
+   "title": "AÑOS ENCERRADO",
+   "s": 84.51,
+   "e": 94.31
+  },
+  {
+   "kind": "headline",
+   "clips": [
+    "img:vintage3"
+   ],
+   "label": "LIBERTY CITY · 1971",
+   "title": "El carnicero de Harwood, condenado",
+   "sub": "Tommy Vercetti pasará 15 años en prisión",
+   "s": 94.31,
+   "e": 103.0,
+   "paper": "LA GACETA DE VICE CITY"
+  },
+  {
+   "kind": "headline",
+   "clips": [
+    "img:vintage1"
+   ],
+   "label": "VICE CITY · 1986",
+   "title": "Emboscada en el muelle: desaparecen el dinero y la droga",
+   "sub": "Tommy Vercetti sobrevive",
+   "s": 103.0,
+   "e": 109.93,
+   "paper": "LA GACETA DE VICE CITY"
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:vintage2"
+   ],
+   "label": "EASTER EGG",
+   "title": "VICTOR VANCE",
+   "s": 109.93,
+   "e": 117.49
+  },
+  {
+   "kind": "list",
+   "clips": [
+    "img:skyline_dusk"
+   ],
+   "label": "LOS PERSONAJES",
+   "title": "EL ASCENSO DE TOMMY",
+   "items": [
+    "Ken Rosenberg, el abogado",
+    "Ricardo Díaz, el narco",
+    "Lance Vance, el amigo",
+    "Sonny Forelli, el jefe"
+   ],
+   "mus": "track:private_eye@0",
+   "s": 117.49,
+   "e": 127.9
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:ue_style",
+    "img:vice_city_13"
+   ],
+   "label": "EL IMPERIO",
+   "title": "EL REY DE VICE CITY",
+   "s": 127.9,
+   "e": 138.05
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "img:vintage3"
+   ],
+   "label": "EL FINAL",
+   "title": "LA TRAICIÓN",
+   "s": 138.05,
+   "e": 145.48
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:ue_safehouse",
+    "d_azotea"
+   ],
+   "label": "EL FINAL",
+   "title": "EL TIROTEO DE LA MANSIÓN",
+   "s": 145.48,
+   "e": 152.86
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "img:vintage2"
+   ],
+   "label": "CAPÍTULO 3",
+   "title": "HOLLYWOOD Y LOS 80",
+   "mus": "track:i_can_feel_it_coming@0",
+   "s": 152.86,
+   "e": 158.0
+  },
+  {
+   "kind": "split",
+   "clips": [
+    "img:vintage3",
+    "img:vintage1"
+   ],
+   "label": "ESTRELLAS DE HOLLYWOOD",
+   "items": [
+    "RAY LIOTTA · TOMMY",
+    "P. M. THOMAS · LANCE"
+   ],
+   "s": 158.0,
+   "e": 167.06
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:vintage2"
+   ],
+   "label": "EL REPARTO",
+   "title": "DENNIS HOPPER Y BURT REYNOLDS",
+   "s": 167.06,
+   "e": 171.82
+  },
+  {
+   "kind": "list",
+   "clips": [
+    "img:music"
+   ],
+   "label": "LAS RADIOS",
+   "title": "LA MEJOR BANDA SONORA",
+   "items": [
+    "Flash FM",
+    "Wave 103",
+    "Fever 105",
+    "V-Rock"
+   ],
+   "s": 171.82,
+   "e": 184.76
+  },
+  {
+   "kind": "cards",
+   "clips": [
+    "d_noche",
+    "d_coche2",
+    "d_callejera"
+   ],
+   "label": "UNA RADIO PARA CADA MOMENTO",
+   "title": "ESTILOS",
+   "s": 184.76,
+   "e": 199.36,
+   "items": [
+    "WAVE 103 · NEW WAVE",
+    "FEVER 105 · DISCO",
+    "V-ROCK · METAL"
+   ]
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "img:vintage1"
+   ],
+   "label": "CAPÍTULO 4",
+   "title": "2006",
+   "sub": "Vice City Stories",
+   "mus": "track:mta@6",
+   "s": 199.36,
+   "e": 202.97
+  },
+  {
+   "kind": "headline",
+   "clips": [
+    "img:vintage2"
+   ],
+   "label": "2006 · PSP",
+   "title": "Victor Vance, el hombre que murió al principio, protagoniza su propia historia",
+   "sub": "Vice City Stories, ambientado en 1984",
+   "s": 202.97,
+   "e": 216.69,
+   "paper": "LA GACETA DE VICE CITY"
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:vintage1"
+   ],
+   "label": "LOS HERMANOS VANCE",
+   "title": "VICTOR Y LANCE",
+   "s": 216.69,
+   "e": 225.16
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:vintage3"
+   ],
+   "label": "",
+   "title": "SABES CÓMO ACABA",
+   "s": 225.16,
+   "e": 229.87
+  },
+  {
+   "kind": "list",
+   "clips": [
+    "img:skyline_dusk"
+   ],
+   "label": "LOS AÑOS DE SILENCIO",
+   "title": "LEJOS DE VICE CITY",
+   "items": [
+    "2008 · GTA IV en Liberty City",
+    "2013 · GTA V en Los Santos",
+    "2021 · Definitive Edition"
+   ],
+   "s": 229.87,
+   "e": 243.75
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "img:keyart"
+   ],
+   "label": "CAPÍTULO 5",
+   "title": "EL REGRESO",
+   "mus": "track:voltaic@0",
+   "s": 243.75,
+   "e": 246.47
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:vice_city_15",
+    "img:vice_city_27",
+    "img:aerial"
+   ],
+   "label": "TRÁILER 1",
+   "title": "VOLVEMOS A VICE CITY",
+   "s": 246.47,
+   "e": 255.07
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:vintage1",
+    "img:vintage2",
+    "d_torre"
+   ],
+   "label": "LOS GUIÑOS",
+   "title": "EL OCEAN VIEW HOTEL",
+   "s": 255.07,
+   "e": 266.66
+  },
+  {
+   "kind": "panel",
+   "clips": [
+    "img:vintage3"
+   ],
+   "label": "LA GRAN PREGUNTA",
+   "title": "¿VOLVERÁ TOMMY?",
+   "sub": "Rockstar no ha confirmado nada",
+   "s": 266.66,
+   "e": 272.65
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "img:vice_city_27"
+   ],
+   "label": "2002 VS 2026",
+   "title": "5 DIFERENCIAS",
+   "s": 272.65,
+   "e": 278.07
+  },
+  {
+   "kind": "split",
+   "clips": [
+    "img:vintage3",
+    "img:extended"
+   ],
+   "label": "ÉPOCA Y PROTAGONISTAS",
+   "items": [
+    "1986 · TOMMY",
+    "HOY · JASON Y LUCÍA"
+   ],
+   "s": 278.07,
+   "e": 287.62
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:grassrivers_07",
+    "img:leonida_keys_07",
+    "img:port_gellhorn_07"
+   ],
+   "label": "3 · EL MAPA",
+   "title": "DE DOS ISLAS A UN ESTADO",
+   "s": 287.62,
+   "e": 297.43
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_trunk",
+    "a_selfie"
+   ],
+   "label": "4 · DE LA RADIO A LAS REDES",
+   "title": "TODO SE GRABA",
+   "s": 297.43,
+   "e": 304.16
+  },
+  {
+   "kind": "split",
+   "clips": [
+    "img:vintage2",
+    "img:vice_city_15"
+   ],
+   "label": "5 · GRÁFICOS",
+   "items": [
+    "PS2 · 2002",
+    "PS5 · 2026"
+   ],
+   "s": 304.16,
+   "e": 312.31
+  },
+  {
+   "kind": "split",
+   "clips": [
+    "img:vintage3",
+    "img:vice_city_15"
+   ],
+   "label": "1986 VS 2026",
+   "items": [
+    "VICE CITY 2002",
+    "VICE CITY 2026"
+   ],
+   "s": 312.31,
+   "e": 320.61
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:jason_and_lucia_16",
+    "d_coche2"
+   ],
+   "label": "",
+   "title": "EL SIGUIENTE CAPÍTULO",
+   "s": 320.61,
+   "e": 326.72
+  },
+  {
+   "kind": "outro",
+   "clips": [
+    "img:keyart"
+   ],
+   "title": "¿JUGASTE AL ORIGINAL?",
+   "sub": "Cuéntamelo en comentarios",
+   "mus": "track:miami_viceroy@0",
+   "s": 326.72,
+   "e": 336.61
+  }
+ ],
+ "captions": [
+  {
+   "t": "Vice City no nació con GTA 6. Tiene casi treinta años de historia… con traiciones, mafiosos, estrellas de Hollywood y un secreto que casi nadie conoce. Hoy te la cuento entera.",
+   "s": 0.05,
+   "e": 11.51
+  },
+  {
+   "t": "Y empezamos por ese secreto.",
+   "s": 12.09,
+   "e": 13.68
+  },
+  {
+   "t": "Vice City ya existía en el primer Grand Theft Auto, el de mil novecientos noventa y siete. Un juego con vista desde arriba, casi de dibujos, con tres ciudades: Liberty City, San Andreas… y Vice City.",
+   "s": 14.23,
+   "e": 26.24
+  },
+  {
+   "t": "O sea, que cuando juegas a GTA 6, estás volviendo a una de las ciudades más antiguas de toda la saga.",
+   "s": 26.47,
+   "e": 32.02
+  },
+  {
+   "t": "Pero la Vice City que todos recordamos llegó cinco años después.",
+   "s": 32.6,
+   "e": 35.73
+  },
+  {
+   "t": "En dos mil dos sale GTA Vice City, justo un año después de GTA tres. Y se convierte en un fenómeno: uno de los juegos más vendidos de aquella época.",
+   "s": 36.28,
+   "e": 44.88
+  },
+  {
+   "t": "La historia está ambientada en mil novecientos ochenta y seis. Neones, trajes de colores, coches deportivos… y mucha cocaína. Una carta de amor a la película Scarface y a la serie Corrupción en Miami.",
+   "s": 45.11,
+   "e": 57.02
+  },
+  {
+   "t": "El mapa eran dos grandes islas unidas por puentes. Al principio, los puentes están cerrados por un aviso de huracán… y la ciudad se va abriendo poco a poco.",
+   "s": 57.25,
+   "e": 66.18
+  },
+  {
+   "t": "Y muchos barrios estaban calcados de Miami: Ocean Beach era South Beach, Little Havana era… Little Havana. Y Starfish Island, la isla de las mansiones, imitaba a Star Island.",
+   "s": 66.41,
+   "e": 77.21
+  },
+  {
+   "t": "Lo más curioso: el juego lo hizo Rockstar North, en Escocia. Sí: la Miami de los ochenta se diseñó en Edimburgo.",
+   "s": 77.44,
+   "e": 84.33
+  },
+  {
+   "t": "El protagonista es Tommy Vercetti, un mafioso que sale de la cárcel después de quince años. Su jefe, Sonny Forelli, lo manda a Vice City para cerrar un negocio de droga.",
+   "s": 84.56,
+   "e": 94.13
+  },
+  {
+   "t": "¿Y por qué estaba en la cárcel? En Liberty City le llamaban «el carnicero de Harwood». Lo acusaron de matar a once hombres en un solo encargo.",
+   "s": 94.36,
+   "e": 102.82
+  },
+  {
+   "t": "Pero el trato es una emboscada. Tommy pierde el dinero y la mercancía… y la familia Forelli quiere su dinero de vuelta.",
+   "s": 103.05,
+   "e": 109.75
+  },
+  {
+   "t": "Y aquí viene un detalle brutal: uno de los hombres que muere en esa emboscada es Victor Vance. Guarda ese nombre, porque vuelve más tarde.",
+   "s": 109.98,
+   "e": 117.31
+  },
+  {
+   "t": "Lo que sigue es una de las mejores historias de la saga. Tommy trabaja para un abogado corrupto, Ken Rosenberg, para un narco, Ricardo Díaz… hasta que decide quitarle el trono.",
+   "s": 117.54,
+   "e": 127.72
+  },
+  {
+   "t": "Tommy se queda con la mansión de Díaz y empieza a comprar negocios por toda la ciudad: un club, una fábrica de helados, una empresa de taxis… Se convierte en el rey de Vice City.",
+   "s": 127.95,
+   "e": 137.87
+  },
+  {
+   "t": "Pero en GTA siempre hay un traidor. Lance Vance, su mejor aliado, lo vende a Sonny Forelli.",
+   "s": 138.45,
+   "e": 144.98
+  },
+  {
+   "t": "Y el juego termina con un tiroteo en la mansión… un homenaje directo al final de Scarface. Pero esta vez, el que gana es Tommy.",
+   "s": 145.53,
+   "e": 152.68
+  },
+  {
+   "t": "Ahora, lo que de verdad hizo legendario a Vice City… fueron las voces y la música.",
+   "s": 153.26,
+   "e": 157.5
+  },
+  {
+   "t": "A Tommy le daba voz Ray Liotta, el actor de Uno de los nuestros. Y a Lance Vance, Philip Michael Thomas… uno de los protagonistas reales de Corrupción en Miami.",
+   "s": 158.05,
+   "e": 166.88
+  },
+  {
+   "t": "Además, en el reparto había más leyendas del cine, como Dennis Hopper o Burt Reynolds.",
+   "s": 167.11,
+   "e": 171.64
+  },
+  {
+   "t": "Y las radios eran una locura: Flash FM, Wave ciento tres, Fever ciento cinco, V-Rock… llenas de éxitos reales de los ochenta. Escuchar Billie Jean de Michael Jackson mientras conducías por la playa era otro nivel.",
+   "s": 171.87,
+   "e": 184.58
+  },
+  {
+   "t": "Cada radio tenía su estilo: Wave ciento tres, new wave. Fever ciento cinco, música disco. V-Rock, heavy metal. Emotion, baladas para conducir de noche. Había una para cada momento.",
+   "s": 184.81,
+   "e": 199.18
+  },
+  {
+   "t": "Cuatro años después, Rockstar volvió a Vice City.",
+   "s": 199.76,
+   "e": 202.47
+  },
+  {
+   "t": "Vice City Stories salió primero para PSP en dos mil seis. Es una precuela ambientada en mil novecientos ochenta y cuatro… y su protagonista es, precisamente, Victor Vance. El mismo que muere al principio de Vice City.",
+   "s": 203.02,
+   "e": 216.51
+  },
+  {
+   "t": "Y otro detalle: Victor es el hermano de Lance Vance, el traidor de Vice City. En Vice City Stories ves cómo empieza todo entre los hermanos.",
+   "s": 216.74,
+   "e": 224.98
+  },
+  {
+   "t": "O sea: juegas toda su historia sabiendo cómo acaba. Una genialidad.",
+   "s": 225.21,
+   "e": 229.69
+  },
+  {
+   "t": "Después vinieron años de silencio. Rockstar se fue a Liberty City con GTA cuatro y a Los Santos con GTA cinco. Y Vice City solo volvió en versiones para móvil y en la Definitive Edition de dos mil veintiuno… que salió llena de fallos.",
+   "s": 229.92,
+   "e": 243.57
+  },
+  {
+   "t": "Hasta diciembre de dos mil veintitrés.",
+   "s": 244.15,
+   "e": 245.97
+  },
+  {
+   "t": "El primer tráiler de GTA 6 lo confirmó: volvíamos a Vice City. Pero no a la de los ochenta, sino a la de hoy, dentro del estado de Leonida.",
+   "s": 246.52,
+   "e": 254.89
+  },
+  {
+   "t": "Y fíjate en los guiños: el Ocean View Hotel, que era el primer piso franco de Tommy, sigue en Ocean Drive. Los neones, los coches clásicos… la Vice City de dos mil dos sigue ahí, debajo de todo.",
+   "s": 255.12,
+   "e": 266.48
+  },
+  {
+   "t": "Muchos fans esperan ver a Tommy Vercetti en GTA 6… pero, de momento, Rockstar no ha confirmado nada.",
+   "s": 266.71,
+   "e": 272.47
+  },
+  {
+   "t": "Y ahora, las cinco grandes diferencias entre el Vice City de dos mil dos y el de GTA 6.",
+   "s": 273.05,
+   "e": 277.57
+  },
+  {
+   "t": "Una: la época. De mil novecientos ochenta y seis… a la actualidad. Dos: de un protagonista, Tommy, a dos, Jason y Lucía.",
+   "s": 278.12,
+   "e": 287.44
+  },
+  {
+   "t": "Tres: el mapa. Antes eran dos islas. Ahora Vice City es solo una parte de Leonida, un estado entero con pantanos, cayos y pueblos.",
+   "s": 287.67,
+   "e": 297.25
+  },
+  {
+   "t": "Cuatro: antes Vice City vivía de la radio. Ahora vive de las redes: la gente te graba y lo emite en directo.",
+   "s": 297.48,
+   "e": 303.98
+  },
+  {
+   "t": "Y cinco: de PlayStation dos… a PlayStation cinco y Xbox Series. Lo que antes eran polígonos, ahora parece una foto.",
+   "s": 304.21,
+   "e": 312.13
+  },
+  {
+   "t": "Del Vice City de mil novecientos ochenta y seis al de dos mil veintiséis. Cuarenta años dentro del juego… y veinticuatro años de espera en la vida real.",
+   "s": 312.36,
+   "e": 320.43
+  },
+  {
+   "t": "Y ahora le toca a Jason y a Lucía escribir el siguiente capítulo. ¿Acabarán como Tommy… o como Lance?",
+   "s": 320.66,
+   "e": 326.54
+  },
+  {
+   "t": "¿Jugaste al Vice City original? Cuéntame tu recuerdo favorito en comentarios. Y suscríbete, que esto no ha hecho más que empezar.",
+   "s": 326.77,
+   "e": 334.93
+  }
+ ],
+ "voice": "gta6/audio/docE-voz.wav",
+ "total": 336.61,
+ "clipLen": {
+  "q_salte": 12.6,
+  "c_brian1": 14.5,
+  "d_ascensor3": 23.0,
+  "d_coche2": 40.0,
+  "d_parking": 34.0,
+  "d_carrusel": 73.0,
+  "c_callejon": 1.23,
+  "d_noche": 8.0,
+  "a_patinete": 3.5,
+  "d_coche": 50.0,
+  "c_entrada": 3.9,
+  "c_dentro": 2.47,
+  "d_grupo": 18.0,
+  "d_lucia": 26.0,
+  "d_raul": 35.0,
+  "q_redada": 5.8,
+  "d_tiro1": 17.0,
+  "a_hidro": 3.0,
+  "a_kayak": 2.0,
+  "d_ascensor": 21.0,
+  "a_selfie": 3.2,
+  "m_poli_tiro": 4.5,
+  "m_tienda1": 4.0,
+  "a_motocross": 4.2,
+  "q_prueba": 9.8,
+  "d_huida": 27.0,
+  "d_cama": 15.0,
+  "a_jetski": 1.83,
+  "a_mar": 2.6,
+  "d_tele": 32.0,
+  "d_fiesta": 34.0,
+  "d_casa": 20.0,
+  "a_circuito": 5.3,
+  "d_final": 33.0,
+  "d_oficina": 36.0,
+  "d_pasillo": 14.0,
+  "d_monitores": 12.0,
+  "d_ascensor2": 15.0,
+  "d_mensaje": 16.0,
+  "q_gloria2": 6.8,
+  "d_torre": 7.0,
+  "d_llamada": 32.0,
+  "m_golpe2": 5.0,
+  "q_ernesto": 11.3,
+  "a_club": 4.0,
+  "q_trabajo": 12.8,
+  "m_golpe3": 7.0,
+  "q_ladrillos": 3.4,
+  "d_persecucion": 30.0,
+  "d_callejera": 8.0,
+  "a_gym": 3.3,
+  "d_ropa": 16.0,
+  "d_tiro2": 28.0,
+  "d_mesa": 20.0,
+  "a_coche": 6.0,
+  "m_poli_flip": 6.0,
+  "d_titulo": 20.0,
+  "m_joya2": 6.6,
+  "d_redada": 18.0,
+  "d_discurso": 22.0,
+  "d_bolsa": 8.0,
+  "q_profesional": 11.4,
+  "m_tienda2": 6.0,
+  "m_joya1": 3.2,
+  "d_perro": 9.0,
+  "q_gloria": 16.0,
+  "m_tienda3": 3.0,
+  "m_furgon": 1.9,
+  "d_llegada": 8.0,
+  "d_ataque": 18.0,
+  "a_disco": 2.7,
+  "d_trunk": 19.0,
+  "m_golpe1": 6.0,
+  "d_cochenoche": 14.0,
+  "d_puerta": 20.0,
+  "d_azotea": 38.0,
+  "d_jet": 14.0,
+  "d_aeropuerto": 27.0,
+  "d_mesa2": 23.0,
+  "c_saludo": 2.47,
+  "d_tiro3": 42.0,
+  "q_trunk": 13.4,
+  "a_playa": 2.6,
+  "q_bajarte": 7.8,
+  "a_paracaidas": 9.7
+ },
+ "clipVolume": 0,
+ "brand": "GTA VI · HISTORIA"
+}

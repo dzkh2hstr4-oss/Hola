@@ -28,6 +28,7 @@
 | nov 2026 | Tier list de actividades | tier list |
 | nov 2026 | ¿Quién traicionará a Jason y Lucía? | detective |
 | nov 2026 | 25 cosas que no sabías (Florida real, Florida Man, récords, filtración 2022) | lista / news |
+| 24-nov-2026 | La historia de Vice City: 1997 → 2002 (Tommy, Lance) → VCS 2006 → GTA 6, 5 diferencias | documental cronológico |
 
 ## Ideas pendientes (tachar al usar)
 Shorts: cada personaje en un short (Cal, Boobie, Dre'Quan, Real Dimez, Raúl, Brian, Andrés) · coches icónicos
@@ -36,5 +37,5 @@ el golpe a la joyería · el aeropuerto y el jet · el perro · «¿adivinas qu�
 «el detalle que nadie vio» · caimanes de Grassrivers · Leonida Keys bajo el agua · ascensores y edificios ·
 la redada · la azotea · el discurso · las bolsas de dinero.
 Largos: personajes explicados uno a uno · el mapa de Leonida región por región · guía para empezar (consejos) ·
-los mejores vehículos · todos los golpes/atracos vistos · historia de Vice City 2002→2026 · ranking de personajes ·
+los mejores vehículos · todos los golpes/atracos vistos · ranking de personajes ·
 teorías del final · cosas que hacer en Vice City · comparativa día/noche.

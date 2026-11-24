@@ -63,6 +63,7 @@ export type DScene = {
   evidence?: { n: number; text: string; source: string };
   stamp?: string;
   pin?: [number, number];
+  paper?: string;
 };
 export type DCaption = { t: string; s: number; e: number };
 export type DocProps = {
@@ -591,7 +592,7 @@ const HeadlineView: React.FC<{ sc: DScene; dur: number; idx: number }> = ({ sc, 
       <AbsoluteFill style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
         <div style={{ width: 1280, background: "#f3eee2", color: "#141414", padding: "34px 50px 40px", transform: `translateY(${(1 - sp) * 500}px) rotate(${rot}deg) scale(${0.9 + sp * 0.1})`, boxShadow: "0 30px 80px rgba(0,0,0,0.7)", backgroundImage: "linear-gradient(rgba(0,0,0,0.03) 1px, transparent 1px)", backgroundSize: "100% 6px" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", borderBottom: "5px double #141414", paddingBottom: 8 }}>
-            <div style={{ fontFamily: "Anton", fontSize: 64, letterSpacing: 2 }}>CRÓNICAS DE FLORIDA</div>
+            <div style={{ fontFamily: "Anton", fontSize: 64, letterSpacing: 2 }}>{sc.paper ?? "CRÓNICAS DE FLORIDA"}</div>
             <div style={{ fontFamily: "Grotesk", fontSize: 26, fontWeight: 700 }}>{sc.label ?? ""}</div>
           </div>
           <div style={{ display: "flex", gap: 34, marginTop: 24 }}>
