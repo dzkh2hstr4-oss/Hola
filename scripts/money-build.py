@@ -52,6 +52,23 @@ for i, ln in enumerate(plan["lines"]):
     caps.append({"t": ln["t"], "s": round(s, 2), "e": round(s + L + 0.1, 2)})
     t = e
 total = round(t + (1.2 if not plan.get("vertical") else 0.6), 2); scenes[-1]["e"] = total
+# cortar escenas largas en planos de ~3 s (mismo contenido, otro encuadre)
+MAXS = plan.get("split")
+if MAXS:
+    out = []
+    for sc in scenes:
+        d = sc["e"] - sc["s"]
+        n = max(1, int(round(d / MAXS + 0.25))) if sc.get("kind") != "outro" else 1
+        if n == 1: out.append(sc); continue
+        step = d / n
+        for k in range(n):
+            c = dict(sc); c["s"] = round(sc["s"] + k * step, 2); c["e"] = round(sc["s"] + (k + 1) * step, 2)
+            if k > 0:
+                c["cont"] = k
+                c.pop("mus", None); c.pop("sfx", None)
+                c["sfx"] = [{"f": "wyr/sfx/whoosh.wav" if k % 2 else "wyr/sfx/zap.wav", "at": 0, "v": 0.24}]
+            out.append(c)
+    scenes = out
 p = os.path.join(tmp, "silend.wav"); silence(p, total - prev); pieces.append(p)
 lst = os.path.join(tmp, "list.txt"); open(lst, "w").write("".join(f"file '{x}'\n" for x in pieces))
 subprocess.run(["ffmpeg","-nostdin","-y","-v","error","-f","concat","-safe","0","-i",lst,"-ar","44100","-ac","1",os.path.join(AUD, name + "-voz.wav")], check=True)

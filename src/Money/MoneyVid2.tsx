@@ -35,6 +35,7 @@ export type MScene = {
   sfx?: { f: string; at?: number; v?: number }[];
   track?: string;
   idx?: number;
+  cont?: number;
 };
 export type MCaption = { t: string; s: number; e: number };
 export type MoneyProps = { vertical: boolean; scenes: MScene[]; captions: MCaption[]; voice: string; total: number; brand?: string };
@@ -643,7 +644,8 @@ const SceneView: React.FC<{ sc: MScene }> = ({ sc }) => {
     );
   }
 
-  const fadeIn = interpolate(f, [0, 7], [0, 1], { extrapolateRight: "clamp" });
+  const cont = sc.cont ?? 0;
+  const fadeIn = cont ? 1 : interpolate(f, [0, 7], [0, 1], { extrapolateRight: "clamp" });
   const fadeOut = interpolate(f, [dur - 5, dur], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const mode = (sc.idx ?? 0) % 3;
   const ein = interpolate(f, [0, 9], [1, 0], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
@@ -652,7 +654,7 @@ const SceneView: React.FC<{ sc: MScene }> = ({ sc }) => {
   const BEAT = 72;
   const bk = Math.floor(f / BEAT);
   const bf = f - bk * BEAT;
-  const beatOn = bk >= 1 && dur - bk * BEAT > 20;
+  const beatOn = !cont && bk >= 1 && dur - bk * BEAT > 20;
   const bp = beatOn ? interpolate(bf, [0, 10], [1, 0], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) }) : 0;
   const beatMove = [
     { s: 0.1, r: 0, x: 0, y: 0 },
@@ -661,14 +663,22 @@ const SceneView: React.FC<{ sc: MScene }> = ({ sc }) => {
     { s: 0.12, r: -2, x: 0, y: -30 },
   ][bk % 4];
   const drift = bk >= 1 ? { x: Math.sin(bk * 1.7) * 18, y: Math.cos(bk * 1.3) * 10 } : { x: 0, y: 0 };
-  const sc0 = mode === 0 ? 1 + 0.18 * ein : 1;
+  const frames = [
+    { s: 1.22, x: 140, y: 40, r: -2 },
+    { s: 1.15, x: -150, y: -30, r: 2 },
+    { s: 0.9, x: 0, y: 20, r: 0 },
+    { s: 1.3, x: 0, y: 90, r: -1.5 },
+  ];
+  const fr = cont ? frames[(cont + (sc.idx ?? 0)) % frames.length] : { s: 1, x: 0, y: 0, r: 0 };
+  const cut = cont ? interpolate(f, [0, 8], [1, 0], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) }) : 0;
+  const sc0 = (mode === 0 ? 1 + 0.18 * ein : 1) * (cont ? fr.s * (1 + 0.12 * cut) : 1);
   const tx = mode === 1 ? 160 * u * ein : mode === 2 ? -160 * u * ein : 0;
   const shake = sc.kind === "hook" && f < 12 ? Math.sin(f * 2.3) * (12 - f) * 1.6 * u : 0;
   const revealAt = sc.kind === "stat" ? 45 : sc.kind === "prices" && sc.pick !== undefined ? Math.round(dur * 0.45) : sc.kind === "hook" ? 4 : -999;
   return (
-    <AbsoluteFill style={{ opacity: Math.min(fadeIn, fadeOut), transform: `translate(${tx + shake + (drift.x + beatMove.x * bp) * u}px, ${shake * 0.6 + (drift.y + beatMove.y * bp) * u}px) scale(${push * sc0 * (1 - 0.06 * eout) * (1 + beatMove.s * bp)}) rotate(${beatMove.r * bp}deg)`, filter: `blur(${(ein + eout) * 10 * u}px)` }}>
-      {revealAt > -999 ? <Burst at={revealAt} color={sc.kind === "hook" ? C.yellow : C.green} /> : null}
-      {body}
+    <AbsoluteFill style={{ opacity: Math.min(fadeIn, fadeOut), transform: `translate(${(cont ? 0 : tx) + shake + (drift.x + beatMove.x * bp + fr.x * (1 - 0.3 * cut)) * u}px, ${shake * 0.6 + (drift.y + beatMove.y * bp + fr.y) * u}px) rotate(${fr.r}deg) scale(${push * sc0 * (1 - 0.06 * eout) * (1 + beatMove.s * bp)}) rotate(${beatMove.r * bp}deg)`, filter: `blur(${((cont ? cut : ein) + eout) * 10 * u}px)` }}>
+      {revealAt > -999 && !cont ? <Burst at={revealAt} color={sc.kind === "hook" ? C.yellow : C.green} /> : null}
+      {cont ? <Sequence from={-90} layout="none">{body}</Sequence> : body}
       <Source text={sc.source} />
       {sc.kind === "hook" && f < 6 ? <AbsoluteFill style={{ background: "white", opacity: interpolate(f, [0, 6], [0.7, 0]) }} /> : null}
     </AbsoluteFill>
@@ -746,7 +756,7 @@ export const MoneyVid2: React.FC<MoneyProps> = ({ scenes, captions, voice, total
   const end = sec(total);
   return (
     <AbsoluteFill style={{ background: C.bg1, color: C.text }}>
-      <Background bg={(() => { const t = f / MFPS; let b: string | undefined; for (const sc of scenes) if (sc.s <= t && sc.bg) b = sc.bg; return b; })()} />
+      <Background bg={(() => { const t = f / MFPS; let b: string | undefined; const alts: Record<string, string> = { grid: "dots", dots: "waves", waves: "grid", rays: "stripes", stripes: "rays", neon: "stripes", blueprint: "grid", casino: "rays", paper: "dots" }; let cur: MScene | undefined; for (const sc of scenes) { if (sc.s <= t && sc.bg) b = sc.bg; if (sc.s <= t) cur = sc; } if (cur && cur.cont && cur.cont % 2 === 1) b = alts[b ?? "grid"] ?? "dots"; return b; })()} />
       {scenes.map((sc, i) => (
         <Sequence key={i} from={sec(sc.s)} durationInFrames={Math.max(1, sec(sc.e) - sec(sc.s))}>
           <SceneView sc={{ ...sc, idx: i }} />

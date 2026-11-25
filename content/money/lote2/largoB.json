@@ -2,9 +2,10 @@
  "vertical": false,
  "scenes": [
   {
-   "kind": "hook",
+   "kind": "wheel",
    "title": "CASINOS *DON'T* GAMBLE",
-   "icon": "🎰",
+   "label": "$",
+   "bg": "casino",
    "mus": "track:the_descent@4",
    "s": 0.0,
    "e": 2.7
@@ -14,13 +15,33 @@
    "title": "THE *EXACT* MATH",
    "icon": "🧮",
    "s": 2.7,
+   "e": 4.78
+  },
+  {
+   "kind": "slot",
+   "title": "BUILT TO *WIN*",
+   "symbols": [
+    "🏦",
+    "🏦",
+    "🏦"
+   ],
+   "label": "THE HOUSE ALWAYS WINS",
+   "s": 4.78,
    "e": 6.85
+  },
+  {
+   "kind": "meter",
+   "title": "SCARIEST *PART*",
+   "value": 90,
+   "label": "YOUR BRAIN",
+   "s": 6.85,
+   "e": 9.77
   },
   {
    "kind": "big",
    "title": "WAIT FOR *TRICK #3*",
    "icon": "🧠",
-   "s": 6.85,
+   "s": 9.77,
    "e": 12.69
   },
   {
@@ -31,6 +52,17 @@
    "e": 14.93
   },
   {
+   "kind": "stack",
+   "title": "WON FROM *PLAYERS*",
+   "value": 15.8,
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B",
+   "label": "Nevada · 2025",
+   "s": 14.93,
+   "e": 18.19
+  },
+  {
    "kind": "stat",
    "value": 15.8,
    "decimals": 1,
@@ -39,8 +71,7 @@
    "label": "Nevada gaming revenue · 2025",
    "title": "WON FROM *PLAYERS*",
    "source": "Nevada Gaming Control Board",
-   "hold": 0.7,
-   "s": 14.93,
+   "s": 18.19,
    "e": 21.46
   },
   {
@@ -49,8 +80,34 @@
    "title": "THE HOUSE *EDGE*",
    "track": "PART 1 · THE MATH",
    "mus": "track:crypto@0",
+   "bg": "casino",
    "s": 21.46,
-   "e": 25.22
+   "e": 23.34
+  },
+  {
+   "kind": "chapter",
+   "label": "PART 1",
+   "title": "THE HOUSE *EDGE*",
+   "track": "PART 1 · THE MATH",
+   "bg": "casino",
+   "s": 23.34,
+   "e": 25.22,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "wheel",
+   "title": "38 *POCKETS*",
+   "label": "38",
+   "track": "PART 1 · THE MATH",
+   "s": 25.22,
+   "e": 27.22
   },
   {
    "kind": "stat",
@@ -59,8 +116,7 @@
    "title": "POCKETS",
    "source": "numbers 1–36, plus 0 and 00",
    "track": "PART 1 · THE MATH",
-   "hold": 0.7,
-   "s": 25.22,
+   "s": 27.22,
    "e": 29.21
   },
   {
@@ -74,7 +130,28 @@
    "track": "PART 1 · THE MATH",
    "hold": 0.7,
    "s": 29.21,
-   "e": 33.06
+   "e": 31.14
+  },
+  {
+   "kind": "prices",
+   "items": [
+    {
+     "label": "They pay",
+     "price": "35 : 1"
+    }
+   ],
+   "track": "PART 1 · THE MATH",
+   "hold": 0.7,
+   "s": 31.14,
+   "e": 33.06,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "prices",
@@ -92,7 +169,33 @@
    "track": "PART 1 · THE MATH",
    "hold": 0.7,
    "s": 33.06,
-   "e": 37.25
+   "e": 35.16
+  },
+  {
+   "kind": "prices",
+   "items": [
+    {
+     "label": "They pay",
+     "price": "35 : 1"
+    },
+    {
+     "label": "Fair payout",
+     "price": "37 : 1"
+    }
+   ],
+   "pick": 0,
+   "track": "PART 1 · THE MATH",
+   "hold": 0.7,
+   "s": 35.16,
+   "e": 37.25,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "stat",
@@ -102,8 +205,17 @@
    "label": "American roulette",
    "title": "HOUSE *EDGE*",
    "track": "PART 1 · THE MATH",
-   "hold": 0.7,
    "s": 37.25,
+   "e": 39.8
+  },
+  {
+   "kind": "pie",
+   "title": "THE HOUSE *EDGE*",
+   "value": 5.26,
+   "decimals": 2,
+   "label": "kept by the casino",
+   "track": "PART 1 · THE MATH",
+   "s": 39.8,
    "e": 42.35
   },
   {
@@ -122,9 +234,65 @@
    ],
    "total": "$100.00",
    "track": "PART 1 · THE MATH",
-   "hold": 0.7,
    "s": 42.35,
-   "e": 50.14
+   "e": 44.3
+  },
+  {
+   "kind": "receipt",
+   "title": "EVERY $100 BET",
+   "items": [
+    {
+     "label": "Back to players (avg)",
+     "price": "$94.74"
+    },
+    {
+     "label": "Kept by casino",
+     "price": "$5.26",
+     "tag": "bad"
+    }
+   ],
+   "total": "$100.00",
+   "track": "PART 1 · THE MATH",
+   "s": 44.3,
+   "e": 46.25,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "stack",
+   "title": "KEPT BY THE *CASINO*",
+   "value": 5.26,
+   "decimals": 2,
+   "prefix": "$",
+   "label": "per $100 bet, on average",
+   "track": "PART 1 · THE MATH",
+   "s": 46.25,
+   "e": 48.2
+  },
+  {
+   "kind": "stack",
+   "title": "KEPT BY THE *CASINO*",
+   "value": 5.26,
+   "decimals": 2,
+   "prefix": "$",
+   "label": "per $100 bet, on average",
+   "track": "PART 1 · THE MATH",
+   "s": 48.2,
+   "e": 50.14,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
@@ -135,11 +303,49 @@
    "e": 52.94
   },
   {
+   "kind": "line",
+   "title": "EVERY BET *EATS* MORE",
+   "points": [
+    100,
+    94.7,
+    89.7,
+    85,
+    80.5,
+    76.3
+   ],
+   "prefix": "$",
+   "decimals": 0,
+   "items": [
+    {
+     "label": "start"
+    },
+    {
+     "label": "1"
+    },
+    {
+     "label": "2"
+    },
+    {
+     "label": "3"
+    },
+    {
+     "label": "4"
+    },
+    {
+     "label": "5 rounds"
+    }
+   ],
+   "label": "$100 re-bet again and again (average)",
+   "track": "PART 1 · THE MATH",
+   "s": 52.94,
+   "e": 56.29
+  },
+  {
    "kind": "big",
    "title": "EVERY *SINGLE* BET",
    "icon": "🔁",
    "track": "PART 1 · THE MATH",
-   "s": 52.94,
+   "s": 56.29,
    "e": 59.64
   },
   {
@@ -178,9 +384,115 @@
    "pick": 3,
    "source": "Typical published house edges; rules vary",
    "track": "PART 1 · THE MATH",
-   "hold": 0.7,
    "s": 62.66,
-   "e": 75.08
+   "e": 65.77
+  },
+  {
+   "kind": "bars",
+   "title": "HOUSE EDGE BY *GAME*",
+   "items": [
+    {
+     "label": "Blackjack (perfect strategy)",
+     "value": 0.5,
+     "display": "≈0.5%"
+    },
+    {
+     "label": "European roulette",
+     "value": 2.7,
+     "display": "2.7%"
+    },
+    {
+     "label": "American roulette",
+     "value": 5.26,
+     "display": "5.26%"
+    },
+    {
+     "label": "Keno",
+     "value": 25,
+     "display": "25%+"
+    }
+   ],
+   "pick": 3,
+   "source": "Typical published house edges; rules vary",
+   "track": "PART 1 · THE MATH",
+   "s": 65.77,
+   "e": 68.87,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "meter",
+   "title": "KENO *EDGE*",
+   "value": 92,
+   "label": "25%+ KEPT",
+   "track": "PART 1 · THE MATH",
+   "s": 68.87,
+   "e": 71.97
+  },
+  {
+   "kind": "meter",
+   "title": "KENO *EDGE*",
+   "value": 92,
+   "label": "25%+ KEPT",
+   "track": "PART 1 · THE MATH",
+   "s": 71.97,
+   "e": 75.08,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "compare",
+   "title": "WHICH *WHEEL?*",
+   "items": [
+    {
+     "label": "0 and 00 · 5.26%",
+     "tag": "bad"
+    },
+    {
+     "label": "Single 0 · 2.70%",
+     "tag": "good"
+    }
+   ],
+   "track": "PART 1 · THE MATH",
+   "s": 75.08,
+   "e": 77.36
+  },
+  {
+   "kind": "compare",
+   "title": "WHICH *WHEEL?*",
+   "items": [
+    {
+     "label": "0 and 00 · 5.26%",
+     "tag": "bad"
+    },
+    {
+     "label": "Single 0 · 2.70%",
+     "tag": "good"
+    }
+   ],
+   "track": "PART 1 · THE MATH",
+   "s": 77.36,
+   "e": 79.64,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "prices",
@@ -196,10 +508,35 @@
     }
    ],
    "pick": 1,
-   "hold": 0.7,
    "track": "PART 1 · THE MATH",
-   "s": 75.08,
-   "e": 84.21
+   "s": 79.64,
+   "e": 81.92
+  },
+  {
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Double zero wheel",
+     "price": "5.26%"
+    },
+    {
+     "label": "Single zero wheel",
+     "price": "2.70%",
+     "tag": "half the edge"
+    }
+   ],
+   "pick": 1,
+   "track": "PART 1 · THE MATH",
+   "s": 81.92,
+   "e": 84.21,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
@@ -207,7 +544,65 @@
    "icon": "🃏",
    "track": "PART 1 · THE MATH",
    "s": 84.21,
-   "e": 91.82
+   "e": 86.11
+  },
+  {
+   "kind": "big",
+   "title": "GUT FEELING *COSTS MONEY*",
+   "icon": "🃏",
+   "track": "PART 1 · THE MATH",
+   "s": 86.11,
+   "e": 88.01,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "compare",
+   "title": "BLACKJACK",
+   "items": [
+    {
+     "label": "Gut feeling",
+     "tag": "bad"
+    },
+    {
+     "label": "Perfect basic strategy",
+     "tag": "good"
+    }
+   ],
+   "track": "PART 1 · THE MATH",
+   "s": 88.01,
+   "e": 89.91
+  },
+  {
+   "kind": "compare",
+   "title": "BLACKJACK",
+   "items": [
+    {
+     "label": "Gut feeling",
+     "tag": "bad"
+    },
+    {
+     "label": "Perfect basic strategy",
+     "tag": "good"
+    }
+   ],
+   "track": "PART 1 · THE MATH",
+   "s": 89.91,
+   "e": 91.82,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
@@ -215,15 +610,111 @@
    "icon": "🏦",
    "track": "PART 1 · THE MATH",
    "s": 91.82,
-   "e": 95.6
+   "e": 93.71
+  },
+  {
+   "kind": "big",
+   "title": "EDGE × *MILLIONS*",
+   "icon": "🏦",
+   "track": "PART 1 · THE MATH",
+   "s": 93.71,
+   "e": 95.6,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
    "title": "THE *DOUBLING* STRATEGY",
-   "icon": "✖️2️⃣",
+   "icon": "✖️",
+   "sub": "the Martingale",
    "track": "PART 1 · THE MATH",
+   "bg": "blueprint",
    "s": 95.6,
-   "e": 103.46
+   "e": 97.56
+  },
+  {
+   "kind": "big",
+   "title": "THE *DOUBLING* STRATEGY",
+   "icon": "✖️",
+   "sub": "the Martingale",
+   "track": "PART 1 · THE MATH",
+   "bg": "blueprint",
+   "s": 97.56,
+   "e": 99.53,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "timeline",
+   "title": "DOUBLE AFTER *EVERY LOSS*",
+   "items": [
+    {
+     "label": "$10",
+     "display": "lose"
+    },
+    {
+     "label": "$20",
+     "display": "lose"
+    },
+    {
+     "label": "$40",
+     "display": "lose"
+    },
+    {
+     "label": "$80",
+     "display": "…"
+    }
+   ],
+   "track": "PART 1 · THE MATH",
+   "bg": "blueprint",
+   "s": 99.53,
+   "e": 101.5
+  },
+  {
+   "kind": "timeline",
+   "title": "DOUBLE AFTER *EVERY LOSS*",
+   "items": [
+    {
+     "label": "$10",
+     "display": "lose"
+    },
+    {
+     "label": "$20",
+     "display": "lose"
+    },
+    {
+     "label": "$40",
+     "display": "lose"
+    },
+    {
+     "label": "$80",
+     "display": "…"
+    }
+   ],
+   "track": "PART 1 · THE MATH",
+   "bg": "blueprint",
+   "s": 101.5,
+   "e": 103.46,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "bars",
@@ -252,9 +743,142 @@
    ],
    "pick": 3,
    "track": "PART 1 · THE MATH",
-   "hold": 0.7,
    "s": 103.46,
-   "e": 113.92
+   "e": 106.07
+  },
+  {
+   "kind": "bars",
+   "title": "AFTER 7 *LOSSES*",
+   "items": [
+    {
+     "label": "Bet 1",
+     "value": 10,
+     "display": "$10"
+    },
+    {
+     "label": "Bet 4",
+     "value": 80,
+     "display": "$80"
+    },
+    {
+     "label": "Bet 6",
+     "value": 320,
+     "display": "$320"
+    },
+    {
+     "label": "Bet 8",
+     "value": 1280,
+     "display": "$1,280"
+    }
+   ],
+   "pick": 3,
+   "track": "PART 1 · THE MATH",
+   "s": 106.07,
+   "e": 108.69,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "line",
+   "title": "BETS *EXPLODE*",
+   "points": [
+    10,
+    20,
+    40,
+    80,
+    160,
+    320,
+    640,
+    1280
+   ],
+   "prefix": "$",
+   "items": [
+    {
+     "label": "1"
+    },
+    {
+     "label": "2"
+    },
+    {
+     "label": "3"
+    },
+    {
+     "label": "4"
+    },
+    {
+     "label": "5"
+    },
+    {
+     "label": "6"
+    },
+    {
+     "label": "7"
+    },
+    {
+     "label": "8"
+    }
+   ],
+   "track": "PART 1 · THE MATH",
+   "s": 108.69,
+   "e": 111.31
+  },
+  {
+   "kind": "line",
+   "title": "BETS *EXPLODE*",
+   "points": [
+    10,
+    20,
+    40,
+    80,
+    160,
+    320,
+    640,
+    1280
+   ],
+   "prefix": "$",
+   "items": [
+    {
+     "label": "1"
+    },
+    {
+     "label": "2"
+    },
+    {
+     "label": "3"
+    },
+    {
+     "label": "4"
+    },
+    {
+     "label": "5"
+    },
+    {
+     "label": "6"
+    },
+    {
+     "label": "7"
+    },
+    {
+     "label": "8"
+    }
+   ],
+   "track": "PART 1 · THE MATH",
+   "s": 111.31,
+   "e": 113.92,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "stat",
@@ -263,25 +887,186 @@
    "label": "Lost after 7 losses in a row",
    "title": "TO WIN *$10*",
    "track": "PART 1 · THE MATH",
-   "hold": 0.7,
    "s": 113.92,
-   "e": 123.86
+   "e": 116.41
+  },
+  {
+   "kind": "stat",
+   "value": 1270,
+   "prefix": "$",
+   "label": "Lost after 7 losses in a row",
+   "title": "TO WIN *$10*",
+   "track": "PART 1 · THE MATH",
+   "s": 116.41,
+   "e": 118.89,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "stack",
+   "title": "TO WIN *$10*",
+   "value": 1270,
+   "prefix": "$",
+   "label": "lost after 7 losses in a row",
+   "track": "PART 1 · THE MATH",
+   "s": 118.89,
+   "e": 121.38
+  },
+  {
+   "kind": "stack",
+   "title": "TO WIN *$10*",
+   "value": 1270,
+   "prefix": "$",
+   "label": "lost after 7 losses in a row",
+   "track": "PART 1 · THE MATH",
+   "s": 121.38,
+   "e": 123.86,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "people",
+   "title": "7 LOSSES *IN A ROW*",
+   "value": 7,
+   "points": [
+    7
+   ],
+   "icon": "❌",
+   "track": "PART 1 · THE MATH",
+   "s": 123.86,
+   "e": 125.87
+  },
+  {
+   "kind": "people",
+   "title": "7 LOSSES *IN A ROW*",
+   "value": 7,
+   "points": [
+    7
+   ],
+   "icon": "❌",
+   "track": "PART 1 · THE MATH",
+   "s": 125.87,
+   "e": 127.88,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
    "title": "REMEMBER *THIS*",
    "icon": "👀",
    "track": "PART 1 · THE MATH",
-   "s": 123.86,
-   "e": 131.9
+   "s": 127.88,
+   "e": 129.89
+  },
+  {
+   "kind": "big",
+   "title": "REMEMBER *THIS*",
+   "icon": "👀",
+   "track": "PART 1 · THE MATH",
+   "s": 129.89,
+   "e": 131.9,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
    "title": "SOMEONE *BEAT THEM*",
    "icon": "🤓",
    "track": "PART 1 · THE MATH",
+   "bg": "grid",
    "s": 131.9,
-   "e": 137.89
+   "e": 134.89
+  },
+  {
+   "kind": "big",
+   "title": "SOMEONE *BEAT THEM*",
+   "icon": "🤓",
+   "track": "PART 1 · THE MATH",
+   "bg": "grid",
+   "s": 134.89,
+   "e": 137.89,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "timeline",
+   "title": "BEAT THE *DEALER*",
+   "items": [
+    {
+     "label": "1962",
+     "display": "Thorp's book"
+    },
+    {
+     "label": "1980s–90s",
+     "display": "MIT Blackjack Team"
+    },
+    {
+     "label": "Today",
+     "display": "more decks, bans"
+    }
+   ],
+   "track": "PART 1 · THE MATH",
+   "s": 137.89,
+   "e": 140.01
+  },
+  {
+   "kind": "timeline",
+   "title": "BEAT THE *DEALER*",
+   "items": [
+    {
+     "label": "1962",
+     "display": "Thorp's book"
+    },
+    {
+     "label": "1980s–90s",
+     "display": "MIT Blackjack Team"
+    },
+    {
+     "label": "Today",
+     "display": "more decks, bans"
+    }
+   ],
+   "track": "PART 1 · THE MATH",
+   "s": 140.01,
+   "e": 142.13,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
@@ -289,8 +1074,25 @@
    "sub": "Edward Thorp, 1962",
    "icon": "🃏",
    "track": "PART 1 · THE MATH",
-   "s": 137.89,
-   "e": 146.38
+   "s": 142.13,
+   "e": 144.25
+  },
+  {
+   "kind": "big",
+   "title": "\"BEAT THE *DEALER*\"",
+   "sub": "Edward Thorp, 1962",
+   "icon": "🃏",
+   "track": "PART 1 · THE MATH",
+   "s": 144.25,
+   "e": 146.38,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "list",
@@ -307,9 +1109,76 @@
     }
    ],
    "track": "PART 1 · THE MATH",
-   "hold": 0.7,
    "s": 146.38,
-   "e": 156.86
+   "e": 149.0
+  },
+  {
+   "kind": "list",
+   "title": "HOW CASINOS *FOUGHT BACK*",
+   "items": [
+    {
+     "label": "More decks in the shoe"
+    },
+    {
+     "label": "Frequent shuffling"
+    },
+    {
+     "label": "Banning card counters"
+    }
+   ],
+   "track": "PART 1 · THE MATH",
+   "s": 149.0,
+   "e": 151.62,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "phone",
+   "title": "BANNED",
+   "items": [
+    {
+     "label": "Security: please leave the table",
+     "tag": "🚫"
+    },
+    {
+     "label": "You're no longer welcome to play blackjack",
+     "tag": "🃏"
+    }
+   ],
+   "track": "PART 1 · THE MATH",
+   "s": 151.62,
+   "e": 154.24
+  },
+  {
+   "kind": "phone",
+   "title": "BANNED",
+   "items": [
+    {
+     "label": "Security: please leave the table",
+     "tag": "🚫"
+    },
+    {
+     "label": "You're no longer welcome to play blackjack",
+     "tag": "🃏"
+    }
+   ],
+   "track": "PART 1 · THE MATH",
+   "s": 154.24,
+   "e": 156.86,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
@@ -325,8 +1194,43 @@
    "title": "THE MIND *GAMES*",
    "track": "PART 2 · YOUR BRAIN",
    "mus": "track:darkest_child@0",
+   "bg": "neon",
    "s": 160.35,
-   "e": 167.19
+   "e": 162.63
+  },
+  {
+   "kind": "chapter",
+   "label": "PART 2",
+   "title": "THE MIND *GAMES*",
+   "track": "PART 2 · YOUR BRAIN",
+   "bg": "neon",
+   "s": 162.63,
+   "e": 164.91,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "chapter",
+   "label": "PART 2",
+   "title": "THE MIND *GAMES*",
+   "track": "PART 2 · YOUR BRAIN",
+   "bg": "neon",
+   "s": 164.91,
+   "e": 167.19,
+   "cont": 2,
+   "sfx": [
+    {
+     "f": "wyr/sfx/zap.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
@@ -335,14 +1239,78 @@
    "icon": "🐦",
    "track": "PART 2 · YOUR BRAIN",
    "s": 167.19,
-   "e": 177.67
+   "e": 169.81
+  },
+  {
+   "kind": "big",
+   "title": "RANDOM REWARDS *HOOK YOU*",
+   "sub": "B. F. Skinner",
+   "icon": "🐦",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 169.81,
+   "e": 172.43,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "people",
+   "title": "RANDOM *REWARDS*",
+   "value": 3,
+   "points": [
+    10
+   ],
+   "icon": "🎁",
+   "label": "you never know which one pays",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 172.43,
+   "e": 175.05
+  },
+  {
+   "kind": "people",
+   "title": "RANDOM *REWARDS*",
+   "value": 3,
+   "points": [
+    10
+   ],
+   "icon": "🎁",
+   "label": "you never know which one pays",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 175.05,
+   "e": 177.67,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "slot",
+   "title": "YOU ARE *THE PIGEON*",
+   "symbols": [
+    "🐦",
+    "🍒",
+    "🐦"
+   ],
+   "label": "RANDOM REWARDS",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 177.67,
+   "e": 181.26
   },
   {
    "kind": "big",
    "title": "YOU ARE *THE PIGEON*",
    "icon": "🎰",
    "track": "PART 2 · YOUR BRAIN",
-   "s": 177.67,
+   "s": 181.26,
    "e": 184.86
   },
   {
@@ -367,8 +1335,17 @@
    ],
    "pick": 1,
    "track": "PART 2 · YOUR BRAIN",
-   "hold": 0.7,
    "s": 186.5,
+   "e": 189.02
+  },
+  {
+   "kind": "stack",
+   "title": "FEELS LIKE A TOY, BUT…",
+   "value": 100,
+   "prefix": "$",
+   "label": "one chip can be worth this",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 189.02,
    "e": 191.54
   },
   {
@@ -380,13 +1357,38 @@
    "e": 193.39
   },
   {
-   "kind": "big",
+   "kind": "slot",
    "title": "SO *CLOSE!*",
-   "sub": "7  7  🍒",
-   "icon": "😩",
+   "symbols": [
+    "7",
+    "7",
+    "🍒"
+   ],
+   "label": "ONE AWAY FROM THE JACKPOT",
    "track": "PART 2 · YOUR BRAIN",
    "s": 193.39,
-   "e": 197.24
+   "e": 195.31
+  },
+  {
+   "kind": "slot",
+   "title": "SO *CLOSE!*",
+   "symbols": [
+    "7",
+    "7",
+    "🍒"
+   ],
+   "label": "ONE AWAY FROM THE JACKPOT",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 195.31,
+   "e": 197.24,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
@@ -395,7 +1397,50 @@
    "icon": "🧠",
    "track": "PART 2 · YOUR BRAIN",
    "s": 197.24,
-   "e": 205.0
+   "e": 199.18
+  },
+  {
+   "kind": "big",
+   "title": "IT FEELS LIKE *WINNING*",
+   "sub": "Clark et al., Neuron, 2009",
+   "icon": "🧠",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 199.18,
+   "e": 201.12,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "meter",
+   "title": "BRAIN *REWARD*",
+   "value": 78,
+   "label": "LIKE A REAL WIN",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 201.12,
+   "e": 203.06
+  },
+  {
+   "kind": "meter",
+   "title": "BRAIN *REWARD*",
+   "value": 78,
+   "label": "LIKE A REAL WIN",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 203.06,
+   "e": 205.0,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
@@ -410,8 +1455,43 @@
    "label": "TRICK #3",
    "title": "LOSSES DISGUISED AS *WINS*",
    "track": "PART 2 · YOUR BRAIN",
+   "bg": "neon",
    "s": 207.67,
    "e": 210.13
+  },
+  {
+   "kind": "slot",
+   "title": "\"WINNER!\"",
+   "symbols": [
+    "🍒",
+    "🍋",
+    "🍒"
+   ],
+   "label": "YOU WON $0.50",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 210.13,
+   "e": 212.08
+  },
+  {
+   "kind": "slot",
+   "title": "\"WINNER!\"",
+   "symbols": [
+    "🍒",
+    "🍋",
+    "🍒"
+   ],
+   "label": "YOU WON $0.50",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 212.08,
+   "e": 214.03,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "receipt",
@@ -429,9 +1509,35 @@
    "total": "-$0.50",
    "source": "Dixon et al., 2010",
    "track": "PART 2 · YOUR BRAIN",
-   "hold": 0.7,
-   "s": 210.13,
-   "e": 217.94
+   "s": 214.03,
+   "e": 215.99
+  },
+  {
+   "kind": "receipt",
+   "title": "SLOT MACHINE",
+   "items": [
+    {
+     "label": "Your bet",
+     "price": "$1.00"
+    },
+    {
+     "label": "\"WIN!\" 🎉",
+     "price": "$0.50"
+    }
+   ],
+   "total": "-$0.50",
+   "source": "Dixon et al., 2010",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 215.99,
+   "e": 217.94,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
@@ -447,7 +1553,49 @@
    "icon": "🕰️",
    "track": "PART 2 · YOUR BRAIN",
    "s": 221.32,
-   "e": 228.94
+   "e": 223.22
+  },
+  {
+   "kind": "big",
+   "title": "TRICK 4 · NO *TIME*",
+   "icon": "🕰️",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 223.22,
+   "e": 225.13,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "big",
+   "title": "NO *CLOCKS*",
+   "icon": "🕰️",
+   "sub": "3 PM looks like 3 AM",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 225.13,
+   "e": 227.03
+  },
+  {
+   "kind": "big",
+   "title": "NO *CLOCKS*",
+   "icon": "🕰️",
+   "sub": "3 PM looks like 3 AM",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 227.03,
+   "e": 228.94,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
@@ -455,7 +1603,73 @@
    "icon": "🍸",
    "track": "PART 2 · YOUR BRAIN",
    "s": 228.94,
-   "e": 236.89
+   "e": 230.93
+  },
+  {
+   "kind": "big",
+   "title": "TRICK 5 · *FREE* STUFF",
+   "icon": "🍸",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 230.93,
+   "e": 232.91,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "phone",
+   "title": "\"FREE\" *COMPS*",
+   "items": [
+    {
+     "label": "Enjoy a FREE room tonight!",
+     "tag": "🏨"
+    },
+    {
+     "label": "Free drinks for our VIP",
+     "tag": "🍸"
+    },
+    {
+     "label": "Show tickets on us",
+     "tag": "🎟️"
+    }
+   ],
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 232.91,
+   "e": 234.9
+  },
+  {
+   "kind": "phone",
+   "title": "\"FREE\" *COMPS*",
+   "items": [
+    {
+     "label": "Enjoy a FREE room tonight!",
+     "tag": "🏨"
+    },
+    {
+     "label": "Free drinks for our VIP",
+     "tag": "🍸"
+    },
+    {
+     "label": "Show tickets on us",
+     "tag": "🎟️"
+    }
+   ],
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 234.9,
+   "e": 236.89,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
@@ -464,7 +1678,92 @@
    "icon": "🪪",
    "track": "PART 2 · YOUR BRAIN",
    "s": 236.89,
-   "e": 247.2
+   "e": 239.46
+  },
+  {
+   "kind": "big",
+   "title": "TRICK 6 · *LOYALTY CARDS*",
+   "sub": "they track every bet",
+   "icon": "🪪",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 239.46,
+   "e": 242.04,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "meter",
+   "title": "WHAT THEY *TRACK*",
+   "value": 100,
+   "label": "EVERY BET",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 242.04,
+   "e": 244.62
+  },
+  {
+   "kind": "meter",
+   "title": "WHAT THEY *TRACK*",
+   "value": 100,
+   "label": "EVERY BET",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 244.62,
+   "e": 247.2,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "phone",
+   "title": "\"FREE\" *$100*",
+   "items": [
+    {
+     "label": "🎁 $100 FREE BET waiting for you!",
+     "tag": "📲"
+    },
+    {
+     "label": "Bet $1,000 to unlock withdrawal",
+     "tag": "⚠️"
+    }
+   ],
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 247.2,
+   "e": 249.59
+  },
+  {
+   "kind": "phone",
+   "title": "\"FREE\" *$100*",
+   "items": [
+    {
+     "label": "🎁 $100 FREE BET waiting for you!",
+     "tag": "📲"
+    },
+    {
+     "label": "Bet $1,000 to unlock withdrawal",
+     "tag": "⚠️"
+    }
+   ],
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 249.59,
+   "e": 251.98,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "receipt",
@@ -482,9 +1781,35 @@
    ],
    "total": "NOT FREE",
    "track": "PART 2 · YOUR BRAIN",
-   "hold": 0.7,
-   "s": 247.2,
-   "e": 256.76
+   "s": 251.98,
+   "e": 254.37
+  },
+  {
+   "kind": "receipt",
+   "title": "\"FREE\" $100 BONUS",
+   "items": [
+    {
+     "label": "Bonus received",
+     "price": "$100"
+    },
+    {
+     "label": "Must bet before withdrawing",
+     "price": "$1,000+",
+     "tag": "bad"
+    }
+   ],
+   "total": "NOT FREE",
+   "track": "PART 2 · YOUR BRAIN",
+   "s": 254.37,
+   "e": 256.76,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
@@ -499,17 +1824,60 @@
    "label": "PART 3",
    "title": "MONTE CARLO, *1913*",
    "track": "PART 3 · THE FALLACY",
+   "bg": "rays",
    "mus": "track:echoes_of_time@20",
    "s": 260.1,
+   "e": 262.64
+  },
+  {
+   "kind": "timeline",
+   "title": "MONTE CARLO, *1913*",
+   "items": [
+    {
+     "label": "Spin 1",
+     "display": "black"
+    },
+    {
+     "label": "Spin 10",
+     "display": "black"
+    },
+    {
+     "label": "Spin 20",
+     "display": "black"
+    },
+    {
+     "label": "Spin 26",
+     "display": "black"
+    }
+   ],
+   "track": "PART 3 · THE FALLACY",
+   "bg": "rays",
+   "s": 262.64,
    "e": 265.18
   },
   {
-   "kind": "big",
-   "title": "BLACK",
-   "icon": "⚫",
+   "kind": "wheel",
+   "title": "*BLACK*",
+   "label": "⚫",
    "track": "PART 3 · THE FALLACY",
    "s": 265.18,
-   "e": 270.29
+   "e": 267.74
+  },
+  {
+   "kind": "wheel",
+   "title": "*BLACK*",
+   "label": "⚫",
+   "track": "PART 3 · THE FALLACY",
+   "s": 267.74,
+   "e": 270.29,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "bars",
@@ -543,11 +1911,19 @@
    "e": 273.77
   },
   {
+   "kind": "wheel",
+   "title": "\"RED IS *DUE!*\"",
+   "label": "🔴",
+   "track": "PART 3 · THE FALLACY",
+   "s": 273.77,
+   "e": 276.55
+  },
+  {
    "kind": "big",
    "title": "\"RED IS *DUE!*\"",
    "icon": "🔴",
    "track": "PART 3 · THE FALLACY",
-   "s": 273.77,
+   "s": 276.55,
    "e": 279.34
   },
   {
@@ -556,8 +1932,19 @@
    "label": "Monte Carlo, 1913",
    "title": "BLACKS *IN A ROW*",
    "track": "PART 3 · THE FALLACY",
-   "hold": 0.7,
    "s": 279.34,
+   "e": 282.16
+  },
+  {
+   "kind": "people",
+   "title": "26 BLACKS *IN A ROW*",
+   "value": 26,
+   "points": [
+    26
+   ],
+   "icon": "⚫",
+   "track": "PART 3 · THE FALLACY",
+   "s": 282.16,
    "e": 284.97
   },
   {
@@ -567,6 +1954,16 @@
    "icon": "💥",
    "track": "PART 3 · THE FALLACY",
    "s": 284.97,
+   "e": 288.68
+  },
+  {
+   "kind": "stack",
+   "title": "IMAGINE *26 LOSSES*",
+   "value": 671088640,
+   "prefix": "$",
+   "label": "the 27th bet, starting at $10",
+   "track": "PART 3 · THE FALLACY",
+   "s": 288.68,
    "e": 292.39
   },
   {
@@ -575,6 +1972,14 @@
    "icon": "🧠",
    "track": "PART 3 · THE FALLACY",
    "s": 292.39,
+   "e": 295.4
+  },
+  {
+   "kind": "wheel",
+   "title": "NO *MEMORY*",
+   "label": "50/50*",
+   "track": "PART 3 · THE FALLACY",
+   "s": 295.4,
    "e": 298.41
   },
   {
@@ -594,16 +1999,140 @@
    "track": "PART 3 · THE FALLACY",
    "hold": 0.7,
    "s": 298.41,
-   "e": 306.35
+   "e": 301.06
+  },
+  {
+   "kind": "list",
+   "title": "STILL *EVERYWHERE*",
+   "items": [
+    {
+     "label": "\"This stock is due to bounce\""
+    },
+    {
+     "label": "\"Crypto can't fall again\""
+    },
+    {
+     "label": "\"My team is due a win\""
+    }
+   ],
+   "track": "PART 3 · THE FALLACY",
+   "hold": 0.7,
+   "s": 301.06,
+   "e": 303.7,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "list",
+   "title": "STILL *EVERYWHERE*",
+   "items": [
+    {
+     "label": "\"This stock is due to bounce\""
+    },
+    {
+     "label": "\"Crypto can't fall again\""
+    },
+    {
+     "label": "\"My team is due a win\""
+    }
+   ],
+   "track": "PART 3 · THE FALLACY",
+   "hold": 0.7,
+   "s": 303.7,
+   "e": 306.35,
+   "cont": 2,
+   "sfx": [
+    {
+     "f": "wyr/sfx/zap.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "chapter",
    "label": "BONUS",
    "title": "THE CASINO IN *YOUR POCKET*",
    "track": "BONUS · SPORTS BETS",
+   "bg": "stripes",
    "mus": "track:mistake_the_getaway@0",
    "s": 306.35,
-   "e": 315.89
+   "e": 308.74
+  },
+  {
+   "kind": "chapter",
+   "label": "BONUS",
+   "title": "THE CASINO IN *YOUR POCKET*",
+   "track": "BONUS · SPORTS BETS",
+   "bg": "stripes",
+   "s": 308.74,
+   "e": 311.12,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "phone",
+   "title": "THE CASINO IN *YOUR POCKET*",
+   "items": [
+    {
+     "label": "Boost! Parlay odds +1200",
+     "tag": "🏈"
+    },
+    {
+     "label": "Your bet is live 🔴",
+     "tag": "📲"
+    },
+    {
+     "label": "Deposit match ends tonight",
+     "tag": "⏰"
+    }
+   ],
+   "track": "BONUS · SPORTS BETS",
+   "bg": "stripes",
+   "s": 311.12,
+   "e": 313.5
+  },
+  {
+   "kind": "phone",
+   "title": "THE CASINO IN *YOUR POCKET*",
+   "items": [
+    {
+     "label": "Boost! Parlay odds +1200",
+     "tag": "🏈"
+    },
+    {
+     "label": "Your bet is live 🔴",
+     "tag": "📲"
+    },
+    {
+     "label": "Deposit match ends tonight",
+     "tag": "⏰"
+    }
+   ],
+   "track": "BONUS · SPORTS BETS",
+   "bg": "stripes",
+   "s": 313.5,
+   "e": 315.89,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "receipt",
@@ -625,9 +2154,67 @@
    ],
    "total": "+$10",
    "track": "BONUS · SPORTS BETS",
-   "hold": 0.7,
    "s": 315.89,
-   "e": 324.84
+   "e": 318.12
+  },
+  {
+   "kind": "receipt",
+   "title": "BOTH SIDES BET $110",
+   "items": [
+    {
+     "label": "Total collected",
+     "price": "$220"
+    },
+    {
+     "label": "Paid to the winner",
+     "price": "$210"
+    },
+    {
+     "label": "Book keeps",
+     "price": "$10",
+     "tag": "bad"
+    }
+   ],
+   "total": "+$10",
+   "track": "BONUS · SPORTS BETS",
+   "s": 318.12,
+   "e": 320.36,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "pie",
+   "title": "BOOK *ALWAYS* EARNS",
+   "value": 4.55,
+   "decimals": 2,
+   "label": "of all money bet ($10 of $220)",
+   "track": "BONUS · SPORTS BETS",
+   "s": 320.36,
+   "e": 322.6
+  },
+  {
+   "kind": "pie",
+   "title": "BOOK *ALWAYS* EARNS",
+   "value": 4.55,
+   "decimals": 2,
+   "label": "of all money bet ($10 of $220)",
+   "track": "BONUS · SPORTS BETS",
+   "s": 322.6,
+   "e": 324.84,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
@@ -636,7 +2223,51 @@
    "icon": "🎯",
    "track": "BONUS · SPORTS BETS",
    "s": 324.84,
+   "e": 327.7
+  },
+  {
+   "kind": "people",
+   "title": "4 BETS IN *1*",
+   "value": 4,
+   "points": [
+    4
+   ],
+   "icon": "🎯",
+   "track": "BONUS · SPORTS BETS",
+   "s": 327.7,
    "e": 330.56
+  },
+  {
+   "kind": "people",
+   "title": "1 IN *16*",
+   "value": 1,
+   "points": [
+    16
+   ],
+   "icon": "🏆",
+   "track": "BONUS · SPORTS BETS",
+   "s": 330.56,
+   "e": 332.49
+  },
+  {
+   "kind": "people",
+   "title": "1 IN *16*",
+   "value": 1,
+   "points": [
+    16
+   ],
+   "icon": "🏆",
+   "track": "BONUS · SPORTS BETS",
+   "s": 332.49,
+   "e": 334.41,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "prices",
@@ -651,9 +2282,32 @@
     }
    ],
    "track": "BONUS · SPORTS BETS",
-   "hold": 0.7,
-   "s": 330.56,
-   "e": 338.26
+   "s": 334.41,
+   "e": 336.34
+  },
+  {
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Chance",
+     "price": "1 in 16"
+    },
+    {
+     "label": "Fair payout",
+     "price": "15 : 1"
+    }
+   ],
+   "track": "BONUS · SPORTS BETS",
+   "s": 336.34,
+   "e": 338.26,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "prices",
@@ -670,8 +2324,16 @@
    ],
    "pick": 1,
    "track": "BONUS · SPORTS BETS",
-   "hold": 0.7,
    "s": 338.26,
+   "e": 341.92
+  },
+  {
+   "kind": "meter",
+   "title": "PARLAY *EDGE*",
+   "value": 80,
+   "label": "MORE LEGS = BIGGER EDGE",
+   "track": "BONUS · SPORTS BETS",
+   "s": 341.92,
    "e": 345.58
   },
   {
@@ -680,7 +2342,47 @@
    "icon": "📱",
    "track": "BONUS · SPORTS BETS",
    "s": 345.58,
-   "e": 350.76
+   "e": 348.17
+  },
+  {
+   "kind": "big",
+   "title": "BIG DREAM, *BIGGER EDGE*",
+   "icon": "📱",
+   "track": "BONUS · SPORTS BETS",
+   "s": 348.17,
+   "e": 350.76,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "wheel",
+   "title": "100 *SPINS*",
+   "label": "$10",
+   "track": "BONUS · SPORTS BETS",
+   "s": 350.76,
+   "e": 352.83
+  },
+  {
+   "kind": "wheel",
+   "title": "100 *SPINS*",
+   "label": "$10",
+   "track": "BONUS · SPORTS BETS",
+   "s": 352.83,
+   "e": 354.9,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "prices",
@@ -695,9 +2397,32 @@
     }
    ],
    "track": "BONUS · SPORTS BETS",
-   "hold": 0.7,
-   "s": 350.76,
-   "e": 359.05
+   "s": 354.9,
+   "e": 356.98
+  },
+  {
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Bet per spin",
+     "price": "$10"
+    },
+    {
+     "label": "Spins",
+     "price": "100"
+    }
+   ],
+   "track": "BONUS · SPORTS BETS",
+   "s": 356.98,
+   "e": 359.05,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "stat",
@@ -707,8 +2432,20 @@
    "label": "Expected loss · $1,000 total bets",
    "title": "THE PRICE OF *PLAYING*",
    "track": "BONUS · SPORTS BETS",
-   "hold": 0.7,
    "s": 359.05,
+   "e": 362.59
+  },
+  {
+   "kind": "jar",
+   "title": "EXPECTED *LOSS*",
+   "value": 60,
+   "points": [
+    52.6
+   ],
+   "decimals": 2,
+   "prefix": "$",
+   "track": "BONUS · SPORTS BETS",
+   "s": 362.59,
    "e": 366.13
   },
   {
@@ -725,8 +2462,39 @@
    "title": "THE *LOTTERY*",
    "track": "PART 4 · THE LOTTERY",
    "mus": "track:five_armies@14",
+   "bg": "blueprint",
    "s": 369.78,
-   "e": 373.71
+   "e": 371.75
+  },
+  {
+   "kind": "chapter",
+   "label": "PART 4",
+   "title": "THE *LOTTERY*",
+   "track": "PART 4 · THE LOTTERY",
+   "bg": "blueprint",
+   "s": 371.75,
+   "e": 373.71,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "people",
+   "title": "1 IN *292 MILLION*",
+   "value": 1,
+   "points": [
+    100
+   ],
+   "icon": "🏆",
+   "label": "each icon ≈ 2.9 million tickets",
+   "track": "PART 4 · THE LOTTERY",
+   "s": 373.71,
+   "e": 375.8
   },
   {
    "kind": "stat",
@@ -736,8 +2504,7 @@
    "title": "TICKETS",
    "source": "Powerball official odds",
    "track": "PART 4 · THE LOTTERY",
-   "hold": 0.7,
-   "s": 373.71,
+   "s": 375.8,
    "e": 377.89
   },
   {
@@ -750,13 +2517,23 @@
    "e": 381.52
   },
   {
-   "kind": "stat",
-   "value": 561926,
-   "suffix": " years",
-   "label": "Average wait",
-   "title": "TO WIN *ONCE*",
+   "kind": "timeline",
+   "title": "560,000 *YEARS*",
+   "items": [
+    {
+     "label": "Today",
+     "display": "you start"
+    },
+    {
+     "label": "300,000 BC",
+     "display": "early humans"
+    },
+    {
+     "label": "+560,000 yrs",
+     "display": "your win (average)"
+    }
+   ],
    "track": "PART 4 · THE LOTTERY",
-   "hold": 0.7,
    "s": 381.52,
    "e": 384.36
   },
@@ -767,7 +2544,58 @@
    "icon": "💚",
    "track": "PART 4 · THE LOTTERY",
    "s": 384.36,
-   "e": 396.11
+   "e": 387.3
+  },
+  {
+   "kind": "big",
+   "title": "NEED HELP? *1-800-GAMBLER*",
+   "sub": "free & confidential · US",
+   "icon": "💚",
+   "track": "PART 4 · THE LOTTERY",
+   "s": 387.3,
+   "e": 390.24,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "big",
+   "title": "NEED HELP? *1-800-GAMBLER*",
+   "sub": "free & confidential · US",
+   "icon": "💚",
+   "track": "PART 4 · THE LOTTERY",
+   "s": 390.24,
+   "e": 393.17,
+   "cont": 2,
+   "sfx": [
+    {
+     "f": "wyr/sfx/zap.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "big",
+   "title": "NEED HELP? *1-800-GAMBLER*",
+   "sub": "free & confidential · US",
+   "icon": "💚",
+   "track": "PART 4 · THE LOTTERY",
+   "s": 393.17,
+   "e": 396.11,
+   "cont": 3,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "chapter",
@@ -775,16 +2603,113 @@
    "title": "THE BIGGEST *SLOT WIN*",
    "track": "THE BIGGEST JACKPOT",
    "mus": "track:five_armies@14",
+   "bg": "casino",
    "s": 396.11,
-   "e": 403.72
+   "e": 398.65
+  },
+  {
+   "kind": "chapter",
+   "label": "THE LEGEND",
+   "title": "THE BIGGEST *SLOT WIN*",
+   "track": "THE BIGGEST JACKPOT",
+   "bg": "casino",
+   "s": 398.65,
+   "e": 401.18,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "chapter",
+   "label": "THE LEGEND",
+   "title": "THE BIGGEST *SLOT WIN*",
+   "track": "THE BIGGEST JACKPOT",
+   "bg": "casino",
+   "s": 401.18,
+   "e": 403.72,
+   "cont": 2,
+   "sfx": [
+    {
+     "f": "wyr/sfx/zap.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "slot",
+   "title": "LAS VEGAS, *2003*",
+   "symbols": [
+    "💎",
+    "💎",
+    "💎"
+   ],
+   "label": "MEGABUCKS",
+   "track": "THE BIGGEST JACKPOT",
+   "s": 403.72,
+   "e": 406.0
+  },
+  {
+   "kind": "slot",
+   "title": "LAS VEGAS, *2003*",
+   "symbols": [
+    "💎",
+    "💎",
+    "💎"
+   ],
+   "label": "MEGABUCKS",
+   "track": "THE BIGGEST JACKPOT",
+   "s": 406.0,
+   "e": 408.29,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
    "title": "LAS VEGAS, *2003*",
    "icon": "🎰",
    "track": "THE BIGGEST JACKPOT",
-   "s": 403.72,
-   "e": 412.87
+   "s": 408.29,
+   "e": 410.58
+  },
+  {
+   "kind": "big",
+   "title": "LAS VEGAS, *2003*",
+   "icon": "🎰",
+   "track": "THE BIGGEST JACKPOT",
+   "s": 410.58,
+   "e": 412.87,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "stack",
+   "title": "ONE *SPIN*",
+   "value": 39.7,
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "M",
+   "label": "Excalibur, 2003",
+   "track": "THE BIGGEST JACKPOT",
+   "s": 412.87,
+   "e": 416.36
   },
   {
    "kind": "stat",
@@ -795,8 +2720,7 @@
    "label": "Megabucks jackpot · Excalibur, 2003",
    "title": "ONE *SPIN*",
    "track": "THE BIGGEST JACKPOT",
-   "hold": 0.7,
-   "s": 412.87,
+   "s": 416.36,
    "e": 419.85
   },
   {
@@ -816,9 +2740,68 @@
    ],
    "pick": 1,
    "track": "THE BIGGEST JACKPOT",
-   "hold": 0.7,
    "s": 419.85,
-   "e": 427.96
+   "e": 421.88
+  },
+  {
+   "kind": "bars",
+   "title": "WHO PAID *THE JACKPOT*",
+   "items": [
+    {
+     "label": "Winner",
+     "value": 1,
+     "display": "1 person"
+    },
+    {
+     "label": "Players who paid for it",
+     "value": 100,
+     "display": "countless"
+    }
+   ],
+   "pick": 1,
+   "track": "THE BIGGEST JACKPOT",
+   "s": 421.88,
+   "e": 423.91,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "people",
+   "title": "ONE WINNER, *A MOUNTAIN OF LOSERS*",
+   "value": 1,
+   "points": [
+    100
+   ],
+   "icon": "🤑",
+   "track": "THE BIGGEST JACKPOT",
+   "s": 423.91,
+   "e": 425.94
+  },
+  {
+   "kind": "people",
+   "title": "ONE WINNER, *A MOUNTAIN OF LOSERS*",
+   "value": 1,
+   "points": [
+    100
+   ],
+   "icon": "🤑",
+   "track": "THE BIGGEST JACKPOT",
+   "s": 425.94,
+   "e": 427.96,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
@@ -826,7 +2809,23 @@
    "icon": "✨",
    "track": "THE BIGGEST JACKPOT",
    "s": 427.96,
-   "e": 434.15
+   "e": 431.05
+  },
+  {
+   "kind": "big",
+   "title": "ONE WINNER *SELLS THE DREAM*",
+   "icon": "✨",
+   "track": "THE BIGGEST JACKPOT",
+   "s": 431.05,
+   "e": 434.15,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "chapter",
@@ -834,8 +2833,26 @@
    "title": "CAN YOU *WIN?*",
    "track": "THE TRUTH",
    "mus": "track:hitman@40",
+   "bg": "grid",
    "s": 434.15,
-   "e": 438.48
+   "e": 436.31
+  },
+  {
+   "kind": "chapter",
+   "label": "THE TRUTH",
+   "title": "CAN YOU *WIN?*",
+   "track": "THE TRUTH",
+   "bg": "grid",
+   "s": 436.31,
+   "e": 438.48,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "prices",
@@ -852,9 +2869,76 @@
    ],
    "pick": 1,
    "track": "THE TRUTH",
-   "hold": 0.7,
    "s": 438.48,
-   "e": 446.78
+   "e": 440.56
+  },
+  {
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Short term",
+     "price": "MAYBE"
+    },
+    {
+     "label": "Long term",
+     "price": "CASINO",
+     "tag": "the math always wins"
+    }
+   ],
+   "pick": 1,
+   "track": "THE TRUTH",
+   "s": 440.56,
+   "e": 442.63,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "compare",
+   "title": "SHORT VS *LONG* TERM",
+   "items": [
+    {
+     "label": "Long run: math wins",
+     "tag": "bad"
+    },
+    {
+     "label": "Short run: someone wins",
+     "tag": "good"
+    }
+   ],
+   "track": "THE TRUTH",
+   "s": 442.63,
+   "e": 444.7
+  },
+  {
+   "kind": "compare",
+   "title": "SHORT VS *LONG* TERM",
+   "items": [
+    {
+     "label": "Long run: math wins",
+     "tag": "bad"
+    },
+    {
+     "label": "Short run: someone wins",
+     "tag": "good"
+    }
+   ],
+   "track": "THE TRUTH",
+   "s": 444.7,
+   "e": 446.78,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "list",
@@ -879,7 +2963,40 @@
    "track": "THE TRUTH",
    "hold": 0.7,
    "s": 446.78,
-   "e": 450.96
+   "e": 448.87
+  },
+  {
+   "kind": "list",
+   "title": "IF YOU *GO*",
+   "items": [
+    {
+     "label": "Budget = money you're OK losing"
+    },
+    {
+     "label": "Bring cash, leave the cards"
+    },
+    {
+     "label": "Set a time limit"
+    },
+    {
+     "label": "Ignore \"due\" streaks"
+    },
+    {
+     "label": "Comps aren't free"
+    }
+   ],
+   "track": "THE TRUTH",
+   "hold": 0.7,
+   "s": 448.87,
+   "e": 450.96,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "list",
@@ -904,10 +3021,76 @@
      "label": "\"I'm due\""
     }
    ],
-   "hold": 1.0,
    "track": "THE TRUTH",
    "s": 450.96,
-   "e": 463.82
+   "e": 454.17
+  },
+  {
+   "kind": "list",
+   "title": "HOW THEY *GET YOU*",
+   "items": [
+    {
+     "label": "House edge on every bet"
+    },
+    {
+     "label": "Chips ≠ cash"
+    },
+    {
+     "label": "Near misses"
+    },
+    {
+     "label": "Losses disguised as wins"
+    },
+    {
+     "label": "No clocks, free stuff"
+    },
+    {
+     "label": "\"I'm due\""
+    }
+   ],
+   "track": "THE TRUTH",
+   "s": 454.17,
+   "e": 457.39,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "jar",
+   "title": "THE REAL *JACKPOT*",
+   "value": 80,
+   "points": [
+    1000
+   ],
+   "prefix": "$",
+   "track": "THE TRUTH",
+   "s": 457.39,
+   "e": 460.61
+  },
+  {
+   "kind": "jar",
+   "title": "THE REAL *JACKPOT*",
+   "value": 80,
+   "points": [
+    1000
+   ],
+   "prefix": "$",
+   "track": "THE TRUTH",
+   "s": 460.61,
+   "e": 463.82,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
   },
   {
    "kind": "big",
