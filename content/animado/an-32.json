@@ -1,0 +1,76 @@
+{
+  "id": "an-32",
+  "producto": "atardecer",
+  "voz": "es-ES-ElviraNeural",
+  "rate": "+14%",
+  "musica": "entrada/musica/Volatile Reaction.mp3",
+  "musicaDesde": 28,
+  "musicaVolumen": 0.2,
+  "publicar": "2026-11-29T18:00",
+  "status": "creado",
+  "escenas": [
+    {
+      "tipo": "gancho",
+      "lineas": [
+        {
+          "text": "Pon esto"
+        },
+        {
+          "text": "en tu escritorio 💻",
+          "bg": "#c9ccd4",
+          "color": "#1a1d24"
+        }
+      ],
+      "dice": "Pon esto en tu escritorio... y mira el cambio.",
+      "etiqueta": "setup"
+    },
+    {
+      "tipo": "encender",
+      "antes": "click...",
+      "despues": [
+        {
+          "text": "Un ATARDECER"
+        },
+        {
+          "text": "en tu pared 🌅",
+          "bg": "accent"
+        }
+      ],
+      "dice": "Boom. Un atardecer en tu pared."
+    },
+    {
+      "tipo": "golpes",
+      "palabras": [
+        "SETUP",
+        "CÁLIDO"
+      ]
+    },
+    {
+      "tipo": "producto",
+      "lineas": [
+        {
+          "text": "Lámpara",
+          "size": 104
+        },
+        {
+          "text": "ATARDECER",
+          "size": 124,
+          "bg": "accent"
+        }
+      ],
+      "foto": "animado/s7.jpg",
+      "sub": "🔘 Un botón y listo",
+      "dice": "Es esta lámpara. Se enchufa por USB y listo."
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "🎄 OFERTA NAVIDAD",
+      "descuento": "-40%",
+      "antes": "49,95 €",
+      "ahora": "29,95 €",
+      "extra": "🚚 Envío gratis",
+      "dice": "Ahora por veintinueve noventa y cinco, con envío gratis. Lo tienes en mi bio."
+    }
+  ],
+  "caption": "Pon esto en tu escritorio 💻 Lámpara atardecer: luz cálida de atardecer en tu pared, por USB y sin obras. 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Volatile Reaction» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
+}

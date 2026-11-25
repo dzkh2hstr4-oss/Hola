@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Writes the animated motion-graphics reels (composition "Animado") for 25 Nov – 4 Dec,
-one per slot (12:00, 17:00, 21:00 Madrid), alternating products, each with its own hook,
+"""Writes the animated motion-graphics reels (composition "Animado") for 25 Nov – 3 Dec,
+one per slot (7 a day: 9, 12, 15, 18, 20, 22, 0 h Madrid), alternating products, each with its own hook,
 structure, voice and suspense/hype music. Output: content/animado/an-XX.json + calendario.json."""
 import json, os, datetime
 
@@ -68,14 +68,50 @@ IDEAS = [
     ("atardecer", ["Tu cuarto", "merece esto 🫶"], "autocuidado", "Tu cuarto también merece un cambio.", "golpes", {"golpes": ["TÚ", "TE LO", "MERECES"]}),
     ("aurora", ["Por qué todo el mundo", "quiere esto 💯"], "tendencia", "Te enseño por qué todo el mundo quiere esto.", "encender", {"golpes": ["100%", "MERECE", "LA PENA"]}),
     ("atardecer", ["Último del día:", "mira el final 👀"], "espera", "Espera al final, que viene lo mejor.", "cuenta", {}),
+    # --- an-31 … an-63 (29 nov – 3 dic) ---
+    ("aurora", ["Esto en tu techo", "cada noche 🌌"], "cada noche", "Imagina tener esto en tu techo... cada noche.", "cuenta", {}),
+    ("atardecer", ["Pon esto", "en tu escritorio 💻"], "setup", "Pon esto en tu escritorio... y mira el cambio.", "encender", {"golpes": ["SETUP", "CÁLIDO"]}),
+    ("aurora", ["Plan de pareja", "sin salir de casa 💑"], "noche en casa", "Plan para esta noche, sin salir de casa.", "versus", {"izq": "Peli y ya", "der": "Aurora"}),
+    ("atardecer", ["Si tu cuarto", "no tiene ventana 🪟"], "sin luz natural", "Si tu cuarto no tiene ventana... necesitas esto.", "golpes", {"golpes": ["SOL", "SIN", "VENTANA"]}),
+    ("aurora", ["Tu techo", "puede ser así 👆"], "mira arriba", "Mira arriba. Tu techo puede ser así.", "encender", {"golpes": ["MIRA", "ARRIBA"]}),
+    ("atardecer", ["Un atardecer", "a cualquier hora 🌅"], "también de noche", "Un atardecer... a cualquier hora del día.", "cuenta", {}),
+    ("aurora", ["No sabes qué regalar", "a tu pareja 🎁"], "Navidad", "¿No sabes qué regalarle a tu pareja? Apunta esto.", "golpes", {"golpes": ["REGALO", "TOP"]}),
+    ("atardecer", ["Tus fotos", "con luz de atardecer 📸"], "selfies", "¿Quieres fotos con luz de atardecer? Así se hacen.", "versus", {"izq": "Flash", "der": "Atardecer"}),
+    ("aurora", ["El cubo de 10 cm", "que cambia tu cuarto 🧊"], "pequeño", "Un cubo de diez centímetros... que cambia todo tu cuarto.", "encender", {"golpes": ["PEQUEÑO", "PERO", "BRUTAL"]}),
+    ("atardecer", ["Regalo para", "tu mejor amiga 💛"], "Navidad", "Mira esto si buscas regalo para tu mejor amiga.", "cuenta", {}),
+    ("aurora", ["Con un mando", "desde la cama 🛏️"], "sin levantarte", "Lo controlas con un mando... sin salir de la cama.", "golpes", {"golpes": ["DESDE", "LA", "CAMA"]}),
+    ("atardecer", ["Así se ve", "un cuarto acogedor 🧸"], "cozy", "Así se ve un cuarto acogedor de verdad.", "encender", {"golpes": ["MODO", "COZY"]}),
+    ("aurora", ["¿Aurora boreal", "sin ir a Noruega? 🤯"], "sin viajar", "¿Una aurora boreal en tu casa? Sin viajar a Noruega.", "versus", {"izq": "Noruega", "der": "Tu techo"}),
+    ("atardecer", ["El color", "que cambia tu cuarto 🧡"], "naranja cálido", "Este color convierte tu cuarto en otro sitio.", "golpes", {"golpes": ["LUZ", "NARANJA", "CÁLIDA"]}),
+    ("aurora", ["Pijamada", "nivel pro 🎉"], "plan amigas", "Si haces pijamada en casa, necesitas esto.", "cuenta", {}),
+    ("atardecer", ["Para tu", "rincón de lectura 📚"], "leer", "Tu rincón de lectura... con luz de atardecer.", "encender", {"golpes": ["MODO", "LECTURA"]}),
+    ("aurora", ["Esto parece", "de otra galaxia 🚀"], "espacial", "Esto parece de otra galaxia... y es un cuarto normal.", "golpes", {"golpes": ["OTRA", "GALAXIA"]}),
+    ("atardecer", ["Tu cuarto", "en modo verano ☀️"], "en pleno invierno", "Pleno invierno... y tu cuarto en modo verano.", "versus", {"izq": "Invierno", "der": "Verano"}),
+    ("aurora", ["Nadie se cree", "que esto es un techo 😮"], "mira bien", "Nadie se cree que esto es un techo.", "encender", {"golpes": ["ES", "UN", "TECHO"]}),
+    ("atardecer", ["USB", "y listo 🔌"], "sin obras", "Sin obras, sin líos. Lo enchufas por USB y listo.", "cuenta", {}),
+    ("aurora", ["Navidad", "en tu techo 🎄"], "Navidad", "Esta Navidad... pon esto en tu techo.", "golpes", {"golpes": ["NAVIDAD", "MÁGICA"]}),
+    ("atardecer", ["Antes de dormir", "pon esto 🌙"], "ritual", "El mejor ritual antes de dormir.", "encender", {"golpes": ["RITUAL", "DE NOCHE"]}),
+    ("aurora", ["Sí, tú.", "Te falta esto 🫵"], "sí, tú", "Sí, tú. Esto es lo que le falta a tu cuarto.", "versus", {"izq": "Tu cuarto", "der": "Con aurora"}),
+    ("atardecer", ["Pulsas un botón", "y pasa esto 🔘"], "un clic", "Pulsas un botón... y pasa esto.", "cuenta", {}),
+    ("aurora", ["Haz que tu cuarto", "parezca un sueño 💭"], "sueño", "Haz que tu cuarto parezca un sueño.", "golpes", {"golpes": ["MODO", "SUEÑO"]}),
+    ("atardecer", ["Para quien", "lo tiene todo 🎁"], "regalo difícil", "Regalo para la persona que lo tiene todo.", "encender", {"golpes": ["REGALO", "ORIGINAL"]}),
+    ("aurora", ["Mira lo que hace", "este cubo 🧊"], "10 cm", "Mira lo que hace este cubo tan pequeño.", "cuenta", {}),
+    ("atardecer", ["Tu cuarto", "a las 7 de la tarde 🌇"], "golden hour", "Las siete de la tarde... la hora dorada en tu cuarto.", "golpes", {"golpes": ["HORA", "DORADA"]}),
+    ("aurora", ["Estrellas + aurora", "con un clic ✨"], "mando", "Estrellas y aurora... con un solo clic.", "encender", {"golpes": ["UN", "CLIC"]}),
+    ("atardecer", ["¿Regalo", "para tu madre? 🫶"], "Navidad", "¿Buscas regalo para tu madre? Mira esto.", "versus", {"izq": "Perfume", "der": "Atardecer"}),
+    ("aurora", ["Si te gusta", "el espacio 🌌"], "fan del cosmos", "Si te gusta el espacio... esto es para ti.", "golpes", {"golpes": ["EL", "ESPACIO", "EN CASA"]}),
+    ("atardecer", ["Tu pared", "antes y después 🔁"], "cambio", "Tu pared antes... y después. Atento.", "cuenta", {}),
+    ("aurora", ["Guarda este vídeo", "para Navidad 🔖"], "idea regalo", "Guarda este vídeo para cuando busques regalo.", "encender", {"golpes": ["IDEA", "REGALO"]}),
 ]
 
 
 def slots():
+    # 7 a day (Madrid): 9, 12, 15, 18, 20, 22 and midnight (= 00:00 of the next date), 25 Nov – 3 Dec
     d = datetime.date(2026, 11, 25)
-    while d <= datetime.date(2026, 12, 4):
-        for h in ("12:00", "17:00", "21:00"):
+    while d <= datetime.date(2026, 12, 3):
+        for h in ("09:00", "12:00", "15:00", "18:00", "20:00", "22:00"):
             yield d, h
+        yield d + datetime.timedelta(days=1), "00:00"
         d += datetime.timedelta(days=1)
 
 
@@ -112,7 +148,14 @@ for i, ((prod, hook, tag, hook_voz, est, ex), (day, hour)) in enumerate(zip(IDEA
     spec = {"id": rid, "producto": prod, "voz": VOICES[i % 2], "rate": "+14%", "musica": f"entrada/musica/{music}.mp3",
             "musicaDesde": desde, "musicaVolumen": 0.2, "publicar": f"{day.isoformat()}T{hour}", "status": "creado",
             "escenas": [gancho, *mid, oferta], "caption": caption}
-    json.dump(spec, open(os.path.join(OUT, f"{rid}.json"), "w"), ensure_ascii=False, indent=2)
+    path = os.path.join(OUT, f"{rid}.json")
+    if os.path.exists(path):  # never overwrite a reel that is already rendered / published; keep its status
+        old = json.load(open(path))
+        old["publicar"] = spec["publicar"]
+        spec = old
+    with open(path, "w") as f:
+        json.dump(spec, f, ensure_ascii=False, indent=2)
+        f.write("\n")
     cal.append([rid, prod, spec["publicar"], " / ".join(hook)])
 json.dump(cal, open(os.path.join(OUT, "calendario.json"), "w"), ensure_ascii=False, indent=1)
 print(len(cal), cal[0], cal[-1])

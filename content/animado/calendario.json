@@ -1,182 +1,380 @@
 [
-  {
-    "id": "an-01",
-    "publicar": "2026-11-25T09:00",
-    "producto": "aurora",
-    "status": "creado"
-  },
-  {
-    "id": "an-02",
-    "publicar": "2026-11-25T12:00",
-    "producto": "atardecer",
-    "status": "creado"
-  },
-  {
-    "id": "an-03",
-    "publicar": "2026-11-25T15:00",
-    "producto": "aurora",
-    "status": "creado"
-  },
-  {
-    "id": "an-04",
-    "publicar": "2026-11-25T18:00",
-    "producto": "atardecer",
-    "status": "creado"
-  },
-  {
-    "id": "an-05",
-    "publicar": "2026-11-25T20:00",
-    "producto": "aurora",
-    "status": "creado"
-  },
-  {
-    "id": "an-06",
-    "publicar": "2026-11-25T22:00",
-    "producto": "atardecer",
-    "status": "creado"
-  },
-  {
-    "id": "an-07",
-    "publicar": "2026-11-26T00:00",
-    "producto": "aurora",
-    "status": "creado"
-  },
-  {
-    "id": "an-08",
-    "publicar": "2026-11-26T09:00",
-    "producto": "atardecer",
-    "status": "creado"
-  },
-  {
-    "id": "an-09",
-    "publicar": "2026-11-26T12:00",
-    "producto": "aurora",
-    "status": "creado"
-  },
-  {
-    "id": "an-10",
-    "publicar": "2026-11-26T15:00",
-    "producto": "atardecer",
-    "status": "creado"
-  },
-  {
-    "id": "an-11",
-    "publicar": "2026-11-26T18:00",
-    "producto": "aurora",
-    "status": "creado"
-  },
-  {
-    "id": "an-12",
-    "publicar": "2026-11-26T20:00",
-    "producto": "atardecer",
-    "status": "creado"
-  },
-  {
-    "id": "an-13",
-    "publicar": "2026-11-26T22:00",
-    "producto": "aurora",
-    "status": "creado"
-  },
-  {
-    "id": "an-14",
-    "publicar": "2026-11-27T00:00",
-    "producto": "atardecer",
-    "status": "creado"
-  },
-  {
-    "id": "an-15",
-    "publicar": "2026-11-27T09:00",
-    "producto": "aurora",
-    "status": "creado"
-  },
-  {
-    "id": "an-16",
-    "publicar": "2026-11-27T12:00",
-    "producto": "atardecer",
-    "status": "creado"
-  },
-  {
-    "id": "an-17",
-    "publicar": "2026-11-27T15:00",
-    "producto": "aurora",
-    "status": "creado"
-  },
-  {
-    "id": "an-18",
-    "publicar": "2026-11-27T18:00",
-    "producto": "atardecer",
-    "status": "creado"
-  },
-  {
-    "id": "an-19",
-    "publicar": "2026-11-27T20:00",
-    "producto": "aurora",
-    "status": "creado"
-  },
-  {
-    "id": "an-20",
-    "publicar": "2026-11-27T22:00",
-    "producto": "atardecer",
-    "status": "creado"
-  },
-  {
-    "id": "an-21",
-    "publicar": "2026-11-28T00:00",
-    "producto": "aurora",
-    "status": "creado"
-  },
-  {
-    "id": "an-22",
-    "publicar": "2026-11-28T09:00",
-    "producto": "atardecer",
-    "status": "creado"
-  },
-  {
-    "id": "an-23",
-    "publicar": "2026-11-28T12:00",
-    "producto": "aurora",
-    "status": "creado"
-  },
-  {
-    "id": "an-24",
-    "publicar": "2026-11-28T15:00",
-    "producto": "atardecer",
-    "status": "creado"
-  },
-  {
-    "id": "an-25",
-    "publicar": "2026-11-28T18:00",
-    "producto": "aurora",
-    "status": "creado"
-  },
-  {
-    "id": "an-26",
-    "publicar": "2026-11-28T20:00",
-    "producto": "atardecer",
-    "status": "creado"
-  },
-  {
-    "id": "an-27",
-    "publicar": "2026-11-28T22:00",
-    "producto": "aurora",
-    "status": "creado"
-  },
-  {
-    "id": "an-28",
-    "publicar": "2026-11-29T00:00",
-    "producto": "atardecer",
-    "status": "creado"
-  },
-  {
-    "id": "an-29",
-    "publicar": "2026-11-29T09:00",
-    "producto": "aurora",
-    "status": "creado"
-  },
-  {
-    "id": "an-30",
-    "publicar": "2026-11-29T12:00",
-    "producto": "atardecer",
-    "status": "creado"
-  }
+ [
+  "an-01",
+  "aurora",
+  "2026-11-25T09:00",
+  "Apaga la luz / y mira esto 👀"
+ ],
+ [
+  "an-02",
+  "atardecer",
+  "2026-11-25T12:00",
+  "Tu cuarto a las 8 / es así de triste 😩"
+ ],
+ [
+  "an-03",
+  "aurora",
+  "2026-11-25T15:00",
+  "¿Luz blanca / o esto? 🤔"
+ ],
+ [
+  "an-04",
+  "atardecer",
+  "2026-11-25T18:00",
+  "Lo que nadie / te cuenta 🤫"
+ ],
+ [
+  "an-05",
+  "aurora",
+  "2026-11-25T20:00",
+  "POV: tu cuarto / a las 12 de la noche 🌙"
+ ],
+ [
+  "an-06",
+  "atardecer",
+  "2026-11-25T22:00",
+  "Mira lo que pasa / cuando pulso esto 👇"
+ ],
+ [
+  "an-07",
+  "aurora",
+  "2026-11-26T00:00",
+  "El regalo que / nadie se espera 🎁"
+ ],
+ [
+  "an-08",
+  "atardecer",
+  "2026-11-26T09:00",
+  "Tu pared / está pidiendo esto 🧱"
+ ],
+ [
+  "an-09",
+  "aurora",
+  "2026-11-26T12:00",
+  "No te duermas / sin ver esto 😴"
+ ],
+ [
+  "an-10",
+  "atardecer",
+  "2026-11-26T15:00",
+  "De cuarto aburrido / a cuarto de TikTok 📱"
+ ],
+ [
+  "an-11",
+  "aurora",
+  "2026-11-26T18:00",
+  "Tu madre va a pensar / que es magia ✨"
+ ],
+ [
+  "an-12",
+  "atardecer",
+  "2026-11-26T20:00",
+  "Haz esto / antes de una cita 💘"
+ ],
+ [
+  "an-13",
+  "aurora",
+  "2026-11-26T22:00",
+  "Cielo estrellado / sin salir de casa 🌠"
+ ],
+ [
+  "an-14",
+  "atardecer",
+  "2026-11-27T00:00",
+  "La luz que hace / que todo se vea mejor ✨"
+ ],
+ [
+  "an-15",
+  "aurora",
+  "2026-11-27T09:00",
+  "Gamers, / esto es para vosotros 🎮"
+ ],
+ [
+  "an-16",
+  "atardecer",
+  "2026-11-27T12:00",
+  "El truco más barato / para tu cuarto 💸"
+ ],
+ [
+  "an-17",
+  "aurora",
+  "2026-11-27T15:00",
+  "Esto no es / un planetario 🪐"
+ ],
+ [
+  "an-18",
+  "atardecer",
+  "2026-11-27T18:00",
+  "Si te gusta / la hora dorada 🌇"
+ ],
+ [
+  "an-19",
+  "aurora",
+  "2026-11-27T20:00",
+  "Tu hermano pequeño / va a flipar 🤯"
+ ],
+ [
+  "an-20",
+  "atardecer",
+  "2026-11-27T22:00",
+  "No la enciendas / si estás triste 🥲"
+ ],
+ [
+  "an-21",
+  "aurora",
+  "2026-11-28T00:00",
+  "¿Cuánto crees / que cuesta esto? 💰"
+ ],
+ [
+  "an-22",
+  "atardecer",
+  "2026-11-28T09:00",
+  "3 segundos / para cambiar tu cuarto ⏱️"
+ ],
+ [
+  "an-23",
+  "aurora",
+  "2026-11-28T12:00",
+  "Domingo de peli / nivel cine 🍿"
+ ],
+ [
+  "an-24",
+  "atardecer",
+  "2026-11-28T15:00",
+  "Nadie adivina / de dónde sale esta luz 🤔"
+ ],
+ [
+  "an-25",
+  "aurora",
+  "2026-11-28T18:00",
+  "Así me relajo / después de clase 😮‍💨"
+ ],
+ [
+  "an-26",
+  "atardecer",
+  "2026-11-28T20:00",
+  "El regalo / que sí van a usar 🎁"
+ ],
+ [
+  "an-27",
+  "aurora",
+  "2026-11-28T22:00",
+  "Último aviso / para Navidad ⏳"
+ ],
+ [
+  "an-28",
+  "atardecer",
+  "2026-11-29T00:00",
+  "Tu cuarto / merece esto 🫶"
+ ],
+ [
+  "an-29",
+  "aurora",
+  "2026-11-29T09:00",
+  "Por qué todo el mundo / quiere esto 💯"
+ ],
+ [
+  "an-30",
+  "atardecer",
+  "2026-11-29T12:00",
+  "Último del día: / mira el final 👀"
+ ],
+ [
+  "an-31",
+  "aurora",
+  "2026-11-29T15:00",
+  "Esto en tu techo / cada noche 🌌"
+ ],
+ [
+  "an-32",
+  "atardecer",
+  "2026-11-29T18:00",
+  "Pon esto / en tu escritorio 💻"
+ ],
+ [
+  "an-33",
+  "aurora",
+  "2026-11-29T20:00",
+  "Plan de pareja / sin salir de casa 💑"
+ ],
+ [
+  "an-34",
+  "atardecer",
+  "2026-11-29T22:00",
+  "Si tu cuarto / no tiene ventana 🪟"
+ ],
+ [
+  "an-35",
+  "aurora",
+  "2026-11-30T00:00",
+  "Tu techo / puede ser así 👆"
+ ],
+ [
+  "an-36",
+  "atardecer",
+  "2026-11-30T09:00",
+  "Un atardecer / a cualquier hora 🌅"
+ ],
+ [
+  "an-37",
+  "aurora",
+  "2026-11-30T12:00",
+  "No sabes qué regalar / a tu pareja 🎁"
+ ],
+ [
+  "an-38",
+  "atardecer",
+  "2026-11-30T15:00",
+  "Tus fotos / con luz de atardecer 📸"
+ ],
+ [
+  "an-39",
+  "aurora",
+  "2026-11-30T18:00",
+  "El cubo de 10 cm / que cambia tu cuarto 🧊"
+ ],
+ [
+  "an-40",
+  "atardecer",
+  "2026-11-30T20:00",
+  "Regalo para / tu mejor amiga 💛"
+ ],
+ [
+  "an-41",
+  "aurora",
+  "2026-11-30T22:00",
+  "Con un mando / desde la cama 🛏️"
+ ],
+ [
+  "an-42",
+  "atardecer",
+  "2026-12-01T00:00",
+  "Así se ve / un cuarto acogedor 🧸"
+ ],
+ [
+  "an-43",
+  "aurora",
+  "2026-12-01T09:00",
+  "¿Aurora boreal / sin ir a Noruega? 🤯"
+ ],
+ [
+  "an-44",
+  "atardecer",
+  "2026-12-01T12:00",
+  "El color / que cambia tu cuarto 🧡"
+ ],
+ [
+  "an-45",
+  "aurora",
+  "2026-12-01T15:00",
+  "Pijamada / nivel pro 🎉"
+ ],
+ [
+  "an-46",
+  "atardecer",
+  "2026-12-01T18:00",
+  "Para tu / rincón de lectura 📚"
+ ],
+ [
+  "an-47",
+  "aurora",
+  "2026-12-01T20:00",
+  "Esto parece / de otra galaxia 🚀"
+ ],
+ [
+  "an-48",
+  "atardecer",
+  "2026-12-01T22:00",
+  "Tu cuarto / en modo verano ☀️"
+ ],
+ [
+  "an-49",
+  "aurora",
+  "2026-12-02T00:00",
+  "Nadie se cree / que esto es un techo 😮"
+ ],
+ [
+  "an-50",
+  "atardecer",
+  "2026-12-02T09:00",
+  "USB / y listo 🔌"
+ ],
+ [
+  "an-51",
+  "aurora",
+  "2026-12-02T12:00",
+  "Navidad / en tu techo 🎄"
+ ],
+ [
+  "an-52",
+  "atardecer",
+  "2026-12-02T15:00",
+  "Antes de dormir / pon esto 🌙"
+ ],
+ [
+  "an-53",
+  "aurora",
+  "2026-12-02T18:00",
+  "Sí, tú. / Te falta esto 🫵"
+ ],
+ [
+  "an-54",
+  "atardecer",
+  "2026-12-02T20:00",
+  "Pulsas un botón / y pasa esto 🔘"
+ ],
+ [
+  "an-55",
+  "aurora",
+  "2026-12-02T22:00",
+  "Haz que tu cuarto / parezca un sueño 💭"
+ ],
+ [
+  "an-56",
+  "atardecer",
+  "2026-12-03T00:00",
+  "Para quien / lo tiene todo 🎁"
+ ],
+ [
+  "an-57",
+  "aurora",
+  "2026-12-03T09:00",
+  "Mira lo que hace / este cubo 🧊"
+ ],
+ [
+  "an-58",
+  "atardecer",
+  "2026-12-03T12:00",
+  "Tu cuarto / a las 7 de la tarde 🌇"
+ ],
+ [
+  "an-59",
+  "aurora",
+  "2026-12-03T15:00",
+  "Estrellas + aurora / con un clic ✨"
+ ],
+ [
+  "an-60",
+  "atardecer",
+  "2026-12-03T18:00",
+  "¿Regalo / para tu madre? 🫶"
+ ],
+ [
+  "an-61",
+  "aurora",
+  "2026-12-03T20:00",
+  "Si te gusta / el espacio 🌌"
+ ],
+ [
+  "an-62",
+  "atardecer",
+  "2026-12-03T22:00",
+  "Tu pared / antes y después 🔁"
+ ],
+ [
+  "an-63",
+  "aurora",
+  "2026-12-04T00:00",
+  "Guarda este vídeo / para Navidad 🔖"
+ ]
 ]

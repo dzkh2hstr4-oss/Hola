@@ -134,7 +134,7 @@ const Golpes: React.FC<{ e: Extract<Escena, { tipo: "golpes" }>; t: Theme }> = (
       ))}
       <AbsoluteFill style={{ transform: `translate(${Math.sin(frame * 13.1) * shake}px, ${Math.cos(frame * 9.7) * shake}px) rotate(-4deg)` }}>
         {e.palabras.map((w, i) => {
-          const size = Math.min(330, Math.floor(1700 / Math.max(3, w.length)) + (i === n - 1 ? 30 : 0));
+          const size = Math.min(330, Math.floor(1250 / Math.max(3, w.length)) + (i === n - 1 && w.length <= 5 ? 30 : 0));
           return <SlamWord key={i} word={w} at={hits[i]} y={960 - span / 2 + i * 260} color={colors[i % colors.length]} size={size} />;
         })}
       </AbsoluteFill>
