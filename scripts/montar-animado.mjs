@@ -43,9 +43,10 @@ const escenas = spec.escenas.map((e, i) => {
 let musica;
 if (spec.musica) {
   musica = `animado/${id}/musica.mp3`;
-  sh("ffmpeg", ["-y", "-v", "error", "-i", resolve(ROOT, spec.musica), "-c", "copy", join(ROOT, "public", musica)]);
+  // cut the used part of the track and normalise it so every song sits at the same, clearly audible level under the voice
+  sh("ffmpeg", ["-y", "-v", "error", "-ss", String(spec.musicaDesde ?? 0), "-t", "45", "-i", resolve(ROOT, spec.musica), "-af", `loudnorm=I=${spec.musicaLUFS ?? -21}:TP=-2:LRA=11`, "-ar", "44100", "-b:a", "192k", join(ROOT, "public", musica)]);
 }
-const props = { producto: spec.producto, escenas, musica, musicaDesde: spec.musicaDesde ?? 0, musicaVolumen: spec.musicaVolumen ?? 0.2 };
+const props = { producto: spec.producto, escenas, musica, musicaDesde: 0, musicaVolumen: 1 };
 const propsFile = join(pubDir, "props.json");
 writeFileSync(propsFile, JSON.stringify(props, null, 2));
 
