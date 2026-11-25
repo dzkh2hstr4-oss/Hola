@@ -1,0 +1,109 @@
+{
+ "vertical": true,
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "WHY *$9.99?*",
+   "icon": "🏷️",
+   "s": 0.0,
+   "e": 3.22
+  },
+  {
+   "kind": "big",
+   "title": "YOUR BRAIN SEES *$9*",
+   "sub": "not $10",
+   "s": 3.22,
+   "e": 8.94
+  },
+  {
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Price A",
+     "price": "$34"
+    },
+    {
+     "label": "Price B",
+     "price": "$39"
+    },
+    {
+     "label": "Price C",
+     "price": "$44"
+    }
+   ],
+   "source": "Anderson & Simester, 2003",
+   "s": 8.94,
+   "e": 17.46
+  },
+  {
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Price A",
+     "price": "$34"
+    },
+    {
+     "label": "Price B",
+     "price": "$39",
+     "tag": "BEST SELLER"
+    },
+    {
+     "label": "Price C",
+     "price": "$44"
+    }
+   ],
+   "pick": 1,
+   "source": "Anderson & Simester, 2003",
+   "s": 17.46,
+   "e": 22.77
+  },
+  {
+   "kind": "big",
+   "title": "CHARM *PRICING*",
+   "icon": "🧠",
+   "s": 22.77,
+   "e": 27.3
+  },
+  {
+   "kind": "outro",
+   "title": "DON'T GET *TRICKED*",
+   "s": 27.3,
+   "e": 30.56
+  }
+ ],
+ "captions": [
+  {
+   "t": "Why does everything cost nine ninety-nine… and not ten dollars?",
+   "s": 0.05,
+   "e": 3.07
+  },
+  {
+   "t": "Because your brain reads prices from left to right. Nine ninety-nine feels like nine dollars. Not ten.",
+   "s": 3.27,
+   "e": 8.79
+  },
+  {
+   "t": "Researchers from MIT and the University of Chicago tested the same item at three prices: thirty-four, thirty-nine and forty-four dollars.",
+   "s": 8.99,
+   "e": 17.31
+  },
+  {
+   "t": "Which one sold the most? The thirty-nine dollar one. It beat both… even the cheaper price.",
+   "s": 17.51,
+   "e": 22.62
+  },
+  {
+   "t": "It's called charm pricing. And this Black Friday, it's on almost every tag you'll see.",
+   "s": 22.82,
+   "e": 27.15
+  },
+  {
+   "t": "Follow for more money tricks stores don't want you to notice.",
+   "s": 27.35,
+   "e": 29.81
+  }
+ ],
+ "voice": "money/audio/m-2026-11-25-s1-voz.wav",
+ "total": 30.56,
+ "brand": "MONEY DECODED"
+}

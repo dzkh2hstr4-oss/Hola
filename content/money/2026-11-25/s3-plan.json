@@ -1,0 +1,71 @@
+{
+ "vertical": true,
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "pitch": "+0Hz",
+ "mic": true,
+ "brand": "MONEY DECODED",
+ "music": "track:volatile_reaction@17",
+ "lines": [
+  {
+   "t": "Most Black Friday deals… aren't actually deals.",
+   "kind": "hook",
+   "title": "FAKE *DEALS?*",
+   "icon": "🛍️"
+  },
+  {
+   "t": "The UK consumer group Which? tracked Black Friday prices for months before and after the sale.",
+   "kind": "big",
+   "title": "THEY TRACKED *THE PRICES*",
+   "sub": "months before and after"
+  },
+  {
+   "t": "In their twenty twenty-three study, ninety-two percent of deals were the same price, or cheaper, at other times of the year.",
+   "kind": "stat",
+   "value": 92,
+   "suffix": "%",
+   "title": "SAME PRICE OR *CHEAPER* LATER",
+   "source": "Which?, 2023"
+  },
+  {
+   "t": "And only about two percent were actually at their lowest price on Black Friday itself.",
+   "kind": "bars",
+   "title": "CHEAPEST ON *BLACK FRIDAY*",
+   "items": [
+    {
+     "label": "Cheapest on the day",
+     "value": 2,
+     "display": "2%"
+    },
+    {
+     "label": "Not the cheapest",
+     "value": 98,
+     "display": "98%"
+    }
+   ],
+   "pick": 0,
+   "source": "Which?, 2023"
+  },
+  {
+   "t": "So before you buy, check the price history. Free trackers like Keepa or CamelCamelCamel show you if that deal is real.",
+   "kind": "list",
+   "title": "BEFORE YOU *BUY*",
+   "items": [
+    {
+     "label": "Check the price history"
+    },
+    {
+     "label": "Use Keepa or CamelCamelCamel"
+    },
+    {
+     "label": "Ignore the \"was\" price"
+    }
+   ]
+  },
+  {
+   "t": "Save this for Friday. And follow so you don't get played.",
+   "kind": "outro",
+   "title": "SAVE THIS FOR *FRIDAY*"
+  }
+ ]
+}

@@ -1,0 +1,521 @@
+{
+ "vertical": false,
+ "voice": "en-US-AndrewNeural",
+ "rate": "+5%",
+ "pitch": "+0Hz",
+ "mic": true,
+ "brand": "MONEY DECODED",
+ "lines": [
+  {
+   "t": "Last Black Friday, Americans spent eleven point eight billion dollars online. In one day. And a huge part of that money was spent because of tricks… that you never noticed.",
+   "kind": "hook",
+   "title": "HOW STORES *TRICK* YOU ON BLACK FRIDAY",
+   "icon": "🛍️",
+   "mus": "track:hitman@1"
+  },
+  {
+   "t": "Eleven point eight billion dollars. A new record, according to Adobe.",
+   "kind": "stat",
+   "value": 11.8,
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B",
+   "label": "Black Friday 2025 · US online spending",
+   "title": "IN *ONE DAY*",
+   "source": "Adobe Analytics"
+  },
+  {
+   "t": "And over the whole Thanksgiving weekend, almost two hundred and three million people went shopping. Also a record.",
+   "kind": "stat",
+   "value": 202.9,
+   "decimals": 1,
+   "suffix": "M",
+   "label": "Thanksgiving weekend 2025",
+   "title": "SHOPPERS",
+   "source": "National Retail Federation"
+  },
+  {
+   "t": "Stores know exactly how your brain works. So today, I'll show you the seven tricks they use… and how to beat every single one.",
+   "kind": "list",
+   "title": "TODAY: *7 TRICKS*",
+   "items": [
+    {
+     "label": "Fake \"was\" prices"
+    },
+    {
+     "label": "Charm pricing"
+    },
+    {
+     "label": "The decoy"
+    },
+    {
+     "label": "Countdown timers"
+    },
+    {
+     "label": "Buy now, pay later"
+    },
+    {
+     "label": "Free shipping traps"
+    },
+    {
+     "label": "Doorbusters"
+    }
+   ]
+  },
+  {
+   "t": "But first, a quick story. Why is it even called Black Friday? Many people think it's because stores finally go from losing money, in the red, to making money, in the black.",
+   "kind": "big",
+   "title": "WHY *\"BLACK\"* FRIDAY?",
+   "icon": "🤔"
+  },
+  {
+   "t": "That's a nice story, but the name actually started with the police in Philadelphia in the nineteen fifties and sixties. They called it Black Friday because of the traffic jams and chaos the day after Thanksgiving.",
+   "kind": "big",
+   "title": "IT STARTED WITH *THE POLICE*",
+   "sub": "Philadelphia, 1950s–60s",
+   "icon": "🚓"
+  },
+  {
+   "t": "Stores tried to rebrand it as Big Friday. It didn't work. And today, it's the biggest shopping event of the year. Okay. Let's get into the tricks.",
+   "kind": "big",
+   "title": "NOW, THE *TRICKS*",
+   "icon": "👇"
+  },
+  {
+   "t": "Trick number one.",
+   "kind": "chapter",
+   "label": "TRICK #1",
+   "title": "THE FAKE *\"WAS\"* PRICE",
+   "mus": "track:volatile_reaction@17"
+  },
+  {
+   "t": "You see a TV: was eight hundred, now four ninety-nine. Wow. Except… was it ever really eight hundred?",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Was",
+     "price": "$800",
+     "tag": "REALLY?"
+    },
+    {
+     "label": "Now",
+     "price": "$499"
+    }
+   ],
+   "pick": 1
+  },
+  {
+   "t": "That big crossed-out number is called an anchor. Your brain compares the new price to it, so anything below feels like a win.",
+   "kind": "big",
+   "title": "THE *ANCHOR*",
+   "sub": "Your brain compares, not calculates",
+   "icon": "⚓"
+  },
+  {
+   "t": "Psychologists Amos Tversky and Daniel Kahneman showed how powerful anchors are back in the nineteen seventies. Even random numbers can change how much people guess something is worth.",
+   "kind": "big",
+   "title": "ANCHORING *BIAS*",
+   "sub": "Tversky & Kahneman, 1974",
+   "icon": "🧠"
+  },
+  {
+   "t": "The British consumer group Which? tracked Black Friday deals for months before and after the sale. In their twenty twenty-three study, ninety-two percent were the same price or cheaper at other times of the year.",
+   "kind": "stat",
+   "value": 92,
+   "suffix": "%",
+   "label": "Black Friday deals",
+   "title": "SAME PRICE OR *CHEAPER* LATER",
+   "source": "Which?, 2023"
+  },
+  {
+   "t": "And in another Which? study, only about two percent of discounted products were actually at their cheapest price on Black Friday itself.",
+   "kind": "bars",
+   "title": "CHEAPEST ON *BLACK FRIDAY*",
+   "items": [
+    {
+     "label": "Cheapest on the day",
+     "value": 2,
+     "display": "≈2%"
+    },
+    {
+     "label": "Cheaper or same another day",
+     "value": 98,
+     "display": "≈98%"
+    }
+   ],
+   "pick": 0,
+   "source": "Which?"
+  },
+  {
+   "t": "How to beat it: ignore the was price completely. Check the price history with free tools like Keepa or CamelCamelCamel.",
+   "kind": "list",
+   "title": "HOW TO *BEAT IT*",
+   "items": [
+    {
+     "label": "Ignore the crossed-out price"
+    },
+    {
+     "label": "Check price history (Keepa, CamelCamelCamel)"
+    }
+   ]
+  },
+  {
+   "t": "Trick number two.",
+   "kind": "chapter",
+   "label": "TRICK #2",
+   "title": "CHARM *PRICING*"
+  },
+  {
+   "t": "Why do prices end in ninety-nine? Because we read from left to right. Nine ninety-nine feels like nine. Not ten.",
+   "kind": "big",
+   "title": "$9.99 FEELS LIKE *$9*",
+   "icon": "🏷️"
+  },
+  {
+   "t": "It's called the left-digit effect. The first digit grabs most of your attention. That's why a car at nineteen thousand nine hundred feels much cheaper than twenty thousand, even though the difference is tiny.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Feels like",
+     "price": "$19K"
+    },
+    {
+     "label": "Feels like",
+     "price": "$20K"
+    }
+   ],
+   "title": "THE *LEFT-DIGIT* EFFECT"
+  },
+  {
+   "t": "Researchers from MIT and the University of Chicago tested the same item at thirty-four, thirty-nine and forty-four dollars. The thirty-nine dollar version sold the most. More than the cheaper one.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Price A",
+     "price": "$34"
+    },
+    {
+     "label": "Price B",
+     "price": "$39",
+     "tag": "SOLD MOST"
+    },
+    {
+     "label": "Price C",
+     "price": "$44"
+    }
+   ],
+   "pick": 1,
+   "source": "Anderson & Simester, 2003"
+  },
+  {
+   "t": "How to beat it: round every price up in your head. Ninety-nine ninety-nine is one hundred dollars. Period.",
+   "kind": "big",
+   "title": "ROUND IT *UP*",
+   "sub": "$99.99 = $100"
+  },
+  {
+   "t": "Trick number three.",
+   "kind": "chapter",
+   "label": "TRICK #3",
+   "title": "THE *DECOY*",
+   "mus": "track:funkorama@9"
+  },
+  {
+   "t": "Behavioral economist Dan Ariely showed students three subscriptions. Online for fifty-nine dollars. Print for one twenty-five. And print plus online… also one twenty-five.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Online",
+     "price": "$59"
+    },
+    {
+     "label": "Print",
+     "price": "$125"
+    },
+    {
+     "label": "Print + Online",
+     "price": "$125"
+    }
+   ],
+   "source": "Dan Ariely, Predictably Irrational"
+  },
+  {
+   "t": "With that useless print-only option, eighty-four percent picked the expensive combo. Without it, only thirty-two percent did.",
+   "kind": "bars",
+   "title": "WHO CHOSE THE *COMBO*",
+   "items": [
+    {
+     "label": "With the decoy",
+     "value": 84,
+     "display": "84%"
+    },
+    {
+     "label": "Without the decoy",
+     "value": 32,
+     "display": "32%"
+    }
+   ],
+   "pick": 0,
+   "source": "Dan Ariely, Predictably Irrational"
+  },
+  {
+   "t": "On Black Friday you'll see it everywhere: small, medium and large, where the medium only exists to make the large look smart. How to beat it: ask which option you would choose if the middle one didn't exist.",
+   "kind": "big",
+   "title": "IGNORE THE *MIDDLE*",
+   "icon": "🔍"
+  },
+  {
+   "t": "You'll see the same thing with bundles, popcorn sizes and phone storage. The option right below the most expensive one is there to make the most expensive one feel like a deal.",
+   "kind": "list",
+   "title": "DECOYS ARE *EVERYWHERE*",
+   "items": [
+    {
+     "label": "Popcorn sizes"
+    },
+    {
+     "label": "Phone storage"
+    },
+    {
+     "label": "Product bundles"
+    }
+   ]
+  },
+  {
+   "t": "Trick number four.",
+   "kind": "chapter",
+   "label": "TRICK #4",
+   "title": "THE *COUNTDOWN*"
+  },
+  {
+   "t": "Deal ends in fifty-nine minutes. Only two left in stock. Twelve people are looking at this right now.",
+   "kind": "timer",
+   "label": "Hurry! Deal ends in",
+   "title": "ONLY *2 LEFT*"
+  },
+  {
+   "t": "This is scarcity. When something feels rare or about to disappear, we stop thinking and start grabbing. And many of these timers simply reset when they hit zero.",
+   "kind": "big",
+   "title": "FEAR OF *MISSING OUT*",
+   "icon": "⏳"
+  },
+  {
+   "t": "Back in nineteen seventy-five, researchers gave people a jar with ten cookies and a jar with just two. The cookies from the almost empty jar were rated as more desirable. Same cookies.",
+   "kind": "bars",
+   "title": "SAME COOKIES, *DIFFERENT* VALUE",
+   "items": [
+    {
+     "label": "Jar with 10 cookies",
+     "value": 40,
+     "display": "less wanted"
+    },
+    {
+     "label": "Jar with 2 cookies",
+     "value": 90,
+     "display": "more wanted"
+    }
+   ],
+   "pick": 1,
+   "source": "Worchel, Lee & Adewole, 1975",
+   "icon": "🍪"
+  },
+  {
+   "t": "How to beat it: if a deal disappears, another one will come. Black Friday deals keep coming back for weeks. Use the twenty-four hour rule for anything that isn't essential.",
+   "kind": "list",
+   "title": "HOW TO *BEAT IT*",
+   "items": [
+    {
+     "label": "Deals come back"
+    },
+    {
+     "label": "Wait 24 hours before buying"
+    }
+   ]
+  },
+  {
+   "t": "Trick number five.",
+   "kind": "chapter",
+   "label": "TRICK #5",
+   "title": "BUY NOW, *PAY LATER*",
+   "mus": "track:cut_and_run@0"
+  },
+  {
+   "t": "Four easy payments of twenty-five dollars sounds way cheaper than one hundred dollars. But it's the same hundred dollars.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Today",
+     "price": "$100"
+    },
+    {
+     "label": "4 payments",
+     "price": "$25",
+     "tag": "SAME $100"
+    }
+   ],
+   "pick": 1
+  },
+  {
+   "t": "And people love it. On Cyber Monday twenty twenty-five, buy now pay later drove over one billion dollars in online spending in a single day.",
+   "kind": "stat",
+   "value": 1.03,
+   "decimals": 2,
+   "prefix": "$",
+   "suffix": "B",
+   "label": "Cyber Monday 2025 · Buy now, pay later",
+   "title": "IN *ONE DAY*",
+   "source": "Adobe Analytics"
+  },
+  {
+   "t": "The problem: when you stack several of these plans, it's easy to lose track. Miss a payment, and you can get hit with late fees. How to beat it: only use it if you could pay the full price today.",
+   "kind": "big",
+   "title": "COULD YOU PAY IT *TODAY?*",
+   "icon": "💳"
+  },
+  {
+   "t": "And there's a psychological effect too: spreading out a payment makes each piece feel smaller, so it's easier to add more to the cart.",
+   "kind": "big",
+   "title": "SMALL PIECES, *BIGGER* CART",
+   "icon": "🛒"
+  },
+  {
+   "t": "Trick number six.",
+   "kind": "chapter",
+   "label": "TRICK #6",
+   "title": "THE FREE SHIPPING *TRAP*"
+  },
+  {
+   "t": "Your cart is thirty dollars. Free shipping starts at thirty-five. So you add a twelve dollar item you didn't need… to save six dollars on shipping.",
+   "kind": "receipt",
+   "title": "YOUR CART",
+   "items": [
+    {
+     "label": "Headphones",
+     "price": "$30.00"
+    },
+    {
+     "label": "Random item",
+     "price": "$12.00",
+     "tag": "bad"
+    },
+    {
+     "label": "Shipping",
+     "price": "FREE"
+    }
+   ],
+   "total": "$42.00"
+  },
+  {
+   "t": "You just spent twelve to save six. How to beat it: if you don't need it, pay the shipping. It's cheaper.",
+   "kind": "big",
+   "title": "SPENT $12 TO SAVE *$6*",
+   "icon": "🤦"
+  },
+  {
+   "t": "Retailers set the free shipping line just above the average order on purpose. That little gap is designed to make you add one more thing.",
+   "kind": "big",
+   "title": "THE GAP IS *ON PURPOSE*",
+   "icon": "📦"
+  },
+  {
+   "t": "And trick number seven.",
+   "kind": "chapter",
+   "label": "TRICK #7",
+   "title": "THE *DOORBUSTER*",
+   "mus": "track:galactic_rap@0"
+  },
+  {
+   "t": "That crazy cheap TV in the ad? Stores often have only a few of them. Some even sell them at a loss. It's called a loss leader.",
+   "kind": "big",
+   "title": "THE *LOSS LEADER*",
+   "sub": "Cheap bait to get you inside",
+   "icon": "📺"
+  },
+  {
+   "t": "Because once you're in the store or on the website, you'll buy the cables, the warranty, the accessories… where the profit really is.",
+   "kind": "receipt",
+   "title": "THE REAL BILL",
+   "items": [
+    {
+     "label": "Doorbuster TV",
+     "price": "$199.00"
+    },
+    {
+     "label": "HDMI cables",
+     "price": "$39.99",
+     "tag": "bad"
+    },
+    {
+     "label": "Extended warranty",
+     "price": "$79.99",
+     "tag": "bad"
+    },
+    {
+     "label": "Wall mount",
+     "price": "$59.99",
+     "tag": "bad"
+    }
+   ],
+   "total": "$378.97"
+  },
+  {
+   "t": "How to beat it: write a list before you go… and buy only what's on it.",
+   "kind": "big",
+   "title": "MAKE A *LIST*",
+   "icon": "📝"
+  },
+  {
+   "t": "Bonus trick: the emails. Early access. VIP deals. Only for you. These messages are designed to make you feel special… and to start the shopping before you've even decided you need anything.",
+   "kind": "chapter",
+   "label": "BONUS TRICK",
+   "title": "\"*ONLY* FOR YOU\""
+  },
+  {
+   "t": "How to beat it: unsubscribe from the stores you don't need, or at least turn off app notifications for the week.",
+   "kind": "big",
+   "title": "TURN OFF *NOTIFICATIONS*",
+   "icon": "🔕"
+  },
+  {
+   "t": "And remember the most important number: not how much you saved… but how much you spent. A fifty percent discount on something you didn't need is not saving. It's spending.",
+   "kind": "big",
+   "title": "SAVING ≠ *SPENDING*",
+   "sub": "50% off something you don't need is still spending",
+   "icon": "💡"
+  },
+  {
+   "t": "So here's your Black Friday cheat sheet. Ignore the was price. Round up. Skip the decoy. Wait twenty-four hours. Only pay later if you could pay now. Pay for shipping. And stick to your list.",
+   "kind": "list",
+   "title": "YOUR *CHEAT SHEET*",
+   "items": [
+    {
+     "label": "Ignore the \"was\" price"
+    },
+    {
+     "label": "Round prices up"
+    },
+    {
+     "label": "Skip the decoy"
+    },
+    {
+     "label": "Wait 24 hours"
+    },
+    {
+     "label": "Pay later = pay now"
+    },
+    {
+     "label": "Pay for shipping"
+    },
+    {
+     "label": "Stick to your list"
+    }
+   ],
+   "mus": "track:hitman@40"
+  },
+  {
+   "t": "Which trick have you fallen for? Be honest, tell me in the comments. And subscribe, because next time I'll show you how companies trick you every single month.",
+   "kind": "outro",
+   "title": "WHICH ONE *GOT YOU?*",
+   "sub": "Tell me in the comments 👇"
+  }
+ ]
+}

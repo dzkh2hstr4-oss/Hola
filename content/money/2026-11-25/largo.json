@@ -1,0 +1,803 @@
+{
+ "vertical": false,
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "HOW STORES *TRICK* YOU ON BLACK FRIDAY",
+   "icon": "🛍️",
+   "mus": "track:hitman@1",
+   "s": 0.0,
+   "e": 9.46
+  },
+  {
+   "kind": "stat",
+   "value": 11.8,
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B",
+   "label": "Black Friday 2025 · US online spending",
+   "title": "IN *ONE DAY*",
+   "source": "Adobe Analytics",
+   "s": 9.46,
+   "e": 13.58
+  },
+  {
+   "kind": "stat",
+   "value": 202.9,
+   "decimals": 1,
+   "suffix": "M",
+   "label": "Thanksgiving weekend 2025",
+   "title": "SHOPPERS",
+   "source": "National Retail Federation",
+   "s": 13.58,
+   "e": 19.62
+  },
+  {
+   "kind": "list",
+   "title": "TODAY: *7 TRICKS*",
+   "items": [
+    {
+     "label": "Fake \"was\" prices"
+    },
+    {
+     "label": "Charm pricing"
+    },
+    {
+     "label": "The decoy"
+    },
+    {
+     "label": "Countdown timers"
+    },
+    {
+     "label": "Buy now, pay later"
+    },
+    {
+     "label": "Free shipping traps"
+    },
+    {
+     "label": "Doorbusters"
+    }
+   ],
+   "s": 19.62,
+   "e": 26.18
+  },
+  {
+   "kind": "big",
+   "title": "WHY *\"BLACK\"* FRIDAY?",
+   "icon": "🤔",
+   "s": 26.18,
+   "e": 35.99
+  },
+  {
+   "kind": "big",
+   "title": "IT STARTED WITH *THE POLICE*",
+   "sub": "Philadelphia, 1950s–60s",
+   "icon": "🚓",
+   "s": 35.99,
+   "e": 46.5
+  },
+  {
+   "kind": "big",
+   "title": "NOW, THE *TRICKS*",
+   "icon": "👇",
+   "s": 46.5,
+   "e": 54.95
+  },
+  {
+   "kind": "chapter",
+   "label": "TRICK #1",
+   "title": "THE FAKE *\"WAS\"* PRICE",
+   "mus": "track:volatile_reaction@17",
+   "s": 54.95,
+   "e": 56.47
+  },
+  {
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Was",
+     "price": "$800",
+     "tag": "REALLY?"
+    },
+    {
+     "label": "Now",
+     "price": "$499"
+    }
+   ],
+   "pick": 1,
+   "s": 56.47,
+   "e": 62.77
+  },
+  {
+   "kind": "big",
+   "title": "THE *ANCHOR*",
+   "sub": "Your brain compares, not calculates",
+   "icon": "⚓",
+   "s": 62.77,
+   "e": 69.17
+  },
+  {
+   "kind": "big",
+   "title": "ANCHORING *BIAS*",
+   "sub": "Tversky & Kahneman, 1974",
+   "icon": "🧠",
+   "s": 69.17,
+   "e": 78.82
+  },
+  {
+   "kind": "stat",
+   "value": 92,
+   "suffix": "%",
+   "label": "Black Friday deals",
+   "title": "SAME PRICE OR *CHEAPER* LATER",
+   "source": "Which?, 2023",
+   "s": 78.82,
+   "e": 89.31
+  },
+  {
+   "kind": "bars",
+   "title": "CHEAPEST ON *BLACK FRIDAY*",
+   "items": [
+    {
+     "label": "Cheapest on the day",
+     "value": 2,
+     "display": "≈2%"
+    },
+    {
+     "label": "Cheaper or same another day",
+     "value": 98,
+     "display": "≈98%"
+    }
+   ],
+   "pick": 0,
+   "source": "Which?",
+   "s": 89.31,
+   "e": 96.43
+  },
+  {
+   "kind": "list",
+   "title": "HOW TO *BEAT IT*",
+   "items": [
+    {
+     "label": "Ignore the crossed-out price"
+    },
+    {
+     "label": "Check price history (Keepa, CamelCamelCamel)"
+    }
+   ],
+   "s": 96.43,
+   "e": 102.87
+  },
+  {
+   "kind": "chapter",
+   "label": "TRICK #2",
+   "title": "CHARM *PRICING*",
+   "s": 102.87,
+   "e": 104.53
+  },
+  {
+   "kind": "big",
+   "title": "$9.99 FEELS LIKE *$9*",
+   "icon": "🏷️",
+   "s": 104.53,
+   "e": 110.92
+  },
+  {
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Feels like",
+     "price": "$19K"
+    },
+    {
+     "label": "Feels like",
+     "price": "$20K"
+    }
+   ],
+   "title": "THE *LEFT-DIGIT* EFFECT",
+   "s": 110.92,
+   "e": 121.21
+  },
+  {
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Price A",
+     "price": "$34"
+    },
+    {
+     "label": "Price B",
+     "price": "$39",
+     "tag": "SOLD MOST"
+    },
+    {
+     "label": "Price C",
+     "price": "$44"
+    }
+   ],
+   "pick": 1,
+   "source": "Anderson & Simester, 2003",
+   "s": 121.21,
+   "e": 132.56
+  },
+  {
+   "kind": "big",
+   "title": "ROUND IT *UP*",
+   "sub": "$99.99 = $100",
+   "s": 132.56,
+   "e": 138.47
+  },
+  {
+   "kind": "chapter",
+   "label": "TRICK #3",
+   "title": "THE *DECOY*",
+   "mus": "track:funkorama@9",
+   "s": 138.47,
+   "e": 140.17
+  },
+  {
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Online",
+     "price": "$59"
+    },
+    {
+     "label": "Print",
+     "price": "$125"
+    },
+    {
+     "label": "Print + Online",
+     "price": "$125"
+    }
+   ],
+   "source": "Dan Ariely, Predictably Irrational",
+   "s": 140.17,
+   "e": 150.56
+  },
+  {
+   "kind": "bars",
+   "title": "WHO CHOSE THE *COMBO*",
+   "items": [
+    {
+     "label": "With the decoy",
+     "value": 84,
+     "display": "84%"
+    },
+    {
+     "label": "Without the decoy",
+     "value": 32,
+     "display": "32%"
+    }
+   ],
+   "pick": 0,
+   "source": "Dan Ariely, Predictably Irrational",
+   "s": 150.56,
+   "e": 157.5
+  },
+  {
+   "kind": "big",
+   "title": "IGNORE THE *MIDDLE*",
+   "icon": "🔍",
+   "s": 157.5,
+   "e": 168.43
+  },
+  {
+   "kind": "list",
+   "title": "DECOYS ARE *EVERYWHERE*",
+   "items": [
+    {
+     "label": "Popcorn sizes"
+    },
+    {
+     "label": "Phone storage"
+    },
+    {
+     "label": "Product bundles"
+    }
+   ],
+   "s": 168.43,
+   "e": 177.21
+  },
+  {
+   "kind": "chapter",
+   "label": "TRICK #4",
+   "title": "THE *COUNTDOWN*",
+   "s": 177.21,
+   "e": 178.92
+  },
+  {
+   "kind": "timer",
+   "label": "Hurry! Deal ends in",
+   "title": "ONLY *2 LEFT*",
+   "s": 178.92,
+   "e": 184.39
+  },
+  {
+   "kind": "big",
+   "title": "FEAR OF *MISSING OUT*",
+   "icon": "⏳",
+   "s": 184.39,
+   "e": 193.2
+  },
+  {
+   "kind": "bars",
+   "title": "SAME COOKIES, *DIFFERENT* VALUE",
+   "items": [
+    {
+     "label": "Jar with 10 cookies",
+     "value": 40,
+     "display": "less wanted"
+    },
+    {
+     "label": "Jar with 2 cookies",
+     "value": 90,
+     "display": "more wanted"
+    }
+   ],
+   "pick": 1,
+   "source": "Worchel, Lee & Adewole, 1975",
+   "icon": "🍪",
+   "s": 193.2,
+   "e": 203.5
+  },
+  {
+   "kind": "list",
+   "title": "HOW TO *BEAT IT*",
+   "items": [
+    {
+     "label": "Deals come back"
+    },
+    {
+     "label": "Wait 24 hours before buying"
+    }
+   ],
+   "s": 203.5,
+   "e": 212.5
+  },
+  {
+   "kind": "chapter",
+   "label": "TRICK #5",
+   "title": "BUY NOW, *PAY LATER*",
+   "mus": "track:cut_and_run@0",
+   "s": 212.5,
+   "e": 214.31
+  },
+  {
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Today",
+     "price": "$100"
+    },
+    {
+     "label": "4 payments",
+     "price": "$25",
+     "tag": "SAME $100"
+    }
+   ],
+   "pick": 1,
+   "s": 214.31,
+   "e": 220.31
+  },
+  {
+   "kind": "stat",
+   "value": 1.03,
+   "decimals": 2,
+   "prefix": "$",
+   "suffix": "B",
+   "label": "Cyber Monday 2025 · Buy now, pay later",
+   "title": "IN *ONE DAY*",
+   "source": "Adobe Analytics",
+   "s": 220.31,
+   "e": 227.83
+  },
+  {
+   "kind": "big",
+   "title": "COULD YOU PAY IT *TODAY?*",
+   "icon": "💳",
+   "s": 227.83,
+   "e": 238.18
+  },
+  {
+   "kind": "big",
+   "title": "SMALL PIECES, *BIGGER* CART",
+   "icon": "🛒",
+   "s": 238.18,
+   "e": 244.95
+  },
+  {
+   "kind": "chapter",
+   "label": "TRICK #6",
+   "title": "THE FREE SHIPPING *TRAP*",
+   "s": 244.95,
+   "e": 246.8
+  },
+  {
+   "kind": "receipt",
+   "title": "YOUR CART",
+   "items": [
+    {
+     "label": "Headphones",
+     "price": "$30.00"
+    },
+    {
+     "label": "Random item",
+     "price": "$12.00",
+     "tag": "bad"
+    },
+    {
+     "label": "Shipping",
+     "price": "FREE"
+    }
+   ],
+   "total": "$42.00",
+   "s": 246.8,
+   "e": 254.83
+  },
+  {
+   "kind": "big",
+   "title": "SPENT $12 TO SAVE *$6*",
+   "icon": "🤦",
+   "s": 254.83,
+   "e": 260.69
+  },
+  {
+   "kind": "big",
+   "title": "THE GAP IS *ON PURPOSE*",
+   "icon": "📦",
+   "s": 260.69,
+   "e": 267.84
+  },
+  {
+   "kind": "chapter",
+   "label": "TRICK #7",
+   "title": "THE *DOORBUSTER*",
+   "mus": "track:galactic_rap@0",
+   "s": 267.84,
+   "e": 269.63
+  },
+  {
+   "kind": "big",
+   "title": "THE *LOSS LEADER*",
+   "sub": "Cheap bait to get you inside",
+   "icon": "📺",
+   "s": 269.63,
+   "e": 276.92
+  },
+  {
+   "kind": "receipt",
+   "title": "THE REAL BILL",
+   "items": [
+    {
+     "label": "Doorbuster TV",
+     "price": "$199.00"
+    },
+    {
+     "label": "HDMI cables",
+     "price": "$39.99",
+     "tag": "bad"
+    },
+    {
+     "label": "Extended warranty",
+     "price": "$79.99",
+     "tag": "bad"
+    },
+    {
+     "label": "Wall mount",
+     "price": "$59.99",
+     "tag": "bad"
+    }
+   ],
+   "total": "$378.97",
+   "s": 276.92,
+   "e": 283.93
+  },
+  {
+   "kind": "big",
+   "title": "MAKE A *LIST*",
+   "icon": "📝",
+   "s": 283.93,
+   "e": 287.58
+  },
+  {
+   "kind": "chapter",
+   "label": "BONUS TRICK",
+   "title": "\"*ONLY* FOR YOU\"",
+   "s": 287.58,
+   "e": 299.79
+  },
+  {
+   "kind": "big",
+   "title": "TURN OFF *NOTIFICATIONS*",
+   "icon": "🔕",
+   "s": 299.79,
+   "e": 305.54
+  },
+  {
+   "kind": "big",
+   "title": "SAVING ≠ *SPENDING*",
+   "sub": "50% off something you don't need is still spending",
+   "icon": "💡",
+   "s": 305.54,
+   "e": 314.51
+  },
+  {
+   "kind": "list",
+   "title": "YOUR *CHEAT SHEET*",
+   "items": [
+    {
+     "label": "Ignore the \"was\" price"
+    },
+    {
+     "label": "Round prices up"
+    },
+    {
+     "label": "Skip the decoy"
+    },
+    {
+     "label": "Wait 24 hours"
+    },
+    {
+     "label": "Pay later = pay now"
+    },
+    {
+     "label": "Pay for shipping"
+    },
+    {
+     "label": "Stick to your list"
+    }
+   ],
+   "mus": "track:hitman@40",
+   "s": 314.51,
+   "e": 325.9
+  },
+  {
+   "kind": "outro",
+   "title": "WHICH ONE *GOT YOU?*",
+   "sub": "Tell me in the comments 👇",
+   "s": 325.9,
+   "e": 335.41
+  }
+ ],
+ "captions": [
+  {
+   "t": "Last Black Friday, Americans spent eleven point eight billion dollars online. In one day. And a huge part of that money was spent because of tricks… that you never noticed.",
+   "s": 0.05,
+   "e": 9.31
+  },
+  {
+   "t": "Eleven point eight billion dollars. A new record, according to Adobe.",
+   "s": 9.51,
+   "e": 13.43
+  },
+  {
+   "t": "And over the whole Thanksgiving weekend, almost two hundred and three million people went shopping. Also a record.",
+   "s": 13.63,
+   "e": 19.47
+  },
+  {
+   "t": "Stores know exactly how your brain works. So today, I'll show you the seven tricks they use… and how to beat every single one.",
+   "s": 19.67,
+   "e": 26.03
+  },
+  {
+   "t": "But first, a quick story. Why is it even called Black Friday? Many people think it's because stores finally go from losing money, in the red, to making money, in the black.",
+   "s": 26.23,
+   "e": 35.84
+  },
+  {
+   "t": "That's a nice story, but the name actually started with the police in Philadelphia in the nineteen fifties and sixties. They called it Black Friday because of the traffic jams and chaos the day after Thanksgiving.",
+   "s": 36.04,
+   "e": 46.35
+  },
+  {
+   "t": "Stores tried to rebrand it as Big Friday. It didn't work. And today, it's the biggest shopping event of the year. Okay. Let's get into the tricks.",
+   "s": 46.55,
+   "e": 54.8
+  },
+  {
+   "t": "Trick number one.",
+   "s": 55.3,
+   "e": 56.02
+  },
+  {
+   "t": "You see a TV: was eight hundred, now four ninety-nine. Wow. Except… was it ever really eight hundred?",
+   "s": 56.52,
+   "e": 62.62
+  },
+  {
+   "t": "That big crossed-out number is called an anchor. Your brain compares the new price to it, so anything below feels like a win.",
+   "s": 62.82,
+   "e": 69.02
+  },
+  {
+   "t": "Psychologists Amos Tversky and Daniel Kahneman showed how powerful anchors are back in the nineteen seventies. Even random numbers can change how much people guess something is worth.",
+   "s": 69.22,
+   "e": 78.67
+  },
+  {
+   "t": "The British consumer group Which? tracked Black Friday deals for months before and after the sale. In their twenty twenty-three study, ninety-two percent were the same price or cheaper at other times of the year.",
+   "s": 78.87,
+   "e": 89.16
+  },
+  {
+   "t": "And in another Which? study, only about two percent of discounted products were actually at their cheapest price on Black Friday itself.",
+   "s": 89.36,
+   "e": 96.28
+  },
+  {
+   "t": "How to beat it: ignore the was price completely. Check the price history with free tools like Keepa or CamelCamelCamel.",
+   "s": 96.48,
+   "e": 102.72
+  },
+  {
+   "t": "Trick number two.",
+   "s": 103.22,
+   "e": 104.08
+  },
+  {
+   "t": "Why do prices end in ninety-nine? Because we read from left to right. Nine ninety-nine feels like nine. Not ten.",
+   "s": 104.58,
+   "e": 110.77
+  },
+  {
+   "t": "It's called the left-digit effect. The first digit grabs most of your attention. That's why a car at nineteen thousand nine hundred feels much cheaper than twenty thousand, even though the difference is tiny.",
+   "s": 110.97,
+   "e": 121.06
+  },
+  {
+   "t": "Researchers from MIT and the University of Chicago tested the same item at thirty-four, thirty-nine and forty-four dollars. The thirty-nine dollar version sold the most. More than the cheaper one.",
+   "s": 121.26,
+   "e": 132.41
+  },
+  {
+   "t": "How to beat it: round every price up in your head. Ninety-nine ninety-nine is one hundred dollars. Period.",
+   "s": 132.61,
+   "e": 138.32
+  },
+  {
+   "t": "Trick number three.",
+   "s": 138.82,
+   "e": 139.72
+  },
+  {
+   "t": "Behavioral economist Dan Ariely showed students three subscriptions. Online for fifty-nine dollars. Print for one twenty-five. And print plus online… also one twenty-five.",
+   "s": 140.22,
+   "e": 150.41
+  },
+  {
+   "t": "With that useless print-only option, eighty-four percent picked the expensive combo. Without it, only thirty-two percent did.",
+   "s": 150.61,
+   "e": 157.35
+  },
+  {
+   "t": "On Black Friday you'll see it everywhere: small, medium and large, where the medium only exists to make the large look smart. How to beat it: ask which option you would choose if the middle one didn't exist.",
+   "s": 157.55,
+   "e": 168.28
+  },
+  {
+   "t": "You'll see the same thing with bundles, popcorn sizes and phone storage. The option right below the most expensive one is there to make the most expensive one feel like a deal.",
+   "s": 168.48,
+   "e": 177.06
+  },
+  {
+   "t": "Trick number four.",
+   "s": 177.56,
+   "e": 178.47
+  },
+  {
+   "t": "Deal ends in fifty-nine minutes. Only two left in stock. Twelve people are looking at this right now.",
+   "s": 178.97,
+   "e": 184.24
+  },
+  {
+   "t": "This is scarcity. When something feels rare or about to disappear, we stop thinking and start grabbing. And many of these timers simply reset when they hit zero.",
+   "s": 184.44,
+   "e": 193.05
+  },
+  {
+   "t": "Back in nineteen seventy-five, researchers gave people a jar with ten cookies and a jar with just two. The cookies from the almost empty jar were rated as more desirable. Same cookies.",
+   "s": 193.25,
+   "e": 203.35
+  },
+  {
+   "t": "How to beat it: if a deal disappears, another one will come. Black Friday deals keep coming back for weeks. Use the twenty-four hour rule for anything that isn't essential.",
+   "s": 203.55,
+   "e": 212.35
+  },
+  {
+   "t": "Trick number five.",
+   "s": 212.85,
+   "e": 213.86
+  },
+  {
+   "t": "Four easy payments of twenty-five dollars sounds way cheaper than one hundred dollars. But it's the same hundred dollars.",
+   "s": 214.36,
+   "e": 220.16
+  },
+  {
+   "t": "And people love it. On Cyber Monday twenty twenty-five, buy now pay later drove over one billion dollars in online spending in a single day.",
+   "s": 220.36,
+   "e": 227.68
+  },
+  {
+   "t": "The problem: when you stack several of these plans, it's easy to lose track. Miss a payment, and you can get hit with late fees. How to beat it: only use it if you could pay the full price today.",
+   "s": 227.88,
+   "e": 238.03
+  },
+  {
+   "t": "And there's a psychological effect too: spreading out a payment makes each piece feel smaller, so it's easier to add more to the cart.",
+   "s": 238.23,
+   "e": 244.8
+  },
+  {
+   "t": "Trick number six.",
+   "s": 245.3,
+   "e": 246.35
+  },
+  {
+   "t": "Your cart is thirty dollars. Free shipping starts at thirty-five. So you add a twelve dollar item you didn't need… to save six dollars on shipping.",
+   "s": 246.85,
+   "e": 254.68
+  },
+  {
+   "t": "You just spent twelve to save six. How to beat it: if you don't need it, pay the shipping. It's cheaper.",
+   "s": 254.88,
+   "e": 260.54
+  },
+  {
+   "t": "Retailers set the free shipping line just above the average order on purpose. That little gap is designed to make you add one more thing.",
+   "s": 260.74,
+   "e": 267.69
+  },
+  {
+   "t": "And trick number seven.",
+   "s": 268.19,
+   "e": 269.18
+  },
+  {
+   "t": "That crazy cheap TV in the ad? Stores often have only a few of them. Some even sell them at a loss. It's called a loss leader.",
+   "s": 269.68,
+   "e": 276.77
+  },
+  {
+   "t": "Because once you're in the store or on the website, you'll buy the cables, the warranty, the accessories… where the profit really is.",
+   "s": 276.97,
+   "e": 283.78
+  },
+  {
+   "t": "How to beat it: write a list before you go… and buy only what's on it.",
+   "s": 283.98,
+   "e": 287.43
+  },
+  {
+   "t": "Bonus trick: the emails. Early access. VIP deals. Only for you. These messages are designed to make you feel special… and to start the shopping before you've even decided you need anything.",
+   "s": 287.93,
+   "e": 299.34
+  },
+  {
+   "t": "How to beat it: unsubscribe from the stores you don't need, or at least turn off app notifications for the week.",
+   "s": 299.84,
+   "e": 305.39
+  },
+  {
+   "t": "And remember the most important number: not how much you saved… but how much you spent. A fifty percent discount on something you didn't need is not saving. It's spending.",
+   "s": 305.59,
+   "e": 314.36
+  },
+  {
+   "t": "So here's your Black Friday cheat sheet. Ignore the was price. Round up. Skip the decoy. Wait twenty-four hours. Only pay later if you could pay now. Pay for shipping. And stick to your list.",
+   "s": 314.56,
+   "e": 325.75
+  },
+  {
+   "t": "Which trick have you fallen for? Be honest, tell me in the comments. And subscribe, because next time I'll show you how companies trick you every single month.",
+   "s": 325.95,
+   "e": 334.06
+  }
+ ],
+ "voice": "money/audio/m-2026-11-25-largo-voz.wav",
+ "total": 335.41,
+ "brand": "MONEY DECODED"
+}

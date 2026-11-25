@@ -1,0 +1,106 @@
+{
+ "vertical": true,
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "FAKE *DEALS?*",
+   "icon": "🛍️",
+   "s": 0.0,
+   "e": 2.82
+  },
+  {
+   "kind": "big",
+   "title": "THEY TRACKED *THE PRICES*",
+   "sub": "months before and after",
+   "s": 2.82,
+   "e": 8.01
+  },
+  {
+   "kind": "stat",
+   "value": 92,
+   "suffix": "%",
+   "title": "SAME PRICE OR *CHEAPER* LATER",
+   "source": "Which?, 2023",
+   "s": 8.01,
+   "e": 14.1
+  },
+  {
+   "kind": "bars",
+   "title": "CHEAPEST ON *BLACK FRIDAY*",
+   "items": [
+    {
+     "label": "Cheapest on the day",
+     "value": 2,
+     "display": "2%"
+    },
+    {
+     "label": "Not the cheapest",
+     "value": 98,
+     "display": "98%"
+    }
+   ],
+   "pick": 0,
+   "source": "Which?, 2023",
+   "s": 14.1,
+   "e": 18.35
+  },
+  {
+   "kind": "list",
+   "title": "BEFORE YOU *BUY*",
+   "items": [
+    {
+     "label": "Check the price history"
+    },
+    {
+     "label": "Use Keepa or CamelCamelCamel"
+    },
+    {
+     "label": "Ignore the \"was\" price"
+    }
+   ],
+   "s": 18.35,
+   "e": 24.5
+  },
+  {
+   "kind": "outro",
+   "title": "SAVE THIS FOR *FRIDAY*",
+   "s": 24.5,
+   "e": 28.19
+  }
+ ],
+ "captions": [
+  {
+   "t": "Most Black Friday deals… aren't actually deals.",
+   "s": 0.05,
+   "e": 2.67
+  },
+  {
+   "t": "The UK consumer group Which? tracked Black Friday prices for months before and after the sale.",
+   "s": 2.87,
+   "e": 7.86
+  },
+  {
+   "t": "In their twenty twenty-three study, ninety-two percent of deals were the same price, or cheaper, at other times of the year.",
+   "s": 8.06,
+   "e": 13.95
+  },
+  {
+   "t": "And only about two percent were actually at their lowest price on Black Friday itself.",
+   "s": 14.15,
+   "e": 18.2
+  },
+  {
+   "t": "So before you buy, check the price history. Free trackers like Keepa or CamelCamelCamel show you if that deal is real.",
+   "s": 18.4,
+   "e": 24.35
+  },
+  {
+   "t": "Save this for Friday. And follow so you don't get played.",
+   "s": 24.55,
+   "e": 27.44
+  }
+ ],
+ "voice": "money/audio/m-2026-11-25-s3-voz.wav",
+ "total": 28.19,
+ "brand": "MONEY DECODED"
+}

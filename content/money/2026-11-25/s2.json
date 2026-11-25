@@ -1,0 +1,134 @@
+{
+ "vertical": true,
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "THE *USELESS* OPTION",
+   "icon": "🪤",
+   "s": 0.0,
+   "e": 3.66
+  },
+  {
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Online",
+     "price": "$59"
+    },
+    {
+     "label": "Print",
+     "price": "$125"
+    },
+    {
+     "label": "Print + Online",
+     "price": "$125"
+    }
+   ],
+   "s": 3.66,
+   "e": 13.82
+  },
+  {
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Online",
+     "price": "$59"
+    },
+    {
+     "label": "Print",
+     "price": "$125",
+     "tag": "DECOY"
+    },
+    {
+     "label": "Print + Online",
+     "price": "$125"
+    }
+   ],
+   "pick": 1,
+   "s": 13.82,
+   "e": 17.39
+  },
+  {
+   "kind": "stat",
+   "value": 84,
+   "suffix": "%",
+   "title": "CHOSE THE *$125* COMBO",
+   "source": "Dan Ariely, Predictably Irrational",
+   "s": 17.39,
+   "e": 23.6
+  },
+  {
+   "kind": "bars",
+   "title": "WHO CHOSE THE *COMBO*",
+   "items": [
+    {
+     "label": "With decoy",
+     "value": 84,
+     "display": "84%"
+    },
+    {
+     "label": "Without decoy",
+     "value": 32,
+     "display": "32%"
+    }
+   ],
+   "pick": 0,
+   "source": "Dan Ariely, Predictably Irrational",
+   "s": 23.6,
+   "e": 28.33
+  },
+  {
+   "kind": "big",
+   "title": "SPOT THE *DECOY*",
+   "icon": "🔍",
+   "s": 28.33,
+   "e": 32.78
+  },
+  {
+   "kind": "outro",
+   "title": "STAY *SMART*",
+   "s": 32.78,
+   "e": 35.21
+  }
+ ],
+ "captions": [
+  {
+   "t": "This one useless option makes you spend more money. And you've fallen for it.",
+   "s": 0.05,
+   "e": 3.51
+  },
+  {
+   "t": "A magazine offered three subscriptions. Online only, fifty-nine dollars. Print only, one hundred twenty-five. Print plus online… also one hundred twenty-five.",
+   "s": 3.71,
+   "e": 13.67
+  },
+  {
+   "t": "Nobody picks print only. That's the point. It's a decoy.",
+   "s": 13.87,
+   "e": 17.24
+  },
+  {
+   "t": "When behavioral economist Dan Ariely tested it on MIT students, eighty-four percent chose the expensive combo.",
+   "s": 17.44,
+   "e": 23.45
+  },
+  {
+   "t": "Remove the decoy… and only thirty-two percent did. Most switched to the cheap option.",
+   "s": 23.65,
+   "e": 28.18
+  },
+  {
+   "t": "Next time you see a weird middle option, ask yourself: who is that option really for?",
+   "s": 28.38,
+   "e": 32.63
+  },
+  {
+   "t": "Follow for more money psychology.",
+   "s": 32.83,
+   "e": 34.46
+  }
+ ],
+ "voice": "money/audio/m-2026-11-25-s2-voz.wav",
+ "total": 35.21,
+ "brand": "MONEY DECODED"
+}

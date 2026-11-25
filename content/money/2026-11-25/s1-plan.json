@@ -1,0 +1,74 @@
+{
+ "vertical": true,
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "pitch": "+0Hz",
+ "mic": true,
+ "brand": "MONEY DECODED",
+ "music": "track:funkorama@9",
+ "lines": [
+  {
+   "t": "Why does everything cost nine ninety-nine… and not ten dollars?",
+   "kind": "hook",
+   "title": "WHY *$9.99?*",
+   "icon": "🏷️"
+  },
+  {
+   "t": "Because your brain reads prices from left to right. Nine ninety-nine feels like nine dollars. Not ten.",
+   "kind": "big",
+   "title": "YOUR BRAIN SEES *$9*",
+   "sub": "not $10"
+  },
+  {
+   "t": "Researchers from MIT and the University of Chicago tested the same item at three prices: thirty-four, thirty-nine and forty-four dollars.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Price A",
+     "price": "$34"
+    },
+    {
+     "label": "Price B",
+     "price": "$39"
+    },
+    {
+     "label": "Price C",
+     "price": "$44"
+    }
+   ],
+   "source": "Anderson & Simester, 2003"
+  },
+  {
+   "t": "Which one sold the most? The thirty-nine dollar one. It beat both… even the cheaper price.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Price A",
+     "price": "$34"
+    },
+    {
+     "label": "Price B",
+     "price": "$39",
+     "tag": "BEST SELLER"
+    },
+    {
+     "label": "Price C",
+     "price": "$44"
+    }
+   ],
+   "pick": 1,
+   "source": "Anderson & Simester, 2003"
+  },
+  {
+   "t": "It's called charm pricing. And this Black Friday, it's on almost every tag you'll see.",
+   "kind": "big",
+   "title": "CHARM *PRICING*",
+   "icon": "🧠"
+  },
+  {
+   "t": "Follow for more money tricks stores don't want you to notice.",
+   "kind": "outro",
+   "title": "DON'T GET *TRICKED*"
+  }
+ ]
+}
