@@ -1,0 +1,133 @@
+{
+ "rate": "+12%",
+ "pitch": "+4Hz",
+ "mic": true,
+ "music": "track:mistake_the_getaway@30",
+ "lines": [
+  {
+   "t": "Los tiroteos de GTA 6 parecen una película.",
+   "imgs": [
+    "v:d_tiro2"
+   ],
+   "title": [
+    [
+     "PARECE",
+     "UNA"
+    ],
+    [
+     "*PELÍCULA*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "clipFrom": 14,
+   "hook": true
+  },
+  {
+   "t": "Jason avanza por los pasillos, cubriéndose en cada esquina.",
+   "imgs": [
+    "v:d_tiro1"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 6
+  },
+  {
+   "t": "El polvo, las paredes rotas, la luz entrando por las puertas…",
+   "imgs": [
+    "v:d_tiro1"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 9
+  },
+  {
+   "t": "Lucía y Jason se cubren el uno al otro, como un equipo.",
+   "imgs": [
+    "v:d_tiro2"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 20
+  },
+  {
+   "t": "Y en las oficinas, los disparos rompen cristales y pantallas.",
+   "imgs": [
+    "v:d_tiro3"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 14
+  },
+  {
+   "t": "Todo pasa en primera línea, sin cortes, como en una peli de acción.",
+   "imgs": [
+    "v:d_tiro2"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 9
+  },
+  {
+   "t": "¿Qué prefieres: entrar a lo loco o en sigilo? ¡Comenta!",
+   "imgs": [
+    "v:d_tiro2"
+   ],
+   "title": [
+    [
+     "¿LOCO",
+     "O"
+    ],
+    [
+     "*SIGILO*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.8,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 22,
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

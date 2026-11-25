@@ -19,6 +19,11 @@
 | 23-nov-2026 | Llegar a Vice City | POV: acabas de llegar | d_aeropuerto, d_coche2, a_mar, a_playa, d_noche |
 | 23-nov-2026 | Vice City de noche | Es otro juego | d_torre, d_callejera, d_fiesta, d_noche |
 | 23-nov-2026 | Las vistas más bonitas | Pon esto a pantalla completa | a_paracaidas, aerial, leonida_keys_07, skyline_dusk |
+| 25-nov-2026 | Sinopsis de la historia | Si no sabes de qué va GTA 6… | img jason_and_lucia_*, d_lucia |
+| 25-nov-2026 | Borrar pruebas (coche ardiendo, furgoneta) | Así se borran las pruebas | d_parking |
+| 25-nov-2026 | Raúl Bautista | Si este hombre te ofrece trabajo… | img raul_bautista_*, d_raul |
+| 25-nov-2026 | Tiroteos | Parecen una película | d_tiro1, d_tiro2, d_tiro3 |
+| 25-nov-2026 | Real Dimez | Las raperas más locas | img real_dimez_*, a_disco |
 
 ## Vídeos largos
 | Fecha | Tema | Formato |

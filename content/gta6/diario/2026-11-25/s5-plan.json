@@ -1,0 +1,126 @@
+{
+ "rate": "+10%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "music": "track:griphop@30",
+ "lines": [
+  {
+   "t": "Estas dos son las raperas más locas de GTA 6.",
+   "imgs": [
+    "real_dimez_04"
+   ],
+   "title": [
+    [
+     "LAS",
+     "RAPERAS",
+     "MÁS"
+    ],
+    [
+     "*LOCAS*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "hook": true
+  },
+  {
+   "t": "Se llaman Real Dimez, y salen en las imágenes oficiales de Rockstar.",
+   "imgs": [
+    "real_dimez_04"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Grabando en el estudio, con los cascos puestos y el micro delante.",
+   "imgs": [
+    "real_dimez_01"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Montando fiesta encima de un coche, en mitad de la calle.",
+   "imgs": [
+    "real_dimez_02"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Y paseando por Vice City como si fueran las dueñas.",
+   "imgs": [
+    "real_dimez_03"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Y las discotecas de la ciudad están llenas de gente con su música.",
+   "imgs": [
+    "v:a_disco"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0.5,
+   "speed": 0.7
+  },
+  {
+   "t": "¿Las escucharías en la radio del juego? ¡Comenta!",
+   "imgs": [
+    "real_dimez_04"
+   ],
+   "title": [
+    [
+     "¿LAS",
+     "*ESCUCHARÍAS*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.6,
+     "v": 0.45
+    }
+   ],
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

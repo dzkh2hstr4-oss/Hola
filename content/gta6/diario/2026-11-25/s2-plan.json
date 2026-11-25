@@ -1,0 +1,135 @@
+{
+ "rate": "+12%",
+ "pitch": "+4Hz",
+ "mic": true,
+ "music": "track:hot_pursuit@40",
+ "lines": [
+  {
+   "t": "Así se borran las pruebas en GTA 6.",
+   "imgs": [
+    "v:d_parking"
+   ],
+   "title": [
+    [
+     "BORRAR",
+     "LAS"
+    ],
+    [
+     "*PRUEBAS*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "clipFrom": 4.5,
+   "hook": true
+  },
+  {
+   "t": "Lucía, con un pañuelo en la cara, en un aparcamiento subterráneo.",
+   "imgs": [
+    "v:d_parking"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0
+  },
+  {
+   "t": "El coche del golpe… ardiendo detrás de ella.",
+   "imgs": [
+    "v:d_parking"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    },
+    {
+     "f": "wyr/sfx/boom.wav",
+     "at": 0.5,
+     "v": 0.4
+    }
+   ],
+   "clipFrom": 4.5
+  },
+  {
+   "t": "Se suben a otra furgoneta, como si nada.",
+   "imgs": [
+    "v:d_parking"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 12
+  },
+  {
+   "t": "Y salen a la calle a plena luz del día, entre palmeras y tráfico normal.",
+   "imgs": [
+    "v:d_parking"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 20
+  },
+  {
+   "t": "Nadie sospecha de una furgoneta cualquiera.",
+   "imgs": [
+    "v:d_parking"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 26
+  },
+  {
+   "t": "¿Tú habrías quemado el coche? ¡Comenta!",
+   "imgs": [
+    "v:d_parking"
+   ],
+   "title": [
+    [
+     "¿LO",
+     "*QUEMARÍAS*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.4,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 5,
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

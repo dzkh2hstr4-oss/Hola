@@ -1,0 +1,126 @@
+{
+ "rate": "+10%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "music": "track:mta@6",
+ "lines": [
+  {
+   "t": "Si este hombre te ofrece trabajo en GTA 6… di que sí.",
+   "imgs": [
+    "raul_bautista_04"
+   ],
+   "title": [
+    [
+     "SI",
+     "TE",
+     "OFRECE"
+    ],
+    [
+     "*TRABAJO*…"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "hook": true
+  },
+  {
+   "t": "Se llama Raúl Bautista. Según Rockstar, es un atracador de bancos con mucha experiencia.",
+   "imgs": [
+    "raul_bautista_01"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Encantador, seguro de sí mismo… y siempre buscando gente con talento.",
+   "imgs": [
+    "raul_bautista_03"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Y en el gameplay real sale con Jason y Lucía… preparando algo dentro del coche.",
+   "imgs": [
+    "v:d_raul"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 17.5
+  },
+  {
+   "t": "Lucía ya se pone el pañuelo en la cara. Esto no pinta a paseo.",
+   "imgs": [
+    "v:d_raul"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 26
+  },
+  {
+   "t": "Conduce, sonríe… y siempre parece tener un plan.",
+   "imgs": [
+    "raul_bautista_02"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "¿Te fiarías de Raúl? ¡Comenta!",
+   "imgs": [
+    "raul_bautista_04"
+   ],
+   "title": [
+    [
+     "¿TE",
+     "*FIARÍAS*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.2,
+     "v": 0.45
+    }
+   ],
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

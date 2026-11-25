@@ -1,0 +1,128 @@
+{
+ "rate": "+10%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "music": "track:private_eye@4",
+ "lines": [
+  {
+   "t": "Si no sabes de qué va GTA 6… mira esto.",
+   "imgs": [
+    "jason_and_lucia_17"
+   ],
+   "title": [
+    [
+     "¿DE",
+     "QUÉ",
+     "VA"
+    ],
+    [
+     "*GTA 6*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "hook": true
+  },
+  {
+   "t": "Jason y Lucía son pareja. Él creció rodeado de estafadores y delincuentes. Ella acaba de salir de la cárcel.",
+   "imgs": [
+    "jason_and_lucia_14"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Juntos empiezan con golpes pequeños: tiendas, atracos rápidos…",
+   "imgs": [
+    "jason_and_lucia_15"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Pero un golpe fácil sale mal… y acaban metidos en una conspiración criminal en pleno Leonida.",
+   "imgs": [
+    "v:d_lucia"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 13
+  },
+  {
+   "t": "Según Rockstar, es la cara más oscura del lugar más soleado de Estados Unidos.",
+   "imgs": [
+    "jason_and_lucia_19"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Y la única forma de salir… es confiar el uno en el otro.",
+   "imgs": [
+    "jason_and_lucia_20"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "¿Tú crees que acaban bien… o mal? ¡Comenta!",
+   "imgs": [
+    "jason_and_lucia_17"
+   ],
+   "title": [
+    [
+     "¿BIEN",
+     "O"
+    ],
+    [
+     "*MAL*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.5,
+     "v": 0.45
+    }
+   ],
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}
