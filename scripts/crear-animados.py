@@ -10,7 +10,7 @@ os.makedirs(OUT, exist_ok=True)
 
 GREY = {"bg": "#c9ccd4", "color": "#1a1d24"}
 MUSIC = [("Hitman", 12), ("Volatile Reaction", 28), ("Movement Proposition", 2), ("Five Armies", 14), ("Crypto", 0),
-         ("Darkest Child", 2), ("Investigations", 0), ("Rocket", 0), ("Cipher", 0), ("Impact Prelude", 78)]
+         ("Darkest Child", 2), ("Investigations", 0), ("Rocket", 0), ("Crypto", 0), ("Impact Prelude", 78)]
 VOICES = ["es-ES-AlvaroNeural", "es-ES-ElviraNeural"]
 
 P = {
