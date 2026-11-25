@@ -41,7 +41,10 @@ Contexto: GTA 6 salió el **19 de noviembre de 2026**. La gente ya está jugando
   `a_` actividades, `c_` el Tacón, `q_` frases de personajes.
 - Imágenes oficiales: `public/gta6/img/*.jpg` (personajes, Vice City, Leonida Keys, Grassrivers, Port Gellhorn, coches `ue_*`).
 - Efectos: `public/wyr/sfx/*.wav`, `public/voz/impacto.wav`, `public/voz/click.wav`.
-- Pistas de música: miami_nights, miami_viceroy, ethernight_club, private_eye, hot_pursuit, mistake_the_getaway,
+- Pistas de música para SHORTS (movidas, empezar en el segundo indicado): hitman@1, volatile_reaction@17, funkorama@9,
+  cut_and_run@0, galactic_rap@0, danger_storm@0, rocket@0, club_diver@3, movement_proposition@2, show_your_moves@15,
+  hep_cats@0, daily_beetle@0, pump@2 (corta). Varía la canción cada día.
+- Pistas de música (para largos): miami_nights, miami_viceroy, ethernight_club, private_eye, hot_pursuit, mistake_the_getaway,
   griphop, mta, voltaic, super_power_cool_dude, i_can_feel_it_coming, exit_the_premises.
 
 ## Cómo hacer un short (ejemplo: `content/gta6/short12-plan.json`)
@@ -60,9 +63,9 @@ d.update(gameVolume=0, sfxGain=0.6, capSize=84, capTop=1500, smooth=True); json.
 EOF
 # 3) banda: [{"s":0,"e":TOTAL,"mood":"track:NOMBRE@SEGUNDO"}] -> $N-banda.json
 python3 scripts/banda.py content/gta6/diario/$D/$N-banda.json public/gta6/music/$D-$N.wav
-# 4) render + mezcla (voz alta, música suave)
+# 4) render + mezcla. El dueño quiere MÚSICA CON MARCHA y bien presente (voz ~9-11 dB por encima): --mv 1.0 --duck 2
 npx remotion render GTA6Short out/gta6/raw/$D-$N.mp4 --props=content/gta6/diario/$D/$N.json --browser-executable=$B --concurrency=1 --offthreadvideo-cache-size-in-bytes=300000000 --log=error
-python3 scripts/mezcla.py --video out/gta6/raw/$D-$N.mp4 --out publicados/gta6/diario/$D/$N.mp4 --music-file public/gta6/music/$D-$N.wav --mv 0.34
+python3 scripts/mezcla.py --video out/gta6/raw/$D-$N.mp4 --out publicados/gta6/diario/$D/$N.mp4 --music-file public/gta6/music/$D-$N.wav --mv 1.0 --duck 2
 ```
 
 Formato del plan de short (cada línea = una escena con voz):

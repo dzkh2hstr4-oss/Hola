@@ -7,7 +7,7 @@ Indicaciones del dueño del canal (después del short del Tacón, que ya está p
 - **Pocos emojis:** como mucho uno de vez en cuando, nunca dos o más a la vez encima del gameplay.
 - Subtítulos de la voz sí, pero más pequeños y en la parte de abajo, sin tapar lo importante.
 - **Animaciones y efectos sí** (cortes con zoom, destellos, transiciones, sonidos), pero sin recargar.
-- Voz alta y clara; música de fondo suave (mezcla de `scripts/mezcla.py`, `--mv 0.28`).
+- Voz alta y clara, pero la música de los shorts tiene que tener MARCHA y oírse bien (canciones movidas, `--mv 1.0 --duck 2`). El dueño dijo que con música suave «es muy aburrido».
 - Gancho directo con el nombre que usa la gente (p. ej. «el Tacón»), sin nombres que no conozca el público.
 
 ## ⚠️ Regla para TODOS los vídeos (largos y shorts): sin audio de Rockstar

@@ -10,6 +10,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--video", required=True); ap.add_argument("--out", required=True)
 ap.add_argument("--gen", default="musica"); ap.add_argument("--seeds", default="3,8,12")
 ap.add_argument("--mv", type=float, default=0.2, help="volumen de la música antes del ducking")
+ap.add_argument("--duck", type=float, default=6, help="cuánto baja la música con la voz (ratio del sidechain; menos = música más presente)")
 ap.add_argument("--seg", type=float, default=150, help="segundos por pista")
 ap.add_argument("--crf", default="21"); ap.add_argument("--maxrate", default="")
 ap.add_argument("--ss", type=float, default=0.0, help="recortar el inicio del vídeo")
@@ -35,7 +36,7 @@ for i, p in enumerate(parts[1:]):
     music = o
 fc = (f"[1:a]atrim=0:{L:.2f},afade=t=in:d=1.5,afade=t=out:st={max(0, L-3):.2f}:d=3,volume={a.mv},aformat=sample_rates=44100:channel_layouts=stereo[m];"
       "[0:a]aformat=sample_rates=44100:channel_layouts=stereo,asplit=2[v][key];"
-      "[m][key]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=400:makeup=1[md];"
+      f"[m][key]sidechaincompress=threshold=0.03:ratio={a.duck:g}:attack=20:release=400:makeup=1[md];"
       "[v][md]amix=inputs=2:normalize=0:duration=first,acompressor=threshold=0.25:ratio=2.5:attack=10:release=200,loudnorm=I=-14:TP=-1.5:LRA=9[out]")
 vargs = ["-c:v","libx264","-crf",a.crf,"-preset","medium"]
 if a.maxrate: vargs += ["-maxrate",a.maxrate,"-bufsize",str(int(a.maxrate[:-1])*2)+a.maxrate[-1]]
