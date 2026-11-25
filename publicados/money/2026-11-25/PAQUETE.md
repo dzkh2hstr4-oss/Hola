@@ -1,5 +1,7 @@
 # Money Decoded — paquete 2026-11-25
 
+Los shorts no necesitan crédito de música (norma de NCS). El largo sí (ya va en su descripción).
+
 Horas recomendadas (hora de España, público de EE. UU.): shorts 15:00, 19:00 y 23:00 · vídeo largo 18:00.
 (Corresponden a mañana, tarde y noche en la costa este de EE. UU.)
 
@@ -7,21 +9,18 @@ Horas recomendadas (hora de España, público de EE. UU.): shorts 15:00, 19:00 y
 **Title:** Why Everything Costs $9.99 (Not $10) #shorts
 **Description:**
 The $9.99 trick stores use on your brain 🧠 Would you fall for it? #money #shorts
-🎵 "Funkorama" Kevin MacLeod (incompetech.com) · CC BY 4.0
 **Download:** https://raw.githubusercontent.com/dzkh2hstr4-oss/Hola/claude/sleepy-ride-dp3vka/publicados/money/2026-11-25/s1.mp4
 
 ## 19:00 — s2.mp4 · The decoy effect
 **Title:** This Useless Option Makes You Spend More #shorts
 **Description:**
 The decoy effect: how one fake option changes what you buy 🪤 #money #psychology
-🎵 "Hitman" Kevin MacLeod (incompetech.com) · CC BY 4.0
 **Download:** https://raw.githubusercontent.com/dzkh2hstr4-oss/Hola/claude/sleepy-ride-dp3vka/publicados/money/2026-11-25/s2.mp4
 
 ## 23:00 — s3.mp4 · Fake Black Friday deals
 **Title:** Most Black Friday Deals Aren't Real Deals #shorts
 **Description:**
 92% of Black Friday "deals" were cheaper or the same price later 🛍️ Save this! #blackfriday
-🎵 "Volatile Reaction" Kevin MacLeod (incompetech.com) · CC BY 4.0
 **Download:** https://raw.githubusercontent.com/dzkh2hstr4-oss/Hola/claude/sleepy-ride-dp3vka/publicados/money/2026-11-25/s3.mp4
 
 ## 18:00 — largo.mp4 · 7 Black Friday tricks
@@ -55,8 +54,13 @@ Which trick got you? Tell me in the comments 👇
 - Tversky & Kahneman (1974), anchoring
 - Worchel, Lee & Adewole (1975), cookie jar scarcity study
 
-🎵 Music: Kevin MacLeod (incompetech.com) · CC BY 4.0 — "Hitman", "Volatile Reaction", "Funkorama", "Cut and Run", "Galactic Rap"
-http://creativecommons.org/licenses/by/4.0/
+🎵 Music provided by NoCopyrightSounds (NCS):
+NIVIRO - Paranormal [NCS Release] · Free Download/Stream: https://ncs.io/paranormal
+Bicycle Ride - I Think She Likes It [NCS Release] · Free Download/Stream: https://ncs.io/ithinkshelikesit
+SAM WAITIN - AFTERMATH [NCS Release] · Free Download/Stream: https://ncs.io/aftermath
+angelrot, s33ya - Costa Brava [NCS Release] · Free Download/Stream: https://ncs.io/costabrava
+Glitch Cat, prodBigMike - once more [NCS Release] · Free Download/Stream: https://ncs.io/oncemore
+Milkoi - LAST TIME [NCS Release] · Free Download/Stream: https://ncs.io/lasttime
 
 This video is for education and entertainment only and is not financial advice.
 

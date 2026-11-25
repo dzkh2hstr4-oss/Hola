@@ -14,9 +14,9 @@ for i, s in enumerate(secs):
     L = s["e"] - s["s"] + (XF if i < len(secs) - 1 else 0.5)
     raw = os.path.join(tmp, f"r{i}.wav"); norm = os.path.join(tmp, f"n{i}.wav")
     m = s["mood"]; seed = str(s.get("seed", i + 1))
-    if m.startswith("track:"):
-        name, _, off = m[6:].partition("@")
-        src = os.path.join(ROOT, "public/gta6/music/inc", name + ".mp3")
+    if m.startswith("track:") or m.startswith("ncs:"):
+        name, _, off = m.split(":", 1)[1].partition("@")
+        src = os.path.join(ROOT, "public/music/ncs" if m.startswith("ncs:") else "public/gta6/music/inc", name + ".mp3")
         cmd = ["ffmpeg","-nostdin","-y","-v","error","-ss",off or "0","-i",src,"-t",f"{L:.2f}","-af","afade=t=in:d=0.6",raw]
     elif m == "chill":
         cmd = ["python3", f"{ROOT}/scripts/musica.py", "--seed", seed, "--seconds", f"{L:.2f}", "--out", raw]

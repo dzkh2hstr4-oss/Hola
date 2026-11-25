@@ -1,0 +1,128 @@
+{
+ "roxbury": {
+  "title": "Roxbury",
+  "artist": "Sevag H",
+  "genre": "Deep House",
+  "mood": "Dark,Running",
+  "bpm": 130,
+  "url": "https://ncs.io/roxbury",
+  "dur": "209.737143"
+ },
+ "ithinkshelikesit": {
+  "title": "I Think She Likes It",
+  "artist": "Bicycle Ride",
+  "genre": "Deep House",
+  "mood": "Dark,Running",
+  "bpm": 131,
+  "url": "https://ncs.io/ithinkshelikesit",
+  "dur": "238.210612"
+ },
+ "whereyouare": {
+  "title": "Where You Are",
+  "artist": "YYVON",
+  "genre": "Electro House",
+  "mood": "Elegant,Suspense",
+  "bpm": 132,
+  "url": "https://ncs.io/whereyouare",
+  "dur": "136.855510"
+ },
+ "paranormal": {
+  "title": "Paranormal",
+  "artist": "NIVIRO",
+  "genre": "Drum & Bass",
+  "mood": "Suspense,Running",
+  "bpm": 174,
+  "url": "https://ncs.io/paranormal",
+  "dur": "160.496327"
+ },
+ "aftermath": {
+  "title": "AFTERMATH",
+  "artist": "SAM WAITIN",
+  "genre": "House",
+  "mood": "Running,Happy",
+  "bpm": 140,
+  "url": "https://ncs.io/aftermath",
+  "dur": "182.465306"
+ },
+ "feeltherush": {
+  "title": "FEEL THE RUSH",
+  "artist": "tonytonychopper999",
+  "genre": "Complextro",
+  "mood": "Elegant,Happy",
+  "bpm": 140,
+  "url": "https://ncs.io/feeltherush",
+  "dur": "171.467755"
+ },
+ "oncemore": {
+  "title": "once more",
+  "artist": "Glitch Cat, prodBigMike",
+  "genre": "Complextro",
+  "mood": "Heavy,Happy",
+  "bpm": 130,
+  "url": "https://ncs.io/oncemore",
+  "dur": "284.342857"
+ },
+ "lasttime": {
+  "title": "LAST TIME",
+  "artist": "Milkoi",
+  "genre": "Glitch Hop",
+  "mood": "Happy,Hopeful",
+  "bpm": 98,
+  "url": "https://ncs.io/lasttime",
+  "dur": "139.937959"
+ },
+ "s_caramel": {
+  "title": "Caramel",
+  "artist": "Sace",
+  "genre": "Alternative Hip-Hop",
+  "mood": "Dreamy,Mysterious",
+  "bpm": 91,
+  "url": "https://ncs.io/s_caramel",
+  "dur": "199.418776"
+ },
+ "costabrava": {
+  "title": "Costa Brava",
+  "artist": "angelrot, s33ya",
+  "genre": "Progressive House",
+  "mood": "Happy,Running",
+  "bpm": 113,
+  "url": "https://ncs.io/costabrava",
+  "dur": "169.952653"
+ },
+ "fightinme": {
+  "title": "Fight In Me",
+  "artist": "Egzod, Lost Sky, Alaina Cross",
+  "genre": "Melodic Dubstep",
+  "mood": "Suspense,Dreamy",
+  "bpm": 145,
+  "url": "https://ncs.io/fightinme",
+  "dur": "192.888000"
+ },
+ "Toujours": {
+  "title": "Toujours",
+  "artist": "P3PPER, Jibaan",
+  "genre": "Trance",
+  "mood": "Running,Euphoric",
+  "bpm": 140,
+  "url": "https://ncs.io/Toujours",
+  "dur": "255.960000"
+ },
+ "RR_Free": {
+  "title": "Free",
+  "artist": "Reece Rosé",
+  "genre": "House",
+  "mood": "Running,Floating",
+  "bpm": 130,
+  "url": "https://ncs.io/RR_Free",
+  "dur": "182.804898"
+ },
+ "nothinglefttolose": {
+  "title": "Nothing Left To Lose",
+  "artist": "Lynxie",
+  "genre": "Speed Garage",
+  "mood": "Running,Glamorous",
+  "bpm": 144,
+  "url": "https://ncs.io/nothinglefttolose",
+  "dur": "163.369796"
+ }
+}
