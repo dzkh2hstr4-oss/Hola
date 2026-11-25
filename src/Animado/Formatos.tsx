@@ -136,7 +136,7 @@ export const Notas: React.FC<{ e: Extract<FormatoEscena, { tipo: "notas" }>; t: 
           <span>Listo</span>
         </div>
         <div style={{ padding: "40px 56px 0" }}>
-          <div style={{ fontFamily, fontWeight: 900, fontSize: 70, color: "#111", lineHeight: 1.05 }}>{e.titulo}</div>
+          <div style={{ fontFamily, fontWeight: 900, fontSize: 88, color: "#111", lineHeight: 1.05 }}>{e.titulo}</div>
           <div style={{ fontFamily, fontWeight: 600, fontSize: 30, color: "#999", margin: "14px 0 30px" }}>hoy</div>
           {e.items.map((it, i) => {
             const at = 14 + (i + 1) * step;
@@ -148,7 +148,7 @@ export const Notas: React.FC<{ e: Extract<FormatoEscena, { tipo: "notas" }>; t: 
                 <div style={{ width: 62, height: 62, minWidth: 62, borderRadius: 31, border: `5px solid ${done ? "#d9a400" : "#bbb"}`, background: done ? "#d9a400" : "transparent", color: "#fff", fontSize: 40, fontWeight: 900, display: "flex", alignItems: "center", justifyContent: "center", fontFamily }}>
                   {done ? "✓" : ""}
                 </div>
-                <div style={{ fontFamily, fontWeight: 800, fontSize: 52, color: "#222", textDecoration: "none" }}>{it.slice(0, n)}</div>
+                <div style={{ fontFamily, fontWeight: 800, fontSize: 64, color: "#222", lineHeight: 1.1 }}>{it.slice(0, n)}</div>
               </div>
             );
           })}
@@ -292,7 +292,7 @@ export const Meme: React.FC<{ e: Extract<FormatoEscena, { tipo: "meme" }>; p: P 
   return (
     <AbsoluteFill style={{ background: "#fff", overflow: "hidden" }}>
       <div style={{ position: "absolute", top: 120, left: 60, right: 60, minHeight: 380, display: "flex", alignItems: "center" }}>
-        <div style={{ fontFamily, fontWeight: 800, fontSize: 70, color: "#111", lineHeight: 1.15 }}>{e.arriba}</div>
+        <div style={{ fontFamily, fontWeight: 800, fontSize: 80, color: "#111", lineHeight: 1.15 }}>{e.arriba}</div>
       </div>
       <div style={{ position: "absolute", top: 560, left: 0, right: 0, bottom: 0, overflow: "hidden", background: "#000" }}>
         <div style={{ width: "100%", height: "100%", transform: `scale(${z})`, filter: frame >= PUNCH ? "contrast(1.25) saturate(1.3)" : "none" }}>
@@ -318,7 +318,7 @@ export const Ticket: React.FC<{ e: Extract<FormatoEscena, { tipo: "ticket" }>; t
   const stamp = spring({ frame: frame - 56, fps, config: { damping: 8 } });
   const btn = spring({ frame: frame - 74, fps, config: { damping: 10 } });
   const row = (a: string, b: string, big = false, strike = false) => (
-    <div style={{ display: "flex", justifyContent: "space-between", fontFamily: "Space Grotesk", fontSize: big ? 66 : 44, color: "#222", margin: "14px 0", fontWeight: big ? 700 : 400 }}>
+    <div style={{ display: "flex", justifyContent: "space-between", fontFamily: "Space Grotesk", fontSize: big ? 78 : 52, color: "#222", margin: "14px 0", fontWeight: big ? 700 : 400 }}>
       <span>{a}</span>
       <span style={{ textDecoration: strike ? "line-through" : "none", color: strike ? "#999" : "#222" }}>{b}</span>
     </div>
