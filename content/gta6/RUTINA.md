@@ -63,9 +63,9 @@ d.update(gameVolume=0, sfxGain=0.6, capSize=84, capTop=1500, smooth=True); json.
 EOF
 # 3) banda: [{"s":0,"e":TOTAL,"mood":"track:NOMBRE@SEGUNDO"}] -> $N-banda.json
 python3 scripts/banda.py content/gta6/diario/$D/$N-banda.json public/gta6/music/$D-$N.wav
-# 4) render + mezcla. El dueño quiere MÚSICA CON MARCHA y bien presente (voz ~9-11 dB por encima): --mv 1.0 --duck 2
+# 4) render + mezcla. El dueño quiere MÚSICA CON MARCHA y bien presente (voz ~9-11 dB por encima): --mv 1.5 --duck 1.5
 npx remotion render GTA6Short out/gta6/raw/$D-$N.mp4 --props=content/gta6/diario/$D/$N.json --browser-executable=$B --concurrency=1 --offthreadvideo-cache-size-in-bytes=300000000 --log=error
-python3 scripts/mezcla.py --video out/gta6/raw/$D-$N.mp4 --out publicados/gta6/diario/$D/$N.mp4 --music-file public/gta6/music/$D-$N.wav --mv 1.0 --duck 2
+python3 scripts/mezcla.py --video out/gta6/raw/$D-$N.mp4 --out publicados/gta6/diario/$D/$N.mp4 --music-file public/gta6/music/$D-$N.wav --mv 1.5 --duck 1.5
 ```
 
 Formato del plan de short (cada línea = una escena con voz):
