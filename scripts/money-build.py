@@ -17,7 +17,7 @@ def dur(f): return float(subprocess.run(["ffprobe","-v","error","-show_entries",
 def silence(p, L): subprocess.run(["ffmpeg","-nostdin","-y","-v","error","-f","lavfi","-i","anullsrc=r=44100:cl=mono","-t",f"{max(L,0.01):.3f}",p],check=True)
 t = 0.0; scenes = []; caps = []; pieces = []; prev = 0.0
 for i, ln in enumerate(plan["lines"]):
-    sc = {k: v for k, v in ln.items() if k not in ("t", "voice", "rate", "pitch", "say")}
+    sc = {k: v for k, v in ln.items() if k not in ("t", "voice", "rate", "pitch", "say", "beats")}
     say = ln.get("say", ln["t"])
     voice = ln.get("voice", plan["voice"]); rate = ln.get("rate", plan["rate"]); pitch = ln.get("pitch", plan.get("pitch", "+0Hz"))
     raw = os.path.join(tmp, f"{i}.mp3"); wav = os.path.join(tmp, f"{i}.wav"); key = os.path.join(tmp, f"{i}.txt")
@@ -38,7 +38,17 @@ for i, ln in enumerate(plan["lines"]):
     p = os.path.join(tmp, f"sil{i}.wav"); silence(p, s - prev); pieces += [p, wav]; prev = s + L
     tail = ln.get("hold", 0.55 if ln.get("kind") == "chapter" else (0.25 if re.search(r"[.?!…]$", ln["t"]) else 0.1))
     e = s + L + tail
-    sc.update(s=round(t, 2), e=round(e, 2)); scenes.append(sc)
+    if ln.get("beats"):
+        bs = ln["beats"]; ws = [b.get("w", 1) for b in bs]; tw = sum(ws); acc = t
+        for b, w in zip(bs, ws):
+            d = (e - t) * w / tw
+            bsc = {k: v for k, v in b.items() if k != "w"}
+            for k in ("track", "bg", "mus"):
+                if k in sc and k not in bsc: bsc[k] = sc[k]
+            if acc > t and "mus" in bsc and bsc.get("mus") == sc.get("mus"): bsc.pop("mus")
+            bsc.update(s=round(acc, 2), e=round(acc + d, 2)); scenes.append(bsc); acc += d
+    else:
+        sc.update(s=round(t, 2), e=round(e, 2)); scenes.append(sc)
     caps.append({"t": ln["t"], "s": round(s, 2), "e": round(s + L + 0.1, 2)})
     t = e
 total = round(t + (1.2 if not plan.get("vertical") else 0.6), 2); scenes[-1]["e"] = total

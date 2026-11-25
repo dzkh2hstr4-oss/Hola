@@ -649,12 +649,24 @@ const SceneView: React.FC<{ sc: MScene }> = ({ sc }) => {
   const ein = interpolate(f, [0, 9], [1, 0], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
   const eout = interpolate(f, [dur - 6, dur], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.in(Easing.cubic) });
   const push = 1 + interpolate(f, [0, Math.max(1, dur)], [0, 0.05]);
+  const BEAT = 72;
+  const bk = Math.floor(f / BEAT);
+  const bf = f - bk * BEAT;
+  const beatOn = bk >= 1 && dur - bk * BEAT > 20;
+  const bp = beatOn ? interpolate(bf, [0, 10], [1, 0], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) }) : 0;
+  const beatMove = [
+    { s: 0.1, r: 0, x: 0, y: 0 },
+    { s: -0.08, r: 2.5, x: 0, y: 0 },
+    { s: 0.06, r: 0, x: 60, y: 0 },
+    { s: 0.12, r: -2, x: 0, y: -30 },
+  ][bk % 4];
+  const drift = bk >= 1 ? { x: Math.sin(bk * 1.7) * 18, y: Math.cos(bk * 1.3) * 10 } : { x: 0, y: 0 };
   const sc0 = mode === 0 ? 1 + 0.18 * ein : 1;
   const tx = mode === 1 ? 160 * u * ein : mode === 2 ? -160 * u * ein : 0;
   const shake = sc.kind === "hook" && f < 12 ? Math.sin(f * 2.3) * (12 - f) * 1.6 * u : 0;
   const revealAt = sc.kind === "stat" ? 45 : sc.kind === "prices" && sc.pick !== undefined ? Math.round(dur * 0.45) : sc.kind === "hook" ? 4 : -999;
   return (
-    <AbsoluteFill style={{ opacity: Math.min(fadeIn, fadeOut), transform: `translate(${tx + shake}px, ${shake * 0.6}px) scale(${push * sc0 * (1 - 0.06 * eout)})`, filter: `blur(${(ein + eout) * 10 * u}px)` }}>
+    <AbsoluteFill style={{ opacity: Math.min(fadeIn, fadeOut), transform: `translate(${tx + shake + (drift.x + beatMove.x * bp) * u}px, ${shake * 0.6 + (drift.y + beatMove.y * bp) * u}px) scale(${push * sc0 * (1 - 0.06 * eout) * (1 + beatMove.s * bp)}) rotate(${beatMove.r * bp}deg)`, filter: `blur(${(ein + eout) * 10 * u}px)` }}>
       {revealAt > -999 ? <Burst at={revealAt} color={sc.kind === "hook" ? C.yellow : C.green} /> : null}
       {body}
       <Source text={sc.source} />
@@ -755,6 +767,7 @@ export const MoneyVid2: React.FC<MoneyProps> = ({ scenes, captions, voice, total
         if (sc.kind === "receipt") for (let k = 0; k < (sc.items ?? []).length; k++) extra.push({ f: "wyr/sfx/tick.wav", at: 0.3 + k * 0.35, v: 0.3 });
         if (sc.kind === "list") (sc.items ?? []).forEach((_, k) => extra.push({ f: "wyr/sfx/pop.wav", at: (10 + (k * (sc.e - sc.s) * 30 * 0.6) / Math.max(1, (sc.items ?? []).length)) / 30, v: 0.35 }));
         if (sc.kind === "outro") extra.push({ f: "voz/click.wav", at: 2.0, v: 0.9 });
+        for (let k = 1; (k * 72 + 20) / 30 < sc.e - sc.s; k++) extra.push({ f: k % 2 ? "wyr/sfx/whoosh.wav" : "wyr/sfx/zap.wav", at: (k * 72) / 30, v: 0.22 });
         if (sc.kind === "slot") { for (let k = 0; k < 10; k++) extra.push({ f: "wyr/sfx/tick.wav", at: 0.1 + k * 0.15, v: 0.3 }); [25, 39, 53].forEach((fr) => extra.push({ f: "wyr/sfx/tock.wav", at: fr / 30, v: 0.5 })); extra.push({ f: "wyr/sfx/ding.wav", at: 1.9, v: 0.45 }); }
         if (sc.kind === "wheel") for (let k = 0; k < 14; k++) extra.push({ f: "wyr/sfx/tick.wav", at: 0.1 + k * 0.08 * (1 + k * 0.12), v: 0.3 });
         if (sc.kind === "stack") for (let k = 0; k < 8; k++) extra.push({ f: "wyr/sfx/pop.wav", at: 0.3 + k * (sc.e - sc.s) * 0.07, v: 0.3 });
