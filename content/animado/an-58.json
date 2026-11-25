@@ -1,76 +1,57 @@
 {
   "id": "an-58",
-  "producto": "atardecer",
-  "voz": "es-ES-ElviraNeural",
-  "rate": "+14%",
-  "musica": "entrada/musica/Rocket.mp3",
+  "formato": "reloj",
+  "producto": "aurora",
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "+8%",
+  "pitch": "+0Hz",
+  "fx": "radio",
+  "musica": "entrada/musica/Ghost Story.mp3",
   "musicaDesde": 0,
-  "musicaVolumen": 0.2,
   "publicar": "2026-12-03T12:00",
   "status": "creado",
   "escenas": [
     {
-      "tipo": "gancho",
-      "lineas": [
-        {
-          "text": "Tu cuarto"
-        },
-        {
-          "text": "a las 7 de la tarde 🌇",
-          "bg": "#c9ccd4",
-          "color": "#1a1d24"
-        }
+      "tipo": "reloj",
+      "horas": [
+        "20:00",
+        "21:30",
+        "23:00"
       ],
-      "dice": "Las siete de la tarde... la hora dorada en tu cuarto.",
-      "etiqueta": "golden hour"
-    },
-    {
-      "tipo": "golpes",
-      "palabras": [
-        "HORA",
-        "DORADA"
-      ]
+      "texto": "Noche de peli 🍿",
+      "dice": "Ocho, nueve y media, once... noche de peli."
     },
     {
       "tipo": "producto",
       "lineas": [
         {
-          "text": "Lámpara",
+          "text": "Proyector",
           "size": 104
         },
         {
-          "text": "ATARDECER",
-          "size": 124,
+          "text": "AURORA",
+          "size": 130,
           "bg": "accent"
         }
       ],
-      "foto": "animado/ia-atardecer.png",
-      "sub": "🌅 Luz cálida de atardecer",
-      "dice": "Es esta lámpara. Se enchufa por USB y listo."
+      "foto": "animado/a3.jpg",
+      "sub": "🌌 Aurora + estrellas",
+      "dice": "Es este proyector. Con mando, y se carga por USB.",
+      "fx": "radio",
+      "rate": "+12%",
+      "pitch": "+0Hz"
     },
     {
-      "tipo": "encender",
-      "antes": "click...",
-      "despues": [
-        {
-          "text": "Un ATARDECER"
-        },
-        {
-          "text": "en tu pared 🌅",
-          "bg": "accent"
-        }
-      ],
-      "dice": "Boom. Un atardecer en tu pared."
-    },
-    {
-      "tipo": "oferta",
-      "titulo": "SOLO ESTA SEMANA",
-      "descuento": "-40%",
-      "antes": "49,95 €",
-      "ahora": "29,95 €",
-      "extra": "🚚 Envío gratis",
-      "dice": "Ahora por veintinueve noventa y cinco, con envío gratis. Lo tienes en mi bio."
+      "tipo": "ticket",
+      "producto": "Proyector aurora",
+      "antes": "64,95 €",
+      "ahora": "39,95 €",
+      "ahorro": "25 €",
+      "dice": "Total: treinta y nueve noventa y cinco. Envío gratis. Link en mi bio.",
+      "fx": "radio",
+      "rate": "+12%",
+      "pitch": "+0Hz"
     }
   ],
-  "caption": "Tu cuarto a las 7 de la tarde 🌇 Lámpara atardecer: luz cálida de atardecer en tu pared, por USB y sin obras. 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Envío gratis\n\n#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Rocket» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
+  "caption": "Noche de peli 🍿\n\nProyector aurora: aurora y estrellas en tu techo, con mando y recargable por USB. 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Envío gratis\n\n#proyectoraurora #auroraboreal #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Ghost Story» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
 }

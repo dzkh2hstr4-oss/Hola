@@ -21,20 +21,27 @@ const dur = (f) => parseFloat(sh("ffprobe", ["-v", "error", "-show_entries", "fo
 
 const pubDir = join(ROOT, "public/animado", id);
 mkdirSync(pubDir, { recursive: true });
-const MIN = { gancho: 75, producto: 90, encender: 80, cuenta: 80, versus: 95, oferta: 125 };
+const MIN = { gancho: 75, producto: 90, encender: 80, cuenta: 80, versus: 95, oferta: 125, noticia: 110, buscador: 120, notas: 120, quiz: 130, trailer: 150, caja: 100, reloj: 130, meme: 90, ticket: 125 };
+// voice effects per style
+const FX = {
+  radio: "highpass=f=90,equalizer=f=3200:t=q:w=1:g=4,acompressor=threshold=-20dB:ratio=4:attack=5:release=80:makeup=4,aecho=0.85:0.6:45|90:0.18|0.08,volume=1.4",
+  trailer: "highpass=f=60,equalizer=f=120:t=q:w=1:g=5,acompressor=threshold=-22dB:ratio=5:attack=5:release=120:makeup=5,aecho=0.8:0.7:120|240:0.3|0.15,volume=1.4",
+  noticia: "highpass=f=150,lowpass=f=7000,equalizer=f=2500:t=q:w=1:g=5,acompressor=threshold=-18dB:ratio=6:attack=3:release=60:makeup=5,volume=1.4",
+  cercana: "highpass=f=80,equalizer=f=200:t=q:w=1:g=2,acompressor=threshold=-20dB:ratio=3:attack=10:release=100:makeup=3,volume=1.3",
+};
 const ttsEnv = { ...process.env, SSL_CERT_FILE: "/root/.ccr/ca-bundle.crt" };
 
 const escenas = spec.escenas.map((e, i) => {
-  const { dice, ...rest } = e;
+  const { dice, rate: _r, pitch: _p, fx: _f, ...rest } = e;
   let min = e.tipo === "golpes" ? 8 + e.palabras.length * 10 + 22 : MIN[e.tipo] ?? 75;
   let voz;
   if (dice) {
     const vid = `${id}-${i + 1}`;
-    sh("python3", [join(ROOT, "scripts/voz-gratis.py"), "--id", vid, "--texto", dice, "--voz", spec.voz ?? "es-ES-AlvaroNeural", `--rate=${spec.rate ?? "+10%"}`], ttsEnv);
+    sh("python3", [join(ROOT, "scripts/voz-gratis.py"), "--id", vid, "--texto", dice, "--voz", e.voz ?? spec.voz ?? "es-ES-AlvaroNeural", `--rate=${e.rate ?? spec.rate ?? "+10%"}`, `--pitch=${e.pitch ?? spec.pitch ?? "+0Hz"}`], ttsEnv);
     const raw = join(ROOT, "content/voz", `${vid}.mp3`);
     const out = join(pubDir, `v${i + 1}.mp3`);
     // voice FX: tight radio-ad compression, presence boost and a short room echo
-    sh("ffmpeg", ["-y", "-v", "error", "-i", raw, "-af", "highpass=f=90,equalizer=f=3200:t=q:w=1:g=4,acompressor=threshold=-20dB:ratio=4:attack=5:release=80:makeup=4,aecho=0.85:0.6:45|90:0.18|0.08,volume=1.4", "-ar", "44100", out]);
+    sh("ffmpeg", ["-y", "-v", "error", "-i", raw, "-af", FX[e.fx ?? spec.fx ?? "radio"], "-ar", "44100", out]);
     voz = `animado/${id}/v${i + 1}.mp3`;
     min = Math.max(min, Math.ceil((dur(out) + 0.35) * FPS));
   }

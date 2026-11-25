@@ -15,6 +15,7 @@ import {
 import { fontFamily } from "../Lumora/common";
 import { Burst, Flash, Grain, Kinetic, SlamWord, Snow, Sparkle, Vignette } from "../Anuncio/Anuncio";
 import { LAMP, Room, SUN } from "../Anuncio/Room";
+import { Buscador, Caja, FormatoEscena, formatoSfx, Meme, Noticia, Notas, Quiz, Reloj, Ticket, Trailer } from "./Formatos";
 
 // Data-driven motion-graphics reel in the style of the Christmas ad that worked best:
 // illustrated room, kinetic text, slams, product reveal, switch-on, offer. Each video picks
@@ -33,6 +34,7 @@ export type Escena = Base &
     | { tipo: "cuenta"; lineas: Linea[]; desde?: number }
     | { tipo: "versus"; lineas: Linea[]; izquierda: string; derecha: string }
     | { tipo: "oferta"; titulo: string; descuento: string; antes: string; ahora: string; extra?: string; boton?: string }
+    | FormatoEscena
   );
 
 export type AnimadoProps = {
@@ -433,6 +435,8 @@ const SceneSfx: React.FC<{ e: Escena }> = ({ e }) => {
   if (e.tipo === "versus") list.push({ at: 4, f: "whoosh.wav", v: 0.3 }, { at: 22, f: "whoosh.wav", v: 0.3 }, { at: 40, f: "impacto.wav", v: 0.35 });
   if (e.tipo === "oferta") list.push({ at: 11, f: "impacto.wav", v: 0.4 }, { at: 42, f: "brillo.wav", v: 0.25 }, { at: 62, f: "click.wav", v: 0.5 });
   if (e.tipo === "gancho") list.push({ at: 2, f: "whoosh.wav", v: 0.25 });
+  const extra = formatoSfx(e as FormatoEscena);
+  if (extra) list.push(...extra);
   return (
     <>
       {list.map((s, i) => (
@@ -464,6 +468,15 @@ export const Animado: React.FC<AnimadoProps> = (p) => {
             {e.tipo === "cuenta" && <Cuenta e={e} t={t} />}
             {e.tipo === "versus" && <Versus e={e} p={p} t={t} />}
             {e.tipo === "oferta" && <Oferta e={e} p={p} t={t} />}
+            {e.tipo === "noticia" && <Noticia e={e} p={p} t={t} />}
+            {e.tipo === "buscador" && <Buscador e={e} t={t} />}
+            {e.tipo === "notas" && <Notas e={e} t={t} />}
+            {e.tipo === "quiz" && <Quiz e={e} t={t} />}
+            {e.tipo === "trailer" && <Trailer e={e} p={p} t={t} />}
+            {e.tipo === "caja" && <Caja e={e} t={t} />}
+            {e.tipo === "reloj" && <Reloj e={e} p={p} t={t} />}
+            {e.tipo === "meme" && <Meme e={e} p={p} />}
+            {e.tipo === "ticket" && <Ticket e={e} t={t} />}
             {i > 0 && <Flash at={0} len={6} />}
             <SceneSfx e={e} />
             {e.voz && <Audio src={staticFile(e.voz)} />}

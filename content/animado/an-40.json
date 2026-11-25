@@ -1,51 +1,21 @@
 {
   "id": "an-40",
+  "formato": "noticia",
   "producto": "atardecer",
   "voz": "es-ES-ElviraNeural",
-  "rate": "+14%",
-  "musica": "entrada/musica/Impact Prelude.mp3",
-  "musicaDesde": 78,
-  "musicaVolumen": 0.2,
+  "rate": "+10%",
+  "pitch": "+0Hz",
+  "fx": "noticia",
+  "musica": "entrada/musica/Volatile Reaction.mp3",
+  "musicaDesde": 28,
   "publicar": "2026-11-30T20:00",
   "status": "creado",
   "escenas": [
     {
-      "tipo": "gancho",
-      "lineas": [
-        {
-          "text": "Regalo para"
-        },
-        {
-          "text": "tu mejor amiga 💛",
-          "bg": "#c9ccd4",
-          "color": "#1a1d24"
-        }
-      ],
-      "dice": "Mira esto si buscas regalo para tu mejor amiga.",
-      "etiqueta": "Navidad"
-    },
-    {
-      "tipo": "cuenta",
-      "lineas": [
-        {
-          "text": "Atento... 🤫"
-        }
-      ],
-      "dice": "Tres... dos... uno..."
-    },
-    {
-      "tipo": "encender",
-      "antes": "click...",
-      "despues": [
-        {
-          "text": "Un ATARDECER"
-        },
-        {
-          "text": "en tu pared 🌅",
-          "bg": "accent"
-        }
-      ],
-      "dice": "Boom. Un atardecer en tu pared."
+      "tipo": "noticia",
+      "titular": "Alerta: tu cuarto podría verse así esta noche",
+      "ticker": "Lámpara atardecer · 29,95 € · envío gratis",
+      "dice": "Atención. Tu cuarto podría verse así... esta misma noche."
     },
     {
       "tipo": "producto",
@@ -60,9 +30,12 @@
           "bg": "accent"
         }
       ],
-      "foto": "animado/s7.jpg",
-      "sub": "🔘 Un botón y listo",
-      "dice": "Es esta lámpara. Se enchufa por USB y listo."
+      "foto": "animado/ia-atardecer.png",
+      "sub": "🔌 Por USB · sin obras",
+      "dice": "Es esta lámpara. Se enchufa por USB y listo.",
+      "fx": "radio",
+      "rate": "+12%",
+      "pitch": "+0Hz"
     },
     {
       "tipo": "oferta",
@@ -71,8 +44,11 @@
       "antes": "49,95 €",
       "ahora": "29,95 €",
       "extra": "🚚 Envío gratis",
-      "dice": "Ahora por veintinueve noventa y cinco, con envío gratis. Lo tienes en mi bio."
+      "dice": "Ahora por veintinueve noventa y cinco, con envío gratis. Lo tienes en mi bio.",
+      "fx": "radio",
+      "rate": "+12%",
+      "pitch": "+0Hz"
     }
   ],
-  "caption": "Regalo para tu mejor amiga 💛 Lámpara atardecer: luz cálida de atardecer en tu pared, por USB y sin obras. 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Impact Prelude» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
+  "caption": "🚨 ÚLTIMA HORA: Alerta: tu cuarto podría verse así esta noche\n\nLámpara atardecer: luz cálida de atardecer en tu pared, por USB y sin obras. 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Volatile Reaction» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
 }

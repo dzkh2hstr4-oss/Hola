@@ -1,78 +1,51 @@
 {
   "id": "an-45",
-  "producto": "aurora",
-  "voz": "es-ES-AlvaroNeural",
-  "rate": "+14%",
-  "musica": "entrada/musica/Crypto.mp3",
+  "formato": "caja",
+  "producto": "atardecer",
+  "voz": "es-ES-XimenaNeural",
+  "rate": "+12%",
+  "pitch": "+0Hz",
+  "fx": "radio",
+  "musica": "entrada/musica/Inspired.mp3",
   "musicaDesde": 0,
-  "musicaVolumen": 0.2,
   "publicar": "2026-12-01T15:00",
   "status": "creado",
   "escenas": [
     {
-      "tipo": "gancho",
-      "lineas": [
-        {
-          "text": "Pijamada"
-        },
-        {
-          "text": "nivel pro 🎉",
-          "bg": "#c9ccd4",
-          "color": "#1a1d24"
-        }
-      ],
-      "dice": "Si haces pijamada en casa, necesitas esto.",
-      "etiqueta": "plan amigas"
-    },
-    {
-      "tipo": "cuenta",
-      "lineas": [
-        {
-          "text": "Atento... 🤫"
-        }
-      ],
-      "dice": "Tres... dos... uno..."
+      "tipo": "caja",
+      "texto": "El regalo de este año 🎄",
+      "foto": "animado/ia-atardecer.png",
+      "dice": "Este año el regalo es este. Mira."
     },
     {
       "tipo": "encender",
       "antes": "click...",
       "despues": [
         {
-          "text": "Una AURORA"
+          "text": "Un ATARDECER"
         },
         {
-          "text": "en tu techo 🌌",
+          "text": "en tu pared 🌅",
           "bg": "accent"
         }
       ],
-      "dice": "Boom. Una aurora boreal en tu techo."
-    },
-    {
-      "tipo": "producto",
-      "lineas": [
-        {
-          "text": "Proyector",
-          "size": 104
-        },
-        {
-          "text": "AURORA",
-          "size": 130,
-          "bg": "accent"
-        }
-      ],
-      "foto": "aurora.jpg",
-      "sub": "📲 Con mando · 🔋 USB",
-      "dice": "Es este proyector. Con mando, y se carga por USB."
+      "dice": "Boom. Hora dorada.",
+      "fx": "radio",
+      "rate": "+12%",
+      "pitch": "+0Hz"
     },
     {
       "tipo": "oferta",
       "titulo": "🎄 OFERTA NAVIDAD",
-      "descuento": "-38%",
-      "antes": "64,95 €",
-      "ahora": "39,95 €",
+      "descuento": "-40%",
+      "antes": "49,95 €",
+      "ahora": "29,95 €",
       "extra": "🚚 Envío gratis",
-      "dice": "Ahora por treinta y nueve noventa y cinco, con envío gratis. Lo tienes en mi bio."
+      "dice": "Ahora por veintinueve noventa y cinco, con envío gratis. Lo tienes en mi bio.",
+      "fx": "radio",
+      "rate": "+12%",
+      "pitch": "+0Hz"
     }
   ],
-  "caption": "Pijamada nivel pro 🎉 Proyector aurora: aurora y estrellas en tu techo, con mando y recargable por USB. 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#proyectoraurora #auroraboreal #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Crypto» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
+  "caption": "El regalo de este año 🎄\n\nLámpara atardecer: luz cálida de atardecer en tu pared, por USB y sin obras. 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Inspired» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
 }

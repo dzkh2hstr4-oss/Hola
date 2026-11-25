@@ -1,56 +1,30 @@
 {
   "id": "an-38",
+  "formato": "meme+quiz",
   "producto": "atardecer",
   "voz": "es-ES-ElviraNeural",
-  "rate": "+14%",
-  "musica": "entrada/musica/Rocket.mp3",
-  "musicaDesde": 0,
-  "musicaVolumen": 0.2,
+  "rate": "+12%",
+  "pitch": "+0Hz",
+  "fx": "radio",
+  "musica": "entrada/musica/Hitman.mp3",
+  "musicaDesde": 12,
   "publicar": "2026-11-30T15:00",
   "status": "creado",
   "escenas": [
     {
-      "tipo": "gancho",
-      "lineas": [
-        {
-          "text": "Tus fotos"
-        },
-        {
-          "text": "con luz de atardecer 📸",
-          "bg": "#c9ccd4",
-          "color": "#1a1d24"
-        }
-      ],
-      "dice": "¿Quieres fotos con luz de atardecer? Así se hacen.",
-      "etiqueta": "selfies"
+      "tipo": "meme",
+      "arriba": "Yo enseñando mi cuarto por videollamada:",
+      "dice": "Enseñando mi cuarto por videollamada... ¿cuánto crees que cuesta?"
     },
     {
-      "tipo": "versus",
-      "lineas": [
-        {
-          "text": "¿Con cuál te quedas?"
-        }
+      "tipo": "quiz",
+      "pregunta": "¿Cuánto cuesta?",
+      "opciones": [
+        "99 €",
+        "49,95 €",
+        "29,95 €"
       ],
-      "izquierda": "Flash",
-      "derecha": "Atardecer",
-      "dice": "A la izquierda, lo de siempre. A la derecha... esto."
-    },
-    {
-      "tipo": "producto",
-      "lineas": [
-        {
-          "text": "Lámpara",
-          "size": 104
-        },
-        {
-          "text": "ATARDECER",
-          "size": 124,
-          "bg": "accent"
-        }
-      ],
-      "foto": "animado/ia-atardecer.png",
-      "sub": "🌅 Luz cálida de atardecer",
-      "dice": "Es esta lámpara. Se enchufa por USB y listo."
+      "correcta": 2
     },
     {
       "tipo": "oferta",
@@ -59,8 +33,11 @@
       "antes": "49,95 €",
       "ahora": "29,95 €",
       "extra": "🚚 Envío gratis",
-      "dice": "Ahora por veintinueve noventa y cinco, con envío gratis. Lo tienes en mi bio."
+      "dice": "Ahora por veintinueve noventa y cinco, con envío gratis. Lo tienes en mi bio.",
+      "fx": "radio",
+      "rate": "+12%",
+      "pitch": "+0Hz"
     }
   ],
-  "caption": "Tus fotos con luz de atardecer 📸 Lámpara atardecer: luz cálida de atardecer en tu pared, por USB y sin obras. 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Rocket» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
+  "caption": "Yo enseñando mi cuarto por videollamada: 😅\n\nLámpara atardecer: luz cálida de atardecer en tu pared, por USB y sin obras. 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Hitman» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
 }

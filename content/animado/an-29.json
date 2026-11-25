@@ -1,28 +1,22 @@
 {
   "id": "an-29",
+  "formato": "buscador",
   "producto": "aurora",
-  "voz": "es-ES-AlvaroNeural",
-  "rate": "+14%",
-  "musica": "entrada/musica/Crypto.mp3",
-  "musicaDesde": 0,
-  "musicaVolumen": 0.2,
+  "voz": "es-ES-XimenaNeural",
+  "rate": "+10%",
+  "pitch": "+0Hz",
+  "fx": "cercana",
+  "musica": "entrada/musica/Darkest Child.mp3",
+  "musicaDesde": 2,
   "publicar": "2026-11-29T09:00",
   "status": "creado",
   "escenas": [
     {
-      "tipo": "gancho",
-      "lineas": [
-        {
-          "text": "Por qué todo el mundo"
-        },
-        {
-          "text": "quiere esto 💯",
-          "bg": "#c9ccd4",
-          "color": "#1a1d24"
-        }
-      ],
-      "dice": "Te enseño por qué todo el mundo quiere esto.",
-      "etiqueta": "tendencia"
+      "tipo": "buscador",
+      "consulta": "regalo original navidad",
+      "resultado": "Proyector aurora · 39,95 €",
+      "foto": "aurora.jpg",
+      "dice": "Si estás buscando un regalo original para Navidad... mira esto."
     },
     {
       "tipo": "encender",
@@ -36,42 +30,22 @@
           "bg": "accent"
         }
       ],
-      "dice": "Boom. Una aurora boreal en tu techo."
+      "dice": "Boom. Aurora boreal.",
+      "fx": "radio",
+      "rate": "+12%",
+      "pitch": "+0Hz"
     },
     {
-      "tipo": "golpes",
-      "palabras": [
-        "100%",
-        "MERECE",
-        "LA PENA"
-      ]
-    },
-    {
-      "tipo": "producto",
-      "lineas": [
-        {
-          "text": "Proyector",
-          "size": 104
-        },
-        {
-          "text": "AURORA",
-          "size": 130,
-          "bg": "accent"
-        }
-      ],
-      "foto": "aurora.jpg",
-      "sub": "📲 Con mando · 🔋 USB",
-      "dice": "Es este proyector. Con mando, y se carga por USB."
-    },
-    {
-      "tipo": "oferta",
-      "titulo": "SOLO ESTA SEMANA",
-      "descuento": "-38%",
+      "tipo": "ticket",
+      "producto": "Proyector aurora",
       "antes": "64,95 €",
       "ahora": "39,95 €",
-      "extra": "🚚 Envío gratis",
-      "dice": "Ahora por treinta y nueve noventa y cinco, con envío gratis. Lo tienes en mi bio."
+      "ahorro": "25 €",
+      "dice": "Total: treinta y nueve noventa y cinco. Envío gratis. Link en mi bio.",
+      "fx": "radio",
+      "rate": "+12%",
+      "pitch": "+0Hz"
     }
   ],
-  "caption": "Por qué todo el mundo quiere esto 💯 Proyector aurora: aurora y estrellas en tu techo, con mando y recargable por USB. 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Envío gratis\n\n#proyectoraurora #auroraboreal #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Crypto» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
+  "caption": "🔍 «regalo original navidad»\n\nProyector aurora: aurora y estrellas en tu techo, con mando y recargable por USB. 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#proyectoraurora #auroraboreal #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Darkest Child» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
 }

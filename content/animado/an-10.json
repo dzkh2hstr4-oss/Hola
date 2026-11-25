@@ -1,77 +1,58 @@
 {
   "id": "an-10",
-  "producto": "atardecer",
-  "voz": "es-ES-ElviraNeural",
-  "rate": "+14%",
-  "musica": "entrada/musica/Impact Prelude.mp3",
-  "musicaDesde": 78,
-  "musicaVolumen": 0.2,
+  "formato": "reloj",
+  "producto": "aurora",
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "+8%",
+  "pitch": "+0Hz",
+  "fx": "radio",
+  "musica": "entrada/musica/Investigations.mp3",
+  "musicaDesde": 0,
   "publicar": "2026-11-26T15:00",
   "status": "creado",
   "escenas": [
     {
-      "tipo": "gancho",
-      "lineas": [
-        {
-          "text": "De cuarto aburrido"
-        },
-        {
-          "text": "a cuarto de TikTok 📱",
-          "bg": "#c9ccd4",
-          "color": "#1a1d24"
-        }
+      "tipo": "reloj",
+      "horas": [
+        "19:00",
+        "21:00",
+        "23:00",
+        "00:00"
       ],
-      "dice": "De cuarto aburrido... a cuarto de TikTok, en un segundo.",
-      "etiqueta": "antes"
-    },
-    {
-      "tipo": "golpes",
-      "palabras": [
-        "EN",
-        "UN",
-        "SEGUNDO"
-      ]
+      "texto": "Y a medianoche... 🌌",
+      "dice": "Las siete... las nueve... las once... medianoche."
     },
     {
       "tipo": "producto",
       "lineas": [
         {
-          "text": "Lámpara",
+          "text": "Proyector",
           "size": 104
         },
         {
-          "text": "ATARDECER",
-          "size": 124,
+          "text": "AURORA",
+          "size": 130,
           "bg": "accent"
         }
       ],
-      "foto": "animado/ia-atardecer.png",
-      "sub": "🌅 Luz cálida de atardecer",
-      "dice": "Es esta lámpara. Se enchufa por USB y listo."
+      "foto": "animado/ia-aurora.png",
+      "sub": "🌌 Aurora + estrellas",
+      "dice": "Es este proyector. Con mando, y se carga por USB.",
+      "fx": "radio",
+      "rate": "+12%",
+      "pitch": "+0Hz"
     },
     {
-      "tipo": "encender",
-      "antes": "click...",
-      "despues": [
-        {
-          "text": "Un ATARDECER"
-        },
-        {
-          "text": "en tu pared 🌅",
-          "bg": "accent"
-        }
-      ],
-      "dice": "Boom. Un atardecer en tu pared."
-    },
-    {
-      "tipo": "oferta",
-      "titulo": "🎄 OFERTA NAVIDAD",
-      "descuento": "-40%",
-      "antes": "49,95 €",
-      "ahora": "29,95 €",
-      "extra": "🚚 Envío gratis",
-      "dice": "Ahora por veintinueve noventa y cinco, con envío gratis. Lo tienes en mi bio."
+      "tipo": "ticket",
+      "producto": "Proyector aurora",
+      "antes": "64,95 €",
+      "ahora": "39,95 €",
+      "ahorro": "25 €",
+      "dice": "Total: treinta y nueve noventa y cinco. Envío gratis. Link en mi bio.",
+      "fx": "radio",
+      "rate": "+12%",
+      "pitch": "+0Hz"
     }
   ],
-  "caption": "De cuarto aburrido a cuarto de TikTok 📱 Lámpara atardecer: luz cálida de atardecer en tu pared, por USB y sin obras. 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Impact Prelude» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
+  "caption": "Y a medianoche... 🌌\n\nProyector aurora: aurora y estrellas en tu techo, con mando y recargable por USB. 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#proyectoraurora #auroraboreal #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Investigations» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
 }
