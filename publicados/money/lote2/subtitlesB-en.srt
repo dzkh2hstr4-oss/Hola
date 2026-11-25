@@ -1,0 +1,755 @@
+1
+00:00:00,050 --> 00:00:02,550
+Casinos don't gamble. Not even a little.
+
+2
+00:00:02,750 --> 00:00:04,841
+Every game is built so they win. And in
+
+3
+00:00:04,841 --> 00:00:06,700
+a minute I'll show you the exact math.
+
+4
+00:00:06,900 --> 00:00:09,317
+But the scariest part isn't the math. It's what
+
+5
+00:00:09,317 --> 00:00:11,734
+they do to your brain. Wait until you see
+
+6
+00:00:11,734 --> 00:00:12,540
+trick number three.
+
+7
+00:00:12,740 --> 00:00:14,780
+First, how much money are we talking about?
+
+8
+00:00:14,980 --> 00:00:18,288
+In twenty twenty-five, Nevada casinos won fifteen point eight
+
+9
+00:00:18,288 --> 00:00:20,860
+billion dollars from players. A new record.
+
+10
+00:00:21,810 --> 00:00:24,232
+So how do they do it? Part one. The
+
+11
+00:00:24,232 --> 00:00:24,770
+house edge.
+
+12
+00:00:25,270 --> 00:00:28,610
+Let's take roulette. An American wheel has thirty-eight pockets.
+
+13
+00:00:29,260 --> 00:00:31,475
+Bet on one number and win, and they pay
+
+14
+00:00:31,475 --> 00:00:32,460
+you thirty-five to one.
+
+15
+00:00:33,110 --> 00:00:35,765
+But with thirty-eight pockets, a fair payout would be
+
+16
+00:00:35,765 --> 00:00:36,650
+thirty-seven to one.
+
+17
+00:00:37,300 --> 00:00:40,381
+That little gap? That's the house edge. About five
+
+18
+00:00:40,381 --> 00:00:41,750
+point two six percent.
+
+19
+00:00:42,400 --> 00:00:45,613
+In plain English: for every one hundred dollars bet,
+
+20
+00:00:45,613 --> 00:00:48,826
+the casino keeps around five dollars and twenty-six cents.
+
+21
+00:00:48,826 --> 00:00:49,540
+On average.
+
+22
+00:00:50,190 --> 00:00:52,790
+Sounds small, right? Here's the catch.
+
+23
+00:00:52,990 --> 00:00:55,649
+That edge applies to every single bet. Bet the
+
+24
+00:00:55,649 --> 00:00:58,308
+same hundred dollars again and again… and it gets
+
+25
+00:00:58,308 --> 00:00:59,490
+eaten again and again.
+
+26
+00:00:59,690 --> 00:01:02,228
+And roulette isn't even the worst game. Look at
+
+27
+00:01:02,228 --> 00:01:02,510
+this.
+
+28
+00:01:02,710 --> 00:01:06,784
+Blackjack with perfect strategy, around half a percent. European
+
+29
+00:01:06,784 --> 00:01:10,858
+roulette, two point seven. American roulette, five point two
+
+30
+00:01:10,858 --> 00:01:14,480
+six. And keno? Often more than twenty-five percent.
+
+31
+00:01:15,130 --> 00:01:17,674
+So here's a free tip if you ever play
+
+32
+00:01:17,674 --> 00:01:20,218
+roulette. Look for a wheel with a single zero.
+
+33
+00:01:20,218 --> 00:01:22,762
+Same game, about half the house edge. Most people
+
+34
+00:01:22,762 --> 00:01:23,610
+never even check.
+
+35
+00:01:24,260 --> 00:01:26,928
+And with blackjack, the edge is only that low
+
+36
+00:01:26,928 --> 00:01:29,595
+if you play perfect basic strategy. Play on gut
+
+37
+00:01:29,595 --> 00:01:31,670
+feeling, and the casino's edge goes up.
+
+38
+00:01:31,870 --> 00:01:35,092
+Small edge. Millions of bets. That's how you get
+
+39
+00:01:35,092 --> 00:01:35,450
+billions.
+
+40
+00:01:35,650 --> 00:01:38,112
+Now, you might be thinking: what if I just
+
+41
+00:01:38,112 --> 00:01:40,574
+double my bet every time I lose? Then one
+
+42
+00:01:40,574 --> 00:01:43,036
+win gets it all back. People call it the
+
+43
+00:01:43,036 --> 00:01:43,310
+Martingale.
+
+44
+00:01:43,510 --> 00:01:48,704
+Start with ten dollars. Lose. Twenty. Lose. Forty. Eighty.
+
+45
+00:01:48,704 --> 00:01:53,320
+One sixty. Three twenty. Six forty. Twelve eighty.
+
+46
+00:01:53,970 --> 00:01:56,583
+After seven losses in a row, you've already lost
+
+47
+00:01:56,583 --> 00:01:59,196
+twelve hundred and seventy dollars… to try to win
+
+48
+00:01:59,196 --> 00:02:01,808
+ten. And many tables have a maximum bet that
+
+49
+00:02:01,808 --> 00:02:03,260
+stops you from doubling forever.
+
+50
+00:02:03,910 --> 00:02:06,732
+Seven losses in a row sounds rare. Remember that
+
+51
+00:02:06,732 --> 00:02:09,555
+number… because in part three, you'll see what happened
+
+52
+00:02:09,555 --> 00:02:11,750
+when a wheel did something way crazier.
+
+53
+00:02:11,950 --> 00:02:15,672
+But hold on. Has anybody ever actually beaten the
+
+54
+00:02:15,672 --> 00:02:17,740
+casino? Yes. Once, with math.
+
+55
+00:02:17,940 --> 00:02:20,703
+In nineteen sixty-two, a math professor named Edward Thorp
+
+56
+00:02:20,703 --> 00:02:23,467
+published Beat the Dealer. He showed that counting cards
+
+57
+00:02:23,467 --> 00:02:26,230
+in blackjack could flip the edge to the player.
+
+58
+00:02:26,430 --> 00:02:29,481
+Later, the famous MIT Blackjack Team used card counting
+
+59
+00:02:29,481 --> 00:02:32,531
+to win big. So what did casinos do? More
+
+60
+00:02:32,531 --> 00:02:35,582
+decks, more shuffling… and they can ask winning counters
+
+61
+00:02:35,582 --> 00:02:36,260
+to leave.
+
+62
+00:02:36,910 --> 00:02:39,871
+When the house loses, it changes the rules. Remember
+
+63
+00:02:39,871 --> 00:02:40,200
+that.
+
+64
+00:02:40,700 --> 00:02:43,561
+But math alone doesn't keep you in your seat
+
+65
+00:02:43,561 --> 00:02:46,422
+for six hours. This does. Part two. The mind
+
+66
+00:02:46,422 --> 00:02:46,740
+games.
+
+67
+00:02:47,240 --> 00:02:50,225
+And it all comes from a famous psychology discovery.
+
+68
+00:02:50,225 --> 00:02:53,209
+In the nineteen fifties, psychologist B. F. Skinner found
+
+69
+00:02:53,209 --> 00:02:56,194
+that rewards that come at random times are the
+
+70
+00:02:56,194 --> 00:02:57,520
+hardest habits to quit.
+
+71
+00:02:57,720 --> 00:03:00,236
+Pigeons pecked a button over and over when food
+
+72
+00:03:00,236 --> 00:03:02,753
+came randomly. A slot machine works the same way.
+
+73
+00:03:02,753 --> 00:03:04,710
+You never know which pull will pay.
+
+74
+00:03:04,910 --> 00:03:06,350
+Trick one. Chips.
+
+75
+00:03:06,550 --> 00:03:09,372
+A colorful plastic chip doesn't feel like your rent
+
+76
+00:03:09,372 --> 00:03:10,940
+money. That's exactly the point.
+
+77
+00:03:11,590 --> 00:03:13,240
+Trick two. The near miss.
+
+78
+00:03:13,440 --> 00:03:16,426
+The slot stops one symbol away from the jackpot.
+
+79
+00:03:16,426 --> 00:03:17,090
+So close!
+
+80
+00:03:17,290 --> 00:03:19,907
+A study in the journal Neuron found near misses
+
+81
+00:03:19,907 --> 00:03:22,524
+activate reward areas in the brain… a bit like
+
+82
+00:03:22,524 --> 00:03:24,850
+real wins. And people wanted to keep playing.
+
+83
+00:03:25,050 --> 00:03:27,273
+And now trick three. The one I warned you
+
+84
+00:03:27,273 --> 00:03:27,520
+about.
+
+85
+00:03:28,020 --> 00:03:29,680
+Losses disguised as wins.
+
+86
+00:03:30,180 --> 00:03:34,208
+You bet one dollar. You win fifty cents. And
+
+87
+00:03:34,208 --> 00:03:37,340
+the machine goes crazy. Lights. Music. Celebration.
+
+88
+00:03:37,990 --> 00:03:40,852
+You lost fifty cents. But your brain heard: you
+
+89
+00:03:40,852 --> 00:03:41,170
+won.
+
+90
+00:03:41,370 --> 00:03:44,405
+Trick four. Time disappears. Many casinos are known for
+
+91
+00:03:44,405 --> 00:03:47,441
+few windows and clocks, and lighting that feels the
+
+92
+00:03:47,441 --> 00:03:48,790
+same day and night.
+
+93
+00:03:48,990 --> 00:03:52,023
+And trick five. Free drinks, rooms and shows. They're
+
+94
+00:03:52,023 --> 00:03:55,055
+called comps. And they're based on how much the
+
+95
+00:03:55,055 --> 00:03:56,740
+casino expects you to lose.
+
+96
+00:03:56,940 --> 00:03:59,616
+Trick six. The loyalty card. You swipe it at
+
+97
+00:03:59,616 --> 00:04:02,292
+every machine to earn points. But it also tells
+
+98
+00:04:02,292 --> 00:04:04,969
+the casino exactly how much you bet, how long
+
+99
+00:04:04,969 --> 00:04:07,050
+you play and how much you lose.
+
+100
+00:04:07,250 --> 00:04:09,837
+And trick seven, for betting apps. Free bets and
+
+101
+00:04:09,837 --> 00:04:12,424
+bonus money. They sound free, but they often come
+
+102
+00:04:12,424 --> 00:04:15,010
+with rules that make you bet much more before
+
+103
+00:04:15,010 --> 00:04:16,160
+you can withdraw anything.
+
+104
+00:04:16,810 --> 00:04:19,636
+Always read the rules before you accept anything called
+
+105
+00:04:19,636 --> 00:04:19,950
+free.
+
+106
+00:04:20,450 --> 00:04:23,018
+Now let me tell you about the most expensive
+
+107
+00:04:23,018 --> 00:04:24,730
+night in casino history. Part three.
+
+108
+00:04:25,230 --> 00:04:29,247
+August, nineteen thirteen. Monte Carlo. A roulette ball lands
+
+109
+00:04:29,247 --> 00:04:30,140
+on black.
+
+110
+00:04:30,340 --> 00:04:33,170
+Then black again. And again. And again.
+
+111
+00:04:33,820 --> 00:04:36,505
+Gamblers went crazy. Red had to come. Red was
+
+112
+00:04:36,505 --> 00:04:39,190
+due. So they bet more and more on red.
+
+113
+00:04:39,390 --> 00:04:42,591
+The final count: black twenty-six times in a row.
+
+114
+00:04:42,591 --> 00:04:44,370
+People lost millions of francs.
+
+115
+00:04:45,020 --> 00:04:48,269
+Remember the doubling strategy from part one? Seven losses
+
+116
+00:04:48,269 --> 00:04:51,518
+in a row cost twelve hundred and seventy dollars.
+
+117
+00:04:51,518 --> 00:04:52,240
+Imagine twenty-six.
+
+118
+00:04:52,440 --> 00:04:55,350
+The lesson? The ball has no memory. Every spin
+
+119
+00:04:55,350 --> 00:04:58,260
+has the same odds, no matter what happened before.
+
+120
+00:04:58,460 --> 00:05:01,913
+It's called the gambler's fallacy. And people still fall
+
+121
+00:05:01,913 --> 00:05:05,366
+for it today. With stocks. With crypto. With sports
+
+122
+00:05:05,366 --> 00:05:05,750
+bets.
+
+123
+00:05:06,700 --> 00:05:09,725
+And here's something new. Since a Supreme Court decision
+
+124
+00:05:09,725 --> 00:05:12,751
+in twenty eighteen, sports betting has exploded across the
+
+125
+00:05:12,751 --> 00:05:15,440
+US. Now the casino lives in your pocket.
+
+126
+00:05:15,940 --> 00:05:18,516
+Sportsbooks have their own house edge. It's built into
+
+127
+00:05:18,516 --> 00:05:21,092
+the odds. Bet one hundred ten dollars to win
+
+128
+00:05:21,092 --> 00:05:23,668
+one hundred on both sides, and the book wins
+
+129
+00:05:23,668 --> 00:05:24,240
+either way.
+
+130
+00:05:24,890 --> 00:05:27,650
+And the favorite trap of sports apps? The parlay.
+
+131
+00:05:27,650 --> 00:05:30,410
+Combine four bets into one for a bigger payout.
+
+132
+00:05:30,610 --> 00:05:33,254
+Each pick is like a coin flip. Win all
+
+133
+00:05:33,254 --> 00:05:35,898
+four? That's a one in sixteen chance. A fair
+
+134
+00:05:35,898 --> 00:05:37,660
+payout would be fifteen to one.
+
+135
+00:05:38,310 --> 00:05:40,811
+But a typical four-leg parlay at standard odds pays
+
+136
+00:05:40,811 --> 00:05:43,313
+around twelve to one. The more legs you add,
+
+137
+00:05:43,313 --> 00:05:44,980
+the bigger the house edge gets.
+
+138
+00:05:45,630 --> 00:05:48,831
+That's why the apps push parlays so hard. Big
+
+139
+00:05:48,831 --> 00:05:50,610
+dream, small chance, bigger edge.
+
+140
+00:05:50,810 --> 00:05:53,560
+Let's put the house edge into one simple number.
+
+141
+00:05:53,560 --> 00:05:56,311
+Bet ten dollars on American roulette one hundred times.
+
+142
+00:05:56,311 --> 00:05:58,450
+That's a thousand dollars in total bets.
+
+143
+00:05:59,100 --> 00:06:02,146
+On average, you'll lose about fifty-two dollars and sixty
+
+144
+00:06:02,146 --> 00:06:05,192
+cents. Not because you were unlucky. Because of the
+
+145
+00:06:05,192 --> 00:06:05,530
+edge.
+
+146
+00:06:06,180 --> 00:06:09,003
+Now, the craziest bet of all. Let's talk about
+
+147
+00:06:09,003 --> 00:06:09,630
+the lottery.
+
+148
+00:06:10,130 --> 00:06:13,260
+Part four. The biggest bet of all. The lottery.
+
+149
+00:06:13,760 --> 00:06:17,290
+Powerball jackpot odds: one in two hundred ninety-two million.
+
+150
+00:06:17,940 --> 00:06:20,512
+Buy ten tickets every week. How long until you
+
+151
+00:06:20,512 --> 00:06:21,370
+win, on average?
+
+152
+00:06:21,570 --> 00:06:23,760
+About five hundred sixty thousand years.
+
+153
+00:06:24,410 --> 00:06:27,219
+And one important thing. If gambling ever stops being
+
+154
+00:06:27,219 --> 00:06:30,029
+fun for you or someone you know, in the
+
+155
+00:06:30,029 --> 00:06:32,838
+US you can call or text one eight hundred
+
+156
+00:06:32,838 --> 00:06:35,648
+gambler, the National Problem Gambling Helpline. It's free and
+
+157
+00:06:35,648 --> 00:06:35,960
+confidential.
+
+158
+00:06:36,460 --> 00:06:39,686
+But hold on. Somebody does win the jackpot sometimes,
+
+159
+00:06:39,686 --> 00:06:42,912
+right? Yes. And this is the biggest slot win
+
+160
+00:06:42,912 --> 00:06:43,270
+ever.
+
+161
+00:06:43,770 --> 00:06:47,798
+March, two thousand three. Excalibur hotel, Las Vegas. A
+
+162
+00:06:47,798 --> 00:06:51,825
+twenty-five-year-old software engineer from Los Angeles plays a Megabucks
+
+163
+00:06:51,825 --> 00:06:52,720
+slot machine.
+
+164
+00:06:52,920 --> 00:06:56,271
+He hits the jackpot. Thirty-nine point seven million dollars.
+
+165
+00:06:56,271 --> 00:06:59,250
+Still the biggest slot machine jackpot on record.
+
+166
+00:06:59,900 --> 00:07:02,697
+Here's the thing. That jackpot was built from the
+
+167
+00:07:02,697 --> 00:07:05,495
+money of thousands and thousands of players who lost.
+
+168
+00:07:05,495 --> 00:07:07,360
+One winner. A mountain of losers.
+
+169
+00:07:08,010 --> 00:07:11,181
+And that's exactly why casinos love big jackpot stories.
+
+170
+00:07:11,181 --> 00:07:14,000
+One winner makes everyone else believe they're next.
+
+171
+00:07:14,500 --> 00:07:17,388
+So, can you ever beat the casino? Here's the
+
+172
+00:07:17,388 --> 00:07:18,030
+honest answer.
+
+173
+00:07:18,530 --> 00:07:21,809
+In the short run, sure. Somebody always wins. That's
+
+174
+00:07:21,809 --> 00:07:25,087
+what keeps everyone coming back. In the long run?
+
+175
+00:07:25,087 --> 00:07:26,180
+The math wins.
+
+176
+00:07:26,830 --> 00:07:28,816
+So if you go, treat it as a night
+
+177
+00:07:28,816 --> 00:07:30,360
+out. Not a plan to make money.
+
+178
+00:07:31,010 --> 00:07:34,073
+Quick recap of how they get you. The house
+
+179
+00:07:34,073 --> 00:07:37,135
+edge on every bet. Chips that don't feel like
+
+180
+00:07:37,135 --> 00:07:40,198
+money. Near misses. Losses disguised as wins. No clocks.
+
+181
+00:07:40,198 --> 00:07:42,920
+Free stuff. And the belief that you're due.
+
+182
+00:07:43,870 --> 00:07:46,413
+Now you know the game. Most people walking into
+
+183
+00:07:46,413 --> 00:07:47,260
+a casino don't.
+
+184
+00:07:47,460 --> 00:07:49,800
+Because the real jackpot is the money you don't
+
+185
+00:07:49,800 --> 00:07:50,060
+lose.
+
+186
+00:07:50,260 --> 00:07:52,577
+Have you ever won big at a casino? Or
+
+187
+00:07:52,577 --> 00:07:54,895
+lost big? Tell me in the comments. And subscribe
+
+188
+00:07:54,895 --> 00:07:57,212
+for more money secrets they don't want you to
+
+189
+00:07:57,212 --> 00:07:57,470
+know.
