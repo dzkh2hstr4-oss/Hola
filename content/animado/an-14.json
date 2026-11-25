@@ -1,0 +1,77 @@
+{
+  "id": "an-14",
+  "producto": "atardecer",
+  "voz": "es-ES-ElviraNeural",
+  "rate": "+14%",
+  "musica": "entrada/musica/Five Armies.mp3",
+  "musicaDesde": 14,
+  "musicaVolumen": 0.2,
+  "publicar": "2026-11-29T17:00",
+  "status": "creado",
+  "escenas": [
+    {
+      "tipo": "gancho",
+      "lineas": [
+        {
+          "text": "La luz que hace"
+        },
+        {
+          "text": "que todo se vea mejor ✨",
+          "bg": "#c9ccd4",
+          "color": "#1a1d24"
+        }
+      ],
+      "dice": "Esta luz hace que todo se vea mejor. Mira.",
+      "etiqueta": "fotos · vídeos"
+    },
+    {
+      "tipo": "golpes",
+      "palabras": [
+        "FOTOS",
+        "DE",
+        "10"
+      ]
+    },
+    {
+      "tipo": "producto",
+      "lineas": [
+        {
+          "text": "Lámpara",
+          "size": 104
+        },
+        {
+          "text": "ATARDECER",
+          "size": 124,
+          "bg": "accent"
+        }
+      ],
+      "foto": "animado/ia-atardecer.png",
+      "sub": "🌅 Luz cálida de atardecer",
+      "dice": "Es esta lámpara. Se enchufa por USB y listo."
+    },
+    {
+      "tipo": "encender",
+      "antes": "click...",
+      "despues": [
+        {
+          "text": "Un ATARDECER"
+        },
+        {
+          "text": "en tu pared 🌅",
+          "bg": "accent"
+        }
+      ],
+      "dice": "Boom. Un atardecer en tu pared."
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "🎄 OFERTA NAVIDAD",
+      "descuento": "-40%",
+      "antes": "49,95 €",
+      "ahora": "29,95 €",
+      "extra": "🚚 Envío gratis",
+      "dice": "Ahora por veintinueve noventa y cinco, con envío gratis. Lo tienes en mi bio."
+    }
+  ],
+  "caption": "La luz que hace que todo se vea mejor ✨ Lámpara atardecer: luz cálida de atardecer en tu pared, por USB y sin obras. 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Five Armies» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
+}

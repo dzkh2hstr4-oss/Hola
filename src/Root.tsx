@@ -1,4 +1,5 @@
 import { Composition } from "remotion";
+import { Animado, AnimadoProps, animadoDuration } from "./Animado/Animado";
 import { Anuncio, ANUNCIO_DURATION } from "./Anuncio/Anuncio";
 import { QP_DURATION, QuePrefieres } from "./QuePrefieres/QuePrefieres";
 import { defaultReelProps, Reel, ReelProps } from "./Reel/Reel";
@@ -11,6 +12,16 @@ import { Video2 } from "./Lumora/Video2";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="Animado"
+        component={Animado}
+        durationInFrames={300}
+        fps={FPS}
+        width={W}
+        height={H}
+        defaultProps={{ producto: "atardecer", escenas: [{ tipo: "gancho", dur: 90, lineas: [{ text: "¿Tu habitación" }, { text: "se ve así?", bg: "#c9ccd4", color: "#1a1d24" }] }] } as AnimadoProps}
+        calculateMetadata={({ props }: { props: AnimadoProps }) => ({ durationInFrames: Math.max(1, animadoDuration(props)) })}
+      />
       <Composition
         id="Clips"
         component={Clips}

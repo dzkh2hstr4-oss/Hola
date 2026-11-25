@@ -32,7 +32,7 @@ const HITS = [12, 22, 32]; // "compra" "esto" "ya" inside B
 
 /* ---------- shared FX ---------- */
 
-const Snow: React.FC<{ count?: number; opacity?: number }> = ({
+export const Snow: React.FC<{ count?: number; opacity?: number }> = ({
   count = 70,
   opacity = 0.8,
 }) => {
@@ -66,7 +66,7 @@ const Snow: React.FC<{ count?: number; opacity?: number }> = ({
   );
 };
 
-const Grain: React.FC<{ opacity?: number }> = ({ opacity = 0.08 }) => {
+export const Grain: React.FC<{ opacity?: number }> = ({ opacity = 0.08 }) => {
   const frame = useCurrentFrame();
   return (
     <AbsoluteFill style={{ opacity, mixBlendMode: "overlay", pointerEvents: "none" }}>
@@ -80,7 +80,7 @@ const Grain: React.FC<{ opacity?: number }> = ({ opacity = 0.08 }) => {
   );
 };
 
-const Vignette: React.FC<{ strength?: number }> = ({ strength = 0.7 }) => (
+export const Vignette: React.FC<{ strength?: number }> = ({ strength = 0.7 }) => (
   <AbsoluteFill
     style={{
       background: `radial-gradient(ellipse at 50% 45%, transparent 45%, rgba(0,0,0,${strength}) 100%)`,
@@ -88,7 +88,7 @@ const Vignette: React.FC<{ strength?: number }> = ({ strength = 0.7 }) => (
   />
 );
 
-const Flash: React.FC<{ at: number; color?: string; len?: number }> = ({
+export const Flash: React.FC<{ at: number; color?: string; len?: number }> = ({
   at,
   color = "#fff",
   len = 8,
@@ -99,7 +99,7 @@ const Flash: React.FC<{ at: number; color?: string; len?: number }> = ({
 };
 
 /** Word-by-word kinetic text with springy entrances. */
-const Kinetic: React.FC<{
+export const Kinetic: React.FC<{
   lines: { text: string; color?: string; bg?: string; size?: number }[];
   top: number;
   delay?: number;
@@ -214,7 +214,7 @@ const MehTag: React.FC = () => {
 
 /* ---------- Scene B: COMPRA ESTO YA ---------- */
 
-const SlamWord: React.FC<{ word: string; at: number; y: number; color: string; size: number }> = ({
+export const SlamWord: React.FC<{ word: string; at: number; y: number; color: string; size: number }> = ({
   word,
   at,
   y,
@@ -327,7 +327,7 @@ const SceneB: React.FC = () => {
 
 /* ---------- Scene C: product reveal ---------- */
 
-const Sparkle: React.FC<{ x: number; y: number; at: number; size: number }> = ({ x, y, at, size }) => {
+export const Sparkle: React.FC<{ x: number; y: number; at: number; size: number }> = ({ x, y, at, size }) => {
   const frame = useCurrentFrame();
   const t = frame - at;
   const s = interpolate(t, [0, 8, 22], [0, 1, 0], clamp);
@@ -523,7 +523,7 @@ const SceneD: React.FC = () => {
 
 /* ---------- Scene E: -40% offer ---------- */
 
-const Burst: React.FC<{ size: number; color: string; rot: number }> = ({ size, color, rot }) => {
+export const Burst: React.FC<{ size: number; color: string; rot: number }> = ({ size, color, rot }) => {
   const pts = new Array(32)
     .fill(0)
     .map((_, i) => {

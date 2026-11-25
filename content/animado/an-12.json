@@ -1,0 +1,78 @@
+{
+  "id": "an-12",
+  "producto": "atardecer",
+  "voz": "es-ES-ElviraNeural",
+  "rate": "+14%",
+  "musica": "entrada/musica/Volatile Reaction.mp3",
+  "musicaDesde": 28,
+  "musicaVolumen": 0.2,
+  "publicar": "2026-11-28T21:00",
+  "status": "creado",
+  "escenas": [
+    {
+      "tipo": "gancho",
+      "lineas": [
+        {
+          "text": "Haz esto"
+        },
+        {
+          "text": "antes de una cita 💘",
+          "bg": "#c9ccd4",
+          "color": "#1a1d24"
+        }
+      ],
+      "dice": "Si tienes una cita en casa, haz esto antes.",
+      "etiqueta": "truco"
+    },
+    {
+      "tipo": "cuenta",
+      "lineas": [
+        {
+          "text": "Atento... 🤫"
+        }
+      ],
+      "dice": "Tres... dos... uno..."
+    },
+    {
+      "tipo": "encender",
+      "antes": "click...",
+      "despues": [
+        {
+          "text": "Un ATARDECER"
+        },
+        {
+          "text": "en tu pared 🌅",
+          "bg": "accent"
+        }
+      ],
+      "dice": "Boom. Un atardecer en tu pared."
+    },
+    {
+      "tipo": "producto",
+      "lineas": [
+        {
+          "text": "Lámpara",
+          "size": 104
+        },
+        {
+          "text": "ATARDECER",
+          "size": 124,
+          "bg": "accent"
+        }
+      ],
+      "foto": "animado/s7.jpg",
+      "sub": "🔘 Un botón y listo",
+      "dice": "Es esta lámpara. Se enchufa por USB y listo."
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "🎄 OFERTA NAVIDAD",
+      "descuento": "-40%",
+      "antes": "49,95 €",
+      "ahora": "29,95 €",
+      "extra": "🚚 Envío gratis",
+      "dice": "Ahora por veintinueve noventa y cinco, con envío gratis. Lo tienes en mi bio."
+    }
+  ],
+  "caption": "Haz esto antes de una cita 💘 Lámpara atardecer: luz cálida de atardecer en tu pared, por USB y sin obras. 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Volatile Reaction» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
+}

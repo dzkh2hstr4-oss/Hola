@@ -1,0 +1,76 @@
+{
+  "id": "an-26",
+  "producto": "atardecer",
+  "voz": "es-ES-ElviraNeural",
+  "rate": "+14%",
+  "musica": "entrada/musica/Darkest Child.mp3",
+  "musicaDesde": 2,
+  "musicaVolumen": 0.2,
+  "publicar": "2026-12-03T17:00",
+  "status": "creado",
+  "escenas": [
+    {
+      "tipo": "gancho",
+      "lineas": [
+        {
+          "text": "El regalo"
+        },
+        {
+          "text": "que sí van a usar 🎁",
+          "bg": "#c9ccd4",
+          "color": "#1a1d24"
+        }
+      ],
+      "dice": "Este año no regales calcetines. Regala esto.",
+      "etiqueta": "no más calcetines"
+    },
+    {
+      "tipo": "encender",
+      "antes": "click...",
+      "despues": [
+        {
+          "text": "Un ATARDECER"
+        },
+        {
+          "text": "en tu pared 🌅",
+          "bg": "accent"
+        }
+      ],
+      "dice": "Boom. Un atardecer en tu pared."
+    },
+    {
+      "tipo": "golpes",
+      "palabras": [
+        "ADIÓS",
+        "CALCETINES"
+      ]
+    },
+    {
+      "tipo": "producto",
+      "lineas": [
+        {
+          "text": "Lámpara",
+          "size": 104
+        },
+        {
+          "text": "ATARDECER",
+          "size": 124,
+          "bg": "accent"
+        }
+      ],
+      "foto": "animado/ia-atardecer.png",
+      "sub": "🌅 Luz cálida de atardecer",
+      "dice": "Es esta lámpara. Se enchufa por USB y listo."
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "SOLO ESTA SEMANA",
+      "descuento": "-40%",
+      "antes": "49,95 €",
+      "ahora": "29,95 €",
+      "extra": "🚚 Envío gratis",
+      "dice": "Ahora por veintinueve noventa y cinco, con envío gratis. Lo tienes en mi bio."
+    }
+  ],
+  "caption": "El regalo que sí van a usar 🎁 Lámpara atardecer: luz cálida de atardecer en tu pared, por USB y sin obras. 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Envío gratis\n\n#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Darkest Child» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
+}

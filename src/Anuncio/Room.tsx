@@ -10,6 +10,95 @@ const FLOOR_Y = 1560;
 const mix = (lit: number, a: string, b: string) =>
   interpolateColors(lit, [0, 1], [a, b]);
 
+/** Re-tints a warm "lit" colour into the cold aurora palette (same lightness/saturation, blue-violet hue). */
+export const coolOf = (hex: string) => {
+  const n = parseInt(hex.slice(1), 16);
+  let r = ((n >> 16) & 255) / 255, g = ((n >> 8) & 255) / 255, b = (n & 255) / 255;
+  const mx = Math.max(r, g, b), mn = Math.min(r, g, b);
+  const l = (mx + mn) / 2;
+  const s = mx === mn ? 0 : (mx - mn) / (1 - Math.abs(2 * l - 1));
+  const h = 235 + (r * 40 - g * 10); // blue-violet, a little variation
+  const c = (1 - Math.abs(2 * l - 1)) * s, x = c * (1 - Math.abs(((h / 60) % 2) - 1)), m = l - c / 2;
+  [r, g, b] = h < 240 ? [0, x, c] : [x, 0, c];
+  const to = (v: number) => Math.round((v + m) * 255).toString(16).padStart(2, "0");
+  return `#${to(r)}${to(g)}${to(b)}`;
+};
+
+/** Small white cube projector (proyector aurora) standing on the nightstand. */
+export const ProjectorShape: React.FC<{ x: number; baseY: number; on: number; squash?: number }> = ({
+  x,
+  baseY,
+  on,
+  squash = 1,
+}) => {
+  const frame = useCurrentFrame();
+  const top = baseY - 150;
+  return (
+    <g transform={`translate(${x} ${baseY}) scale(${2 - squash} ${squash}) translate(${-x} ${-baseY})`}>
+      {/* light beams towards the ceiling */}
+      <path d={`M ${x - 30} ${top + 20} L ${x - 380} ${-200} L ${x + 520} ${-200} L ${x + 30} ${top + 20} Z`} fill="url(#beam)" opacity={on * (0.55 + 0.1 * Math.sin(frame / 6))} />
+      <ellipse cx={x} cy={baseY - 2} rx={95} ry={14} fill="#0d0d10" opacity={0.6} />
+      <rect x={x - 75} y={top} width={150} height={148} rx={26} fill="#f2f2f6" />
+      <rect x={x - 75} y={top + 100} width={150} height={48} rx={20} fill="#d9d9e2" />
+      <ellipse cx={x} cy={top + 8} rx={58} ry={20} fill={interpolateColors(on, [0, 1], ["#c9cbd6", "#a8fff0"])} />
+      <ellipse cx={x} cy={top + 8} rx={90} ry={34} fill="#8affe0" opacity={on * 0.45} filter="url(#soft)" />
+      {[0, 1, 2].map((i) => (
+        <circle key={i} cx={x - 30 + i * 30} cy={top + 124} r={6} fill={i === 1 ? (on > 0.5 ? "#4cff9a" : "#9a9aa6") : "#9a9aa6"} />
+      ))}
+    </g>
+  );
+};
+
+/** Moving aurora ribbons + stars projected on the wall and ceiling. */
+const Aurora: React.FC<{ lit: number }> = ({ lit }) => {
+  const frame = useCurrentFrame();
+  const ribbons = [
+    { y: 260, amp: 70, c1: "#3dffb0", c2: "#1fd2ff", w: 150, sp: 0.035, ph: 0 },
+    { y: 430, amp: 90, c1: "#7b5bff", c2: "#3dffb0", w: 130, sp: 0.028, ph: 2 },
+    { y: 620, amp: 60, c1: "#1fd2ff", c2: "#c05bff", w: 110, sp: 0.04, ph: 4 },
+    { y: 820, amp: 80, c1: "#3dffb0", c2: "#7b5bff", w: 120, sp: 0.03, ph: 1 },
+  ];
+  const path = (r: (typeof ribbons)[number], off: number) => {
+    const pts: string[] = [];
+    for (let i = 0; i <= 24; i++) {
+      const x = -100 + i * 55;
+      const y = r.y + off + Math.sin(i * 0.45 + frame * r.sp + r.ph) * r.amp + Math.sin(i * 0.17 - frame * r.sp * 0.6) * r.amp * 0.6;
+      pts.push(`${i === 0 ? "M" : "L"} ${x} ${y}`);
+    }
+    return pts.join(" ");
+  };
+  return (
+    <g opacity={lit}>
+      <defs>
+        {ribbons.map((r, i) => (
+          <linearGradient key={i} id={`rib${i}`} x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stopColor={r.c1} />
+            <stop offset="100%" stopColor={r.c2} />
+          </linearGradient>
+        ))}
+      </defs>
+      {ribbons.map((r, i) => (
+        <g key={i} filter="url(#big)" opacity={0.75 + 0.25 * Math.sin(frame / 20 + i)}>
+          <path d={path(r, 0)} stroke={`url(#rib${i})`} strokeWidth={r.w} fill="none" strokeLinecap="round" />
+        </g>
+      ))}
+      {ribbons.map((r, i) => (
+        <path key={`t${i}`} d={path(r, -r.w * 0.2)} stroke={`url(#rib${i})`} strokeWidth={r.w * 0.25} fill="none" opacity={0.45} filter="url(#soft)" />
+      ))}
+      {new Array(90).fill(0).map((_, i) => (
+        <circle
+          key={i}
+          cx={random(`ax${i}`) * 1080}
+          cy={random(`ay${i}`) * 1150}
+          r={1.5 + random(`ar${i}`) * 3.5}
+          fill="#fff"
+          opacity={0.25 + 0.75 * Math.abs(Math.sin(frame / (8 + random(`at${i}`) * 10) + i))}
+        />
+      ))}
+    </g>
+  );
+};
+
 export const LampShape: React.FC<{
   x: number;
   baseY: number;
@@ -81,7 +170,10 @@ export const Room: React.FC<{
   lampVisible?: boolean;
   lampDropY?: number;
   lampSquash?: number;
-}> = ({ lit, lights = 0, lampVisible = true, lampDropY = 0, lampSquash = 1 }) => {
+  modo?: "sol" | "aurora";
+}> = ({ lit, lights = 0, lampVisible = true, lampDropY = 0, lampSquash = 1, modo = "sol" }) => {
+  const aur = modo === "aurora";
+  const mix = (l: number, a: string, b: string) => interpolateColors(l, [0, 1], [a, aur ? coolOf(b) : b]);
   const frame = useCurrentFrame();
   const sunR = SUN.r * interpolate(lit, [0, 0.6], [0.05, 1], {
     extrapolateRight: "clamp",
@@ -113,6 +205,10 @@ export const Room: React.FC<{
         <filter id="soft">
           <feGaussianBlur stdDeviation="8" />
         </filter>
+        <linearGradient id="beam" x1="0" y1="1" x2="0" y2="0">
+          <stop offset="0%" stopColor="#a8fff0" stopOpacity={0.5} />
+          <stop offset="100%" stopColor="#7b5bff" stopOpacity={0} />
+        </linearGradient>
         <filter id="big">
           <feGaussianBlur stdDeviation="40" />
         </filter>
@@ -159,8 +255,9 @@ export const Room: React.FC<{
       <path d="M 250 440 L 330 440 L 330 930 L 240 930 Q 270 700 250 440 Z" fill={mix(lit, "#454a58", "#c25a2a")} />
       <rect x={20} y={430} width={330} height={14} rx={7} fill="#15161a" />
 
+      {aur && <Aurora lit={lit} />}
       {/* the projected sunset */}
-      <g opacity={lit} transform={`translate(${SUN.x} ${SUN.y}) scale(${breathe}) translate(${-SUN.x} ${-SUN.y})`}>
+      <g opacity={aur ? 0 : lit} transform={`translate(${SUN.x} ${SUN.y}) scale(${breathe}) translate(${-SUN.x} ${-SUN.y})`}>
         <circle cx={SUN.x} cy={SUN.y} r={sunR * 1.6} fill="url(#sunGlow)" opacity={0.4} />
         <circle cx={SUN.x} cy={SUN.y} r={sunR} fill="url(#sunGrad)" />
       </g>
@@ -208,7 +305,11 @@ export const Room: React.FC<{
 
       {lampVisible && (
         <g transform={`translate(0 ${lampDropY})`}>
-          <LampShape x={LAMP.x} baseY={LAMP.baseY} on={lit} squash={lampSquash} />
+          {aur ? (
+            <ProjectorShape x={LAMP.x} baseY={LAMP.baseY - 12} on={lit} squash={lampSquash} />
+          ) : (
+            <LampShape x={LAMP.x} baseY={LAMP.baseY} on={lit} squash={lampSquash} />
+          )}
         </g>
       )}
 
@@ -229,7 +330,7 @@ export const Room: React.FC<{
       <FairyLights on={lights} />
 
       {/* warm light wash */}
-      <circle cx={SUN.x} cy={SUN.y + 300} r={900} fill="url(#sunGlow)" opacity={lit * 0.35} filter="url(#big)" />
+      <circle cx={SUN.x} cy={SUN.y + 300} r={900} fill={aur ? "#3dffb0" : "url(#sunGlow)"} opacity={lit * (aur ? 0.08 : 0.35)} filter="url(#big)" />
     </svg>
   );
 };
