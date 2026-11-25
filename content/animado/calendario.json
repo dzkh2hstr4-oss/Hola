@@ -13,169 +13,169 @@
   },
   {
     "id": "an-03",
-    "publicar": "2026-11-25T16:00",
+    "publicar": "2026-11-25T15:00",
     "producto": "aurora",
     "status": "creado"
   },
   {
     "id": "an-04",
-    "publicar": "2026-11-25T20:00",
+    "publicar": "2026-11-25T18:00",
     "producto": "atardecer",
     "status": "creado"
   },
   {
     "id": "an-05",
-    "publicar": "2026-11-25T23:00",
+    "publicar": "2026-11-25T20:00",
     "producto": "aurora",
     "status": "creado"
   },
   {
     "id": "an-06",
-    "publicar": "2026-11-26T09:00",
+    "publicar": "2026-11-25T22:00",
     "producto": "atardecer",
     "status": "creado"
   },
   {
     "id": "an-07",
-    "publicar": "2026-11-26T12:00",
+    "publicar": "2026-11-26T00:00",
     "producto": "aurora",
     "status": "creado"
   },
   {
     "id": "an-08",
-    "publicar": "2026-11-26T16:00",
+    "publicar": "2026-11-26T09:00",
     "producto": "atardecer",
     "status": "creado"
   },
   {
     "id": "an-09",
-    "publicar": "2026-11-26T20:00",
+    "publicar": "2026-11-26T12:00",
     "producto": "aurora",
     "status": "creado"
   },
   {
     "id": "an-10",
-    "publicar": "2026-11-26T23:00",
+    "publicar": "2026-11-26T15:00",
     "producto": "atardecer",
     "status": "creado"
   },
   {
     "id": "an-11",
-    "publicar": "2026-11-27T09:00",
+    "publicar": "2026-11-26T18:00",
     "producto": "aurora",
     "status": "creado"
   },
   {
     "id": "an-12",
-    "publicar": "2026-11-27T12:00",
+    "publicar": "2026-11-26T20:00",
     "producto": "atardecer",
     "status": "creado"
   },
   {
     "id": "an-13",
-    "publicar": "2026-11-27T16:00",
+    "publicar": "2026-11-26T22:00",
     "producto": "aurora",
     "status": "creado"
   },
   {
     "id": "an-14",
-    "publicar": "2026-11-27T20:00",
+    "publicar": "2026-11-27T00:00",
     "producto": "atardecer",
     "status": "creado"
   },
   {
     "id": "an-15",
-    "publicar": "2026-11-27T23:00",
+    "publicar": "2026-11-27T09:00",
     "producto": "aurora",
     "status": "creado"
   },
   {
     "id": "an-16",
-    "publicar": "2026-11-28T09:00",
+    "publicar": "2026-11-27T12:00",
     "producto": "atardecer",
     "status": "creado"
   },
   {
     "id": "an-17",
-    "publicar": "2026-11-28T12:00",
+    "publicar": "2026-11-27T15:00",
     "producto": "aurora",
     "status": "creado"
   },
   {
     "id": "an-18",
-    "publicar": "2026-11-28T16:00",
+    "publicar": "2026-11-27T18:00",
     "producto": "atardecer",
     "status": "creado"
   },
   {
     "id": "an-19",
-    "publicar": "2026-11-28T20:00",
+    "publicar": "2026-11-27T20:00",
     "producto": "aurora",
     "status": "creado"
   },
   {
     "id": "an-20",
-    "publicar": "2026-11-28T23:00",
+    "publicar": "2026-11-27T22:00",
     "producto": "atardecer",
     "status": "creado"
   },
   {
     "id": "an-21",
-    "publicar": "2026-11-29T09:00",
+    "publicar": "2026-11-28T00:00",
     "producto": "aurora",
     "status": "creado"
   },
   {
     "id": "an-22",
-    "publicar": "2026-11-29T12:00",
+    "publicar": "2026-11-28T09:00",
     "producto": "atardecer",
     "status": "creado"
   },
   {
     "id": "an-23",
-    "publicar": "2026-11-29T16:00",
+    "publicar": "2026-11-28T12:00",
     "producto": "aurora",
     "status": "creado"
   },
   {
     "id": "an-24",
-    "publicar": "2026-11-29T20:00",
+    "publicar": "2026-11-28T15:00",
     "producto": "atardecer",
     "status": "creado"
   },
   {
     "id": "an-25",
-    "publicar": "2026-11-29T23:00",
+    "publicar": "2026-11-28T18:00",
     "producto": "aurora",
     "status": "creado"
   },
   {
     "id": "an-26",
-    "publicar": "2026-11-30T09:00",
+    "publicar": "2026-11-28T20:00",
     "producto": "atardecer",
     "status": "creado"
   },
   {
     "id": "an-27",
-    "publicar": "2026-11-30T12:00",
+    "publicar": "2026-11-28T22:00",
     "producto": "aurora",
     "status": "creado"
   },
   {
     "id": "an-28",
-    "publicar": "2026-11-30T16:00",
+    "publicar": "2026-11-29T00:00",
     "producto": "atardecer",
     "status": "creado"
   },
   {
     "id": "an-29",
-    "publicar": "2026-11-30T20:00",
+    "publicar": "2026-11-29T09:00",
     "producto": "aurora",
     "status": "creado"
   },
   {
     "id": "an-30",
-    "publicar": "2026-11-30T23:00",
+    "publicar": "2026-11-29T12:00",
     "producto": "atardecer",
     "status": "creado"
   }
