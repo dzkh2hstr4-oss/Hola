@@ -30,6 +30,8 @@ export type MScene = {
   pick?: number;
   total?: string;
   sfx?: { f: string; at?: number; v?: number }[];
+  track?: string;
+  idx?: number;
 };
 export type MCaption = { t: string; s: number; e: number };
 export type MoneyProps = { vertical: boolean; scenes: MScene[]; captions: MCaption[]; voice: string; total: number; brand?: string };
@@ -50,8 +52,9 @@ const Rich: React.FC<{ text: string; color?: string; delay?: number; stagger?: n
         const clean = w.replace(/\*/g, "");
         const sp = spring({ frame: f - delay - i * stagger, fps: MFPS, config: { damping: 13, stiffness: 180 } });
         return (
-          <span key={i} style={{ display: "inline-block", color: hi ? color : undefined, transform: `translateY(${(1 - sp) * 40}%) scale(${0.85 + sp * 0.15})`, opacity: sp, marginRight: "0.25em" }}>
+          <span key={i} style={{ display: "inline-block", position: "relative", color: hi ? color : undefined, transform: `translateY(${(1 - sp) * 40}%) scale(${0.85 + sp * 0.15})`, opacity: sp, marginRight: "0.25em" }}>
             {clean}
+            {hi ? <span style={{ position: "absolute", left: 0, bottom: "-0.02em", height: "0.09em", borderRadius: 99, background: color, width: `${interpolate(f - delay - i * stagger, [6, 16], [0, 100], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}%` }} /> : null}
           </span>
         );
       })}
@@ -71,6 +74,13 @@ const Background: React.FC = () => {
   const syms = ["$", "%", "¢", "$", "€", "$", "↑", "$"];
   return (
     <AbsoluteFill style={{ background: `radial-gradient(ellipse at 30% 20%, ${C.bg2}, ${C.bg1} 70%)` }}>
+      {[
+        { c: "rgba(43,224,122,0.18)", sx: 0.25, sy: 0.3, r: 0.55, k: 0 },
+        { c: "rgba(60,120,255,0.16)", sx: 0.75, sy: 0.7, r: 0.6, k: 2 },
+        { c: "rgba(255,212,59,0.10)", sx: 0.6, sy: 0.2, r: 0.45, k: 4 },
+      ].map((b, i) => (
+        <div key={"b" + i} style={{ position: "absolute", left: (b.sx + 0.12 * Math.sin(f / 90 + b.k)) * W - (b.r * Math.max(W, H)) / 2, top: (b.sy + 0.1 * Math.cos(f / 110 + b.k)) * H - (b.r * Math.max(W, H)) / 2, width: b.r * Math.max(W, H), height: b.r * Math.max(W, H), borderRadius: "50%", background: `radial-gradient(circle, ${b.c}, transparent 65%)`, transform: `scale(${1 + 0.04 * Math.sin((f / MFPS) * Math.PI * 2 * 1)})` }} />
+      ))}
       <AbsoluteFill
         style={{
           backgroundImage: `linear-gradient(rgba(43,224,122,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(43,224,122,0.06) 1px, transparent 1px)`,
@@ -108,6 +118,29 @@ const Source: React.FC<{ text?: string }> = ({ text }) => {
   return <div style={{ position: "absolute", left: 50 * u, bottom: vert ? 190 * u : 30 * u, fontFamily: "Grotesk", fontSize: 22 * u, color: C.dim }}>Source: {text}</div>;
 };
 
+
+// ---------- coin burst (on reveals) ----------
+const Burst: React.FC<{ at: number; color?: string }> = ({ at, color = C.green }) => {
+  const f = useCurrentFrame() - at;
+  const { u, W, H } = useU();
+  if (f < 0 || f > 40) return null;
+  return (
+    <AbsoluteFill style={{ pointerEvents: "none" }}>
+      {Array.from({ length: 22 }).map((_, i) => {
+        const ang = (i / 22) * Math.PI * 2 + (i % 3) * 0.2;
+        const sp = (14 + (i * 37) % 12) * u;
+        const x = W / 2 + Math.cos(ang) * sp * f;
+        const y = H * 0.42 + Math.sin(ang) * sp * f + 0.5 * 1.1 * u * f * f;
+        return (
+          <div key={i} style={{ position: "absolute", left: x, top: y, fontFamily: "Anton", fontSize: (60 + (i % 4) * 18) * u, color: i % 4 === 0 ? C.yellow : color, opacity: 0.85 * (1 - f / 40), transform: `rotate(${f * 12 + i * 20}deg)` }}>
+            {i % 2 === 0 ? "$" : "¢"}
+          </div>
+        );
+      })}
+    </AbsoluteFill>
+  );
+};
+
 // ---------- scenes ----------
 const SceneView: React.FC<{ sc: MScene }> = ({ sc }) => {
   const f = useCurrentFrame();
@@ -119,11 +152,19 @@ const SceneView: React.FC<{ sc: MScene }> = ({ sc }) => {
   let body: React.ReactNode = null;
 
   if (sc.kind === "hook" || sc.kind === "big" || sc.kind === "chapter") {
-    const size = sc.kind === "hook" ? (vert ? 128 : 120) : sc.kind === "chapter" ? 130 : vert ? 104 : 96;
+    const size = sc.kind === "hook" ? (vert ? 128 : 130) : sc.kind === "chapter" ? 140 : vert ? 104 : 116;
     const pulse = 1 + Math.sin(f / 6) * 0.03;
     body = (
       <AbsoluteFill style={center}>
-        {sc.icon ? <div style={{ fontSize: (vert ? 230 : 170) * u, transform: `scale(${spring({ frame: f, fps: MFPS, config: { damping: 8, stiffness: 160 } }) * pulse})`, marginBottom: 30 * u }}>{sc.icon}</div> : null}
+        {sc.icon ? (
+          <div style={{ position: "relative", marginBottom: 30 * u, display: "flex", alignItems: "center", justifyContent: "center" }}>
+            {[0, 1].map((k) => {
+              const ph = ((f + k * 22) % 44) / 44;
+              return <div key={k} style={{ position: "absolute", width: (vert ? 260 : 200) * u, height: (vert ? 260 : 200) * u, borderRadius: "50%", border: `${4 * u}px solid ${C.green}`, opacity: (1 - ph) * 0.5, transform: `scale(${0.8 + ph * 0.9})` }} />;
+            })}
+            <div style={{ fontSize: (vert ? 230 : 210) * u, transform: `translateY(${Math.sin(f / 9) * 10 * u}px) rotate(${Math.sin(f / 13) * 6}deg) scale(${spring({ frame: f, fps: MFPS, config: { damping: 8, stiffness: 160 } }) * pulse})` }}>{sc.icon}</div>
+          </div>
+        ) : null}
         {sc.label ? <Label text={sc.label} /> : null}
         <div style={{ marginTop: 16 * u }}>
           <Title text={sc.title ?? ""} size={size} center />
@@ -252,12 +293,22 @@ const SceneView: React.FC<{ sc: MScene }> = ({ sc }) => {
     );
   }
 
-  const fadeIn = interpolate(f, [0, 6], [0, 1], { extrapolateRight: "clamp" });
+  const fadeIn = interpolate(f, [0, 7], [0, 1], { extrapolateRight: "clamp" });
   const fadeOut = interpolate(f, [dur - 5, dur], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const mode = (sc.idx ?? 0) % 3;
+  const ein = interpolate(f, [0, 9], [1, 0], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const eout = interpolate(f, [dur - 6, dur], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.in(Easing.cubic) });
+  const push = 1 + interpolate(f, [0, Math.max(1, dur)], [0, 0.05]);
+  const sc0 = mode === 0 ? 1 + 0.18 * ein : 1;
+  const tx = mode === 1 ? 160 * u * ein : mode === 2 ? -160 * u * ein : 0;
+  const shake = sc.kind === "hook" && f < 12 ? Math.sin(f * 2.3) * (12 - f) * 1.6 * u : 0;
+  const revealAt = sc.kind === "stat" ? 45 : sc.kind === "prices" && sc.pick !== undefined ? Math.round(dur * 0.45) : sc.kind === "hook" ? 4 : -999;
   return (
-    <AbsoluteFill style={{ opacity: Math.min(fadeIn, fadeOut) }}>
+    <AbsoluteFill style={{ opacity: Math.min(fadeIn, fadeOut), transform: `translate(${tx + shake}px, ${shake * 0.6}px) scale(${push * sc0 * (1 - 0.06 * eout)})`, filter: `blur(${(ein + eout) * 10 * u}px)` }}>
+      {revealAt > -999 ? <Burst at={revealAt} color={sc.kind === "hook" ? C.yellow : C.green} /> : null}
       {body}
       <Source text={sc.source} />
+      {sc.kind === "hook" && f < 6 ? <AbsoluteFill style={{ background: "white", opacity: interpolate(f, [0, 6], [0.7, 0]) }} /> : null}
     </AbsoluteFill>
   );
 };
@@ -310,6 +361,23 @@ const Brand: React.FC<{ text: string }> = ({ text }) => {
   );
 };
 
+
+const Tracker: React.FC<{ scenes: MScene[] }> = ({ scenes }) => {
+  const f = useCurrentFrame();
+  const { u, vert } = useU();
+  const t = f / MFPS;
+  let cur: MScene | undefined;
+  for (const sc of scenes) if (sc.s <= t && sc.track) cur = sc;
+  if (!cur || !cur.track || vert) return null;
+  const k = f - sec(cur.s);
+  const sp = spring({ frame: k, fps: MFPS, config: { damping: 12, stiffness: 180 } });
+  return (
+    <div style={{ position: "absolute", left: 40 * u, top: 30 * u, display: "flex", alignItems: "center", gap: 14 * u, transform: `scale(${0.6 + 0.4 * sp})`, transformOrigin: "left center" }}>
+      <div style={{ background: C.green, color: "#07111f", fontFamily: "Anton", fontSize: 34 * u, padding: `${6 * u}px ${18 * u}px`, borderRadius: 10 * u }}>{cur.track}</div>
+    </div>
+  );
+};
+
 export const MoneyVid: React.FC<MoneyProps> = ({ scenes, captions, voice, total, brand }) => {
   const f = useCurrentFrame();
   const { u } = useU();
@@ -319,9 +387,10 @@ export const MoneyVid: React.FC<MoneyProps> = ({ scenes, captions, voice, total,
       <Background />
       {scenes.map((sc, i) => (
         <Sequence key={i} from={sec(sc.s)} durationInFrames={Math.max(1, sec(sc.e) - sec(sc.s))}>
-          <SceneView sc={sc} />
+          <SceneView sc={{ ...sc, idx: i }} />
         </Sequence>
       ))}
+      <Tracker scenes={scenes} />
       {brand ? <Brand text={brand} /> : null}
       <Captions caps={captions} />
       <div style={{ position: "absolute", left: 0, bottom: 0, height: 8 * u, width: `${(f / end) * 100}%`, background: C.green }} />

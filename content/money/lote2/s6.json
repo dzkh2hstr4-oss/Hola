@@ -1,0 +1,79 @@
+{
+ "vertical": true,
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "26 TIMES *IN A ROW*",
+   "icon": "🎡",
+   "s": 0.0,
+   "e": 4.98
+  },
+  {
+   "kind": "big",
+   "title": "\"RED IS *DUE!*\"",
+   "icon": "🔴",
+   "s": 4.98,
+   "e": 9.55
+  },
+  {
+   "kind": "big",
+   "title": "THE BALL HAS *NO MEMORY*",
+   "icon": "🧠",
+   "s": 9.55,
+   "e": 16.05
+  },
+  {
+   "kind": "list",
+   "title": "THE GAMBLER'S *FALLACY*",
+   "items": [
+    {
+     "label": "Casinos"
+    },
+    {
+     "label": "Stocks & crypto"
+    },
+    {
+     "label": "Sports bets"
+    }
+   ],
+   "s": 16.05,
+   "e": 22.63
+  },
+  {
+   "kind": "outro",
+   "title": "DON'T FALL *FOR IT*",
+   "s": 22.63,
+   "e": 27.48
+  }
+ ],
+ "captions": [
+  {
+   "t": "In nineteen thirteen, a roulette wheel in Monte Carlo landed on black twenty-six times in a row.",
+   "s": 0.05,
+   "e": 4.83
+  },
+  {
+   "t": "After about fifteen blacks, gamblers rushed to bet on red. Surely red was due.",
+   "s": 5.03,
+   "e": 9.4
+  },
+  {
+   "t": "It wasn't. The ball has no memory. Every spin has the same odds. And people lost millions of francs that night.",
+   "s": 9.6,
+   "e": 15.9
+  },
+  {
+   "t": "It's called the gambler's fallacy. And it's not just casinos. People do it with stocks, crypto and even sports.",
+   "s": 16.1,
+   "e": 22.48
+  },
+  {
+   "t": "Past results don't change future odds. Follow for more money psychology.",
+   "s": 22.68,
+   "e": 26.73
+  }
+ ],
+ "voice": "money/audio/m-lote2-s6-voz.wav",
+ "total": 27.48,
+ "brand": "MONEY DECODED"
+}

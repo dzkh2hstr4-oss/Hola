@@ -1,0 +1,64 @@
+{
+ "vertical": true,
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "pitch": "+0Hz",
+ "mic": true,
+ "brand": "MONEY DECODED",
+ "music": "track:darkest_child@0",
+ "lines": [
+  {
+   "t": "If you only pay the minimum on your credit card, this is what happens.",
+   "kind": "hook",
+   "title": "THE MINIMUM *TRAP*",
+   "icon": "💳"
+  },
+  {
+   "t": "Say you owe five thousand dollars at about twenty-two percent interest. That's close to the US average right now.",
+   "kind": "big",
+   "title": "$5,000 AT *22%*",
+   "sub": "near the current US average APR",
+   "source": "Federal Reserve G.19, 2026"
+  },
+  {
+   "t": "If you pay only the minimum, it takes about nineteen years to pay it off.",
+   "kind": "stat",
+   "value": 19,
+   "suffix": " yrs",
+   "label": "Paying only the minimum",
+   "title": "TO BE *DEBT-FREE*",
+   "source": "Example: min = interest + 1%, $25 floor"
+  },
+  {
+   "t": "And you pay over eight thousand dollars in interest. More than the original debt.",
+   "kind": "stat",
+   "value": 8241,
+   "prefix": "$",
+   "label": "Total interest paid",
+   "title": "IN *INTEREST*"
+  },
+  {
+   "t": "Pay two hundred a month instead, and you're done in under three years, with about eighteen hundred in interest.",
+   "kind": "bars",
+   "title": "INTEREST *PAID*",
+   "items": [
+    {
+     "label": "Minimum payment",
+     "value": 8241,
+     "display": "$8,241"
+    },
+    {
+     "label": "$200 per month",
+     "value": 1793,
+     "display": "$1,793"
+    }
+   ],
+   "pick": 1
+  },
+  {
+   "t": "The minimum payment is designed to keep you paying. Follow to keep more of your money.",
+   "kind": "outro",
+   "title": "PAY MORE THAN *THE MINIMUM*"
+  }
+ ]
+}

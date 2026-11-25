@@ -1,0 +1,865 @@
+{
+ "vertical": false,
+ "voice": "en-US-AndrewNeural",
+ "rate": "+0%",
+ "pitch": "+0Hz",
+ "mic": true,
+ "brand": "MONEY DECODED",
+ "lines": [
+  {
+   "t": "Casinos don't gamble. Not even a little.",
+   "kind": "hook",
+   "title": "CASINOS *DON'T* GAMBLE",
+   "icon": "🎰",
+   "mus": "track:the_descent@4"
+  },
+  {
+   "t": "Every game is built so they win. And in a minute I'll show you the exact math.",
+   "kind": "big",
+   "title": "THE *EXACT* MATH",
+   "icon": "🧮"
+  },
+  {
+   "t": "But the scariest part isn't the math. It's what they do to your brain. Wait until you see trick number three.",
+   "kind": "big",
+   "title": "WAIT FOR *TRICK #3*",
+   "icon": "🧠"
+  },
+  {
+   "t": "First, how much money are we talking about?",
+   "kind": "big",
+   "title": "HOW MUCH *MONEY?*",
+   "icon": "💰"
+  },
+  {
+   "t": "In twenty twenty-five, Nevada casinos won fifteen point eight billion dollars from players. A new record.",
+   "kind": "stat",
+   "value": 15.8,
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B",
+   "label": "Nevada gaming revenue · 2025",
+   "title": "WON FROM *PLAYERS*",
+   "source": "Nevada Gaming Control Board",
+   "hold": 0.7
+  },
+  {
+   "t": "So how do they do it? Part one. The house edge.",
+   "kind": "chapter",
+   "label": "PART 1",
+   "title": "THE HOUSE *EDGE*",
+   "track": "PART 1 · THE MATH",
+   "mus": "track:crypto@0"
+  },
+  {
+   "t": "Let's take roulette. An American wheel has thirty-eight pockets.",
+   "kind": "stat",
+   "value": 38,
+   "label": "American roulette",
+   "title": "POCKETS",
+   "source": "numbers 1–36, plus 0 and 00",
+   "track": "PART 1 · THE MATH",
+   "hold": 0.7
+  },
+  {
+   "t": "Bet on one number and win, and they pay you thirty-five to one.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "They pay",
+     "price": "35 : 1"
+    }
+   ],
+   "track": "PART 1 · THE MATH",
+   "hold": 0.7
+  },
+  {
+   "t": "But with thirty-eight pockets, a fair payout would be thirty-seven to one.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "They pay",
+     "price": "35 : 1"
+    },
+    {
+     "label": "Fair payout",
+     "price": "37 : 1"
+    }
+   ],
+   "pick": 0,
+   "track": "PART 1 · THE MATH",
+   "hold": 0.7
+  },
+  {
+   "t": "That little gap? That's the house edge. About five point two six percent.",
+   "kind": "stat",
+   "value": 5.26,
+   "decimals": 2,
+   "suffix": "%",
+   "label": "American roulette",
+   "title": "HOUSE *EDGE*",
+   "track": "PART 1 · THE MATH",
+   "hold": 0.7
+  },
+  {
+   "t": "In plain English: for every one hundred dollars bet, the casino keeps around five dollars and twenty-six cents. On average.",
+   "kind": "receipt",
+   "title": "EVERY $100 BET",
+   "items": [
+    {
+     "label": "Back to players (avg)",
+     "price": "$94.74"
+    },
+    {
+     "label": "Kept by casino",
+     "price": "$5.26",
+     "tag": "bad"
+    }
+   ],
+   "total": "$100.00",
+   "track": "PART 1 · THE MATH",
+   "hold": 0.7
+  },
+  {
+   "t": "Sounds small, right? Here's the catch.",
+   "kind": "big",
+   "title": "HERE'S *THE CATCH*",
+   "icon": "⚠️",
+   "track": "PART 1 · THE MATH"
+  },
+  {
+   "t": "That edge applies to every single bet. Bet the same hundred dollars again and again… and it gets eaten again and again.",
+   "kind": "big",
+   "title": "EVERY *SINGLE* BET",
+   "icon": "🔁",
+   "track": "PART 1 · THE MATH"
+  },
+  {
+   "t": "And roulette isn't even the worst game. Look at this.",
+   "kind": "big",
+   "title": "NOT EVEN *THE WORST*",
+   "icon": "👀",
+   "track": "PART 1 · THE MATH"
+  },
+  {
+   "t": "Blackjack with perfect strategy, around half a percent. European roulette, two point seven. American roulette, five point two six. And keno? Often more than twenty-five percent.",
+   "kind": "bars",
+   "title": "HOUSE EDGE BY *GAME*",
+   "items": [
+    {
+     "label": "Blackjack (perfect strategy)",
+     "value": 0.5,
+     "display": "≈0.5%"
+    },
+    {
+     "label": "European roulette",
+     "value": 2.7,
+     "display": "2.7%"
+    },
+    {
+     "label": "American roulette",
+     "value": 5.26,
+     "display": "5.26%"
+    },
+    {
+     "label": "Keno",
+     "value": 25,
+     "display": "25%+"
+    }
+   ],
+   "pick": 3,
+   "source": "Typical published house edges; rules vary",
+   "track": "PART 1 · THE MATH",
+   "hold": 0.7
+  },
+  {
+   "t": "So here's a free tip if you ever play roulette. Look for a wheel with a single zero. Same game, about half the house edge. Most people never even check.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Double zero wheel",
+     "price": "5.26%"
+    },
+    {
+     "label": "Single zero wheel",
+     "price": "2.70%",
+     "tag": "half the edge"
+    }
+   ],
+   "pick": 1,
+   "hold": 0.7,
+   "track": "PART 1 · THE MATH"
+  },
+  {
+   "t": "And with blackjack, the edge is only that low if you play perfect basic strategy. Play on gut feeling, and the casino's edge goes up.",
+   "kind": "big",
+   "title": "GUT FEELING *COSTS MONEY*",
+   "icon": "🃏",
+   "track": "PART 1 · THE MATH"
+  },
+  {
+   "t": "Small edge. Millions of bets. That's how you get billions.",
+   "kind": "big",
+   "title": "EDGE × *MILLIONS*",
+   "icon": "🏦",
+   "track": "PART 1 · THE MATH"
+  },
+  {
+   "t": "Now, you might be thinking: what if I just double my bet every time I lose? Then one win gets it all back. People call it the Martingale.",
+   "kind": "big",
+   "title": "THE *DOUBLING* STRATEGY",
+   "icon": "✖️2️⃣",
+   "track": "PART 1 · THE MATH"
+  },
+  {
+   "t": "Start with ten dollars. Lose. Twenty. Lose. Forty. Eighty. One sixty. Three twenty. Six forty. Twelve eighty.",
+   "kind": "bars",
+   "title": "AFTER 7 *LOSSES*",
+   "items": [
+    {
+     "label": "Bet 1",
+     "value": 10,
+     "display": "$10"
+    },
+    {
+     "label": "Bet 4",
+     "value": 80,
+     "display": "$80"
+    },
+    {
+     "label": "Bet 6",
+     "value": 320,
+     "display": "$320"
+    },
+    {
+     "label": "Bet 8",
+     "value": 1280,
+     "display": "$1,280"
+    }
+   ],
+   "pick": 3,
+   "track": "PART 1 · THE MATH",
+   "hold": 0.7
+  },
+  {
+   "t": "After seven losses in a row, you've already lost twelve hundred and seventy dollars… to try to win ten. And many tables have a maximum bet that stops you from doubling forever.",
+   "kind": "stat",
+   "value": 1270,
+   "prefix": "$",
+   "label": "Lost after 7 losses in a row",
+   "title": "TO WIN *$10*",
+   "track": "PART 1 · THE MATH",
+   "hold": 0.7
+  },
+  {
+   "t": "Seven losses in a row sounds rare. Remember that number… because in part three, you'll see what happened when a wheel did something way crazier.",
+   "kind": "big",
+   "title": "REMEMBER *THIS*",
+   "icon": "👀",
+   "track": "PART 1 · THE MATH"
+  },
+  {
+   "t": "But hold on. Has anybody ever actually beaten the casino? Yes. Once, with math.",
+   "kind": "big",
+   "title": "SOMEONE *BEAT THEM*",
+   "icon": "🤓",
+   "track": "PART 1 · THE MATH"
+  },
+  {
+   "t": "In nineteen sixty-two, a math professor named Edward Thorp published Beat the Dealer. He showed that counting cards in blackjack could flip the edge to the player.",
+   "kind": "big",
+   "title": "\"BEAT THE *DEALER*\"",
+   "sub": "Edward Thorp, 1962",
+   "icon": "🃏",
+   "track": "PART 1 · THE MATH"
+  },
+  {
+   "t": "Later, the famous MIT Blackjack Team used card counting to win big. So what did casinos do? More decks, more shuffling… and they can ask winning counters to leave.",
+   "kind": "list",
+   "title": "HOW CASINOS *FOUGHT BACK*",
+   "items": [
+    {
+     "label": "More decks in the shoe"
+    },
+    {
+     "label": "Frequent shuffling"
+    },
+    {
+     "label": "Banning card counters"
+    }
+   ],
+   "track": "PART 1 · THE MATH",
+   "hold": 0.7
+  },
+  {
+   "t": "When the house loses, it changes the rules. Remember that.",
+   "kind": "big",
+   "title": "THE HOUSE *CHANGES THE RULES*",
+   "icon": "🏠",
+   "track": "PART 1 · THE MATH"
+  },
+  {
+   "t": "But math alone doesn't keep you in your seat for six hours. This does. Part two. The mind games.",
+   "kind": "chapter",
+   "label": "PART 2",
+   "title": "THE MIND *GAMES*",
+   "track": "PART 2 · YOUR BRAIN",
+   "mus": "track:darkest_child@0"
+  },
+  {
+   "t": "And it all comes from a famous psychology discovery. In the nineteen fifties, psychologist B. F. Skinner found that rewards that come at random times are the hardest habits to quit.",
+   "kind": "big",
+   "title": "RANDOM REWARDS *HOOK YOU*",
+   "sub": "B. F. Skinner",
+   "icon": "🐦",
+   "track": "PART 2 · YOUR BRAIN"
+  },
+  {
+   "t": "Pigeons pecked a button over and over when food came randomly. A slot machine works the same way. You never know which pull will pay.",
+   "kind": "big",
+   "title": "YOU ARE *THE PIGEON*",
+   "icon": "🎰",
+   "track": "PART 2 · YOUR BRAIN"
+  },
+  {
+   "t": "Trick one. Chips.",
+   "kind": "big",
+   "title": "TRICK 1 · *CHIPS*",
+   "icon": "🪙",
+   "track": "PART 2 · YOUR BRAIN"
+  },
+  {
+   "t": "A colorful plastic chip doesn't feel like your rent money. That's exactly the point.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Feels like",
+     "price": "🪙 TOY"
+    },
+    {
+     "label": "Really is",
+     "price": "$100"
+    }
+   ],
+   "pick": 1,
+   "track": "PART 2 · YOUR BRAIN",
+   "hold": 0.7
+  },
+  {
+   "t": "Trick two. The near miss.",
+   "kind": "big",
+   "title": "TRICK 2 · *NEAR MISS*",
+   "icon": "🎰",
+   "track": "PART 2 · YOUR BRAIN"
+  },
+  {
+   "t": "The slot stops one symbol away from the jackpot. So close!",
+   "kind": "big",
+   "title": "SO *CLOSE!*",
+   "sub": "7  7  🍒",
+   "icon": "😩",
+   "track": "PART 2 · YOUR BRAIN"
+  },
+  {
+   "t": "A study in the journal Neuron found near misses activate reward areas in the brain… a bit like real wins. And people wanted to keep playing.",
+   "kind": "big",
+   "title": "IT FEELS LIKE *WINNING*",
+   "sub": "Clark et al., Neuron, 2009",
+   "icon": "🧠",
+   "track": "PART 2 · YOUR BRAIN"
+  },
+  {
+   "t": "And now trick three. The one I warned you about.",
+   "kind": "big",
+   "title": "TRICK 3…",
+   "icon": "😈",
+   "track": "PART 2 · YOUR BRAIN"
+  },
+  {
+   "t": "Losses disguised as wins.",
+   "kind": "chapter",
+   "label": "TRICK #3",
+   "title": "LOSSES DISGUISED AS *WINS*",
+   "track": "PART 2 · YOUR BRAIN"
+  },
+  {
+   "t": "You bet one dollar. You win fifty cents. And the machine goes crazy. Lights. Music. Celebration.",
+   "kind": "receipt",
+   "title": "SLOT MACHINE",
+   "items": [
+    {
+     "label": "Your bet",
+     "price": "$1.00"
+    },
+    {
+     "label": "\"WIN!\" 🎉",
+     "price": "$0.50"
+    }
+   ],
+   "total": "-$0.50",
+   "source": "Dixon et al., 2010",
+   "track": "PART 2 · YOUR BRAIN",
+   "hold": 0.7
+  },
+  {
+   "t": "You lost fifty cents. But your brain heard: you won.",
+   "kind": "big",
+   "title": "YOU *LOST*. YOUR BRAIN *WON*.",
+   "icon": "🤯",
+   "track": "PART 2 · YOUR BRAIN"
+  },
+  {
+   "t": "Trick four. Time disappears. Many casinos are known for few windows and clocks, and lighting that feels the same day and night.",
+   "kind": "big",
+   "title": "TRICK 4 · NO *TIME*",
+   "icon": "🕰️",
+   "track": "PART 2 · YOUR BRAIN"
+  },
+  {
+   "t": "And trick five. Free drinks, rooms and shows. They're called comps. And they're based on how much the casino expects you to lose.",
+   "kind": "big",
+   "title": "TRICK 5 · *FREE* STUFF",
+   "icon": "🍸",
+   "track": "PART 2 · YOUR BRAIN"
+  },
+  {
+   "t": "Trick six. The loyalty card. You swipe it at every machine to earn points. But it also tells the casino exactly how much you bet, how long you play and how much you lose.",
+   "kind": "big",
+   "title": "TRICK 6 · *LOYALTY CARDS*",
+   "sub": "they track every bet",
+   "icon": "🪪",
+   "track": "PART 2 · YOUR BRAIN"
+  },
+  {
+   "t": "And trick seven, for betting apps. Free bets and bonus money. They sound free, but they often come with rules that make you bet much more before you can withdraw anything.",
+   "kind": "receipt",
+   "title": "\"FREE\" $100 BONUS",
+   "items": [
+    {
+     "label": "Bonus received",
+     "price": "$100"
+    },
+    {
+     "label": "Must bet before withdrawing",
+     "price": "$1,000+",
+     "tag": "bad"
+    }
+   ],
+   "total": "NOT FREE",
+   "track": "PART 2 · YOUR BRAIN",
+   "hold": 0.7
+  },
+  {
+   "t": "Always read the rules before you accept anything called free.",
+   "kind": "big",
+   "title": "READ THE *RULES*",
+   "icon": "🔍",
+   "track": "PART 2 · YOUR BRAIN"
+  },
+  {
+   "t": "Now let me tell you about the most expensive night in casino history. Part three.",
+   "kind": "chapter",
+   "label": "PART 3",
+   "title": "MONTE CARLO, *1913*",
+   "track": "PART 3 · THE FALLACY",
+   "mus": "track:echoes_of_time@20"
+  },
+  {
+   "t": "August, nineteen thirteen. Monte Carlo. A roulette ball lands on black.",
+   "kind": "big",
+   "title": "BLACK",
+   "icon": "⚫",
+   "track": "PART 3 · THE FALLACY"
+  },
+  {
+   "t": "Then black again. And again. And again.",
+   "kind": "bars",
+   "title": "BLACKS IN A *ROW*",
+   "items": [
+    {
+     "label": "Spin 5",
+     "value": 5,
+     "display": "⚫"
+    },
+    {
+     "label": "Spin 10",
+     "value": 10,
+     "display": "⚫"
+    },
+    {
+     "label": "Spin 15",
+     "value": 15,
+     "display": "⚫"
+    },
+    {
+     "label": "Spin 20",
+     "value": 20,
+     "display": "⚫"
+    }
+   ],
+   "pick": 3,
+   "track": "PART 3 · THE FALLACY",
+   "hold": 0.7
+  },
+  {
+   "t": "Gamblers went crazy. Red had to come. Red was due. So they bet more and more on red.",
+   "kind": "big",
+   "title": "\"RED IS *DUE!*\"",
+   "icon": "🔴",
+   "track": "PART 3 · THE FALLACY"
+  },
+  {
+   "t": "The final count: black twenty-six times in a row. People lost millions of francs.",
+   "kind": "stat",
+   "value": 26,
+   "label": "Monte Carlo, 1913",
+   "title": "BLACKS *IN A ROW*",
+   "track": "PART 3 · THE FALLACY",
+   "hold": 0.7
+  },
+  {
+   "t": "Remember the doubling strategy from part one? Seven losses in a row cost twelve hundred and seventy dollars. Imagine twenty-six.",
+   "kind": "big",
+   "title": "IMAGINE *26 LOSSES*",
+   "sub": "with the doubling strategy",
+   "icon": "💥",
+   "track": "PART 3 · THE FALLACY"
+  },
+  {
+   "t": "The lesson? The ball has no memory. Every spin has the same odds, no matter what happened before.",
+   "kind": "big",
+   "title": "THE BALL HAS *NO MEMORY*",
+   "icon": "🧠",
+   "track": "PART 3 · THE FALLACY"
+  },
+  {
+   "t": "It's called the gambler's fallacy. And people still fall for it today. With stocks. With crypto. With sports bets.",
+   "kind": "list",
+   "title": "STILL *EVERYWHERE*",
+   "items": [
+    {
+     "label": "\"This stock is due to bounce\""
+    },
+    {
+     "label": "\"Crypto can't fall again\""
+    },
+    {
+     "label": "\"My team is due a win\""
+    }
+   ],
+   "track": "PART 3 · THE FALLACY",
+   "hold": 0.7
+  },
+  {
+   "t": "And here's something new. Since a Supreme Court decision in twenty eighteen, sports betting has exploded across the US. Now the casino lives in your pocket.",
+   "kind": "chapter",
+   "label": "BONUS",
+   "title": "THE CASINO IN *YOUR POCKET*",
+   "track": "BONUS · SPORTS BETS",
+   "mus": "track:mistake_the_getaway@0"
+  },
+  {
+   "t": "Sportsbooks have their own house edge. It's built into the odds. Bet one hundred ten dollars to win one hundred on both sides, and the book wins either way.",
+   "kind": "receipt",
+   "title": "BOTH SIDES BET $110",
+   "items": [
+    {
+     "label": "Total collected",
+     "price": "$220"
+    },
+    {
+     "label": "Paid to the winner",
+     "price": "$210"
+    },
+    {
+     "label": "Book keeps",
+     "price": "$10",
+     "tag": "bad"
+    }
+   ],
+   "total": "+$10",
+   "track": "BONUS · SPORTS BETS",
+   "hold": 0.7
+  },
+  {
+   "t": "And the favorite trap of sports apps? The parlay. Combine four bets into one for a bigger payout.",
+   "kind": "big",
+   "title": "THE *PARLAY*",
+   "sub": "4 bets in 1",
+   "icon": "🎯",
+   "track": "BONUS · SPORTS BETS"
+  },
+  {
+   "t": "Each pick is like a coin flip. Win all four? That's a one in sixteen chance. A fair payout would be fifteen to one.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Chance",
+     "price": "1 in 16"
+    },
+    {
+     "label": "Fair payout",
+     "price": "15 : 1"
+    }
+   ],
+   "track": "BONUS · SPORTS BETS",
+   "hold": 0.7
+  },
+  {
+   "t": "But a typical four-leg parlay at standard odds pays around twelve to one. The more legs you add, the bigger the house edge gets.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Fair payout",
+     "price": "15 : 1"
+    },
+    {
+     "label": "Typical payout",
+     "price": "≈12 : 1",
+     "tag": "bigger edge"
+    }
+   ],
+   "pick": 1,
+   "track": "BONUS · SPORTS BETS",
+   "hold": 0.7
+  },
+  {
+   "t": "That's why the apps push parlays so hard. Big dream, small chance, bigger edge.",
+   "kind": "big",
+   "title": "BIG DREAM, *BIGGER EDGE*",
+   "icon": "📱",
+   "track": "BONUS · SPORTS BETS"
+  },
+  {
+   "t": "Let's put the house edge into one simple number. Bet ten dollars on American roulette one hundred times. That's a thousand dollars in total bets.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Bet per spin",
+     "price": "$10"
+    },
+    {
+     "label": "Spins",
+     "price": "100"
+    }
+   ],
+   "track": "BONUS · SPORTS BETS",
+   "hold": 0.7
+  },
+  {
+   "t": "On average, you'll lose about fifty-two dollars and sixty cents. Not because you were unlucky. Because of the edge.",
+   "kind": "stat",
+   "value": 52.6,
+   "decimals": 2,
+   "prefix": "$",
+   "label": "Expected loss · $1,000 total bets",
+   "title": "THE PRICE OF *PLAYING*",
+   "track": "BONUS · SPORTS BETS",
+   "hold": 0.7
+  },
+  {
+   "t": "Now, the craziest bet of all. Let's talk about the lottery.",
+   "kind": "big",
+   "title": "THE CRAZIEST *BET*",
+   "icon": "🎟️",
+   "track": "BONUS · SPORTS BETS"
+  },
+  {
+   "t": "Part four. The biggest bet of all. The lottery.",
+   "kind": "chapter",
+   "label": "PART 4",
+   "title": "THE *LOTTERY*",
+   "track": "PART 4 · THE LOTTERY",
+   "mus": "track:five_armies@14"
+  },
+  {
+   "t": "Powerball jackpot odds: one in two hundred ninety-two million.",
+   "kind": "stat",
+   "value": 292201338,
+   "prefix": "1 in ",
+   "label": "Powerball jackpot odds",
+   "title": "TICKETS",
+   "source": "Powerball official odds",
+   "track": "PART 4 · THE LOTTERY",
+   "hold": 0.7
+  },
+  {
+   "t": "Buy ten tickets every week. How long until you win, on average?",
+   "kind": "big",
+   "title": "10 TICKETS *A WEEK*",
+   "sub": "how long until you win?",
+   "icon": "🎟️",
+   "track": "PART 4 · THE LOTTERY"
+  },
+  {
+   "t": "About five hundred sixty thousand years.",
+   "kind": "stat",
+   "value": 561926,
+   "suffix": " years",
+   "label": "Average wait",
+   "title": "TO WIN *ONCE*",
+   "track": "PART 4 · THE LOTTERY",
+   "hold": 0.7
+  },
+  {
+   "t": "And one important thing. If gambling ever stops being fun for you or someone you know, in the US you can call or text one eight hundred gambler, the National Problem Gambling Helpline. It's free and confidential.",
+   "kind": "big",
+   "title": "NEED HELP? *1-800-GAMBLER*",
+   "sub": "free & confidential · US",
+   "icon": "💚",
+   "track": "PART 4 · THE LOTTERY"
+  },
+  {
+   "t": "But hold on. Somebody does win the jackpot sometimes, right? Yes. And this is the biggest slot win ever.",
+   "kind": "chapter",
+   "label": "THE LEGEND",
+   "title": "THE BIGGEST *SLOT WIN*",
+   "track": "THE BIGGEST JACKPOT",
+   "mus": "track:five_armies@14"
+  },
+  {
+   "t": "March, two thousand three. Excalibur hotel, Las Vegas. A twenty-five-year-old software engineer from Los Angeles plays a Megabucks slot machine.",
+   "kind": "big",
+   "title": "LAS VEGAS, *2003*",
+   "icon": "🎰",
+   "track": "THE BIGGEST JACKPOT"
+  },
+  {
+   "t": "He hits the jackpot. Thirty-nine point seven million dollars. Still the biggest slot machine jackpot on record.",
+   "kind": "stat",
+   "value": 39.7,
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "M",
+   "label": "Megabucks jackpot · Excalibur, 2003",
+   "title": "ONE *SPIN*",
+   "track": "THE BIGGEST JACKPOT",
+   "hold": 0.7
+  },
+  {
+   "t": "Here's the thing. That jackpot was built from the money of thousands and thousands of players who lost. One winner. A mountain of losers.",
+   "kind": "bars",
+   "title": "WHO PAID *THE JACKPOT*",
+   "items": [
+    {
+     "label": "Winner",
+     "value": 1,
+     "display": "1 person"
+    },
+    {
+     "label": "Players who paid for it",
+     "value": 100,
+     "display": "countless"
+    }
+   ],
+   "pick": 1,
+   "track": "THE BIGGEST JACKPOT",
+   "hold": 0.7
+  },
+  {
+   "t": "And that's exactly why casinos love big jackpot stories. One winner makes everyone else believe they're next.",
+   "kind": "big",
+   "title": "ONE WINNER *SELLS THE DREAM*",
+   "icon": "✨",
+   "track": "THE BIGGEST JACKPOT"
+  },
+  {
+   "t": "So, can you ever beat the casino? Here's the honest answer.",
+   "kind": "chapter",
+   "label": "THE TRUTH",
+   "title": "CAN YOU *WIN?*",
+   "track": "THE TRUTH",
+   "mus": "track:hitman@40"
+  },
+  {
+   "t": "In the short run, sure. Somebody always wins. That's what keeps everyone coming back. In the long run? The math wins.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Short term",
+     "price": "MAYBE"
+    },
+    {
+     "label": "Long term",
+     "price": "CASINO",
+     "tag": "the math always wins"
+    }
+   ],
+   "pick": 1,
+   "track": "THE TRUTH",
+   "hold": 0.7
+  },
+  {
+   "t": "So if you go, treat it as a night out. Not a plan to make money.",
+   "kind": "list",
+   "title": "IF YOU *GO*",
+   "items": [
+    {
+     "label": "Budget = money you're OK losing"
+    },
+    {
+     "label": "Bring cash, leave the cards"
+    },
+    {
+     "label": "Set a time limit"
+    },
+    {
+     "label": "Ignore \"due\" streaks"
+    },
+    {
+     "label": "Comps aren't free"
+    }
+   ],
+   "track": "THE TRUTH",
+   "hold": 0.7
+  },
+  {
+   "t": "Quick recap of how they get you. The house edge on every bet. Chips that don't feel like money. Near misses. Losses disguised as wins. No clocks. Free stuff. And the belief that you're due.",
+   "kind": "list",
+   "title": "HOW THEY *GET YOU*",
+   "items": [
+    {
+     "label": "House edge on every bet"
+    },
+    {
+     "label": "Chips ≠ cash"
+    },
+    {
+     "label": "Near misses"
+    },
+    {
+     "label": "Losses disguised as wins"
+    },
+    {
+     "label": "No clocks, free stuff"
+    },
+    {
+     "label": "\"I'm due\""
+    }
+   ],
+   "hold": 1.0,
+   "track": "THE TRUTH"
+  },
+  {
+   "t": "Now you know the game. Most people walking into a casino don't.",
+   "kind": "big",
+   "title": "NOW YOU *KNOW*",
+   "icon": "🧠",
+   "track": "THE TRUTH"
+  },
+  {
+   "t": "Because the real jackpot is the money you don't lose.",
+   "kind": "big",
+   "title": "THE REAL *JACKPOT*",
+   "icon": "💰",
+   "track": "THE TRUTH"
+  },
+  {
+   "t": "Have you ever won big at a casino? Or lost big? Tell me in the comments. And subscribe for more money secrets they don't want you to know.",
+   "kind": "outro",
+   "title": "WON OR *LOST?*",
+   "sub": "Tell me in the comments 👇",
+   "hold": 4
+  }
+ ]
+}

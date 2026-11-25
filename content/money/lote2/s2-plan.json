@@ -1,0 +1,52 @@
+{
+ "vertical": true,
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "pitch": "+0Hz",
+ "mic": true,
+ "brand": "MONEY DECODED",
+ "music": "track:five_armies@14",
+ "lines": [
+  {
+   "t": "If you bought ten Powerball tickets every single week… how long until you win the jackpot?",
+   "kind": "hook",
+   "title": "HOW LONG TO *WIN?*",
+   "icon": "🎰"
+  },
+  {
+   "t": "The odds of winning the Powerball jackpot are one in two hundred ninety-two million.",
+   "kind": "stat",
+   "value": 292201338,
+   "prefix": "1 in ",
+   "label": "Powerball jackpot odds",
+   "title": "TICKETS",
+   "source": "Powerball official odds"
+  },
+  {
+   "t": "Ten tickets a week is five hundred twenty tickets a year.",
+   "kind": "big",
+   "title": "520 TICKETS *A YEAR*",
+   "icon": "🎟️"
+  },
+  {
+   "t": "On average, you'd need about five hundred sixty thousand years to hit it once.",
+   "kind": "stat",
+   "value": 561926,
+   "suffix": " yrs",
+   "label": "Average wait at 10 tickets / week",
+   "title": "TO WIN *ONCE*"
+  },
+  {
+   "t": "That's longer than humans have existed. The lottery isn't a plan. It's entertainment… with a price tag.",
+   "kind": "big",
+   "title": "NOT A *PLAN*",
+   "sub": "It's entertainment with a price tag",
+   "icon": "💸"
+  },
+  {
+   "t": "Follow for more money math they don't tell you.",
+   "kind": "outro",
+   "title": "PLAY *SMART*"
+  }
+ ]
+}

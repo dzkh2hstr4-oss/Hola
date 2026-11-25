@@ -1,0 +1,50 @@
+{
+ "vertical": true,
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "pitch": "+0Hz",
+ "mic": true,
+ "brand": "MONEY DECODED",
+ "music": "track:the_descent@4",
+ "lines": [
+  {
+   "t": "In nineteen thirteen, a roulette wheel in Monte Carlo landed on black twenty-six times in a row.",
+   "kind": "hook",
+   "title": "26 TIMES *IN A ROW*",
+   "icon": "🎡"
+  },
+  {
+   "t": "After about fifteen blacks, gamblers rushed to bet on red. Surely red was due.",
+   "kind": "big",
+   "title": "\"RED IS *DUE!*\"",
+   "icon": "🔴"
+  },
+  {
+   "t": "It wasn't. The ball has no memory. Every spin has the same odds. And people lost millions of francs that night.",
+   "kind": "big",
+   "title": "THE BALL HAS *NO MEMORY*",
+   "icon": "🧠"
+  },
+  {
+   "t": "It's called the gambler's fallacy. And it's not just casinos. People do it with stocks, crypto and even sports.",
+   "kind": "list",
+   "title": "THE GAMBLER'S *FALLACY*",
+   "items": [
+    {
+     "label": "Casinos"
+    },
+    {
+     "label": "Stocks & crypto"
+    },
+    {
+     "label": "Sports bets"
+    }
+   ]
+  },
+  {
+   "t": "Past results don't change future odds. Follow for more money psychology.",
+   "kind": "outro",
+   "title": "DON'T FALL *FOR IT*"
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "vertical": true,
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "THE *RULE OF 72*",
+   "icon": "🧮",
+   "s": 0.0,
+   "e": 4.88
+  },
+  {
+   "kind": "big",
+   "title": "72 ÷ RETURN = *YEARS*",
+   "sub": "to double your money",
+   "s": 4.88,
+   "e": 9.99
+  },
+  {
+   "kind": "stat",
+   "value": 9,
+   "suffix": " yrs",
+   "label": "At 8% per year",
+   "title": "TO *DOUBLE*",
+   "s": 9.99,
+   "e": 15.33
+  },
+  {
+   "kind": "bars",
+   "title": "YEARS TO *DOUBLE*",
+   "items": [
+    {
+     "label": "4% per year",
+     "value": 18,
+     "display": "18 years"
+    },
+    {
+     "label": "8% per year",
+     "value": 9,
+     "display": "9 years"
+    },
+    {
+     "label": "12% per year",
+     "value": 6,
+     "display": "6 years"
+    }
+   ],
+   "pick": 2,
+   "s": 15.33,
+   "e": 19.84
+  },
+  {
+   "kind": "stat",
+   "value": 3.3,
+   "decimals": 1,
+   "suffix": " yrs",
+   "label": "Debt at 22% interest",
+   "title": "YOUR DEBT *DOUBLES*",
+   "source": "72 ÷ 22 ≈ 3.3",
+   "s": 19.84,
+   "e": 24.76
+  },
+  {
+   "kind": "outro",
+   "title": "MAKE IT WORK *FOR YOU*",
+   "s": 24.76,
+   "e": 30.18
+  }
+ ],
+ "captions": [
+  {
+   "t": "Here's a math trick banks don't teach you. It tells you how fast your money doubles… in two seconds.",
+   "s": 0.05,
+   "e": 4.73
+  },
+  {
+   "t": "Take seventy-two. Divide it by your yearly return. That's how many years it takes to double your money.",
+   "s": 4.93,
+   "e": 9.84
+  },
+  {
+   "t": "At eight percent a year, seventy-two divided by eight is nine. Your money doubles in about nine years.",
+   "s": 10.04,
+   "e": 15.18
+  },
+  {
+   "t": "At four percent, it takes eighteen years. At twelve percent, just six.",
+   "s": 15.38,
+   "e": 19.69
+  },
+  {
+   "t": "But it works backwards too. A credit card at twenty-two percent doubles your debt in about three years.",
+   "s": 19.89,
+   "e": 24.61
+  },
+  {
+   "t": "So make the rule of seventy-two work for you… not against you. Follow for more money math.",
+   "s": 24.81,
+   "e": 29.43
+  }
+ ],
+ "voice": "money/audio/m-lote2-s1-voz.wav",
+ "total": 30.18,
+ "brand": "MONEY DECODED"
+}

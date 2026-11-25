@@ -1,0 +1,99 @@
+{
+ "vertical": true,
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "THE MINIMUM *TRAP*",
+   "icon": "💳",
+   "s": 0.0,
+   "e": 3.28
+  },
+  {
+   "kind": "big",
+   "title": "$5,000 AT *22%*",
+   "sub": "near the current US average APR",
+   "source": "Federal Reserve G.19, 2026",
+   "s": 3.28,
+   "e": 8.83
+  },
+  {
+   "kind": "stat",
+   "value": 19,
+   "suffix": " yrs",
+   "label": "Paying only the minimum",
+   "title": "TO BE *DEBT-FREE*",
+   "source": "Example: min = interest + 1%, $25 floor",
+   "s": 8.83,
+   "e": 12.27
+  },
+  {
+   "kind": "stat",
+   "value": 8241,
+   "prefix": "$",
+   "label": "Total interest paid",
+   "title": "IN *INTEREST*",
+   "s": 12.27,
+   "e": 16.11
+  },
+  {
+   "kind": "bars",
+   "title": "INTEREST *PAID*",
+   "items": [
+    {
+     "label": "Minimum payment",
+     "value": 8241,
+     "display": "$8,241"
+    },
+    {
+     "label": "$200 per month",
+     "value": 1793,
+     "display": "$1,793"
+    }
+   ],
+   "pick": 1,
+   "s": 16.11,
+   "e": 21.18
+  },
+  {
+   "kind": "outro",
+   "title": "PAY MORE THAN *THE MINIMUM*",
+   "s": 21.18,
+   "e": 25.65
+  }
+ ],
+ "captions": [
+  {
+   "t": "If you only pay the minimum on your credit card, this is what happens.",
+   "s": 0.05,
+   "e": 3.13
+  },
+  {
+   "t": "Say you owe five thousand dollars at about twenty-two percent interest. That's close to the US average right now.",
+   "s": 3.33,
+   "e": 8.68
+  },
+  {
+   "t": "If you pay only the minimum, it takes about nineteen years to pay it off.",
+   "s": 8.88,
+   "e": 12.12
+  },
+  {
+   "t": "And you pay over eight thousand dollars in interest. More than the original debt.",
+   "s": 12.32,
+   "e": 15.96
+  },
+  {
+   "t": "Pay two hundred a month instead, and you're done in under three years, with about eighteen hundred in interest.",
+   "s": 16.16,
+   "e": 21.03
+  },
+  {
+   "t": "The minimum payment is designed to keep you paying. Follow to keep more of your money.",
+   "s": 21.23,
+   "e": 24.9
+  }
+ ],
+ "voice": "money/audio/m-lote2-s4-voz.wav",
+ "total": 25.65,
+ "brand": "MONEY DECODED"
+}

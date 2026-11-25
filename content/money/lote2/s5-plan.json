@@ -1,0 +1,67 @@
+{
+ "vertical": true,
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "pitch": "+0Hz",
+ "mic": true,
+ "brand": "MONEY DECODED",
+ "music": "track:echoes_of_time@20",
+ "lines": [
+  {
+   "t": "Starting to invest at twenty instead of thirty can be worth hundreds of thousands of dollars.",
+   "kind": "hook",
+   "title": "20 VS *30*",
+   "icon": "⏰"
+  },
+  {
+   "t": "Two people invest two hundred dollars a month, with a seven percent yearly return, until age sixty-five.",
+   "kind": "big",
+   "title": "$200 / MONTH AT *7%*",
+   "sub": "until age 65 · example"
+  },
+  {
+   "t": "Alex starts at twenty. Sam starts at thirty.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Alex starts at",
+     "price": "20"
+    },
+    {
+     "label": "Sam starts at",
+     "price": "30"
+    }
+   ]
+  },
+  {
+   "t": "Alex ends up with around seven hundred fifty-eight thousand dollars. Sam, around three hundred sixty thousand.",
+   "kind": "bars",
+   "title": "AT AGE *65*",
+   "items": [
+    {
+     "label": "Alex (started at 20)",
+     "value": 758519,
+     "display": "$758K"
+    },
+    {
+     "label": "Sam (started at 30)",
+     "value": 360211,
+     "display": "$360K"
+    }
+   ],
+   "pick": 0,
+   "source": "Example, 7% yearly return, monthly compounding"
+  },
+  {
+   "t": "Alex only put in twenty-four thousand dollars more. Compound interest did the rest.",
+   "kind": "big",
+   "title": "TIME > *MONEY*",
+   "icon": "📈"
+  },
+  {
+   "t": "The best time to start was yesterday. The second best is today. Follow for more.",
+   "kind": "outro",
+   "title": "START *TODAY*"
+  }
+ ]
+}

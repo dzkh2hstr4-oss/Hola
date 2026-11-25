@@ -1,0 +1,92 @@
+{
+ "vertical": true,
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "CASINO *MIND GAMES*",
+   "icon": "🎲",
+   "s": 0.0,
+   "e": 4.0
+  },
+  {
+   "kind": "big",
+   "title": "CHIPS ≠ *CASH*",
+   "icon": "🪙",
+   "s": 4.0,
+   "e": 9.91
+  },
+  {
+   "kind": "big",
+   "title": "THE *NEAR MISS*",
+   "sub": "Clark et al., Neuron, 2009",
+   "icon": "🧠",
+   "s": 9.91,
+   "e": 17.7
+  },
+  {
+   "kind": "receipt",
+   "title": "SLOT MACHINE",
+   "items": [
+    {
+     "label": "Your bet",
+     "price": "$1.00"
+    },
+    {
+     "label": "\"WIN!\" 🎉",
+     "price": "$0.50"
+    }
+   ],
+   "total": "-$0.50",
+   "s": 17.7,
+   "e": 24.85
+  },
+  {
+   "kind": "big",
+   "title": "NOTHING IS *FREE*",
+   "icon": "🍸",
+   "s": 24.85,
+   "e": 29.81
+  },
+  {
+   "kind": "outro",
+   "title": "KNOW THE *GAME*",
+   "s": 29.81,
+   "e": 32.95
+  }
+ ],
+ "captions": [
+  {
+   "t": "Casinos are designed so you lose track of time… and money. Here's how.",
+   "s": 0.05,
+   "e": 3.85
+  },
+  {
+   "t": "One. Chips instead of cash. A plastic chip doesn't feel like real money, so it's easier to bet more.",
+   "s": 4.05,
+   "e": 9.76
+  },
+  {
+   "t": "Two. Near misses. When the slot stops one symbol away from a jackpot, brain studies show it lights up reward areas, almost like a win.",
+   "s": 9.96,
+   "e": 17.55
+  },
+  {
+   "t": "Three. Losses disguised as wins. You bet a dollar, win fifty cents, and the machine still celebrates with lights and music.",
+   "s": 17.75,
+   "e": 24.7
+  },
+  {
+   "t": "And four. Free drinks and comps. They're not gifts. They keep you playing longer.",
+   "s": 24.9,
+   "e": 29.66
+  },
+  {
+   "t": "Follow for more psychology tricks used on your wallet.",
+   "s": 29.86,
+   "e": 32.2
+  }
+ ],
+ "voice": "money/audio/m-lote2-s3-voz.wav",
+ "total": 32.95,
+ "brand": "MONEY DECODED"
+}

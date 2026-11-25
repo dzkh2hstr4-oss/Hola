@@ -1,0 +1,939 @@
+{
+ "vertical": false,
+ "voice": "en-US-AndrewNeural",
+ "rate": "+0%",
+ "pitch": "+0Hz",
+ "mic": true,
+ "brand": "MONEY DECODED",
+ "lines": [
+  {
+   "t": "Your credit card company made money from you last month. Even if you never paid a cent of interest.",
+   "kind": "hook",
+   "title": "THEY PROFIT *FROM YOU*",
+   "icon": "💳",
+   "mus": "track:investigations@0"
+  },
+  {
+   "t": "And the fourth way they do it is so sneaky… most people never notice it.",
+   "kind": "big",
+   "title": "WAY #4 IS *THE SNEAKIEST*",
+   "icon": "🤫"
+  },
+  {
+   "t": "Stick around, because at the end I'll show you how to flip the game… and make them lose.",
+   "kind": "big",
+   "title": "STAY TO *THE END*",
+   "sub": "the playbook to beat them",
+   "icon": "👀"
+  },
+  {
+   "t": "First, look at this number.",
+   "kind": "big",
+   "title": "LOOK AT *THIS*",
+   "icon": "👇"
+  },
+  {
+   "t": "One point two nine trillion dollars. That's what Americans owe on credit cards right now.",
+   "kind": "stat",
+   "value": 1.29,
+   "decimals": 2,
+   "prefix": "$",
+   "suffix": "T",
+   "label": "US credit card debt · Q3 2026",
+   "title": "OWED ON *CARDS*",
+   "source": "New York Fed, Nov 2026",
+   "hold": 0.7
+  },
+  {
+   "t": "A record. And it keeps growing.",
+   "kind": "big",
+   "title": "A NEW *RECORD*",
+   "icon": "📈"
+  },
+  {
+   "t": "And the average interest rate on cards that carry a balance? Around twenty-two percent a year.",
+   "kind": "stat",
+   "value": 22.36,
+   "decimals": 2,
+   "suffix": "%",
+   "label": "Average APR · accounts paying interest",
+   "title": "PER *YEAR*",
+   "source": "Federal Reserve G.19, 2026",
+   "hold": 0.7
+  },
+  {
+   "t": "Twenty-two percent. Keep that number in your head. It's going to come back… and it's not pretty.",
+   "kind": "big",
+   "title": "REMEMBER *22%*",
+   "icon": "🧠"
+  },
+  {
+   "t": "But before we get into it… how did we end up with cards in every wallet? The story is wild.",
+   "kind": "chapter",
+   "label": "THE ORIGIN",
+   "title": "IT STARTED WITH *A DINNER*",
+   "track": "0 / 4 · THE ORIGIN"
+  },
+  {
+   "t": "New York, nineteen fifty. A businessman named Frank McNamara goes out to dinner… and, according to the famous story, realizes he forgot his wallet.",
+   "kind": "big",
+   "title": "HE FORGOT *HIS WALLET*",
+   "icon": "🍽️",
+   "track": "0 / 4 · THE ORIGIN"
+  },
+  {
+   "t": "Out of that idea came Diners Club, a card you could use at restaurants and pay later. Many people call it the first modern credit card.",
+   "kind": "big",
+   "title": "DINERS CLUB, *1950*",
+   "icon": "💳",
+   "track": "0 / 4 · THE ORIGIN"
+  },
+  {
+   "t": "Then, in nineteen fifty-eight, Bank of America did something nobody would dare today. It mailed sixty thousand credit cards to people in Fresno, California. Without them asking.",
+   "kind": "stat",
+   "value": 60000,
+   "label": "The Fresno Drop · 1958",
+   "title": "UNREQUESTED *CARDS*",
+   "track": "0 / 4 · THE ORIGIN",
+   "hold": 0.7
+  },
+  {
+   "t": "That card later became… Visa.",
+   "kind": "big",
+   "title": "IT BECAME *VISA*",
+   "icon": "😮",
+   "track": "0 / 4 · THE ORIGIN"
+  },
+  {
+   "t": "And today, credit cards are one of the most profitable products in banking. Here's exactly how.",
+   "kind": "big",
+   "title": "A MONEY *MACHINE*",
+   "icon": "🏦",
+   "track": "0 / 4 · THE ORIGIN"
+  },
+  {
+   "t": "There are four ways they make money. Let's go.",
+   "kind": "list",
+   "title": "4 WAYS THEY *WIN*",
+   "items": [
+    {
+     "label": "Interest"
+    },
+    {
+     "label": "Swipe fees"
+    },
+    {
+     "label": "Fees"
+    },
+    {
+     "label": "??? (the sneaky one)"
+    }
+   ],
+   "hold": 0.7
+  },
+  {
+   "t": "Way number one. Interest.",
+   "kind": "chapter",
+   "label": "WAY #1",
+   "title": "*INTEREST*",
+   "track": "1 / 4 · INTEREST",
+   "mus": "track:crypto@0"
+  },
+  {
+   "t": "Here's a simple example.",
+   "kind": "big",
+   "title": "QUICK *EXAMPLE*",
+   "icon": "✏️",
+   "track": "1 / 4 · INTEREST"
+  },
+  {
+   "t": "You owe five thousand dollars. At twenty-two percent.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "You owe",
+     "price": "$5,000"
+    },
+    {
+     "label": "Interest",
+     "price": "22%"
+    }
+   ],
+   "track": "1 / 4 · INTEREST",
+   "hold": 0.7
+  },
+  {
+   "t": "And you only pay the minimum each month. Like millions of people do.",
+   "kind": "big",
+   "title": "ONLY THE *MINIMUM*",
+   "icon": "🐌",
+   "track": "1 / 4 · INTEREST"
+  },
+  {
+   "t": "Guess how long it takes to pay it off.",
+   "kind": "big",
+   "title": "GUESS *HOW LONG*",
+   "sub": "take a guess…",
+   "icon": "⏳",
+   "track": "1 / 4 · INTEREST"
+  },
+  {
+   "t": "About nineteen years.",
+   "kind": "stat",
+   "value": 19,
+   "suffix": " years",
+   "label": "Paying only the minimum",
+   "title": "TO PAY IT *OFF*",
+   "source": "Example: min = interest + 1% of balance, $25 floor",
+   "track": "1 / 4 · INTEREST",
+   "hold": 0.7
+  },
+  {
+   "t": "And the interest? More than eight thousand dollars. More than what you borrowed.",
+   "kind": "bars",
+   "title": "WHAT YOU *REALLY* PAY",
+   "items": [
+    {
+     "label": "What you borrowed",
+     "value": 5000,
+     "display": "$5,000"
+    },
+    {
+     "label": "Interest you pay",
+     "value": 8241,
+     "display": "$8,241"
+    }
+   ],
+   "pick": 1,
+   "track": "1 / 4 · INTEREST",
+   "hold": 0.7
+  },
+  {
+   "t": "Now watch what happens if you pay two hundred dollars a month instead.",
+   "kind": "big",
+   "title": "NOW *WATCH THIS*",
+   "icon": "👀",
+   "track": "1 / 4 · INTEREST"
+  },
+  {
+   "t": "Done in under three years. Around eighteen hundred in interest. Same debt. Six thousand dollars saved.",
+   "kind": "bars",
+   "title": "TOTAL *INTEREST*",
+   "items": [
+    {
+     "label": "Minimum payments",
+     "value": 8241,
+     "display": "$8,241"
+    },
+    {
+     "label": "$200 a month",
+     "value": 1793,
+     "display": "$1,793"
+    }
+   ],
+   "pick": 1,
+   "track": "1 / 4 · INTEREST",
+   "hold": 0.7
+  },
+  {
+   "t": "That's why the minimum payment looks so friendly. It's not there to help you. It's there to keep the balance alive.",
+   "kind": "big",
+   "title": "THE MINIMUM IS *BAIT*",
+   "icon": "🪤",
+   "track": "1 / 4 · INTEREST"
+  },
+  {
+   "t": "Oh, and one more interest trap. Watch out for deferred interest deals. No interest if paid in full in twelve months.",
+   "kind": "big",
+   "title": "\"NO INTEREST\" *DEALS*",
+   "sub": "if paid in full in 12 months…",
+   "icon": "⚠️",
+   "track": "1 / 4 · INTEREST"
+  },
+  {
+   "t": "Sounds great. But if you still owe even a little on the last day, many of these deals charge you all the interest from day one. Retroactively.",
+   "kind": "receipt",
+   "title": "DEFERRED INTEREST",
+   "items": [
+    {
+     "label": "Months 1–11",
+     "price": "$0 interest"
+    },
+    {
+     "label": "Month 12: $50 left",
+     "price": "⚠️"
+    },
+    {
+     "label": "Back-interest charged",
+     "price": "ALL OF IT",
+     "tag": "bad"
+    }
+   ],
+   "track": "1 / 4 · INTEREST",
+   "hold": 0.7
+  },
+  {
+   "t": "The government's own consumer finance agency warns about this. Always read whether it says deferred interest… or zero percent APR. They're not the same.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Deferred interest",
+     "price": "RISKY"
+    },
+    {
+     "label": "0% intro APR",
+     "price": "SAFER"
+    }
+   ],
+   "pick": 1,
+   "source": "CFPB",
+   "track": "1 / 4 · INTEREST",
+   "hold": 0.7
+  },
+  {
+   "t": "But interest isn't even their only trick. Because even if you pay in full… they still get paid.",
+   "kind": "big",
+   "title": "BUT WAIT…",
+   "sub": "they still get paid",
+   "icon": "😳",
+   "track": "1 / 4 · INTEREST"
+  },
+  {
+   "t": "Way number two. Swipe fees.",
+   "kind": "chapter",
+   "label": "WAY #2",
+   "title": "SWIPE *FEES*",
+   "track": "2 / 4 · SWIPE FEES",
+   "mus": "track:darkest_child@0"
+  },
+  {
+   "t": "Every time you tap your card, the store pays a fee. Usually a couple of percent.",
+   "kind": "receipt",
+   "title": "YOUR $100 PURCHASE",
+   "items": [
+    {
+     "label": "Store keeps",
+     "price": "≈ $97.50"
+    },
+    {
+     "label": "Card fees",
+     "price": "≈ $2.50",
+     "tag": "bad"
+    }
+   ],
+   "total": "$100.00",
+   "track": "2 / 4 · SWIPE FEES",
+   "hold": 0.7
+  },
+  {
+   "t": "A couple of percent sounds tiny. Now multiply it by every purchase in America.",
+   "kind": "big",
+   "title": "NOW *MULTIPLY IT*",
+   "icon": "✖️",
+   "track": "2 / 4 · SWIPE FEES"
+  },
+  {
+   "t": "One hundred ninety-eight billion dollars. In fees. In just one year.",
+   "kind": "stat",
+   "value": 198.25,
+   "decimals": 2,
+   "prefix": "$",
+   "suffix": "B",
+   "label": "US card swipe fees · 2025",
+   "title": "IN ONE *YEAR*",
+   "source": "Nilson Report",
+   "track": "2 / 4 · SWIPE FEES",
+   "hold": 0.7
+  },
+  {
+   "t": "So who really pays it? Stores raise prices to cover it. Which means… you do. Even if you pay with cash.",
+   "kind": "big",
+   "title": "WHO *REALLY* PAYS?",
+   "icon": "🫵",
+   "track": "2 / 4 · SWIPE FEES"
+  },
+  {
+   "t": "A Boston Fed study estimated each cash-paying household was paying about one hundred forty-nine dollars a year… to help fund other people's card rewards.",
+   "kind": "stat",
+   "value": 149,
+   "prefix": "$",
+   "label": "Paid yearly by cash-using households",
+   "title": "FOR *OTHERS'* REWARDS",
+   "source": "Schuh, Shy & Stavins, Boston Fed, 2010",
+   "track": "2 / 4 · SWIPE FEES",
+   "hold": 0.7
+  },
+  {
+   "t": "Yep. Your free cashback isn't really free.",
+   "kind": "big",
+   "title": "\"FREE\" *CASHBACK?*",
+   "icon": "🤔",
+   "track": "2 / 4 · SWIPE FEES"
+  },
+  {
+   "t": "Quick myth busting while we're here. Many people think carrying a balance helps your credit score. It doesn't. Paying in full is just as good for your score… and free.",
+   "kind": "big",
+   "title": "MYTH: *CARRY A BALANCE*",
+   "sub": "✗ It does NOT help your score",
+   "icon": "❌",
+   "source": "CFPB",
+   "track": "2 / 4 · SWIPE FEES"
+  },
+  {
+   "t": "What actually matters most for your FICO score? Paying on time is the biggest factor. Then how much of your limit you use.",
+   "kind": "bars",
+   "title": "WHAT BUILDS YOUR *SCORE*",
+   "items": [
+    {
+     "label": "Payment history",
+     "value": 35,
+     "display": "35%"
+    },
+    {
+     "label": "Amounts owed",
+     "value": 30,
+     "display": "30%"
+    },
+    {
+     "label": "Length of history",
+     "value": 15,
+     "display": "15%"
+    },
+    {
+     "label": "New credit",
+     "value": 10,
+     "display": "10%"
+    },
+    {
+     "label": "Credit mix",
+     "value": 10,
+     "display": "10%"
+    }
+   ],
+   "pick": 0,
+   "source": "myFICO",
+   "track": "2 / 4 · SWIPE FEES",
+   "hold": 0.7
+  },
+  {
+   "t": "Way number three is the one that hurts the most when it hits. Fees.",
+   "kind": "chapter",
+   "label": "WAY #3",
+   "title": "THE *FEES*",
+   "track": "3 / 4 · FEES",
+   "mus": "track:lord_of_the_land@0"
+  },
+  {
+   "t": "Late fees. Annual fees. Cash advance fees. Foreign transaction fees. Balance transfer fees.",
+   "kind": "list",
+   "title": "THE FEE *MENU*",
+   "items": [
+    {
+     "label": "Late fees"
+    },
+    {
+     "label": "Annual fees"
+    },
+    {
+     "label": "Cash advance fees"
+    },
+    {
+     "label": "Foreign transaction fees"
+    },
+    {
+     "label": "Balance transfer fees"
+    }
+   ],
+   "track": "3 / 4 · FEES",
+   "hold": 0.7
+  },
+  {
+   "t": "The worst one? The cash advance. A fee upfront, a higher rate, and interest from day one.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Fee",
+     "price": "UPFRONT"
+    },
+    {
+     "label": "Rate",
+     "price": "HIGHER"
+    },
+    {
+     "label": "Interest",
+     "price": "DAY 1"
+    }
+   ],
+   "track": "3 / 4 · FEES",
+   "hold": 0.7
+  },
+  {
+   "t": "If you remember one thing from this part: never use your credit card at an ATM.",
+   "kind": "big",
+   "title": "NEVER AT *THE ATM*",
+   "icon": "🚫",
+   "track": "3 / 4 · FEES"
+  },
+  {
+   "t": "And here's a question that tells you who really pays for the rewards. Who do you think the banks love more? People who pay in full… or people who carry a balance?",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Pays in full",
+     "price": "🙂"
+    },
+    {
+     "label": "Carries a balance",
+     "price": "🤑"
+    }
+   ],
+   "track": "3 / 4 · FEES",
+   "hold": 0.7
+  },
+  {
+   "t": "Exactly. In the industry, people who carry a balance are often the most profitable customers. People who pay in full get the perks almost for free.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Pays in full",
+     "price": "PERKS"
+    },
+    {
+     "label": "Carries a balance",
+     "price": "PROFIT",
+     "tag": "bank's favorite"
+    }
+   ],
+   "pick": 1,
+   "track": "3 / 4 · FEES",
+   "hold": 0.7
+  },
+  {
+   "t": "Okay. Now the sneaky one. The one I promised at the beginning.",
+   "kind": "big",
+   "title": "THE *SNEAKY ONE*",
+   "icon": "🕵️",
+   "track": "3 / 4 · FEES"
+  },
+  {
+   "t": "Way number four. Your own brain.",
+   "kind": "chapter",
+   "label": "WAY #4",
+   "title": "YOUR *BRAIN*",
+   "track": "4 / 4 · YOUR BRAIN",
+   "mus": "track:hitman@1"
+  },
+  {
+   "t": "Researchers at MIT ran an experiment. People bid on sold-out basketball tickets.",
+   "kind": "big",
+   "title": "THE MIT *EXPERIMENT*",
+   "icon": "🏀",
+   "source": "Prelec & Simester, Marketing Letters, 2001",
+   "track": "4 / 4 · YOUR BRAIN"
+  },
+  {
+   "t": "Half of them had to pay cash. The other half, with a credit card.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Group A",
+     "price": "CASH"
+    },
+    {
+     "label": "Group B",
+     "price": "CARD"
+    }
+   ],
+   "track": "4 / 4 · YOUR BRAIN",
+   "hold": 0.7
+  },
+  {
+   "t": "The card group was willing to pay way more. In some cases, about double.",
+   "kind": "bars",
+   "title": "WILLING TO *PAY*",
+   "items": [
+    {
+     "label": "Paying with cash",
+     "value": 50,
+     "display": "1x"
+    },
+    {
+     "label": "Paying with a card",
+     "value": 100,
+     "display": "up to ~2x"
+    }
+   ],
+   "pick": 1,
+   "source": "Prelec & Simester, 2001",
+   "track": "4 / 4 · YOUR BRAIN",
+   "hold": 0.7
+  },
+  {
+   "t": "Same tickets. Same people. Just a different way to pay.",
+   "kind": "big",
+   "title": "SAME *TICKETS*",
+   "icon": "🎟️",
+   "track": "4 / 4 · YOUR BRAIN"
+  },
+  {
+   "t": "It's called the pain of paying. Cash hurts. A card barely registers. And tapping your phone? Even less.",
+   "kind": "bars",
+   "title": "THE PAIN OF *PAYING*",
+   "items": [
+    {
+     "label": "Cash",
+     "value": 90,
+     "display": "hurts"
+    },
+    {
+     "label": "Card",
+     "value": 45,
+     "display": "meh"
+    },
+    {
+     "label": "Phone tap",
+     "value": 20,
+     "display": "nothing"
+    }
+   ],
+   "pick": 0,
+   "track": "4 / 4 · YOUR BRAIN",
+   "hold": 0.7
+  },
+  {
+   "t": "Add rewards on top, and spending starts to feel like winning.",
+   "kind": "big",
+   "title": "SPENDING FEELS LIKE *WINNING*",
+   "icon": "🎁",
+   "track": "4 / 4 · YOUR BRAIN"
+  },
+  {
+   "t": "But wait. What about rewards? Points, miles, cashback. Aren't those free money? Let's do the math. Pause and guess before I show you.",
+   "kind": "chapter",
+   "label": "BONUS ROUND",
+   "title": "ARE REWARDS *WORTH IT?*",
+   "track": "BONUS · REWARDS",
+   "mus": "track:mistake_the_getaway@0"
+  },
+  {
+   "t": "Say you spend fifteen hundred dollars a month on a card with two percent cashback.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Monthly spending",
+     "price": "$1,500"
+    },
+    {
+     "label": "Cashback",
+     "price": "2%"
+    }
+   ],
+   "track": "BONUS · REWARDS",
+   "hold": 0.7
+  },
+  {
+   "t": "That's three hundred sixty dollars a year in rewards. Nice.",
+   "kind": "stat",
+   "value": 360,
+   "prefix": "$",
+   "label": "2% of $1,500 × 12 months",
+   "title": "IN *REWARDS*",
+   "track": "BONUS · REWARDS",
+   "hold": 0.7
+  },
+  {
+   "t": "Now imagine you carry that fifteen hundred as a balance at twenty-two percent. That's about twenty-eight dollars of interest… every month.",
+   "kind": "stat",
+   "value": 28,
+   "prefix": "$",
+   "label": "Interest per month on $1,500 at 22%",
+   "title": "EVERY *MONTH*",
+   "track": "BONUS · REWARDS",
+   "hold": 0.7
+  },
+  {
+   "t": "Carry it all year, and you pay around three hundred thirty-five dollars in interest. Almost all your rewards… gone.",
+   "kind": "bars",
+   "title": "REWARDS VS *INTEREST*",
+   "items": [
+    {
+     "label": "Rewards earned",
+     "value": 360,
+     "display": "$360"
+    },
+    {
+     "label": "Interest paid",
+     "value": 335,
+     "display": "$335"
+    }
+   ],
+   "pick": 1,
+   "track": "BONUS · REWARDS",
+   "hold": 0.7
+  },
+  {
+   "t": "And that's with just one month of spending as a balance. Carry more, and you're paying the bank to give you points.",
+   "kind": "big",
+   "title": "PAYING FOR *POINTS*",
+   "icon": "🤡",
+   "track": "BONUS · REWARDS"
+  },
+  {
+   "t": "So rewards are only free money for one type of person: the one who pays in full every single month.",
+   "kind": "big",
+   "title": "ONLY IF YOU *PAY IN FULL*",
+   "icon": "✅",
+   "track": "BONUS · REWARDS"
+  },
+  {
+   "t": "Another quick trap: your statement balance versus your current balance. To avoid interest, you need to pay the statement balance by the due date. Not just the minimum.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Minimum due",
+     "price": "$35",
+     "tag": "interest!"
+    },
+    {
+     "label": "Statement balance",
+     "price": "$1,500",
+     "tag": "no interest"
+    }
+   ],
+   "pick": 1,
+   "track": "BONUS · REWARDS",
+   "hold": 0.7
+  },
+  {
+   "t": "And if a payment is thirty days late, it can be reported to the credit bureaus. That can hit your score for years.",
+   "kind": "stat",
+   "value": 30,
+   "suffix": " days",
+   "label": "Late payments can be reported after",
+   "title": "LATE = *REPORTED*",
+   "track": "BONUS · REWARDS",
+   "hold": 0.7
+  },
+  {
+   "t": "Quick question before the dark side. Which card should you actually have? There are three main types.",
+   "kind": "chapter",
+   "label": "QUICK GUIDE",
+   "title": "WHICH CARD *FOR YOU?*",
+   "track": "WHICH CARD FOR YOU?"
+  },
+  {
+   "t": "Cashback cards. Simple. A small percent back on what you spend. Best for most people who pay in full.",
+   "kind": "big",
+   "title": "1 · *CASHBACK*",
+   "sub": "simple, best for most",
+   "icon": "💵",
+   "track": "WHICH CARD FOR YOU?"
+  },
+  {
+   "t": "Travel cards. Points and miles, often with an annual fee. Only worth it if you travel a lot and actually use the perks.",
+   "kind": "big",
+   "title": "2 · *TRAVEL*",
+   "sub": "only if you use the perks",
+   "icon": "✈️",
+   "track": "WHICH CARD FOR YOU?"
+  },
+  {
+   "t": "And secured cards. You put down a deposit, and that becomes your limit. They're made to build or rebuild credit.",
+   "kind": "big",
+   "title": "3 · *SECURED*",
+   "sub": "to build your credit",
+   "icon": "🔒",
+   "track": "WHICH CARD FOR YOU?"
+  },
+  {
+   "t": "And the best card of all? The one you pay in full every month. No matter the logo.",
+   "kind": "big",
+   "title": "THE *BEST* CARD",
+   "sub": "the one you pay in full",
+   "icon": "🏆",
+   "track": "WHICH CARD FOR YOU?"
+  },
+  {
+   "t": "And what happens if you just… stop paying? A lot of people wonder this. Here's the timeline.",
+   "kind": "chapter",
+   "label": "THE DARK SIDE",
+   "title": "WHAT IF YOU *DON'T PAY?*",
+   "track": "WHAT IF YOU DON'T PAY?",
+   "mus": "track:the_descent@4"
+  },
+  {
+   "t": "First, late fees. And on many cards, a penalty rate kicks in. Often close to thirty percent.",
+   "kind": "stat",
+   "value": 29.99,
+   "decimals": 2,
+   "suffix": "%",
+   "label": "A common penalty APR",
+   "title": "PENALTY *RATE*",
+   "track": "WHAT IF YOU DON'T PAY?",
+   "hold": 0.7
+  },
+  {
+   "t": "After about thirty days, the late payment can show up on your credit report.",
+   "kind": "big",
+   "title": "DAY 30 · *CREDIT REPORT*",
+   "icon": "📉",
+   "track": "WHAT IF YOU DON'T PAY?"
+  },
+  {
+   "t": "After around six months of no payments, banks usually charge off the debt. That doesn't mean it's forgiven. It's often sold or sent to collections.",
+   "kind": "big",
+   "title": "DAY 180 · *CHARGE-OFF*",
+   "sub": "not forgiven: sent to collections",
+   "icon": "📨",
+   "track": "WHAT IF YOU DON'T PAY?"
+  },
+  {
+   "t": "And negative marks like that can stay on your credit report for up to seven years. Making it harder to rent, borrow or even get some jobs.",
+   "kind": "stat",
+   "value": 7,
+   "suffix": " years",
+   "label": "Negative marks can stay up to",
+   "title": "ON YOUR *REPORT*",
+   "track": "WHAT IF YOU DON'T PAY?",
+   "hold": 0.7
+  },
+  {
+   "t": "So if you're struggling, the best move is to call the bank early. Many offer hardship plans. Waiting only makes it worse.",
+   "kind": "big",
+   "title": "CALL *EARLY*",
+   "sub": "ask about hardship plans",
+   "icon": "📞",
+   "track": "WHAT IF YOU DON'T PAY?"
+  },
+  {
+   "t": "Okay. You've seen all their tricks. Now let's turn the tables.",
+   "kind": "big",
+   "title": "NOW, *YOUR* TURN",
+   "icon": "🔄",
+   "track": "BONUS · REWARDS"
+  },
+  {
+   "t": "So now you know how they win. Here's how you make them lose.",
+   "kind": "chapter",
+   "label": "THE PLAYBOOK",
+   "title": "MAKE THEM *LOSE*",
+   "track": "THE PLAYBOOK",
+   "mus": "track:five_armies@14"
+  },
+  {
+   "t": "Rule one. Pay the full statement balance. Every month.",
+   "kind": "big",
+   "title": "1 · PAY *IN FULL*",
+   "icon": "✅",
+   "track": "THE PLAYBOOK"
+  },
+  {
+   "t": "On most cards, that means zero interest on purchases. Thanks to the grace period.",
+   "kind": "stat",
+   "value": 0,
+   "prefix": "$",
+   "label": "Interest on purchases if paid in full",
+   "title": "*ZERO*",
+   "track": "THE PLAYBOOK",
+   "hold": 0.7
+  },
+  {
+   "t": "Rule two. Turn on autopay, at least for the minimum. One late payment can cost you a fee and hurt your credit score.",
+   "kind": "big",
+   "title": "2 · *AUTOPAY* ON",
+   "icon": "🔁",
+   "track": "THE PLAYBOOK"
+  },
+  {
+   "t": "Rule three. Got debt? Attack the highest interest rate first. Mathematically, that saves you the most.",
+   "kind": "list",
+   "title": "3 · PAY IN *THIS ORDER*",
+   "items": [
+    {
+     "label": "Highest APR first"
+    },
+    {
+     "label": "Minimums on the rest"
+    },
+    {
+     "label": "Repeat"
+    }
+   ],
+   "track": "THE PLAYBOOK",
+   "hold": 0.7
+  },
+  {
+   "t": "Rule four. Call and ask for a lower rate. It costs nothing to ask.",
+   "kind": "big",
+   "title": "4 · JUST *ASK*",
+   "icon": "📞",
+   "track": "THE PLAYBOOK"
+  },
+  {
+   "t": "Bonus for rule three: a zero percent balance transfer can buy you time. Just know there's usually a transfer fee, often three to five percent, and a deadline.",
+   "kind": "big",
+   "title": "BONUS · *0% TRANSFER*",
+   "sub": "watch the fee and the deadline",
+   "icon": "⏱️",
+   "track": "THE PLAYBOOK"
+  },
+  {
+   "t": "Rule five, part one: keep your card balance well below your limit. Many experts suggest staying under thirty percent. Lower is even better for your score.",
+   "kind": "bars",
+   "title": "KEEP USAGE *LOW*",
+   "items": [
+    {
+     "label": "Over 30% of limit",
+     "value": 70,
+     "display": "risky"
+    },
+    {
+     "label": "Under 30%",
+     "value": 25,
+     "display": "good"
+    },
+    {
+     "label": "Under 10%",
+     "value": 8,
+     "display": "best"
+    }
+   ],
+   "pick": 2,
+   "track": "THE PLAYBOOK",
+   "hold": 0.7
+  },
+  {
+   "t": "And rule five. Decide the amount before you shop. That brings back the pain of paying… on purpose.",
+   "kind": "big",
+   "title": "5 · SET THE *NUMBER FIRST*",
+   "icon": "📝",
+   "track": "THE PLAYBOOK"
+  },
+  {
+   "t": "Do this, and the bank pays you rewards… while you pay them nothing.",
+   "kind": "prices",
+   "items": [
+    {
+     "label": "Used right",
+     "price": "YOU WIN",
+     "tag": "rewards, $0 interest"
+    },
+    {
+     "label": "Used wrong",
+     "price": "THEY WIN",
+     "tag": "22% a year"
+    }
+   ],
+   "pick": 0,
+   "track": "THE PLAYBOOK",
+   "hold": 0.7
+  },
+  {
+   "t": "So tell me: do you pay your card in full every month? Be honest. And subscribe, because next I'll show you why the casino always wins… and the trick they use to make you stay.",
+   "kind": "outro",
+   "title": "DO YOU PAY *IN FULL?*",
+   "sub": "Tell me in the comments 👇",
+   "hold": 4
+  }
+ ]
+}

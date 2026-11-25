@@ -1,0 +1,69 @@
+{
+ "vertical": true,
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "pitch": "+0Hz",
+ "mic": true,
+ "brand": "MONEY DECODED",
+ "music": "track:investigations@0",
+ "lines": [
+  {
+   "t": "Here's a math trick banks don't teach you. It tells you how fast your money doubles… in two seconds.",
+   "kind": "hook",
+   "title": "THE *RULE OF 72*",
+   "icon": "🧮"
+  },
+  {
+   "t": "Take seventy-two. Divide it by your yearly return. That's how many years it takes to double your money.",
+   "kind": "big",
+   "title": "72 ÷ RETURN = *YEARS*",
+   "sub": "to double your money"
+  },
+  {
+   "t": "At eight percent a year, seventy-two divided by eight is nine. Your money doubles in about nine years.",
+   "kind": "stat",
+   "value": 9,
+   "suffix": " yrs",
+   "label": "At 8% per year",
+   "title": "TO *DOUBLE*"
+  },
+  {
+   "t": "At four percent, it takes eighteen years. At twelve percent, just six.",
+   "kind": "bars",
+   "title": "YEARS TO *DOUBLE*",
+   "items": [
+    {
+     "label": "4% per year",
+     "value": 18,
+     "display": "18 years"
+    },
+    {
+     "label": "8% per year",
+     "value": 9,
+     "display": "9 years"
+    },
+    {
+     "label": "12% per year",
+     "value": 6,
+     "display": "6 years"
+    }
+   ],
+   "pick": 2
+  },
+  {
+   "t": "But it works backwards too. A credit card at twenty-two percent doubles your debt in about three years.",
+   "kind": "stat",
+   "value": 3.3,
+   "decimals": 1,
+   "suffix": " yrs",
+   "label": "Debt at 22% interest",
+   "title": "YOUR DEBT *DOUBLES*",
+   "source": "72 ÷ 22 ≈ 3.3"
+  },
+  {
+   "t": "So make the rule of seventy-two work for you… not against you. Follow for more money math.",
+   "kind": "outro",
+   "title": "MAKE IT WORK *FOR YOU*"
+  }
+ ]
+}
