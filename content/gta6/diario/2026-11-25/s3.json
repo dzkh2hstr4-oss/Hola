@@ -87,10 +87,11 @@
      "v": 0.28
     }
    ],
-   "clipFrom": 26,
+   "clipFrom": 23.5,
    "s": 16.47,
    "e": 20.44,
-   "full": true
+   "full": true,
+   "speed": 0.85
   },
   {
    "imgs": [
