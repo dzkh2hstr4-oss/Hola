@@ -6,6 +6,7 @@ import largo from "../content/gta6/largo.json";
 import { GTA6Doc, DocProps, docDuration } from "./GTA6/GTA6Doc";
 import docA from "../content/gta6/docA.json";
 import { MoneyVid, MoneyProps, moneyDuration } from "./Money/MoneyVid";
+import { MoneyVid2, moneyDuration2, MoneyProps as MoneyProps2 } from "./Money/MoneyVid2";
 import { Anuncio, ANUNCIO_DURATION } from "./Anuncio/Anuncio";
 import { QP_DURATION, QuePrefieres } from "./QuePrefieres/QuePrefieres";
 import { defaultReelProps, Reel, ReelProps } from "./Reel/Reel";
@@ -26,6 +27,16 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         defaultProps={{ vertical: true, scenes: [{ s: 0, e: 10, kind: "hook", title: "How stores *trick* you" }], captions: [], voice: "voz/click.wav", total: 10, brand: "MONEY DECODED" } as MoneyProps}
         calculateMetadata={({ props }: { props: MoneyProps }) => ({ durationInFrames: moneyDuration(props), width: props.vertical ? 1080 : 1920, height: props.vertical ? 1920 : 1080 })}
+      />
+      <Composition
+        id="MoneyVid2"
+        component={MoneyVid2}
+        durationInFrames={300}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{ vertical: true, scenes: [{ s: 0, e: 10, kind: "hook", title: "Demo" }], captions: [], voice: "voz/click.wav", total: 10, brand: "MONEY DECODED" } as MoneyProps2}
+        calculateMetadata={({ props }: { props: MoneyProps2 }) => ({ durationInFrames: moneyDuration2(props), width: props.vertical ? 1080 : 1920, height: props.vertical ? 1920 : 1080 })}
       />
       <Composition
         id="GTA6Doc"
