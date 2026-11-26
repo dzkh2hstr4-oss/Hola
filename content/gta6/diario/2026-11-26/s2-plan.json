@@ -1,0 +1,131 @@
+{
+ "rate": "+10%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "music": "track:club_diver@3",
+ "lines": [
+  {
+   "t": "Así son las fiestas de lujo de GTA 6.",
+   "imgs": [
+    "v:d_discurso"
+   ],
+   "title": [
+    [
+     "FIESTAS",
+     "DE"
+    ],
+    [
+     "*LUJO*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "clipFrom": 2.5,
+   "hook": true
+  },
+  {
+   "t": "Luces moradas, escaleras iluminadas y gente con traje.",
+   "imgs": [
+    "v:d_discurso"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 8
+  },
+  {
+   "t": "Alguien da un discurso en mitad de la fiesta, y todos miran.",
+   "imgs": [
+    "v:d_discurso"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 2.5
+  },
+  {
+   "t": "En los clubes, el DJ pone la música mientras la ciudad brilla por la ventana.",
+   "imgs": [
+    "v:a_club"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0,
+   "speed": 0.6
+  },
+  {
+   "t": "Y en las azoteas, copas al sol con todo Vice City a tus pies.",
+   "imgs": [
+    "v:d_azotea"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 14
+  },
+  {
+   "t": "Hasta los tipos con gafas de sol y cadenas de oro tienen su sitio.",
+   "imgs": [
+    "v:d_discurso"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 16
+  },
+  {
+   "t": "¿Te colarías en esta fiesta? ¡Comenta!",
+   "imgs": [
+    "v:d_azotea"
+   ],
+   "title": [
+    [
+     "¿TE",
+     "*COLARÍAS*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.4,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 19,
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

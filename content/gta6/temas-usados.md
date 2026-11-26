@@ -24,6 +24,11 @@
 | 25-nov-2026 | Raúl Bautista | Si este hombre te ofrece trabajo… | img raul_bautista_*, d_raul |
 | 25-nov-2026 | Tiroteos | Parecen una película | d_tiro1, d_tiro2, d_tiro3 |
 | 25-nov-2026 | Real Dimez | Las raperas más locas | img real_dimez_*, a_disco |
+| 26-nov-2026 | Clásicos que vuelven (Cheetah, Squalo) | Estos clásicos vuelven | img ue_cheetah, ue_squalo, ue_stock305 |
+| 26-nov-2026 | Fiestas de lujo | Así son las fiestas de lujo | d_discurso, a_club, d_azotea |
+| 26-nov-2026 | Laboratorio / sitio prohibido | Jason entra donde no debería | d_redada, d_bolsa |
+| 26-nov-2026 | Leonida en 30 s | Leonida en 30 segundos | img aerial, vice_city_15, grassrivers_07, leonida_keys_07, port_gellhorn_07 |
+| 26-nov-2026 | Reunión de negocios (mafia) | Así se negocia | d_mesa2, d_ascensor3 |
 
 ## Vídeos largos
 | Fecha | Tema | Formato |
@@ -33,6 +38,7 @@
 | nov 2026 | Tier list de actividades | tier list |
 | nov 2026 | ¿Quién traicionará a Jason y Lucía? | detective |
 | nov 2026 | 25 cosas que no sabías (Florida real, Florida Man, récords, filtración 2022) | lista / news |
+| 26-nov-2026 | Todos los golpes (tienda, joyería, discoteca, furgón, huida, ranking) | ranking / análisis |
 | 24-nov-2026 | La historia de Vice City: 1997 → 2002 (Tommy, Lance) → VCS 2006 → GTA 6, 5 diferencias | documental cronológico |
 
 ## Ideas pendientes (tachar al usar)

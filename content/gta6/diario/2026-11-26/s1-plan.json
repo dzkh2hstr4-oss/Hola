@@ -1,0 +1,126 @@
+{
+ "rate": "+10%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "music": "track:funkorama@9",
+ "lines": [
+  {
+   "t": "Estos clásicos de GTA… vuelven en GTA 6.",
+   "imgs": [
+    "ue_cheetah"
+   ],
+   "title": [
+    [
+     "VUELVEN",
+     "LOS"
+    ],
+    [
+     "*CLÁSICOS*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "hook": true
+  },
+  {
+   "t": "El Cheetah. Uno de los deportivos más míticos de la saga, desde GTA 3 y Vice City.",
+   "imgs": [
+    "ue_cheetah"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Ahora vuelve en versión clásica, blanco y con líneas rojas, aparcado frente a un edificio art déco.",
+   "imgs": [
+    "ue_cheetah"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Y el Squalo, la lancha que muchos conducimos por primera vez en el Vice City original.",
+   "imgs": [
+    "ue_squalo"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Ahora surca la bahía de Vice City con los rascacielos de fondo.",
+   "imgs": [
+    "ue_squalo"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Y por las calles, coches tuneados con pintura de todos los colores.",
+   "imgs": [
+    "ue_stock305"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "¿Qué clásico quieres que vuelva? ¡Comenta!",
+   "imgs": [
+    "ue_cheetah"
+   ],
+   "title": [
+    [
+     "¿QUÉ",
+     "CLÁSICO"
+    ],
+    [
+     "*QUIERES*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.4,
+     "v": 0.45
+    }
+   ],
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

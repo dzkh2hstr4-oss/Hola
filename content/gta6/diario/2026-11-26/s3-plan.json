@@ -1,0 +1,133 @@
+{
+ "rate": "+12%",
+ "pitch": "+4Hz",
+ "mic": true,
+ "music": "track:volatile_reaction@17",
+ "lines": [
+  {
+   "t": "Jason entra donde no debería… y esto es lo que encuentra.",
+   "imgs": [
+    "v:d_redada"
+   ],
+   "title": [
+    [
+     "DONDE",
+     "NO"
+    ],
+    [
+     "*DEBERÍA*…"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "clipFrom": 8.5,
+   "hook": true
+  },
+  {
+   "t": "Un pasillo oscuro. La puerta entreabierta.",
+   "imgs": [
+    "v:d_redada"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0
+  },
+  {
+   "t": "Dentro, una mesa llena de material y gente con mascarilla.",
+   "imgs": [
+    "v:d_bolsa"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 3
+  },
+  {
+   "t": "Una bolsa roja en el suelo… y todo el mundo se queda quieto.",
+   "imgs": [
+    "v:d_bolsa"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 2
+  },
+  {
+   "t": "Humo, luces de neón… y nadie sabe qué va a pasar.",
+   "imgs": [
+    "v:d_redada"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 9
+  },
+  {
+   "t": "En GTA 6, cada sitio tiene su propia historia.",
+   "imgs": [
+    "v:d_bolsa"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 6
+  },
+  {
+   "t": "¿Tú qué harías: entrar o darte la vuelta? ¡Comenta!",
+   "imgs": [
+    "v:d_redada"
+   ],
+   "title": [
+    [
+     "¿ENTRAR",
+     "O"
+    ],
+    [
+     "*HUIR*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.8,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 8.5,
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

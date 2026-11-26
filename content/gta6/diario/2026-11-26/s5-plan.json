@@ -1,0 +1,130 @@
+{
+ "rate": "+10%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "music": "track:hitman@1",
+ "lines": [
+  {
+   "t": "En GTA 6, los negocios se cierran… así.",
+   "imgs": [
+    "v:d_mesa2"
+   ],
+   "title": [
+    [
+     "ASÍ",
+     "SE"
+    ],
+    [
+     "*NEGOCIA*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "clipFrom": 3,
+   "hook": true
+  },
+  {
+   "t": "Una comida en una terraza, con el puerto de Vice City detrás.",
+   "imgs": [
+    "v:d_mesa2"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0
+  },
+  {
+   "t": "Camisas de flores, gafas de sol… y un hombre de traje que no sonríe.",
+   "imgs": [
+    "v:d_mesa2"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 6
+  },
+  {
+   "t": "Nadie levanta la voz. Pero todos saben quién manda.",
+   "imgs": [
+    "v:d_mesa2"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 15
+  },
+  {
+   "t": "Después, en un ascensor, alguien se queda mirando la puerta… esperando.",
+   "imgs": [
+    "v:d_ascensor3"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 8
+  },
+  {
+   "t": "Es como estar dentro de una peli de mafia.",
+   "imgs": [
+    "v:d_mesa2"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 18
+  },
+  {
+   "t": "¿Te sentarías en esta mesa? ¡Comenta!",
+   "imgs": [
+    "v:d_mesa2"
+   ],
+   "title": [
+    [
+     "¿TE",
+     "*SENTARÍAS*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.4,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 3,
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

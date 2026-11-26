@@ -1,0 +1,126 @@
+{
+ "rate": "+12%",
+ "pitch": "+4Hz",
+ "mic": true,
+ "music": "track:hot_pursuit@8",
+ "lines": [
+  {
+   "t": "Leonida en treinta segundos.",
+   "imgs": [
+    "aerial"
+   ],
+   "title": [
+    [
+     "LEONIDA",
+     "EN"
+    ],
+    [
+     "*30 SEGUNDOS*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "hook": true
+  },
+  {
+   "t": "Vice City: rascacielos, yates y playas.",
+   "imgs": [
+    "vice_city_15"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "De noche, la ciudad entera se enciende.",
+   "imgs": [
+    "skyline_dusk"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Al oeste, los pantanos de Grassrivers. Caimanes, cabañas y hidrodeslizadores.",
+   "imgs": [
+    "grassrivers_07"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Al sur, las Leonida Keys: islas y arrecifes bajo el agua.",
+   "imgs": [
+    "leonida_keys_07"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Y al norte, Port Gellhorn: neones, clubes y la cara más dura de Leonida.",
+   "imgs": [
+    "port_gellhorn_07"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "¿A cuál irías primero? ¡Comenta!",
+   "imgs": [
+    "aerial"
+   ],
+   "title": [
+    [
+     "¿A",
+     "CUÁL"
+    ],
+    [
+     "*IRÍAS*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.2,
+     "v": 0.45
+    }
+   ],
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

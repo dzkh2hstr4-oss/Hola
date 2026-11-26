@@ -1,0 +1,470 @@
+{
+ "theme": "doc",
+ "voice": "es-ES-AlvaroNeural",
+ "rate": "+6%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "clipVolume": 0,
+ "brand": "GTA VI · GOLPES",
+ "lines": [
+  {
+   "t": "En GTA 6 no hay un solo tipo de golpe. Hay atracos a tiendas, joyerías, discotecas, furgones blindados… y el último es el más bestia. Hoy los analizo uno a uno con gameplay real.",
+   "kind": "intro",
+   "clips": [
+    "m_joya2",
+    "m_furgon",
+    "m_golpe1",
+    "d_persecucion",
+    "m_tienda1"
+   ],
+   "label": "GTA 6 · GAMEPLAY REAL",
+   "title": "TODOS LOS GOLPES",
+   "rate": "+10%",
+   "pitch": "+4Hz",
+   "mus": "track:hitman@1",
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.7
+    },
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 3.0,
+     "v": 0.4
+    }
+   ]
+  },
+  {
+   "t": "Y al final te digo cuál es, para mí, el mejor golpe de todo el gameplay. Quédate.",
+   "kind": "panel",
+   "clips": [
+    "m_golpe3"
+   ],
+   "label": "AL FINAL",
+   "title": "EL MEJOR GOLPE",
+   "sub": "Mi top 1, al final del vídeo"
+  },
+  {
+   "t": "Pero antes de un golpe… hay que prepararlo. Y en el gameplay se ve perfectamente cómo.",
+   "kind": "chapter",
+   "clips": [
+    "d_raul"
+   ],
+   "label": "ANTES DEL GOLPE",
+   "title": "EL PLAN"
+  },
+  {
+   "t": "Todo empieza en un coche. Jason, Lucía… y Raúl Bautista, que según Rockstar es un atracador de bancos con mucha experiencia.",
+   "kind": "clip",
+   "clips": [
+    "d_raul"
+   ],
+   "label": "EL PLAN",
+   "title": "RAÚL BAUTISTA"
+  },
+  {
+   "t": "Raúl habla, sonríe… y se nota que no es su primer golpe. Siempre parece tener un plan.",
+   "kind": "clip",
+   "clips": [
+    "d_raul",
+    "img:raul_bautista_03"
+   ],
+   "label": "EL PLAN",
+   "title": "EL VETERANO"
+  },
+  {
+   "t": "Lucía se pone el pañuelo en la cara. A partir de aquí, ya no hay vuelta atrás.",
+   "kind": "clip",
+   "clips": [
+    "d_raul"
+   ],
+   "label": "EL PLAN",
+   "title": "SIN VUELTA ATRÁS"
+  },
+  {
+   "t": "Y eso nos dice algo importante: en GTA 6, los golpes no son solo disparar. Hay preparación, hay equipo… y hay que elegir bien con quién trabajas.",
+   "kind": "panel",
+   "clips": [
+    "img:jason_and_lucia_15"
+   ],
+   "label": "LA CLAVE",
+   "title": "ELIGE BIEN TU EQUIPO",
+   "sub": "Preparación + equipo + huida"
+  },
+  {
+   "t": "Vale. Ahora sí, golpe por golpe.",
+   "kind": "chapter",
+   "clips": [
+    "m_tienda1"
+   ],
+   "label": "GOLPE A GOLPE",
+   "title": "EMPEZAMOS"
+  },
+  {
+   "t": "Empezamos por lo más pequeño.",
+   "kind": "chapter",
+   "clips": [
+    "m_tienda1"
+   ],
+   "label": "GOLPE #1",
+   "title": "LA TIENDA",
+   "mus": "track:mistake_the_getaway@0"
+  },
+  {
+   "t": "Una tienda de barrio. Jason y Lucía entran con la cara tapada.",
+   "kind": "clip",
+   "clips": [
+    "m_tienda1"
+   ],
+   "label": "GOLPE #1",
+   "title": "ENTRADA RÁPIDA"
+  },
+  {
+   "t": "Es un golpe rápido: entrar, coger la caja y salir antes de que llegue la policía.",
+   "kind": "clip",
+   "clips": [
+    "m_tienda2",
+    "m_tienda3"
+   ],
+   "label": "GOLPE #1",
+   "title": "ENTRAR Y SALIR"
+  },
+  {
+   "t": "Fíjate en los detalles: los clientes reaccionan, se agachan, algunos intentan escapar. Nadie se queda quieto como un muñeco.",
+   "kind": "clip",
+   "clips": [
+    "m_tienda2"
+   ],
+   "label": "DETALLE",
+   "title": "LOS CLIENTES REACCIONAN"
+  },
+  {
+   "t": "Y la tienda parece una tienda de verdad: neveras llenas, estanterías, carteles. Cada rincón está cuidado.",
+   "kind": "clip",
+   "clips": [
+    "m_tienda3"
+   ],
+   "label": "DETALLE",
+   "title": "UNA TIENDA REAL"
+  },
+  {
+   "t": "Poco botín… pero también poco riesgo. Es el golpe perfecto para empezar.",
+   "kind": "list",
+   "clips": [
+    "m_tienda2"
+   ],
+   "label": "GOLPE #1 · RESUMEN",
+   "title": "LA TIENDA",
+   "items": [
+    "Riesgo: bajo",
+    "Botín: pequeño",
+    "Dificultad: fácil"
+   ]
+  },
+  {
+   "t": "Pero si quieres dinero de verdad… hay que ir a por las joyas.",
+   "kind": "chapter",
+   "clips": [
+    "m_joya1"
+   ],
+   "label": "GOLPE #2",
+   "title": "LA JOYERÍA"
+  },
+  {
+   "t": "Una joyería en pleno centro. Vitrinas, joyas… y testigos por todas partes.",
+   "kind": "clip",
+   "clips": [
+    "m_joya1"
+   ],
+   "label": "GOLPE #2",
+   "title": "EL CENTRO"
+  },
+  {
+   "t": "La huida es en moto, a toda velocidad entre el tráfico de Vice City.",
+   "kind": "clip",
+   "clips": [
+    "m_joya2"
+   ],
+   "label": "GOLPE #2",
+   "title": "HUIDA EN MOTO"
+  },
+  {
+   "t": "Mira la gente en la calle: se aparta, mira, alguno incluso saca el móvil. Y recuerda que en GTA 6 la gente graba todo.",
+   "kind": "clip",
+   "clips": [
+    "m_joya2"
+   ],
+   "label": "DETALLE",
+   "title": "TESTIGOS POR TODAS PARTES"
+  },
+  {
+   "t": "Más dinero, pero mucho más riesgo. Aquí cualquier error se paga caro.",
+   "kind": "list",
+   "clips": [
+    "m_joya2"
+   ],
+   "label": "GOLPE #2 · RESUMEN",
+   "title": "LA JOYERÍA",
+   "items": [
+    "Riesgo: medio",
+    "Botín: alto",
+    "Dificultad: media"
+   ]
+  },
+  {
+   "t": "Y ahora uno de los más locos: un golpe en una discoteca.",
+   "kind": "chapter",
+   "clips": [
+    "m_golpe1"
+   ],
+   "label": "GOLPE #3",
+   "title": "LA DISCOTECA",
+   "mus": "track:ethernight_club@20"
+  },
+  {
+   "t": "Luces moradas, música, gente bailando… y en mitad de todo, ellos.",
+   "kind": "clip",
+   "clips": [
+    "m_golpe1"
+   ],
+   "label": "GOLPE #3",
+   "title": "EN PLENA FIESTA"
+  },
+  {
+   "t": "Las mesas, las pantallas… todo puede esconder algo. Y nadie sospecha de dos personas más en la pista.",
+   "kind": "clip",
+   "clips": [
+    "m_golpe2"
+   ],
+   "label": "GOLPE #3",
+   "title": "NADIE SOSPECHA"
+  },
+  {
+   "t": "Y aquí entra un detalle que me encanta: el golpe pasa en mitad de una fiesta real, con cientos de personas que no saben nada.",
+   "kind": "clip",
+   "clips": [
+    "m_golpe1",
+    "d_discurso"
+   ],
+   "label": "DETALLE",
+   "title": "LA FIESTA SIGUE"
+  },
+  {
+   "t": "Y después, la parte de oficinas: pasillos oscuros, monitores y mucha tensión.",
+   "kind": "clip",
+   "clips": [
+    "m_golpe3"
+   ],
+   "label": "GOLPE #3",
+   "title": "LAS OFICINAS"
+  },
+  {
+   "t": "Este golpe es de sigilo. Si te ven, se acabó.",
+   "kind": "list",
+   "clips": [
+    "m_golpe3"
+   ],
+   "label": "GOLPE #3 · RESUMEN",
+   "title": "LA DISCOTECA",
+   "items": [
+    "Riesgo: alto",
+    "Botín: alto",
+    "Dificultad: difícil"
+   ]
+  },
+  {
+   "t": "Pero hay uno todavía más grande. Uno que necesita un plan, una banda… y nervios de acero.",
+   "kind": "chapter",
+   "clips": [
+    "m_furgon"
+   ],
+   "label": "GOLPE #4",
+   "title": "EL FURGÓN",
+   "mus": "track:hot_pursuit@8"
+  },
+  {
+   "t": "Un furgón blindado en mitad de la calle. Motos alrededor y gente armada.",
+   "kind": "clip",
+   "clips": [
+    "m_furgon"
+   ],
+   "label": "GOLPE #4",
+   "title": "EL FURGÓN BLINDADO"
+  },
+  {
+   "t": "Es un golpe a plena luz del día. Rápido, ruidoso y con muchísimo dinero en juego.",
+   "kind": "clip",
+   "clips": [
+    "m_furgon",
+    "d_persecucion"
+   ],
+   "label": "GOLPE #4",
+   "title": "A PLENA LUZ DEL DÍA"
+  },
+  {
+   "t": "Esto ya no es un atraco discreto. Es un asalto en toda regla, en mitad de la ciudad.",
+   "kind": "clip",
+   "clips": [
+    "m_furgon"
+   ],
+   "label": "GOLPE #4",
+   "title": "UN ASALTO EN REGLA"
+  },
+  {
+   "t": "Y claro, cuando suena la alarma… llega la policía.",
+   "kind": "clip",
+   "clips": [
+    "d_persecucion"
+   ],
+   "label": "LA POLICÍA",
+   "title": "LLEGAN LOS COCHES"
+  },
+  {
+   "t": "Coches patrulla, tiros y coches que dan vueltas de campana en mitad de la avenida.",
+   "kind": "clip",
+   "clips": [
+    "m_poli_tiro",
+    "m_poli_flip"
+   ],
+   "label": "LA POLICÍA",
+   "title": "CAOS EN LA AVENIDA"
+  },
+  {
+   "t": "Y la persecución no se queda en una calle. Sigue manzana tras manzana, entre palmeras, edificios y tráfico real.",
+   "kind": "clip",
+   "clips": [
+    "d_persecucion"
+   ],
+   "label": "LA POLICÍA",
+   "title": "MANZANA TRAS MANZANA"
+  },
+  {
+   "t": "Cada choque deja marca: cristales rotos, humo, coches destrozados. La ciudad recuerda lo que has hecho.",
+   "kind": "clip",
+   "clips": [
+    "m_poli_flip"
+   ],
+   "label": "LA POLICÍA",
+   "title": "LA CIUDAD RECUERDA"
+  },
+  {
+   "t": "Y aquí está la clave de todo golpe: la huida.",
+   "kind": "chapter",
+   "clips": [
+    "d_parking"
+   ],
+   "label": "LA CLAVE",
+   "title": "LA HUIDA",
+   "mus": "track:volatile_reaction@17"
+  },
+  {
+   "t": "Lucía, con un pañuelo en la cara, en un aparcamiento subterráneo. Detrás, el coche del golpe… en llamas.",
+   "kind": "clip",
+   "clips": [
+    "d_parking"
+   ],
+   "label": "LA HUIDA",
+   "title": "BORRAR LAS PRUEBAS"
+  },
+  {
+   "t": "Cambian a una furgoneta cualquiera y salen a la calle como si nada.",
+   "kind": "clip",
+   "clips": [
+    "d_parking"
+   ],
+   "label": "LA HUIDA",
+   "title": "CAMBIO DE COCHE"
+  },
+  {
+   "t": "Y en otros momentos, toca escapar a pie: pasillos, humo y polvo.",
+   "kind": "clip",
+   "clips": [
+    "d_tiro1",
+    "d_tiro2"
+   ],
+   "label": "LA HUIDA",
+   "title": "ESCAPAR A PIE"
+  },
+  {
+   "t": "Porque en GTA 6, el golpe no termina cuando coges el dinero. Termina cuando consigues desaparecer.",
+   "kind": "panel",
+   "clips": [
+    "d_huida"
+   ],
+   "label": "LA REGLA",
+   "title": "DESAPARECER",
+   "sub": "El golpe termina cuando escapas"
+  },
+  {
+   "t": "Y ahora sí: mi ranking de los golpes del gameplay.",
+   "kind": "chapter",
+   "clips": [
+    "m_joya2"
+   ],
+   "label": "EL RANKING",
+   "title": "DEL PEOR AL MEJOR",
+   "mus": "track:five_armies@14"
+  },
+  {
+   "t": "En cuarto lugar, la tienda. Sencilla, rápida, perfecta para empezar… pero se queda corta.",
+   "kind": "list",
+   "clips": [
+    "m_tienda1"
+   ],
+   "label": "#4",
+   "title": "LA TIENDA",
+   "items": [
+    "Fácil",
+    "Poco botín"
+   ]
+  },
+  {
+   "t": "En tercer lugar, la joyería. La huida en moto es espectacular.",
+   "kind": "list",
+   "clips": [
+    "m_joya2"
+   ],
+   "label": "#3",
+   "title": "LA JOYERÍA",
+   "items": [
+    "Huida en moto",
+    "Mucho riesgo"
+   ]
+  },
+  {
+   "t": "En segundo lugar, el furgón blindado. Puro caos a plena luz del día.",
+   "kind": "list",
+   "clips": [
+    "m_furgon"
+   ],
+   "label": "#2",
+   "title": "EL FURGÓN",
+   "items": [
+    "Caos total",
+    "Mucho dinero"
+   ]
+  },
+  {
+   "t": "Y en primer lugar… la discoteca. Sigilo, neones, tensión y un plan que puede salir perfecto… o fatal.",
+   "kind": "panel",
+   "clips": [
+    "m_golpe1",
+    "m_golpe2"
+   ],
+   "label": "#1",
+   "title": "LA DISCOTECA",
+   "sub": "Sigilo, neones y tensión"
+  },
+  {
+   "t": "¿Estás de acuerdo con mi ranking? ¿Cuál vas a hacer primero? Te leo en comentarios. Y suscríbete para más análisis de GTA 6.",
+   "kind": "outro",
+   "clips": [
+    "img:keyart"
+   ],
+   "title": "¿CUÁL HARÁS PRIMERO?",
+   "sub": "Te leo en comentarios",
+   "mus": "track:hitman@40"
+  }
+ ]
+}
