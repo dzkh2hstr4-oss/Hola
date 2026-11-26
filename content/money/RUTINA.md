@@ -25,6 +25,12 @@ Guardar en `content/money/diario/<D+1>/` y `publicados/money/diario/<D+1>/`.
    descripción). Los ejemplos de cálculo se marcan como ejemplo. Nada de consejos financieros personalizados.
 6. Descripciones **sin enlaces** (el canal no está verificado). Shorts: descripción < 100 caracteres + crédito.
 
+## Lo que funciona (datos reales del canal)
+- 26-nov: el short **«Why Everything Costs $9.99 (Not $10)»** hizo 918 visitas el primer día; los demás, ~10.
+  Patrón ganador: precio cotidiano que todos han visto + pregunta «¿por qué?» + número concreto en el título.
+  Prioriza shorts de **psicología de precios del día a día** (supermercados, Costco, gasolina, suscripciones,
+  menús de restaurante, tamaños de producto…), siempre con datos verificables.
+
 ## Producción
 ```bash
 export SSL_CERT_FILE=/root/.ccr/ca-bundle.crt
