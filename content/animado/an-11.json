@@ -9,7 +9,7 @@
   "musica": "entrada/musica/Funkorama.mp3",
   "musicaDesde": 0,
   "publicar": "2026-11-26T18:00",
-  "status": "creado",
+  "status": "no_publicado",
   "escenas": [
     {
       "tipo": "meme",
@@ -57,5 +57,6 @@
       "pitch": "+0Hz"
     }
   ],
-  "caption": "Yo cuando enciendo esto después de un día horrible:\n\nProyector aurora: aurora y estrellas en tu techo, con mando y recargable por USB. 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#proyectoraurora #auroraboreal #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Funkorama» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
+  "caption": "Yo cuando enciendo esto después de un día horrible:\n\nProyector aurora: aurora y estrellas en tu techo, con mando y recargable por USB. 39,95 € (antes 64,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#proyectoraurora #auroraboreal #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Funkorama» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA",
+  "nota": "la publicación se quedó esperando aprobación y no llegó a salir"
 }
