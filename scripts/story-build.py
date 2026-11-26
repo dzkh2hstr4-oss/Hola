@@ -8,7 +8,7 @@ Las imágenes que falten se generan gratis con FLUX (scripts/flux.py) en public/
 """
 import json, os, re, subprocess, sys, importlib.util
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-spec = importlib.util.spec_from_file_location("flux", os.path.join(ROOT, "scripts/flux.py")); flux = importlib.util.module_from_spec(spec); spec.loader.exec_module(flux)
+spec = importlib.util.spec_from_file_location("gen", os.path.join(ROOT, "scripts/sdxl_local.py")); flux = importlib.util.module_from_spec(spec); spec.loader.exec_module(flux)
 MIC = "highpass=f=80,equalizer=f=220:t=q:w=1:g=-2,equalizer=f=3200:t=q:w=1.2:g=3,acompressor=threshold=-20dB:ratio=3:attack=5:release=80:makeup=4,alimiter=limit=0.95"
 plan_p, out_p, name = sys.argv[1:4]
 plan = json.load(open(plan_p)); vert = plan.get("vertical", False)
@@ -26,7 +26,7 @@ for i, k in enumerate(need):
     for att in range(3):
         try:
             flux.gen(f, prompt_of(k), W, H, 1000 + (abs(hash(k)) % 90000)); print("img", k, flush=True); break
-        except SystemExit as e:
+        except Exception as e:
             print("fallo img", k, e, flush=True)
             if "quota" in str(e).lower() or "limit" in str(e).lower(): sys.exit("CUPO AGOTADO: " + str(e))
 proxy = os.environ.get("HTTPS_PROXY")

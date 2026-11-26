@@ -3,9 +3,9 @@
  "voice": "es-MX-JorgeNeural",
  "rate": "+2%",
  "pitch": "+2Hz",
- "style": "3D Pixar Disney animated movie still, cinematic lighting, highly detailed, vibrant colors, expressive faces",
+ "style": "realistic 3D animated movie still, Pixar and Disney quality, detailed skin and hair textures, expressive face, cinematic lighting, shallow depth of field, vibrant colors, 8k render",
  "chars": {
-  "leo": "a 16-year-old boy named Leo with messy curly dark brown hair, warm brown skin, big expressive hazel eyes, orange bomber jacket over white t-shirt",
+  "leo": "a 16-year-old Latino boy named Leo with messy dark brown hair, warm tan brown skin, big expressive hazel eyes, orange bomber jacket over white t-shirt",
   "mama": "a kind 42-year-old Latina mother with dark hair in a bun, tired warm eyes, wearing a light blue cleaning staff uniform",
   "marco": "a smug 17-year-old rich boy with slicked-back blond hair, navy blue school blazer with gold crest, expensive watch",
   "valeria": "a 16-year-old girl with long straight black hair, bright green eyes, freckles, navy blue school blazer with gold crest",
