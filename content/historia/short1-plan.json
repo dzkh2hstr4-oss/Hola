@@ -1,0 +1,93 @@
+{
+ "vertical": true,
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+10%",
+ "pitch": "+2Hz",
+ "style": "3D Pixar Disney animated movie still, cinematic lighting, highly detailed, vibrant colors, expressive faces, vertical composition",
+ "chars": {
+  "leo": "a 16-year-old boy named Leo with messy curly dark brown hair, warm brown skin, big expressive hazel eyes, orange bomber jacket over white t-shirt",
+  "mama": "a kind 42-year-old Latina mother with dark hair in a bun, tired warm eyes, wearing a light blue cleaning staff uniform",
+  "marco": "a smug 17-year-old rich boy with slicked-back blond hair, navy blue school blazer with gold crest, expensive watch",
+  "valeria": "a 16-year-old girl with long straight black hair, bright green eyes, freckles, navy blue school blazer with gold crest",
+  "ramon": "an old cheerful taxi driver with a big grey mustache and a flat cap",
+  "profe": "a strict bald 55-year-old math teacher with thick glasses and a grey sweater vest",
+  "hermano": "a mischievous 8-year-old boy with spiky dark hair and a missing front tooth, green dinosaur t-shirt",
+  "abuela": "a sweet tiny 80-year-old grandmother with white curly hair, pink cardigan and big round glasses"
+ },
+ "images": {
+  "s1a": "{leo} on a city sidewalk holding a thick leather wallet full of cash, shocked face",
+  "s1b": "{profe} handing back an exam with a big red F to {leo} in a classroom, cold stare",
+  "s1c": "{leo} daydreaming, surrounded by floating video game consoles, sneakers and money, magical light",
+  "s1d": "{leo} knocking on the door of a small old house at dusk, nervous",
+  "s1e": "{profe} opening the door with tears in his eyes, a little girl in a wheelchair behind him",
+  "s1f": "{profe} hugging {leo} on the doorstep, emotional warm light",
+  "s1g": "close-up of an exam paper where the red zero is crossed out and replaced with a big ten, a smiley face drawn",
+  "s1h": "{profe} smiling for the first time at {leo} in the classroom, other students amazed",
+  "s1i": "{leo} looking at the camera with a soft smile, sunset light"
+ },
+ "lines": [
+  {
+   "t": "Encontré una cartera con cinco mil euros en el suelo… y era de la persona que más me odiaba.",
+   "imgs": [
+    "s1a"
+   ],
+   "fx": "impact",
+   "title": "5.000 EUROS",
+   "rate": "+12%"
+  },
+  {
+   "t": "Mi profesor de matemáticas. El que me había suspendido tres veces seguidas.",
+   "imgs": [
+    "s1b"
+   ]
+  },
+  {
+   "t": "Con ese dinero podía comprarme todo lo que siempre había querido.",
+   "imgs": [
+    "s1c"
+   ]
+  },
+  {
+   "t": "Pero fui a su casa. Y llamé a la puerta.",
+   "imgs": [
+    "s1d"
+   ],
+   "fx": "slow"
+  },
+  {
+   "t": "Me abrió llorando. Ese dinero era para la operación de su hija.",
+   "imgs": [
+    "s1e"
+   ],
+   "fx": "dark",
+   "rate": "+4%"
+  },
+  {
+   "t": "No dijo nada. Solo me abrazó.",
+   "imgs": [
+    "s1f"
+   ]
+  },
+  {
+   "t": "Al día siguiente, en clase, me devolvió el examen. Un cero… tachado.",
+   "imgs": [
+    "s1g"
+   ],
+   "fx": "impact"
+  },
+  {
+   "t": "«Este no lo has suspendido», me dijo. «Lo has aprobado con matrícula».",
+   "imgs": [
+    "s1h"
+   ],
+   "rate": "+6%"
+  },
+  {
+   "t": "¿Tú la habrías devuelto? Comenta.",
+   "imgs": [
+    "s1i"
+   ],
+   "title": "¿LA DEVOLVERÍAS?"
+  }
+ ]
+}

@@ -7,6 +7,7 @@ import { GTA6Doc, DocProps, docDuration } from "./GTA6/GTA6Doc";
 import docA from "../content/gta6/docA.json";
 import { MoneyVid, MoneyProps, moneyDuration } from "./Money/MoneyVid";
 import { MoneyVid2, moneyDuration2, MoneyProps as MoneyProps2 } from "./Money/MoneyVid2";
+import { StoryVid, StoryProps, storyDuration } from "./Historia/StoryVid";
 import { Anuncio, ANUNCIO_DURATION } from "./Anuncio/Anuncio";
 import { QP_DURATION, QuePrefieres } from "./QuePrefieres/QuePrefieres";
 import { defaultReelProps, Reel, ReelProps } from "./Reel/Reel";
@@ -18,6 +19,16 @@ import { Video2 } from "./Lumora/Video2";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="StoryVid"
+        component={StoryVid}
+        durationInFrames={300}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{ vertical: false, scenes: [{ s: 0, e: 10, img: "test" }], captions: [], voice: "voz/click.wav", total: 10 } as StoryProps}
+        calculateMetadata={({ props }: { props: StoryProps }) => ({ durationInFrames: storyDuration(props), width: props.vertical ? 1080 : 1920, height: props.vertical ? 1920 : 1080 })}
+      />
       <Composition
         id="MoneyVid"
         component={MoneyVid}

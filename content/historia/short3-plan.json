@@ -1,0 +1,93 @@
+{
+ "vertical": true,
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+10%",
+ "pitch": "+2Hz",
+ "style": "3D Pixar Disney animated movie still, cinematic lighting, highly detailed, vibrant colors, expressive faces, vertical composition",
+ "chars": {
+  "leo": "a 16-year-old boy named Leo with messy curly dark brown hair, warm brown skin, big expressive hazel eyes, orange bomber jacket over white t-shirt",
+  "mama": "a kind 42-year-old Latina mother with dark hair in a bun, tired warm eyes, wearing a light blue cleaning staff uniform",
+  "marco": "a smug 17-year-old rich boy with slicked-back blond hair, navy blue school blazer with gold crest, expensive watch",
+  "valeria": "a 16-year-old girl with long straight black hair, bright green eyes, freckles, navy blue school blazer with gold crest",
+  "ramon": "an old cheerful taxi driver with a big grey mustache and a flat cap",
+  "profe": "a strict bald 55-year-old math teacher with thick glasses and a grey sweater vest",
+  "hermano": "a mischievous 8-year-old boy with spiky dark hair and a missing front tooth, green dinosaur t-shirt",
+  "abuela": "a sweet tiny 80-year-old grandmother with white curly hair, pink cardigan and big round glasses"
+ },
+ "images": {
+  "s3a": "{leo} waking up alone on an empty yellow school bus at night, confused and scared",
+  "s3b": "an empty dark bus depot full of yellow school buses at night, eerie blue light",
+  "s3c": "close-up of a phone screen showing 1% battery in red, {leo}'s worried face reflected",
+  "s3d": "{leo} typing a message on his phone in the dark bus, the screen lighting his face",
+  "s3e": "a phone screen turning black in the dark, {leo} gasping",
+  "s3f": "bright flashlights shining through the bus windows at night, silhouettes outside",
+  "s3g": "{mama} running toward the bus with a security guard, two police officers and many neighbors with flashlights",
+  "s3h": "{mama} hugging {leo} tightly, then pointing a finger at him angrily, comedic",
+  "s3i": "{leo} sitting on the bus steps smiling at the camera"
+ },
+ "lines": [
+  {
+   "t": "Me quedé dormido en el autobús del colegio… y cuando me desperté, estaba solo.",
+   "imgs": [
+    "s3a"
+   ],
+   "fx": "impact",
+   "title": "ME QUEDÉ ENCERRADO",
+   "rate": "+10%"
+  },
+  {
+   "t": "El conductor se había ido. Las puertas, cerradas. Y era de noche.",
+   "imgs": [
+    "s3b"
+   ],
+   "fx": "dark"
+  },
+  {
+   "t": "Mi móvil tenía un uno por ciento de batería.",
+   "imgs": [
+    "s3c"
+   ],
+   "fx": "zoomin"
+  },
+  {
+   "t": "Escribí un solo mensaje a mi madre: «Ayuda. Autobús. Cocheras».",
+   "imgs": [
+    "s3d"
+   ]
+  },
+  {
+   "t": "Y el móvil se apagó.",
+   "imgs": [
+    "s3e"
+   ],
+   "fx": "shake"
+  },
+  {
+   "t": "Pasó una hora. Hacía frío. Y de repente… unas luces.",
+   "imgs": [
+    "s3f"
+   ],
+   "fx": "flash"
+  },
+  {
+   "t": "Era mi madre. Con el vigilante, dos policías… y medio barrio.",
+   "imgs": [
+    "s3g"
+   ]
+  },
+  {
+   "t": "Me dio el abrazo más fuerte de mi vida. Y luego… el castigo más largo de mi vida.",
+   "imgs": [
+    "s3h"
+   ],
+   "rate": "+6%"
+  },
+  {
+   "t": "¿Qué es lo más loco que te ha pasado en el colegio? Comenta.",
+   "imgs": [
+    "s3i"
+   ],
+   "title": "¿Y A TI?"
+  }
+ ]
+}

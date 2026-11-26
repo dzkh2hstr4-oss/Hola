@@ -1,0 +1,93 @@
+{
+ "vertical": true,
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+10%",
+ "pitch": "+2Hz",
+ "style": "3D Pixar Disney animated movie still, cinematic lighting, highly detailed, vibrant colors, expressive faces, vertical composition",
+ "chars": {
+  "leo": "a 16-year-old boy named Leo with messy curly dark brown hair, warm brown skin, big expressive hazel eyes, orange bomber jacket over white t-shirt",
+  "mama": "a kind 42-year-old Latina mother with dark hair in a bun, tired warm eyes, wearing a light blue cleaning staff uniform",
+  "marco": "a smug 17-year-old rich boy with slicked-back blond hair, navy blue school blazer with gold crest, expensive watch",
+  "valeria": "a 16-year-old girl with long straight black hair, bright green eyes, freckles, navy blue school blazer with gold crest",
+  "ramon": "an old cheerful taxi driver with a big grey mustache and a flat cap",
+  "profe": "a strict bald 55-year-old math teacher with thick glasses and a grey sweater vest",
+  "hermano": "a mischievous 8-year-old boy with spiky dark hair and a missing front tooth, green dinosaur t-shirt",
+  "abuela": "a sweet tiny 80-year-old grandmother with white curly hair, pink cardigan and big round glasses"
+ },
+ "images": {
+  "s2a": "{hermano} typing on a tablet with an evil grin, a listing showing a photo of {leo} with a price tag",
+  "s2b": "a funny online marketplace listing on a phone screen with a photo of {leo} sleeping with his mouth open",
+  "s2c": "{leo} reading a message on his phone, his smile disappearing, shocked",
+  "s2d": "a doorbell being pressed in close-up, dramatic lighting, suspense",
+  "s2e": "{abuela} standing at the door smiling sweetly holding three euros in coins, {leo} staring in disbelief",
+  "s2f": "{abuela} pointing at a huge pile of grocery bags on the sidewalk, {leo} laughing",
+  "s2g": "{leo} carrying grocery bags next to {abuela} in a sunny street, both smiling",
+  "s2h": "{hermano} sitting on the couch with arms crossed and an annoyed pout, empty piggy bank",
+  "s2i": "{leo} and {hermano} play fighting on the sofa, laughing"
+ },
+ "lines": [
+  {
+   "t": "Mi hermano pequeño me puso a la venta en internet. Por tres euros.",
+   "imgs": [
+    "s2a"
+   ],
+   "fx": "impact",
+   "title": "EN VENTA: 3€",
+   "rate": "+12%"
+  },
+  {
+   "t": "«Hermano mayor. Usado. Ronca. Se come todo. Precio negociable.»",
+   "imgs": [
+    "s2b"
+   ]
+  },
+  {
+   "t": "Me reí. Hasta que llegó un mensaje: «Me interesa. Voy a recogerlo hoy».",
+   "imgs": [
+    "s2c"
+   ],
+   "fx": "shake"
+  },
+  {
+   "t": "A las cinco en punto, sonó el timbre.",
+   "imgs": [
+    "s2d"
+   ],
+   "fx": "zoomin",
+   "pitch": "-3Hz"
+  },
+  {
+   "t": "Abrí la puerta temblando… y era una abuelita de ochenta años.",
+   "imgs": [
+    "s2e"
+   ],
+   "fx": "impact"
+  },
+  {
+   "t": "«Vengo a por el chico. Necesito ayuda con la compra y mis nietos viven lejos».",
+   "imgs": [
+    "s2f"
+   ]
+  },
+  {
+   "t": "Le llevé la compra. Y desde entonces voy todos los sábados.",
+   "imgs": [
+    "s2g"
+   ]
+  },
+  {
+   "t": "Mi hermano sigue esperando sus tres euros.",
+   "imgs": [
+    "s2h"
+   ],
+   "rate": "+6%"
+  },
+  {
+   "t": "¿Por cuánto te vendería tu hermano? Comenta.",
+   "imgs": [
+    "s2i"
+   ],
+   "title": "¿Y TU HERMANO?"
+  }
+ ]
+}

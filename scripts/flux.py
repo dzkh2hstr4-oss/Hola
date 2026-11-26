@@ -6,6 +6,13 @@ import json, os, ssl, sys, uuid, urllib.request
 H = "https://black-forest-labs-flux-1-schnell.hf.space"
 ctx = ssl.create_default_context(cafile="/root/.ccr/ca-bundle.crt")
 op = urllib.request.build_opener(urllib.request.ProxyHandler({"https": os.environ.get("HTTPS_PROXY")}), urllib.request.HTTPSHandler(context=ctx))
+_JWT = None
+def jwt():
+    global _JWT
+    if _JWT is None:
+        r = op.open(urllib.request.Request("https://huggingface.co/api/spaces/black-forest-labs/FLUX.1-schnell/jwt", headers={"Authorization": "Bearer proxy-injected"}), timeout=30)
+        _JWT = json.loads(r.read())["token"]
+    return _JWT
 def gen(out, prompt, w=1024, h=576, seed=0):
     sh = uuid.uuid4().hex[:10]
     body = json.dumps({"data": [prompt, seed, seed == 0, w, h, 4], "fn_index": 2, "trigger_id": None, "session_hash": sh, "event_data": None}).encode()

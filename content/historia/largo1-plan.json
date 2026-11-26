@@ -1,0 +1,613 @@
+{
+ "vertical": false,
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+2%",
+ "pitch": "+2Hz",
+ "style": "3D Pixar Disney animated movie still, cinematic lighting, highly detailed, vibrant colors, expressive faces",
+ "chars": {
+  "leo": "a 16-year-old boy named Leo with messy curly dark brown hair, warm brown skin, big expressive hazel eyes, orange bomber jacket over white t-shirt",
+  "mama": "a kind 42-year-old Latina mother with dark hair in a bun, tired warm eyes, wearing a light blue cleaning staff uniform",
+  "marco": "a smug 17-year-old rich boy with slicked-back blond hair, navy blue school blazer with gold crest, expensive watch",
+  "valeria": "a 16-year-old girl with long straight black hair, bright green eyes, freckles, navy blue school blazer with gold crest",
+  "ramon": "an old cheerful taxi driver with a big grey mustache and a flat cap"
+ },
+ "images": {
+  "h1": "{leo} standing confidently in front of a luxury private school with marble columns, students staring at him in admiration",
+  "h2": "{leo} posing proudly on a giant white luxury yacht at sunset, wearing sunglasses",
+  "h3": "{leo} stepping out of the back of a black luxury car, a driver holding the door",
+  "h4": "close-up of {leo} looking guilty and nervous, sweating, dark dramatic lighting",
+  "h5": "{mama} crying silently in a small humble kitchen at night, holding a cleaning rag",
+  "b1": "a tiny cozy humble apartment above a laundromat, warm lamp light, {leo} sitting on a worn sofa",
+  "b2": "exterior of an old city building with a laundromat on the ground floor, evening, neon sign",
+  "b3": "{mama} scrubbing the floor of a huge luxurious mansion, exhausted, early morning light",
+  "b4": "{mama} hugging {leo} tightly in their small kitchen, emotional warm light",
+  "b5": "{leo} opening a letter with a golden school crest, jaw dropped, jumping with joy",
+  "b6": "{mama} crying tears of joy holding the acceptance letter, {leo} smiling next to her",
+  "b7": "the imposing gates of a gigantic elite private school at dawn, ominous clouds, dramatic",
+  "c1": "{leo} getting off a crowded old city bus in front of an elite school, looking amazed",
+  "c2": "luxury sports cars, a red Ferrari and a yellow Lamborghini, parked in front of an elite school, students in navy blazers",
+  "c3": "a helicopter landing on a school lawn, a student in a blazer stepping out",
+  "c4": "close-up of old worn cheap sneakers on a shiny marble floor, other students' expensive shoes around",
+  "c5": "rich students in navy blazers whispering and laughing while looking at {leo}",
+  "c6": "{marco} walking down a school hallway like he owns it, students moving aside",
+  "c7": "{marco} leaning on a gold sports car, smirking, surrounded by friends",
+  "c8": "{marco} laughing mockingly and pointing at {leo}'s shoes, students laughing behind",
+  "c9": "a long school hallway full of students frozen in silence staring at {leo}, tension",
+  "c10": "extreme close-up of {leo}'s eyes, determined, dramatic lighting",
+  "c11": "{leo} smiling confidently with arms crossed, students gasping in surprise",
+  "c12": "a crowd of rich students surrounding {leo}, everybody smiling and wanting to talk to him",
+  "d1": "{leo} lying on his bed at night staring at the ceiling, worried, phone light on his face",
+  "d2": "students showing their phones to {leo}, asking excitedly",
+  "d3": "{leo} sneaking along a private marina dock full of luxury yachts, looking around nervously",
+  "d4": "{leo} taking a selfie in front of a giant luxury yacht, a security guard running toward him in the background",
+  "d5": "{leo} running away on a dock, a fat security guard chasing him, comedic action",
+  "d6": "{leo} sadly handing an old acoustic guitar over the counter of a pawn shop",
+  "d7": "{leo} wearing a shiny gold watch, looking at it with mixed feelings",
+  "d8": "{ramon} winking from the window of an old yellow taxi, {leo} in the back seat",
+  "d9": "{ramon} wearing a black suit and cap pretending to be a chauffeur, opening the taxi door for {leo} at the school gate",
+  "d10": "{leo} laughing at the center of a group of popular rich students in the school cafeteria",
+  "e1": "{valeria} looking at {leo} suspiciously from a library table, one eyebrow raised",
+  "e2": "{valeria} smiling mysteriously at {leo} in a sunny school courtyard",
+  "e3": "{valeria} and {leo} sitting together in the cafeteria, {leo} choking on his food, embarrassed",
+  "e4": "{leo} and {valeria} laughing together walking home under autumn trees, warm light",
+  "f1": "a calendar page showing Friday with a red circle, dramatic shadow",
+  "f2": "a gigantic mansion at night with a party, lights, pool, rich teenagers",
+  "f3": "a pile of expensive gift boxes from luxury brands on a table",
+  "f4": "{leo} opening a tin box hidden in a kitchen cabinet full of folded money, guilty face, dark",
+  "f5": "close-up of {leo}'s hand grabbing a stack of banknotes, dramatic shadows",
+  "f6": "{marco} tossing a gift box onto a pile without looking, at a luxurious party",
+  "f7": "{leo} watching sadly from the corner of the party, holding a drink",
+  "f8": "{marco} raising a glass at the party pointing at {leo}, everybody cheering",
+  "f9": "{leo} frozen in panic, sweating, everyone cheering around him",
+  "f10": "a big clock ticking, {leo} pacing in his tiny room at night, panic",
+  "g1": "{leo} with a sudden idea, lightbulb moment, dramatic lighting in his room",
+  "g2": "a set of house keys hanging on a hook in the humble kitchen, {leo} staring at them",
+  "g3": "a gigantic modern white mansion with a pool and palm trees, daytime",
+  "g4": "{leo} nervously unlocking the huge front door of a modern mansion",
+  "g5": "rich teenagers arriving at the mansion gate in luxury cars, {marco} leading, {valeria} behind",
+  "g6": "{leo} opening his arms proudly in a huge luxurious living room, friends amazed",
+  "g7": "a red flashing alarm light in a luxurious mansion, everybody covering their ears",
+  "g8": "{leo} panicking in front of an alarm keypad, sweating",
+  "g9": "the big front door of the mansion opening slowly, a silhouette against bright light",
+  "g10": "{mama} standing in the doorway in her cleaning uniform holding a bucket, shocked, staring at {leo}",
+  "g11": "close-up of {mama}'s face, heartbroken, tears in her eyes",
+  "g12": "{marco} laughing cruelly and pointing at {mama}, other teens filming with phones",
+  "g13": "many phones recording, screens showing {leo} humiliated",
+  "h6": "dramatic close-up of {valeria} stepping forward, determined",
+  "h7": "{valeria} standing between {leo} and {marco}, pointing at {marco}, everyone surprised",
+  "h8": "close-up of {marco} turning pale, shocked and scared",
+  "h9": "a big red BANK SEIZED sign on the gate of a mansion",
+  "h10": "{marco} sitting alone on the bed of a small hotel room, sad, holding his face",
+  "h11": "{valeria} gently smiling at {leo}, sunset light through a window",
+  "h12": "{leo} and {marco} looking at each other in silence, both ashamed, dramatic light",
+  "i1": "{leo} handing an envelope of money to {mama} in their small kitchen, both emotional",
+  "i2": "{leo} holding his grandfather's old guitar again, smiling with tears",
+  "i3": "{mama} hugging {leo} tightly, both crying, warm golden light",
+  "i4": "{leo} walking proudly into the elite school wearing old sneakers, sunrise behind him",
+  "i5": "{valeria} waiting at the school gate smiling and waving at {leo}",
+  "i6": "{marco} standing alone in a graduation gown on a stage, mysterious dramatic lighting",
+  "i7": "{leo} smiling at the camera and waving, cozy room background",
+  "x1": "a luxurious ski resort in the Alps with snowy mountains, rich teenagers with expensive ski gear",
+  "x2": "rich students surrounding {leo} in the hallway, holding ski brochures, waiting for his answer",
+  "x3": "{leo} smiling nervously and pretending to swing a polo mallet, friends impressed",
+  "x4": "{leo} falling off a bicycle in a park, comedic, cartoon dust cloud",
+  "y1": "{leo} and {valeria} sitting on a school rooftop at sunset, city skyline behind",
+  "y2": "close-up of {leo} looking at the sunset with honest emotional eyes",
+  "y3": "{valeria} smiling softly at {leo}, golden sunset light"
+ },
+ "lines": [
+  {
+   "t": "Todo mi colegio pensaba que yo era millonario.",
+   "imgs": [
+    "h1"
+   ],
+   "fx": "impact",
+   "rate": "+12%",
+   "pitch": "+4Hz",
+   "title": "ME HICE PASAR POR MILLONARIO"
+  },
+  {
+   "t": "Mi padre tenía un yate. Mi casa tenía doce baños. Y yo tenía chófer.",
+   "imgs": [
+    "h2",
+    "h3"
+   ],
+   "rate": "+10%"
+  },
+  {
+   "t": "Mentira. Todo era mentira.",
+   "imgs": [
+    "h4"
+   ],
+   "fx": "impact",
+   "rate": "-5%",
+   "pitch": "-4Hz"
+  },
+  {
+   "t": "Y esta mentira casi destruye a la persona que más quiero.",
+   "imgs": [
+    "h5"
+   ],
+   "fx": "dark",
+   "rate": "-6%",
+   "pitch": "-3Hz"
+  },
+  {
+   "t": "Mi nombre es Leo. Vivo con mi madre en un piso de cuarenta metros, encima de una lavandería.",
+   "imgs": [
+    "b1",
+    "b2"
+   ]
+  },
+  {
+   "t": "Mi madre limpia casas desde las seis de la mañana hasta las nueve de la noche.",
+   "imgs": [
+    "b3"
+   ]
+  },
+  {
+   "t": "Y todo lo hace por una sola cosa: que yo tenga una vida mejor que la suya.",
+   "imgs": [
+    "b4"
+   ]
+  },
+  {
+   "t": "Por eso, cuando me dieron una beca para el Colegio Altamira, el colegio más caro del país…",
+   "imgs": [
+    "b5"
+   ],
+   "rate": "+12%"
+  },
+  {
+   "t": "…mi madre lloró de felicidad durante tres días.",
+   "imgs": [
+    "b6"
+   ]
+  },
+  {
+   "t": "Lo que ninguno de los dos sabía… es que ese colegio iba a cambiarlo todo.",
+   "imgs": [
+    "b7"
+   ],
+   "fx": "zoomin",
+   "rate": "-4%",
+   "pitch": "-3Hz"
+  },
+  {
+   "t": "Primer día de clase. Llego en autobús.",
+   "imgs": [
+    "c1"
+   ],
+   "fx": "flash"
+  },
+  {
+   "t": "Y en la puerta… Ferraris, Lamborghinis y un chico bajando de un helicóptero.",
+   "imgs": [
+    "c2",
+    "c3"
+   ],
+   "rate": "+14%",
+   "pitch": "+3Hz"
+  },
+  {
+   "t": "Yo llevaba unas zapatillas de doce euros. Y todo el mundo lo notó.",
+   "imgs": [
+    "c4",
+    "c5"
+   ]
+  },
+  {
+   "t": "Entonces apareció él. Marco.",
+   "imgs": [
+    "c6"
+   ],
+   "fx": "impact",
+   "rate": "-2%"
+  },
+  {
+   "t": "El chico más rico y más popular del colegio. Su familia es dueña de media ciudad.",
+   "imgs": [
+    "c7"
+   ]
+  },
+  {
+   "t": "Me miró los pies, se rió y me preguntó: «¿Y tú qué eres, el hijo de la señora de la limpieza?».",
+   "imgs": [
+    "c8"
+   ],
+   "rate": "+8%"
+  },
+  {
+   "t": "Todo el pasillo se quedó en silencio. Esperando mi respuesta.",
+   "imgs": [
+    "c9"
+   ],
+   "fx": "slow"
+  },
+  {
+   "t": "Y entonces dije la frase que lo cambió todo.",
+   "imgs": [
+    "c10"
+   ],
+   "fx": "zoomin",
+   "pitch": "-3Hz"
+  },
+  {
+   "t": "«¿Estas? Son las zapatillas que uso para no ensuciar las buenas. Mi padre tiene una empresa de aviones.»",
+   "imgs": [
+    "c11"
+   ],
+   "fx": "impact",
+   "rate": "+6%"
+  },
+  {
+   "t": "Silencio. Y luego… todo el mundo quería ser mi amigo.",
+   "imgs": [
+    "c12"
+   ]
+  },
+  {
+   "t": "El problema de una mentira es que necesita otra mentira para sobrevivir.",
+   "imgs": [
+    "d1"
+   ],
+   "fx": "dark",
+   "rate": "-4%"
+  },
+  {
+   "t": "Al día siguiente, todos querían ver fotos de mi yate.",
+   "imgs": [
+    "d2"
+   ]
+  },
+  {
+   "t": "Así que fui al puerto, me colé en un muelle privado… y me hice fotos delante del yate de un desconocido.",
+   "imgs": [
+    "d3",
+    "d4"
+   ],
+   "rate": "+12%"
+  },
+  {
+   "t": "Casi me pilla el guardia de seguridad. Salí corriendo como nunca en mi vida.",
+   "imgs": [
+    "d5"
+   ],
+   "fx": "shake",
+   "rate": "+16%",
+   "pitch": "+4Hz"
+  },
+  {
+   "t": "Luego necesitaba un reloj caro. Así que empeñé la única cosa de valor que tenía: la guitarra de mi abuelo.",
+   "imgs": [
+    "d6",
+    "d7"
+   ]
+  },
+  {
+   "t": "Y el chófer… era Don Ramón, el taxista del barrio, que aceptó llevarme cada mañana a cambio de que le ayudara con su móvil.",
+   "imgs": [
+    "d8",
+    "d9"
+   ]
+  },
+  {
+   "t": "Funcionaba. Por primera vez en mi vida, era alguien.",
+   "imgs": [
+    "d10"
+   ]
+  },
+  {
+   "t": "Pero entonces llegó el viaje de esquí. Una semana en los Alpes. Dos mil euros por persona.",
+   "imgs": [
+    "x1"
+   ]
+  },
+  {
+   "t": "Todo el mundo me miraba: «Leo, tú vienes, ¿no?».",
+   "imgs": [
+    "x2"
+   ]
+  },
+  {
+   "t": "Y yo, que no había visto la nieve en mi vida, dije: «Claro… pero ese fin de semana tengo un torneo de polo».",
+   "imgs": [
+    "x3"
+   ],
+   "rate": "+8%"
+  },
+  {
+   "t": "¿Polo? Yo ni sabía montar en bicicleta.",
+   "imgs": [
+    "x4"
+   ],
+   "fx": "shake",
+   "rate": "+12%"
+  },
+  {
+   "t": "Pero había una persona que no se lo creía. Valeria.",
+   "imgs": [
+    "e1"
+   ],
+   "fx": "flash"
+  },
+  {
+   "t": "Era la chica más lista del colegio. Y me miraba como si supiera algo.",
+   "imgs": [
+    "e2"
+   ]
+  },
+  {
+   "t": "Un día me dijo: «Leo, para ser millonario… comes muy rápido el almuerzo gratis».",
+   "imgs": [
+    "e3"
+   ],
+   "rate": "+6%"
+  },
+  {
+   "t": "Casi me atraganto. Pero ella solo se rió. Y desde ese día, empezamos a hablar todos los días.",
+   "imgs": [
+    "e4"
+   ]
+  },
+  {
+   "t": "Una tarde, en la azotea del colegio, me preguntó: «¿Y tú qué quieres ser de mayor, Leo?».",
+   "imgs": [
+    "y1"
+   ]
+  },
+  {
+   "t": "Y por primera vez en semanas, dije la verdad: «Quiero que mi madre no tenga que trabajar nunca más».",
+   "imgs": [
+    "y2"
+   ],
+   "rate": "-4%"
+  },
+  {
+   "t": "Ella me miró en silencio. Y sonrió. Como si eso fuera lo único verdadero que le había dicho.",
+   "imgs": [
+    "y3"
+   ]
+  },
+  {
+   "t": "Todo iba bien… hasta el viernes.",
+   "imgs": [
+    "f1"
+   ],
+   "fx": "impact",
+   "pitch": "-3Hz"
+  },
+  {
+   "t": "Marco me invitó a su fiesta de cumpleaños. En su mansión. Y todo el mundo llevaba regalos carísimos.",
+   "imgs": [
+    "f2",
+    "f3"
+   ]
+  },
+  {
+   "t": "Yo no tenía dinero. Pero sí sabía dónde guardaba mi madre los ahorros… para pagar el alquiler.",
+   "imgs": [
+    "f4"
+   ],
+   "fx": "dark",
+   "rate": "-4%"
+  },
+  {
+   "t": "Lo cogí. Todo.",
+   "imgs": [
+    "f5"
+   ],
+   "fx": "impact",
+   "rate": "-8%",
+   "pitch": "-5Hz"
+  },
+  {
+   "t": "Compré unos auriculares de cuatrocientos euros. Y en la fiesta, Marco ni siquiera abrió mi regalo.",
+   "imgs": [
+    "f6",
+    "f7"
+   ]
+  },
+  {
+   "t": "Pero lo peor llegó cuando Marco dijo, delante de todos: «El sábado vamos todos a casa de Leo. Quiero ver esos doce baños».",
+   "imgs": [
+    "f8",
+    "f9"
+   ],
+   "fx": "shake",
+   "rate": "+8%"
+  },
+  {
+   "t": "Tenía veinticuatro horas para conseguir una mansión.",
+   "imgs": [
+    "f10"
+   ],
+   "fx": "zoomin",
+   "title": "24 HORAS"
+  },
+  {
+   "t": "Y entonces tuve la peor idea de mi vida.",
+   "imgs": [
+    "g1"
+   ],
+   "fx": "flash"
+  },
+  {
+   "t": "Mi madre limpiaba una mansión enorme. Los dueños estaban de vacaciones en Japón. Y ella tenía las llaves.",
+   "imgs": [
+    "g2",
+    "g3"
+   ]
+  },
+  {
+   "t": "El sábado por la mañana, cogí las llaves. Y abrí la puerta de una casa que no era mía.",
+   "imgs": [
+    "g4"
+   ],
+   "fx": "slow",
+   "rate": "-4%"
+  },
+  {
+   "t": "A las cinco llegaron todos. Marco, sus amigos… y Valeria.",
+   "imgs": [
+    "g5"
+   ]
+  },
+  {
+   "t": "«Bienvenidos a mi casa», dije. Y por un momento… me lo creí hasta yo.",
+   "imgs": [
+    "g6"
+   ],
+   "rate": "+8%"
+  },
+  {
+   "t": "Hasta que sonó la alarma.",
+   "imgs": [
+    "g7"
+   ],
+   "fx": "impact",
+   "rate": "+6%",
+   "sfx": [
+    {
+     "f": "wyr/sfx/beep.wav",
+     "at": 0.2,
+     "v": 0.6
+    },
+    {
+     "f": "wyr/sfx/beep.wav",
+     "at": 0.6,
+     "v": 0.6
+    },
+    {
+     "f": "wyr/sfx/beep.wav",
+     "at": 1.0,
+     "v": 0.6
+    }
+   ]
+  },
+  {
+   "t": "No conocía el código. La policía estaba en camino. Y entonces, la puerta principal se abrió.",
+   "imgs": [
+    "g8",
+    "g9"
+   ],
+   "fx": "shake",
+   "rate": "+12%"
+  },
+  {
+   "t": "Era mi madre.",
+   "imgs": [
+    "g10"
+   ],
+   "fx": "impact",
+   "rate": "-10%",
+   "pitch": "-5Hz"
+  },
+  {
+   "t": "Con su uniforme de limpieza. Su cubo. Y la cara más triste que le he visto nunca.",
+   "imgs": [
+    "g11"
+   ],
+   "fx": "dark",
+   "rate": "-6%"
+  },
+  {
+   "t": "Marco se empezó a reír. «¿Esta es tu casa? ¿O es la casa donde limpia tu madre?».",
+   "imgs": [
+    "g12"
+   ],
+   "rate": "+6%"
+  },
+  {
+   "t": "Todos sacaron el móvil. Y yo… no pude decir nada.",
+   "imgs": [
+    "g13"
+   ]
+  },
+  {
+   "t": "Pero entonces pasó algo que nadie esperaba.",
+   "imgs": [
+    "h6"
+   ],
+   "fx": "zoomin",
+   "pitch": "-3Hz"
+  },
+  {
+   "t": "Valeria se puso delante de todos y dijo: «Ya basta, Marco. Cuéntales tú tu secreto».",
+   "imgs": [
+    "h7"
+   ],
+   "fx": "impact"
+  },
+  {
+   "t": "Marco se quedó blanco.",
+   "imgs": [
+    "h8"
+   ],
+   "fx": "flash"
+  },
+  {
+   "t": "Resulta que el padre de Marco lo había perdido todo hacía meses. Vivían en un hotel. Y la mansión de la fiesta… estaba embargada.",
+   "imgs": [
+    "h9",
+    "h10"
+   ],
+   "rate": "+4%"
+  },
+  {
+   "t": "Valeria lo sabía porque su padre trabaja en el banco. Y lo sabía de mí… porque desde el primer día vio mis zapatillas.",
+   "imgs": [
+    "h11"
+   ]
+  },
+  {
+   "t": "Al final, los dos mentirosos del colegio éramos… Marco y yo.",
+   "imgs": [
+    "h12"
+   ],
+   "fx": "slow"
+  },
+  {
+   "t": "Esa noche le devolví a mi madre todo el dinero. Vendí el reloj y recuperé la guitarra del abuelo.",
+   "imgs": [
+    "i1",
+    "i2"
+   ]
+  },
+  {
+   "t": "Le pedí perdón. Y ella solo me dijo una cosa: «Nunca tuviste que fingir. Yo ya estaba orgullosa de ti».",
+   "imgs": [
+    "i3"
+   ],
+   "rate": "-6%",
+   "pitch": "-2Hz"
+  },
+  {
+   "t": "El lunes llegué al colegio en autobús. Con mis zapatillas de doce euros.",
+   "imgs": [
+    "i4"
+   ]
+  },
+  {
+   "t": "Y esta vez, quien me esperaba en la puerta… era Valeria.",
+   "imgs": [
+    "i5"
+   ]
+  },
+  {
+   "t": "Y Marco… bueno, lo que pasó con Marco en la graduación es otra historia. Y te la contaré muy pronto.",
+   "imgs": [
+    "i6"
+   ],
+   "fx": "zoomin",
+   "rate": "+4%"
+  },
+  {
+   "t": "Si te ha gustado mi historia, suscríbete. Porque esto… me pasó a mí.",
+   "imgs": [
+    "i7"
+   ],
+   "title": "SUSCRÍBETE"
+  }
+ ]
+}
