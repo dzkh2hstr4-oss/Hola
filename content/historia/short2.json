@@ -1,0 +1,106 @@
+{
+ "vertical": true,
+ "scenes": [
+  {
+   "s": 0.0,
+   "e": 4.45,
+   "img": "s2a",
+   "fx": "impact",
+   "title": "EN VENTA: 3€"
+  },
+  {
+   "s": 4.45,
+   "e": 11.28,
+   "img": "s2b"
+  },
+  {
+   "s": 11.28,
+   "e": 17.01,
+   "img": "s2c",
+   "fx": "shake"
+  },
+  {
+   "s": 17.01,
+   "e": 19.26,
+   "img": "s2d",
+   "fx": "zoomin"
+  },
+  {
+   "s": 19.26,
+   "e": 23.14,
+   "img": "s2e",
+   "fx": "impact"
+  },
+  {
+   "s": 23.14,
+   "e": 28.07,
+   "img": "s2f"
+  },
+  {
+   "s": 28.07,
+   "e": 32.09,
+   "img": "s2g"
+  },
+  {
+   "s": 32.09,
+   "e": 34.63,
+   "img": "s2h"
+  },
+  {
+   "s": 34.63,
+   "e": 38.49,
+   "img": "s2i",
+   "title": "¿Y TU HERMANO?"
+  }
+ ],
+ "captions": [
+  {
+   "t": "Mi hermano pequeño me puso a la venta en internet. Por tres euros.",
+   "s": 0.05,
+   "e": 3.95
+  },
+  {
+   "t": "«Hermano mayor. Usado. Ronca. Se come todo. Precio negociable.»",
+   "s": 4.5,
+   "e": 11.21
+  },
+  {
+   "t": "Me reí. Hasta que llegó un mensaje: «Me interesa. Voy a recogerlo hoy».",
+   "s": 11.33,
+   "e": 16.76
+  },
+  {
+   "t": "A las cinco en punto, sonó el timbre.",
+   "s": 17.06,
+   "e": 19.01
+  },
+  {
+   "t": "Abrí la puerta temblando… y era una abuelita de ochenta años.",
+   "s": 19.31,
+   "e": 22.64
+  },
+  {
+   "t": "«Vengo a por el chico. Necesito ayuda con la compra y mis nietos viven lejos».",
+   "s": 23.19,
+   "e": 27.82
+  },
+  {
+   "t": "Le llevé la compra. Y desde entonces voy todos los sábados.",
+   "s": 28.12,
+   "e": 31.84
+  },
+  {
+   "t": "Mi hermano sigue esperando sus tres euros.",
+   "s": 32.14,
+   "e": 34.38
+  },
+  {
+   "t": "¿Por cuánto te vendería tu hermano? Comenta.",
+   "s": 34.68,
+   "e": 37.44
+  }
+ ],
+ "voice": "historia/audio/short2-voz.wav",
+ "total": 38.49,
+ "sfx": []
+}

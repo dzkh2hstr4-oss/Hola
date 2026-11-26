@@ -1,0 +1,106 @@
+{
+ "vertical": true,
+ "scenes": [
+  {
+   "s": 0.0,
+   "e": 5.15,
+   "img": "s1a",
+   "fx": "impact",
+   "title": "5.000 EUROS"
+  },
+  {
+   "s": 5.15,
+   "e": 10.04,
+   "img": "s1b"
+  },
+  {
+   "s": 10.04,
+   "e": 13.37,
+   "img": "s1c"
+  },
+  {
+   "s": 13.37,
+   "e": 16.43,
+   "img": "s1d",
+   "fx": "slow"
+  },
+  {
+   "s": 16.43,
+   "e": 21.07,
+   "img": "s1e",
+   "fx": "dark"
+  },
+  {
+   "s": 21.07,
+   "e": 23.75,
+   "img": "s1f"
+  },
+  {
+   "s": 23.75,
+   "e": 29.34,
+   "img": "s1g",
+   "fx": "impact"
+  },
+  {
+   "s": 29.34,
+   "e": 34.03,
+   "img": "s1h"
+  },
+  {
+   "s": 34.03,
+   "e": 37.47,
+   "img": "s1i",
+   "title": "¿LA DEVOLVERÍAS?"
+  }
+ ],
+ "captions": [
+  {
+   "t": "Encontré una cartera con cinco mil euros en el suelo… y era de la persona que más me odiaba.",
+   "s": 0.05,
+   "e": 4.65
+  },
+  {
+   "t": "Mi profesor de matemáticas. El que me había suspendido tres veces seguidas.",
+   "s": 5.2,
+   "e": 9.79
+  },
+  {
+   "t": "Con ese dinero podía comprarme todo lo que siempre había querido.",
+   "s": 10.09,
+   "e": 13.12
+  },
+  {
+   "t": "Pero fui a su casa. Y llamé a la puerta.",
+   "s": 13.42,
+   "e": 16.18
+  },
+  {
+   "t": "Me abrió llorando. Ese dinero era para la operación de su hija.",
+   "s": 16.48,
+   "e": 20.57
+  },
+  {
+   "t": "No dijo nada. Solo me abrazó.",
+   "s": 21.12,
+   "e": 23.5
+  },
+  {
+   "t": "Al día siguiente, en clase, me devolvió el examen. Un cero… tachado.",
+   "s": 23.8,
+   "e": 28.84
+  },
+  {
+   "t": "«Este no lo has suspendido», me dijo. «Lo has aprobado con matrícula».",
+   "s": 29.39,
+   "e": 33.78
+  },
+  {
+   "t": "¿Tú la habrías devuelto? Comenta.",
+   "s": 34.08,
+   "e": 36.42
+  }
+ ],
+ "voice": "historia/audio/short1-voz.wav",
+ "total": 37.47,
+ "sfx": []
+}

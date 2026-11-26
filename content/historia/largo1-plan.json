@@ -20,19 +20,19 @@
   "h3": "{leo} stepping out of the back of a black luxury car, a driver holding the door",
   "h4": "close-up of {leo} looking guilty and nervous, sweating, dark dramatic lighting",
   "h5": "{mama} crying silently in a small humble kitchen at night, holding a cleaning rag",
-  "b1": "a tiny cozy humble apartment above a laundromat, warm lamp light, {leo} sitting on a worn sofa",
+  "b1": "close-up portrait of {leo} sitting alone on a worn sofa in a tiny cozy apartment, warm lamp light",
   "b2": "exterior of an old city building with a laundromat on the ground floor, evening, neon sign",
   "b3": "{mama} scrubbing the floor of a huge luxurious mansion, exhausted, early morning light",
   "b4": "{mama} hugging {leo} tightly in their small kitchen, emotional warm light",
   "b5": "{leo} opening a letter with a golden school crest, jaw dropped, jumping with joy",
-  "b6": "{mama} crying tears of joy holding the acceptance letter, {leo} smiling next to her",
+  "b6": "close-up of {mama} crying tears of joy while reading a letter with a golden crest",
   "b7": "the imposing gates of a gigantic elite private school at dawn, ominous clouds, dramatic",
   "c1": "{leo} getting off a crowded old city bus in front of an elite school, looking amazed",
   "c2": "luxury sports cars, a red Ferrari and a yellow Lamborghini, parked in front of an elite school, students in navy blazers",
   "c3": "a helicopter landing on a school lawn, a student in a blazer stepping out",
   "c4": "close-up of old worn cheap sneakers on a shiny marble floor, other students' expensive shoes around",
   "c5": "rich students in navy blazers whispering and laughing while looking at {leo}",
-  "c6": "{marco} walking down a school hallway like he owns it, students moving aside",
+  "c6": "close-up of {marco} smirking arrogantly in a school hallway, single character",
   "c7": "{marco} leaning on a gold sports car, smirking, surrounded by friends",
   "c8": "{marco} laughing mockingly and pointing at {leo}'s shoes, students laughing behind",
   "c9": "a long school hallway full of students frozen in silence staring at {leo}, tension",
@@ -66,7 +66,6 @@
   "g1": "{leo} with a sudden idea, lightbulb moment, dramatic lighting in his room",
   "g2": "a set of house keys hanging on a hook in the humble kitchen, {leo} staring at them",
   "g3": "a gigantic modern white mansion with a pool and palm trees, daytime",
-  "g4": "{leo} nervously unlocking the huge front door of a modern mansion",
   "g5": "rich teenagers arriving at the mansion gate in luxury cars, {marco} leading, {valeria} behind",
   "g6": "{leo} opening his arms proudly in a huge luxurious living room, friends amazed",
   "g7": "a red flashing alarm light in a luxurious mansion, everybody covering their ears",
@@ -81,26 +80,21 @@
   "h8": "close-up of {marco} turning pale, shocked and scared",
   "h9": "a big red BANK SEIZED sign on the gate of a mansion",
   "h10": "{marco} sitting alone on the bed of a small hotel room, sad, holding his face",
-  "h11": "{valeria} gently smiling at {leo}, sunset light through a window",
+  "h11": "close-up of {valeria} smiling gently, sunset light through a window",
   "h12": "{leo} and {marco} looking at each other in silence, both ashamed, dramatic light",
   "i1": "{leo} handing an envelope of money to {mama} in their small kitchen, both emotional",
-  "i2": "{leo} holding his grandfather's old guitar again, smiling with tears",
   "i3": "{mama} hugging {leo} tightly, both crying, warm golden light",
   "i4": "{leo} walking proudly into the elite school wearing old sneakers, sunrise behind him",
-  "i5": "{valeria} waiting at the school gate smiling and waving at {leo}",
   "i6": "{marco} standing alone in a graduation gown on a stage, mysterious dramatic lighting",
-  "i7": "{leo} smiling at the camera and waving, cozy room background",
   "x1": "a luxurious ski resort in the Alps with snowy mountains, rich teenagers with expensive ski gear",
   "x2": "rich students surrounding {leo} in the hallway, holding ski brochures, waiting for his answer",
-  "x3": "{leo} smiling nervously and pretending to swing a polo mallet, friends impressed",
-  "x4": "{leo} falling off a bicycle in a park, comedic, cartoon dust cloud",
+  "x4": "{leo} crashing off a bicycle in a park, falling, comedic dust cloud, single boy",
   "y1": "{leo} and {valeria} sitting on a school rooftop at sunset, city skyline behind",
   "y2": "close-up of {leo} looking at the sunset with honest emotional eyes",
   "y3": "{valeria} smiling softly at {leo}, golden sunset light",
   "z1": "{leo} at night in a tiny dark room staring at a laptop showing mansion rental prices, worried face",
-  "z2": "{leo} pacing back and forth in his small bedroom, thought bubbles with excuses, comic style",
   "z3": "{marco} smirking and typing on his phone, a group chat with many messages, menacing",
-  "z4": "{mama} silently walking away down a long driveway, carrying her bag, back to the camera, sad dusk light",
+  "z4": "back view of a single woman in a light blue cleaning uniform walking alone down a long driveway at dusk, carrying a bag",
   "z5": "close-up of {leo} with tears in his eyes, phones recording around him, devastated"
  },
  "lines": [
@@ -320,7 +314,7 @@
   {
    "t": "Y yo, que no había visto la nieve en mi vida, dije: «Claro… pero ese fin de semana tengo un torneo de polo».",
    "imgs": [
-    "x3"
+    "c11"
    ],
    "rate": "+8%"
   },
@@ -443,7 +437,7 @@
   {
    "t": "Pensé en decir que estaba enfermo. Que mi casa estaba en obras. Que mi padre había cerrado la casa por un viaje.",
    "imgs": [
-    "z2"
+    "d1"
    ]
   },
   {
@@ -469,7 +463,7 @@
   {
    "t": "El sábado por la mañana, cogí las llaves. Y abrí la puerta de una casa que no era mía.",
    "imgs": [
-    "g4"
+    "g9"
    ],
    "fx": "slow",
    "rate": "-4%"
@@ -614,7 +608,7 @@
    "t": "Esa noche le devolví a mi madre todo el dinero. Vendí el reloj y recuperé la guitarra del abuelo.",
    "imgs": [
     "i1",
-    "i2"
+    "d6"
    ]
   },
   {
@@ -634,7 +628,7 @@
   {
    "t": "Y esta vez, quien me esperaba en la puerta… era Valeria.",
    "imgs": [
-    "i5"
+    "h11"
    ]
   },
   {
@@ -648,7 +642,7 @@
   {
    "t": "Si te ha gustado mi historia, suscríbete. Porque esto… me pasó a mí.",
    "imgs": [
-    "i7"
+    "b1"
    ],
    "title": "SUSCRÍBETE"
   }

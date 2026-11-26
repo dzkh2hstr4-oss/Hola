@@ -1,0 +1,107 @@
+{
+ "vertical": true,
+ "scenes": [
+  {
+   "s": 0.0,
+   "e": 4.67,
+   "img": "s3a",
+   "fx": "impact",
+   "title": "ME QUEDÉ ENCERRADO"
+  },
+  {
+   "s": 4.67,
+   "e": 10.56,
+   "img": "s3b",
+   "fx": "dark"
+  },
+  {
+   "s": 10.56,
+   "e": 13.13,
+   "img": "s3c",
+   "fx": "zoomin"
+  },
+  {
+   "s": 13.13,
+   "e": 18.81,
+   "img": "s3d"
+  },
+  {
+   "s": 18.81,
+   "e": 20.2,
+   "img": "s3e",
+   "fx": "shake"
+  },
+  {
+   "s": 20.2,
+   "e": 25.3,
+   "img": "s3f",
+   "fx": "flash"
+  },
+  {
+   "s": 25.3,
+   "e": 29.98,
+   "img": "s3g"
+  },
+  {
+   "s": 29.98,
+   "e": 35.49,
+   "img": "s3h"
+  },
+  {
+   "s": 35.49,
+   "e": 40.21,
+   "img": "s3i",
+   "title": "¿Y A TI?"
+  }
+ ],
+ "captions": [
+  {
+   "t": "Me quedé dormido en el autobús del colegio… y cuando me desperté, estaba solo.",
+   "s": 0.05,
+   "e": 4.17
+  },
+  {
+   "t": "El conductor se había ido. Las puertas, cerradas. Y era de noche.",
+   "s": 4.72,
+   "e": 10.06
+  },
+  {
+   "t": "Mi móvil tenía un uno por ciento de batería.",
+   "s": 10.61,
+   "e": 12.88
+  },
+  {
+   "t": "Escribí un solo mensaje a mi madre: «Ayuda. Autobús. Cocheras».",
+   "s": 13.18,
+   "e": 18.56
+  },
+  {
+   "t": "Y el móvil se apagó.",
+   "s": 18.86,
+   "e": 19.95
+  },
+  {
+   "t": "Pasó una hora. Hacía frío. Y de repente… unas luces.",
+   "s": 20.25,
+   "e": 25.05
+  },
+  {
+   "t": "Era mi madre. Con el vigilante, dos policías… y medio barrio.",
+   "s": 25.35,
+   "e": 29.73
+  },
+  {
+   "t": "Me dio el abrazo más fuerte de mi vida. Y luego… el castigo más largo de mi vida.",
+   "s": 30.03,
+   "e": 35.24
+  },
+  {
+   "t": "¿Qué es lo más loco que te ha pasado en el colegio? Comenta.",
+   "s": 35.54,
+   "e": 39.16
+  }
+ ],
+ "voice": "historia/audio/short3-voz.wav",
+ "total": 40.21,
+ "sfx": []
+}
