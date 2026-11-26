@@ -3,6 +3,8 @@
 Cada día se prepara el paquete de **MAÑANA** (fecha D+1, hora de España), para que el dueño lo programe con tiempo:
 - **3 shorts** (15:00, 19:00 y 23:00 hora de España = mañana/tarde/noche en EE. UU.).
 - **1 vídeo largo de 8 min o más** solo en días alternos: hay largo el 27-nov, 29-nov, 1-dic, 3-dic, 5-dic… (cada 2 días). Se publica a las 18:00.
+**Ya cubiertos a mano:** 27-nov y 28-nov (shorts y largo de las tarjetas, lote2) y el largo del 29-nov (casino). Si el paquete
+que toca es del 28-nov, no hagas nada y avisa. Para el 29-nov haz SOLO los 3 shorts (el largo ya existe).
 Guardar en `content/money/diario/<D+1>/` y `publicados/money/diario/<D+1>/`.
 
 ## Lo que pide el dueño (OBLIGATORIO)
