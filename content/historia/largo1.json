@@ -1,0 +1,808 @@
+{
+ "vertical": false,
+ "scenes": [
+  {
+   "s": 0.0,
+   "e": 2.79,
+   "img": "h1",
+   "fx": "impact",
+   "title": "ME HICE PASAR POR MILLONARIO"
+  },
+  {
+   "s": 2.79,
+   "e": 5.68,
+   "img": "h2"
+  },
+  {
+   "s": 5.68,
+   "e": 8.58,
+   "img": "h3"
+  },
+  {
+   "s": 8.58,
+   "e": 11.75,
+   "img": "h4",
+   "fx": "impact"
+  },
+  {
+   "s": 11.75,
+   "e": 15.51,
+   "img": "h5",
+   "fx": "dark"
+  },
+  {
+   "s": 15.51,
+   "e": 18.69,
+   "img": "b1"
+  },
+  {
+   "s": 18.69,
+   "e": 21.87,
+   "img": "b2"
+  },
+  {
+   "s": 21.87,
+   "e": 26.21,
+   "img": "b3"
+  },
+  {
+   "s": 26.21,
+   "e": 30.54,
+   "img": "b4"
+  },
+  {
+   "s": 30.54,
+   "e": 35.54,
+   "img": "b5"
+  },
+  {
+   "s": 35.54,
+   "e": 38.35,
+   "img": "b6"
+  },
+  {
+   "s": 38.35,
+   "e": 43.16,
+   "img": "b7",
+   "fx": "zoomin"
+  },
+  {
+   "s": 43.16,
+   "e": 46.44,
+   "img": "c1",
+   "fx": "flash"
+  },
+  {
+   "s": 46.44,
+   "e": 48.95,
+   "img": "c2"
+  },
+  {
+   "s": 48.95,
+   "e": 51.46,
+   "img": "c3"
+  },
+  {
+   "s": 51.46,
+   "e": 53.86,
+   "img": "c4"
+  },
+  {
+   "s": 53.86,
+   "e": 56.27,
+   "img": "c5"
+  },
+  {
+   "s": 56.27,
+   "e": 59.58,
+   "img": "c6",
+   "fx": "impact"
+  },
+  {
+   "s": 59.58,
+   "e": 65.2,
+   "img": "c7"
+  },
+  {
+   "s": 65.2,
+   "e": 70.74,
+   "img": "c8"
+  },
+  {
+   "s": 70.74,
+   "e": 75.0,
+   "img": "c9",
+   "fx": "slow"
+  },
+  {
+   "s": 75.0,
+   "e": 77.63,
+   "img": "c10",
+   "fx": "zoomin"
+  },
+  {
+   "s": 77.63,
+   "e": 85.14,
+   "img": "c11",
+   "fx": "impact"
+  },
+  {
+   "s": 85.14,
+   "e": 89.45,
+   "img": "c12"
+  },
+  {
+   "s": 89.45,
+   "e": 94.03,
+   "img": "d1",
+   "fx": "dark"
+  },
+  {
+   "s": 94.03,
+   "e": 97.44,
+   "img": "d2"
+  },
+  {
+   "s": 97.44,
+   "e": 100.34,
+   "img": "d3"
+  },
+  {
+   "s": 100.34,
+   "e": 103.24,
+   "img": "d4"
+  },
+  {
+   "s": 103.24,
+   "e": 107.69,
+   "img": "d5",
+   "fx": "shake"
+  },
+  {
+   "s": 107.69,
+   "e": 111.21,
+   "img": "d6"
+  },
+  {
+   "s": 111.21,
+   "e": 114.72,
+   "img": "d7"
+  },
+  {
+   "s": 114.72,
+   "e": 118.48,
+   "img": "d8"
+  },
+  {
+   "s": 118.48,
+   "e": 122.23,
+   "img": "d9"
+  },
+  {
+   "s": 122.23,
+   "e": 126.35,
+   "img": "d10"
+  },
+  {
+   "s": 126.35,
+   "e": 133.05,
+   "img": "x1"
+  },
+  {
+   "s": 133.05,
+   "e": 136.39,
+   "img": "x2"
+  },
+  {
+   "s": 136.39,
+   "e": 142.95,
+   "img": "x3"
+  },
+  {
+   "s": 142.95,
+   "e": 145.99,
+   "img": "x4",
+   "fx": "shake"
+  },
+  {
+   "s": 145.99,
+   "e": 149.85,
+   "img": "e1",
+   "fx": "flash"
+  },
+  {
+   "s": 149.85,
+   "e": 154.77,
+   "img": "e2"
+  },
+  {
+   "s": 154.77,
+   "e": 159.94,
+   "img": "e3"
+  },
+  {
+   "s": 159.94,
+   "e": 167.42,
+   "img": "e4"
+  },
+  {
+   "s": 167.42,
+   "e": 173.15,
+   "img": "y1"
+  },
+  {
+   "s": 173.15,
+   "e": 179.32,
+   "img": "y2"
+  },
+  {
+   "s": 179.32,
+   "e": 186.24,
+   "img": "y3"
+  },
+  {
+   "s": 186.24,
+   "e": 188.6,
+   "img": "f1",
+   "fx": "impact"
+  },
+  {
+   "s": 188.6,
+   "e": 192.32,
+   "img": "f2"
+  },
+  {
+   "s": 192.32,
+   "e": 196.05,
+   "img": "f3"
+  },
+  {
+   "s": 196.05,
+   "e": 202.92,
+   "img": "f4",
+   "fx": "dark"
+  },
+  {
+   "s": 202.92,
+   "e": 205.46,
+   "img": "f5",
+   "fx": "impact"
+  },
+  {
+   "s": 205.46,
+   "e": 208.78,
+   "img": "f6"
+  },
+  {
+   "s": 208.78,
+   "e": 212.09,
+   "img": "f7"
+  },
+  {
+   "s": 212.09,
+   "e": 215.97,
+   "img": "f8",
+   "fx": "shake"
+  },
+  {
+   "s": 215.97,
+   "e": 219.85,
+   "img": "f9"
+  },
+  {
+   "s": 219.85,
+   "e": 222.77,
+   "img": "f10",
+   "fx": "zoomin",
+   "title": "24 HORAS"
+  },
+  {
+   "s": 222.77,
+   "e": 225.29,
+   "img": "g1",
+   "fx": "flash"
+  },
+  {
+   "s": 225.29,
+   "e": 229.2,
+   "img": "g2"
+  },
+  {
+   "s": 229.2,
+   "e": 233.12,
+   "img": "g3"
+  },
+  {
+   "s": 233.12,
+   "e": 239.6,
+   "img": "g4",
+   "fx": "slow"
+  },
+  {
+   "s": 239.6,
+   "e": 244.59,
+   "img": "g5"
+  },
+  {
+   "s": 244.59,
+   "e": 249.59,
+   "img": "g6"
+  },
+  {
+   "s": 249.59,
+   "e": 251.4,
+   "img": "g7",
+   "fx": "impact"
+  },
+  {
+   "s": 251.4,
+   "e": 254.74,
+   "img": "g8",
+   "fx": "shake"
+  },
+  {
+   "s": 254.74,
+   "e": 258.08,
+   "img": "g9"
+  },
+  {
+   "s": 258.08,
+   "e": 259.46,
+   "img": "g10",
+   "fx": "impact"
+  },
+  {
+   "s": 259.46,
+   "e": 266.65,
+   "img": "g11",
+   "fx": "dark"
+  },
+  {
+   "s": 266.65,
+   "e": 272.83,
+   "img": "g12"
+  },
+  {
+   "s": 272.83,
+   "e": 277.03,
+   "img": "g13"
+  },
+  {
+   "s": 277.03,
+   "e": 279.55,
+   "img": "h6",
+   "fx": "zoomin"
+  },
+  {
+   "s": 279.55,
+   "e": 285.98,
+   "img": "h7",
+   "fx": "impact"
+  },
+  {
+   "s": 285.98,
+   "e": 287.53,
+   "img": "h8",
+   "fx": "flash"
+  },
+  {
+   "s": 287.53,
+   "e": 291.98,
+   "img": "h9"
+  },
+  {
+   "s": 291.98,
+   "e": 296.43,
+   "img": "h10"
+  },
+  {
+   "s": 296.43,
+   "e": 303.84,
+   "img": "h11"
+  },
+  {
+   "s": 303.84,
+   "e": 308.76,
+   "img": "h12",
+   "fx": "slow"
+  },
+  {
+   "s": 308.76,
+   "e": 311.81,
+   "img": "i1"
+  },
+  {
+   "s": 311.81,
+   "e": 314.85,
+   "img": "i2"
+  },
+  {
+   "s": 314.85,
+   "e": 323.33,
+   "img": "i3"
+  },
+  {
+   "s": 323.33,
+   "e": 328.38,
+   "img": "i4"
+  },
+  {
+   "s": 328.38,
+   "e": 331.95,
+   "img": "i5"
+  },
+  {
+   "s": 331.95,
+   "e": 338.59,
+   "img": "i6",
+   "fx": "zoomin"
+  },
+  {
+   "s": 338.59,
+   "e": 344.55,
+   "img": "i7",
+   "title": "SUSCRÍBETE"
+  }
+ ],
+ "captions": [
+  {
+   "t": "Todo mi colegio pensaba que yo era millonario.",
+   "s": 0.05,
+   "e": 2.29
+  },
+  {
+   "t": "Mi padre tenía un yate. Mi casa tenía doce baños. Y yo tenía chófer.",
+   "s": 2.84,
+   "e": 8.33
+  },
+  {
+   "t": "Mentira. Todo era mentira.",
+   "s": 8.63,
+   "e": 11.25
+  },
+  {
+   "t": "Y esta mentira casi destruye a la persona que más quiero.",
+   "s": 11.8,
+   "e": 15.01
+  },
+  {
+   "t": "Mi nombre es Leo. Vivo con mi madre en un piso de cuarenta metros, encima de una lavandería.",
+   "s": 15.56,
+   "e": 21.62
+  },
+  {
+   "t": "Mi madre limpia casas desde las seis de la mañana hasta las nueve de la noche.",
+   "s": 21.92,
+   "e": 25.96
+  },
+  {
+   "t": "Y todo lo hace por una sola cosa: que yo tenga una vida mejor que la suya.",
+   "s": 26.26,
+   "e": 30.29
+  },
+  {
+   "t": "Por eso, cuando me dieron una beca para el Colegio Altamira, el colegio más caro del país…",
+   "s": 30.59,
+   "e": 35.29
+  },
+  {
+   "t": "…mi madre lloró de felicidad durante tres días.",
+   "s": 35.59,
+   "e": 38.1
+  },
+  {
+   "t": "Lo que ninguno de los dos sabía… es que ese colegio iba a cambiarlo todo.",
+   "s": 38.4,
+   "e": 42.91
+  },
+  {
+   "t": "Primer día de clase. Llego en autobús.",
+   "s": 43.21,
+   "e": 46.19
+  },
+  {
+   "t": "Y en la puerta… Ferraris, Lamborghinis y un chico bajando de un helicóptero.",
+   "s": 46.49,
+   "e": 51.21
+  },
+  {
+   "t": "Yo llevaba unas zapatillas de doce euros. Y todo el mundo lo notó.",
+   "s": 51.51,
+   "e": 56.02
+  },
+  {
+   "t": "Entonces apareció él. Marco.",
+   "s": 56.32,
+   "e": 59.08
+  },
+  {
+   "t": "El chico más rico y más popular del colegio. Su familia es dueña de media ciudad.",
+   "s": 59.63,
+   "e": 64.95
+  },
+  {
+   "t": "Me miró los pies, se rió y me preguntó: «¿Y tú qué eres, el hijo de la señora de la limpieza?».",
+   "s": 65.25,
+   "e": 70.49
+  },
+  {
+   "t": "Todo el pasillo se quedó en silencio. Esperando mi respuesta.",
+   "s": 70.79,
+   "e": 74.75
+  },
+  {
+   "t": "Y entonces dije la frase que lo cambió todo.",
+   "s": 75.05,
+   "e": 77.38
+  },
+  {
+   "t": "«¿Estas? Son las zapatillas que uso para no ensuciar las buenas. Mi padre tiene una empresa de aviones.»",
+   "s": 77.68,
+   "e": 84.64
+  },
+  {
+   "t": "Silencio. Y luego… todo el mundo quería ser mi amigo.",
+   "s": 85.19,
+   "e": 89.2
+  },
+  {
+   "t": "El problema de una mentira es que necesita otra mentira para sobrevivir.",
+   "s": 89.5,
+   "e": 93.53
+  },
+  {
+   "t": "Al día siguiente, todos querían ver fotos de mi yate.",
+   "s": 94.08,
+   "e": 97.19
+  },
+  {
+   "t": "Así que fui al puerto, me colé en un muelle privado… y me hice fotos delante del yate de un desconocido.",
+   "s": 97.49,
+   "e": 102.99
+  },
+  {
+   "t": "Casi me pilla el guardia de seguridad. Salí corriendo como nunca en mi vida.",
+   "s": 103.29,
+   "e": 107.44
+  },
+  {
+   "t": "Luego necesitaba un reloj caro. Así que empeñé la única cosa de valor que tenía: la guitarra de mi abuelo.",
+   "s": 107.74,
+   "e": 114.47
+  },
+  {
+   "t": "Y el chófer… era Don Ramón, el taxista del barrio, que aceptó llevarme cada mañana a cambio de que le ayudara con su móvil.",
+   "s": 114.77,
+   "e": 121.98
+  },
+  {
+   "t": "Funcionaba. Por primera vez en mi vida, era alguien.",
+   "s": 122.28,
+   "e": 126.1
+  },
+  {
+   "t": "Pero entonces llegó el viaje de esquí. Una semana en los Alpes. Dos mil euros por persona.",
+   "s": 126.4,
+   "e": 132.8
+  },
+  {
+   "t": "Todo el mundo me miraba: «Leo, tú vienes, ¿no?».",
+   "s": 133.1,
+   "e": 136.14
+  },
+  {
+   "t": "Y yo, que no había visto la nieve en mi vida, dije: «Claro… pero ese fin de semana tengo un torneo de polo».",
+   "s": 136.44,
+   "e": 142.7
+  },
+  {
+   "t": "¿Polo? Yo ni sabía montar en bicicleta.",
+   "s": 143.0,
+   "e": 145.74
+  },
+  {
+   "t": "Pero había una persona que no se lo creía. Valeria.",
+   "s": 146.04,
+   "e": 149.6
+  },
+  {
+   "t": "Era la chica más lista del colegio. Y me miraba como si supiera algo.",
+   "s": 149.9,
+   "e": 154.52
+  },
+  {
+   "t": "Un día me dijo: «Leo, para ser millonario… comes muy rápido el almuerzo gratis».",
+   "s": 154.82,
+   "e": 159.69
+  },
+  {
+   "t": "Casi me atraganto. Pero ella solo se rió. Y desde ese día, empezamos a hablar todos los días.",
+   "s": 159.99,
+   "e": 167.17
+  },
+  {
+   "t": "Una tarde, en la azotea del colegio, me preguntó: «¿Y tú qué quieres ser de mayor, Leo?».",
+   "s": 167.47,
+   "e": 172.9
+  },
+  {
+   "t": "Y por primera vez en semanas, dije la verdad: «Quiero que mi madre no tenga que trabajar nunca más».",
+   "s": 173.2,
+   "e": 179.07
+  },
+  {
+   "t": "Ella me miró en silencio. Y sonrió. Como si eso fuera lo único verdadero que le había dicho.",
+   "s": 179.37,
+   "e": 185.99
+  },
+  {
+   "t": "Todo iba bien… hasta el viernes.",
+   "s": 186.29,
+   "e": 188.1
+  },
+  {
+   "t": "Marco me invitó a su fiesta de cumpleaños. En su mansión. Y todo el mundo llevaba regalos carísimos.",
+   "s": 188.65,
+   "e": 195.8
+  },
+  {
+   "t": "Yo no tenía dinero. Pero sí sabía dónde guardaba mi madre los ahorros… para pagar el alquiler.",
+   "s": 196.1,
+   "e": 202.42
+  },
+  {
+   "t": "Lo cogí. Todo.",
+   "s": 202.97,
+   "e": 204.96
+  },
+  {
+   "t": "Compré unos auriculares de cuatrocientos euros. Y en la fiesta, Marco ni siquiera abrió mi regalo.",
+   "s": 205.51,
+   "e": 211.84
+  },
+  {
+   "t": "Pero lo peor llegó cuando Marco dijo, delante de todos: «El sábado vamos todos a casa de Leo. Quiero ver esos doce baños».",
+   "s": 212.14,
+   "e": 219.6
+  },
+  {
+   "t": "Tenía veinticuatro horas para conseguir una mansión.",
+   "s": 219.9,
+   "e": 222.52
+  },
+  {
+   "t": "Y entonces tuve la peor idea de mi vida.",
+   "s": 222.82,
+   "e": 225.04
+  },
+  {
+   "t": "Mi madre limpiaba una mansión enorme. Los dueños estaban de vacaciones en Japón. Y ella tenía las llaves.",
+   "s": 225.34,
+   "e": 232.87
+  },
+  {
+   "t": "El sábado por la mañana, cogí las llaves. Y abrí la puerta de una casa que no era mía.",
+   "s": 233.17,
+   "e": 239.35
+  },
+  {
+   "t": "A las cinco llegaron todos. Marco, sus amigos… y Valeria.",
+   "s": 239.65,
+   "e": 244.34
+  },
+  {
+   "t": "«Bienvenidos a mi casa», dije. Y por un momento… me lo creí hasta yo.",
+   "s": 244.64,
+   "e": 249.34
+  },
+  {
+   "t": "Hasta que sonó la alarma.",
+   "s": 249.64,
+   "e": 250.9
+  },
+  {
+   "t": "No conocía el código. La policía estaba en camino. Y entonces, la puerta principal se abrió.",
+   "s": 251.45,
+   "e": 257.83
+  },
+  {
+   "t": "Era mi madre.",
+   "s": 258.13,
+   "e": 258.96
+  },
+  {
+   "t": "Con su uniforme de limpieza. Su cubo. Y la cara más triste que le he visto nunca.",
+   "s": 259.51,
+   "e": 266.15
+  },
+  {
+   "t": "Marco se empezó a reír. «¿Esta es tu casa? ¿O es la casa donde limpia tu madre?».",
+   "s": 266.7,
+   "e": 272.58
+  },
+  {
+   "t": "Todos sacaron el móvil. Y yo… no pude decir nada.",
+   "s": 272.88,
+   "e": 276.78
+  },
+  {
+   "t": "Pero entonces pasó algo que nadie esperaba.",
+   "s": 277.08,
+   "e": 279.3
+  },
+  {
+   "t": "Valeria se puso delante de todos y dijo: «Ya basta, Marco. Cuéntales tú tu secreto».",
+   "s": 279.6,
+   "e": 285.48
+  },
+  {
+   "t": "Marco se quedó blanco.",
+   "s": 286.03,
+   "e": 287.28
+  },
+  {
+   "t": "Resulta que el padre de Marco lo había perdido todo hacía meses. Vivían en un hotel. Y la mansión de la fiesta… estaba embargada.",
+   "s": 287.58,
+   "e": 296.18
+  },
+  {
+   "t": "Valeria lo sabía porque su padre trabaja en el banco. Y lo sabía de mí… porque desde el primer día vio mis zapatillas.",
+   "s": 296.48,
+   "e": 303.59
+  },
+  {
+   "t": "Al final, los dos mentirosos del colegio éramos… Marco y yo.",
+   "s": 303.89,
+   "e": 308.51
+  },
+  {
+   "t": "Esa noche le devolví a mi madre todo el dinero. Vendí el reloj y recuperé la guitarra del abuelo.",
+   "s": 308.81,
+   "e": 314.6
+  },
+  {
+   "t": "Le pedí perdón. Y ella solo me dijo una cosa: «Nunca tuviste que fingir. Yo ya estaba orgullosa de ti».",
+   "s": 314.9,
+   "e": 323.08
+  },
+  {
+   "t": "El lunes llegué al colegio en autobús. Con mis zapatillas de doce euros.",
+   "s": 323.38,
+   "e": 328.13
+  },
+  {
+   "t": "Y esta vez, quien me esperaba en la puerta… era Valeria.",
+   "s": 328.43,
+   "e": 331.7
+  },
+  {
+   "t": "Y Marco… bueno, lo que pasó con Marco en la graduación es otra historia. Y te la contaré muy pronto.",
+   "s": 332.0,
+   "e": 338.34
+  },
+  {
+   "t": "Si te ha gustado mi historia, suscríbete. Porque esto… me pasó a mí.",
+   "s": 338.64,
+   "e": 343.5
+  }
+ ],
+ "voice": "historia/audio/largo1-voz.wav",
+ "total": 344.55,
+ "sfx": [
+  {
+   "f": "wyr/sfx/beep.wav",
+   "at": 249.84,
+   "v": 0.6
+  },
+  {
+   "f": "wyr/sfx/beep.wav",
+   "at": 250.24,
+   "v": 0.6
+  },
+  {
+   "f": "wyr/sfx/beep.wav",
+   "at": 250.64,
+   "v": 0.6
+  }
+ ]
+}

@@ -18,7 +18,7 @@ W, H = (576, 1024) if vert else (1024, 576)
 def prompt_of(k):
     p = plan["images"][k]
     for c, d in plan.get("chars", {}).items(): p = p.replace("{" + c + "}", d)
-    return plan.get("style", "") + ", " + p
+    return p + ", " + plan.get("style", "")
 need = sorted({k for ln in plan["lines"] for k in ln.get("imgs", [])})
 for i, k in enumerate(need):
     f = os.path.join(IMG, k + ".jpg")
