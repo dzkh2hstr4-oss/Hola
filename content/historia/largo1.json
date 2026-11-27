@@ -6,470 +6,557 @@
    "e": 2.79,
    "img": "h1",
    "fx": "impact",
-   "title": "ME HICE PASAR POR MILLONARIO"
+   "title": "ME HICE PASAR POR MILLONARIO",
+   "vid": "historia/clips/largo1_0.mp4"
   },
   {
    "s": 2.79,
    "e": 5.68,
-   "img": "h2"
+   "img": "h2",
+   "vid": "historia/clips/largo1_1.mp4"
   },
   {
    "s": 5.68,
    "e": 8.58,
-   "img": "h3"
+   "img": "h3",
+   "vid": "historia/clips/largo1_2.mp4"
   },
   {
    "s": 8.58,
    "e": 11.75,
    "img": "h4",
-   "fx": "impact"
+   "fx": "impact",
+   "vid": "historia/clips/largo1_3.mp4"
   },
   {
    "s": 11.75,
    "e": 15.51,
    "img": "h5",
-   "fx": "dark"
+   "fx": "dark",
+   "vid": "historia/clips/largo1_4.mp4"
   },
   {
    "s": 15.51,
    "e": 18.76,
-   "img": "b1"
+   "img": "b1",
+   "vid": "historia/clips/largo1_5.mp4"
   },
   {
    "s": 18.76,
    "e": 22.0,
-   "img": "b2"
+   "img": "b2",
+   "vid": "historia/clips/largo1_6.mp4"
   },
   {
    "s": 22.0,
    "e": 26.43,
-   "img": "b3"
+   "img": "b3",
+   "vid": "historia/clips/largo1_7.mp4"
   },
   {
    "s": 26.43,
    "e": 30.85,
-   "img": "b4"
+   "img": "b4",
+   "vid": "historia/clips/largo1_8.mp4"
   },
   {
    "s": 30.85,
    "e": 35.85,
-   "img": "b5"
+   "img": "b5",
+   "vid": "historia/clips/largo1_9.mp4"
   },
   {
    "s": 35.85,
    "e": 38.72,
-   "img": "b6"
+   "img": "b6",
+   "vid": "historia/clips/largo1_10.mp4"
   },
   {
    "s": 38.72,
    "e": 43.53,
    "img": "b7",
-   "fx": "zoomin"
+   "fx": "zoomin",
+   "vid": "historia/clips/largo1_11.mp4"
   },
   {
    "s": 43.53,
    "e": 46.88,
    "img": "c1",
-   "fx": "flash"
+   "fx": "flash",
+   "vid": "historia/clips/largo1_12.mp4"
   },
   {
    "s": 46.88,
    "e": 49.39,
-   "img": "c2"
+   "img": "c2",
+   "vid": "historia/clips/largo1_13.mp4"
   },
   {
    "s": 49.39,
    "e": 51.9,
-   "img": "c3"
+   "img": "c3",
+   "vid": "historia/clips/largo1_14.mp4"
   },
   {
    "s": 51.9,
    "e": 54.36,
-   "img": "c4"
+   "img": "c4",
+   "vid": "historia/clips/largo1_15.mp4"
   },
   {
    "s": 54.36,
    "e": 56.82,
-   "img": "c5"
+   "img": "c5",
+   "vid": "historia/clips/largo1_16.mp4"
   },
   {
    "s": 56.82,
    "e": 60.13,
    "img": "c6",
-   "fx": "impact"
+   "fx": "impact",
+   "vid": "historia/clips/largo1_17.mp4"
   },
   {
    "s": 60.13,
    "e": 65.87,
-   "img": "c7"
+   "img": "c7",
+   "vid": "historia/clips/largo1_18.mp4"
   },
   {
    "s": 65.87,
    "e": 71.41,
-   "img": "c8"
+   "img": "c8",
+   "vid": "historia/clips/largo1_19.mp4"
   },
   {
    "s": 71.41,
    "e": 75.76,
    "img": "c9",
-   "fx": "slow"
+   "fx": "slow",
+   "vid": "historia/clips/largo1_20.mp4"
   },
   {
    "s": 75.76,
    "e": 78.44,
    "img": "c10",
-   "fx": "zoomin"
+   "fx": "zoomin",
+   "vid": "historia/clips/largo1_21.mp4"
   },
   {
    "s": 78.44,
    "e": 85.95,
    "img": "c11",
-   "fx": "impact"
+   "fx": "impact",
+   "vid": "historia/clips/largo1_22.mp4"
   },
   {
    "s": 85.95,
    "e": 90.34,
-   "img": "c12"
+   "img": "c12",
+   "vid": "historia/clips/largo1_23.mp4"
   },
   {
    "s": 90.34,
    "e": 94.92,
    "img": "d1",
-   "fx": "dark"
+   "fx": "dark",
+   "vid": "historia/clips/largo1_24.mp4"
   },
   {
    "s": 94.92,
    "e": 98.41,
-   "img": "d2"
+   "img": "d2",
+   "vid": "historia/clips/largo1_25.mp4"
   },
   {
    "s": 98.41,
    "e": 101.3,
-   "img": "d3"
+   "img": "d3",
+   "vid": "historia/clips/largo1_26.mp4"
   },
   {
    "s": 101.3,
    "e": 104.2,
-   "img": "d4"
+   "img": "d4",
+   "vid": "historia/clips/largo1_27.mp4"
   },
   {
    "s": 104.2,
    "e": 108.66,
    "img": "d5",
-   "fx": "shake"
+   "fx": "shake",
+   "vid": "historia/clips/largo1_28.mp4"
   },
   {
    "s": 108.66,
    "e": 112.25,
-   "img": "d6"
+   "img": "d6",
+   "vid": "historia/clips/largo1_29.mp4"
   },
   {
    "s": 112.25,
    "e": 115.84,
-   "img": "d7"
+   "img": "d7",
+   "vid": "historia/clips/largo1_30.mp4"
   },
   {
    "s": 115.84,
    "e": 119.67,
-   "img": "d8"
+   "img": "d8",
+   "vid": "historia/clips/largo1_31.mp4"
   },
   {
    "s": 119.67,
    "e": 123.5,
-   "img": "d9"
+   "img": "d9",
+   "vid": "historia/clips/largo1_32.mp4"
   },
   {
    "s": 123.5,
    "e": 127.71,
-   "img": "d10"
+   "img": "d10",
+   "vid": "historia/clips/largo1_33.mp4"
   },
   {
    "s": 127.71,
    "e": 134.55,
-   "img": "x1"
+   "img": "x1",
+   "vid": "historia/clips/largo1_34.mp4"
   },
   {
    "s": 134.55,
    "e": 137.96,
-   "img": "x2"
+   "img": "x2",
+   "vid": "historia/clips/largo1_35.mp4"
   },
   {
    "s": 137.96,
    "e": 144.52,
-   "img": "c11"
+   "img": "c11",
+   "vid": "historia/clips/largo1_36.mp4"
   },
   {
    "s": 144.52,
    "e": 147.56,
    "img": "x4",
-   "fx": "shake"
+   "fx": "shake",
+   "vid": "historia/clips/largo1_37.mp4"
   },
   {
    "s": 147.56,
    "e": 151.51,
    "img": "e1",
-   "fx": "flash"
+   "fx": "flash",
+   "vid": "historia/clips/largo1_38.mp4"
   },
   {
    "s": 151.51,
    "e": 156.53,
-   "img": "e2"
+   "img": "e2",
+   "vid": "historia/clips/largo1_39.mp4"
   },
   {
    "s": 156.53,
    "e": 161.7,
-   "img": "e3"
+   "img": "e3",
+   "vid": "historia/clips/largo1_40.mp4"
   },
   {
    "s": 161.7,
    "e": 169.33,
-   "img": "e4"
+   "img": "e4",
+   "vid": "historia/clips/largo1_41.mp4"
   },
   {
    "s": 169.33,
    "e": 175.17,
-   "img": "y1"
+   "img": "y1",
+   "vid": "historia/clips/largo1_42.mp4"
   },
   {
    "s": 175.17,
    "e": 181.34,
-   "img": "y2"
+   "img": "y2",
+   "vid": "historia/clips/largo1_43.mp4"
   },
   {
    "s": 181.34,
    "e": 188.42,
-   "img": "y3"
+   "img": "y3",
+   "vid": "historia/clips/largo1_44.mp4"
   },
   {
    "s": 188.42,
    "e": 190.81,
    "img": "f1",
-   "fx": "impact"
+   "fx": "impact",
+   "vid": "historia/clips/largo1_45.mp4"
   },
   {
    "s": 190.81,
    "e": 194.61,
-   "img": "f2"
+   "img": "f2",
+   "vid": "historia/clips/largo1_46.mp4"
   },
   {
    "s": 194.61,
    "e": 198.42,
-   "img": "f3"
+   "img": "f3",
+   "vid": "historia/clips/largo1_47.mp4"
   },
   {
    "s": 198.42,
    "e": 205.3,
    "img": "f4",
-   "fx": "dark"
+   "fx": "dark",
+   "vid": "historia/clips/largo1_48.mp4"
   },
   {
    "s": 205.3,
    "e": 207.83,
    "img": "f5",
-   "fx": "impact"
+   "fx": "impact",
+   "vid": "historia/clips/largo1_49.mp4"
   },
   {
    "s": 207.83,
    "e": 211.21,
-   "img": "f6"
+   "img": "f6",
+   "vid": "historia/clips/largo1_50.mp4"
   },
   {
    "s": 211.21,
    "e": 214.6,
-   "img": "f7"
+   "img": "f7",
+   "vid": "historia/clips/largo1_51.mp4"
   },
   {
    "s": 214.6,
    "e": 218.48,
    "img": "f8",
-   "fx": "shake"
+   "fx": "shake",
+   "vid": "historia/clips/largo1_52.mp4"
   },
   {
    "s": 218.48,
    "e": 222.35,
-   "img": "f9"
+   "img": "f9",
+   "vid": "historia/clips/largo1_53.mp4"
   },
   {
    "s": 222.35,
    "e": 225.33,
    "img": "f10",
    "fx": "zoomin",
-   "title": "24 HORAS"
+   "title": "24 HORAS",
+   "vid": "historia/clips/largo1_54.mp4"
   },
   {
    "s": 225.33,
    "e": 233.4,
    "img": "z1",
-   "fx": "dark"
+   "fx": "dark",
+   "vid": "historia/clips/largo1_55.mp4"
   },
   {
    "s": 233.4,
    "e": 241.16,
-   "img": "d1"
+   "img": "d1",
+   "vid": "historia/clips/largo1_56.mp4"
   },
   {
    "s": 241.16,
    "e": 248.49,
-   "img": "z3"
+   "img": "z3",
+   "vid": "historia/clips/largo1_57.mp4"
   },
   {
    "s": 248.49,
    "e": 251.06,
    "img": "g1",
-   "fx": "flash"
+   "fx": "flash",
+   "vid": "historia/clips/largo1_58.mp4"
   },
   {
    "s": 251.06,
    "e": 255.05,
-   "img": "g2"
+   "img": "g2",
+   "vid": "historia/clips/largo1_59.mp4"
   },
   {
    "s": 255.05,
    "e": 259.05,
-   "img": "g3"
+   "img": "g3",
+   "vid": "historia/clips/largo1_60.mp4"
   },
   {
    "s": 259.05,
    "e": 265.54,
    "img": "g9",
-   "fx": "slow"
+   "fx": "slow",
+   "vid": "historia/clips/largo1_61.mp4"
   },
   {
    "s": 265.54,
    "e": 270.64,
-   "img": "g5"
+   "img": "g5",
+   "vid": "historia/clips/largo1_62.mp4"
   },
   {
    "s": 270.64,
    "e": 275.64,
-   "img": "g6"
+   "img": "g6",
+   "vid": "historia/clips/largo1_63.mp4"
   },
   {
    "s": 275.64,
    "e": 277.44,
    "img": "g7",
-   "fx": "impact"
+   "fx": "impact",
+   "vid": "historia/clips/largo1_64.mp4"
   },
   {
    "s": 277.44,
    "e": 280.78,
    "img": "g8",
-   "fx": "shake"
+   "fx": "shake",
+   "vid": "historia/clips/largo1_65.mp4"
   },
   {
    "s": 280.78,
    "e": 284.12,
-   "img": "g9"
+   "img": "g9",
+   "vid": "historia/clips/largo1_66.mp4"
   },
   {
    "s": 284.12,
    "e": 285.5,
    "img": "g10",
-   "fx": "impact"
+   "fx": "impact",
+   "vid": "historia/clips/largo1_67.mp4"
   },
   {
    "s": 285.5,
    "e": 292.69,
    "img": "g11",
-   "fx": "dark"
+   "fx": "dark",
+   "vid": "historia/clips/largo1_68.mp4"
   },
   {
    "s": 292.69,
    "e": 298.88,
-   "img": "g12"
+   "img": "g12",
+   "vid": "historia/clips/largo1_69.mp4"
   },
   {
    "s": 298.88,
    "e": 303.16,
-   "img": "g13"
+   "img": "g13",
+   "vid": "historia/clips/largo1_70.mp4"
   },
   {
    "s": 303.16,
    "e": 310.25,
    "img": "z4",
-   "fx": "dark"
+   "fx": "dark",
+   "vid": "historia/clips/largo1_71.mp4"
   },
   {
    "s": 310.25,
    "e": 317.51,
    "img": "z5",
-   "fx": "slow"
+   "fx": "slow",
+   "vid": "historia/clips/largo1_72.mp4"
   },
   {
    "s": 317.51,
    "e": 320.07,
    "img": "h6",
-   "fx": "zoomin"
+   "fx": "zoomin",
+   "vid": "historia/clips/largo1_73.mp4"
   },
   {
    "s": 320.07,
    "e": 326.64,
    "img": "h7",
-   "fx": "impact"
+   "fx": "impact",
+   "vid": "historia/clips/largo1_74.mp4"
   },
   {
    "s": 326.64,
    "e": 328.22,
    "img": "h8",
-   "fx": "flash"
+   "fx": "flash",
+   "vid": "historia/clips/largo1_75.mp4"
   },
   {
    "s": 328.22,
    "e": 332.67,
-   "img": "h9"
+   "img": "h9",
+   "vid": "historia/clips/largo1_76.mp4"
   },
   {
    "s": 332.67,
    "e": 337.11,
-   "img": "h10"
+   "img": "h10",
+   "vid": "historia/clips/largo1_77.mp4"
   },
   {
    "s": 337.11,
    "e": 344.69,
-   "img": "h11"
+   "img": "h11",
+   "vid": "historia/clips/largo1_78.mp4"
   },
   {
    "s": 344.69,
    "e": 349.72,
    "img": "h12",
-   "fx": "slow"
+   "fx": "slow",
+   "vid": "historia/clips/largo1_79.mp4"
   },
   {
    "s": 349.72,
    "e": 352.83,
-   "img": "i1"
+   "img": "i1",
+   "vid": "historia/clips/largo1_80.mp4"
   },
   {
    "s": 352.83,
    "e": 355.93,
-   "img": "d6"
+   "img": "d6",
+   "vid": "historia/clips/largo1_81.mp4"
   },
   {
    "s": 355.93,
    "e": 364.41,
-   "img": "i3"
+   "img": "i3",
+   "vid": "historia/clips/largo1_82.mp4"
   },
   {
    "s": 364.41,
    "e": 369.58,
-   "img": "i4"
+   "img": "i4",
+   "vid": "historia/clips/largo1_83.mp4"
   },
   {
    "s": 369.58,
    "e": 373.22,
-   "img": "h11"
+   "img": "h11",
+   "vid": "historia/clips/largo1_84.mp4"
   },
   {
    "s": 373.22,
    "e": 379.85,
    "img": "i6",
-   "fx": "zoomin"
+   "fx": "zoomin",
+   "vid": "historia/clips/largo1_85.mp4"
   },
   {
    "s": 379.85,
    "e": 385.92,
    "img": "b1",
-   "title": "SUSCRÍBETE"
+   "title": "SUSCRÍBETE",
+   "vid": "historia/clips/largo1_86.mp4"
   }
  ],
  "captions": [

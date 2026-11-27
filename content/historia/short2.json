@@ -6,51 +6,60 @@
    "e": 4.45,
    "img": "s2a",
    "fx": "impact",
-   "title": "EN VENTA: 3€"
+   "title": "EN VENTA: 3€",
+   "vid": "historia/clips/short2_0.mp4"
   },
   {
    "s": 4.45,
    "e": 11.28,
-   "img": "s2b"
+   "img": "s2b",
+   "vid": "historia/clips/short2_1.mp4"
   },
   {
    "s": 11.28,
    "e": 17.01,
    "img": "s2c",
-   "fx": "shake"
+   "fx": "shake",
+   "vid": "historia/clips/short2_2.mp4"
   },
   {
    "s": 17.01,
    "e": 19.26,
    "img": "s2d",
-   "fx": "zoomin"
+   "fx": "zoomin",
+   "vid": "historia/clips/short2_3.mp4"
   },
   {
    "s": 19.26,
    "e": 23.14,
    "img": "s2e",
-   "fx": "impact"
+   "fx": "impact",
+   "vid": "historia/clips/short2_4.mp4"
   },
   {
    "s": 23.14,
    "e": 28.07,
-   "img": "s2f"
+   "img": "s2f",
+   "vid": "historia/clips/short2_5.mp4"
   },
   {
    "s": 28.07,
    "e": 32.09,
-   "img": "s2g"
+   "img": "s2g",
+   "vid": "historia/clips/short2_6.mp4"
   },
   {
    "s": 32.09,
    "e": 34.63,
-   "img": "s2h"
+   "img": "s2h",
+   "vid": "historia/clips/short2_7.mp4"
   },
   {
    "s": 34.63,
    "e": 38.49,
    "img": "s2i",
-   "title": "¿Y TU HERMANO?"
+   "title": "¿Y TU HERMANO?",
+   "vid": "historia/clips/short2_8.mp4"
   }
  ],
  "captions": [

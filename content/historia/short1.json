@@ -6,51 +6,60 @@
    "e": 5.15,
    "img": "s1a",
    "fx": "impact",
-   "title": "5.000 EUROS"
+   "title": "5.000 EUROS",
+   "vid": "historia/clips/short1_0.mp4"
   },
   {
    "s": 5.15,
    "e": 10.04,
-   "img": "s1b"
+   "img": "s1b",
+   "vid": "historia/clips/short1_1.mp4"
   },
   {
    "s": 10.04,
    "e": 13.37,
-   "img": "s1c"
+   "img": "s1c",
+   "vid": "historia/clips/short1_2.mp4"
   },
   {
    "s": 13.37,
    "e": 16.43,
    "img": "s1d",
-   "fx": "slow"
+   "fx": "slow",
+   "vid": "historia/clips/short1_3.mp4"
   },
   {
    "s": 16.43,
    "e": 21.07,
    "img": "s1e",
-   "fx": "dark"
+   "fx": "dark",
+   "vid": "historia/clips/short1_4.mp4"
   },
   {
    "s": 21.07,
    "e": 23.75,
-   "img": "s1f"
+   "img": "s1f",
+   "vid": "historia/clips/short1_5.mp4"
   },
   {
    "s": 23.75,
    "e": 29.34,
    "img": "s1g",
-   "fx": "impact"
+   "fx": "impact",
+   "vid": "historia/clips/short1_6.mp4"
   },
   {
    "s": 29.34,
    "e": 34.03,
-   "img": "s1h"
+   "img": "s1h",
+   "vid": "historia/clips/short1_7.mp4"
   },
   {
    "s": 34.03,
    "e": 37.47,
    "img": "s1i",
-   "title": "¿LA DEVOLVERÍAS?"
+   "title": "¿LA DEVOLVERÍAS?",
+   "vid": "historia/clips/short1_8.mp4"
   }
  ],
  "captions": [

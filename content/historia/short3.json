@@ -6,52 +6,61 @@
    "e": 4.67,
    "img": "s3a",
    "fx": "impact",
-   "title": "ME QUEDÉ ENCERRADO"
+   "title": "ME QUEDÉ ENCERRADO",
+   "vid": "historia/clips/short3_0.mp4"
   },
   {
    "s": 4.67,
    "e": 10.56,
    "img": "s3b",
-   "fx": "dark"
+   "fx": "dark",
+   "vid": "historia/clips/short3_1.mp4"
   },
   {
    "s": 10.56,
    "e": 13.13,
    "img": "s3c",
-   "fx": "zoomin"
+   "fx": "zoomin",
+   "vid": "historia/clips/short3_2.mp4"
   },
   {
    "s": 13.13,
    "e": 18.81,
-   "img": "s3d"
+   "img": "s3d",
+   "vid": "historia/clips/short3_3.mp4"
   },
   {
    "s": 18.81,
    "e": 20.2,
    "img": "s3e",
-   "fx": "shake"
+   "fx": "shake",
+   "vid": "historia/clips/short3_4.mp4"
   },
   {
    "s": 20.2,
    "e": 25.3,
    "img": "s3f",
-   "fx": "flash"
+   "fx": "flash",
+   "vid": "historia/clips/short3_5.mp4"
   },
   {
    "s": 25.3,
    "e": 29.98,
-   "img": "s3g"
+   "img": "s3g",
+   "vid": "historia/clips/short3_6.mp4"
   },
   {
    "s": 29.98,
    "e": 35.49,
-   "img": "s3h"
+   "img": "s3h",
+   "vid": "historia/clips/short3_7.mp4"
   },
   {
    "s": 35.49,
    "e": 40.21,
    "img": "s3i",
-   "title": "¿Y A TI?"
+   "title": "¿Y A TI?",
+   "vid": "historia/clips/short3_8.mp4"
   }
  ],
  "captions": [
