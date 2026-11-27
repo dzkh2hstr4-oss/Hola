@@ -1,0 +1,122 @@
+{
+ "rate": "+10%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "music": "track:danger_storm@0",
+ "lines": [
+  {
+   "t": "Lucía Caminos sabe pelear desde que aprendió a andar.",
+   "imgs": [
+    "lucia_caminos_01"
+   ],
+   "title": [
+    [
+     "SABE",
+     "*PELEAR*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "hook": true
+  },
+  {
+   "t": "Según Rockstar, su padre le enseñó a pelear siendo una niña.",
+   "imgs": [
+    "lucia_caminos_03"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Y desde entonces, la vida no ha parado de golpearla.",
+   "imgs": [
+    "lucia_caminos_01"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Pelear por su familia fue lo que la llevó a la cárcel de Leonida.",
+   "imgs": [
+    "lucia_caminos_06"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Y en el gameplay real se ve entrenando duro, levantando pesas.",
+   "imgs": [
+    "v:a_gym"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0,
+   "speed": 0.5
+  },
+  {
+   "t": "Ahora está fuera… y no piensa volver a perder.",
+   "imgs": [
+    "lucia_caminos_03"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "¿Quién gana en una pelea: Lucía o Jason? ¡Comenta!",
+   "imgs": [
+    "lucia_caminos_01"
+   ],
+   "title": [
+    [
+     "¿QUIÉN",
+     "*GANA*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.6,
+     "v": 0.45
+    }
+   ],
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

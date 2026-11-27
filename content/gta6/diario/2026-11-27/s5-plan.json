@@ -1,0 +1,133 @@
+{
+ "rate": "+12%",
+ "pitch": "+4Hz",
+ "mic": true,
+ "music": "track:hitman@1",
+ "lines": [
+  {
+   "t": "Las escenas más locas de GTA 6… en treinta segundos.",
+   "imgs": [
+    "v:d_final"
+   ],
+   "title": [
+    [
+     "LAS",
+     "MÁS"
+    ],
+    [
+     "*LOCAS*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "clipFrom": 20,
+   "hook": true
+  },
+  {
+   "t": "Una piscina en lo alto de un rascacielos.",
+   "imgs": [
+    "v:d_final"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 4
+  },
+  {
+   "t": "Un bar rojo lleno de luces y gente rara.",
+   "imgs": [
+    "v:d_final"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 8
+  },
+  {
+   "t": "Una fiesta en un pasillo rosa, con todo el mundo bailando.",
+   "imgs": [
+    "v:d_final"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 12
+  },
+  {
+   "t": "Un tipo gritando como loco en mitad de la fiesta.",
+   "imgs": [
+    "v:d_final"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 24
+  },
+  {
+   "t": "Y una pareja en barca, tan tranquila, en mitad del mar.",
+   "imgs": [
+    "v:d_final"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 28
+  },
+  {
+   "t": "¿Cuál te parece la más loca? ¡Comenta!",
+   "imgs": [
+    "v:d_final"
+   ],
+   "title": [
+    [
+     "¿LA",
+     "MÁS"
+    ],
+    [
+     "*LOCA*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.4,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 4,
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

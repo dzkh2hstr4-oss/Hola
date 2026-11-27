@@ -1,0 +1,114 @@
+{
+ "rate": "+10%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "music": "track:show_your_moves@15",
+ "lines": [
+  {
+   "t": "Este personaje de GTA 6 controla la música de Vice City.",
+   "imgs": [
+    "drequan_priest_04"
+   ],
+   "title": [
+    [
+     "EL",
+     "JEFE",
+     "DE",
+     "LA"
+    ],
+    [
+     "*MÚSICA*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "hook": true
+  },
+  {
+   "t": "Se llama Dre'Quan Priest. Según Rockstar, siempre fue más buscavidas que gánster.",
+   "imgs": [
+    "drequan_priest_01"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Ahora dirige su propio sello discográfico en Vice City.",
+   "imgs": [
+    "drequan_priest_04"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Fiestas en la piscina, neones y gente famosa a su alrededor.",
+   "imgs": [
+    "drequan_priest_02"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Y tiene fichado a un dúo de raperas que podría hacerle millonario.",
+   "imgs": [
+    "real_dimez_04"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "¿Crees que será amigo o enemigo de Jason y Lucía? ¡Comenta!",
+   "imgs": [
+    "drequan_priest_02"
+   ],
+   "title": [
+    [
+     "¿AMIGO",
+     "O"
+    ],
+    [
+     "*ENEMIGO*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.8,
+     "v": 0.45
+    }
+   ],
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "rate": "+12%",
+ "pitch": "+4Hz",
+ "mic": true,
+ "music": "track:movement_proposition@2",
+ "lines": [
+  {
+   "t": "Ese momento incómodo en el ascensor… pero en GTA 6.",
+   "imgs": [
+    "v:d_ascensor2"
+   ],
+   "title": [
+    [
+     "MOMENTO"
+    ],
+    [
+     "*INCÓMODO*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "clipFrom": 0,
+   "hook": true
+  },
+  {
+   "t": "Jason entra con su traje. Ella, con gafas de sol, ni le mira.",
+   "imgs": [
+    "v:d_ascensor2"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 2
+  },
+  {
+   "t": "Silencio. Nadie dice nada. Solo el ruido del ascensor.",
+   "imgs": [
+    "v:d_ascensor2"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 5
+  },
+  {
+   "t": "Ella saca el móvil. Él mira al techo.",
+   "imgs": [
+    "v:d_ascensor2"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 7.5
+  },
+  {
+   "t": "Y cuando por fin se abren las puertas… sale como si nada a la calle.",
+   "imgs": [
+    "v:d_ascensor2"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 11
+  },
+  {
+   "t": "Hasta los ascensores de GTA 6 tienen su historia.",
+   "imgs": [
+    "v:d_ascensor2"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 13
+  },
+  {
+   "t": "¿Tú también miras al techo en el ascensor? ¡Comenta!",
+   "imgs": [
+    "v:d_ascensor2"
+   ],
+   "title": [
+    [
+     "¿TÚ",
+     "TAMBIÉN?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.6,
+     "v": 0.45
+    }
+   ],
+   "clipFrom": 3,
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

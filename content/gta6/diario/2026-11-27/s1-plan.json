@@ -1,0 +1,126 @@
+{
+ "rate": "+10%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "music": "track:rocket@0",
+ "lines": [
+  {
+   "t": "¿Quién es de verdad Jason Duval, el protagonista de GTA 6?",
+   "imgs": [
+    "jason_duval_02"
+   ],
+   "title": [
+    [
+     "¿QUIÉN",
+     "ES"
+    ],
+    [
+     "*JASON*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "hook": true
+  },
+  {
+   "t": "Según Rockstar, creció rodeado de estafadores y delincuentes.",
+   "imgs": [
+    "jason_duval_14"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Pasó por el ejército para intentar dejar atrás su adolescencia complicada.",
+   "imgs": [
+    "jason_duval_05"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Pero acabó en los cayos de Leonida, haciendo lo que mejor sabe: trabajar para traficantes de la zona.",
+   "imgs": [
+    "jason_duval_03"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Él solo quiere una vida tranquila… pero las cosas no paran de complicarse.",
+   "imgs": [
+    "jason_duval_11"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Y entonces conoce a Lucía.",
+   "imgs": [
+    "jason_duval_16"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "¿Te cae bien Jason o prefieres a Lucía? ¡Comenta!",
+   "imgs": [
+    "jason_duval_02"
+   ],
+   "title": [
+    [
+     "¿JASON",
+     "O"
+    ],
+    [
+     "*LUCÍA*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.6,
+     "v": 0.45
+    }
+   ],
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

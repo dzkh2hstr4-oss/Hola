@@ -29,6 +29,11 @@
 | 26-nov-2026 | Laboratorio / sitio prohibido | Jason entra donde no debería | d_redada, d_bolsa |
 | 26-nov-2026 | Leonida en 30 s | Leonida en 30 segundos | img aerial, vice_city_15, grassrivers_07, leonida_keys_07, port_gellhorn_07 |
 | 26-nov-2026 | Reunión de negocios (mafia) | Así se negocia | d_mesa2, d_ascensor3 |
+| 27-nov-2026 | Jason Duval (pasado según Rockstar) | ¿Quién es de verdad Jason? | img jason_duval_* |
+| 27-nov-2026 | Lucía sabe pelear (padre, cárcel, gym) | Sabe pelear desde niña | img lucia_caminos_01/03/06, a_gym |
+| 27-nov-2026 | Dre'Quan Priest (sello musical) | Controla la música de Vice City | img drequan_priest_* |
+| 27-nov-2026 | Momento incómodo en el ascensor | Ese momento incómodo | d_ascensor2 |
+| 27-nov-2026 | Escenas más locas | Las más locas en 30 s | d_final |
 
 ## Vídeos largos
 | Fecha | Tema | Formato |
