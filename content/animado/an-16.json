@@ -9,7 +9,7 @@
   "musica": "entrada/musica/Crypto.mp3",
   "musicaDesde": 0,
   "publicar": "2026-11-27T12:00",
-  "status": "creado",
+  "status": "no_publicado",
   "escenas": [
     {
       "tipo": "noticia",
@@ -50,5 +50,6 @@
       "pitch": "+0Hz"
     }
   ],
-  "caption": "🚨 ÚLTIMA HORA: El atardecer ya no depende del sol\n\nLámpara atardecer: luz cálida de atardecer en tu pared, por USB y sin obras. 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Crypto» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA"
+  "caption": "🚨 ÚLTIMA HORA: El atardecer ya no depende del sol\n\nLámpara atardecer: luz cálida de atardecer en tu pared, por USB y sin obras. 29,95 € (antes 49,95 €). Link en la bio 🔗\n\n🎄 Pack Navidad: llévate los 2 productos y ahorra un 10 %. Pide antes del 2/12 y llega para Navidad · Envío gratis\n\n#lamparaatardecer #sunsetlamp #decoracionhabitacion #roomdecor #aesthetic #regalosnavidad #lumora\n\n🎵 «Crypto» – Kevin MacLeod (incompetech.com), CC BY 4.0 · 🤖 Voz creada con IA",
+  "nota": "la publicación se quedó esperando aprobación y no llegó a salir"
 }
