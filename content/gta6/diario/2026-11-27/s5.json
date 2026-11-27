@@ -38,7 +38,7 @@
      "v": 0.28
     }
    ],
-   "clipFrom": 4,
+   "clipFrom": 6,
    "s": 3.12,
    "e": 5.21,
    "full": true
@@ -55,7 +55,7 @@
      "v": 0.28
     }
    ],
-   "clipFrom": 8,
+   "clipFrom": 10,
    "s": 5.21,
    "e": 7.3,
    "full": true
@@ -72,7 +72,7 @@
      "v": 0.28
     }
    ],
-   "clipFrom": 12,
+   "clipFrom": 14,
    "s": 7.3,
    "e": 10.13,
    "full": true
@@ -89,10 +89,11 @@
      "v": 0.28
     }
    ],
-   "clipFrom": 24,
+   "clipFrom": 25.6,
    "s": 10.13,
    "e": 12.46,
-   "full": true
+   "full": true,
+   "speed": 0.4
   },
   {
    "imgs": [
@@ -106,10 +107,11 @@
      "v": 0.28
     }
    ],
-   "clipFrom": 28,
+   "clipFrom": 30,
    "s": 12.46,
    "e": 15.52,
-   "full": true
+   "full": true,
+   "speed": 0.8
   },
   {
    "imgs": [
@@ -131,7 +133,7 @@
      "v": 0.45
     }
    ],
-   "clipFrom": 4,
+   "clipFrom": 6,
    "emojis": [
     "👇"
    ],
