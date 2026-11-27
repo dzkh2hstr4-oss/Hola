@@ -1,5 +1,5 @@
 import React from "react";
-import { AbsoluteFill, Audio, Easing, Img, interpolate, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, Audio, Easing, Img, interpolate, OffthreadVideo, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { loadFont } from "@remotion/fonts";
 
 loadFont({ family: "Montserrat", url: staticFile("fonts/montserrat-900.woff2"), weight: "900" });
@@ -8,7 +8,7 @@ loadFont({ family: "Anton", url: staticFile("fonts/anton.woff2") });
 export const SFPS = 30;
 const sec = (s: number) => Math.round(s * SFPS);
 
-export type SScene = { s: number; e: number; img: string; fx?: "impact" | "flash" | "shake" | "slow" | "zoomin" | "dark"; move?: number; title?: string };
+export type SScene = { s: number; e: number; img: string; vid?: string; fx?: "impact" | "flash" | "shake" | "slow" | "zoomin" | "dark"; move?: number; title?: string };
 export type SCaption = { t: string; s: number; e: number };
 export type StoryProps = { vertical: boolean; scenes: SScene[]; captions: SCaption[]; voice: string; total: number; sfx?: { f: string; at: number; v?: number }[] };
 
@@ -48,7 +48,11 @@ const SceneView: React.FC<{ sc: SScene; idx: number }> = ({ sc, idx }) => {
   const ts = spring({ frame: f - 3, fps: SFPS, config: { damping: 10, stiffness: 170 } });
   return (
     <AbsoluteFill style={{ overflow: "hidden", opacity: fade }}>
-      <Img src={staticFile(`historia/img/${sc.img}.jpg`)} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `translate(${x}% , ${y}%) translate(${shx}px, ${shy}px) scale(${sc0 * punch})`, filter: sc.fx === "dark" ? "brightness(0.55) saturate(0.8)" : "saturate(1.08) contrast(1.04)" }} />
+      {sc.vid ? (
+        <OffthreadVideo src={staticFile(sc.vid)} muted style={{ width: "100%", height: "100%", objectFit: "cover", transform: `translate(${shx}px, ${shy}px) scale(${punch * (sc.fx === "zoomin" ? 1 + 0.25 * Easing.in(Easing.cubic)(p) : 1)})`, filter: sc.fx === "dark" ? "brightness(0.55) saturate(0.8)" : "saturate(1.08) contrast(1.04)" }} />
+      ) : (
+        <Img src={staticFile(`historia/img/${sc.img}.jpg`)} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `translate(${x}% , ${y}%) translate(${shx}px, ${shy}px) scale(${sc0 * punch})`, filter: sc.fx === "dark" ? "brightness(0.55) saturate(0.8)" : "saturate(1.08) contrast(1.04)" }} />
+      )}
       <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, rgba(0,0,0,0) 55%, rgba(0,0,0,0.45) 100%)" }} />
       {flash > 0 ? <AbsoluteFill style={{ background: "white", opacity: flash }} /> : null}
       {sc.title ? (
