@@ -1,0 +1,125 @@
+{
+ "rate": "+11%",
+ "pitch": "+4Hz",
+ "mic": true,
+ "music": "track:galactic_rap@0",
+ "lines": [
+  {
+   "t": "Todos tenemos un amigo así. En GTA 6 se llama Cal.",
+   "imgs": [
+    "cal_hampton_01"
+   ],
+   "title": [
+    [
+     "TU"
+    ],
+    [
+     "*AMIGO*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "hook": true
+  },
+  {
+   "t": "Cal Hampton es el amigo de Jason, y también trabaja para Brian.",
+   "imgs": [
+    "cal_hampton_01"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Según Rockstar, donde más seguro se siente es en casa.",
+   "imgs": [
+    "leonida_keys_07"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Con unas cervezas… espiando las comunicaciones de la Guardia Costera.",
+   "imgs": [
+    "cal_hampton_01"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Y con unas cuantas pestañas privadas abiertas en el navegador.",
+   "imgs": [
+    "cal_hampton_01"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Desconfía de todo y de todos. Muchos fans dicen que es el nuevo Lester.",
+   "imgs": [
+    "leonida_keys_07"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "¿Tienes un amigo como Cal? Etiquétale. 👇",
+   "imgs": [
+    "cal_hampton_01"
+   ],
+   "title": [
+    [
+     "¿TIENES",
+     "UN"
+    ],
+    [
+     "*CAL*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.6,
+     "v": 0.45
+    }
+   ],
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

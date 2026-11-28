@@ -1,0 +1,125 @@
+{
+ "rate": "+10%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "music": "track:cut_and_run@0",
+ "lines": [
+  {
+   "t": "Este señor le da a Jason una casa gratis… pero nada es gratis.",
+   "imgs": [
+    "brian_heder_01"
+   ],
+   "title": [
+    [
+     "CASA"
+    ],
+    [
+     "*GRATIS*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "hook": true
+  },
+  {
+   "t": "Es Brian Heder, un traficante de la vieja escuela de los Cayos de Leonida.",
+   "imgs": [
+    "brian_heder_02"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Según Rockstar, deja que Jason viva sin pagar alquiler en una de sus casas.",
+   "imgs": [
+    "brian_heder_03"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "A cambio, Jason le ayuda a cobrar a la gente de la zona… a la fuerza.",
+   "imgs": [
+    "brian_heder_04"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Y de vez en cuando, tiene que pasarse a tomar la sangría de Lori, su tercera esposa.",
+   "imgs": [
+    "brian_heder_01"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Parece el tío simpático de la familia. Pero es él quien manda en los Cayos.",
+   "imgs": [
+    "brian_heder_02"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "¿Aceptarías el trato de Brian? ¡Comenta!",
+   "imgs": [
+    "brian_heder_03"
+   ],
+   "title": [
+    [
+     "¿ACEPTAS",
+     "EL"
+    ],
+    [
+     "*TRATO*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.6,
+     "v": 0.45
+    }
+   ],
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,570 @@
+{
+ "theme": "news",
+ "voice": "es-ES-AlvaroNeural",
+ "rate": "+6%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "clipVolume": 0,
+ "brand": "GTA VI · VIDA REAL",
+ "lines": [
+  {
+   "t": "¿Cuánto dinero necesitarías para vivir como Jason y Lucía… pero en la vida real? Casa en Miami, deportivo, lancha, jet privado, fiestas… Lo he calculado todo con precios reales.",
+   "kind": "intro",
+   "clips": [
+    "d_jet",
+    "img:ue_cheetah",
+    "a_club",
+    "img:ue_squalo"
+   ],
+   "label": "GTA 6 · VIDA REAL",
+   "title": "¿CUÁNTO CUESTA SER DE GTA 6?",
+   "rate": "+9%",
+   "pitch": "+4Hz",
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.7
+    },
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 2.2,
+     "v": 0.4
+    }
+   ],
+   "mus": "track:hitman@1"
+  },
+  {
+   "t": "Y al final te digo la cifra total… y te aseguro que no te la esperas. Quédate hasta el final.",
+   "kind": "panel",
+   "clips": [
+    "img:skyline_dusk"
+   ],
+   "label": "AL FINAL",
+   "title": "LA CIFRA TOTAL",
+   "sub": "Spoiler: no te va a llegar el sueldo"
+  },
+  {
+   "t": "Las reglas son simples: Vice City es Miami. Así que uso precios reales de Miami y de Florida, de dos mil veinticinco y dos mil veintiséis, sacados de webs de alquiler, de subastas y de empresas de vuelos privados.",
+   "kind": "list",
+   "clips": [
+    "img:vice_city_15"
+   ],
+   "label": "LAS REGLAS",
+   "title": "PRECIOS REALES",
+   "items": [
+    "Vice City = Miami",
+    "Precios 2025–2026",
+    "En dólares"
+   ]
+  },
+  {
+   "t": "Todo va en dólares, como en el juego. Y redondeo, que esto no es una clase de matemáticas. Empezamos.",
+   "kind": "chapter",
+   "clips": [
+    "d_torre"
+   ],
+   "label": "EMPEZAMOS",
+   "title": "LA CUENTA"
+  },
+  {
+   "t": "Lo primero: un sitio donde vivir.",
+   "kind": "chapter",
+   "clips": [
+    "d_casa"
+   ],
+   "label": "GASTO #1",
+   "title": "LA CASA",
+   "mus": "track:i_can_feel_it_coming@0"
+  },
+  {
+   "t": "En el gameplay vemos la casa de Jason y Lucía: un sitio pequeño, sencillo, con la cama sin hacer y ropa por todas partes.",
+   "kind": "clip",
+   "clips": [
+    "d_casa",
+    "d_cama"
+   ],
+   "label": "LA CASA",
+   "title": "NADA DE LUJOS"
+  },
+  {
+   "t": "En el Miami real, según Zumper, un piso de un dormitorio costaba en septiembre de dos mil veintiséis unos dos mil quinientos dólares al mes de media.",
+   "kind": "stat",
+   "clips": [
+    "img:vice_city_22"
+   ],
+   "label": "ALQUILER MEDIO · 1 DORMITORIO · MIAMI",
+   "stat": {
+    "value": 2500,
+    "prefix": "$",
+    "suffix": "/mes"
+   },
+   "title": "FUENTE: ZUMPER"
+  },
+  {
+   "t": "Eso son treinta mil dólares al año. Solo por dormir bajo techo.",
+   "kind": "stat",
+   "clips": [
+    "d_ropa"
+   ],
+   "label": "AL AÑO",
+   "stat": {
+    "value": 30000,
+    "prefix": "$"
+   },
+   "title": "SOLO EL ALQUILER"
+  },
+  {
+   "t": "Pero Jason tiene truco. Según Rockstar, Brian Heder le deja vivir sin pagar alquiler en una de sus casas de los Cayos…",
+   "kind": "clip",
+   "clips": [
+    "img:brian_heder_02"
+   ],
+   "label": "EL TRUCO",
+   "title": "ALQUILER GRATIS"
+  },
+  {
+   "t": "…a cambio de ayudarle a cobrar deudas en la zona. O sea, que el alquiler lo paga… de otra manera.",
+   "kind": "panel",
+   "clips": [
+    "img:brian_heder_04"
+   ],
+   "label": "EL PRECIO REAL",
+   "title": "NADA ES GRATIS",
+   "sub": "Treinta mil al año que se ahorra… a su manera"
+  },
+  {
+   "t": "Pero claro, si quieres vivir como los ricos de Vice City, con piscina en la azotea y vistas al mar…",
+   "kind": "clip",
+   "clips": [
+    "d_azotea",
+    "d_torre"
+   ],
+   "label": "NIVEL RICO",
+   "title": "ÁTICO CON VISTAS"
+  },
+  {
+   "t": "…ahí ya hablamos de otra liga. Así que, para nuestra cuenta, nos quedamos con el piso normal: treinta mil al año.",
+   "kind": "list",
+   "clips": [
+    "d_noche"
+   ],
+   "label": "CUENTA PROVISIONAL",
+   "title": "LLEVAMOS",
+   "items": [
+    "Casa: $30.000/año"
+   ]
+  },
+  {
+   "t": "Segundo gasto. En un GTA, sin coche no eres nadie.",
+   "kind": "chapter",
+   "clips": [
+    "img:ue_cheetah"
+   ],
+   "label": "GASTO #2",
+   "title": "EL DEPORTIVO",
+   "mus": "track:hot_pursuit@8"
+  },
+  {
+   "t": "En la web oficial sale el Cheetah, que muchos fans comparan con el Ferrari Testarossa de los años ochenta, el de la serie Corrupción en Miami.",
+   "kind": "versus",
+   "clips": [
+    "img:ue_cheetah",
+    "d_coche2"
+   ],
+   "items": [
+    "CHEETAH",
+    "FERRARI TESTAROSSA"
+   ]
+  },
+  {
+   "t": "¿Y cuánto vale un Testarossa hoy? En subastas de dos mil veinticinco se han vendido unidades por entre ciento cincuenta y cinco mil y ciento setenta y cinco mil dólares.",
+   "kind": "stat",
+   "clips": [
+    "img:ue_cheetah"
+   ],
+   "label": "TESTAROSSA · SUBASTAS 2025",
+   "stat": {
+    "value": 165000,
+    "prefix": "$"
+   },
+   "title": "FUENTE: CLASSIC.COM"
+  },
+  {
+   "t": "Y los que están perfectos, como nuevos, pasan de los trescientos mil. Un coche de hace casi cuarenta años.",
+   "kind": "clip",
+   "clips": [
+    "d_cochenoche"
+   ],
+   "label": "EL MÁS CARO",
+   "title": "+$300.000"
+  },
+  {
+   "t": "Pero ojo, que en el juego también hay coches más normales. Jason conduce de todo, y en las persecuciones los coches acaban destrozados.",
+   "kind": "clip",
+   "clips": [
+    "d_persecucion",
+    "m_poli_flip"
+   ],
+   "label": "EL PROBLEMA",
+   "title": "LOS DESTROZAS"
+  },
+  {
+   "t": "En la vida real, cada golpe de esos te costaría el seguro, el taller… y probablemente la cárcel.",
+   "kind": "panel",
+   "clips": [
+    "m_poli_tiro"
+   ],
+   "label": "VIDA REAL",
+   "title": "Y LA MULTA…",
+   "sub": "Mejor no hacerlo"
+  },
+  {
+   "t": "Nos quedamos con el clásico: ciento sesenta y cinco mil dólares.",
+   "kind": "list",
+   "clips": [
+    "img:ue_cheetah"
+   ],
+   "label": "CUENTA PROVISIONAL",
+   "title": "LLEVAMOS",
+   "items": [
+    "Casa: $30.000/año",
+    "Deportivo: $165.000"
+   ]
+  },
+  {
+   "t": "Tercer gasto. Vice City es una ciudad de agua.",
+   "kind": "chapter",
+   "clips": [
+    "img:ue_squalo"
+   ],
+   "label": "GASTO #3",
+   "title": "LA LANCHA",
+   "mus": "track:volatile_reaction@17"
+  },
+  {
+   "t": "La Squalo vuelve en GTA 6. Es la lancha rápida que muchos conducimos por primera vez en el Vice City original.",
+   "kind": "clip",
+   "clips": [
+    "img:ue_squalo",
+    "a_mar"
+   ],
+   "label": "LA SQUALO",
+   "title": "UN CLÁSICO"
+  },
+  {
+   "t": "Su versión real serían las lanchas de carreras tipo Cigarette, las famosas de Miami en los ochenta.",
+   "kind": "versus",
+   "clips": [
+    "img:ue_squalo",
+    "a_mar"
+   ],
+   "items": [
+    "SQUALO",
+    "LANCHA CIGARETTE"
+   ]
+  },
+  {
+   "t": "¿Precio? Las usadas van desde unos ochenta mil dólares hasta casi dos millones. Y una nueva de cincuenta y dos pies estaba anunciada por casi tres millones.",
+   "kind": "stat",
+   "clips": [
+    "img:ue_squalo"
+   ],
+   "label": "LANCHA CIGARETTE · NUEVA · 52 PIES",
+   "stat": {
+    "value": 2890000,
+    "prefix": "$"
+   },
+   "title": "FUENTE: ANUNCIOS DE VENTA"
+  },
+  {
+   "t": "Si quieres algo más barato, tienes la moto de agua. Una nueva, en la vida real, va desde unos siete mil dólares hasta más de veinte mil las más potentes.",
+   "kind": "clip",
+   "clips": [
+    "a_jetski",
+    "a_hidro"
+   ],
+   "label": "PLAN B",
+   "title": "MOTO DE AGUA"
+  },
+  {
+   "t": "Y si no, el kayak: unos pocos cientos de dólares… y mucho esfuerzo con los brazos.",
+   "kind": "clip",
+   "clips": [
+    "a_kayak"
+   ],
+   "label": "PLAN C",
+   "title": "EL KAYAK"
+  },
+  {
+   "t": "Para la cuenta, una lancha usada de precio medio: unos cuatrocientos sesenta mil dólares.",
+   "kind": "list",
+   "clips": [
+    "a_mar"
+   ],
+   "label": "CUENTA PROVISIONAL",
+   "title": "LLEVAMOS",
+   "items": [
+    "Casa: $30.000/año",
+    "Deportivo: $165.000",
+    "Lancha: $460.000"
+   ]
+  },
+  {
+   "t": "Cuarto gasto, y aquí la cosa se pone seria.",
+   "kind": "chapter",
+   "clips": [
+    "d_jet"
+   ],
+   "label": "GASTO #4",
+   "title": "EL JET PRIVADO",
+   "mus": "track:mistake_the_getaway@0"
+  },
+  {
+   "t": "En el gameplay aparece un hombre bajando de un jet privado, de noche, y todo el mundo le recibe con abrazos. Incluido Jason.",
+   "kind": "clip",
+   "clips": [
+    "d_jet"
+   ],
+   "label": "EL JET",
+   "title": "LLEGADA VIP"
+  },
+  {
+   "t": "Comprar un jet ni lo pienso. Pero alquilarlo… según Blade, un jet ligero cuesta entre tres mil quinientos y cinco mil quinientos dólares por hora de vuelo.",
+   "kind": "stat",
+   "clips": [
+    "d_jet"
+   ],
+   "label": "JET LIGERO · POR HORA",
+   "stat": {
+    "value": 5500,
+    "prefix": "$",
+    "suffix": "/h"
+   },
+   "title": "FUENTE: BLADE"
+  },
+  {
+   "t": "Y un viaje de tres horas, de ocho mil a doce mil dólares. Sin contar el hotel de la tripulación.",
+   "kind": "stat",
+   "clips": [
+    "d_aeropuerto"
+   ],
+   "label": "VIAJE DE 3 HORAS",
+   "stat": {
+    "value": 12000,
+    "prefix": "$"
+   },
+   "title": "SOLO EL VUELO"
+  },
+  {
+   "t": "Digamos que te das el capricho cuatro veces al año. Son unos cuarenta mil dólares.",
+   "kind": "list",
+   "clips": [
+    "d_jet"
+   ],
+   "label": "CUENTA PROVISIONAL",
+   "title": "LLEVAMOS",
+   "items": [
+    "Casa: $30.000/año",
+    "Deportivo: $165.000",
+    "Lancha: $460.000",
+    "Jet: $40.000/año"
+   ]
+  },
+  {
+   "t": "Quinto gasto. Porque en Vice City se sale de fiesta.",
+   "kind": "chapter",
+   "clips": [
+    "a_club"
+   ],
+   "label": "GASTO #5",
+   "title": "LA FIESTA",
+   "mus": "track:ethernight_club@20"
+  },
+  {
+   "t": "Los clubs del gameplay están llenos de neones, gente bailando y mesas VIP.",
+   "kind": "clip",
+   "clips": [
+    "a_club",
+    "d_fiesta"
+   ],
+   "label": "LA NOCHE",
+   "title": "MESA VIP"
+  },
+  {
+   "t": "En Miami, una mesa con botellas en discotecas como LIV tiene un gasto mínimo de entre mil y seis mil dólares por noche, según Discotech.",
+   "kind": "stat",
+   "clips": [
+    "c_dentro"
+   ],
+   "label": "MESA VIP · MIAMI · POR NOCHE",
+   "stat": {
+    "value": 6000,
+    "prefix": "hasta $"
+   },
+   "title": "FUENTE: DISCOTECH"
+  },
+  {
+   "t": "Y encima, impuestos, propina y comisiones pueden sumar entre un veinte y un treinta y ocho por ciento más.",
+   "kind": "panel",
+   "clips": [
+    "d_discurso"
+   ],
+   "label": "LA LETRA PEQUEÑA",
+   "title": "+38%",
+   "sub": "Impuestos, propina y comisiones"
+  },
+  {
+   "t": "Una noche VIP al mes, unos tres mil dólares cada una. Treinta y seis mil al año.",
+   "kind": "list",
+   "clips": [
+    "a_disco"
+   ],
+   "label": "CUENTA PROVISIONAL",
+   "title": "LLEVAMOS",
+   "items": [
+    "Casa: $30.000/año",
+    "Deportivo: $165.000",
+    "Lancha: $460.000",
+    "Jet: $40.000/año",
+    "Fiesta: $36.000/año"
+   ]
+  },
+  {
+   "t": "Y ahora, lo barato. Porque Vice City también se puede disfrutar sin ser millonario.",
+   "kind": "chapter",
+   "clips": [
+    "a_hidro"
+   ],
+   "label": "GASTO #6",
+   "title": "EL PLAN BARATO",
+   "mus": "track:funkorama@9"
+  },
+  {
+   "t": "El hidrodeslizador de Grassrivers. En los Everglades de verdad, una vuelta de media hora cuesta unos sesenta y cinco dólares por persona.",
+   "kind": "stat",
+   "clips": [
+    "a_hidro",
+    "img:grassrivers_07"
+   ],
+   "label": "HIDRODESLIZADOR · 30 MIN",
+   "stat": {
+    "value": 65,
+    "prefix": "$"
+   },
+   "title": "EVERGLADES REALES"
+  },
+  {
+   "t": "El patinete eléctrico para moverte por la ciudad, el gimnasio de la playa… y la playa, que es gratis.",
+   "kind": "cards",
+   "clips": [
+    "a_patinete",
+    "a_gym",
+    "a_playa"
+   ],
+   "label": "CASI GRATIS",
+   "title": "OCIO",
+   "items": [
+    "PATINETE",
+    "GIMNASIO",
+    "PLAYA: GRATIS"
+   ]
+  },
+  {
+   "t": "Y la mejor actividad de todas: hacerte una foto con tu pareja al atardecer. Precio: cero.",
+   "kind": "clip",
+   "clips": [
+    "a_selfie",
+    "img:skyline_dusk"
+   ],
+   "label": "LO MEJOR",
+   "title": "GRATIS"
+  },
+  {
+   "t": "Bueno. Ha llegado el momento. Sumamos todo.",
+   "kind": "chapter",
+   "clips": [
+    "img:vice_city_27"
+   ],
+   "label": "EL TOTAL",
+   "title": "LA CUENTA FINAL",
+   "mus": "track:five_armies@14"
+  },
+  {
+   "t": "Coche y lancha, una sola vez: seiscientos veinticinco mil dólares.",
+   "kind": "stat",
+   "clips": [
+    "img:ue_cheetah"
+   ],
+   "label": "COCHE + LANCHA",
+   "stat": {
+    "value": 625000,
+    "prefix": "$"
+   },
+   "title": "DE GOLPE"
+  },
+  {
+   "t": "Y cada año: casa, jet y fiestas. Ciento seis mil dólares más.",
+   "kind": "stat",
+   "clips": [
+    "d_jet"
+   ],
+   "label": "CADA AÑO",
+   "stat": {
+    "value": 106000,
+    "prefix": "$"
+   },
+   "title": "CASA + JET + FIESTA"
+  },
+  {
+   "t": "Total del primer año: setecientos treinta y un mil dólares. Casi tres cuartos de millón.",
+   "kind": "stat",
+   "clips": [
+    "img:skyline_dusk"
+   ],
+   "label": "PRIMER AÑO · TOTAL",
+   "stat": {
+    "value": 731000,
+    "prefix": "$"
+   },
+   "title": "VIVIR COMO EN GTA 6",
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ]
+  },
+  {
+   "t": "¿Y sabes cómo lo consiguen Jason y Lucía en el juego? Pues… atracando tiendas, joyerías y discotecas. No te lo recomiendo.",
+   "kind": "clip",
+   "clips": [
+    "m_joya1",
+    "m_tienda1"
+   ],
+   "label": "SU MÉTODO",
+   "title": "NO LO HAGAS"
+  },
+  {
+   "t": "Así que, si quieres vivir como en GTA 6, lo más barato sigue siendo… jugar a GTA 6.",
+   "kind": "panel",
+   "clips": [
+    "img:keyart"
+   ],
+   "label": "CONCLUSIÓN",
+   "title": "MEJOR JUEGA",
+   "sub": "Te sale mucho más barato"
+  },
+  {
+   "t": "¿Qué te comprarías tú primero: el deportivo, la lancha o el jet? Dímelo en comentarios. Y suscríbete, que vienen más vídeos de GTA 6.",
+   "kind": "outro",
+   "clips": [
+    "d_final"
+   ],
+   "title": "¿QUÉ TE COMPRARÍAS?",
+   "sub": "Te leo en comentarios 👇",
+   "mus": "track:hitman@40"
+  }
+ ]
+}

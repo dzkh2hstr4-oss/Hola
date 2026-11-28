@@ -1,0 +1,137 @@
+{
+ "rate": "+11%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "music": "track:funkorama@9",
+ "lines": [
+  {
+   "t": "POV: es domingo en Vice City y no tienes ningún golpe que hacer.",
+   "imgs": [
+    "v:a_kayak"
+   ],
+   "title": [
+    [
+     "DOMINGO"
+    ],
+    [
+     "*TRANQUI*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "hook": true,
+   "speed": 0.6,
+   "clipFrom": 0
+  },
+  {
+   "t": "Sales a remar en kayak entre los barcos, con los rascacielos de fondo.",
+   "imgs": [
+    "v:a_kayak"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "speed": 0.55,
+   "clipFrom": 0
+  },
+  {
+   "t": "Coges un patinete y recorres las calles llenas de grafitis.",
+   "imgs": [
+    "v:a_patinete"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "speed": 0.7,
+   "clipFrom": 0
+  },
+  {
+   "t": "Te haces una foto con tu pareja… aunque no salga a la primera.",
+   "imgs": [
+    "v:a_selfie"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "speed": 0.6,
+   "clipFrom": 0
+  },
+  {
+   "t": "Y si te aburres, moto de agua a toda velocidad.",
+   "imgs": [
+    "v:a_jetski"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "speed": 0.6,
+   "clipFrom": 0
+  },
+  {
+   "t": "Y terminas el día en la playa, viendo el atardecer.",
+   "imgs": [
+    "v:a_playa"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0
+  },
+  {
+   "t": "¿Tú qué harías un domingo en Vice City? ¡Comenta!",
+   "imgs": [
+    "v:a_mar"
+   ],
+   "title": [
+    [
+     "¿TÚ",
+     "QUÉ"
+    ],
+    [
+     "*HARÍAS*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.6,
+     "v": 0.45
+    }
+   ],
+   "emojis": [
+    "👇"
+   ],
+   "clipFrom": 0
+  }
+ ]
+}

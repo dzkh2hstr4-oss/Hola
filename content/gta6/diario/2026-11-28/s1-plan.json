@@ -1,0 +1,122 @@
+{
+ "rate": "+10%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "music": "track:club_diver@3",
+ "lines": [
+  {
+   "t": "Si quieres mandar en Vice City, antes tienes que pasar por este hombre.",
+   "imgs": [
+    "boobie_ike_01"
+   ],
+   "title": [
+    [
+     "BOOBIE"
+    ],
+    [
+     "*IKE*"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "hook": true
+  },
+  {
+   "t": "Se llama Boobie Ike, y según Rockstar es una leyenda local de Vice City.",
+   "imgs": [
+    "boobie_ike_02"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Empezó en la calle… y es de los pocos que lo convirtió en un imperio legal.",
+   "imgs": [
+    "boobie_ike_03"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Pisos y locales, un club de striptease… y un estudio de grabación.",
+   "imgs": [
+    "boobie_ike_04"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Su sello, Only Raw Records, lo lleva junto a Dre'Quan Priest. Y busca su próximo gran éxito.",
+   "imgs": [
+    "drequan_priest_01"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "Parece un empresario normal. Pero en Vice City, todo pasa por él.",
+   "imgs": [
+    "boobie_ike_01"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ]
+  },
+  {
+   "t": "¿Te fiarías de Boobie? ¡Comenta!",
+   "imgs": [
+    "boobie_ike_03"
+   ],
+   "title": [
+    [
+     "¿TE",
+     "FIARÍAS?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.6,
+     "v": 0.45
+    }
+   ],
+   "emojis": [
+    "👇"
+   ]
+  }
+ ]
+}

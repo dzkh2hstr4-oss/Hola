@@ -1,0 +1,131 @@
+{
+ "rate": "+10%",
+ "pitch": "+3Hz",
+ "mic": true,
+ "music": "track:volatile_reaction@17",
+ "lines": [
+  {
+   "t": "¿Quién es este hombre que llega en jet privado… y al que Jason abraza?",
+   "imgs": [
+    "v:d_jet"
+   ],
+   "title": [
+    [
+     "¿QUIÉN"
+    ],
+    [
+     "*ES*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "hook": true,
+   "clipFrom": 0
+  },
+  {
+   "t": "Es de noche. Un jet privado aterriza y él baja con sombrero y gafas de sol.",
+   "imgs": [
+    "v:d_jet"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 0
+  },
+  {
+   "t": "Una mujer le espera en la pista. Se abrazan como si se conocieran de siempre.",
+   "imgs": [
+    "v:d_jet"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 3
+  },
+  {
+   "t": "Luego saluda a todo el mundo, como si fuera el jefe de la fiesta.",
+   "imgs": [
+    "v:d_jet"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 10
+  },
+  {
+   "t": "Y fíjate al final: Jason también le recibe con un abrazo. Y Lucía está al lado del coche.",
+   "imgs": [
+    "v:d_jet"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 12
+  },
+  {
+   "t": "Rockstar no ha dicho quién es. Muchos fans creen que puede ser alguien importante en la historia.",
+   "imgs": [
+    "v:d_jet"
+   ],
+   "title": [],
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.28
+    }
+   ],
+   "clipFrom": 5
+  },
+  {
+   "t": "¿Quién crees que es? ¡Comenta!",
+   "imgs": [
+    "v:d_jet"
+   ],
+   "title": [
+    [
+     "¿QUIÉN"
+    ],
+    [
+     "*CREES*?"
+    ]
+   ],
+   "sfx": [
+    {
+     "f": "wyr/sfx/ding.wav",
+     "at": 1.6,
+     "v": 0.45
+    }
+   ],
+   "emojis": [
+    "👇"
+   ],
+   "clipFrom": 6
+  }
+ ]
+}

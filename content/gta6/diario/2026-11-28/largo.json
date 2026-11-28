@@ -1,0 +1,937 @@
+{
+ "theme": "news",
+ "scenes": [
+  {
+   "kind": "intro",
+   "clips": [
+    "d_jet",
+    "img:ue_cheetah",
+    "a_club",
+    "img:ue_squalo"
+   ],
+   "label": "GTA 6 · VIDA REAL",
+   "title": "¿CUÁNTO CUESTA SER DE GTA 6?",
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.7
+    },
+    {
+     "f": "wyr/sfx/riser.wav",
+     "at": 2.2,
+     "v": 0.4
+    }
+   ],
+   "mus": "track:hitman@1",
+   "s": 0.0,
+   "e": 11.78
+  },
+  {
+   "kind": "panel",
+   "clips": [
+    "img:skyline_dusk"
+   ],
+   "label": "AL FINAL",
+   "title": "LA CIFRA TOTAL",
+   "sub": "Spoiler: no te va a llegar el sueldo",
+   "s": 11.78,
+   "e": 17.4
+  },
+  {
+   "kind": "list",
+   "clips": [
+    "img:vice_city_15"
+   ],
+   "label": "LAS REGLAS",
+   "title": "PRECIOS REALES",
+   "items": [
+    "Vice City = Miami",
+    "Precios 2025–2026",
+    "En dólares"
+   ],
+   "s": 17.4,
+   "e": 29.77
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "d_torre"
+   ],
+   "label": "EMPEZAMOS",
+   "title": "LA CUENTA",
+   "s": 29.77,
+   "e": 38.22
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "d_casa"
+   ],
+   "label": "GASTO #1",
+   "title": "LA CASA",
+   "mus": "track:i_can_feel_it_coming@0",
+   "s": 38.22,
+   "e": 40.99
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_casa",
+    "d_cama"
+   ],
+   "label": "LA CASA",
+   "title": "NADA DE LUJOS",
+   "s": 40.99,
+   "e": 47.78
+  },
+  {
+   "kind": "stat",
+   "clips": [
+    "img:vice_city_22"
+   ],
+   "label": "ALQUILER MEDIO · 1 DORMITORIO · MIAMI",
+   "stat": {
+    "value": 2500,
+    "prefix": "$",
+    "suffix": "/mes"
+   },
+   "title": "FUENTE: ZUMPER",
+   "s": 47.78,
+   "e": 55.53
+  },
+  {
+   "kind": "stat",
+   "clips": [
+    "d_ropa"
+   ],
+   "label": "AL AÑO",
+   "stat": {
+    "value": 30000,
+    "prefix": "$"
+   },
+   "title": "SOLO EL ALQUILER",
+   "s": 55.53,
+   "e": 60.03
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:brian_heder_02"
+   ],
+   "label": "EL TRUCO",
+   "title": "ALQUILER GRATIS",
+   "s": 60.03,
+   "e": 67.07
+  },
+  {
+   "kind": "panel",
+   "clips": [
+    "img:brian_heder_04"
+   ],
+   "label": "EL PRECIO REAL",
+   "title": "NADA ES GRATIS",
+   "sub": "Treinta mil al año que se ahorra… a su manera",
+   "s": 67.07,
+   "e": 73.21
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_azotea",
+    "d_torre"
+   ],
+   "label": "NIVEL RICO",
+   "title": "ÁTICO CON VISTAS",
+   "s": 73.21,
+   "e": 78.56
+  },
+  {
+   "kind": "list",
+   "clips": [
+    "d_noche"
+   ],
+   "label": "CUENTA PROVISIONAL",
+   "title": "LLEVAMOS",
+   "items": [
+    "Casa: $30.000/año"
+   ],
+   "s": 78.56,
+   "e": 85.62
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "img:ue_cheetah"
+   ],
+   "label": "GASTO #2",
+   "title": "EL DEPORTIVO",
+   "mus": "track:hot_pursuit@8",
+   "s": 85.62,
+   "e": 90.7
+  },
+  {
+   "kind": "versus",
+   "clips": [
+    "img:ue_cheetah",
+    "d_coche2"
+   ],
+   "items": [
+    "CHEETAH",
+    "FERRARI TESTAROSSA"
+   ],
+   "s": 90.7,
+   "e": 97.74
+  },
+  {
+   "kind": "stat",
+   "clips": [
+    "img:ue_cheetah"
+   ],
+   "label": "TESTAROSSA · SUBASTAS 2025",
+   "stat": {
+    "value": 165000,
+    "prefix": "$"
+   },
+   "title": "FUENTE: CLASSIC.COM",
+   "s": 97.74,
+   "e": 106.97
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_cochenoche"
+   ],
+   "label": "EL MÁS CARO",
+   "title": "+$300.000",
+   "s": 106.97,
+   "e": 113.52
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_persecucion",
+    "m_poli_flip"
+   ],
+   "label": "EL PROBLEMA",
+   "title": "LOS DESTROZAS",
+   "s": 113.52,
+   "e": 121.62
+  },
+  {
+   "kind": "panel",
+   "clips": [
+    "m_poli_tiro"
+   ],
+   "label": "VIDA REAL",
+   "title": "Y LA MULTA…",
+   "sub": "Mejor no hacerlo",
+   "s": 121.62,
+   "e": 127.22
+  },
+  {
+   "kind": "list",
+   "clips": [
+    "img:ue_cheetah"
+   ],
+   "label": "CUENTA PROVISIONAL",
+   "title": "LLEVAMOS",
+   "items": [
+    "Casa: $30.000/año",
+    "Deportivo: $165.000"
+   ],
+   "s": 127.22,
+   "e": 130.8
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "img:ue_squalo"
+   ],
+   "label": "GASTO #3",
+   "title": "LA LANCHA",
+   "mus": "track:volatile_reaction@17",
+   "s": 130.8,
+   "e": 135.09
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "img:ue_squalo",
+    "a_mar"
+   ],
+   "label": "LA SQUALO",
+   "title": "UN CLÁSICO",
+   "s": 135.09,
+   "e": 141.78
+  },
+  {
+   "kind": "versus",
+   "clips": [
+    "img:ue_squalo",
+    "a_mar"
+   ],
+   "items": [
+    "SQUALO",
+    "LANCHA CIGARETTE"
+   ],
+   "s": 141.78,
+   "e": 146.67
+  },
+  {
+   "kind": "stat",
+   "clips": [
+    "img:ue_squalo"
+   ],
+   "label": "LANCHA CIGARETTE · NUEVA · 52 PIES",
+   "stat": {
+    "value": 2890000,
+    "prefix": "$"
+   },
+   "title": "FUENTE: ANUNCIOS DE VENTA",
+   "s": 146.67,
+   "e": 156.26
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_jetski",
+    "a_hidro"
+   ],
+   "label": "PLAN B",
+   "title": "MOTO DE AGUA",
+   "s": 156.26,
+   "e": 165.11
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_kayak"
+   ],
+   "label": "PLAN C",
+   "title": "EL KAYAK",
+   "s": 165.11,
+   "e": 170.01
+  },
+  {
+   "kind": "list",
+   "clips": [
+    "a_mar"
+   ],
+   "label": "CUENTA PROVISIONAL",
+   "title": "LLEVAMOS",
+   "items": [
+    "Casa: $30.000/año",
+    "Deportivo: $165.000",
+    "Lancha: $460.000"
+   ],
+   "s": 170.01,
+   "e": 174.79
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "d_jet"
+   ],
+   "label": "GASTO #4",
+   "title": "EL JET PRIVADO",
+   "mus": "track:mistake_the_getaway@0",
+   "s": 174.79,
+   "e": 178.12
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "d_jet"
+   ],
+   "label": "EL JET",
+   "title": "LLEGADA VIP",
+   "s": 178.12,
+   "e": 185.56
+  },
+  {
+   "kind": "stat",
+   "clips": [
+    "d_jet"
+   ],
+   "label": "JET LIGERO · POR HORA",
+   "stat": {
+    "value": 5500,
+    "prefix": "$",
+    "suffix": "/h"
+   },
+   "title": "FUENTE: BLADE",
+   "s": 185.56,
+   "e": 194.46
+  },
+  {
+   "kind": "stat",
+   "clips": [
+    "d_aeropuerto"
+   ],
+   "label": "VIAJE DE 3 HORAS",
+   "stat": {
+    "value": 12000,
+    "prefix": "$"
+   },
+   "title": "SOLO EL VUELO",
+   "s": 194.46,
+   "e": 200.61
+  },
+  {
+   "kind": "list",
+   "clips": [
+    "d_jet"
+   ],
+   "label": "CUENTA PROVISIONAL",
+   "title": "LLEVAMOS",
+   "items": [
+    "Casa: $30.000/año",
+    "Deportivo: $165.000",
+    "Lancha: $460.000",
+    "Jet: $40.000/año"
+   ],
+   "s": 200.61,
+   "e": 205.82
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "a_club"
+   ],
+   "label": "GASTO #5",
+   "title": "LA FIESTA",
+   "mus": "track:ethernight_club@20",
+   "s": 205.82,
+   "e": 210.24
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_club",
+    "d_fiesta"
+   ],
+   "label": "LA NOCHE",
+   "title": "MESA VIP",
+   "s": 210.24,
+   "e": 213.91
+  },
+  {
+   "kind": "stat",
+   "clips": [
+    "c_dentro"
+   ],
+   "label": "MESA VIP · MIAMI · POR NOCHE",
+   "stat": {
+    "value": 6000,
+    "prefix": "hasta $"
+   },
+   "title": "FUENTE: DISCOTECH",
+   "s": 213.91,
+   "e": 221.06
+  },
+  {
+   "kind": "panel",
+   "clips": [
+    "d_discurso"
+   ],
+   "label": "LA LETRA PEQUEÑA",
+   "title": "+38%",
+   "sub": "Impuestos, propina y comisiones",
+   "s": 221.06,
+   "e": 226.8
+  },
+  {
+   "kind": "list",
+   "clips": [
+    "a_disco"
+   ],
+   "label": "CUENTA PROVISIONAL",
+   "title": "LLEVAMOS",
+   "items": [
+    "Casa: $30.000/año",
+    "Deportivo: $165.000",
+    "Lancha: $460.000",
+    "Jet: $40.000/año",
+    "Fiesta: $36.000/año"
+   ],
+   "s": 226.8,
+   "e": 231.96
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "a_hidro"
+   ],
+   "label": "GASTO #6",
+   "title": "EL PLAN BARATO",
+   "mus": "track:funkorama@9",
+   "s": 231.96,
+   "e": 237.88
+  },
+  {
+   "kind": "stat",
+   "clips": [
+    "a_hidro",
+    "img:grassrivers_07"
+   ],
+   "label": "HIDRODESLIZADOR · 30 MIN",
+   "stat": {
+    "value": 65,
+    "prefix": "$"
+   },
+   "title": "EVERGLADES REALES",
+   "s": 237.88,
+   "e": 245.67
+  },
+  {
+   "kind": "cards",
+   "clips": [
+    "a_patinete",
+    "a_gym",
+    "a_playa"
+   ],
+   "label": "CASI GRATIS",
+   "title": "OCIO",
+   "items": [
+    "PATINETE",
+    "GIMNASIO",
+    "PLAYA: GRATIS"
+   ],
+   "s": 245.67,
+   "e": 251.35
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "a_selfie",
+    "img:skyline_dusk"
+   ],
+   "label": "LO MEJOR",
+   "title": "GRATIS",
+   "s": 251.35,
+   "e": 257.31
+  },
+  {
+   "kind": "chapter",
+   "clips": [
+    "img:vice_city_27"
+   ],
+   "label": "EL TOTAL",
+   "title": "LA CUENTA FINAL",
+   "mus": "track:five_armies@14",
+   "s": 257.31,
+   "e": 262.48
+  },
+  {
+   "kind": "stat",
+   "clips": [
+    "img:ue_cheetah"
+   ],
+   "label": "COCHE + LANCHA",
+   "stat": {
+    "value": 625000,
+    "prefix": "$"
+   },
+   "title": "DE GOLPE",
+   "s": 262.48,
+   "e": 266.42
+  },
+  {
+   "kind": "stat",
+   "clips": [
+    "d_jet"
+   ],
+   "label": "CADA AÑO",
+   "stat": {
+    "value": 106000,
+    "prefix": "$"
+   },
+   "title": "CASA + JET + FIESTA",
+   "s": 266.42,
+   "e": 271.52
+  },
+  {
+   "kind": "stat",
+   "clips": [
+    "img:skyline_dusk"
+   ],
+   "label": "PRIMER AÑO · TOTAL",
+   "stat": {
+    "value": 731000,
+    "prefix": "$"
+   },
+   "title": "VIVIR COMO EN GTA 6",
+   "sfx": [
+    {
+     "f": "voz/impacto.wav",
+     "at": 0,
+     "v": 0.6
+    }
+   ],
+   "s": 271.52,
+   "e": 277.11
+  },
+  {
+   "kind": "clip",
+   "clips": [
+    "m_joya1",
+    "m_tienda1"
+   ],
+   "label": "SU MÉTODO",
+   "title": "NO LO HAGAS",
+   "s": 277.11,
+   "e": 285.75
+  },
+  {
+   "kind": "panel",
+   "clips": [
+    "img:keyart"
+   ],
+   "label": "CONCLUSIÓN",
+   "title": "MEJOR JUEGA",
+   "sub": "Te sale mucho más barato",
+   "s": 285.75,
+   "e": 291.34
+  },
+  {
+   "kind": "outro",
+   "clips": [
+    "d_final"
+   ],
+   "title": "¿QUÉ TE COMPRARÍAS?",
+   "sub": "Te leo en comentarios 👇",
+   "mus": "track:hitman@40",
+   "s": 291.34,
+   "e": 302.14
+  }
+ ],
+ "captions": [
+  {
+   "t": "¿Cuánto dinero necesitarías para vivir como Jason y Lucía… pero en la vida real? Casa en Miami, deportivo, lancha, jet privado, fiestas… Lo he calculado todo con precios reales.",
+   "s": 0.05,
+   "e": 11.6
+  },
+  {
+   "t": "Y al final te digo la cifra total… y te aseguro que no te la esperas. Quédate hasta el final.",
+   "s": 11.83,
+   "e": 17.22
+  },
+  {
+   "t": "Las reglas son simples: Vice City es Miami. Así que uso precios reales de Miami y de Florida, de dos mil veinticinco y dos mil veintiséis, sacados de webs de alquiler, de subastas y de empresas de vuelos privados.",
+   "s": 17.45,
+   "e": 29.59
+  },
+  {
+   "t": "Todo va en dólares, como en el juego. Y redondeo, que esto no es una clase de matemáticas. Empezamos.",
+   "s": 30.17,
+   "e": 37.72
+  },
+  {
+   "t": "Lo primero: un sitio donde vivir.",
+   "s": 38.62,
+   "e": 40.49
+  },
+  {
+   "t": "En el gameplay vemos la casa de Jason y Lucía: un sitio pequeño, sencillo, con la cama sin hacer y ropa por todas partes.",
+   "s": 41.04,
+   "e": 47.6
+  },
+  {
+   "t": "En el Miami real, según Zumper, un piso de un dormitorio costaba en septiembre de dos mil veintiséis unos dos mil quinientos dólares al mes de media.",
+   "s": 47.83,
+   "e": 55.35
+  },
+  {
+   "t": "Eso son treinta mil dólares al año. Solo por dormir bajo techo.",
+   "s": 55.58,
+   "e": 59.85
+  },
+  {
+   "t": "Pero Jason tiene truco. Según Rockstar, Brian Heder le deja vivir sin pagar alquiler en una de sus casas de los Cayos…",
+   "s": 60.08,
+   "e": 66.89
+  },
+  {
+   "t": "…a cambio de ayudarle a cobrar deudas en la zona. O sea, que el alquiler lo paga… de otra manera.",
+   "s": 67.12,
+   "e": 73.03
+  },
+  {
+   "t": "Pero claro, si quieres vivir como los ricos de Vice City, con piscina en la azotea y vistas al mar…",
+   "s": 73.26,
+   "e": 78.38
+  },
+  {
+   "t": "…ahí ya hablamos de otra liga. Así que, para nuestra cuenta, nos quedamos con el piso normal: treinta mil al año.",
+   "s": 78.61,
+   "e": 85.44
+  },
+  {
+   "t": "Segundo gasto. En un GTA, sin coche no eres nadie.",
+   "s": 86.02,
+   "e": 90.2
+  },
+  {
+   "t": "En la web oficial sale el Cheetah, que muchos fans comparan con el Ferrari Testarossa de los años ochenta, el de la serie Corrupción en Miami.",
+   "s": 90.75,
+   "e": 97.56
+  },
+  {
+   "t": "¿Y cuánto vale un Testarossa hoy? En subastas de dos mil veinticinco se han vendido unidades por entre ciento cincuenta y cinco mil y ciento setenta y cinco mil dólares.",
+   "s": 97.79,
+   "e": 106.79
+  },
+  {
+   "t": "Y los que están perfectos, como nuevos, pasan de los trescientos mil. Un coche de hace casi cuarenta años.",
+   "s": 107.02,
+   "e": 113.34
+  },
+  {
+   "t": "Pero ojo, que en el juego también hay coches más normales. Jason conduce de todo, y en las persecuciones los coches acaban destrozados.",
+   "s": 113.57,
+   "e": 121.44
+  },
+  {
+   "t": "En la vida real, cada golpe de esos te costaría el seguro, el taller… y probablemente la cárcel.",
+   "s": 121.67,
+   "e": 127.04
+  },
+  {
+   "t": "Nos quedamos con el clásico: ciento sesenta y cinco mil dólares.",
+   "s": 127.27,
+   "e": 130.62
+  },
+  {
+   "t": "Tercer gasto. Vice City es una ciudad de agua.",
+   "s": 131.2,
+   "e": 134.59
+  },
+  {
+   "t": "La Squalo vuelve en GTA 6. Es la lancha rápida que muchos conducimos por primera vez en el Vice City original.",
+   "s": 135.14,
+   "e": 141.6
+  },
+  {
+   "t": "Su versión real serían las lanchas de carreras tipo Cigarette, las famosas de Miami en los ochenta.",
+   "s": 141.83,
+   "e": 146.49
+  },
+  {
+   "t": "¿Precio? Las usadas van desde unos ochenta mil dólares hasta casi dos millones. Y una nueva de cincuenta y dos pies estaba anunciada por casi tres millones.",
+   "s": 146.72,
+   "e": 156.08
+  },
+  {
+   "t": "Si quieres algo más barato, tienes la moto de agua. Una nueva, en la vida real, va desde unos siete mil dólares hasta más de veinte mil las más potentes.",
+   "s": 156.31,
+   "e": 164.93
+  },
+  {
+   "t": "Y si no, el kayak: unos pocos cientos de dólares… y mucho esfuerzo con los brazos.",
+   "s": 165.16,
+   "e": 169.83
+  },
+  {
+   "t": "Para la cuenta, una lancha usada de precio medio: unos cuatrocientos sesenta mil dólares.",
+   "s": 170.06,
+   "e": 174.61
+  },
+  {
+   "t": "Cuarto gasto, y aquí la cosa se pone seria.",
+   "s": 175.19,
+   "e": 177.62
+  },
+  {
+   "t": "En el gameplay aparece un hombre bajando de un jet privado, de noche, y todo el mundo le recibe con abrazos. Incluido Jason.",
+   "s": 178.17,
+   "e": 185.38
+  },
+  {
+   "t": "Comprar un jet ni lo pienso. Pero alquilarlo… según Blade, un jet ligero cuesta entre tres mil quinientos y cinco mil quinientos dólares por hora de vuelo.",
+   "s": 185.61,
+   "e": 194.28
+  },
+  {
+   "t": "Y un viaje de tres horas, de ocho mil a doce mil dólares. Sin contar el hotel de la tripulación.",
+   "s": 194.51,
+   "e": 200.43
+  },
+  {
+   "t": "Digamos que te das el capricho cuatro veces al año. Son unos cuarenta mil dólares.",
+   "s": 200.66,
+   "e": 205.64
+  },
+  {
+   "t": "Quinto gasto. Porque en Vice City se sale de fiesta.",
+   "s": 206.22,
+   "e": 209.74
+  },
+  {
+   "t": "Los clubs del gameplay están llenos de neones, gente bailando y mesas VIP.",
+   "s": 210.29,
+   "e": 213.73
+  },
+  {
+   "t": "En Miami, una mesa con botellas en discotecas como LIV tiene un gasto mínimo de entre mil y seis mil dólares por noche, según Discotech.",
+   "s": 213.96,
+   "e": 220.88
+  },
+  {
+   "t": "Y encima, impuestos, propina y comisiones pueden sumar entre un veinte y un treinta y ocho por ciento más.",
+   "s": 221.11,
+   "e": 226.62
+  },
+  {
+   "t": "Una noche VIP al mes, unos tres mil dólares cada una. Treinta y seis mil al año.",
+   "s": 226.85,
+   "e": 231.78
+  },
+  {
+   "t": "Y ahora, lo barato. Porque Vice City también se puede disfrutar sin ser millonario.",
+   "s": 232.36,
+   "e": 237.38
+  },
+  {
+   "t": "El hidrodeslizador de Grassrivers. En los Everglades de verdad, una vuelta de media hora cuesta unos sesenta y cinco dólares por persona.",
+   "s": 237.93,
+   "e": 245.49
+  },
+  {
+   "t": "El patinete eléctrico para moverte por la ciudad, el gimnasio de la playa… y la playa, que es gratis.",
+   "s": 245.72,
+   "e": 251.17
+  },
+  {
+   "t": "Y la mejor actividad de todas: hacerte una foto con tu pareja al atardecer. Precio: cero.",
+   "s": 251.4,
+   "e": 257.13
+  },
+  {
+   "t": "Bueno. Ha llegado el momento. Sumamos todo.",
+   "s": 257.71,
+   "e": 261.98
+  },
+  {
+   "t": "Coche y lancha, una sola vez: seiscientos veinticinco mil dólares.",
+   "s": 262.53,
+   "e": 266.24
+  },
+  {
+   "t": "Y cada año: casa, jet y fiestas. Ciento seis mil dólares más.",
+   "s": 266.47,
+   "e": 271.34
+  },
+  {
+   "t": "Total del primer año: setecientos treinta y un mil dólares. Casi tres cuartos de millón.",
+   "s": 271.57,
+   "e": 276.93
+  },
+  {
+   "t": "¿Y sabes cómo lo consiguen Jason y Lucía en el juego? Pues… atracando tiendas, joyerías y discotecas. No te lo recomiendo.",
+   "s": 277.16,
+   "e": 285.57
+  },
+  {
+   "t": "Así que, si quieres vivir como en GTA 6, lo más barato sigue siendo… jugar a GTA 6.",
+   "s": 285.8,
+   "e": 291.16
+  },
+  {
+   "t": "¿Qué te comprarías tú primero: el deportivo, la lancha o el jet? Dímelo en comentarios. Y suscríbete, que vienen más vídeos de GTA 6.",
+   "s": 291.39,
+   "e": 300.46
+  }
+ ],
+ "voice": "gta6/audio/largo-2026-11-28-voz.wav",
+ "total": 302.14,
+ "clipLen": {
+  "q_salte": 12.6,
+  "c_brian1": 14.5,
+  "d_ascensor3": 23.0,
+  "d_coche2": 40.0,
+  "d_parking": 34.0,
+  "d_carrusel": 73.0,
+  "c_callejon": 1.23,
+  "d_noche": 8.0,
+  "a_patinete": 3.5,
+  "d_coche": 50.0,
+  "c_entrada": 3.9,
+  "c_dentro": 2.47,
+  "d_grupo": 18.0,
+  "d_lucia": 26.0,
+  "d_raul": 35.0,
+  "q_redada": 5.8,
+  "d_tiro1": 17.0,
+  "a_hidro": 3.0,
+  "a_kayak": 2.0,
+  "d_ascensor": 21.0,
+  "a_selfie": 3.2,
+  "m_poli_tiro": 4.5,
+  "m_tienda1": 4.0,
+  "a_motocross": 4.2,
+  "q_prueba": 9.8,
+  "d_huida": 27.0,
+  "d_cama": 15.0,
+  "a_jetski": 1.83,
+  "a_mar": 2.6,
+  "d_tele": 32.0,
+  "d_fiesta": 34.0,
+  "d_casa": 20.0,
+  "a_circuito": 5.3,
+  "d_final": 33.0,
+  "d_oficina": 36.0,
+  "d_pasillo": 14.0,
+  "d_monitores": 12.0,
+  "d_ascensor2": 15.0,
+  "d_mensaje": 16.0,
+  "q_gloria2": 6.8,
+  "d_torre": 7.0,
+  "d_llamada": 32.0,
+  "m_golpe2": 5.0,
+  "q_ernesto": 11.3,
+  "a_club": 4.0,
+  "q_trabajo": 12.8,
+  "m_golpe3": 7.0,
+  "q_ladrillos": 3.4,
+  "d_persecucion": 30.0,
+  "d_callejera": 8.0,
+  "a_gym": 3.3,
+  "d_ropa": 16.0,
+  "d_tiro2": 28.0,
+  "d_mesa": 20.0,
+  "a_coche": 6.0,
+  "m_poli_flip": 6.0,
+  "d_titulo": 20.0,
+  "m_joya2": 6.6,
+  "d_redada": 18.0,
+  "d_discurso": 22.0,
+  "d_bolsa": 8.0,
+  "q_profesional": 11.4,
+  "m_tienda2": 6.0,
+  "m_joya1": 3.2,
+  "d_perro": 9.0,
+  "q_gloria": 16.0,
+  "m_tienda3": 3.0,
+  "m_furgon": 1.9,
+  "d_llegada": 8.0,
+  "d_ataque": 18.0,
+  "a_disco": 2.7,
+  "d_trunk": 19.0,
+  "m_golpe1": 6.0,
+  "d_cochenoche": 14.0,
+  "d_puerta": 20.0,
+  "d_azotea": 38.0,
+  "d_jet": 14.0,
+  "d_aeropuerto": 27.0,
+  "d_mesa2": 23.0,
+  "c_saludo": 2.47,
+  "d_tiro3": 42.0,
+  "q_trunk": 13.4,
+  "a_playa": 2.6,
+  "q_bajarte": 7.8,
+  "a_paracaidas": 9.7
+ },
+ "clipVolume": 0,
+ "brand": "GTA VI · VIDA REAL"
+}
