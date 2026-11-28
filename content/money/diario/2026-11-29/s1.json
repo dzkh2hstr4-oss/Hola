@@ -1,0 +1,251 @@
+{
+ "vertical": true,
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "STILL *$1.50*",
+   "icon": "🌭",
+   "bg": "rays",
+   "s": 0.0,
+   "e": 2.96
+  },
+  {
+   "kind": "timeline",
+   "title": "SAME PRICE *FOREVER*",
+   "items": [
+    {
+     "label": "1985",
+     "display": "$1.50"
+    },
+    {
+     "label": "2000",
+     "display": "$1.50"
+    },
+    {
+     "label": "2015",
+     "display": "$1.50"
+    },
+    {
+     "label": "2026",
+     "display": "$1.50"
+    }
+   ],
+   "bg": "rays",
+   "s": 2.96,
+   "e": 5.93
+  },
+  {
+   "kind": "stat",
+   "value": 4.4,
+   "decimals": 2,
+   "prefix": "$",
+   "label": "Inflation-adjusted price",
+   "title": "IT SHOULD *COST*",
+   "source": "NPR, 2024",
+   "bg": "grid",
+   "s": 5.93,
+   "e": 7.98
+  },
+  {
+   "kind": "compare",
+   "title": "REAL VS *INFLATION*",
+   "items": [
+    {
+     "label": "Costco · $1.50",
+     "tag": "good"
+    },
+    {
+     "label": "Inflation · ≈$4.40",
+     "tag": "bad"
+    }
+   ],
+   "bg": "grid",
+   "s": 7.98,
+   "e": 10.03
+  },
+  {
+   "kind": "phone",
+   "title": "THE *ORDER*",
+   "items": [
+    {
+     "label": "We're losing money on the hot dog",
+     "tag": "📉"
+    },
+    {
+     "label": "If you raise the hot dog, I will kill you. Figure it out.",
+     "tag": "🔪"
+    }
+   ],
+   "source": "Craig Jelinek, as reported by Fox Business",
+   "bg": "neon",
+   "s": 10.03,
+   "e": 12.86
+  },
+  {
+   "kind": "phone",
+   "title": "THE *ORDER*",
+   "items": [
+    {
+     "label": "We're losing money on the hot dog",
+     "tag": "📉"
+    },
+    {
+     "label": "If you raise the hot dog, I will kill you. Figure it out.",
+     "tag": "🔪"
+    }
+   ],
+   "source": "Craig Jelinek, as reported by Fox Business",
+   "bg": "neon",
+   "s": 12.86,
+   "e": 15.68,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "phone",
+   "title": "THE *ORDER*",
+   "items": [
+    {
+     "label": "We're losing money on the hot dog",
+     "tag": "📉"
+    },
+    {
+     "label": "If you raise the hot dog, I will kill you. Figure it out.",
+     "tag": "🔪"
+    }
+   ],
+   "source": "Craig Jelinek, as reported by Fox Business",
+   "bg": "neon",
+   "s": 15.68,
+   "e": 18.51,
+   "cont": 2,
+   "sfx": [
+    {
+     "f": "wyr/sfx/zap.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "list",
+   "title": "HOW THEY *DID IT*",
+   "items": [
+    {
+     "label": "Own Kirkland hot dog plants"
+    },
+    {
+     "label": "Cut production costs"
+    },
+    {
+     "label": "Price stays $1.50"
+    }
+   ],
+   "bg": "blueprint",
+   "s": 18.51,
+   "e": 20.69
+  },
+  {
+   "kind": "list",
+   "title": "HOW THEY *DID IT*",
+   "items": [
+    {
+     "label": "Own Kirkland hot dog plants"
+    },
+    {
+     "label": "Cut production costs"
+    },
+    {
+     "label": "Price stays $1.50"
+    }
+   ],
+   "bg": "blueprint",
+   "s": 20.69,
+   "e": 22.87,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "meter",
+   "title": "THE *REAL* GAME",
+   "value": 85,
+   "label": "LOSS LEADER",
+   "bg": "stripes",
+   "s": 22.87,
+   "e": 25.75
+  },
+  {
+   "kind": "receipt",
+   "title": "YOUR CART",
+   "items": [
+    {
+     "label": "Hot dog + soda",
+     "price": "$1.50"
+    },
+    {
+     "label": "Everything else",
+     "price": "$298.50",
+     "tag": "bad"
+    }
+   ],
+   "total": "$300.00 (example)",
+   "bg": "stripes",
+   "s": 25.75,
+   "e": 28.62
+  },
+  {
+   "kind": "outro",
+   "title": "CHEAP DOG, *BIG CART*",
+   "bg": "rays",
+   "s": 28.62,
+   "e": 34.26
+  }
+ ],
+ "captions": [
+  {
+   "t": "Costco has sold this hot dog and soda for a dollar fifty since the nineteen-eighties. And they refuse to change it.",
+   "s": 0.05,
+   "e": 5.78
+  },
+  {
+   "t": "With inflation, that combo should cost around four dollars and forty cents today.",
+   "s": 5.98,
+   "e": 9.88
+  },
+  {
+   "t": "Years ago, the CEO told co-founder Jim Sinegal they were losing money on it. His answer? If you raise the hot dog, I will kill you. Figure it out.",
+   "s": 10.08,
+   "e": 18.36
+  },
+  {
+   "t": "So they figured it out. Costco built its own hot dog factories to cut the cost.",
+   "s": 18.56,
+   "e": 22.72
+  },
+  {
+   "t": "Here's the trick. It's a loss leader. The hot dog brings you in… and you leave with a three-hundred-dollar cart.",
+   "s": 22.92,
+   "e": 28.47
+  },
+  {
+   "t": "Cheap hot dog, expensive cart. Have you fallen for it? Follow for more money tricks.",
+   "s": 28.67,
+   "e": 33.51
+  }
+ ],
+ "voice": "money/audio/m-2026-11-29-s1-voz.wav",
+ "total": 34.26,
+ "brand": "MONEY DECODED"
+}

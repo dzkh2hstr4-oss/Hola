@@ -1,0 +1,132 @@
+{
+ "vertical": true,
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "pitch": "+0Hz",
+ "mic": true,
+ "brand": "MONEY DECODED",
+ "split": 3.0,
+ "music": "track:darkest_child@0",
+ "lines": [
+  {
+   "t": "Why does gas cost three ninety-nine and nine tenths? Who pays nine tenths of a cent?",
+   "kind": "hook",
+   "title": "$3.99 *⁹⁄₁₀*",
+   "icon": "⛽",
+   "bg": "neon",
+   "beats": [
+    {
+     "kind": "hook",
+     "title": "$3.99 *⁹⁄₁₀*",
+     "icon": "⛽"
+    },
+    {
+     "kind": "prices",
+     "items": [
+      {
+       "label": "What you see",
+       "price": "$3.99"
+      },
+      {
+       "label": "What you pay",
+       "price": "$3.999"
+      }
+     ],
+     "pick": 1
+    }
+   ]
+  },
+  {
+   "t": "It started in the Great Depression. Gas was so cheap, some places charged under ten cents a gallon.",
+   "kind": "timeline",
+   "title": "THE *1930s*",
+   "items": [
+    {
+     "label": "1930",
+     "display": "≈20¢"
+    },
+    {
+     "label": "Depression",
+     "display": "<10¢ in places"
+    },
+    {
+     "label": "Today",
+     "display": "$3+"
+    }
+   ],
+   "bg": "waves",
+   "source": "NACS · convenience.org"
+  },
+  {
+   "t": "At ten cents, raising the price by one full penny was a ten percent jump. So stations used fractions.",
+   "kind": "pie",
+   "title": "ONE PENNY = *10%*",
+   "value": 10,
+   "decimals": 0,
+   "label": "of a 10¢ gallon",
+   "bg": "grid"
+  },
+  {
+   "t": "Gas got expensive. The fraction never left. Because your brain reads three ninety-nine, not four dollars. It's called left-digit bias.",
+   "kind": "big",
+   "title": "LEFT-DIGIT *BIAS*",
+   "icon": "🧠",
+   "bg": "dots",
+   "beats": [
+    {
+     "kind": "big",
+     "title": "LEFT-DIGIT *BIAS*",
+     "icon": "🧠"
+    },
+    {
+     "kind": "compare",
+     "title": "WHAT YOU *FEEL*",
+     "items": [
+      {
+       "label": "$3.99⁹ → \"three-something\"",
+       "tag": "good"
+      },
+      {
+       "label": "$4.00 → \"four dollars\"",
+       "tag": "bad"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "And those tiny fractions add up. One estimate says around half a billion dollars a year in the U.S.",
+   "kind": "stack",
+   "title": "TINY FRACTIONS, *BIG MONEY*",
+   "value": 0.5,
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B/yr",
+   "label": "Estimate · Marketplace",
+   "source": "Marketplace, 2018",
+   "bg": "waves"
+  },
+  {
+   "t": "Iowa actually banned it in nineteen eighty-five… and brought it back four years later.",
+   "kind": "timeline",
+   "title": "IOWA *TRIED*",
+   "items": [
+    {
+     "label": "1985",
+     "display": "banned"
+    },
+    {
+     "label": "1989",
+     "display": "repealed"
+    }
+   ],
+   "bg": "stripes"
+  },
+  {
+   "t": "Did you ever notice the nine tenths? Follow for more price tricks.",
+   "kind": "outro",
+   "title": "NOW YOU'LL *SEE IT*",
+   "bg": "neon"
+  }
+ ]
+}

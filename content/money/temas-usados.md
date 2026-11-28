@@ -10,11 +10,12 @@
 ## Shorts
 - $9.99 charm pricing · decoy effect (Economist/Ariely) · fake Black Friday deals (Which?)
 - Rule of 72 · Powerball 560,000 years · 4 casino mind tricks · minimum payment trap · invest at 20 vs 30 · Monte Carlo 1913
+- 29-nov: Costco $1.50 hot dog (loss leader) · gas prices 9/10 of a cent · shrinkflation (Gatorade 32→28 oz, Toblerone)
 
 ## Ideas pendientes
 Largos: how billionaires pay less tax (buy-borrow-die, con fuentes) · why everything got so expensive (inflation, shrinkflation
 con datos BLS) · how subscriptions trap you · the psychology of supermarkets · how banks create money · why houses are so
 expensive · how much $100 was worth in 1980 vs today · the most expensive financial mistakes in history · lottery winners who went broke
 (solo casos documentados) · how airlines price tickets.
-Shorts: latte factor myth · $1 a day for 40 years · inflation calculator · shrinkflation examples · subscription traps ·
-why gas prices end in 9/10 · the 50/30/20 rule · emergency fund · credit score myths · tipping culture data.
+Shorts: latte factor myth · $1 a day for 40 years · inflation calculator · subscription traps ·
+the 50/30/20 rule · emergency fund · credit score myths · tipping culture data.

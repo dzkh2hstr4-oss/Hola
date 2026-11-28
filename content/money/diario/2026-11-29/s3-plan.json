@@ -1,0 +1,108 @@
+{
+ "vertical": true,
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "pitch": "+0Hz",
+ "mic": true,
+ "brand": "MONEY DECODED",
+ "split": 3.0,
+ "music": "track:lord_of_the_land@0",
+ "lines": [
+  {
+   "t": "Your Gatorade got smaller. Same price. And you probably didn't notice.",
+   "kind": "hook",
+   "title": "IT *SHRANK*",
+   "icon": "🧃",
+   "bg": "rays",
+   "beats": [
+    {
+     "kind": "hook",
+     "title": "IT *SHRANK*",
+     "icon": "🧃"
+    },
+    {
+     "kind": "compare",
+     "title": "SAME *PRICE*",
+     "items": [
+      {
+       "label": "Old bottle · 32 oz",
+       "tag": "good"
+      },
+      {
+       "label": "New bottle · 28 oz",
+       "tag": "bad"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "Gatorade swapped its thirty-two ounce bottle for twenty-eight ounces. That's twelve and a half percent less drink.",
+   "kind": "pie",
+   "title": "LESS *DRINK*",
+   "value": 12.5,
+   "decimals": 1,
+   "label": "less per bottle",
+   "source": "NPR, 2022",
+   "bg": "grid"
+  },
+  {
+   "t": "Which means you pay about fourteen percent more per ounce. Without the price tag changing at all.",
+   "kind": "stat",
+   "value": 14,
+   "suffix": "%",
+   "label": "More per ounce",
+   "title": "HIDDEN *PRICE HIKE*",
+   "bg": "blueprint"
+  },
+  {
+   "t": "It's called shrinkflation. Toblerone did it too. In twenty sixteen, the UK four-hundred-gram bar became three hundred sixty… by making bigger gaps between the triangles.",
+   "kind": "bars",
+   "title": "TOBLERONE *UK 2016*",
+   "items": [
+    {
+     "label": "Before",
+     "value": 400,
+     "display": "400 g"
+    },
+    {
+     "label": "After",
+     "value": 360,
+     "display": "360 g"
+    }
+   ],
+   "pick": 1,
+   "bg": "blueprint"
+  },
+  {
+   "t": "Why do companies do it? Because we notice a higher price. But we almost never check the weight.",
+   "kind": "big",
+   "title": "DO YOU *CHECK?*",
+   "bg": "dots",
+   "icon": "⚖️"
+  },
+  {
+   "t": "The fix: look at the unit price on the shelf tag. Price per ounce never lies.",
+   "kind": "list",
+   "title": "THE *FIX*",
+   "items": [
+    {
+     "label": "Check the unit price"
+    },
+    {
+     "label": "Compare per ounce / per 100 g"
+    },
+    {
+     "label": "Not the sticker price"
+    }
+   ],
+   "bg": "stripes"
+  },
+  {
+   "t": "What shrank on you? Tell me in the comments. Follow for more.",
+   "kind": "outro",
+   "title": "WHAT *SHRANK?*",
+   "bg": "rays"
+  }
+ ]
+}

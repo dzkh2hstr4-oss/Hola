@@ -1,0 +1,279 @@
+{
+ "vertical": true,
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "IT *SHRANK*",
+   "icon": "🧃",
+   "bg": "rays",
+   "s": 0.0,
+   "e": 2.17
+  },
+  {
+   "kind": "compare",
+   "title": "SAME *PRICE*",
+   "items": [
+    {
+     "label": "Old bottle · 32 oz",
+     "tag": "good"
+    },
+    {
+     "label": "New bottle · 28 oz",
+     "tag": "bad"
+    }
+   ],
+   "bg": "rays",
+   "s": 2.17,
+   "e": 4.35
+  },
+  {
+   "kind": "pie",
+   "title": "LESS *DRINK*",
+   "value": 12.5,
+   "decimals": 1,
+   "label": "less per bottle",
+   "source": "NPR, 2022",
+   "bg": "grid",
+   "s": 4.35,
+   "e": 7.15
+  },
+  {
+   "kind": "pie",
+   "title": "LESS *DRINK*",
+   "value": 12.5,
+   "decimals": 1,
+   "label": "less per bottle",
+   "source": "NPR, 2022",
+   "bg": "grid",
+   "s": 7.15,
+   "e": 9.95,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "stat",
+   "value": 14,
+   "suffix": "%",
+   "label": "More per ounce",
+   "title": "HIDDEN *PRICE HIKE*",
+   "bg": "blueprint",
+   "s": 9.95,
+   "e": 12.34
+  },
+  {
+   "kind": "stat",
+   "value": 14,
+   "suffix": "%",
+   "label": "More per ounce",
+   "title": "HIDDEN *PRICE HIKE*",
+   "bg": "blueprint",
+   "s": 12.34,
+   "e": 14.74,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "bars",
+   "title": "TOBLERONE *UK 2016*",
+   "items": [
+    {
+     "label": "Before",
+     "value": 400,
+     "display": "400 g"
+    },
+    {
+     "label": "After",
+     "value": 360,
+     "display": "360 g"
+    }
+   ],
+   "pick": 1,
+   "bg": "blueprint",
+   "s": 14.74,
+   "e": 17.98
+  },
+  {
+   "kind": "bars",
+   "title": "TOBLERONE *UK 2016*",
+   "items": [
+    {
+     "label": "Before",
+     "value": 400,
+     "display": "400 g"
+    },
+    {
+     "label": "After",
+     "value": 360,
+     "display": "360 g"
+    }
+   ],
+   "pick": 1,
+   "bg": "blueprint",
+   "s": 17.98,
+   "e": 21.23,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "bars",
+   "title": "TOBLERONE *UK 2016*",
+   "items": [
+    {
+     "label": "Before",
+     "value": 400,
+     "display": "400 g"
+    },
+    {
+     "label": "After",
+     "value": 360,
+     "display": "360 g"
+    }
+   ],
+   "pick": 1,
+   "bg": "blueprint",
+   "s": 21.23,
+   "e": 24.47,
+   "cont": 2,
+   "sfx": [
+    {
+     "f": "wyr/sfx/zap.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "big",
+   "title": "DO YOU *CHECK?*",
+   "bg": "dots",
+   "icon": "⚖️",
+   "s": 24.47,
+   "e": 26.93
+  },
+  {
+   "kind": "big",
+   "title": "DO YOU *CHECK?*",
+   "bg": "dots",
+   "icon": "⚖️",
+   "s": 26.93,
+   "e": 29.39,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "list",
+   "title": "THE *FIX*",
+   "items": [
+    {
+     "label": "Check the unit price"
+    },
+    {
+     "label": "Compare per ounce / per 100 g"
+    },
+    {
+     "label": "Not the sticker price"
+    }
+   ],
+   "bg": "stripes",
+   "s": 29.39,
+   "e": 31.66
+  },
+  {
+   "kind": "list",
+   "title": "THE *FIX*",
+   "items": [
+    {
+     "label": "Check the unit price"
+    },
+    {
+     "label": "Compare per ounce / per 100 g"
+    },
+    {
+     "label": "Not the sticker price"
+    }
+   ],
+   "bg": "stripes",
+   "s": 31.66,
+   "e": 33.94,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "outro",
+   "title": "WHAT *SHRANK?*",
+   "bg": "rays",
+   "s": 33.94,
+   "e": 38.06
+  }
+ ],
+ "captions": [
+  {
+   "t": "Your Gatorade got smaller. Same price. And you probably didn't notice.",
+   "s": 0.05,
+   "e": 4.2
+  },
+  {
+   "t": "Gatorade swapped its thirty-two ounce bottle for twenty-eight ounces. That's twelve and a half percent less drink.",
+   "s": 4.4,
+   "e": 9.8
+  },
+  {
+   "t": "Which means you pay about fourteen percent more per ounce. Without the price tag changing at all.",
+   "s": 10.0,
+   "e": 14.59
+  },
+  {
+   "t": "It's called shrinkflation. Toblerone did it too. In twenty sixteen, the UK four-hundred-gram bar became three hundred sixty… by making bigger gaps between the triangles.",
+   "s": 14.79,
+   "e": 24.32
+  },
+  {
+   "t": "Why do companies do it? Because we notice a higher price. But we almost never check the weight.",
+   "s": 24.52,
+   "e": 29.24
+  },
+  {
+   "t": "The fix: look at the unit price on the shelf tag. Price per ounce never lies.",
+   "s": 29.44,
+   "e": 33.79
+  },
+  {
+   "t": "What shrank on you? Tell me in the comments. Follow for more.",
+   "s": 33.99,
+   "e": 37.31
+  }
+ ],
+ "voice": "money/audio/m-2026-11-29-s3-voz.wav",
+ "total": 38.06,
+ "brand": "MONEY DECODED"
+}

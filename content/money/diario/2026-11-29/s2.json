@@ -1,0 +1,299 @@
+{
+ "vertical": true,
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "$3.99 *⁹⁄₁₀*",
+   "icon": "⛽",
+   "bg": "neon",
+   "s": 0.0,
+   "e": 2.31
+  },
+  {
+   "kind": "prices",
+   "items": [
+    {
+     "label": "What you see",
+     "price": "$3.99"
+    },
+    {
+     "label": "What you pay",
+     "price": "$3.999"
+    }
+   ],
+   "pick": 1,
+   "bg": "neon",
+   "s": 2.31,
+   "e": 4.63
+  },
+  {
+   "kind": "timeline",
+   "title": "THE *1930s*",
+   "items": [
+    {
+     "label": "1930",
+     "display": "≈20¢"
+    },
+    {
+     "label": "Depression",
+     "display": "<10¢ in places"
+    },
+    {
+     "label": "Today",
+     "display": "$3+"
+    }
+   ],
+   "bg": "waves",
+   "source": "NACS · convenience.org",
+   "s": 4.63,
+   "e": 7.18
+  },
+  {
+   "kind": "timeline",
+   "title": "THE *1930s*",
+   "items": [
+    {
+     "label": "1930",
+     "display": "≈20¢"
+    },
+    {
+     "label": "Depression",
+     "display": "<10¢ in places"
+    },
+    {
+     "label": "Today",
+     "display": "$3+"
+    }
+   ],
+   "bg": "waves",
+   "source": "NACS · convenience.org",
+   "s": 7.18,
+   "e": 9.73,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "pie",
+   "title": "ONE PENNY = *10%*",
+   "value": 10,
+   "decimals": 0,
+   "label": "of a 10¢ gallon",
+   "bg": "grid",
+   "s": 9.73,
+   "e": 12.61
+  },
+  {
+   "kind": "pie",
+   "title": "ONE PENNY = *10%*",
+   "value": 10,
+   "decimals": 0,
+   "label": "of a 10¢ gallon",
+   "bg": "grid",
+   "s": 12.61,
+   "e": 15.48,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "big",
+   "title": "LEFT-DIGIT *BIAS*",
+   "icon": "🧠",
+   "bg": "dots",
+   "s": 15.48,
+   "e": 17.41
+  },
+  {
+   "kind": "big",
+   "title": "LEFT-DIGIT *BIAS*",
+   "icon": "🧠",
+   "bg": "dots",
+   "s": 17.41,
+   "e": 19.33,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "compare",
+   "title": "WHAT YOU *FEEL*",
+   "items": [
+    {
+     "label": "$3.99⁹ → \"three-something\"",
+     "tag": "good"
+    },
+    {
+     "label": "$4.00 → \"four dollars\"",
+     "tag": "bad"
+    }
+   ],
+   "bg": "dots",
+   "s": 19.33,
+   "e": 21.26
+  },
+  {
+   "kind": "compare",
+   "title": "WHAT YOU *FEEL*",
+   "items": [
+    {
+     "label": "$3.99⁹ → \"three-something\"",
+     "tag": "good"
+    },
+    {
+     "label": "$4.00 → \"four dollars\"",
+     "tag": "bad"
+    }
+   ],
+   "bg": "dots",
+   "s": 21.26,
+   "e": 23.19,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "stack",
+   "title": "TINY FRACTIONS, *BIG MONEY*",
+   "value": 0.5,
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B/yr",
+   "label": "Estimate · Marketplace",
+   "source": "Marketplace, 2018",
+   "bg": "waves",
+   "s": 23.19,
+   "e": 25.75
+  },
+  {
+   "kind": "stack",
+   "title": "TINY FRACTIONS, *BIG MONEY*",
+   "value": 0.5,
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B/yr",
+   "label": "Estimate · Marketplace",
+   "source": "Marketplace, 2018",
+   "bg": "waves",
+   "s": 25.75,
+   "e": 28.31,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "timeline",
+   "title": "IOWA *TRIED*",
+   "items": [
+    {
+     "label": "1985",
+     "display": "banned"
+    },
+    {
+     "label": "1989",
+     "display": "repealed"
+    }
+   ],
+   "bg": "stripes",
+   "s": 28.31,
+   "e": 30.45
+  },
+  {
+   "kind": "timeline",
+   "title": "IOWA *TRIED*",
+   "items": [
+    {
+     "label": "1985",
+     "display": "banned"
+    },
+    {
+     "label": "1989",
+     "display": "repealed"
+    }
+   ],
+   "bg": "stripes",
+   "s": 30.45,
+   "e": 32.58,
+   "cont": 1,
+   "sfx": [
+    {
+     "f": "wyr/sfx/whoosh.wav",
+     "at": 0,
+     "v": 0.24
+    }
+   ]
+  },
+  {
+   "kind": "outro",
+   "title": "NOW YOU'LL *SEE IT*",
+   "bg": "neon",
+   "s": 32.58,
+   "e": 36.62
+  }
+ ],
+ "captions": [
+  {
+   "t": "Why does gas cost three ninety-nine and nine tenths? Who pays nine tenths of a cent?",
+   "s": 0.05,
+   "e": 4.48
+  },
+  {
+   "t": "It started in the Great Depression. Gas was so cheap, some places charged under ten cents a gallon.",
+   "s": 4.68,
+   "e": 9.58
+  },
+  {
+   "t": "At ten cents, raising the price by one full penny was a ten percent jump. So stations used fractions.",
+   "s": 9.78,
+   "e": 15.33
+  },
+  {
+   "t": "Gas got expensive. The fraction never left. Because your brain reads three ninety-nine, not four dollars. It's called left-digit bias.",
+   "s": 15.53,
+   "e": 23.04
+  },
+  {
+   "t": "And those tiny fractions add up. One estimate says around half a billion dollars a year in the U.S.",
+   "s": 23.24,
+   "e": 28.16
+  },
+  {
+   "t": "Iowa actually banned it in nineteen eighty-five… and brought it back four years later.",
+   "s": 28.36,
+   "e": 32.43
+  },
+  {
+   "t": "Did you ever notice the nine tenths? Follow for more price tricks.",
+   "s": 32.63,
+   "e": 35.87
+  }
+ ],
+ "voice": "money/audio/m-2026-11-29-s2-voz.wav",
+ "total": 36.62,
+ "brand": "MONEY DECODED"
+}
