@@ -34,6 +34,11 @@
 | 27-nov-2026 | Dre'Quan Priest (sello musical) | Controla la música de Vice City | img drequan_priest_* |
 | 27-nov-2026 | Momento incómodo en el ascensor | Ese momento incómodo | d_ascensor2 |
 | 27-nov-2026 | Escenas más locas | Las más locas en 30 s | d_final |
+| 28-nov-2026 | Boobie Ike (imperio: inmobiliaria, club, estudio) | Si quieres mandar en Vice City… | img boobie_ike_* |
+| 28-nov-2026 | Domingo en Vice City (POV) | POV: es domingo | a_kayak, a_patinete, a_selfie, a_jetski, a_playa |
+| 28-nov-2026 | El hombre del jet privado | ¿Quién es? | d_jet |
+| 28-nov-2026 | Brian Heder (casa gratis a cambio de cobros) | Casa gratis… con trampa | img brian_heder_* |
+| 28-nov-2026 | Cal Hampton (cervezas, Guardia Costera) | Todos tenemos un amigo así | img cal_hampton_01, leonida_keys_07 |
 
 ## Vídeos largos
 | Fecha | Tema | Formato |
@@ -44,6 +49,7 @@
 | nov 2026 | ¿Quién traicionará a Jason y Lucía? | detective |
 | nov 2026 | 25 cosas que no sabías (Florida real, Florida Man, récords, filtración 2022) | lista / news |
 | 26-nov-2026 | Todos los golpes (tienda, joyería, discoteca, furgón, huida, ranking) | ranking / análisis |
+| 28-nov-2026 | ¿Cuánto cuesta vivir como en GTA 6 en la vida real? (casa, Testarossa, lancha Cigarette, jet, mesa VIP, total $731.000) | cálculo / precios reales |
 | 24-nov-2026 | La historia de Vice City: 1997 → 2002 (Tommy, Lance) → VCS 2006 → GTA 6, 5 diferencias | documental cronológico |
 
 ## Ideas pendientes (tachar al usar)
